@@ -37210,7 +37210,7 @@
        "position": {
         "dimension": "minecraft:overworld",
         "x": -2858.0,
-        "xRot": 0.0,
+        "xRot": -40.0,
         "y": -5.8,
         "yRot": -353.8738,
         "z": 52.0
@@ -37284,7 +37284,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147373041,
+          "Duration": 2147372192,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -37310,24 +37310,24 @@
         ],
         "Attributes": [
          {
-          "Base": 1.0216,
-          "Name": "minecraft:generic.flying_speed"
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 220.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
-         },
-         {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
+          "Base": 1.0216,
+          "Name": "minecraft:generic.flying_speed"
          },
          {
           "Base": 0.1777,
           "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 8.8,
@@ -37342,12 +37342,12 @@
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 1.0,
-          "Name": "forge:swim_speed"
-         },
-         {
           "Base": 0.24,
           "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 1.0,
+          "Name": "forge:swim_speed"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -37370,7 +37370,7 @@
         "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1293103,
+        "CompanionRescueStoredAt": 1299317,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -37532,7 +37532,7 @@
         ],
         "Rotation": [
          -353.8738,
-         0.0
+         -40.0
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
