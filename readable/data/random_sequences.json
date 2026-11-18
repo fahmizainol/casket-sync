@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -8022528745880727789,
-    -4406148694476993159
+    7798275290907572080,
+    781908101091483894
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    6344574073632477539,
-    -6217537473697269264
+    -2852077752199371150,
+    2965521812221812635
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -372428043535748778,
-    -206286325413652774
+    2657316462772008859,
+    1003221163307780144
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    5636884873215304258,
-    -2883312820107112757
+    -7913391596258669854,
+    136031031141773260
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    60891525714608958,
-    -3995891509160013439
+    8745160949111939802,
+    -7042138376217594691
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -279,8 +279,8 @@
   },
   "biomeswevegone:blocks/wood_blewit": {
    "source": [
-    6302140285410443673,
-    -2325045100072991537
+    -1452077577766210190,
+    4587195312355413386
    ]
   },
   "biomeswevegone:blocks/yellow_daffodil": {
@@ -301,10 +301,16 @@
     4101332976978339197
    ]
   },
+  "minecraft:blocks/amethyst_block": {
+   "source": [
+    1439573828209934453,
+    5802000788041853047
+   ]
+  },
   "minecraft:blocks/amethyst_cluster": {
    "source": [
-    -3325804750419723828,
-    -6783580565217015813
+    -1271675853804858918,
+    7287499369733376281
    ]
   },
   "minecraft:blocks/ancient_debris": {
@@ -457,10 +463,16 @@
     -3884323058202426672
    ]
   },
+  "minecraft:blocks/budding_amethyst": {
+   "source": [
+    -2873964417574172956,
+    631804405052663219
+   ]
+  },
   "minecraft:blocks/calcite": {
    "source": [
-    4724780469328636759,
-    1466902751749017008
+    3716586062278996270,
+    -2850990396326870386
    ]
   },
   "minecraft:blocks/cave_vines": {
@@ -615,8 +627,8 @@
   },
   "minecraft:blocks/deepslate": {
    "source": [
-    1133457635774585989,
-    5251138157709641164
+    8608534329400870164,
+    3020150318220415547
    ]
   },
   "minecraft:blocks/deepslate_bricks": {
@@ -633,8 +645,8 @@
   },
   "minecraft:blocks/deepslate_diamond_ore": {
    "source": [
-    -6235438157622674383,
-    6605296363371483382
+    -8444798608009282768,
+    4058098185312001984
    ]
   },
   "minecraft:blocks/deepslate_lapis_ore": {
@@ -699,8 +711,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    2667462044534567797,
-    6791648463586765050
+    -1574409818441927420,
+    -2870043959371839783
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -867,8 +879,8 @@
   },
   "minecraft:blocks/large_amethyst_bud": {
    "source": [
-    6598520372106019996,
-    6699647685730675833
+    -6475428133054798344,
+    4083364695446566036
    ]
   },
   "minecraft:blocks/large_fern": {
@@ -897,8 +909,8 @@
   },
   "minecraft:blocks/medium_amethyst_bud": {
    "source": [
-    -4396662315757310540,
-    6998038570018789282
+    6687507997259973440,
+    -8740381525410904597
    ]
   },
   "minecraft:blocks/melon": {
@@ -1275,8 +1287,8 @@
   },
   "minecraft:blocks/small_amethyst_bud": {
    "source": [
-    7920040198371320275,
-    -8094253661212068685
+    1658996362492139545,
+    8138850420704685275
    ]
   },
   "minecraft:blocks/small_dripleaf": {
@@ -1293,8 +1305,8 @@
   },
   "minecraft:blocks/smooth_basalt": {
    "source": [
-    3117401149266230205,
-    8417093508621948321
+    -3821090966569428104,
+    6954357301058247991
    ]
   },
   "minecraft:blocks/smooth_stone": {
@@ -1593,8 +1605,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    -467885081426322487,
-    4615878475556568093
+    2443342150320369505,
+    2165896724973850653
    ]
   },
   "minecraft:entities/blaze": {
@@ -1611,8 +1623,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    -3583324203289658477,
-    -5998689876179459287
+    -5771993696884576747,
+    -937237968507093645
    ]
   },
   "minecraft:entities/chicken": {
@@ -1731,8 +1743,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -6859060348894290321,
-    -420706277485546974
+    -1171671005976908353,
+    -156753132810118658
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1767,8 +1779,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    5469443166605253932,
-    7231880877785426780
+    5443998912705964411,
+    -8853261726392443751
    ]
   },
   "minecraft:entities/slime": {
@@ -1779,14 +1791,14 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    738605507653597327,
-    5323063251825516462
+    -5106790370324535867,
+    -2157490424632332855
    ]
   },
   "minecraft:entities/squid": {
    "source": [
-    -8665621609524260028,
-    -7685202014676753897
+    -4021723772996861382,
+    4592007534572727646
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -1809,8 +1821,8 @@
   },
   "minecraft:entities/witch": {
    "source": [
-    9103290356313807140,
-    -1772726682136750250
+    6138135777808596275,
+    749918411731255686
    ]
   },
   "minecraft:entities/wither_skeleton": {
@@ -1827,8 +1839,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    4050280643171079961,
-    408741098931233273
+    -2625549157207148917,
+    -5201549724209806481
    ]
   },
   "minecraft:entities/zombie_villager": {
