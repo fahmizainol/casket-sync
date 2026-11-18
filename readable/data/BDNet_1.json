@@ -39,6 +39,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:fossil_shark_tooth"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -197,6 +206,15 @@
      "key": {
       "stack": {
        "item": "tcrcore:core_flint"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:ancient_debris"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -796,7 +814,7 @@
      }
     },
     {
-     "amount": 191,
+     "amount": 192,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -931,7 +949,7 @@
      }
     },
     {
-     "amount": 1941,
+     "amount": 3029,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -1220,7 +1238,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:golden_leggings",
@@ -2244,6 +2262,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:brigandine_chestplate",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -2741,7 +2771,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "minecraft:gravel"
@@ -3047,7 +3077,7 @@
      }
     },
     {
-     "amount": 96,
+     "amount": 98,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -3077,7 +3107,7 @@
      }
     },
     {
-     "amount": 9,
+     "amount": 44,
      "key": {
       "stack": {
        "item": "minecraft:quartz"
@@ -3174,6 +3204,15 @@
      "key": {
       "stack": {
        "item": "minecraft:spruce_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "minecraft:nether_gold_ore"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3518,7 +3557,7 @@
      }
     },
     {
-     "amount": 12,
+     "amount": 14,
      "key": {
       "stack": {
        "item": "minecraft:blackstone"
@@ -4196,7 +4235,7 @@
      }
     },
     {
-     "amount": 48,
+     "amount": 105,
      "key": {
       "stack": {
        "item": "minecraft:gold_nugget"

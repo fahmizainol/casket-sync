@@ -127,7 +127,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "minecraft:the_nether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -3851,12 +3851,12 @@
    "lastKnownPositions": [
     {
      "position": {
-      "dimension": "minecraft:the_nether",
-      "x": -555.5419,
-      "xRot": 40.0,
-      "y": 31.8675,
-      "yRot": 287.4549,
-      "z": -318.5432
+      "dimension": "minecraft:overworld",
+      "x": 283.8933,
+      "xRot": -13.4302,
+      "y": 63.0,
+      "yRot": -111.8939,
+      "z": -2119.5485
      },
      "uuid": [
       -316269812,
@@ -3880,7 +3880,7 @@
     }
    ],
    "mountIndex": 0,
-   "mountReadyAt": 1138964,
+   "mountReadyAt": 1157077,
    "mountWheelSlots": [],
    "mounts": [
     {
@@ -3896,12 +3896,12 @@
    "origins": [
     {
      "position": {
-      "dimension": "minecraft:the_nether",
-      "x": 37.5,
-      "xRot": 0.5549,
-      "y": 64.0,
-      "yRot": -169.3846,
-      "z": -193.5
+      "dimension": "minecraft:overworld",
+      "x": 174.5,
+      "xRot": 8.3047,
+      "y": 81.0,
+      "yRot": -97.3444,
+      "z": -701.5
      },
      "uuid": [
       -316269812,
@@ -3927,7 +3927,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147431678,
+        "Duration": 2147430492,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -3953,24 +3953,24 @@
       ],
       "Attributes": [
        {
-        "Base": 0.08,
-        "Name": "forge:entity_gravity"
+        "Base": 1.3696,
+        "Name": "minecraft:generic.flying_speed"
        },
        {
         "Base": 140.0,
         "Name": "minecraft:generic.max_health"
        },
        {
-        "Base": 1.3696,
-        "Name": "minecraft:generic.flying_speed"
-       },
-       {
-        "Base": 0.2212,
-        "Name": "minecraft:generic.movement_speed"
+        "Base": 0.08,
+        "Name": "forge:entity_gravity"
        },
        {
         "Base": 0.0,
         "Name": "forge:step_height_addition"
+       },
+       {
+        "Base": 0.2212,
+        "Name": "minecraft:generic.movement_speed"
        },
        {
         "Base": 10.752,
@@ -3985,12 +3985,12 @@
         "Name": "minecraft:generic.armor"
        },
        {
-        "Base": 0.3376,
-        "Name": "minecraft:generic.knockback_resistance"
-       },
-       {
         "Base": 1.0,
         "Name": "forge:swim_speed"
+       },
+       {
+        "Base": 0.3376,
+        "Name": "minecraft:generic.knockback_resistance"
        }
       ],
       "AwaitingTamingRitual": 0,
@@ -4009,7 +4009,7 @@
       "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 1141335,
+      "CompanionRescueStoredAt": 1158203,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4212,7 +4212,7 @@
       "IsFreeLooking": 0,
       "IsFromTamedParents": 0,
       "IsGoingDown": 0,
-      "IsOnSolidGround": 0,
+      "IsOnSolidGround": 1,
       "IsRoaring": 0,
       "IsSitting": 0,
       "LayerMood": 2,
@@ -4226,7 +4226,7 @@
       "OAH_CurrentFuel": 0,
       "OAH_FullRechargeCooldown": 0,
       "OAH_PendingScale": 0.0,
-      "OnGround": 0,
+      "OnGround": 1,
       "OrderedToSit": 0,
       "Owner": [
        936377957,
@@ -4234,25 +4234,25 @@
        -1240290358,
        1398408445
       ],
-      "PH_SmoothedEntityPitch": -0.0,
-      "PH_SmoothedMovementYaw": 2086.2939,
-      "PH_UnwrappedMovementYaw": 2086.2939,
+      "PH_SmoothedEntityPitch": 0.0,
+      "PH_SmoothedMovementYaw": 2048.1061,
+      "PH_UnwrappedMovementYaw": 2048.1061,
       "PH_UnwrappedRoll": 0.0,
-      "PH_UnwrappedYaw": 3167.4549,
+      "PH_UnwrappedYaw": 3128.1061,
       "PersistenceRequired": 1,
       "Personality": 0,
       "PortalCooldown": 0,
       "Pos": [
-       -555.5419,
-       31.8675,
-       -318.5432
+       283.8933,
+       63.0,
+       -2119.5485
       ],
       "RoostX": 210,
       "RoostY": 73,
       "RoostZ": -673,
       "Rotation": [
-       287.4549,
-       40.0
+       -111.8939,
+       -13.4302
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "lightning_strike",
@@ -4277,8 +4277,8 @@
       "UseGroundNav": 1,
       "Variant": 0,
       "dragonNeeds": {
-       "exhaustionLevel": 3.4298,
-       "foodLevel": 25,
+       "exhaustionLevel": 0.6454,
+       "foodLevel": 21,
        "saturationLevel": 0.0,
        "tickTimer": 0
       },
@@ -4311,10 +4311,10 @@
    "uniqueaccessories:sun_stone": 1,
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1153853,
+  "ua_rs_active_until": 1158995,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1146217
+  "ua_tabi_last_dash": 1160938
  },
  "Health": 27.184,
  "HurtByTimestamp": 0,
@@ -4413,24 +4413,24 @@
    "id": "minecraft:gold_nugget"
   },
   {
-   "Count": 1,
+   "Count": 64,
    "Slot": 10,
-   "id": "minecraft:red_nether_brick_slab"
+   "id": "minecraft:netherrack"
   },
   {
-   "Count": 4,
+   "Count": 2,
    "Slot": 11,
-   "id": "bosses_of_mass_destruction:soul_star"
+   "id": "minecraft:basalt"
   },
   {
-   "Count": 1,
+   "Count": 64,
    "Slot": 12,
-   "id": "uniqueaccessories:large_paddle"
+   "id": "minecraft:netherrack"
   },
   {
-   "Count": 3,
+   "Count": 64,
    "Slot": 13,
-   "id": "minecraft:arrow"
+   "id": "minecraft:netherrack"
   },
   {
    "Count": 1,
@@ -4441,57 +4441,24 @@
    }
   },
   {
-   "Count": 13,
-   "Slot": 15,
-   "id": "minecraft:bone"
-  },
-  {
-   "Count": 3,
-   "Slot": 16,
-   "id": "minecraft:coal"
-  },
-  {
    "Count": 64,
-   "Slot": 17,
+   "Slot": 15,
    "id": "minecraft:netherrack"
   },
   {
-   "Count": 1,
+   "Count": 64,
+   "Slot": 16,
+   "id": "minecraft:netherrack"
+  },
+  {
+   "Count": 2,
+   "Slot": 17,
+   "id": "minecraft:ancient_debris"
+  },
+  {
+   "Count": 43,
    "Slot": 18,
-   "id": "minecraft:red_nether_brick_stairs"
-  },
-  {
-   "Count": 1,
-   "Slot": 19,
-   "id": "artifacts:cowboy_hat"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "minecraft:golden_sword",
-   "tag": {
-    "Damage": 0
-   }
-  },
-  {
-   "Count": 2,
-   "Slot": 21,
-   "id": "minecraft:lapis_lazuli"
-  },
-  {
-   "Count": 2,
-   "Slot": 22,
-   "id": "supplementaries:bomb"
-  },
-  {
-   "Count": 1,
-   "Slot": 23,
-   "id": "supplementaries:bomb_blue"
-  },
-  {
-   "Count": 2,
-   "Slot": 24,
-   "id": "quark:smithing_template_rune"
+   "id": "minecraft:netherrack"
   },
   {
    "Count": 1,
@@ -4652,16 +4619,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  266.0862,
-  63.0,
-  -1769.2752
+  97.3778,
+  12.0,
+  -249.1428
  ],
  "Rotation": [
-  -168.3938,
-  13.1046
+  -80.7867,
+  0.6033
  ],
- "Score": 3555,
- "SelectedItemSlot": 0,
+ "Score": 3560,
+ "SelectedItemSlot": 2,
  "SleepTimer": 0,
  "SpawnAngle": 52.3473,
  "SpawnDimension": "minecraft:overworld",
@@ -4677,9 +4644,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 41,
- "XpP": 0.5261,
+ "XpP": 0.5498,
  "XpSeed": -736053570,
- "XpTotal": 3555,
+ "XpTotal": 3560,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4689,7 +4656,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.9392,
+ "foodExhaustionLevel": 0.1653,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14435,7 +14402,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6609,
+  "ticks_since_last_warning": 607,
   "warning_level": 0
  }
 }

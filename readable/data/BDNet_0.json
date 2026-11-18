@@ -21,6 +21,15 @@
    "slotMaxSize": 2147483647,
    "stacks": [
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:coal"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -110,6 +119,15 @@
          "Name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
         }
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:cowboy_hat"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -273,7 +291,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "supplementaries:bomb"
@@ -301,7 +319,7 @@
      }
     },
     {
-     "amount": 191,
+     "amount": 194,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -655,10 +673,31 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:red_nether_brick_slab"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_sword",
+       "tag": {
+        "Damage": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -834,7 +873,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "minecraft:lapis_lazuli"
@@ -976,6 +1015,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "supplementaries:bomb_blue"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "epicfight_leonidas:the_lost_helmet"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -1094,7 +1142,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "quark:smithing_template_rune"
@@ -1247,7 +1295,7 @@
      }
     },
     {
-     "amount": 192,
+     "amount": 193,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1367,6 +1415,15 @@
      }
     },
     {
+     "amount": 22,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherrack"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 52,
      "key": {
       "stack": {
@@ -1459,6 +1516,15 @@
      "key": {
       "stack": {
        "item": "minecraft:diamond"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:large_paddle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1879,7 +1945,7 @@
      }
     },
     {
-     "amount": 24,
+     "amount": 37,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -1892,6 +1958,15 @@
      "key": {
       "stack": {
        "item": "minecraft:stone_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:red_nether_brick_stairs"
       },
       "type": "beyonddimensions:stack_type/item"
      }
