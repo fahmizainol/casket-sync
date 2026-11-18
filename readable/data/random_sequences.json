@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -4766604664467849475,
-    -4848705064010285101
+    -8022528745880727789,
+    -4406148694476993159
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -5032930182887372174,
-    -3293936107597902503
+    1201476114887111351,
+    1543920078463373991
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -45056620835526490,
-    5697869837691799218
+    6344574073632477539,
+    -6217537473697269264
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -2677569956836609022,
-    -197596953278495241
+    -372428043535748778,
+    -206286325413652774
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -6424469588793195731,
-    -8302073157848881145
+    5636884873215304258,
+    -2883312820107112757
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -6320609006930270383,
-    7712271409358143809
+    60891525714608958,
+    -3995891509160013439
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1083,8 +1083,8 @@
   },
   "minecraft:blocks/polished_blackstone_bricks": {
    "source": [
-    8365134110471613186,
-    7696511692623634865
+    -8673848503098786184,
+    -3428598248906875224
    ]
   },
   "minecraft:blocks/polished_blackstone_stairs": {
@@ -1191,8 +1191,8 @@
   },
   "minecraft:blocks/red_nether_brick_slab": {
    "source": [
-    8354345670668106475,
-    4711415005420255793
+    -4955473296100041433,
+    4564297125842201982
    ]
   },
   "minecraft:blocks/red_nether_brick_stairs": {
@@ -1713,8 +1713,14 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    8102149250058701350,
-    3311027120997874640
+    285675407760108643,
+    -3200883789760343258
+   ]
+  },
+  "minecraft:entities/piglin_brute": {
+   "source": [
+    5040719849155121301,
+    -4508007158883743289
    ]
   },
   "minecraft:entities/pillager": {
