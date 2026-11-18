@@ -3,10 +3,6 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
-  },
-  {
    "Base": 0.08,
    "Name": "forge:entity_gravity"
   },
@@ -25,10 +21,6 @@
   {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -123,7 +115,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:the_nether",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1256,7 +1248,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1382,6 +1374,7 @@
     "WaystonesData": {
      "WarpStoneCooldownUntilUnix": 1794846400431,
      "Waystones": [
+      "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
       "4b7ff26e-e510-41d2-8001-3000c1ab11b3",
       "6d79a5f6-dfa8-4e20-ab8b-b6542ad7b861",
@@ -1393,7 +1386,7 @@
       "c107f2e2-b4a2-44b3-b4c3-4ca7b8ff67e8",
       "a0fc0768-2377-4ed4-aa6f-7b92b5eba3e6",
       "0256dc69-77ab-4087-810e-959cd0ee6941",
-      "03253d99-8b2a-4010-9c6e-d577fc1b2eb9"
+      "0ba885f1-e34d-4be0-99c9-592982a96904"
      ]
     }
    }
@@ -3973,10 +3966,10 @@
       "CompanionPreviewHeight": 2.6,
       "CompanionPreviewWidth": 1.9,
       "CompanionRescueArmor": 8,
-      "CompanionRescueHealth": 84.5045,
+      "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 1094306,
+      "CompanionRescueStoredAt": 1101454,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4160,7 +4153,7 @@
       ],
       "HasClearAirspace": 1,
       "HasConsumedFood": 0,
-      "Health": 84.5045,
+      "Health": 140.0,
       "HurtByTimestamp": 3926,
       "HurtTime": 0,
       "InLove": 0,
@@ -4271,18 +4264,15 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:sun_stone": 1,
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1101247,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1096957
+  "ua_rs_continuous": 0
  },
- "Health": 23.1082,
- "HurtByTimestamp": 12027,
+ "Health": 28.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4341,7 +4331,7 @@
    "id": "dodosmobs:chimera_claw"
   },
   {
-   "Count": 2,
+   "Count": 1,
    "Slot": 6,
    "id": "minecraft:golden_carrot"
   },
@@ -4370,7 +4360,7 @@
    "id": "minecraft:rotten_flesh"
   },
   {
-   "Count": 3,
+   "Count": 4,
    "Slot": 11,
    "id": "bosses_of_mass_destruction:soul_star"
   },
@@ -4396,12 +4386,12 @@
    }
   },
   {
-   "Count": 11,
+   "Count": 13,
    "Slot": 15,
    "id": "minecraft:bone"
   },
   {
-   "Count": 2,
+   "Count": 3,
    "Slot": 16,
    "id": "minecraft:coal"
   },
@@ -4594,9 +4584,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_nether",
   "pos": [
-   129,
-   35,
-   -359
+   -1822,
+   85,
+   -1781
   ]
  },
  "Motion": [
@@ -4607,18 +4597,18 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1794.4826,
-  73.0,
-  -1807.4485
+  -2881.5,
+  30.0,
+  55.5
  ],
  "Rotation": [
-  -2.3829,
-  21.2254
+  -12.33,
+  20.4732
  ],
- "Score": 3488,
+ "Score": 3496,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
- "SpawnAngle": 72.8998,
+ "SpawnAngle": 52.3473,
  "SpawnDimension": "minecraft:overworld",
  "SpawnForced": 0,
  "SpawnX": -2883,
@@ -4632,9 +4622,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 42,
- "XpP": 0.6318,
+ "XpP": 0.6682,
  "XpSeed": -1221340157,
- "XpTotal": 3488,
+ "XpTotal": 3496,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4649,7 +4639,7 @@
   "y": 63.0,
   "z": -1778.5727
  },
- "foodExhaustionLevel": 2.2391,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4660,7 +4650,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 3,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14424,7 +14414,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2710,
+  "ticks_since_last_warning": 7987,
   "warning_level": 0
  }
 }

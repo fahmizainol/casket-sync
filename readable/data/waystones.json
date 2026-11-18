@@ -448,6 +448,30 @@
    },
    {
     "BlockPos": {
+     "X": -1804,
+     "Y": 86,
+     "Z": -1773
+    },
+    "IsGlobal": 0,
+    "Name": "evning ghost",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     195593713,
+     -481473568,
+     -1714857687,
+     -2102826748
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": 80,
      "Y": 73,
      "Z": -138
