@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    7020447268923542912,
-    -5965299222348141206
+    8267324000898167455,
+    -6907809510097436638
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    4974166942675518302,
-    -7069402939952247128
+    -115937797640764766,
+    2133035925315140176
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -27,26 +27,26 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    8765917144557919388,
-    -1122769332225974660
+    -4383482438622564987,
+    1840548263777038196
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -5830534975707364790,
-    5303698166593219194
+    -6459083614191676812,
+    -8519910218335034726
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    8103780115380255434,
-    -8659827760980252127
+    -8897602405148617723,
+    963138272063065185
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    1519403044945185717,
-    -4077514570159552007
+    -8690085597174063767,
+    -3826053054188250893
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1761,8 +1761,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    7984074182607170676,
-    -4675617131191221236
+    217585285917832432,
+    -278990999265429039
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1797,8 +1797,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -4247271262799855866,
-    -2745397176537494103
+    -7809008094242076002,
+    -8449133813408002460
    ]
   },
   "minecraft:entities/slime": {
@@ -1809,8 +1809,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    -1687162261677994029,
-    -5453475472428205256
+    4885469681433263496,
+    -84570724334989590
    ]
   },
   "minecraft:entities/squid": {
@@ -1857,8 +1857,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    8309058615681438844,
-    -3858849735205130871
+    8172636526154190917,
+    6558220483897820890
    ]
   },
   "minecraft:entities/zombie_villager": {

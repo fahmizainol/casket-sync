@@ -7,7 +7,18 @@
   "inventories": [
    {
     "chest": {
-     "Items": []
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "efn:nf_dual_sword"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "efn:thornwheel"
+      }
+     ]
     },
     "name": "{\"translate\":\"container.chest\"}",
     "uuid": [

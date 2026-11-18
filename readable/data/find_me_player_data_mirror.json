@@ -36872,12 +36872,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "minecraft:the_nether",
-        "x": -44.0,
-        "xRot": -4.7202,
-        "y": 95.875,
-        "yRot": -363.4467,
-        "z": -858.1922
+        "dimension": "minecraft:overworld",
+        "x": -2858.0,
+        "xRot": -1.4349,
+        "y": -5.8,
+        "yRot": -353.8738,
+        "z": 52.0
        },
        "uuid": [
         -644884357,
@@ -36948,7 +36948,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147367946,
+          "Duration": 2147374628,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -37031,10 +37031,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 220.0,
+        "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1249434,
+        "CompanionRescueStoredAt": 1274936,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -37140,8 +37140,8 @@
         ],
         "HasClearAirspace": 0,
         "HasConsumedFood": 0,
-        "Health": 220.0,
-        "HurtByTimestamp": 4730,
+        "Health": 219.0,
+        "HurtByTimestamp": 45375,
         "HurtTime": 0,
         "InLove": 0,
         "InSittingPose": 0,
@@ -37156,10 +37156,10 @@
         "Invulnerable": 0,
         "IsAlpha": 0,
         "IsDoingAerialAttack": 0,
-        "IsFreeLooking": 1,
+        "IsFreeLooking": 0,
         "IsFromTamedParents": 0,
-        "IsGoingDown": 1,
-        "IsOnSolidGround": 1,
+        "IsGoingDown": 0,
+        "IsOnSolidGround": 0,
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
@@ -37173,7 +37173,7 @@
         "OAH_CurrentFuel": 106,
         "OAH_FullRechargeCooldown": 0,
         "OAH_PendingScale": 0.0,
-        "OnGround": 1,
+        "OnGround": 0,
         "OrderedToSit": 0,
         "Owner": [
          1096852936,
@@ -37182,21 +37182,21 @@
          -1580186985
         ],
         "PH_SmoothedEntityPitch": -0.0,
-        "PH_SmoothedMovementYaw": 9716.5533,
-        "PH_UnwrappedMovementYaw": 9716.5533,
+        "PH_SmoothedMovementYaw": 11166.1262,
+        "PH_UnwrappedMovementYaw": 11166.1262,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 10436.5533,
+        "PH_UnwrappedYaw": 12246.1262,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         -44.0,
-         95.875,
-         -858.1922
+         -2858.0,
+         -5.8,
+         52.0
         ],
         "Rotation": [
-         -363.4467,
-         -4.7202
+         -353.8738,
+         -1.4349
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
@@ -37209,8 +37209,8 @@
         "SpawnScaleTicks": 1,
         "TamingRitualCompleted": 1,
         "TamingRitualTimer": 0,
-        "ThrottleLevel": 0.0,
-        "TransportMode": 0,
+        "ThrottleLevel": 0.0026,
+        "TransportMode": 1,
         "UUID": [
          -644884357,
          -1594343222,
@@ -37218,13 +37218,13 @@
          1492697879
         ],
         "UUID_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317",
-        "UseGroundNav": 1,
+        "UseGroundNav": 0,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 1.749,
-         "foodLevel": 0,
+         "exhaustionLevel": 3.6733,
+         "foodLevel": 7,
          "saturationLevel": 0.0,
-         "tickTimer": 44
+         "tickTimer": 0
         },
         "dragonStamina": {
          "regenPauseTicks": 0
