@@ -125,7 +125,7 @@
  "DeathTime": 0,
  "Dimension": "minecraft:the_nether",
  "EnderItems": [],
- "FallDistance": 0.757,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -137,7 +137,7 @@
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 0.0
+   "SavedHealth": 28.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -4674,10 +4674,10 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1317423,
+  "ua_rs_active_until": 1317658,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1316253
+  "ua_tabi_last_dash": 1317603
  },
  "Health": 28.0,
  "HurtByTimestamp": 9206,
@@ -5017,19 +5017,19 @@
  },
  "Motion": [
   0.0,
-  -0.3739,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1820.4688,
-  85.4952,
-  -1768.5833
+  -1820.206,
+  85.0,
+  -1768.964
  ],
  "Rotation": [
-  124.9861,
-  0.0
+  4.4717,
+  57.2552
  ],
  "Score": 3788,
  "SelectedItemSlot": 0,
@@ -5040,6 +5040,9 @@
  "SpawnX": -2883,
  "SpawnY": 30,
  "SpawnZ": 56,
+ "Tags": [
+  "wom_health_fix:28.0"
+ ],
  "UUID": [
   936377957,
   1499151161,
@@ -5060,7 +5063,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.175,
+ "foodExhaustionLevel": 0.941,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14806,7 +14809,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4574,
+  "ticks_since_last_warning": 5181,
   "warning_level": 0
  }
 }

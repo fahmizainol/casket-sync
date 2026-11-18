@@ -27,14 +27,14 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -5472564319996664956,
-    -6003214593783140059
+    -1422371593995231591,
+    -7388357525633060448
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -8658141027225379513,
-    -8457246021764708109
+    8266495303331816200,
+    8346293318890344192
    ]
   },
   "artifacts:entity_equipment/zombie": {
@@ -45,8 +45,8 @@
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -6604342071866946751,
-    -8796588358445392780
+    2862495106983073890,
+    147320140874054969
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
