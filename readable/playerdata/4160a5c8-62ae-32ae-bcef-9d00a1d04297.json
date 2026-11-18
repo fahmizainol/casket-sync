@@ -4394,8 +4394,8 @@
   -1769.0068
  ],
  "Rotation": [
-  74.0267,
-  0.0
+  92.2081,
+  28.9677
  ],
  "Score": 5559,
  "SelectedItemSlot": 0,
@@ -14828,7 +14828,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2380,
+  "ticks_since_last_warning": 8380,
   "warning_level": 0
  }
 }

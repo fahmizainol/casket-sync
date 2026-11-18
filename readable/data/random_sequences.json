@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    1205048562681976028,
-    -1280875838048161731
+    6663589011766676246,
+    6141712356369120502
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -15,14 +15,14 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2470894914399295334,
-    3934162387593916983
+    8644320612503253338,
+    5691300480467333465
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -8906932555516153529,
-    8547616917891006310
+    1532560740842516488,
+    -1963889177575115850
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1503,8 +1503,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -5461770526209815707,
-    1895378947123951353
+    -3844306729939812190,
+    255190881707791794
    ]
   },
   "minecraft:entities/tropical_fish": {
