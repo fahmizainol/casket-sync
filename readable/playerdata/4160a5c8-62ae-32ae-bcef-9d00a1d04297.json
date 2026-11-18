@@ -445,7 +445,7 @@
         {
          "Count": 1,
          "Slot": 1,
-         "id": "uniqueaccessories:fossil_shark_tooth"
+         "id": "uniqueaccessories:still_beating_heart"
         },
         {
          "Count": 1,
@@ -486,7 +486,7 @@
    },
    "passive1": "dodge_parry_reward:damage_boost2",
    "passive2": "epicfight:bonebreaker",
-   "passive3": "tcrcore:fire_avoid",
+   "passive3": "dodge_parry_reward:stamina1",
    "passive4": "epicfight:berserker",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
@@ -1163,8 +1163,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 391
+   "currentDataNodeId": 389,
+   "currentLogicNodeId": 389
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -3703,7 +3703,7 @@
      "position": {
       "dimension": "minecraft:overworld",
       "x": -2858.0,
-      "xRot": -40.0,
+      "xRot": 0.0,
       "y": -5.8,
       "yRot": -353.8738,
       "z": 52.0
@@ -3777,7 +3777,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147373235,
+        "Duration": 2147373041,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -3803,24 +3803,24 @@
       ],
       "Attributes": [
        {
-        "Base": 0.08,
-        "Name": "forge:entity_gravity"
+        "Base": 1.0216,
+        "Name": "minecraft:generic.flying_speed"
        },
        {
         "Base": 220.0,
         "Name": "minecraft:generic.max_health"
        },
        {
-        "Base": 1.0216,
-        "Name": "minecraft:generic.flying_speed"
-       },
-       {
-        "Base": 0.1777,
-        "Name": "minecraft:generic.movement_speed"
+        "Base": 0.08,
+        "Name": "forge:entity_gravity"
        },
        {
         "Base": 0.0,
         "Name": "forge:step_height_addition"
+       },
+       {
+        "Base": 0.1777,
+        "Name": "minecraft:generic.movement_speed"
        },
        {
         "Base": 8.8,
@@ -3835,12 +3835,12 @@
         "Name": "minecraft:generic.armor"
        },
        {
-        "Base": 0.24,
-        "Name": "minecraft:generic.knockback_resistance"
-       },
-       {
         "Base": 1.0,
         "Name": "forge:swim_speed"
+       },
+       {
+        "Base": 0.24,
+        "Name": "minecraft:generic.knockback_resistance"
        }
       ],
       "AwaitingTamingRitual": 0,
@@ -3863,7 +3863,7 @@
       "CompanionRescueHealth": 219.0,
       "CompanionRescueMaxHealth": 220.0,
       "CompanionRescueName": "Hiddeous Zippleback",
-      "CompanionRescueStoredAt": 1286903,
+      "CompanionRescueStoredAt": 1293103,
       "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4025,7 +4025,7 @@
       ],
       "Rotation": [
        -353.8738,
-       -40.0
+       0.0
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "gas_ignite",
@@ -4080,17 +4080,20 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:ancient_chisel": 1,
    "uniqueaccessories:black_belt": 1,
+   "uniqueaccessories:fossil_shark_tooth": 1,
+   "uniqueaccessories:still_beating_heart": 1,
    "uniqueaccessories:sun_stone": 1
   },
+  "ua_rs_active_until": 1292376,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1287431,
-  "ua_shiny_last_x": -1822.2771,
+  "ua_shiny_last_active": 1293430,
+  "ua_shiny_last_x": -1821.8201,
   "ua_shiny_last_y": 85.0,
-  "ua_shiny_last_z": -1769.2764
+  "ua_shiny_last_z": -1777.0114
  },
  "Health": 28.0,
- "HurtByTimestamp": 762,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4166,13 +4169,9 @@
    }
   },
   {
-   "Count": 1,
+   "Count": 4,
    "Slot": 3,
-   "id": "waystones:warp_stone",
-   "tag": {
-    "Damage": 0,
-    "sheath": 0
-   }
+   "id": "minecraft:nether_bricks"
   },
   {
    "Count": 1,
@@ -4225,9 +4224,13 @@
    "id": "minecraft:blackstone"
   },
   {
-   "Count": 4,
+   "Count": 1,
    "Slot": 9,
-   "id": "minecraft:nether_bricks"
+   "id": "waystones:warp_stone",
+   "tag": {
+    "Damage": 0,
+    "sheath": 0
+   }
   },
   {
    "Count": 1,
@@ -4248,6 +4251,11 @@
    "Count": 1,
    "Slot": 19,
    "id": "uniqueaccessories:ancient_chisel"
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "uniqueaccessories:fossil_shark_tooth"
   },
   {
    "Count": 52,
@@ -4372,9 +4380,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_nether",
   "pos": [
-   -1829,
+   -1825,
    85,
-   -1776
+   -1771
   ]
  },
  "Motion": [
@@ -4385,13 +4393,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1822.2771,
+  -1821.824,
   85.0,
-  -1769.2764
+  -1776.9967
  ],
  "Rotation": [
-  110.2135,
-  -20.3563
+  14.8721,
+  -29.4874
  ],
  "Score": 6373,
  "SelectedItemSlot": 0,
@@ -4422,7 +4430,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.624,
+ "foodExhaustionLevel": 0.312,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4433,7 +4441,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 89,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14745,7 +14753,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4082,
+  "ticks_since_last_warning": 9937,
   "warning_level": 0
  }
 }
