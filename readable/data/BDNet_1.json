@@ -30,7 +30,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "minecraft:golden_horse_armor"
@@ -42,7 +42,24 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "uniqueaccessories:fossil_shark_tooth"
+       "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:sweeping",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 1
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -88,6 +105,15 @@
      "key": {
       "stack": {
        "item": "minecraft:magma_cream"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 16,
+     "key": {
+      "stack": {
+       "item": "minecraft:crying_obsidian"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -666,7 +692,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:leather_chestplate",
@@ -944,7 +970,7 @@
      }
     },
     {
-     "amount": 211,
+     "amount": 212,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -953,7 +979,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 1,
      "key": {
       "stack": {
        "item": "uniqueaccessories:black_belt"
@@ -1345,6 +1371,15 @@
      "key": {
       "stack": {
        "item": "minecraft:basalt"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_scrap"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1789,7 +1824,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:chainmail_boots",
@@ -2282,6 +2317,18 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:stone_sword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "magistuarmory:rustednorman_helmet",
        "tag": {
         "Damage": 0
@@ -2472,7 +2519,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:diamond_horse_armor"
@@ -2493,18 +2540,6 @@
           "lvl": 4
          }
         ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "epicfight:iron_longsword",
-       "tag": {
-        "Damage": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -3229,7 +3264,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "alexsmobs:flying_fish"
@@ -3303,6 +3338,24 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:chainmail_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:splash_potion",
        "tag": {
         "CustomPotionEffects": [
@@ -3366,6 +3419,24 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:leather_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 16,
      "key": {
       "stack": {
@@ -3393,7 +3464,7 @@
      }
     },
     {
-     "amount": 101,
+     "amount": 107,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -3457,7 +3528,7 @@
      }
     },
     {
-     "amount": 105,
+     "amount": 107,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -3641,7 +3712,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "magistuarmory:rustedchainmail_boots",
@@ -3724,7 +3795,7 @@
      }
     },
     {
-     "amount": 11,
+     "amount": 18,
      "key": {
       "stack": {
        "item": "minecraft:coal"
@@ -3989,7 +4060,7 @@
      }
     },
     {
-     "amount": 12,
+     "amount": 75,
      "key": {
       "stack": {
        "item": "minecraft:book"
@@ -4264,19 +4335,10 @@
      }
     },
     {
-     "amount": 63,
+     "amount": 72,
      "key": {
       "stack": {
        "item": "minecraft:flint"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "efn:deepdark_heart"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4422,10 +4484,41 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:cooked_porkchop"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:thorns",
+          "lvl": 2
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 4
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4539,15 +4632,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "ba_bt:core_golem_eye"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "uniqueaccessories:sun_stone"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -4581,7 +4665,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "minecraft:leather_boots",
@@ -4864,7 +4948,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:saddle"
@@ -4990,7 +5074,7 @@
      }
     },
     {
-     "amount": 49,
+     "amount": 51,
      "key": {
       "stack": {
        "item": "minecraft:gunpowder"

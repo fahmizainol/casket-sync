@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    8267324000898167455,
-    -6907809510097436638
+    -3125797371699761321,
+    -3351604550449042098
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -21,32 +21,32 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -4795997260220353719,
-    5829311008877553284
+    1990260144888043380,
+    4821605646596942214
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -4383482438622564987,
-    1840548263777038196
+    5644186048537409142,
+    -2919793542159347365
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -6459083614191676812,
-    -8519910218335034726
+    -7500990497741894695,
+    -687006424817367400
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -8897602405148617723,
-    963138272063065185
+    3133193899185935896,
+    8017616012062477173
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -8690085597174063767,
-    -3826053054188250893
+    -6320185963814557588,
+    -7766307466222851658
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -387,8 +387,14 @@
   },
   "minecraft:blocks/black_bed": {
    "source": [
-    -1810315346793803968,
-    1543999554517348040
+    -478349137777669027,
+    2894493052904722762
+   ]
+  },
+  "minecraft:blocks/black_candle": {
+   "source": [
+    -3042995951198252066,
+    -4112283494874164286
    ]
   },
   "minecraft:blocks/blackstone": {
@@ -501,8 +507,8 @@
   },
   "minecraft:blocks/chiseled_nether_bricks": {
    "source": [
-    146183736131987450,
-    6888957246636555783
+    1127366184710338017,
+    140631502476143579
    ]
   },
   "minecraft:blocks/chiseled_polished_blackstone": {
@@ -543,8 +549,8 @@
   },
   "minecraft:blocks/cracked_nether_bricks": {
    "source": [
-    8696098376554855424,
-    3359262075141067622
+    7733962485217465731,
+    4850535136246678174
    ]
   },
   "minecraft:blocks/cracked_polished_blackstone_bricks": {
@@ -973,16 +979,28 @@
     -4807963994026161428
    ]
   },
+  "minecraft:blocks/nether_brick_slab": {
+   "source": [
+    6892515600267477611,
+    -6143427232925444613
+   ]
+  },
+  "minecraft:blocks/nether_brick_stairs": {
+   "source": [
+    497921912220089175,
+    -2806196428982627532
+   ]
+  },
   "minecraft:blocks/nether_brick_wall": {
    "source": [
-    -5970988176965445714,
-    -472895572087295015
+    -9080262372887358001,
+    -7138169939391453002
    ]
   },
   "minecraft:blocks/nether_bricks": {
    "source": [
-    -922028227410159183,
-    1216218397205419252
+    -8980646857145024653,
+    8993068751235110542
    ]
   },
   "minecraft:blocks/nether_gold_ore": {
@@ -1005,8 +1023,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -7775546024646466469,
-    7340577259023957775
+    7462918955395534665,
+    -4807868546533589096
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1201,6 +1219,12 @@
     -133002080775305156
    ]
   },
+  "minecraft:blocks/red_banner": {
+   "source": [
+    -7855767360669009402,
+    5057752340510196510
+   ]
+  },
   "minecraft:blocks/red_bed": {
    "source": [
     3604095791623319661,
@@ -1233,8 +1257,8 @@
   },
   "minecraft:blocks/red_nether_bricks": {
    "source": [
-    8659028875819524939,
-    -705096949364070758
+    -5475124825269168931,
+    -7966292563063236602
    ]
   },
   "minecraft:blocks/red_tulip": {
@@ -1641,8 +1665,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    -7411177740113394205,
-    7303972411233400782
+    7114764035018633629,
+    3785247396226092890
    ]
   },
   "minecraft:entities/chicken": {
@@ -1761,8 +1785,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    217585285917832432,
-    -278990999265429039
+    6366893445713905458,
+    -4353024593167817816
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1809,8 +1833,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    4885469681433263496,
-    -84570724334989590
+    4032284680283892001,
+    -5172718071131024613
    ]
   },
   "minecraft:entities/squid": {
@@ -1857,8 +1881,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    8172636526154190917,
-    6558220483897820890
+    -2097038300271907344,
+    1018235841180824355
    ]
   },
   "minecraft:entities/zombie_villager": {
