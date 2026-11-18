@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    4177875097004974098,
-    6541913869037863027
+    -3965979487766103515,
+    6679433186021356455
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -7743918710336608314,
-    7939341523267272633
+    2231951236237759141,
+    4254498050100575779
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -6371630019384903441,
-    -6264496662030575407
+    330555761076980463,
+    -2040947344555366107
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    7068102757109423319,
-    5317834342439233193
+    7906359084712103262,
+    3357085808469249091
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    5903488657465816118,
-    1716940159938251926
+    7112908533540779419,
+    -8138443409035361004
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -8029401394246806703,
-    -7150197506043580031
+    399699047456227767,
+    -7868371992904833386
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -315,8 +315,8 @@
   },
   "minecraft:blocks/andesite": {
    "source": [
-    -5510966736843610563,
-    -5045185775792053104
+    -4017713315718644961,
+    8010763165500554661
    ]
   },
   "minecraft:blocks/azalea": {
@@ -345,8 +345,8 @@
   },
   "minecraft:blocks/basalt": {
    "source": [
-    4184276821681879291,
-    3760249482033573232
+    -6172318929116729437,
+    813322980621934679
    ]
   },
   "minecraft:blocks/big_dripleaf": {
@@ -381,8 +381,8 @@
   },
   "minecraft:blocks/blackstone": {
    "source": [
-    -4745666049920511872,
-    -2246956829678497197
+    857671829986321335,
+    -1604540051086246466
    ]
   },
   "minecraft:blocks/blackstone_stairs": {
@@ -595,6 +595,12 @@
     2663744602943574504
    ]
   },
+  "minecraft:blocks/deepslate": {
+   "source": [
+    -334945571917138102,
+    -6631112538742452098
+   ]
+  },
   "minecraft:blocks/deepslate_bricks": {
    "source": [
     8704178463953580483,
@@ -605,6 +611,12 @@
    "source": [
     1897764526144860233,
     213613722111142855
+   ]
+  },
+  "minecraft:blocks/deepslate_redstone_ore": {
+   "source": [
+    -2115500463791443515,
+    6358037655813201427
    ]
   },
   "minecraft:blocks/deepslate_tile_wall": {
@@ -705,8 +717,8 @@
   },
   "minecraft:blocks/granite": {
    "source": [
-    8532801091984325247,
-    -9067185895464849419
+    -4736893885390441775,
+    2362332463419366154
    ]
   },
   "minecraft:blocks/grass": {
@@ -723,8 +735,8 @@
   },
   "minecraft:blocks/gravel": {
    "source": [
-    7054854633723600189,
-    4921354993424240607
+    -7064451469281409611,
+    -6449903983408449323
    ]
   },
   "minecraft:blocks/gray_carpet": {
@@ -921,14 +933,14 @@
   },
   "minecraft:blocks/nether_quartz_ore": {
    "source": [
-    -2582584738179664905,
-    -2208457331556284086
+    3379989489324030380,
+    6745961268153990983
    ]
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -4881455319130311691,
-    7985863883884134420
+    -4538844609345626594,
+    -5721430164696782700
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1173,8 +1185,14 @@
   },
   "minecraft:blocks/sand": {
    "source": [
-    1091609460381591511,
-    -397993907331518218
+    1602144541398638969,
+    6199177882284166794
+   ]
+  },
+  "minecraft:blocks/sandstone": {
+   "source": [
+    4177553773769461626,
+    5808350886318412575
    ]
   },
   "minecraft:blocks/scaffolding": {
@@ -1341,8 +1359,8 @@
   },
   "minecraft:blocks/stone": {
    "source": [
-    5108579192601714254,
-    312623842068426038
+    -9136008505045598183,
+    2685976957001412212
    ]
   },
   "minecraft:blocks/stone_brick_slab": {
@@ -1467,8 +1485,8 @@
   },
   "minecraft:blocks/tuff": {
    "source": [
-    -3241174719715205105,
-    -715846431376663694
+    7654757758745500489,
+    -162115848456490772
    ]
   },
   "minecraft:blocks/vine": {

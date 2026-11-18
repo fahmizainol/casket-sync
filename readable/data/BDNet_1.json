@@ -814,7 +814,7 @@
      }
     },
     {
-     "amount": 192,
+     "amount": 193,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -949,7 +949,7 @@
      }
     },
     {
-     "amount": 3029,
+     "amount": 3290,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -1175,7 +1175,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 71,
      "key": {
       "stack": {
        "item": "minecraft:basalt"
@@ -2771,7 +2771,7 @@
      }
     },
     {
-     "amount": 9,
+     "amount": 18,
      "key": {
       "stack": {
        "item": "minecraft:gravel"
@@ -3557,7 +3557,7 @@
      }
     },
     {
-     "amount": 14,
+     "amount": 40,
      "key": {
       "stack": {
        "item": "minecraft:blackstone"
