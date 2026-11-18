@@ -117,7 +117,7 @@
  "DeathTime": 0,
  "Dimension": "minecraft:the_nether",
  "EnderItems": [],
- "FallDistance": 0.2336,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -4286,9 +4286,10 @@
    "uniqueaccessories:sun_stone": 1,
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1131172,
+  "ua_rs_active_until": 1137304,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 1136614
  },
  "Health": 27.184,
  "HurtByTimestamp": 0,
@@ -4345,14 +4346,17 @@
    "id": "uniqueaccessories:withered_heart"
   },
   {
-   "Count": 3,
+   "Count": 1,
    "Slot": 5,
-   "id": "dodosmobs:chimera_claw"
+   "id": "minecraft:flint_and_steel",
+   "tag": {
+    "Damage": 0
+   }
   },
   {
-   "Count": 64,
+   "Count": 38,
    "Slot": 6,
-   "id": "minecraft:netherrack"
+   "id": "minecraft:tnt"
   },
   {
    "Count": 38,
@@ -4369,14 +4373,14 @@
    }
   },
   {
-   "Count": 5,
+   "Count": 14,
    "Slot": 9,
    "id": "minecraft:gold_nugget"
   },
   {
-   "Count": 3,
+   "Count": 1,
    "Slot": 10,
-   "id": "minecraft:rotten_flesh"
+   "id": "minecraft:red_nether_brick_slab"
   },
   {
    "Count": 4,
@@ -4443,7 +4447,7 @@
    "id": "minecraft:nether_wart"
   },
   {
-   "Count": 5,
+   "Count": 2,
    "Slot": 22,
    "id": "supplementaries:bomb"
   },
@@ -4525,9 +4529,9 @@
    "id": "minecraft:obsidian"
   },
   {
-   "Count": 1,
+   "Count": 3,
    "Slot": 33,
-   "id": "minecraft:red_nether_brick_slab"
+   "id": "dodosmobs:chimera_claw"
   },
   {
    "Count": 10,
@@ -4610,22 +4614,22 @@
  },
  "Motion": [
   0.0,
-  -0.2305,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  44.415,
-  49.7664,
-  -222.3
+  51.4363,
+  5.0,
+  -235.3245
  ],
  "Rotation": [
-  165.7264,
-  89.4711
+  -124.2442,
+  5.1969
  ],
- "Score": 3500,
- "SelectedItemSlot": 2,
+ "Score": 3537,
+ "SelectedItemSlot": 5,
  "SleepTimer": 0,
  "SpawnAngle": 52.3473,
  "SpawnDimension": "minecraft:overworld",
@@ -4641,9 +4645,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 42,
- "XpP": 0.6864,
+ "XpP": 0.8545,
  "XpSeed": -1221340157,
- "XpTotal": 3500,
+ "XpTotal": 3537,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4658,7 +4662,7 @@
   "y": 63.0,
   "z": -1778.3344
  },
- "foodExhaustionLevel": 0.178,
+ "foodExhaustionLevel": 0.163,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14433,7 +14437,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6613,
+  "ticks_since_last_warning": 612,
   "warning_level": 0
  }
 }

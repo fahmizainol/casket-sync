@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -3872937621660959611,
-    -1367266967526587437
+    3532480952419972113,
+    -3711524698162814209
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    7488713582651907928,
-    7243105143198068529
+    6765049907638347758,
+    -8061205591354894980
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    1622831751555717502,
-    5538430826360782916
+    -7823212261671677544,
+    4546888477146170364
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -6588955431053503747,
-    4053026556502113157
+    -1457886205383332208,
+    4193419236090247908
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    697356668853279022,
-    5129706783074595318
+    6586933516485781540,
+    8653419821927145654
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    5668949222912179918,
-    5992754776856928317
+    3724459720876149118,
+    -2341659733140928175
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -375,8 +375,8 @@
   },
   "minecraft:blocks/blackstone": {
    "source": [
-    3678435158907556897,
-    -7810723924702339690
+    -3419276351404884047,
+    -5189398334550643017
    ]
   },
   "minecraft:blocks/blackstone_stairs": {
@@ -651,8 +651,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -6779409015182648221,
-    -1900512721386475479
+    1882582929253196917,
+    3250762944062280218
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -717,8 +717,8 @@
   },
   "minecraft:blocks/gravel": {
    "source": [
-    -4271074913888394290,
-    -1027997408647418393
+    7136737603838095752,
+    7093565826502248896
    ]
   },
   "minecraft:blocks/gray_carpet": {
@@ -907,16 +907,22 @@
     -3938695637153653385
    ]
   },
+  "minecraft:blocks/nether_gold_ore": {
+   "source": [
+    2755801854324841557,
+    3648381053107016553
+   ]
+  },
   "minecraft:blocks/nether_quartz_ore": {
    "source": [
-    -3568566319072400328,
-    447338563289754731
+    8552328061249272691,
+    -2888661944090621532
    ]
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    8203672272964129115,
-    68163258920132808
+    -1017691610274428777,
+    -5093623380452795902
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1429,6 +1435,12 @@
     163575659433423605
    ]
   },
+  "minecraft:blocks/tnt": {
+   "source": [
+    -3856200098543855530,
+    -7581870363235991121
+   ]
+  },
   "minecraft:blocks/tripwire_hook": {
    "source": [
     -8961198885740087916,
@@ -1695,8 +1707,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    3652438419687803378,
-    598729596859708446
+    -9066523405869417993,
+    -5228079211991658729
    ]
   },
   "minecraft:entities/tropical_fish": {

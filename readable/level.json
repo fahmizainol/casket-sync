@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 338584,
+  "DayTime": 344584,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795010959954,
+  "LastPlayed": 1795011259931,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -544,7 +544,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "minecraft:the_nether",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -914,7 +914,7 @@
      "passive4": "epicfight:berserker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "EPICFIGHT",
+     "playerMode": "VANILLA",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -4249,24 +4249,24 @@
         ],
         "Attributes": [
          {
-          "Base": 1.0216,
-          "Name": "minecraft:generic.flying_speed"
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 220.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
-         },
-         {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
+          "Base": 1.0216,
+          "Name": "minecraft:generic.flying_speed"
          },
          {
           "Base": 0.1777,
           "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 8.8,
@@ -4281,12 +4281,12 @@
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 1.0,
-          "Name": "forge:swim_speed"
-         },
-         {
           "Base": 0.24,
           "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 1.0,
+          "Name": "forge:swim_speed"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -4309,7 +4309,7 @@
         "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1131119,
+        "CompanionRescueStoredAt": 1136139,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -4524,13 +4524,13 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_rs_active_until": 1130105,
+    "ua_rs_active_until": 1137025,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1131151,
-    "ua_shiny_last_x": 258.7644,
-    "ua_shiny_last_y": 66.0,
-    "ua_shiny_last_z": -1767.2486,
+    "ua_shiny_last_active": 1137181,
+    "ua_shiny_last_x": 39.7,
+    "ua_shiny_last_y": 3.0,
+    "ua_shiny_last_z": -226.6229,
     "ua_tabi_last_dash": 1128949
    },
    "Health": 28.0,
@@ -4623,52 +4623,13 @@
      "id": "minecraft:bookshelf"
     },
     {
-     "Count": 1,
+     "Count": 14,
      "Slot": 8,
-     "id": "tcrcore:core_flint"
+     "id": "minecraft:blackstone"
     },
     {
      "Count": 1,
-     "Slot": 10,
-     "id": "minecraft:coal"
-    },
-    {
-     "Count": 1,
-     "Slot": 11,
-     "id": "minecraft:bone"
-    },
-    {
-     "Count": 1,
-     "Slot": 12,
-     "id": "magistuarmory:gothic_leggings",
-     "tag": {
-      "Damage": 0
-     }
-    },
-    {
-     "Count": 16,
-     "Slot": 13,
-     "id": "minecraft:iron_ingot",
-     "tag": {
-      "sheath": 0
-     }
-    },
-    {
-     "Count": 28,
-     "Slot": 15,
-     "id": "minecraft:diamond"
-    },
-    {
-     "Count": 1,
-     "Slot": 18,
-     "id": "magistuarmory:gold_buckler",
-     "tag": {
-      "Damage": 0
-     }
-    },
-    {
-     "Count": 1,
-     "Slot": 19,
+     "Slot": 9,
      "id": "epicfight:iron_longsword",
      "tag": {
       "Damage": 0
@@ -4676,43 +4637,7 @@
     },
     {
      "Count": 1,
-     "Slot": 20,
-     "id": "efn:deepdark_heart"
-    },
-    {
-     "Count": 31,
-     "Slot": 22,
-     "id": "minecraft:iron_ingot",
-     "tag": {
-      "sheath": 0
-     }
-    },
-    {
-     "Count": 15,
-     "Slot": 23,
-     "id": "minecraft:iron_ingot",
-     "tag": {
-      "sheath": 0
-     }
-    },
-    {
-     "Count": 1,
-     "Slot": 26,
-     "id": "magistuarmory:chainmail_horse_armor"
-    },
-    {
-     "Count": 50,
-     "Slot": 27,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 1,
-     "Slot": 29,
-     "id": "ba_bt:core_golem_eye"
-    },
-    {
-     "Count": 1,
-     "Slot": 33,
+     "Slot": 10,
      "id": "minecraft:golden_sword",
      "tag": {
       "Damage": 0
@@ -4720,13 +4645,117 @@
     },
     {
      "Count": 1,
-     "Slot": 34,
-     "id": "minecraft:golden_horse_armor"
+     "Slot": 11,
+     "id": "magistuarmory:gothic_leggings",
+     "tag": {
+      "Damage": 0
+     }
     },
     {
      "Count": 1,
-     "Slot": 35,
+     "Slot": 12,
+     "id": "minecraft:coal"
+    },
+    {
+     "Count": 14,
+     "Slot": 13,
+     "id": "minecraft:diamond"
+    },
+    {
+     "Count": 62,
+     "Slot": 14,
+     "id": "minecraft:iron_ingot",
+     "tag": {
+      "sheath": 0
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 15,
+     "id": "minecraft:bone"
+    },
+    {
+     "Count": 1,
+     "Slot": 16,
+     "id": "minecraft:golden_horse_armor"
+    },
+    {
+     "Count": 6,
+     "Slot": 17,
+     "id": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+     "Count": 1,
+     "Slot": 18,
      "id": "magistuarmory:barding"
+    },
+    {
+     "Count": 1,
+     "Slot": 19,
+     "id": "magistuarmory:chainmail_horse_armor"
+    },
+    {
+     "Count": 1,
+     "Slot": 20,
+     "id": "magistuarmory:gold_buckler",
+     "tag": {
+      "Damage": 0
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 21,
+     "id": "efn:deepdark_heart"
+    },
+    {
+     "Count": 1,
+     "Slot": 22,
+     "id": "ba_bt:core_golem_eye"
+    },
+    {
+     "Count": 1,
+     "Slot": 23,
+     "id": "tcrcore:core_flint"
+    },
+    {
+     "Count": 64,
+     "Slot": 24,
+     "id": "minecraft:netherrack"
+    },
+    {
+     "Count": 1,
+     "Slot": 25,
+     "id": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+     "Count": 64,
+     "Slot": 26,
+     "id": "minecraft:netherrack"
+    },
+    {
+     "Count": 1,
+     "Slot": 27,
+     "id": "minecraft:gravel"
+    },
+    {
+     "Count": 64,
+     "Slot": 28,
+     "id": "minecraft:netherrack"
+    },
+    {
+     "Count": 64,
+     "Slot": 29,
+     "id": "minecraft:netherrack"
+    },
+    {
+     "Count": 64,
+     "Slot": 30,
+     "id": "minecraft:netherrack"
+    },
+    {
+     "Count": 4,
+     "Slot": 31,
+     "id": "minecraft:netherrack"
     },
     {
      "Count": 1,
@@ -4814,15 +4843,15 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    258.7732,
-    66.0,
-    -1767.2486
+    39.7,
+    3.0,
+    -226.6229
    ],
    "Rotation": [
-    -30.7938,
-    35.6337
+    5.4212,
+    42.7499
    ],
-   "Score": 5693,
+   "Score": 5694,
    "SelectedItemSlot": 2,
    "SleepTimer": 0,
    "SpawnAngle": 79.7244,
@@ -4839,9 +4868,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 47,
-   "XpP": 0.8717,
+   "XpP": 0.8755,
    "XpSeed": 976728483,
-   "XpTotal": 5693,
+   "XpTotal": 5694,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4856,7 +4885,7 @@
     "y": 63.0,
     "z": -1778.7933
    },
-   "foodExhaustionLevel": 3.6861,
+   "foodExhaustionLevel": 0.2091,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15255,7 +15284,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 6476,
+    "ticks_since_last_warning": 475,
     "warning_level": 0
    }
   },
@@ -15267,15 +15296,15 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1131431,
+  "Time": 1137431,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
    "Series": "main",
    "Snapshot": 0
   },
-  "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 4800,
+  "WanderingTraderSpawnChance": 75,
+  "WanderingTraderSpawnDelay": 22800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15963,9 +15992,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 1625,
-  "raining": 1,
-  "thunderTime": 30153,
+  "rainTime": 82718,
+  "raining": 0,
+  "thunderTime": 24153,
   "thundering": 0,
   "version": 19133
  },
