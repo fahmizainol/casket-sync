@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -5927654560334050501,
-    -5784279383458163211
+    -5988232220965531614,
+    2114773057153206513
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    3029674955434673076,
-    -2078789963944393574
+    8350219339743692666,
+    4158220332149572199
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -6895080996704260717,
-    -7142579383646706464
+    231255155333059784,
+    642509202718569449
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -3080579911145555771,
-    1542277784092300503
+    -4226159425889834649,
+    -789219225251045313
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -6791942249440217835,
-    3839082456900069996
+    611640474546221647,
+    -1736592700194194997
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    5720652968115371526,
-    -6401988424485348314
+    861024484708841575,
+    7890118135804292776
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -375,8 +375,8 @@
   },
   "minecraft:blocks/blackstone": {
    "source": [
-    -5836555757675519071,
-    -7040847985022485851
+    6165233954989540256,
+    2691748425999025343
    ]
   },
   "minecraft:blocks/blackstone_stairs": {
@@ -909,20 +909,20 @@
   },
   "minecraft:blocks/nether_gold_ore": {
    "source": [
-    -7344646381170854521,
-    -626974391733526865
+    -6539739189283882545,
+    -5224049456657866351
    ]
   },
   "minecraft:blocks/nether_quartz_ore": {
    "source": [
-    559330806522263905,
-    3146462357737488106
+    -2563878387362159735,
+    -404372235375580797
    ]
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    7296902428933985892,
-    -767275085796246905
+    -8472434624819563095,
+    -7892367241502269673
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1761,8 +1761,8 @@
   },
   "minecraft:entities/zombified_piglin": {
    "source": [
-    -3470610088905892238,
-    1652312964908681913
+    4841930097676463227,
+    3129057826975615421
    ]
   }
  }

@@ -35393,12 +35393,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "tcrcore:sanctum",
-        "x": -125.6803,
-        "xRot": 0.0,
-        "y": 79.0,
-        "yRot": 251.182,
-        "z": -190.1505
+        "dimension": "minecraft:the_nether",
+        "x": 111.3002,
+        "xRot": -1.1943,
+        "y": 35.0,
+        "yRot": -168.8509,
+        "z": -422.5313
        },
        "uuid": [
         -644884357,
@@ -35538,7 +35538,7 @@
         "CompanionRescueHealth": 220.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1148703,
+        "CompanionRescueStoredAt": 1153889,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -35662,7 +35662,7 @@
         "IsDoingAerialAttack": 0,
         "IsFreeLooking": 0,
         "IsFromTamedParents": 0,
-        "IsGoingDown": 0,
+        "IsGoingDown": 1,
         "IsOnSolidGround": 1,
         "IsRoaring": 0,
         "IsSitting": 0,
@@ -35685,22 +35685,22 @@
          -1125147392,
          -1580186985
         ],
-        "PH_SmoothedEntityPitch": 0.0098,
-        "PH_SmoothedMovementYaw": 7811.1818,
-        "PH_UnwrappedMovementYaw": 7811.1818,
+        "PH_SmoothedEntityPitch": 0.0,
+        "PH_SmoothedMovementYaw": 7391.1491,
+        "PH_UnwrappedMovementYaw": 7391.1491,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 8891.182,
+        "PH_UnwrappedYaw": 8471.1491,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         -125.6803,
-         79.0,
-         -190.1505
+         111.3002,
+         35.0,
+         -422.5313
         ],
         "Rotation": [
-         251.182,
-         0.0
+         -168.8509,
+         -1.1943
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
@@ -35713,7 +35713,7 @@
         "SpawnScaleTicks": 1,
         "TamingRitualCompleted": 1,
         "TamingRitualTimer": 0,
-        "ThrottleLevel": 0.0,
+        "ThrottleLevel": 0.0003,
         "TransportMode": 0,
         "UUID": [
          -644884357,
@@ -35725,8 +35725,8 @@
         "UseGroundNav": 1,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 0.3715,
-         "foodLevel": 17,
+         "exhaustionLevel": 0.6545,
+         "foodLevel": 14,
          "saturationLevel": 0.0,
          "tickTimer": 0
         },

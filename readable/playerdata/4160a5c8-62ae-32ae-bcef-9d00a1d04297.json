@@ -23,6 +23,10 @@
    "Name": "epicfight:stun_armor"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:mining_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "cataclysm:additional_critical_damage"
   },
@@ -445,7 +449,7 @@
         {
          "Count": 1,
          "Slot": 1,
-         "id": "uniqueaccessories:fossil_shark_tooth"
+         "id": "uniqueaccessories:ancient_chisel"
         },
         {
          "Count": 1,
@@ -489,7 +493,7 @@
    "passive4": "epicfight:berserker",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1361,7 +1365,8 @@
       "0256dc69-77ab-4087-810e-959cd0ee6941",
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "0ba885f1-e34d-4be0-99c9-592982a96904",
-      "72c1d54a-bf5a-4486-8e19-ac017b624b4f"
+      "72c1d54a-bf5a-4486-8e19-ac017b624b4f",
+      "a7fdc8cd-bc2a-4ee5-9cb6-33301dc8b910"
      ]
     }
    }
@@ -3740,12 +3745,12 @@
    "lastKnownPositions": [
     {
      "position": {
-      "dimension": "tcrcore:sanctum",
-      "x": -125.6803,
-      "xRot": 0.0,
-      "y": 79.0,
-      "yRot": 251.182,
-      "z": -190.1505
+      "dimension": "minecraft:the_nether",
+      "x": 111.3002,
+      "xRot": -1.1943,
+      "y": 35.0,
+      "yRot": -168.8509,
+      "z": -422.5313
      },
      "uuid": [
       -644884357,
@@ -3885,7 +3890,7 @@
       "CompanionRescueHealth": 220.0,
       "CompanionRescueMaxHealth": 220.0,
       "CompanionRescueName": "Hiddeous Zippleback",
-      "CompanionRescueStoredAt": 1148703,
+      "CompanionRescueStoredAt": 1153889,
       "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4009,7 +4014,7 @@
       "IsDoingAerialAttack": 0,
       "IsFreeLooking": 0,
       "IsFromTamedParents": 0,
-      "IsGoingDown": 0,
+      "IsGoingDown": 1,
       "IsOnSolidGround": 1,
       "IsRoaring": 0,
       "IsSitting": 0,
@@ -4032,22 +4037,22 @@
        -1125147392,
        -1580186985
       ],
-      "PH_SmoothedEntityPitch": 0.0098,
-      "PH_SmoothedMovementYaw": 7811.1818,
-      "PH_UnwrappedMovementYaw": 7811.1818,
+      "PH_SmoothedEntityPitch": 0.0,
+      "PH_SmoothedMovementYaw": 7391.1491,
+      "PH_UnwrappedMovementYaw": 7391.1491,
       "PH_UnwrappedRoll": 0.0,
-      "PH_UnwrappedYaw": 8891.182,
+      "PH_UnwrappedYaw": 8471.1491,
       "PersistenceRequired": 1,
       "Personality": 0,
       "PortalCooldown": 0,
       "Pos": [
-       -125.6803,
-       79.0,
-       -190.1505
+       111.3002,
+       35.0,
+       -422.5313
       ],
       "Rotation": [
-       251.182,
-       0.0
+       -168.8509,
+       -1.1943
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "gas_ignite",
@@ -4060,7 +4065,7 @@
       "SpawnScaleTicks": 1,
       "TamingRitualCompleted": 1,
       "TamingRitualTimer": 0,
-      "ThrottleLevel": 0.0,
+      "ThrottleLevel": 0.0003,
       "TransportMode": 0,
       "UUID": [
        -644884357,
@@ -4072,8 +4077,8 @@
       "UseGroundNav": 1,
       "Variant": 0,
       "dragonNeeds": {
-       "exhaustionLevel": 0.3715,
-       "foodLevel": 17,
+       "exhaustionLevel": 0.6545,
+       "foodLevel": 14,
        "saturationLevel": 0.0,
        "tickTimer": 0
       },
@@ -4100,14 +4105,18 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1149207,
+  "ua_accessory_types_seen": {
+   "uniqueaccessories:ancient_chisel": 1,
+   "uniqueaccessories:fossil_shark_tooth": 1
+  },
+  "ua_rs_active_until": 1155134,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1149292,
-  "ua_shiny_last_x": 68.2588,
+  "ua_shiny_last_active": 1155431,
+  "ua_shiny_last_x": 79.9445,
   "ua_shiny_last_y": 15.0,
-  "ua_shiny_last_z": -340.6597,
-  "ua_tabi_last_dash": 1140627
+  "ua_shiny_last_z": -360.0212,
+  "ua_tabi_last_dash": 1155256
  },
  "Health": 28.0,
  "HurtByTimestamp": 0,
@@ -4166,6 +4175,13 @@
    "id": "minecraft:diamond_pickaxe",
    "tag": {
     "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:efficiency",
+      "lvl": 4
+     }
+    ],
+    "RepairCost": 1,
     "sheath": 0
    }
   },
@@ -4189,7 +4205,7 @@
    "id": "tcrcore:nether_resonance_stone"
   },
   {
-   "Count": 25,
+   "Count": 24,
    "Slot": 6,
    "id": "waystones:waystone"
   },
@@ -4209,14 +4225,14 @@
    "id": "minecraft:netherrack"
   },
   {
-   "Count": 4,
+   "Count": 64,
    "Slot": 10,
-   "id": "minecraft:nether_quartz_ore"
+   "id": "minecraft:netherrack"
   },
   {
-   "Count": 64,
+   "Count": 1,
    "Slot": 11,
-   "id": "minecraft:netherrack"
+   "id": "minecraft:nether_gold_ore"
   },
   {
    "Count": 64,
@@ -4229,19 +4245,19 @@
    "id": "minecraft:netherrack"
   },
   {
-   "Count": 3,
+   "Count": 12,
    "Slot": 14,
    "id": "minecraft:quartz"
   },
   {
-   "Count": 8,
+   "Count": 64,
    "Slot": 15,
-   "id": "minecraft:gold_nugget"
+   "id": "minecraft:netherrack"
   },
   {
-   "Count": 64,
+   "Count": 2,
    "Slot": 16,
-   "id": "minecraft:netherrack"
+   "id": "minecraft:blackstone"
   },
   {
    "Count": 64,
@@ -4249,83 +4265,18 @@
    "id": "minecraft:netherrack"
   },
   {
-   "Count": 64,
+   "Count": 10,
    "Slot": 18,
    "id": "minecraft:netherrack"
   },
   {
-   "Count": 64,
-   "Slot": 19,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
+   "Count": 1,
    "Slot": 20,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 21,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 22,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 23,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 24,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 25,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 26,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 27,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 28,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 12,
-   "Slot": 29,
-   "id": "minecraft:blackstone"
-  },
-  {
-   "Count": 64,
-   "Slot": 30,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 64,
-   "Slot": 31,
-   "id": "minecraft:netherrack"
+   "id": "uniqueaccessories:fossil_shark_tooth"
   },
   {
    "Count": 64,
    "Slot": 32,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 28,
-   "Slot": 33,
    "id": "minecraft:netherrack"
   },
   {
@@ -4414,16 +4365,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  68.2534,
+  79.9445,
   15.0,
-  -340.6565
+  -360.0212
  ],
  "Rotation": [
-  -120.9059,
-  12.7759
+  -78.4139,
+  11.7684
  ],
- "Score": 5710,
- "SelectedItemSlot": 0,
+ "Score": 5749,
+ "SelectedItemSlot": 2,
  "SleepTimer": 0,
  "SpawnAngle": 79.7244,
  "SpawnDimension": "minecraft:overworld",
@@ -4439,9 +4390,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 47,
- "XpP": 0.9359,
+ "XpP": 0.9321,
  "XpSeed": 976728483,
- "XpTotal": 5710,
+ "XpTotal": 5749,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4451,12 +4402,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "enteredNetherPosition": {
-  "x": 260.9487,
-  "y": 63.0,
-  "z": -1778.7933
- },
- "foodExhaustionLevel": 3.2391,
+ "foodExhaustionLevel": 2.5171,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14855,7 +14801,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 474,
+  "ticks_since_last_warning": 6473,
   "warning_level": 0
  }
 }
