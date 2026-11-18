@@ -895,7 +895,7 @@
      }
     },
     {
-     "amount": 200,
+     "amount": 201,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2451,15 +2451,6 @@
      }
     },
     {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "efn:duskfire_ingot"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 3,
      "key": {
       "stack": {
@@ -3446,15 +3437,6 @@
      "key": {
       "stack": {
        "item": "minecraft:chiseled_polished_blackstone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 9,
-     "key": {
-      "stack": {
-       "item": "minecraft:coal"
       },
       "type": "beyonddimensions:stack_type/item"
      }

@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 416584,
+  "DayTime": 422584,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795014873398,
+  "LastPlayed": 1795015173402,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -548,7 +548,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "minecraft:the_nether",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -919,7 +919,7 @@
      "passive4": "epicfight:berserker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -4268,10 +4268,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 219.0,
+        "CompanionRescueHealth": 220.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1204071,
+        "CompanionRescueStoredAt": 1214742,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -4377,7 +4377,7 @@
         ],
         "HasClearAirspace": 0,
         "HasConsumedFood": 0,
-        "Health": 219.0,
+        "Health": 220.0,
         "HurtByTimestamp": 1565,
         "HurtTime": 0,
         "InLove": 0,
@@ -4486,13 +4486,13 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_rs_active_until": 1209430,
+    "ua_rs_active_until": 1214878,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1209431,
-    "ua_shiny_last_x": 259.2448,
-    "ua_shiny_last_y": 65.1661,
-    "ua_shiny_last_z": -1760.1197,
+    "ua_shiny_last_active": 1214894,
+    "ua_shiny_last_x": 44.226,
+    "ua_shiny_last_y": 57.0,
+    "ua_shiny_last_z": -224.0212,
     "ua_tabi_last_dash": 1208513
    },
    "Health": 28.0,
@@ -4592,11 +4592,6 @@
      "id": "minecraft:blackstone"
     },
     {
-     "Count": 2,
-     "Slot": 13,
-     "id": "minecraft:ancient_debris"
-    },
-    {
      "Count": 63,
      "Slot": 18,
      "id": "minecraft:book"
@@ -4607,7 +4602,7 @@
      "id": "minecraft:amethyst_shard"
     },
     {
-     "Count": 9,
+     "Count": 11,
      "Slot": 21,
      "id": "minecraft:netherite_scrap"
     },
@@ -4641,6 +4636,11 @@
      "Count": 62,
      "Slot": 31,
      "id": "minecraft:cobbled_deepslate"
+    },
+    {
+     "Count": 2,
+     "Slot": 32,
+     "id": "efn:duskfire_ingot"
     },
     {
      "Count": 1,
@@ -4722,21 +4722,21 @@
    },
    "Motion": [
     0.0,
-    0.0831,
-    0.0847
+    -0.0784,
+    0.0
    ],
-   "OnGround": 0,
+   "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    259.2448,
-    65.1661,
-    -1760.1197
+    44.2359,
+    57.0,
+    -224.0243
    ],
    "Rotation": [
-    61.2837,
-    23.7754
+    163.2968,
+    21.2579
    ],
-   "Score": 6101,
+   "Score": 6105,
    "SelectedItemSlot": 0,
    "SleepTimer": 0,
    "SpawnAngle": 79.7244,
@@ -4753,9 +4753,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 49,
-   "XpP": 0.212,
+   "XpP": 0.2261,
    "XpSeed": 976728483,
-   "XpTotal": 6101,
+   "XpTotal": 6105,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4765,7 +4765,12 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.9919,
+   "enteredNetherPosition": {
+    "x": 261.3147,
+    "y": 63.0,
+    "z": -1778.1032
+   },
+   "foodExhaustionLevel": 3.8879,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15153,7 +15158,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 233,
+    "ticks_since_last_warning": 6233,
     "warning_level": 0
    }
   },
@@ -15165,7 +15170,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1209431,
+  "Time": 1215431,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15173,7 +15178,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15861,9 +15866,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 10718,
+  "rainTime": 4718,
   "raining": 0,
-  "thunderTime": 58559,
+  "thunderTime": 52559,
   "thundering": 0,
   "version": 19133
  },
