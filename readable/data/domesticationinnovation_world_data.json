@@ -1,4 +1,29 @@
 {
  "DataVersion": 3465,
- "data": {}
+ "data": {
+  "LanternList": [
+   {
+    "EntityNametag": "",
+    "EntityType": "bookofdragons:hiddeous_zippleback",
+    "OwnerUUID": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "OwnerUUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
+    "PetUUID": [
+     -644884357,
+     -1594343222,
+     -1261508161,
+     1492697879
+    ],
+    "PetUUID_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317",
+    "Timestamp": 514260,
+    "X": -2858,
+    "Y": -6,
+    "Z": 52
+   }
+  ]
+ }
 }

@@ -9,8 +9,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    80165215763582760,
-    7283162436519602754
+    -7034627240736216140,
+    -1710349981670947067
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,20 +21,20 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -8919577201660636044,
-    8386719991658167458
+    1965187823222613752,
+    -8850747549324592308
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -6118707201377776835,
-    833715454190545515
+    -964776589113101726,
+    -2324277143773214373
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    7294899031242684193,
-    -9210751077066729840
+    -7559700833417642981,
+    8113560893973309100
    ]
   },
   "artifacts:entity_equipment/zombie": {
@@ -45,8 +45,8 @@
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -1189091935521118255,
-    9180347958055416581
+    -5538889658457711081,
+    9177393602720706416
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -999,8 +999,8 @@
   },
   "minecraft:blocks/nether_bricks": {
    "source": [
-    -8980646857145024653,
-    8993068751235110542
+    2681341672680000693,
+    2398952539534473618
    ]
   },
   "minecraft:blocks/nether_gold_ore": {
@@ -1665,8 +1665,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    -6332005724511097703,
-    4490922628449073213
+    7302680344040663756,
+    -3939541314364863319
    ]
   },
   "minecraft:entities/chicken": {
@@ -1785,8 +1785,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -1752020900790386386,
-    1011306219845736325
+    -1877930229443293913,
+    -7346325990337158236
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1821,8 +1821,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -5129365024225536228,
-    -4807596470332262336
+    5277171286158250290,
+    -2462523493408279160
    ]
   },
   "minecraft:entities/slime": {
@@ -1901,6 +1901,12 @@
    "source": [
     -4549741748059382746,
     3226031399980628844
+   ]
+  },
+  "tcr_bosses:entities/evening_ghost": {
+   "source": [
+    1895240458617488677,
+    -4974294647423105952
    ]
   }
  }
