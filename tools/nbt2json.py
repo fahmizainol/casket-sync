@@ -28,7 +28,8 @@ def _payload(f, t):
     if t == 6: return round(struct.unpack('>d', _rd(f, 8))[0], 4)
     if t == 7:
         n = struct.unpack('>i', _rd(f, 4))[0]
-        return list(_rd(f, n)) if n <= 64 else f'<{n} bytes>'
+        b = _rd(f, n)
+        return list(b) if n <= 64 else f'<{n} bytes>'
     if t == 8: return _name(f)
     if t == 9:
         et = _rd(f, 1)[0]

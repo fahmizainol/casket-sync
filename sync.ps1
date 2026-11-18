@@ -35,5 +35,6 @@ git add -A
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 0) { Write-Host 'No changes since last sync.' -ForegroundColor Yellow; exit 0 }
 git commit -q -m ("sync " + (Get-Date -Format 'yyyy-MM-dd HH:mm'))
-git push -q
+git push -q -u origin main
+if ($LASTEXITCODE -ne 0) { Write-Host 'Push failed (committed locally; run sync again later).' -ForegroundColor Red; exit 1 }
 Write-Host 'Synced and pushed.' -ForegroundColor Green
