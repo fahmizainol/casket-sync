@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    3532480952419972113,
-    -3711524698162814209
+    -5927654560334050501,
+    -5784279383458163211
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    6765049907638347758,
-    -8061205591354894980
+    3029674955434673076,
+    -2078789963944393574
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,32 +21,32 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -7823212261671677544,
-    4546888477146170364
+    -6895080996704260717,
+    -7142579383646706464
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -1457886205383332208,
-    4193419236090247908
+    -3080579911145555771,
+    1542277784092300503
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -6566305150982195038,
-    6522993991126910986
+    -2664728946886479254,
+    -629693049764368522
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    6586933516485781540,
-    8653419821927145654
+    -6791942249440217835,
+    3839082456900069996
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    3724459720876149118,
-    -2341659733140928175
+    5720652968115371526,
+    -6401988424485348314
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -375,8 +375,8 @@
   },
   "minecraft:blocks/blackstone": {
    "source": [
-    -3419276351404884047,
-    -5189398334550643017
+    -5836555757675519071,
+    -7040847985022485851
    ]
   },
   "minecraft:blocks/blackstone_stairs": {
@@ -441,8 +441,8 @@
   },
   "minecraft:blocks/brown_mushroom": {
    "source": [
-    -5153829282277476938,
-    -3141827163096052251
+    7176911786959075413,
+    5019835770497486986
    ]
   },
   "minecraft:blocks/bubble_coral": {
@@ -651,8 +651,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    1882582929253196917,
-    3250762944062280218
+    -5662728069721922812,
+    -9017554262944114185
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -909,20 +909,20 @@
   },
   "minecraft:blocks/nether_gold_ore": {
    "source": [
-    2755801854324841557,
-    3648381053107016553
+    -7344646381170854521,
+    -626974391733526865
    ]
   },
   "minecraft:blocks/nether_quartz_ore": {
    "source": [
-    8552328061249272691,
-    -2888661944090621532
+    559330806522263905,
+    3146462357737488106
    ]
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -1017691610274428777,
-    -5093623380452795902
+    7296902428933985892,
+    -767275085796246905
    ]
   },
   "minecraft:blocks/oak_fence": {

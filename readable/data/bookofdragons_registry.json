@@ -4,8 +4,37 @@
   "Dragons": [
    {
     "Affection": 1000,
+    "CustomName": "Night Fury",
+    "Dimension": "minecraft:the_nether",
+    "DragonUUID": [
+     -316269812,
+     593383161,
+     -1800086921,
+     760723722
+    ],
+    "DragonUUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
+    "HasChest": 0,
+    "HasSaddle": 1,
+    "Health": 139.0,
+    "LastUpdate": 1795011421187,
+    "MaxHealth": 140.0,
+    "OwnerUUID": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "OwnerUUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
+    "PosX": -559,
+    "PosY": 31,
+    "PosZ": -320,
+    "Stage": "BROAD_WING",
+    "Type": "NIGHTFURY"
+   },
+   {
+    "Affection": 1000,
     "CustomName": "Hideous Zippleback",
-    "Dimension": "minecraft:overworld",
+    "Dimension": "minecraft:the_nether",
     "DragonUUID": [
      -644884357,
      -1594343222,
@@ -16,7 +45,7 @@
     "HasChest": 0,
     "HasSaddle": 1,
     "Health": 219.0,
-    "LastUpdate": 1795010553600,
+    "LastUpdate": 1795011858433,
     "MaxHealth": 220.0,
     "OwnerUUID": [
      1096852936,
@@ -25,9 +54,9 @@
      -1580186985
     ],
     "OwnerUUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-    "PosX": -2858,
-    "PosY": -6,
-    "PosZ": 52,
+    "PosX": 111,
+    "PosY": 35,
+    "PosZ": -423,
     "Stage": "BROAD_WING",
     "Type": "HIDEOUS_ZIPPLEBACK"
    }

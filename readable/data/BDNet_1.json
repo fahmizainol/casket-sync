@@ -30,7 +30,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:golden_horse_armor"
@@ -293,7 +293,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "magistuarmory:chainmail_horse_armor"
@@ -395,10 +395,31 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "epicfight:iron_longsword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 64,
      "key": {
       "stack": {
        "item": "minecraft:spruce_log"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:core_flint"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1234,7 +1255,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:gravel"
@@ -1473,6 +1494,15 @@
      }
     },
     {
+     "amount": 7,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_upgrade_smithing_template"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -1571,6 +1601,18 @@
      "key": {
       "stack": {
        "item": "minecraft:flower_pot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:gold_buckler",
+       "tag": {
+        "Damage": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1795,7 +1837,7 @@
      }
     },
     {
-     "amount": 188,
+     "amount": 190,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1897,7 +1939,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:quartz"
@@ -2044,7 +2086,7 @@
      }
     },
     {
-     "amount": 41,
+     "amount": 639,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -2114,6 +2156,15 @@
      "key": {
       "stack": {
        "item": "ba_bt:corrite_slab"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 14,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2238,6 +2289,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:barding"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -2292,7 +2352,7 @@
      }
     },
     {
-     "amount": 8,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "minecraft:coal"
@@ -2856,6 +2916,30 @@
      }
     },
     {
+     "amount": 62,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_ingot",
+       "tag": {
+        "sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:gothic_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -3082,6 +3166,15 @@
     },
     {
      "amount": 1,
+     "key": {
+      "stack": {
+       "item": "efn:deepdark_heart"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:golden_sword",
@@ -3531,6 +3624,15 @@
      "key": {
       "stack": {
        "item": "minecraft:blue_orchid"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "ba_bt:core_golem_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4325,7 +4427,7 @@
      }
     },
     {
-     "amount": 73,
+     "amount": 74,
      "key": {
       "stack": {
        "item": "minecraft:bone"

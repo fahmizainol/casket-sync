@@ -834,7 +834,7 @@
      }
     },
     {
-     "amount": 10,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "minecraft:lapis_lazuli"
@@ -1247,7 +1247,7 @@
      }
     },
     {
-     "amount": 189,
+     "amount": 191,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
