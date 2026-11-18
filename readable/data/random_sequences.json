@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -5097830770938147466,
-    345465248128028265
+    -6960808419055475810,
+    -1515175228924332103
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    3299832087259482380,
-    7518086288723736120
+    6532516683688237095,
+    -7540899398719771642
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -2347302827844772563,
-    8948167135583000922
+    -6530629586079952730,
+    -8196818717972213851
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -6258488612548443700,
-    -8704948301684024028
+    -1711003443259517832,
+    -6486868070806396411
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -1661919488511545626,
-    5493841914046559536
+    -8250580430898861037,
+    4018156722893030802
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -3801162260363575568,
-    1970494558031202822
+    -2351165863435251970,
+    -5026046586783147513
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -315,8 +315,8 @@
   },
   "minecraft:blocks/andesite": {
    "source": [
-    -4017713315718644961,
-    8010763165500554661
+    -8534053693764976627,
+    -2181262202605530233
    ]
   },
   "minecraft:blocks/azalea": {
@@ -345,8 +345,8 @@
   },
   "minecraft:blocks/basalt": {
    "source": [
-    -6910514447389938916,
-    -8991164063706149598
+    -892969999732820596,
+    4715688808217168207
    ]
   },
   "minecraft:blocks/big_dripleaf": {
@@ -597,8 +597,8 @@
   },
   "minecraft:blocks/deepslate": {
    "source": [
-    -7579530213018062128,
-    -6190558264761375063
+    1133457635774585989,
+    5251138157709641164
    ]
   },
   "minecraft:blocks/deepslate_bricks": {
@@ -609,14 +609,20 @@
   },
   "minecraft:blocks/deepslate_copper_ore": {
    "source": [
-    1897764526144860233,
-    213613722111142855
+    5041648563077628749,
+    5270280725872326007
    ]
   },
   "minecraft:blocks/deepslate_diamond_ore": {
    "source": [
     -6235438157622674383,
     6605296363371483382
+   ]
+  },
+  "minecraft:blocks/deepslate_lapis_ore": {
+   "source": [
+    1872020161159034255,
+    -7550547514883899296
    ]
   },
   "minecraft:blocks/deepslate_redstone_ore": {
@@ -645,8 +651,8 @@
   },
   "minecraft:blocks/diorite": {
    "source": [
-    -2393199997766727065,
-    2896379669783827416
+    -3307427735427033220,
+    9033503018233880727
    ]
   },
   "minecraft:blocks/diorite_wall": {
@@ -657,8 +663,8 @@
   },
   "minecraft:blocks/dirt": {
    "source": [
-    -6584472351634953541,
-    -734062151344483598
+    543097586394322373,
+    -6658888564649716492
    ]
   },
   "minecraft:blocks/ender_chest": {
@@ -675,8 +681,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    4353551535245093491,
-    -8776028694909092440
+    -5826030294272949111,
+    -7884117680265008618
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -699,8 +705,8 @@
   },
   "minecraft:blocks/gilded_blackstone": {
    "source": [
-    3798017478818980143,
-    4054863365345313438
+    -3664988613109513056,
+    5282696851695567945
    ]
   },
   "minecraft:blocks/glass_pane": {
@@ -723,8 +729,8 @@
   },
   "minecraft:blocks/granite": {
    "source": [
-    -4736893885390441775,
-    2362332463419366154
+    -5880289618699067510,
+    32051352566035947
    ]
   },
   "minecraft:blocks/grass": {
@@ -735,14 +741,14 @@
   },
   "minecraft:blocks/grass_block": {
    "source": [
-    7262373346883765925,
-    6872689898237336489
+    1580424242107122567,
+    -8734175327276066543
    ]
   },
   "minecraft:blocks/gravel": {
    "source": [
-    -7064451469281409611,
-    -6449903983408449323
+    -6563957253114881050,
+    7787349127576481747
    ]
   },
   "minecraft:blocks/gray_carpet": {
@@ -797,6 +803,12 @@
    "source": [
     -1838060142357914764,
     -2166284910081411328
+   ]
+  },
+  "minecraft:blocks/iron_ore": {
+   "source": [
+    1491786443799476394,
+    -607770763669036384
    ]
   },
   "minecraft:blocks/jungle_leaves": {
@@ -945,8 +957,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -9080699634086034029,
-    -809231993565937013
+    1846747995365595208,
+    5747905593923568210
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1053,8 +1065,8 @@
   },
   "minecraft:blocks/polished_blackstone_bricks": {
    "source": [
-    8253629395517662100,
-    -3328715434798806923
+    -4854716714791654149,
+    7376762865697705196
    ]
   },
   "minecraft:blocks/polished_blackstone_stairs": {
@@ -1365,8 +1377,8 @@
   },
   "minecraft:blocks/stone": {
    "source": [
-    -9136008505045598183,
-    2685976957001412212
+    -6427843541628665321,
+    -5297964242813961807
    ]
   },
   "minecraft:blocks/stone_brick_slab": {
@@ -1617,8 +1629,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    2970452139120668597,
-    3047486580155099423
+    -1945978239383890440,
+    4019742988514892004
    ]
   },
   "minecraft:entities/guardian": {
@@ -1629,8 +1641,8 @@
   },
   "minecraft:entities/hoglin": {
    "source": [
-    -4258191964190901790,
-    -5665102047102419955
+    -1289238851231036840,
+    -8045129278187497365
    ]
   },
   "minecraft:entities/husk": {
@@ -1683,8 +1695,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    2364989353806393844,
-    -5968961164165247413
+    -6859060348894290321,
+    -420706277485546974
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1719,8 +1731,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -2620965312823122367,
-    3691470025579958733
+    5469443166605253932,
+    7231880877785426780
    ]
   },
   "minecraft:entities/slime": {
@@ -1737,8 +1749,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -9042853160385198513,
-    3381137269333961705
+    -8665621609524260028,
+    -7685202014676753897
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -1779,8 +1791,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    799595667889141327,
-    31000762029307532
+    4050280643171079961,
+    408741098931233273
    ]
   },
   "minecraft:entities/zombie_villager": {

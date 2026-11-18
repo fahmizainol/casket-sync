@@ -4,50 +4,6 @@
   "LanternList": [
    {
     "EntityNametag": "",
-    "EntityType": "bookofdragons:nightfury",
-    "OwnerUUID": [
-     936377957,
-     1499151161,
-     -1240290358,
-     1398408445
-    ],
-    "OwnerUUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
-    "PetUUID": [
-     -316269812,
-     593383161,
-     -1800086921,
-     760723722
-    ],
-    "PetUUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-    "Timestamp": 364172,
-    "X": -556,
-    "Y": 31,
-    "Z": -319
-   },
-   {
-    "EntityNametag": "",
-    "EntityType": "bookofdragons:nightfury",
-    "OwnerUUID": [
-     936377957,
-     1499151161,
-     -1240290358,
-     1398408445
-    ],
-    "OwnerUUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
-    "PetUUID": [
-     -316269812,
-     593383161,
-     -1800086921,
-     760723722
-    ],
-    "PetUUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-    "Timestamp": 365359,
-    "X": 283,
-    "Y": 63,
-    "Z": -2120
-   },
-   {
-    "EntityNametag": "",
     "EntityType": "bookofdragons:hiddeous_zippleback",
     "OwnerUUID": [
      1096852936,
@@ -63,7 +19,7 @@
      1492697879
     ],
     "PetUUID_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317",
-    "Timestamp": 377909,
+    "Timestamp": 385424,
     "X": -2858,
     "Y": -6,
     "Z": 52

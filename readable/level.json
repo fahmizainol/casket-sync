@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 380584,
+  "DayTime": 386584,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,12 +421,16 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795013073410,
+  "LastPlayed": 1795013373390,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "Air": 300,
    "Attributes": [
+    {
+     "Base": 1.0,
+     "Name": "attributeslib:draw_speed"
+    },
     {
      "Base": 0.08,
      "Name": "forge:entity_gravity"
@@ -454,6 +458,10 @@
     {
      "Base": 0.0,
      "Name": "minecraft:generic.armor"
+    },
+    {
+     "Base": 1.0,
+     "Name": "forge:swim_speed"
     },
     {
      "Base": 0.0,
@@ -490,12 +498,12 @@
      "Name": "forge:step_height_addition"
     },
     {
-     "Base": 1.0,
-     "Name": "epicfight:max_strikes"
-    },
-    {
      "Base": 0.0,
      "Name": "minecraft:generic.armor_toughness"
+    },
+    {
+     "Base": 1.0,
+     "Name": "epicfight:max_strikes"
     },
     {
      "Base": 1.0,
@@ -536,7 +544,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:the_nether",
+   "Dimension": "minecraft:overworld",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -891,22 +899,23 @@
      "learned:passive": {
       "0": "dodge_parry_reward:stamina1",
       "1": "dodge_parry_reward:damage_boost1",
+      "10": "dodge_parry_reward:heal1",
       "2": "dodge_parry_reward:heal2",
       "3": "dodge_parry_reward:damage_boost2",
       "4": "epicfight:emergency_escape",
-      "5": "dodge_parry_reward:health_boost1",
-      "6": "efn:precise_parry",
-      "7": "epicfight:berserker",
-      "8": "epicfight:bonebreaker",
-      "9": "dodge_parry_reward:heal1"
+      "5": "tcrcore:fire_avoid",
+      "6": "dodge_parry_reward:health_boost1",
+      "7": "efn:precise_parry",
+      "8": "epicfight:berserker",
+      "9": "epicfight:bonebreaker"
      },
      "passive1": "dodge_parry_reward:damage_boost2",
      "passive2": "epicfight:bonebreaker",
-     "passive3": "dodge_parry_reward:stamina1",
+     "passive3": "tcrcore:fire_avoid",
      "passive4": "epicfight:berserker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -1763,7 +1772,7 @@
     "PlayerPersisted": {
      "BalmData": {
       "WaystonesData": {
-       "WarpStoneCooldownUntilUnix": 1795012549416,
+       "WarpStoneCooldownUntilUnix": 1795013396164,
        "Waystones": [
         "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
         "4b7ff26e-e510-41d2-8001-3000c1ab11b3",
@@ -4128,7 +4137,7 @@
        "position": {
         "dimension": "minecraft:overworld",
         "x": -2858.0,
-        "xRot": -40.0,
+        "xRot": 0.0343,
         "y": -5.8,
         "yRot": -353.8738,
         "z": 52.0
@@ -4155,7 +4164,7 @@
       }
      ],
      "mountIndex": 0,
-     "mountReadyAt": 1092981,
+     "mountReadyAt": 1176788,
      "mountWheelSlots": [],
      "mounts": [
       {
@@ -4172,11 +4181,11 @@
       {
        "position": {
         "dimension": "minecraft:the_nether",
-        "x": -790.9756,
+        "x": 63.3043,
         "xRot": 0.0,
-        "y": 33.875,
-        "yRot": 161.5671,
-        "z": -674.977
+        "y": 30.2093,
+        "yRot": -16.6419,
+        "z": 113.1003
        },
        "uuid": [
         -644884357,
@@ -4202,7 +4211,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147377737,
+          "Duration": 2147377587,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -4228,24 +4237,24 @@
         ],
         "Attributes": [
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
+          "Base": 1.0216,
+          "Name": "minecraft:generic.flying_speed"
          },
          {
           "Base": 220.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 1.0216,
-          "Name": "minecraft:generic.flying_speed"
-         },
-         {
-          "Base": 0.1777,
-          "Name": "minecraft:generic.movement_speed"
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 0.0,
           "Name": "forge:step_height_addition"
+         },
+         {
+          "Base": 0.1777,
+          "Name": "minecraft:generic.movement_speed"
          },
          {
           "Base": 8.8,
@@ -4260,12 +4269,12 @@
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 0.24,
-          "Name": "minecraft:generic.knockback_resistance"
-         },
-         {
           "Base": 1.0,
           "Name": "forge:swim_speed"
+         },
+         {
+          "Base": 0.24,
+          "Name": "minecraft:generic.knockback_resistance"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -4288,7 +4297,7 @@
         "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1170756,
+        "CompanionRescueStoredAt": 1178271,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -4450,7 +4459,7 @@
         ],
         "Rotation": [
          -353.8738,
-         -40.0
+         0.0343
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
@@ -4502,15 +4511,15 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1173426,
+    "ua_rs_active_until": 1178935,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1173431,
-    "ua_shiny_last_x": 95.206,
-    "ua_shiny_last_y": 40.2522,
-    "ua_shiny_last_z": -115.1504
+    "ua_shiny_last_active": 1179430,
+    "ua_shiny_last_x": 260.8077,
+    "ua_shiny_last_y": 62.0,
+    "ua_shiny_last_z": -1779.3
    },
-   "Health": 26.75,
+   "Health": 28.0,
    "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
@@ -4602,7 +4611,7 @@
      "id": "waystones:waystone"
     },
     {
-     "Count": 46,
+     "Count": 62,
      "Slot": 7,
      "id": "minecraft:cobbled_deepslate"
     },
@@ -4617,7 +4626,7 @@
      "id": "minecraft:magma_block"
     },
     {
-     "Count": 49,
+     "Count": 58,
      "Slot": 10,
      "id": "minecraft:netherrack"
     },
@@ -4632,24 +4641,58 @@
      "id": "minecraft:blackstone"
     },
     {
-     "Count": 3,
+     "Count": 10,
      "Slot": 13,
      "id": "minecraft:gold_nugget"
     },
     {
-     "Count": 2,
+     "Count": 3,
      "Slot": 14,
      "id": "minecraft:basalt"
     },
     {
-     "Count": 1,
+     "Count": 2,
      "Slot": 15,
      "id": "minecraft:polished_blackstone_bricks"
+    },
+    {
+     "Count": 7,
+     "Slot": 16,
+     "id": "minecraft:crimson_roots"
+    },
+    {
+     "Count": 6,
+     "Slot": 17,
+     "id": "minecraft:glowstone"
     },
     {
      "Count": 2,
      "Slot": 18,
      "id": "minecraft:tuff"
+    },
+    {
+     "Count": 8,
+     "Slot": 19,
+     "id": "minecraft:string"
+    },
+    {
+     "Count": 1,
+     "Slot": 20,
+     "id": "minecraft:diamond_shovel",
+     "tag": {
+      "Damage": 0,
+      "Enchantments": [
+       {
+        "id": "minecraft:efficiency",
+        "lvl": 3
+       }
+      ]
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 21,
+     "id": "minecraft:gilded_blackstone"
     },
     {
      "Count": 1,
@@ -4724,29 +4767,29 @@
    "LastDeathLocation": {
     "dimension": "minecraft:the_nether",
     "pos": [
-     144,
-     13,
-     -131
+     70,
+     28,
+     171
     ]
    },
    "Motion": [
-    -0.1106,
-    -0.0754,
-    0.026
+    0.0,
+    -0.005,
+    0.0
    ],
-   "OnGround": 0,
+   "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    95.206,
-    40.2522,
-    -115.1504
+    260.8095,
+    62.0,
+    -1779.3
    ],
    "Rotation": [
-    83.8415,
-    -16.4993
+    39.4912,
+    0.0
    ],
-   "Score": 5924,
-   "SelectedItemSlot": 2,
+   "Score": 5930,
+   "SelectedItemSlot": 3,
    "SleepTimer": 0,
    "SpawnAngle": 79.7244,
    "SpawnDimension": "minecraft:overworld",
@@ -4762,9 +4805,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 48,
-   "XpP": 0.573,
+   "XpP": 0.5949,
    "XpSeed": 976728483,
-   "XpTotal": 5924,
+   "XpTotal": 5930,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4774,7 +4817,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 0.52,
+   "foodExhaustionLevel": 0.353,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15173,7 +15216,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 370,
+    "ticks_since_last_warning": 6238,
     "warning_level": 0
    }
   },
@@ -15185,7 +15228,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1173431,
+  "Time": 1179431,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15193,7 +15236,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 10800,
+  "WanderingTraderSpawnDelay": 4800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15881,9 +15924,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 46718,
+  "rainTime": 40718,
   "raining": 0,
-  "thunderTime": 19762,
+  "thunderTime": 13762,
   "thundering": 0,
   "version": 19133
  },

@@ -412,6 +412,24 @@
    },
    {
     "BlockPos": {
+     "X": -144,
+     "Y": 97,
+     "Z": 288
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -353782228,
+     -1739374539,
+     -1904995975,
+     -506829231
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": -1248,
      "Y": 81,
      "Z": -800
