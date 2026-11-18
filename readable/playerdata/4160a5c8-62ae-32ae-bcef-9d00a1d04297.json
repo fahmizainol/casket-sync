@@ -3749,7 +3749,7 @@
      "position": {
       "dimension": "minecraft:overworld",
       "x": -2858.0,
-      "xRot": -1.1152,
+      "xRot": -1.1344,
       "y": -5.8,
       "yRot": -353.8738,
       "z": 52.0
@@ -3823,7 +3823,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147383628,
+        "Duration": 2147382990,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -3849,24 +3849,24 @@
       ],
       "Attributes": [
        {
-        "Base": 1.0216,
-        "Name": "minecraft:generic.flying_speed"
+        "Base": 0.08,
+        "Name": "forge:entity_gravity"
        },
        {
         "Base": 220.0,
         "Name": "minecraft:generic.max_health"
        },
        {
-        "Base": 0.08,
-        "Name": "forge:entity_gravity"
-       },
-       {
-        "Base": 0.0,
-        "Name": "forge:step_height_addition"
+        "Base": 1.0216,
+        "Name": "minecraft:generic.flying_speed"
        },
        {
         "Base": 0.1777,
         "Name": "minecraft:generic.movement_speed"
+       },
+       {
+        "Base": 0.0,
+        "Name": "forge:step_height_addition"
        },
        {
         "Base": 8.8,
@@ -3881,12 +3881,12 @@
         "Name": "minecraft:generic.armor"
        },
        {
-        "Base": 1.0,
-        "Name": "forge:swim_speed"
-       },
-       {
         "Base": 0.24,
         "Name": "minecraft:generic.knockback_resistance"
+       },
+       {
+        "Base": 1.0,
+        "Name": "forge:swim_speed"
        }
       ],
       "AwaitingTamingRitual": 0,
@@ -3909,7 +3909,7 @@
       "CompanionRescueHealth": 219.0,
       "CompanionRescueMaxHealth": 220.0,
       "CompanionRescueName": "Hiddeous Zippleback",
-      "CompanionRescueStoredAt": 1051027,
+      "CompanionRescueStoredAt": 1073812,
       "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4071,7 +4071,7 @@
       ],
       "Rotation": [
        -353.8738,
-       -1.1152
+       -1.1344
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "gas_ignite",
@@ -4129,10 +4129,10 @@
   "ua_rs_active_until": 1056458,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1056474,
-  "ua_shiny_last_x": 253.5692,
+  "ua_shiny_last_active": 1075744,
+  "ua_shiny_last_x": 253.6631,
   "ua_shiny_last_y": 65.5,
-  "ua_shiny_last_z": -1769.0068,
+  "ua_shiny_last_z": -1768.7857,
   "ua_tabi_last_dash": 1056431
  },
  "Health": 26.0,
@@ -4389,13 +4389,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  253.5601,
+  253.6727,
   65.5,
-  -1769.0068
+  -1768.7771
  ],
  "Rotation": [
-  92.2081,
-  28.9677
+  66.2568,
+  13.7951
  ],
  "Score": 5559,
  "SelectedItemSlot": 0,
@@ -14828,7 +14828,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8380,
+  "ticks_since_last_warning": 2379,
   "warning_level": 0
  }
 }

@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    6663589011766676246,
-    6141712356369120502
+    -2325432111440754520,
+    7227663507011662716
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -15,14 +15,14 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    8644320612503253338,
-    5691300480467333465
+    5081965419311723075,
+    6634249542441388261
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    1532560740842516488,
-    -1963889177575115850
+    -3568131513886114382,
+    -2345207551922398890
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1485,8 +1485,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -2043717244433782792,
-    -8489600819699584929
+    647375900007707191,
+    -8539273232233981595
    ]
   },
   "minecraft:entities/slime": {
