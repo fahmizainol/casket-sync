@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -6960808419055475810,
-    -1515175228924332103
+    -4766604664467849475,
+    -4848705064010285101
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    6532516683688237095,
-    -7540899398719771642
+    -5032930182887372174,
+    -3293936107597902503
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -6530629586079952730,
-    -8196818717972213851
+    -45056620835526490,
+    5697869837691799218
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -1711003443259517832,
-    -6486868070806396411
+    -2677569956836609022,
+    -197596953278495241
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -8250580430898861037,
-    4018156722893030802
+    -6424469588793195731,
+    -8302073157848881145
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -2351165863435251970,
-    -5026046586783147513
+    -6320609006930270383,
+    7712271409358143809
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -345,8 +345,8 @@
   },
   "minecraft:blocks/basalt": {
    "source": [
-    -892969999732820596,
-    4715688808217168207
+    -7503721658493893647,
+    -2734549452859998788
    ]
   },
   "minecraft:blocks/big_dripleaf": {
@@ -381,8 +381,8 @@
   },
   "minecraft:blocks/blackstone": {
    "source": [
-    -4845769880253228403,
-    -3586008513469531963
+    362844017588762472,
+    756660307893594261
    ]
   },
   "minecraft:blocks/blackstone_stairs": {
@@ -481,6 +481,12 @@
     4625191637339384108
    ]
   },
+  "minecraft:blocks/chiseled_nether_bricks": {
+   "source": [
+    146183736131987450,
+    6888957246636555783
+   ]
+  },
   "minecraft:blocks/chiseled_polished_blackstone": {
    "source": [
     4205692216766256337,
@@ -517,16 +523,28 @@
     8955312034075527407
    ]
   },
+  "minecraft:blocks/cracked_nether_bricks": {
+   "source": [
+    8696098376554855424,
+    3359262075141067622
+   ]
+  },
   "minecraft:blocks/cracked_polished_blackstone_bricks": {
    "source": [
-    -6592342995415410170,
-    -4183778206796064500
+    -1941534143856757581,
+    -4219981329281337413
    ]
   },
   "minecraft:blocks/cracked_stone_bricks": {
    "source": [
     8748336073922884596,
     1220638467346805937
+   ]
+  },
+  "minecraft:blocks/crying_obsidian": {
+   "source": [
+    -7163087927119995397,
+    2754829004064349099
    ]
   },
   "minecraft:blocks/cut_sandstone": {
@@ -681,8 +699,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -5826030294272949111,
-    -7884117680265008618
+    2667462044534567797,
+    6791648463586765050
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -705,8 +723,8 @@
   },
   "minecraft:blocks/gilded_blackstone": {
    "source": [
-    -3664988613109513056,
-    5282696851695567945
+    -5131014038568104705,
+    -8768068396602700498
    ]
   },
   "minecraft:blocks/glass_pane": {
@@ -873,8 +891,8 @@
   },
   "minecraft:blocks/magma_block": {
    "source": [
-    8451928603923138446,
-    -9183213682610964022
+    -3587126495424103842,
+    -933510288615197954
    ]
   },
   "minecraft:blocks/medium_amethyst_bud": {
@@ -927,8 +945,8 @@
   },
   "minecraft:blocks/nether_brick_fence": {
    "source": [
-    8980799808297545962,
-    -3486178516170288285
+    833969484261043064,
+    -4807963994026161428
    ]
   },
   "minecraft:blocks/nether_brick_wall": {
@@ -939,8 +957,8 @@
   },
   "minecraft:blocks/nether_bricks": {
    "source": [
-    3478516548244001304,
-    -3938695637153653385
+    -922028227410159183,
+    1216218397205419252
    ]
   },
   "minecraft:blocks/nether_gold_ore": {
@@ -957,8 +975,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    1846747995365595208,
-    5747905593923568210
+    4366130327557433576,
+    -1142146378403103129
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1041,8 +1059,8 @@
   },
   "minecraft:blocks/polished_basalt": {
    "source": [
-    -5540944421109185769,
-    2116551785241970991
+    8644380840103746633,
+    -6401296446598274190
    ]
   },
   "minecraft:blocks/polished_blackstone": {
@@ -1065,14 +1083,14 @@
   },
   "minecraft:blocks/polished_blackstone_bricks": {
    "source": [
-    -4854716714791654149,
-    7376762865697705196
+    8365134110471613186,
+    7696511692623634865
    ]
   },
   "minecraft:blocks/polished_blackstone_stairs": {
    "source": [
-    -5333519082777193608,
-    -7928629895307730530
+    -5343406916168992130,
+    -7877082521588939493
    ]
   },
   "minecraft:blocks/polished_blackstone_wall": {
@@ -1131,14 +1149,20 @@
   },
   "minecraft:blocks/quartz_block": {
    "source": [
-    -214780516976050032,
-    -154118759429214376
+    -1043653236746972969,
+    6149124786682598236
+   ]
+  },
+  "minecraft:blocks/quartz_bricks": {
+   "source": [
+    6409010698880659638,
+    -4257025582015634010
    ]
   },
   "minecraft:blocks/quartz_slab": {
    "source": [
-    -3110028685287822731,
-    -8565880742319514059
+    -4583120702125919187,
+    3314162820395489392
    ]
   },
   "minecraft:blocks/rail": {
@@ -1167,8 +1191,8 @@
   },
   "minecraft:blocks/red_nether_brick_slab": {
    "source": [
-    8232360125602806974,
-    -1102431125252519363
+    8354345670668106475,
+    4711415005420255793
    ]
   },
   "minecraft:blocks/red_nether_brick_stairs": {
@@ -1179,8 +1203,8 @@
   },
   "minecraft:blocks/red_nether_bricks": {
    "source": [
-    4162992210536187945,
-    1358383545920497205
+    8659028875819524939,
+    -705096949364070758
    ]
   },
   "minecraft:blocks/red_tulip": {
@@ -1269,8 +1293,8 @@
   },
   "minecraft:blocks/smooth_basalt": {
    "source": [
-    2620327030820333122,
-    2493056625973457907
+    3117401149266230205,
+    8417093508621948321
    ]
   },
   "minecraft:blocks/smooth_stone": {
@@ -1505,6 +1529,12 @@
    "source": [
     7654757758745500489,
     -162115848456490772
+   ]
+  },
+  "minecraft:blocks/verdant_froglight": {
+   "source": [
+    -4691549329188784905,
+    -9076545579500213786
    ]
   },
   "minecraft:blocks/vine": {
