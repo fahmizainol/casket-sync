@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    1040398756859331926,
-    1659142565797816551
+    -4063700141551796509,
+    7465099207461264826
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -4062367312122827249,
-    -2703390186579877476
+    8365128196994562628,
+    -7736606574697771529
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,32 +21,32 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -765006009424697674,
-    7374121480876585204
+    3933861769336309934,
+    6325427515156769200
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -164419185759488337,
-    8786036560771148048
+    4315901135353818343,
+    2124878704206187947
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -2664728946886479254,
-    -629693049764368522
+    -3717162724272797566,
+    -379870683149023058
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    3931501078839331784,
-    -5672707620106661668
+    3652542941794120749,
+    5546980089037921636
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -3440175631294209386,
-    -210589053118426482
+    2507177060907631061,
+    229577098746369265
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -387,8 +387,8 @@
   },
   "minecraft:blocks/blackstone": {
    "source": [
-    362844017588762472,
-    756660307893594261
+    -1309998692691048624,
+    496939036638179971
    ]
   },
   "minecraft:blocks/blackstone_stairs": {
@@ -453,8 +453,8 @@
   },
   "minecraft:blocks/brown_mushroom": {
    "source": [
-    7176911786959075413,
-    5019835770497486986
+    -1121422825805925157,
+    8886994656179730579
    ]
   },
   "minecraft:blocks/bubble_coral": {
@@ -783,8 +783,8 @@
   },
   "minecraft:blocks/gravel": {
    "source": [
-    -6563957253114881050,
-    7787349127576481747
+    -2820864129034575851,
+    -65408024279534356
    ]
   },
   "minecraft:blocks/gray_carpet": {
@@ -909,8 +909,8 @@
   },
   "minecraft:blocks/magma_block": {
    "source": [
-    -3587126495424103842,
-    -933510288615197954
+    -3521434566091211961,
+    -8976933658573724154
    ]
   },
   "minecraft:blocks/medium_amethyst_bud": {
@@ -987,8 +987,8 @@
   },
   "minecraft:blocks/nether_quartz_ore": {
    "source": [
-    3379989489324030380,
-    6745961268153990983
+    8383793146511604528,
+    5914704617838149825
    ]
   },
   "minecraft:blocks/nether_wart": {
@@ -999,8 +999,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    4366130327557433576,
-    -1142146378403103129
+    -5573517589791249868,
+    -2035053787830573343
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1635,8 +1635,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    688330479753462937,
-    -493502103033654466
+    -3756121799227246137,
+    4910328571936746822
    ]
   },
   "minecraft:entities/chicken": {
@@ -1755,8 +1755,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    2520682771861316018,
-    1996430086451193400
+    -284747179517884417,
+    1028971918868297366
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1791,8 +1791,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -6979871431615927581,
-    -7791363419295904585
+    -2356483913265099792,
+    2658589840633508312
    ]
   },
   "minecraft:entities/slime": {

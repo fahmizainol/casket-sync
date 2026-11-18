@@ -46,6 +46,24 @@
    },
    {
     "BlockPos": {
+     "X": -32,
+     "Y": 61,
+     "Z": -800
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     174057697,
+     858408987,
+     -1573034087,
+     889283240
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": -2353,
      "Y": 63,
      "Z": -2024
@@ -667,6 +685,24 @@
      -153742713
     ],
     "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -160,
+     "Y": 97,
+     "Z": -848
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -724062811,
+     1151028043,
+     -2108531707,
+     1432537939
+    ],
+    "World": "minecraft:the_nether"
    },
    {
     "BlockPos": {

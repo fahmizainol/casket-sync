@@ -36503,11 +36503,11 @@
       {
        "position": {
         "dimension": "minecraft:the_nether",
-        "x": -430.0929,
+        "x": 29.134,
         "xRot": 0.0,
-        "y": 35.6579,
-        "yRot": -43.672,
-        "z": -1406.0736
+        "y": 37.49,
+        "yRot": -41.8349,
+        "z": -904.9171
        },
        "uuid": [
         -644884357,
@@ -36547,7 +36547,7 @@
       }
      ],
      "mountIndex": 0,
-     "mountReadyAt": 1224591,
+     "mountReadyAt": 1233184,
      "mountWheelSlots": [],
      "mounts": [
       {
@@ -36564,11 +36564,11 @@
       {
        "position": {
         "dimension": "minecraft:the_nether",
-        "x": -430.5,
+        "x": 26.4889,
         "xRot": 0.0,
-        "y": 38.0,
-        "yRot": -148.8798,
-        "z": -1406.5
+        "y": 35.0,
+        "yRot": 259.1328,
+        "z": -907.8718
        },
        "uuid": [
         -644884357,
@@ -36594,7 +36594,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147377037,
+          "Duration": 2147376641,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -36680,7 +36680,7 @@
         "CompanionRescueHealth": 220.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1224272,
+        "CompanionRescueStoredAt": 1232561,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -36842,7 +36842,7 @@
         ],
         "Rotation": [
          -353.8738,
-         -1.185
+         -40.0
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
