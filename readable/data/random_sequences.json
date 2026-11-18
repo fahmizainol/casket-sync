@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    6645754469369589806,
-    4326263759494054563
+    733468581253941949,
+    -9138651819629195375
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -21,32 +21,32 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -172729572597613450,
-    7922021473648413265
+    -4795997260220353719,
+    5829311008877553284
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -3750218928611158975,
-    3250779051772767416
+    7665106672379835001,
+    -5351768630859562585
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -1685253384159256849,
-    -2531850851629598970
+    -5830534975707364790,
+    5303698166593219194
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    3055269363264148729,
-    5424179375439674723
+    -1893988431944352875,
+    -3024351085245621195
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -2484794601073681171,
-    -6188724134090344258
+    1519403044945185717,
+    -4077514570159552007
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -287,6 +287,12 @@
    "source": [
     -4552806652282971808,
     -6795284348136608776
+   ]
+  },
+  "enchantinginfuser:blocks/enchanting_infuser": {
+   "source": [
+    -6176149402635473694,
+    3831227316669799748
    ]
   },
   "minecraft:blocks/acacia_leaves": {
@@ -1683,8 +1689,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    -1945978239383890440,
-    4019742988514892004
+    -1896735631335158097,
+    -2453573585527190109
    ]
   },
   "minecraft:entities/guardian": {
@@ -1809,8 +1815,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -4021723772996861382,
-    4592007534572727646
+    1102266455163192701,
+    -5500912870950022849
    ]
   },
   "minecraft:entities/tropical_fish": {

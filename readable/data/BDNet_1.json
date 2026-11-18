@@ -93,15 +93,6 @@
      }
     },
     {
-     "amount": 19,
-     "key": {
-      "stack": {
-       "item": "minecraft:crying_obsidian"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 1,
      "key": {
       "stack": {
@@ -953,7 +944,7 @@
      }
     },
     {
-     "amount": 207,
+     "amount": 208,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1912,7 +1903,7 @@
      }
     },
     {
-     "amount": 95,
+     "amount": 31,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -4010,7 +4001,7 @@
      }
     },
     {
-     "amount": 76,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "minecraft:book"
