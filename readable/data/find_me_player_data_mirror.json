@@ -36883,7 +36883,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147373981,
+          "Duration": 2147373235,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -36969,7 +36969,7 @@
         "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1280472,
+        "CompanionRescueStoredAt": 1286903,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,

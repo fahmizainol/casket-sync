@@ -970,7 +970,7 @@
      }
     },
     {
-     "amount": 212,
+     "amount": 213,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4624,15 +4624,6 @@
      "key": {
       "stack": {
        "item": "minecraft:blue_orchid"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "uniqueaccessories:sun_stone"
       },
       "type": "beyonddimensions:stack_type/item"
      }

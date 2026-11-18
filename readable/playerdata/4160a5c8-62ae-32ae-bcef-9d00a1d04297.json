@@ -7,6 +7,10 @@
    "Name": "forge:entity_gravity"
   },
   {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
    "Base": 0.1,
    "Name": "minecraft:generic.movement_speed"
   },
@@ -23,8 +27,8 @@
    "Name": "epicfight:stun_armor"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:mining_speed"
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -65,12 +69,12 @@
    "Name": "forge:step_height_addition"
   },
   {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
   },
   {
    "Base": 1.0,
@@ -101,6 +105,10 @@
     }
    ],
    "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:armor_pierce"
   }
  ],
  "BalmData": {},
@@ -437,7 +445,7 @@
         {
          "Count": 1,
          "Slot": 1,
-         "id": "uniqueaccessories:ancient_chisel"
+         "id": "uniqueaccessories:fossil_shark_tooth"
         },
         {
          "Count": 1,
@@ -482,7 +490,7 @@
    "passive4": "epicfight:berserker",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1156,7 +1164,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 386
+   "currentLogicNodeId": 391
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -3769,7 +3777,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147373981,
+        "Duration": 2147373235,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -3855,7 +3863,7 @@
       "CompanionRescueHealth": 219.0,
       "CompanionRescueMaxHealth": 220.0,
       "CompanionRescueName": "Hiddeous Zippleback",
-      "CompanionRescueStoredAt": 1280472,
+      "CompanionRescueStoredAt": 1286903,
       "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4070,49 +4078,24 @@
   },
   "last_send_time": 0,
   "ua_accessory_types_seen": {
+   "uniqueaccessories:ancient_chisel": 1,
    "uniqueaccessories:black_belt": 1,
-   "uniqueaccessories:fossil_shark_tooth": 1
+   "uniqueaccessories:sun_stone": 1
   },
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1280473,
-  "ua_shiny_last_x": -1802.5,
+  "ua_shiny_last_active": 1287431,
+  "ua_shiny_last_x": -1822.2771,
   "ua_shiny_last_y": 85.0,
-  "ua_shiny_last_z": -1772.5
+  "ua_shiny_last_z": -1769.2764
  },
  "Health": 28.0,
- "HurtByTimestamp": 0,
+ "HurtByTimestamp": 762,
  "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
    "Slot": 0,
-   "id": "epicfight:netherite_tachi",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ]
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 1,
    "id": "efn:nf_dual_sword",
    "tag": {
     "Damage": 0,
@@ -4128,6 +4111,32 @@
      {
       "id": "minecraft:looting",
       "lvl": 3
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:sweeping",
+      "lvl": 3
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 1,
+   "id": "epicfight:netherite_tachi",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
      },
      {
       "id": "minecraft:knockback",
@@ -4216,6 +4225,11 @@
    "id": "minecraft:blackstone"
   },
   {
+   "Count": 4,
+   "Slot": 9,
+   "id": "minecraft:nether_bricks"
+  },
+  {
    "Count": 1,
    "Slot": 10,
    "id": "minecraft:black_bed"
@@ -4227,8 +4241,13 @@
   },
   {
    "Count": 1,
-   "Slot": 12,
-   "id": "uniqueaccessories:fossil_shark_tooth"
+   "Slot": 13,
+   "id": "uniqueaccessories:sun_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 19,
+   "id": "uniqueaccessories:ancient_chisel"
   },
   {
    "Count": 52,
@@ -4353,9 +4372,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_nether",
   "pos": [
-   -1826,
+   -1829,
    85,
-   -1777
+   -1776
   ]
  },
  "Motion": [
@@ -4366,13 +4385,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1802.5,
+  -1822.2771,
   85.0,
-  -1772.5
+  -1769.2764
  ],
  "Rotation": [
-  -90.0,
-  37.2
+  110.2135,
+  -20.3563
  ],
  "Score": 6373,
  "SelectedItemSlot": 0,
@@ -4403,7 +4422,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 2.624,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4414,7 +4433,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 89,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -4430,7 +4449,7 @@
   "isFilteringCraftable": 1,
   "isFurnaceFilteringCraftable": 0,
   "isFurnaceGuiOpen": 0,
-  "isGuiOpen": 1,
+  "isGuiOpen": 0,
   "isSmokerFilteringCraftable": 0,
   "isSmokerGuiOpen": 0,
   "isaltarFilteringCraftable": 0,
@@ -11937,7 +11956,6 @@
    "aether:klepto_smelting",
    "aether:wooden_hoe_repairing",
    "biomeswevegone:cattail_thatch_slab",
-   "uniqueaccessories:rare_artifact_ticket",
    "minecraft:brown_dye",
    "minecraft:polished_blackstone_stairs_from_blackstone_stonecutting",
    "minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb",
@@ -14727,7 +14745,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10595,
+  "ticks_since_last_warning": 4082,
   "warning_level": 0
  }
 }
