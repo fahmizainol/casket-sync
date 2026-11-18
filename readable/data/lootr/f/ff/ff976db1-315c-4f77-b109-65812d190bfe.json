@@ -1,0 +1,154 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:melon_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:blaze_rod"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "magistuarmory:rusted_heavymace",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:melon_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "magistuarmory:rustedkettlehat",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:melon_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 9,
+       "Slot": 9,
+       "id": "minecraft:apple"
+      },
+      {
+       "Count": 2,
+       "Slot": 11,
+       "id": "minecraft:redstone"
+      },
+      {
+       "Count": 2,
+       "Slot": 12,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:beetroot_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 4,
+       "Slot": 15,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 2,
+       "Slot": 16,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:redstone"
+      },
+      {
+       "Count": 6,
+       "Slot": 18,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:name_tag"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:beetroot_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:redstone"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:beetroot_seeds"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/ff/ff976db1-315c-4f77-b109-65812d190bfe",
+  "position": {
+   "X": -570,
+   "Y": 119,
+   "Z": -1154
+  },
+  "size": 27,
+  "uuid": [
+   -6853199,
+   828133239,
+   -1324784255,
+   756616190
+  ],
+  "uuid_str": "ff976db1-315c-4f77-b109-65812d190bfe"
+ }
+}

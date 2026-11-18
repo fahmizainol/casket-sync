@@ -1,0 +1,122 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:iron_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 10,
+       "Slot": 25,
+       "id": "minecraft:gold_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/9/92/92b28f2b-128e-4080-953a-1d9093ac6c7b",
+  "position": {
+   "X": -1242,
+   "Y": 63,
+   "Z": 819
+  },
+  "size": 27,
+  "uuid": [
+   -1833791701,
+   311312512,
+   -1791353456,
+   -1817416581
+  ],
+  "uuid_str": "92b28f2b-128e-4080-953a-1d9093ac6c7b"
+ }
+}

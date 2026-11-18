@@ -1,0 +1,71 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:pufferfish"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/4/4d/4d506f34-02e9-4809-bf6a-c348bc16ad1e",
+  "position": {
+   "X": -1241,
+   "Y": 71,
+   "Z": 852
+  },
+  "size": 27,
+  "uuid": [
+   1297116980,
+   48842761,
+   -1083522232,
+   -1139364578
+  ],
+  "uuid_str": "4d506f34-02e9-4809-bf6a-c348bc16ad1e"
+ }
+}

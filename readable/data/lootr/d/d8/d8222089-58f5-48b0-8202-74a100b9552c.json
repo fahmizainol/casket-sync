@@ -1,0 +1,63 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:pink_tulip"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:birch_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:fern"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:pink_tulip"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:birch_sapling"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/d/d8/d8222089-58f5-48b0-8202-74a100b9552c",
+  "position": {
+   "X": 134,
+   "Y": 79,
+   "Z": -888
+  },
+  "size": 27,
+  "uuid": [
+   -668852087,
+   1492469936,
+   -2113768287,
+   12145964
+  ],
+  "uuid_str": "d8222089-58f5-48b0-8202-74a100b9552c"
+ }
+}

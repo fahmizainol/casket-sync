@@ -1,0 +1,103 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:gilded_blackstone"
+      },
+      {
+       "Count": 6,
+       "Slot": 4,
+       "id": "minecraft:gilded_blackstone"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:leather"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:lodestone"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:leather"
+      },
+      {
+       "Count": 2,
+       "Slot": 18,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:leather"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:gilded_blackstone"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/d/d3/d378ae84-4c39-4187-919f-c52a20d6cfa2",
+  "position": {
+   "X": -2881,
+   "Y": -35,
+   "Z": 56
+  },
+  "size": 27,
+  "uuid": [
+   -747065724,
+   1278820743,
+   -1851800278,
+   550948770
+  ],
+  "uuid_str": "d378ae84-4c39-4187-919f-c52a20d6cfa2"
+ }
+}

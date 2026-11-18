@@ -1,0 +1,56 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:golden_sword",
+       "tag": {
+        "Damage": 0
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/4/49/49903db7-fea3-4d5b-8bc1-26c27a147fab",
+  "position": {
+   "X": -932,
+   "Y": 63,
+   "Z": 731
+  },
+  "size": 27,
+  "uuid": [
+   1234189751,
+   -22852261,
+   -1950275902,
+   2048163755
+  ],
+  "uuid_str": "49903db7-fea3-4d5b-8bc1-26c27a147fab"
+ }
+}

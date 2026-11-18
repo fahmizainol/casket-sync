@@ -1,0 +1,66 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:jungle_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:wheat_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:grass"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/2/26/26a031ad-552e-49a9-a921-74f6912b3aa2",
+  "position": {
+   "X": 232,
+   "Y": 74,
+   "Z": -677
+  },
+  "size": 27,
+  "uuid": [
+   648032685,
+   1429096873,
+   -1457425162,
+   -1859437918
+  ],
+  "uuid_str": "26a031ad-552e-49a9-a921-74f6912b3aa2"
+ }
+}

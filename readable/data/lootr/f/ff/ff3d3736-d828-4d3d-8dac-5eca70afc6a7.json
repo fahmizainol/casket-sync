@@ -1,0 +1,86 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:gunpowder"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/ff/ff3d3736-d828-4d3d-8dac-5eca70afc6a7",
+  "position": {
+   "X": -1241,
+   "Y": 70,
+   "Z": 849
+  },
+  "size": 27,
+  "uuid": [
+   -12765386,
+   -668447427,
+   -1918083382,
+   1890567847
+  ],
+  "uuid_str": "ff3d3736-d828-4d3d-8dac-5eca70afc6a7"
+ }
+}

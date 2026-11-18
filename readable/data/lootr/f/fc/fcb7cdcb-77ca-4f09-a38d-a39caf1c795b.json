@@ -1,0 +1,139 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 7,
+       "Slot": 1,
+       "id": "minecraft:chorus_fruit"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:golden_sword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:saddle"
+      },
+      {
+       "Count": 2,
+       "Slot": 4,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:piercing",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:diamond_horse_armor"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "quark:smithing_template_rune"
+      },
+      {
+       "Count": 16,
+       "Slot": 8,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 7,
+       "Slot": 9,
+       "id": "minecraft:nether_wart"
+      },
+      {
+       "Count": 2,
+       "Slot": 10,
+       "id": "minecraft:bone"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:flint_and_steel",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 7,
+       "Slot": 9,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:golden_sword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 8,
+       "Slot": 18,
+       "id": "minecraft:pumpkin"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/fc/fcb7cdcb-77ca-4f09-a38d-a39caf1c795b",
+  "position": {
+   "X": -854,
+   "Y": 217,
+   "Z": 67
+  },
+  "size": 27,
+  "uuid": [
+   -55063093,
+   2009747209,
+   -1550998628,
+   -1357088421
+  ],
+  "uuid_str": "fcb7cdcb-77ca-4f09-a38d-a39caf1c795b"
+ }
+}

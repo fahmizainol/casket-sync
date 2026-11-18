@@ -1,0 +1,115 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 4,
+       "id": "minecraft:obsidian"
+      },
+      {
+       "Count": 2,
+       "Slot": 9,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 2,
+       "Slot": 16,
+       "id": "minecraft:golden_apple"
+      },
+      {
+       "Count": 11,
+       "Slot": 17,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 2,
+       "Slot": 21,
+       "id": "minecraft:obsidian"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "quark:smithing_template_rune"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:golden_horse_armor"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "supplementaries:bomb_blue"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 4
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 2
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/0/07/073d2798-1e73-42b8-b723-485292eb3d43",
+  "position": {
+   "X": -853,
+   "Y": 217,
+   "Z": 86
+  },
+  "size": 27,
+  "uuid": [
+   121448344,
+   510870200,
+   -1222424494,
+   -1830077117
+  ],
+  "uuid_str": "073d2798-1e73-42b8-b723-485292eb3d43"
+ }
+}

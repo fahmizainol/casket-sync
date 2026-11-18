@@ -1,0 +1,86 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:book"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:oak_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:potato"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/a/ad/ad04b252-3314-4942-9575-025cc3305152",
+  "position": {
+   "X": -971,
+   "Y": 64,
+   "Z": -1272
+  },
+  "size": 27,
+  "uuid": [
+   -1392201134,
+   856967490,
+   -1787493796,
+   -1020243630
+  ],
+  "uuid_str": "ad04b252-3314-4942-9575-025cc3305152"
+ }
+}

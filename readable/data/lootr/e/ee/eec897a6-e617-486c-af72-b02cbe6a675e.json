@@ -1,0 +1,70 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 1,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:leather_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 2
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/e/ee/eec897a6-e617-486c-af72-b02cbe6a675e",
+  "position": {
+   "X": -2686,
+   "Y": 95,
+   "Z": -860
+  },
+  "size": 27,
+  "uuid": [
+   -288843866,
+   -434681748,
+   -1351438292,
+   -1100322978
+  ],
+  "uuid_str": "eec897a6-e617-486c-af72-b02cbe6a675e"
+ }
+}

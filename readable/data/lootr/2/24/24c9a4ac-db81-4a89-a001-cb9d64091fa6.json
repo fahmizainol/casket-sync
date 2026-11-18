@@ -1,0 +1,48 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:blue_orchid"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:blue_orchid"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/2/24/24c9a4ac-db81-4a89-a001-cb9d64091fa6",
+  "position": {
+   "X": -1853,
+   "Y": 138,
+   "Z": -892
+  },
+  "size": 27,
+  "uuid": [
+   617194668,
+   -612283767,
+   -1610495075,
+   1678319526
+  ],
+  "uuid_str": "24c9a4ac-db81-4a89-a001-cb9d64091fa6"
+ }
+}

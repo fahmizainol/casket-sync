@@ -1,0 +1,53 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:wheat"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/c/c6/c670d713-4a9b-4b1b-9925-6ee8b24d8317",
+  "position": {
+   "X": -1489,
+   "Y": 79,
+   "Z": -414
+  },
+  "size": 27,
+  "uuid": [
+   -965683437,
+   1251691291,
+   -1725600024,
+   -1303543017
+  ],
+  "uuid_str": "c670d713-4a9b-4b1b-9925-6ee8b24d8317"
+ }
+}

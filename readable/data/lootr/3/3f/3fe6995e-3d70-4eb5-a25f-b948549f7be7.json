@@ -1,0 +1,101 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:experience_bottle"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:dark_oak_planks"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:poisonous_potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:dark_oak_planks"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:dark_oak_log"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/3/3f/3fe6995e-3d70-4eb5-a25f-b948549f7be7",
+  "position": {
+   "X": -1500,
+   "Y": 87,
+   "Z": -424
+  },
+  "size": 27,
+  "uuid": [
+   1072077150,
+   1030770357,
+   -1570784952,
+   1419738087
+  ],
+  "uuid_str": "3fe6995e-3d70-4eb5-a25f-b948549f7be7"
+ }
+}

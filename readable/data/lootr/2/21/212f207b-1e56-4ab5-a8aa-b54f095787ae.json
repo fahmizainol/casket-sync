@@ -1,0 +1,127 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 6,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:painting"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:firework_rocket"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:painting"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:torch"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:firework_rocket"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:firework_rocket"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:painting"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:torch"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:firework_rocket"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:torch"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:torch"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 2,
+       "Slot": 26,
+       "id": "minecraft:bread"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/2/21/212f207b-1e56-4ab5-a8aa-b54f095787ae",
+  "position": {
+   "X": -1211,
+   "Y": 85,
+   "Z": 856
+  },
+  "size": 27,
+  "uuid": [
+   556736635,
+   508971701,
+   -1465207473,
+   156731310
+  ],
+  "uuid_str": "212f207b-1e56-4ab5-a8aa-b54f095787ae"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:spruce_log"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/2/23/2387d9a2-0fd1-4d14-b47a-09da9cf44cc9",
+  "position": {
+   "X": -1506,
+   "Y": 82,
+   "Z": -424
+  },
+  "size": 27,
+  "uuid": [
+   596105634,
+   265374996,
+   -1267070502,
+   -1661711159
+  ],
+  "uuid_str": "2387d9a2-0fd1-4d14-b47a-09da9cf44cc9"
+ }
+}

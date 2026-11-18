@@ -1,0 +1,90 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:iron_pickaxe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:iron_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:iron_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:iron_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:bread"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/c/c8/c8411eae-9dbb-400b-9b06-f12e9b99a999",
+  "position": {
+   "X": -931,
+   "Y": 63,
+   "Z": 732
+  },
+  "size": 27,
+  "uuid": [
+   -935256402,
+   -1648672757,
+   -1694043858,
+   -1684428391
+  ],
+  "uuid_str": "c8411eae-9dbb-400b-9b06-f12e9b99a999"
+ }
+}

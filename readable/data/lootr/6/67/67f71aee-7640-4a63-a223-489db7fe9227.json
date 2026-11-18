@@ -1,0 +1,66 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:chainmail_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:aqua_affinity",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:blue_orchid"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:blue_orchid"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/67/67f71aee-7640-4a63-a223-489db7fe9227",
+  "position": {
+   "X": -1859,
+   "Y": 138,
+   "Z": -867
+  },
+  "size": 27,
+  "uuid": [
+   1744247534,
+   1983924835,
+   -1574745955,
+   -1208053209
+  ],
+  "uuid_str": "67f71aee-7640-4a63-a223-489db7fe9227"
+ }
+}

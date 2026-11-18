@@ -1,0 +1,77 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 8,
+       "Slot": 1,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "magistuarmory:barding"
+      },
+      {
+       "Count": 2,
+       "Slot": 21,
+       "id": "domesticationinnovation:sinister_carrot"
+      },
+      {
+       "Count": 8,
+       "Slot": 23,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:iron_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "explorerscompass:explorerscompass"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/7/7a/7aa3f6c0-97d6-470c-8982-a9ef67b90df9",
+  "position": {
+   "X": -852,
+   "Y": 224,
+   "Z": 97
+  },
+  "size": 27,
+  "uuid": [
+   2057565888,
+   -1747564788,
+   -1987925521,
+   1740180985
+  ],
+  "uuid_str": "7aa3f6c0-97d6-470c-8982-a9ef67b90df9"
+ }
+}

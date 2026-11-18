@@ -1,0 +1,43 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:rose_bush"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/63/63b9f072-6f23-49f5-82aa-2f27244f8c73",
+  "position": {
+   "X": -1854,
+   "Y": 138,
+   "Z": -891
+  },
+  "size": 27,
+  "uuid": [
+   1673130098,
+   1864583669,
+   -2102776025,
+   609193075
+  ],
+  "uuid_str": "63b9f072-6f23-49f5-82aa-2f27244f8c73"
+ }
+}

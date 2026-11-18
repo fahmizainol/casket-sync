@@ -1,0 +1,109 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 2,
+       "Slot": 15,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "epicfight:golden_spear",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:arrow"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/62/6237472b-259b-4f77-a6ca-2a71ccf1dd11",
+  "position": {
+   "X": -1495,
+   "Y": 96,
+   "Z": -422
+  },
+  "size": 27,
+  "uuid": [
+   1647789867,
+   630935415,
+   -1496700303,
+   -856564463
+  ],
+  "uuid_str": "6237472b-259b-4f77-a6ca-2a71ccf1dd11"
+ }
+}

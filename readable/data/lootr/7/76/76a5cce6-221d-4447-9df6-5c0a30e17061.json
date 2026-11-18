@@ -1,0 +1,94 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:crossbow",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 2,
+       "Slot": 19,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:arrow"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/7/76/76a5cce6-221d-4447-9df6-5c0a30e17061",
+  "position": {
+   "X": -1495,
+   "Y": 94,
+   "Z": -422
+  },
+  "size": 27,
+  "uuid": [
+   1990577382,
+   572343367,
+   -1644798966,
+   820080737
+  ],
+  "uuid_str": "76a5cce6-221d-4447-9df6-5c0a30e17061"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 3,
+       "id": "minecraft:wheat_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:barrel"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:wheat_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:barrel"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:wheat_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:wheat_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:wheat_seeds"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/fc/fc70caf1-4f8e-4920-8675-e5a79b05c120",
+  "position": {
+   "X": 190,
+   "Y": 73,
+   "Z": -657
+  },
+  "size": 27,
+  "uuid": [
+   -59716879,
+   1334724896,
+   -2039093849,
+   -1694121696
+  ],
+  "uuid_str": "fc70caf1-4f8e-4920-8675-e5a79b05c120"
+ }
+}

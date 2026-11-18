@@ -1,0 +1,165 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:golden_sword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "magistuarmory:rustedcrusader_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "magistuarmory:rustedcrusader_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "supplementaries:ash"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:potion",
+       "tag": {
+        "Potion": "minecraft:healing"
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "quark:smithing_template_rune"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:gold_ingot"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:chorus_fruit"
+      },
+      {
+       "Count": 2,
+       "Slot": 10,
+       "id": "minecraft:netherite_scrap"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:chorus_fruit"
+      },
+      {
+       "Count": 5,
+       "Slot": 13,
+       "id": "minecraft:chorus_fruit"
+      },
+      {
+       "Count": 3,
+       "Slot": 15,
+       "id": "minecraft:chorus_fruit"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:potion",
+       "tag": {
+        "Potion": "minecraft:healing"
+       }
+      },
+      {
+       "Count": 2,
+       "Slot": 19,
+       "id": "minecraft:chorus_fruit"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:netherite_scrap"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:golden_chestplate",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:chorus_fruit"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:iron_horse_armor"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/f7/f78818aa-49e2-474a-8251-ba0e085bb105",
+  "position": {
+   "X": -849,
+   "Y": 214,
+   "Z": 55
+  },
+  "size": 27,
+  "uuid": [
+   -142075734,
+   1239566154,
+   -2108573170,
+   140226821
+  ],
+  "uuid_str": "f78818aa-49e2-474a-8251-ba0e085bb105"
+ }
+}

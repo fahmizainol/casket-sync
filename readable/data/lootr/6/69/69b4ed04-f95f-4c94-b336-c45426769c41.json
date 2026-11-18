@@ -1,0 +1,71 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:iron_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/69/69b4ed04-f95f-4c94-b336-c45426769c41",
+  "position": {
+   "X": -1247,
+   "Y": 63,
+   "Z": 820
+  },
+  "size": 27,
+  "uuid": [
+   1773464836,
+   -111194988,
+   -1288256428,
+   645307457
+  ],
+  "uuid_str": "69b4ed04-f95f-4c94-b336-c45426769c41"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:leather_helmet",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 49,
+       "Slot": 22,
+       "id": "minecraft:rotten_flesh"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/f3/f3e9517b-8e27-4a47-b146-3332c9d43afc",
+  "position": {
+   "X": -1701,
+   "Y": 168,
+   "Z": -1112
+  },
+  "size": 27,
+  "uuid": [
+   -202813061,
+   -1910027705,
+   -1320799438,
+   -908838148
+  ],
+  "uuid_str": "f3e9517b-8e27-4a47-b146-3332c9d43afc"
+ }
+}

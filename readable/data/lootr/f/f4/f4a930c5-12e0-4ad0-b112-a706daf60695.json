@@ -1,0 +1,81 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 1,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:feather"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/f4/f4a930c5-12e0-4ad0-b112-a706daf60695",
+  "position": {
+   "X": 185,
+   "Y": 75,
+   "Z": -659
+  },
+  "size": 27,
+  "uuid": [
+   -190238523,
+   316689104,
+   -1324177658,
+   -621410667
+  ],
+  "uuid_str": "f4a930c5-12e0-4ad0-b112-a706daf60695"
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:emerald"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:emerald"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:brick"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/0/05/05b16861-4228-41a5-971c-b76bb53b25b6",
+  "position": {
+   "X": -1243,
+   "Y": 64,
+   "Z": 819
+  },
+  "size": 27,
+  "uuid": [
+   95512673,
+   1109934501,
+   -1759725717,
+   -1254414922
+  ],
+  "uuid_str": "05b16861-4228-41a5-971c-b76bb53b25b6"
+ }
+}

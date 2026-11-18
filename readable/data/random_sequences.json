@@ -1,0 +1,1559 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "artifacts:entity_equipment/drowned": {
+   "source": [
+    -2695235221028109548,
+    4028862185839811147
+   ]
+  },
+  "artifacts:entity_equipment/husk": {
+   "source": [
+    2020062851354897212,
+    5514700741007867528
+   ]
+  },
+  "artifacts:entity_equipment/skeleton": {
+   "source": [
+    7790547622276173801,
+    7376974949928768490
+   ]
+  },
+  "artifacts:entity_equipment/zombie": {
+   "source": [
+    -7210937995611533380,
+    2990237336987161935
+   ]
+  },
+  "ba_bt:blocks/active_corrite_block": {
+   "source": [
+    9117807284440161924,
+    8808661104595908024
+   ]
+  },
+  "ba_bt:blocks/active_corrite_slab": {
+   "source": [
+    7451995128116877671,
+    -2274024325968796680
+   ]
+  },
+  "ba_bt:blocks/active_corrite_stair": {
+   "source": [
+    8314094236160888941,
+    6763909687474624665
+   ]
+  },
+  "ba_bt:blocks/corrite_block": {
+   "source": [
+    -8334892678932896327,
+    6566980683139025375
+   ]
+  },
+  "ba_bt:blocks/corrite_slab": {
+   "source": [
+    259472275147777045,
+    5555513879912103950
+   ]
+  },
+  "ba_bt:entities/core_golem": {
+   "source": [
+    8957092952780046466,
+    -4306801181671935882
+   ]
+  },
+  "ba_bt:entities/land_golem": {
+   "source": [
+    8434596111225708624,
+    4804697808955242654
+   ]
+  },
+  "ba_bt:entities/ocean_golem": {
+   "source": [
+    2280503816620801566,
+    2193183576637655602
+   ]
+  },
+  "biomeswevegone:blocks/baobab_leaves": {
+   "source": [
+    5277639550310824998,
+    -5680492475616218897
+   ]
+  },
+  "biomeswevegone:blocks/blooming_witch_hazel_leaves": {
+   "source": [
+    2899070950227920989,
+    -4186053579055916082
+   ]
+  },
+  "biomeswevegone:blocks/blue_rose_bush": {
+   "source": [
+    -6227821858728184369,
+    -8467106927078131106
+   ]
+  },
+  "biomeswevegone:blocks/clover_patch": {
+   "source": [
+    -4644637227257372438,
+    -495777607454336607
+   ]
+  },
+  "biomeswevegone:blocks/delphinium": {
+   "source": [
+    -4550383722684703406,
+    -2454210049901632482
+   ]
+  },
+  "biomeswevegone:blocks/fir_leaves": {
+   "source": [
+    -13606402111198504,
+    -5937890470427654616
+   ]
+  },
+  "biomeswevegone:blocks/flower_patch": {
+   "source": [
+    -1612160155304160385,
+    -6153387042118804656
+   ]
+  },
+  "biomeswevegone:blocks/flowering_baobab_leaves": {
+   "source": [
+    5799183220023415416,
+    2983554022511807918
+   ]
+  },
+  "biomeswevegone:blocks/flowering_tiny_lily_pads": {
+   "source": [
+    1706350002878637014,
+    4037351740448480940
+   ]
+  },
+  "biomeswevegone:blocks/golden_spined_cactus": {
+   "source": [
+    2714911649704905584,
+    2934157295278912330
+   ]
+  },
+  "biomeswevegone:blocks/green_mushroom": {
+   "source": [
+    3814234693509502089,
+    -4322774837890229397
+   ]
+  },
+  "biomeswevegone:blocks/holly_leaves": {
+   "source": [
+    5444396788953334823,
+    494959461128643973
+   ]
+  },
+  "biomeswevegone:blocks/incan_lily": {
+   "source": [
+    -340376139048823255,
+    1033288812491402542
+   ]
+  },
+  "biomeswevegone:blocks/leaf_pile": {
+   "source": [
+    -270334545769112364,
+    -6506733586011441532
+   ]
+  },
+  "biomeswevegone:blocks/lollipop_flower": {
+   "source": [
+    -6157852127983731514,
+    3454419885555309762
+   ]
+  },
+  "biomeswevegone:blocks/mahogany_leaves": {
+   "source": [
+    1467188705528459418,
+    -121399598259147122
+   ]
+  },
+  "biomeswevegone:blocks/orange_daisy": {
+   "source": [
+    3802655731768042009,
+    -8344455583147604194
+   ]
+  },
+  "biomeswevegone:blocks/quicksand": {
+   "source": [
+    -5535623491465634760,
+    -8141138227633512103
+   ]
+  },
+  "biomeswevegone:blocks/rainbow_eucalyptus_leaves": {
+   "source": [
+    3265276958243207300,
+    -7425833208776007611
+   ]
+  },
+  "biomeswevegone:blocks/skyris_vine": {
+   "source": [
+    -7338345284706607045,
+    1130145175645022310
+   ]
+  },
+  "biomeswevegone:blocks/tall_allium": {
+   "source": [
+    3907696809251279383,
+    -3771676268573738532
+   ]
+  },
+  "biomeswevegone:blocks/tall_pink_allium": {
+   "source": [
+    6944300360885401354,
+    -6139631713195919307
+   ]
+  },
+  "biomeswevegone:blocks/tall_prairie_grass": {
+   "source": [
+    -2635433333821399827,
+    -7010091287710998153
+   ]
+  },
+  "biomeswevegone:blocks/tall_white_allium": {
+   "source": [
+    -1314286258670114805,
+    -5212843237278719154
+   ]
+  },
+  "biomeswevegone:blocks/tiny_lily_pads": {
+   "source": [
+    2300985176119917053,
+    1561874521689292923
+   ]
+  },
+  "biomeswevegone:blocks/water_silk": {
+   "source": [
+    3463666898564560546,
+    -6378327332221628655
+   ]
+  },
+  "biomeswevegone:blocks/weeping_milkcap": {
+   "source": [
+    -6287989484239173101,
+    -4060950443922368798
+   ]
+  },
+  "biomeswevegone:blocks/white_allium": {
+   "source": [
+    5608275365395343505,
+    1174625175668631137
+   ]
+  },
+  "biomeswevegone:blocks/white_puffball": {
+   "source": [
+    -8995625191745126808,
+    7386514483926131434
+   ]
+  },
+  "biomeswevegone:blocks/witch_hazel_leaves": {
+   "source": [
+    1909131527586974420,
+    -7000361263827298186
+   ]
+  },
+  "biomeswevegone:blocks/wood_blewit": {
+   "source": [
+    6302140285410443673,
+    -2325045100072991537
+   ]
+  },
+  "biomeswevegone:blocks/yellow_daffodil": {
+   "source": [
+    -4552806652282971808,
+    -6795284348136608776
+   ]
+  },
+  "minecraft:blocks/acacia_leaves": {
+   "source": [
+    3818596876960808546,
+    3085282501693548444
+   ]
+  },
+  "minecraft:blocks/allium": {
+   "source": [
+    7363525306709059496,
+    4101332976978339197
+   ]
+  },
+  "minecraft:blocks/amethyst_cluster": {
+   "source": [
+    -3325804750419723828,
+    -6783580565217015813
+   ]
+  },
+  "minecraft:blocks/andesite": {
+   "source": [
+    -5510966736843610563,
+    -5045185775792053104
+   ]
+  },
+  "minecraft:blocks/azalea": {
+   "source": [
+    993194033286775182,
+    -112990111824004146
+   ]
+  },
+  "minecraft:blocks/azalea_leaves": {
+   "source": [
+    -173873798080628093,
+    -6370743625530111487
+   ]
+  },
+  "minecraft:blocks/bamboo": {
+   "source": [
+    8390352874650750894,
+    -6841164971360987736
+   ]
+  },
+  "minecraft:blocks/barrel": {
+   "source": [
+    5447574107577378199,
+    -859821343020878056
+   ]
+  },
+  "minecraft:blocks/big_dripleaf": {
+   "source": [
+    7903488993954737936,
+    -1383053359677519049
+   ]
+  },
+  "minecraft:blocks/big_dripleaf_stem": {
+   "source": [
+    -3377796528741860419,
+    -1008610648048265056
+   ]
+  },
+  "minecraft:blocks/birch_leaves": {
+   "source": [
+    5613298700850293859,
+    -812920264166484327
+   ]
+  },
+  "minecraft:blocks/birch_planks": {
+   "source": [
+    -5657065367843881698,
+    3100386964314025605
+   ]
+  },
+  "minecraft:blocks/black_bed": {
+   "source": [
+    -1810315346793803968,
+    1543999554517348040
+   ]
+  },
+  "minecraft:blocks/blast_furnace": {
+   "source": [
+    5480400586382425607,
+    7051233795197273571
+   ]
+  },
+  "minecraft:blocks/blue_bed": {
+   "source": [
+    1831891926230752828,
+    -5334141160714606340
+   ]
+  },
+  "minecraft:blocks/bookshelf": {
+   "source": [
+    1181454263988274359,
+    -1254195915326360994
+   ]
+  },
+  "minecraft:blocks/brain_coral": {
+   "source": [
+    5080839304303862142,
+    8091709221574364802
+   ]
+  },
+  "minecraft:blocks/brain_coral_fan": {
+   "source": [
+    -5592138294547882529,
+    9001897218121943236
+   ]
+  },
+  "minecraft:blocks/brewing_stand": {
+   "source": [
+    -6080507991771156113,
+    4586083588570319959
+   ]
+  },
+  "minecraft:blocks/brown_bed": {
+   "source": [
+    6229515062365776572,
+    8600583388797808496
+   ]
+  },
+  "minecraft:blocks/brown_carpet": {
+   "source": [
+    4220719532381214523,
+    2029474192416885356
+   ]
+  },
+  "minecraft:blocks/brown_mushroom": {
+   "source": [
+    -1013527274622793386,
+    8071500667792788066
+   ]
+  },
+  "minecraft:blocks/bubble_coral": {
+   "source": [
+    -1417967619345975782,
+    -3884323058202426672
+   ]
+  },
+  "minecraft:blocks/calcite": {
+   "source": [
+    4724780469328636759,
+    1466902751749017008
+   ]
+  },
+  "minecraft:blocks/cave_vines": {
+   "source": [
+    -474739236578254694,
+    993473076277468848
+   ]
+  },
+  "minecraft:blocks/cave_vines_plant": {
+   "source": [
+    -3181505368791225043,
+    -1088245590463014824
+   ]
+  },
+  "minecraft:blocks/chiseled_deepslate": {
+   "source": [
+    316066113252557693,
+    4625191637339384108
+   ]
+  },
+  "minecraft:blocks/chiseled_red_sandstone": {
+   "source": [
+    -8250895030405205482,
+    -3076918743645430074
+   ]
+  },
+  "minecraft:blocks/chiseled_stone_bricks": {
+   "source": [
+    4778575718195744520,
+    -7237966456714041910
+   ]
+  },
+  "minecraft:blocks/coal_ore": {
+   "source": [
+    6351002649095775030,
+    -6291670467726646277
+   ]
+  },
+  "minecraft:blocks/cobblestone": {
+   "source": [
+    8348277075500323584,
+    2232732432497369003
+   ]
+  },
+  "minecraft:blocks/cobblestone_slab": {
+   "source": [
+    6226851305580531077,
+    8955312034075527407
+   ]
+  },
+  "minecraft:blocks/cracked_stone_bricks": {
+   "source": [
+    8748336073922884596,
+    1220638467346805937
+   ]
+  },
+  "minecraft:blocks/cut_sandstone": {
+   "source": [
+    6147266343729766221,
+    5040129720450872337
+   ]
+  },
+  "minecraft:blocks/dandelion": {
+   "source": [
+    -7731415365867299625,
+    4469550620079787529
+   ]
+  },
+  "minecraft:blocks/dark_oak_leaves": {
+   "source": [
+    4882463928071296702,
+    9134210032418727730
+   ]
+  },
+  "minecraft:blocks/dark_oak_log": {
+   "source": [
+    -6168064368162721562,
+    658905543096759763
+   ]
+  },
+  "minecraft:blocks/dark_oak_planks": {
+   "source": [
+    6313109219755467109,
+    5119492913125084078
+   ]
+  },
+  "minecraft:blocks/dark_oak_sign": {
+   "source": [
+    1515216603916711605,
+    5514751704168513056
+   ]
+  },
+  "minecraft:blocks/dark_oak_slab": {
+   "source": [
+    7809734419263047410,
+    -8668026334701692696
+   ]
+  },
+  "minecraft:blocks/dark_oak_stairs": {
+   "source": [
+    6472665517823458530,
+    -1424015275181083887
+   ]
+  },
+  "minecraft:blocks/dark_oak_trapdoor": {
+   "source": [
+    8935731871328665001,
+    -4525404172630829608
+   ]
+  },
+  "minecraft:blocks/dark_prismarine": {
+   "source": [
+    -9075598833056464059,
+    4907391934704983951
+   ]
+  },
+  "minecraft:blocks/dark_prismarine_slab": {
+   "source": [
+    -966610548754961922,
+    2663744602943574504
+   ]
+  },
+  "minecraft:blocks/deepslate_bricks": {
+   "source": [
+    8704178463953580483,
+    -8125230116221280375
+   ]
+  },
+  "minecraft:blocks/deepslate_copper_ore": {
+   "source": [
+    1897764526144860233,
+    213613722111142855
+   ]
+  },
+  "minecraft:blocks/deepslate_tile_wall": {
+   "source": [
+    -7446956047810770346,
+    -965278883245040300
+   ]
+  },
+  "minecraft:blocks/deepslate_tiles": {
+   "source": [
+    -5187785114055465529,
+    -3996739953691354818
+   ]
+  },
+  "minecraft:blocks/diamond_block": {
+   "source": [
+    4967071246962109047,
+    9164213705825578414
+   ]
+  },
+  "minecraft:blocks/diorite": {
+   "source": [
+    -2393199997766727065,
+    2896379669783827416
+   ]
+  },
+  "minecraft:blocks/diorite_wall": {
+   "source": [
+    8634581676064867371,
+    5720061263945900243
+   ]
+  },
+  "minecraft:blocks/dirt": {
+   "source": [
+    -6584472351634953541,
+    -734062151344483598
+   ]
+  },
+  "minecraft:blocks/ender_chest": {
+   "source": [
+    -8372675825844604723,
+    -7047652064862318824
+   ]
+  },
+  "minecraft:blocks/fern": {
+   "source": [
+    -859132994337962048,
+    -4411036908354884907
+   ]
+  },
+  "minecraft:blocks/fire": {
+   "source": [
+    4926447966231645081,
+    -8450724958972218856
+   ]
+  },
+  "minecraft:blocks/fire_coral": {
+   "source": [
+    5784498564240991429,
+    -3203095427690672857
+   ]
+  },
+  "minecraft:blocks/flowering_azalea": {
+   "source": [
+    -1272643257671136051,
+    3641166998960297882
+   ]
+  },
+  "minecraft:blocks/flowering_azalea_leaves": {
+   "source": [
+    5761588102201637917,
+    -8177878685328784818
+   ]
+  },
+  "minecraft:blocks/glass_pane": {
+   "source": [
+    1523565783723350563,
+    8966838042287405163
+   ]
+  },
+  "minecraft:blocks/glow_lichen": {
+   "source": [
+    4444553195508645147,
+    7585291734042277764
+   ]
+  },
+  "minecraft:blocks/gold_block": {
+   "source": [
+    4615753901258372491,
+    1826378642450291534
+   ]
+  },
+  "minecraft:blocks/granite": {
+   "source": [
+    8532801091984325247,
+    -9067185895464849419
+   ]
+  },
+  "minecraft:blocks/grass": {
+   "source": [
+    -3486706559881194959,
+    7210360295370827240
+   ]
+  },
+  "minecraft:blocks/grass_block": {
+   "source": [
+    7262373346883765925,
+    6872689898237336489
+   ]
+  },
+  "minecraft:blocks/gray_carpet": {
+   "source": [
+    58773827522808523,
+    -5908444174264936115
+   ]
+  },
+  "minecraft:blocks/gray_wool": {
+   "source": [
+    6359069236833861938,
+    -2209159085506043558
+   ]
+  },
+  "minecraft:blocks/green_bed": {
+   "source": [
+    2443135825545829423,
+    -3185786110990623334
+   ]
+  },
+  "minecraft:blocks/hay_block": {
+   "source": [
+    6593710296340175390,
+    -5998822758893576004
+   ]
+  },
+  "minecraft:blocks/horn_coral": {
+   "source": [
+    -8494013923303845822,
+    5126768921023349102
+   ]
+  },
+  "minecraft:blocks/horn_coral_fan": {
+   "source": [
+    -4948158347986590505,
+    -6445630191493357805
+   ]
+  },
+  "minecraft:blocks/infested_cracked_stone_bricks": {
+   "source": [
+    3725128414990684454,
+    -7925806796998911282
+   ]
+  },
+  "minecraft:blocks/iron_bars": {
+   "source": [
+    -5206887151631988334,
+    5575941690608169543
+   ]
+  },
+  "minecraft:blocks/iron_door": {
+   "source": [
+    -1838060142357914764,
+    -2166284910081411328
+   ]
+  },
+  "minecraft:blocks/jungle_leaves": {
+   "source": [
+    4296962224548069745,
+    4029422579790197419
+   ]
+  },
+  "minecraft:blocks/kelp": {
+   "source": [
+    5730382364716494198,
+    -7382691956878646469
+   ]
+  },
+  "minecraft:blocks/kelp_plant": {
+   "source": [
+    -9066467036102228928,
+    6676352262233165170
+   ]
+  },
+  "minecraft:blocks/ladder": {
+   "source": [
+    -3951580241104140102,
+    6683698904739142887
+   ]
+  },
+  "minecraft:blocks/lantern": {
+   "source": [
+    -6126140745574220890,
+    2271910863189496137
+   ]
+  },
+  "minecraft:blocks/lapis_block": {
+   "source": [
+    -1549305708794176647,
+    -2403765000536239054
+   ]
+  },
+  "minecraft:blocks/large_amethyst_bud": {
+   "source": [
+    6598520372106019996,
+    6699647685730675833
+   ]
+  },
+  "minecraft:blocks/large_fern": {
+   "source": [
+    8302492362639412442,
+    5506104981688654965
+   ]
+  },
+  "minecraft:blocks/lily_pad": {
+   "source": [
+    323873166182999399,
+    2604438846055415091
+   ]
+  },
+  "minecraft:blocks/loom": {
+   "source": [
+    -8153553095447365116,
+    -5100830993085735295
+   ]
+  },
+  "minecraft:blocks/magma_block": {
+   "source": [
+    -7663907166553731782,
+    -3764081017543463308
+   ]
+  },
+  "minecraft:blocks/medium_amethyst_bud": {
+   "source": [
+    -4396662315757310540,
+    6998038570018789282
+   ]
+  },
+  "minecraft:blocks/melon": {
+   "source": [
+    -2620644962807324956,
+    -2665922094208970003
+   ]
+  },
+  "minecraft:blocks/melon_stem": {
+   "source": [
+    2622765721507164277,
+    -5651163523349570803
+   ]
+  },
+  "minecraft:blocks/moss_block": {
+   "source": [
+    -4971101045837964472,
+    -8997824526874905832
+   ]
+  },
+  "minecraft:blocks/moss_carpet": {
+   "source": [
+    -7798744790973783692,
+    5092031463970815813
+   ]
+  },
+  "minecraft:blocks/mossy_cobblestone": {
+   "source": [
+    -2592047133688345692,
+    -51734156894845169
+   ]
+  },
+  "minecraft:blocks/mossy_cobblestone_slab": {
+   "source": [
+    -8635085857879136385,
+    3663807335005064279
+   ]
+  },
+  "minecraft:blocks/mossy_stone_bricks": {
+   "source": [
+    -3768199394000757745,
+    -8017665681818376474
+   ]
+  },
+  "minecraft:blocks/oak_fence": {
+   "source": [
+    3280790110324015787,
+    6582260881782405268
+   ]
+  },
+  "minecraft:blocks/oak_leaves": {
+   "source": [
+    790010065407155330,
+    -4813643905484790479
+   ]
+  },
+  "minecraft:blocks/oak_log": {
+   "source": [
+    -6042700065541578968,
+    -6255649258768063553
+   ]
+  },
+  "minecraft:blocks/oak_planks": {
+   "source": [
+    -1345458450287036715,
+    -1311029969345091899
+   ]
+  },
+  "minecraft:blocks/oak_sign": {
+   "source": [
+    7458347394987877367,
+    -6279664781781686268
+   ]
+  },
+  "minecraft:blocks/oak_slab": {
+   "source": [
+    7549835328698778162,
+    -2525002375756685365
+   ]
+  },
+  "minecraft:blocks/oak_stairs": {
+   "source": [
+    -2349199182315757001,
+    8590653833150816340
+   ]
+  },
+  "minecraft:blocks/oak_trapdoor": {
+   "source": [
+    5073097342802677364,
+    9129538944381927398
+   ]
+  },
+  "minecraft:blocks/obsidian": {
+   "source": [
+    -5781942941262927742,
+    491064271407092621
+   ]
+  },
+  "minecraft:blocks/oxeye_daisy": {
+   "source": [
+    -5320622354766690227,
+    -8810298526654759363
+   ]
+  },
+  "minecraft:blocks/oxidized_copper": {
+   "source": [
+    -4825459070204658497,
+    -6322252771287307597
+   ]
+  },
+  "minecraft:blocks/pink_carpet": {
+   "source": [
+    6142098456768631632,
+    -6612481692578695982
+   ]
+  },
+  "minecraft:blocks/pink_terracotta": {
+   "source": [
+    -412612818700177751,
+    4533659879170428030
+   ]
+  },
+  "minecraft:blocks/polished_granite": {
+   "source": [
+    -6752371590042880501,
+    4056935111245359736
+   ]
+  },
+  "minecraft:blocks/potted_allium": {
+   "source": [
+    5224242897795420371,
+    -6269004715620661471
+   ]
+  },
+  "minecraft:blocks/potted_azure_bluet": {
+   "source": [
+    -7283235718746475655,
+    -5307704114182775365
+   ]
+  },
+  "minecraft:blocks/prismarine_brick_slab": {
+   "source": [
+    6194845978393159185,
+    7024724135222894013
+   ]
+  },
+  "minecraft:blocks/prismarine_brick_stairs": {
+   "source": [
+    -3553798838157738240,
+    -6632621821983802855
+   ]
+  },
+  "minecraft:blocks/prismarine_bricks": {
+   "source": [
+    6941147866318881041,
+    1213056984755726960
+   ]
+  },
+  "minecraft:blocks/prismarine_slab": {
+   "source": [
+    -6591521095754898166,
+    8639187546151220017
+   ]
+  },
+  "minecraft:blocks/pumpkin_stem": {
+   "source": [
+    5767652002755837453,
+    -6425038332295234615
+   ]
+  },
+  "minecraft:blocks/rail": {
+   "source": [
+    7637186749555608267,
+    -133002080775305156
+   ]
+  },
+  "minecraft:blocks/red_bed": {
+   "source": [
+    3604095791623319661,
+    -1390446299853759810
+   ]
+  },
+  "minecraft:blocks/red_carpet": {
+   "source": [
+    5842084262068300291,
+    -6049812001690013156
+   ]
+  },
+  "minecraft:blocks/red_nether_bricks": {
+   "source": [
+    4162992210536187945,
+    1358383545920497205
+   ]
+  },
+  "minecraft:blocks/red_tulip": {
+   "source": [
+    3359397507471723834,
+    395858505898726200
+   ]
+  },
+  "minecraft:blocks/redstone_torch": {
+   "source": [
+    -6797225227721084199,
+    2715654979692561740
+   ]
+  },
+  "minecraft:blocks/redstone_wire": {
+   "source": [
+    -5284720753860524291,
+    8439027020528136799
+   ]
+  },
+  "minecraft:blocks/sand": {
+   "source": [
+    1091609460381591511,
+    -397993907331518218
+   ]
+  },
+  "minecraft:blocks/scaffolding": {
+   "source": [
+    -3021495865950463925,
+    -2847050130763568595
+   ]
+  },
+  "minecraft:blocks/sculk": {
+   "source": [
+    2755689778868150319,
+    3553801542749240456
+   ]
+  },
+  "minecraft:blocks/sea_lantern": {
+   "source": [
+    695973289499264712,
+    -4402149531187415319
+   ]
+  },
+  "minecraft:blocks/sea_pickle": {
+   "source": [
+    -7285317371156131535,
+    -3444280283391395537
+   ]
+  },
+  "minecraft:blocks/seagrass": {
+   "source": [
+    1664311705768691624,
+    -7657483751363326081
+   ]
+  },
+  "minecraft:blocks/skeleton_skull": {
+   "source": [
+    -7959704296687779310,
+    857551980472394782
+   ]
+  },
+  "minecraft:blocks/small_amethyst_bud": {
+   "source": [
+    7920040198371320275,
+    -8094253661212068685
+   ]
+  },
+  "minecraft:blocks/small_dripleaf": {
+   "source": [
+    1198762823135109826,
+    3985035232149483432
+   ]
+  },
+  "minecraft:blocks/smoker": {
+   "source": [
+    -1121279144946890482,
+    -4482715075571284375
+   ]
+  },
+  "minecraft:blocks/smooth_stone": {
+   "source": [
+    2724266572176019515,
+    -8951123150600699159
+   ]
+  },
+  "minecraft:blocks/smooth_stone_slab": {
+   "source": [
+    4500810796623659195,
+    7677867035371070402
+   ]
+  },
+  "minecraft:blocks/snow": {
+   "source": [
+    8065684682322626374,
+    -6227981676756230461
+   ]
+  },
+  "minecraft:blocks/soul_campfire": {
+   "source": [
+    3263313591614828884,
+    7000885155380100092
+   ]
+  },
+  "minecraft:blocks/soul_lantern": {
+   "source": [
+    -5611432568769326268,
+    8381886971573049105
+   ]
+  },
+  "minecraft:blocks/soul_sand": {
+   "source": [
+    2897165197046388799,
+    -5303132509926125761
+   ]
+  },
+  "minecraft:blocks/spawner": {
+   "source": [
+    80949054231431208,
+    9046660473852485949
+   ]
+  },
+  "minecraft:blocks/spore_blossom": {
+   "source": [
+    7571205454258646880,
+    -3781858051688594592
+   ]
+  },
+  "minecraft:blocks/spruce_door": {
+   "source": [
+    -4838426651617540458,
+    -33980819865651453
+   ]
+  },
+  "minecraft:blocks/spruce_fence": {
+   "source": [
+    -869788285159225229,
+    2915845459194845854
+   ]
+  },
+  "minecraft:blocks/spruce_fence_gate": {
+   "source": [
+    8222310669332056873,
+    -3931694148250894357
+   ]
+  },
+  "minecraft:blocks/spruce_hanging_sign": {
+   "source": [
+    -7596052874628259570,
+    7769973008626520567
+   ]
+  },
+  "minecraft:blocks/spruce_leaves": {
+   "source": [
+    2603807612448270228,
+    -503185034486050512
+   ]
+  },
+  "minecraft:blocks/spruce_planks": {
+   "source": [
+    5569716006984150272,
+    -985318609450566008
+   ]
+  },
+  "minecraft:blocks/spruce_slab": {
+   "source": [
+    -8815346881946261367,
+    -1573795664732530810
+   ]
+  },
+  "minecraft:blocks/spruce_stairs": {
+   "source": [
+    6604737073924248715,
+    -8443002891943647334
+   ]
+  },
+  "minecraft:blocks/spruce_trapdoor": {
+   "source": [
+    -7772738610544389361,
+    280507613765992668
+   ]
+  },
+  "minecraft:blocks/stone": {
+   "source": [
+    5108579192601714254,
+    312623842068426038
+   ]
+  },
+  "minecraft:blocks/stone_brick_slab": {
+   "source": [
+    -90478946902032682,
+    974719502582300807
+   ]
+  },
+  "minecraft:blocks/stone_brick_stairs": {
+   "source": [
+    5910956536049069327,
+    -4785808620399538839
+   ]
+  },
+  "minecraft:blocks/stone_bricks": {
+   "source": [
+    -9104173205226538852,
+    -7350839502004555535
+   ]
+  },
+  "minecraft:blocks/stone_button": {
+   "source": [
+    7637490209274523519,
+    3696913650454681134
+   ]
+  },
+  "minecraft:blocks/stone_pressure_plate": {
+   "source": [
+    -5323307997699896948,
+    -3319286820305425490
+   ]
+  },
+  "minecraft:blocks/stone_slab": {
+   "source": [
+    7146018695265273332,
+    -608864893995073184
+   ]
+  },
+  "minecraft:blocks/stone_stairs": {
+   "source": [
+    7001168423924486417,
+    -3470508523978119181
+   ]
+  },
+  "minecraft:blocks/stonecutter": {
+   "source": [
+    7662768727146417707,
+    1098578674709859623
+   ]
+  },
+  "minecraft:blocks/stripped_dark_oak_log": {
+   "source": [
+    2862876410732601073,
+    7621193510286986690
+   ]
+  },
+  "minecraft:blocks/stripped_dark_oak_wood": {
+   "source": [
+    -7537114017932818857,
+    -4285629630912289049
+   ]
+  },
+  "minecraft:blocks/stripped_mangrove_wood": {
+   "source": [
+    5561897884576174926,
+    1008400483539645874
+   ]
+  },
+  "minecraft:blocks/stripped_oak_log": {
+   "source": [
+    -181979427920609259,
+    -1830835535007931315
+   ]
+  },
+  "minecraft:blocks/sugar_cane": {
+   "source": [
+    -349395902503899212,
+    -314702821457932491
+   ]
+  },
+  "minecraft:blocks/tall_grass": {
+   "source": [
+    5700866910790998930,
+    861784384564167000
+   ]
+  },
+  "minecraft:blocks/tall_seagrass": {
+   "source": [
+    1912661872984127060,
+    4930374898659803897
+   ]
+  },
+  "minecraft:blocks/terracotta": {
+   "source": [
+    6878170872833931050,
+    163575659433423605
+   ]
+  },
+  "minecraft:blocks/tripwire_hook": {
+   "source": [
+    -8961198885740087916,
+    -9123578736248527100
+   ]
+  },
+  "minecraft:blocks/tube_coral": {
+   "source": [
+    7435937376391762051,
+    -7285027560655451528
+   ]
+  },
+  "minecraft:blocks/tube_coral_fan": {
+   "source": [
+    -8268991141351954171,
+    490246403966515611
+   ]
+  },
+  "minecraft:blocks/tuff": {
+   "source": [
+    -3241174719715205105,
+    -715846431376663694
+   ]
+  },
+  "minecraft:blocks/vine": {
+   "source": [
+    -3008925195459709922,
+    -4110886974052758599
+   ]
+  },
+  "minecraft:blocks/waxed_cut_copper_slab": {
+   "source": [
+    6613909284115531722,
+    3073607745731718495
+   ]
+  },
+  "minecraft:blocks/waxed_cut_copper_stairs": {
+   "source": [
+    2371613516948928750,
+    4201980850506294865
+   ]
+  },
+  "minecraft:blocks/wheat": {
+   "source": [
+    2500763912453283508,
+    -8309946073313468754
+   ]
+  },
+  "minecraft:blocks/white_banner": {
+   "source": [
+    2077871512795820699,
+    420896218424800269
+   ]
+  },
+  "minecraft:blocks/white_bed": {
+   "source": [
+    -9078917525127677131,
+    -9199809299590490742
+   ]
+  },
+  "minecraft:blocks/white_carpet": {
+   "source": [
+    5620801284689981813,
+    -3356324410780637122
+   ]
+  },
+  "minecraft:blocks/white_tulip": {
+   "source": [
+    7728803814958438447,
+    8598475403730908789
+   ]
+  },
+  "minecraft:entities/armor_stand": {
+   "source": [
+    6687447825953996560,
+    -1465678440381934868
+   ]
+  },
+  "minecraft:entities/bat": {
+   "source": [
+    7549025941821041564,
+    4203669030474963366
+   ]
+  },
+  "minecraft:entities/cat": {
+   "source": [
+    1044643989868713269,
+    2057738404790534003
+   ]
+  },
+  "minecraft:entities/cave_spider": {
+   "source": [
+    8515702255179781682,
+    1988568290085485586
+   ]
+  },
+  "minecraft:entities/chicken": {
+   "source": [
+    8160221950125129434,
+    8926362043517729880
+   ]
+  },
+  "minecraft:entities/cod": {
+   "source": [
+    2992101747622433785,
+    4063968018094882215
+   ]
+  },
+  "minecraft:entities/cow": {
+   "source": [
+    -1883864001061592019,
+    7821410679839102086
+   ]
+  },
+  "minecraft:entities/creeper": {
+   "source": [
+    -705413373485212789,
+    389850297049198131
+   ]
+  },
+  "minecraft:entities/drowned": {
+   "source": [
+    -8077839528831404450,
+    3402874459546256407
+   ]
+  },
+  "minecraft:entities/enderman": {
+   "source": [
+    6247422752660849991,
+    -5051350639772401602
+   ]
+  },
+  "minecraft:entities/evoker": {
+   "source": [
+    4549930838513264530,
+    6894670689914164724
+   ]
+  },
+  "minecraft:entities/glow_squid": {
+   "source": [
+    -369549514667234637,
+    7837127353173441916
+   ]
+  },
+  "minecraft:entities/guardian": {
+   "source": [
+    -7213746216073112656,
+    7419103634811660553
+   ]
+  },
+  "minecraft:entities/hoglin": {
+   "source": [
+    -4258191964190901790,
+    -5665102047102419955
+   ]
+  },
+  "minecraft:entities/husk": {
+   "source": [
+    4459251738971054098,
+    -8847861401420542720
+   ]
+  },
+  "minecraft:entities/illusioner": {
+   "source": [
+    1565135045064150818,
+    -4881484138755009009
+   ]
+  },
+  "minecraft:entities/iron_golem": {
+   "source": [
+    -5533501027319764788,
+    5261374554435081057
+   ]
+  },
+  "minecraft:entities/magma_cube": {
+   "source": [
+    3347202632755992136,
+    7705141733466238486
+   ]
+  },
+  "minecraft:entities/parrot": {
+   "source": [
+    6540347986573674766,
+    -9116399886081309424
+   ]
+  },
+  "minecraft:entities/phantom": {
+   "source": [
+    7937304898518897458,
+    2883988495439465470
+   ]
+  },
+  "minecraft:entities/pillager": {
+   "source": [
+    5862155715563378426,
+    -2253578906218917043
+   ]
+  },
+  "minecraft:entities/player": {
+   "source": [
+    -2100140190897291622,
+    -2516828330438611769
+   ]
+  },
+  "minecraft:entities/pufferfish": {
+   "source": [
+    6414787707697768120,
+    562830504005298437
+   ]
+  },
+  "minecraft:entities/sheep/black": {
+   "source": [
+    -3060223544645565790,
+    2881702149221150507
+   ]
+  },
+  "minecraft:entities/sheep/gray": {
+   "source": [
+    3349614761513259105,
+    1902407765239384026
+   ]
+  },
+  "minecraft:entities/sheep/white": {
+   "source": [
+    -2625399795141135062,
+    5776805167714590454
+   ]
+  },
+  "minecraft:entities/silverfish": {
+   "source": [
+    -5455895012130095643,
+    -6344001528500062943
+   ]
+  },
+  "minecraft:entities/skeleton": {
+   "source": [
+    -2043717244433782792,
+    -8489600819699584929
+   ]
+  },
+  "minecraft:entities/slime": {
+   "source": [
+    4768410259232108774,
+    5683448308211680260
+   ]
+  },
+  "minecraft:entities/spider": {
+   "source": [
+    -946727949428063554,
+    -6661548593310238783
+   ]
+  },
+  "minecraft:entities/squid": {
+   "source": [
+    -7970166073343901010,
+    123079200698424447
+   ]
+  },
+  "minecraft:entities/tropical_fish": {
+   "source": [
+    1184097979617408421,
+    1843311912427992503
+   ]
+  },
+  "minecraft:entities/villager": {
+   "source": [
+    7912551596487415826,
+    -1955320967546692370
+   ]
+  },
+  "minecraft:entities/vindicator": {
+   "source": [
+    4651997501316652854,
+    6185160864132663511
+   ]
+  },
+  "minecraft:entities/witch": {
+   "source": [
+    9103290356313807140,
+    -1772726682136750250
+   ]
+  },
+  "minecraft:entities/wither_skeleton": {
+   "source": [
+    7865098343116533845,
+    8302094322694132273
+   ]
+  },
+  "minecraft:entities/wolf": {
+   "source": [
+    -2597097431537988498,
+    7236908049753006164
+   ]
+  },
+  "minecraft:entities/zombie": {
+   "source": [
+    -2865717523717117293,
+    -2025433701222605928
+   ]
+  },
+  "minecraft:entities/zombie_villager": {
+   "source": [
+    3862653796741906231,
+    -319337683859299172
+   ]
+  }
+ }
+}

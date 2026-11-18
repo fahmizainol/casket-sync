@@ -1,0 +1,155 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:brick"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 2,
+       "Slot": 9,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:iron_pickaxe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:brick"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/9/97/9708c53e-199a-43b9-b521-1d9bf1e1474e",
+  "position": {
+   "X": -1226,
+   "Y": 80,
+   "Z": 859
+  },
+  "size": 27,
+  "uuid": [
+   -1761032898,
+   429540281,
+   -1256120933,
+   -236894386
+  ],
+  "uuid_str": "9708c53e-199a-43b9-b521-1d9bf1e1474e"
+ }
+}

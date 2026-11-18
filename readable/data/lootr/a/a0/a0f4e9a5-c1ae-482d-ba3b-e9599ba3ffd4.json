@@ -1,0 +1,48 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 20,
+       "Slot": 18,
+       "id": "armourers_workshop:skin-template"
+      },
+      {
+       "Count": 18,
+       "Slot": 25,
+       "id": "minecraft:wheat_seeds"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/a/a0/a0f4e9a5-c1ae-482d-ba3b-e9599ba3ffd4",
+  "position": {
+   "X": -400,
+   "Y": 175,
+   "Z": -1567
+  },
+  "size": 27,
+  "uuid": [
+   -1594562139,
+   -1045542867,
+   -1170478759,
+   -1683750956
+  ],
+  "uuid_str": "a0f4e9a5-c1ae-482d-ba3b-e9599ba3ffd4"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "biomeswevegone:white_puffball_stew"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "biomeswevegone:witch_hazel_sapling"
+      },
+      {
+       "Count": 4,
+       "Slot": 2,
+       "id": "biomeswevegone:witch_hazel_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "biomeswevegone:white_puffball_stew"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "biomeswevegone:witch_hazel_blossom"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:book"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "biomeswevegone:witch_hazel_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 3,
+       "Slot": 19,
+       "id": "biomeswevegone:witch_hazel_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "biomeswevegone:witch_hazel_sapling"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/4/49/499017b4-44f3-43fe-94f4-c399a49f8312",
+  "position": {
+   "X": -1392,
+   "Y": 79,
+   "Z": -837
+  },
+  "size": 27,
+  "uuid": [
+   1234180020,
+   1156793342,
+   -1795898471,
+   -1533050094
+  ],
+  "uuid_str": "499017b4-44f3-43fe-94f4-c399a49f8312"
+ }
+}

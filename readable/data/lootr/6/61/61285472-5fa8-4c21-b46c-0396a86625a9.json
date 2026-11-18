@@ -1,0 +1,76 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:bamboo"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:bamboo"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/61/61285472-5fa8-4c21-b46c-0396a86625a9",
+  "position": {
+   "X": -2535,
+   "Y": 88,
+   "Z": -632
+  },
+  "size": 27,
+  "uuid": [
+   1630033010,
+   1604865057,
+   -1267989610,
+   -1469700695
+  ],
+  "uuid_str": "61285472-5fa8-4c21-b46c-0396a86625a9"
+ }
+}

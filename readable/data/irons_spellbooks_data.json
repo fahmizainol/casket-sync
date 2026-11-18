@@ -1,0 +1,18 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "GuidingBoltManager": {
+   "TrackedEntities": []
+  },
+  "PocketDimensionIdManager": {
+   "ids": [],
+   "next_id": 0
+  },
+  "PortalManager": {
+   "portalLookup": []
+  },
+  "SummonManager": {
+   "OfflineSummons": []
+  }
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 0,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:golden_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:golden_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:feather_falling",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:crossbow",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:piercing",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 2,
+       "Slot": 18,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:spruce_planks"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:arrow"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/83/836a2e8e-9c92-42df-81c1-1bd05102018b",
+  "position": {
+   "X": -396,
+   "Y": 88,
+   "Z": -3064
+  },
+  "size": 27,
+  "uuid": [
+   -2090193266,
+   -1668136225,
+   -2118050864,
+   1359085963
+  ],
+  "uuid_str": "836a2e8e-9c92-42df-81c1-1bd05102018b"
+ }
+}

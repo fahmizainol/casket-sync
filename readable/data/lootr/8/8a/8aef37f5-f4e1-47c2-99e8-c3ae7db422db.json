@@ -1,0 +1,67 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:leather_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:leather_helmet",
+       "tag": {
+        "Damage": 0
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/8a/8aef37f5-f4e1-47c2-99e8-c3ae7db422db",
+  "position": {
+   "X": 189,
+   "Y": 73,
+   "Z": -668
+  },
+  "size": 27,
+  "uuid": [
+   -1964034059,
+   -186562622,
+   -1712798802,
+   2108957403
+  ],
+  "uuid_str": "8aef37f5-f4e1-47c2-99e8-c3ae7db422db"
+ }
+}

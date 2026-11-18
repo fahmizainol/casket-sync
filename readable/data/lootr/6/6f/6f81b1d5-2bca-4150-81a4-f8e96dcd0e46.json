@@ -1,0 +1,167 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:golden_apple"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:golden_apple"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:brick"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 3,
+       "Slot": 23,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 2,
+       "Slot": 25,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:iron_ingot"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/6f/6f81b1d5-2bca-4150-81a4-f8e96dcd0e46",
+  "position": {
+   "X": -1226,
+   "Y": 80,
+   "Z": 853
+  },
+  "size": 27,
+  "uuid": [
+   1870770645,
+   734675280,
+   -2119894807,
+   1842155078
+  ],
+  "uuid_str": "6f81b1d5-2bca-4150-81a4-f8e96dcd0e46"
+ }
+}

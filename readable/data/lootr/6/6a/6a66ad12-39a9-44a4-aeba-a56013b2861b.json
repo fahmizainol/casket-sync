@@ -1,0 +1,123 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 0,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "supplementaries:flax_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 3,
+       "Slot": 8,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "supplementaries:flax_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 2,
+       "Slot": 25,
+       "id": "minecraft:arrow"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/6a/6a66ad12-39a9-44a4-aeba-a56013b2861b",
+  "position": {
+   "X": -1190,
+   "Y": 170,
+   "Z": -1268
+  },
+  "size": 27,
+  "uuid": [
+   1785113874,
+   967394468,
+   -1363499680,
+   330466843
+  ],
+  "uuid_str": "6a66ad12-39a9-44a4-aeba-a56013b2861b"
+ }
+}

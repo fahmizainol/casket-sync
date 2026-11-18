@@ -1,0 +1,99 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 5,
+       "Slot": 0,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:goat_horn",
+       "tag": {
+        "instrument": "minecraft:sing_goat_horn"
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:poisonous_potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:dark_oak_planks"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/1/12/12baa968-c695-4173-b60a-1906a1772c50",
+  "position": {
+   "X": -1500,
+   "Y": 87,
+   "Z": -417
+  },
+  "size": 27,
+  "uuid": [
+   314222952,
+   -963296909,
+   -1240852218,
+   -1586025392
+  ],
+  "uuid_str": "12baa968-c695-4173-b60a-1906a1772c50"
+ }
+}

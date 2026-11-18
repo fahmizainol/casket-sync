@@ -1,0 +1,148 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:pumpkin_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:pumpkin_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:large_fern"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 2,
+       "Slot": 8,
+       "id": "minecraft:pumpkin_seeds"
+      },
+      {
+       "Count": 3,
+       "Slot": 9,
+       "id": "minecraft:spruce_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 2,
+       "Slot": 13,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 2,
+       "Slot": 15,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 2,
+       "Slot": 20,
+       "id": "minecraft:spruce_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 3,
+       "Slot": 26,
+       "id": "minecraft:iron_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/6e/6e65b53f-3bd7-4777-9b97-7c5553dc394a",
+  "position": {
+   "X": -1233,
+   "Y": 70,
+   "Z": 854
+  },
+  "size": 27,
+  "uuid": [
+   1852159295,
+   1003964279,
+   -1684571051,
+   1406941514
+  ],
+  "uuid_str": "6e65b53f-3bd7-4777-9b97-7c5553dc394a"
+ }
+}

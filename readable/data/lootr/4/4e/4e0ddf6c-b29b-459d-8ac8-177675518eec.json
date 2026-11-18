@@ -1,0 +1,75 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:leather_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "artifacts:umbrella"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:leather_helmet",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:leather_chestplate",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:leather_helmet",
+       "tag": {
+        "Damage": 0
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/4/4e/4e0ddf6c-b29b-459d-8ac8-177675518eec",
+  "position": {
+   "X": 183,
+   "Y": 75,
+   "Z": -686
+  },
+  "size": 27,
+  "uuid": [
+   1309532012,
+   -1298446947,
+   -1966598282,
+   1968279276
+  ],
+  "uuid_str": "4e0ddf6c-b29b-459d-8ac8-177675518eec"
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 6,
+       "Slot": 3,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 4,
+       "Slot": 7,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 2,
+       "Slot": 13,
+       "id": "supplementaries:flax_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "artifacts:steadfast_spikes"
+      },
+      {
+       "Count": 2,
+       "Slot": 17,
+       "id": "supplementaries:flax_seeds"
+      },
+      {
+       "Count": 2,
+       "Slot": 18,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:potato"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/fe/fe79132e-0e18-407a-8713-e10b33cdc261",
+  "position": {
+   "X": -390,
+   "Y": 79,
+   "Z": -3060
+  },
+  "size": 27,
+  "uuid": [
+   -25619666,
+   236470394,
+   -2028740341,
+   869122657
+  ],
+  "uuid_str": "fe79132e-0e18-407a-8713-e10b33cdc261"
+ }
+}

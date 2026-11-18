@@ -1,0 +1,9 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "PupfishChunkX": -31,
+  "PupfishChunkZ": -24,
+  "beachedCachalotSpawnChance": 25,
+  "beachedCachalotSpawnDelay": 24000
+ }
+}

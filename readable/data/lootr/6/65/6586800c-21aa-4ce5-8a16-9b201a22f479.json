@@ -1,0 +1,113 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:bucket"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:iron_horse_armor"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:music_disc_13"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 3,
+       "Slot": 18,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 2,
+       "Slot": 20,
+       "id": "minecraft:pumpkin_pie"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 2,
+       "Slot": 22,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 4,
+       "Slot": 24,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:music_disc_otherside"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/65/6586800c-21aa-4ce5-8a16-9b201a22f479",
+  "position": {
+   "X": -570,
+   "Y": 97,
+   "Z": -1153
+  },
+  "size": 27,
+  "uuid": [
+   1703313420,
+   564808933,
+   -1978229984,
+   438498425
+  ],
+  "uuid_str": "6586800c-21aa-4ce5-8a16-9b201a22f479"
+ }
+}

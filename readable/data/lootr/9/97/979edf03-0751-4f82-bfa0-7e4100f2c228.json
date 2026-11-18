@@ -1,0 +1,81 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:pufferfish"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:tripwire_hook"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/9/97/979edf03-0751-4f82-bfa0-7e4100f2c228",
+  "position": {
+   "X": -1236,
+   "Y": 63,
+   "Z": 833
+  },
+  "size": 27,
+  "uuid": [
+   -1751195901,
+   122769282,
+   -1080000959,
+   15909416
+  ],
+  "uuid_str": "979edf03-0751-4f82-bfa0-7e4100f2c228"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:bone_meal"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/fc/fc4c896c-db25-46f1-ab32-b70b4f05356d",
+  "position": {
+   "X": -1243,
+   "Y": 63,
+   "Z": 820
+  },
+  "size": 27,
+  "uuid": [
+   -62092948,
+   -618313999,
+   -1422739701,
+   1325741421
+  ],
+  "uuid_str": "fc4c896c-db25-46f1-ab32-b70b4f05356d"
+ }
+}

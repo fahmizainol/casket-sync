@@ -1,0 +1,146 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:iron_pickaxe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:brick"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 3,
+       "Slot": 3,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:iron_pickaxe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:diamond_hoe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:gold_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/d/dc/dcbe5116-2528-4450-96ec-07b20702196f",
+  "position": {
+   "X": -1230,
+   "Y": 86,
+   "Z": 860
+  },
+  "size": 27,
+  "uuid": [
+   -591507178,
+   623395920,
+   -1762916430,
+   117578095
+  ],
+  "uuid_str": "dcbe5116-2528-4450-96ec-07b20702196f"
+ }
+}

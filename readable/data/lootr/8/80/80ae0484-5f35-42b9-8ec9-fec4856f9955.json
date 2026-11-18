@@ -1,0 +1,121 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 2,
+       "Slot": 8,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 6,
+       "Slot": 11,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 2,
+       "Slot": 14,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 2,
+       "Slot": 16,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:wheat"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/80/80ae0484-5f35-42b9-8ec9-fec4856f9955",
+  "position": {
+   "X": -2681,
+   "Y": 95,
+   "Z": -857
+  },
+  "size": 27,
+  "uuid": [
+   -2136079228,
+   1597326009,
+   -1899364668,
+   -2056283819
+  ],
+  "uuid_str": "80ae0484-5f35-42b9-8ec9-fec4856f9955"
+ }
+}

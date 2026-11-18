@@ -1,0 +1,121 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:dark_oak_planks"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:poisonous_potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 2,
+       "Slot": 9,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:dark_oak_planks"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:dark_oak_planks"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:dark_oak_log"
+      },
+      {
+       "Count": 2,
+       "Slot": 20,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 2,
+       "Slot": 23,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:dark_oak_log"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/e/e6/e6e81c80-d519-4cb9-af33-e7e04ef936b9",
+  "position": {
+   "X": -1500,
+   "Y": 87,
+   "Z": -422
+  },
+  "size": 27,
+  "uuid": [
+   -420995968,
+   -719762247,
+   -1355552800,
+   1324955321
+  ],
+  "uuid_str": "e6e81c80-d519-4cb9-af33-e7e04ef936b9"
+ }
+}

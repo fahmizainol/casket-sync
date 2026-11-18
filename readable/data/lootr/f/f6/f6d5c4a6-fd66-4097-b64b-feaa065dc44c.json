@@ -1,0 +1,63 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:blue_orchid"
+      },
+      {
+       "Count": 5,
+       "Slot": 9,
+       "id": "minecraft:lapis_lazuli"
+      },
+      {
+       "Count": 5,
+       "Slot": 11,
+       "id": "minecraft:lapis_lazuli"
+      },
+      {
+       "Count": 5,
+       "Slot": 21,
+       "id": "minecraft:lapis_lazuli"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:blue_orchid"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/f6/f6d5c4a6-fd66-4097-b64b-feaa065dc44c",
+  "position": {
+   "X": -1868,
+   "Y": 138,
+   "Z": -900
+  },
+  "size": 27,
+  "uuid": [
+   -153762650,
+   -43630441,
+   -1236533590,
+   106808396
+  ],
+  "uuid_str": "f6d5c4a6-fd66-4097-b64b-feaa065dc44c"
+ }
+}

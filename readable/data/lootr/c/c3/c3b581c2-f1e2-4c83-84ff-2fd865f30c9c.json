@@ -1,0 +1,93 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 3,
+       "Slot": 26,
+       "id": "minecraft:bone_meal"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/c/c3/c3b581c2-f1e2-4c83-84ff-2fd865f30c9c",
+  "position": {
+   "X": -3307,
+   "Y": 64,
+   "Z": 203
+  },
+  "size": 27,
+  "uuid": [
+   -1011514942,
+   -236827517,
+   -2063650856,
+   1710427292
+  ],
+  "uuid_str": "c3b581c2-f1e2-4c83-84ff-2fd865f30c9c"
+ }
+}

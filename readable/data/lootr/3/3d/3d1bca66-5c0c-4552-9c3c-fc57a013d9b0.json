@@ -1,0 +1,95 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:splash_potion",
+       "tag": {
+        "CustomPotionEffects": [
+         {
+          "Amplifier": 3,
+          "Duration": 200,
+          "Id": 25
+         }
+        ]
+       }
+      },
+      {
+       "Count": 9,
+       "Slot": 12,
+       "id": "minecraft:carved_pumpkin"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "naturescompass:naturescompass"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:obsidian"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:leather"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "magistuarmory:barding"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:obsidian"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/3/3d/3d1bca66-5c0c-4552-9c3c-fc57a013d9b0",
+  "position": {
+   "X": -849,
+   "Y": 226,
+   "Z": 70
+  },
+  "size": 27,
+  "uuid": [
+   1025231462,
+   1544308050,
+   -1673724841,
+   -1609311824
+  ],
+  "uuid_str": "3d1bca66-5c0c-4552-9c3c-fc57a013d9b0"
+ }
+}

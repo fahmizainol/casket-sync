@@ -1,0 +1,78 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:tripwire_hook"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/7/74/74995c63-193b-4d04-8c37-3416266a57a0",
+  "position": {
+   "X": -1500,
+   "Y": 79,
+   "Z": -425
+  },
+  "size": 27,
+  "uuid": [
+   1956207715,
+   423316740,
+   -1942539242,
+   644503456
+  ],
+  "uuid_str": "74995c63-193b-4d04-8c37-3416266a57a0"
+ }
+}

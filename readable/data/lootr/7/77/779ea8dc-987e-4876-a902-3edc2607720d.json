@@ -1,0 +1,71 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 0,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:iron_pickaxe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:gunpowder"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/7/77/779ea8dc-987e-4876-a902-3edc2607720d",
+  "position": {
+   "X": -1226,
+   "Y": 81,
+   "Z": 861
+  },
+  "size": 27,
+  "uuid": [
+   2006886620,
+   -1736554378,
+   -1459470628,
+   638022157
+  ],
+  "uuid_str": "779ea8dc-987e-4876-a902-3edc2607720d"
+ }
+}

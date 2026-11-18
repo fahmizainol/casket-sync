@@ -1,0 +1,166 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 5,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 11,
+       "Slot": 10,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:saddle"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:saddle"
+      },
+      {
+       "Count": 4,
+       "Slot": 23,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 2,
+       "Slot": 24,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 4,
+       "Slot": 26,
+       "id": "minecraft:gold_ingot"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:flint_and_steel",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:iron_horse_armor"
+      },
+      {
+       "Count": 3,
+       "Slot": 9,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:potion",
+       "tag": {
+        "Potion": "minecraft:healing"
+       }
+      },
+      {
+       "Count": 2,
+       "Slot": 15,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:golden_chestplate",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "quark:smithing_template_rune"
+      },
+      {
+       "Count": 2,
+       "Slot": 23,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:carrot"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/d/d8/d8a4aec4-c6ae-4ed3-877a-c501006ac67b",
+  "position": {
+   "X": -846,
+   "Y": 217,
+   "Z": 66
+  },
+  "size": 27,
+  "uuid": [
+   -660295996,
+   -961655085,
+   -2021997311,
+   6997627
+  ],
+  "uuid_str": "d8a4aec4-c6ae-4ed3-877a-c501006ac67b"
+ }
+}

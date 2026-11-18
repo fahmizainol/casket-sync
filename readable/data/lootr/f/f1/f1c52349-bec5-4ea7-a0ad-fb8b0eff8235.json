@@ -1,0 +1,93 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 3,
+       "Slot": 2,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 2,
+       "Slot": 3,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 3,
+       "Slot": 7,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 2,
+       "Slot": 16,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 8,
+       "Slot": 21,
+       "id": "bosses_of_mass_destruction:soul_star"
+      },
+      {
+       "Count": 6,
+       "Slot": 25,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:potato"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/f/f1/f1c52349-bec5-4ea7-a0ad-fb8b0eff8235",
+  "position": {
+   "X": -1223,
+   "Y": 69,
+   "Z": 857
+  },
+  "size": 27,
+  "uuid": [
+   -238738615,
+   -1094365529,
+   -1599210613,
+   251626037
+  ],
+  "uuid_str": "f1c52349-bec5-4ea7-a0ad-fb8b0eff8235"
+ }
+}

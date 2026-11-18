@@ -1,0 +1,76 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:cod"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/3/3b/3b616939-55bc-40e7-9757-efb22ebca173",
+  "position": {
+   "X": -1239,
+   "Y": 70,
+   "Z": 854
+  },
+  "size": 27,
+  "uuid": [
+   996239673,
+   1438400743,
+   -1755844686,
+   784114035
+  ],
+  "uuid_str": "3b616939-55bc-40e7-9757-efb22ebca173"
+ }
+}

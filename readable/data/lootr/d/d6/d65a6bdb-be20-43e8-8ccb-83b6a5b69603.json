@@ -1,0 +1,56 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 3,
+       "Slot": 0,
+       "id": "minecraft:spider_eye"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:leather_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 2,
+       "Slot": 3,
+       "id": "minecraft:cocoa_beans"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/d/d6/d65a6bdb-be20-43e8-8ccb-83b6a5b69603",
+  "position": {
+   "X": 12,
+   "Y": 119,
+   "Z": -1069
+  },
+  "size": 27,
+  "uuid": [
+   -698717221,
+   -1105181720,
+   -1932819530,
+   -1514760701
+  ],
+  "uuid_str": "d65a6bdb-be20-43e8-8ccb-83b6a5b69603"
+ }
+}

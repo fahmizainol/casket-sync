@@ -1,0 +1,132 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:golden_apple"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:diamond"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:gold_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 3,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 2,
+       "Slot": 15,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:gunpowder"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/9/9c/9c17345b-3af5-48e5-9a8f-7e87dde237f0",
+  "position": {
+   "X": -1221,
+   "Y": 81,
+   "Z": 853
+  },
+  "size": 27,
+  "uuid": [
+   -1676200869,
+   989153509,
+   -1701871993,
+   -572377104
+  ],
+  "uuid_str": "9c17345b-3af5-48e5-9a8f-7e87dde237f0"
+ }
+}

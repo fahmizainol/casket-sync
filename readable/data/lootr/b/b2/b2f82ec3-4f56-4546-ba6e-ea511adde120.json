@@ -1,0 +1,84 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:candle"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:candle"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:candle"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:pumpkin"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "magistuarmory:corruptedroundshield",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:candle"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/b/b2/b2f82ec3-4f56-4546-ba6e-ea511adde120",
+  "position": {
+   "X": -966,
+   "Y": 64,
+   "Z": -1253
+  },
+  "size": 27,
+  "uuid": [
+   -1292357949,
+   1331053894,
+   -1167136175,
+   450748704
+  ],
+  "uuid_str": "b2f82ec3-4f56-4546-ba6e-ea511adde120"
+ }
+}

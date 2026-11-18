@@ -1,0 +1,83 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:torch"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:torch"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:firework_rocket"
+      },
+      {
+       "Count": 2,
+       "Slot": 10,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:firework_rocket"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:painting"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:torch"
+      },
+      {
+       "Count": 2,
+       "Slot": 23,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:spyglass"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/6b/6b0ca604-0712-493f-b5b1-baba87c50051",
+  "position": {
+   "X": -1207,
+   "Y": 85,
+   "Z": 858
+  },
+  "size": 27,
+  "uuid": [
+   1795991044,
+   118638911,
+   -1246643526,
+   -2017132463
+  ],
+  "uuid_str": "6b0ca604-0712-493f-b5b1-baba87c50051"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:wheat"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/a/a5/a5455137-1092-487a-b69f-2befe3786c3a",
+  "position": {
+   "X": -1506,
+   "Y": 79,
+   "Z": -418
+  },
+  "size": 27,
+  "uuid": [
+   -1522183881,
+   278022266,
+   -1231082513,
+   -478647238
+  ],
+  "uuid_str": "a5455137-1092-487a-b69f-2befe3786c3a"
+ }
+}

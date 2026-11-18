@@ -1,0 +1,117 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:bone_meal"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 2,
+       "Slot": 4,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:bone_meal"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:bone_meal"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/60/602dc908-0a2a-483e-b2b2-742c826da732",
+  "position": {
+   "X": -1243,
+   "Y": 63,
+   "Z": 838
+  },
+  "size": 27,
+  "uuid": [
+   1613613320,
+   170543166,
+   -1296927700,
+   -2106742990
+  ],
+  "uuid_str": "602dc908-0a2a-483e-b2b2-742c826da732"
+ }
+}

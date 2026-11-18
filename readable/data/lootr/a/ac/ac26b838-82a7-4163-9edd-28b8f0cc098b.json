@@ -1,0 +1,103 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 2,
+       "Slot": 8,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:spruce_sapling"
+      },
+      {
+       "Count": 4,
+       "Slot": 11,
+       "id": "minecraft:spruce_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 4,
+       "Slot": 18,
+       "id": "minecraft:spruce_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:moss_carpet"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:stone_bricks"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:spruce_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:spruce_log"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/a/ac/ac26b838-82a7-4163-9edd-28b8f0cc098b",
+  "position": {
+   "X": -1222,
+   "Y": 69,
+   "Z": 858
+  },
+  "size": 27,
+  "uuid": [
+   -1406748616,
+   -2102967965,
+   -1629673288,
+   -255063669
+  ],
+  "uuid_str": "ac26b838-82a7-4163-9edd-28b8f0cc098b"
+ }
+}

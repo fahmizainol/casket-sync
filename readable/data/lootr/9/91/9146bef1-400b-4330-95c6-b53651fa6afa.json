@@ -1,0 +1,106 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:spruce_log"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:spruce_log"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/9/91/9146bef1-400b-4330-95c6-b53651fa6afa",
+  "position": {
+   "X": -1479,
+   "Y": 81,
+   "Z": -425
+  },
+  "size": 27,
+  "uuid": [
+   -1857634575,
+   1074479920,
+   -1782139594,
+   1375365882
+  ],
+  "uuid_str": "9146bef1-400b-4330-95c6-b53651fa6afa"
+ }
+}

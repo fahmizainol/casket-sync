@@ -1,0 +1,77 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:potion",
+       "tag": {
+        "Potion": "minecraft:water_breathing"
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:dark_oak_trapdoor"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "domesticationinnovation:bubbling",
+          "lvl": 1
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/a/a1/a185c0bc-2090-4db2-9a4d-6f64faa416f6",
+  "position": {
+   "X": -1096,
+   "Y": -31,
+   "Z": 641
+  },
+  "size": 27,
+  "uuid": [
+   -1585069892,
+   546327986,
+   -1706201244,
+   -89909514
+  ],
+  "uuid_str": "a185c0bc-2090-4db2-9a4d-6f64faa416f6"
+ }
+}

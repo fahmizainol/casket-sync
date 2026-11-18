@@ -1,0 +1,22 @@
+{
+	id: "5ceb43d0-0dad-428c-95cf-ec47061ea050"
+	type: "party"
+	owner: "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+	ranks: {
+		4160a5c8-62ae-32ae-bcef-9d00a1d04297: "owner"
+		37cffe65-595b-3b39-b612-abca535a04fd: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "NIG's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#7C59FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1794642662613L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"NIG\"}]}" }
+		{ from: "4160a5c8-62ae-32ae-bcef-9d00a1d04297", date: 1794642662619L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"TOP_G\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1794642667010L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"TOP_G\"}]}" }
+	]
+	extra: { }
+}

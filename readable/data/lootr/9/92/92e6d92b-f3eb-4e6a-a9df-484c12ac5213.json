@@ -1,0 +1,58 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 2,
+       "Slot": 17,
+       "id": "minecraft:sweet_berries"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:bread"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/9/92/92e6d92b-f3eb-4e6a-a9df-484c12ac5213",
+  "position": {
+   "X": -1223,
+   "Y": 70,
+   "Z": 856
+  },
+  "size": 27,
+  "uuid": [
+   -1830364885,
+   -202682774,
+   -1444984756,
+   313283091
+  ],
+  "uuid_str": "92e6d92b-f3eb-4e6a-a9df-484c12ac5213"
+ }
+}

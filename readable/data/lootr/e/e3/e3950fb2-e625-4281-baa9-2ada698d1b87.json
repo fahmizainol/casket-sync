@@ -1,0 +1,181 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:golden_helmet",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:blast_protection",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:golden_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:iron_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 2
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 0,
+       "id": "minecraft:prismarine_shard"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:chainmail_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:knockback",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:prismarine_shard"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:prismarine_shard"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:prismarine_shard"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:iron_pickaxe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:fortune",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:prismarine_shard"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/e/e3/e3950fb2-e625-4281-baa9-2ada698d1b87",
+  "position": {
+   "X": -549,
+   "Y": 200,
+   "Z": -1688
+  },
+  "size": 27,
+  "uuid": [
+   -476770382,
+   -433765759,
+   -1163318566,
+   1770855303
+  ],
+  "uuid_str": "e3950fb2-e625-4281-baa9-2ada698d1b87"
+ }
+}

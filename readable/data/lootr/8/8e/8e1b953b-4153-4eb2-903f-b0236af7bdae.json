@@ -1,0 +1,90 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:tropical_fish"
+      },
+      {
+       "Count": 4,
+       "Slot": 3,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:fishing_rod",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:luck_of_the_sea",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      {
+       "Count": 3,
+       "Slot": 25,
+       "id": "minecraft:cod"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/8e/8e1b953b-4153-4eb2-903f-b0236af7bdae",
+  "position": {
+   "X": 72,
+   "Y": 71,
+   "Z": -520
+  },
+  "size": 27,
+  "uuid": [
+   -1910794949,
+   1095978674,
+   -1874874333,
+   1794620846
+  ],
+  "uuid_str": "8e1b953b-4153-4eb2-903f-b0236af7bdae"
+ }
+}

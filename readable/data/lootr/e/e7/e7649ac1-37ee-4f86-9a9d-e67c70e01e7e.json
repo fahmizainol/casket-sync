@@ -1,0 +1,43 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:golden_horse_armor"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/e/e7/e7649ac1-37ee-4f86-9a9d-e67c70e01e7e",
+  "position": {
+   "X": 392,
+   "Y": 95,
+   "Z": 1434
+  },
+  "size": 27,
+  "uuid": [
+   -412837183,
+   938364806,
+   -1700927876,
+   1893736062
+  ],
+  "uuid_str": "e7649ac1-37ee-4f86-9a9d-e67c70e01e7e"
+ }
+}

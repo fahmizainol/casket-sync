@@ -1,0 +1,86 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 2,
+       "Slot": 23,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:potato"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/8e/8efcaf34-bb56-4a8c-b02d-e1f70df375b3",
+  "position": {
+   "X": 256,
+   "Y": 67,
+   "Z": -1766
+  },
+  "size": 27,
+  "uuid": [
+   -1896042700,
+   -1151972724,
+   -1339170313,
+   234059187
+  ],
+  "uuid_str": "8efcaf34-bb56-4a8c-b02d-e1f70df375b3"
+ }
+}

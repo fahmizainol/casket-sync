@@ -1,0 +1,50 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/4/43/43751f67-c924-4566-a5a4-6b85bc2183af",
+  "position": {
+   "X": -1733,
+   "Y": 87,
+   "Z": -745
+  },
+  "size": 27,
+  "uuid": [
+   1131749223,
+   -920369818,
+   -1515951227,
+   -1138654289
+  ],
+  "uuid_str": "43751f67-c924-4566-a5a4-6b85bc2183af"
+ }
+}

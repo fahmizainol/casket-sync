@@ -1,0 +1,15 @@
+{
+	id: "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+	type: "player"
+	player_name: "NIG"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "NIG"
+		"ftbteams:description": ""
+		"ftbteams:color": "#7C59FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

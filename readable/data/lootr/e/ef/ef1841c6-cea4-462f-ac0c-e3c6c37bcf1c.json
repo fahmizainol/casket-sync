@@ -1,0 +1,97 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:suspicious_stew",
+       "tag": {
+        "Effects": [
+         {
+          "EffectDuration": 140,
+          "EffectId": 8,
+          "forge:effect_id": "minecraft:jump_boost"
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 5,
+       "Slot": 6,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 2,
+       "Slot": 8,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:bamboo"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:bamboo"
+      },
+      {
+       "Count": 2,
+       "Slot": 23,
+       "id": "minecraft:carrot"
+      },
+      {
+       "Count": 10,
+       "Slot": 24,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:rotten_flesh"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/e/ef/ef1841c6-cea4-462f-ac0c-e3c6c37bcf1c",
+  "position": {
+   "X": -940,
+   "Y": 62,
+   "Z": 731
+  },
+  "size": 27,
+  "uuid": [
+   -283622970,
+   -828094929,
+   -1408441402,
+   -1015296228
+  ],
+  "uuid_str": "ef1841c6-cea4-462f-ac0c-e3c6c37bcf1c"
+ }
+}

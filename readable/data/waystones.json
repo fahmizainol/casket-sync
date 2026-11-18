@@ -1,0 +1,967 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "Waystones": [
+   {
+    "BlockPos": {
+     "X": -1084,
+     "Y": -43,
+     "Z": 630
+    },
+    "IsGlobal": 0,
+    "Name": "abyss boss",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     901711642,
+     -437891760,
+     -1697654751,
+     -636352017
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2353,
+     "Y": 63,
+     "Z": -2024
+    },
+    "IsGlobal": 0,
+    "Name": "ocean eye",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1056443678,
+     -1264433997,
+     -1262269273,
+     -1191221272
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1280,
+     "Y": 78,
+     "Z": -848
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     779304266,
+     -57523069,
+     -2012673281,
+     -1067946098
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -16,
+     "Y": 67,
+     "Z": -1360
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     203633958,
+     -1068937814,
+     -1534807231,
+     -373228690
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1107,
+     "Y": 64,
+     "Z": 635
+    },
+    "IsGlobal": 0,
+    "Name": "eye of abyss",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -704250434,
+     1911900722,
+     -1272940514,
+     321951357
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1632,
+     "Y": 63,
+     "Z": -528
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1706381043,
+     3623152,
+     -1504258259,
+     97655737
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -816,
+     "Y": 126,
+     "Z": 352
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -2024294476,
+     -1202370042,
+     -2130747226,
+     -801637174
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1376,
+     "Y": 75,
+     "Z": -1392
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1574772631,
+     -1339080120,
+     -2098782171,
+     -2088159632
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -112,
+     "Y": 70,
+     "Z": -960
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     703723384,
+     2056146590,
+     -1781473457,
+     -96416431
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": 240,
+     "Y": 75,
+     "Z": -2976
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1732139766,
+     -1197651082,
+     -1568410661,
+     -661363083
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": 320,
+     "Y": 83,
+     "Z": -3616
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1281771152,
+     -1907012148,
+     -1904436768,
+     -1163128999
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1744,
+     "Y": 104,
+     "Z": 368
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -2088012499,
+     1870349321,
+     -1527369002,
+     -459355317
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -176,
+     "Y": 132,
+     "Z": -3232
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -808042141,
+     -967948963,
+     -2077929730,
+     -974129103
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1664,
+     "Y": 92,
+     "Z": 256
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1686674810,
+     -334215717,
+     -1303660822,
+     1970051413
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": 352,
+     "Y": 73,
+     "Z": -2560
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     2144173446,
+     -1324135005,
+     -1569151761,
+     -169473242
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -848,
+     "Y": 77,
+     "Z": -944
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -286920534,
+     427968079,
+     -2062508845,
+     199703691
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2370,
+     "Y": 39,
+     "Z": -2016
+    },
+    "IsGlobal": 0,
+    "Name": "aaaaa",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     39246953,
+     2007711879,
+     -2129750628,
+     -789681855
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1248,
+     "Y": 81,
+     "Z": -800
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1108219551,
+     1522354751,
+     -1406001661,
+     818906587
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -546,
+     "Y": 171,
+     "Z": -533
+    },
+    "IsGlobal": 0,
+    "Name": "tomb2",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1107665599,
+     192233697,
+     -1694916068,
+     -62553159
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2705,
+     "Y": 80,
+     "Z": -1442
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "VILLAGE",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -785569008,
+     -1388884500,
+     -1421734985,
+     404830347
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": 80,
+     "Y": 73,
+     "Z": -138
+    },
+    "IsGlobal": 0,
+    "Name": "test",
+    "Origin": "UNKNOWN",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     461139841,
+     -222281598,
+     -1245400094,
+     -1014250449
+    ],
+    "World": "tcrcore:sanctum"
+   },
+   {
+    "BlockPos": {
+     "X": -1744,
+     "Y": 75,
+     "Z": -80
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1333436313,
+     174539742,
+     -1784740826,
+     -1566312324
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2883,
+     "Y": 31,
+     "Z": 55
+    },
+    "IsGlobal": 0,
+    "Name": "faya",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     52772249,
+     -1960165360,
+     -1670457993,
+     -65327431
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -496,
+     "Y": 93,
+     "Z": 320
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1704082892,
+     -167950274,
+     -1913958760,
+     530816245
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2880,
+     "Y": 75,
+     "Z": -1200
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     377226557,
+     621760118,
+     -1122602899,
+     -847362561
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -477,
+     "Y": 73,
+     "Z": -2132
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "VILLAGE",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1116425474,
+     1087455721,
+     -1899217370,
+     -1750851268
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1248,
+     "Y": 80,
+     "Z": -128
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1734731851,
+     1578061678,
+     -1989253838,
+     -153742713
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2392,
+     "Y": 11,
+     "Z": -2049
+    },
+    "IsGlobal": 0,
+    "Name": "asdfa",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1594095768,
+     595021524,
+     -1435534446,
+     -1242848282
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -225,
+     "Y": 80,
+     "Z": -128
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "PLAYER",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -119709500,
+     1214400478,
+     -2120016408,
+     -325893196
+    ],
+    "World": "tcrcore:sanctum"
+   },
+   {
+    "BlockPos": {
+     "X": -1376,
+     "Y": 75,
+     "Z": -512
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1454400050,
+     1906327739,
+     -1313043054,
+     1646864980
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": 198,
+     "Y": 74,
+     "Z": -687
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "UNKNOWN",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1266676334,
+     -451919406,
+     -2147405824,
+     -1045753421
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -448,
+     "Y": 83,
+     "Z": 288
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1584753395,
+     1307724233,
+     -2075181266,
+     1790889011
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2920,
+     "Y": 85,
+     "Z": -616
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "VILLAGE",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1072946911,
+     -265991260,
+     -1542919397,
+     -773505779
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1757,
+     "Y": 110,
+     "Z": -797
+    },
+    "IsGlobal": 0,
+    "Name": "ssus",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1324956992,
+     508904285,
+     -1488185736,
+     -1364583415
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2496,
+     "Y": 75,
+     "Z": 720
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     822339037,
+     900091414,
+     -1095456187,
+     -1254319239
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": 282,
+     "Y": 67,
+     "Z": -2272
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "UNKNOWN",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     472868789,
+     -325106985,
+     -1932509781,
+     -847631859
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -160,
+     "Y": 123,
+     "Z": -3216
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -388012246,
+     -2128526578,
+     -1265976164,
+     -1551033568
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -48,
+     "Y": 78,
+     "Z": -2176
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -401992959,
+     186925719,
+     -1631332808,
+     -1644714026
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2832,
+     "Y": 83,
+     "Z": -560
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -188624655,
+     1468288908,
+     -1893255826,
+     -1978636283
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1744,
+     "Y": 78,
+     "Z": 768
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1306570301,
+     425476854,
+     -1273996465,
+     -1132780873
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -116,
+     "Y": 81,
+     "Z": -106
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "PLAYER",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -2103110509,
+     37570961,
+     -2056975938,
+     -1005349964
+    ],
+    "World": "tcrcore:sanctum"
+   },
+   {
+    "BlockPos": {
+     "X": -576,
+     "Y": 80,
+     "Z": -2576
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     188452014,
+     583356068,
+     -1992237393,
+     1880899297
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": 240,
+     "Y": 70,
+     "Z": -592
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     786756498,
+     433211265,
+     -1727979344,
+     -243862006
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -448,
+     "Y": 69,
+     "Z": -2992
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -741432814,
+     656886354,
+     -1722791823,
+     540624092
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -2704,
+     "Y": 79,
+     "Z": -1406
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "VILLAGE",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     361604018,
+     -1123004944,
+     -1307805643,
+     241511278
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -1216,
+     "Y": 164,
+     "Z": -1280
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -479421032,
+     2102870422,
+     -1674854626,
+     1344855494
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -569,
+     "Y": 175,
+     "Z": -1133
+    },
+    "IsGlobal": 0,
+    "Name": "tombrider",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1836688886,
+     -542618080,
+     -1416907180,
+     718780513
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -188,
+     "Y": 81,
+     "Z": -199
+    },
+    "IsGlobal": 0,
+    "Name": "sol",
+    "Origin": "UNKNOWN",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -35962525,
+     1407140643,
+     -2111058910,
+     -1850076154
+    ],
+    "World": "tcrcore:sanctum"
+   },
+   {
+    "BlockPos": {
+     "X": 264,
+     "Y": 64,
+     "Z": -1774
+    },
+    "IsGlobal": 0,
+    "Name": "BASE\"",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1313584975,
+     1210338619,
+     -2089781046,
+     -529032149
+    ],
+    "World": "minecraft:overworld"
+   }
+  ]
+ }
+}

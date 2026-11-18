@@ -1,0 +1,56 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:potion",
+       "tag": {
+        "Potion": "minecraft:water"
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 5,
+       "Slot": 22,
+       "id": "minecraft:melon_seeds"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/84/849023e7-cdec-4cb9-811d-9d5834f09d41",
+  "position": {
+   "X": -395,
+   "Y": 181,
+   "Z": -1575
+  },
+  "size": 27,
+  "uuid": [
+   -2070928409,
+   -840151879,
+   -2128765608,
+   888184129
+  ],
+  "uuid_str": "849023e7-cdec-4cb9-811d-9d5834f09d41"
+ }
+}

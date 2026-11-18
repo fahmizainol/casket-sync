@@ -1,0 +1,73 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:glass_bottle"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:glass_bottle"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/9/94/94e8a734-f117-4b42-bcb1-d9706cfe0722",
+  "position": {
+   "X": 264,
+   "Y": 63,
+   "Z": -1768
+  },
+  "size": 27,
+  "uuid": [
+   -1796692172,
+   -250131646,
+   -1129195152,
+   1828587298
+  ],
+  "uuid_str": "94e8a734-f117-4b42-bcb1-d9706cfe0722"
+ }
+}

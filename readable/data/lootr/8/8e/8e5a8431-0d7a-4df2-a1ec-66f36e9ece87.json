@@ -1,0 +1,81 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:golden_horse_armor"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:crafting_table"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:iron_hoe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fortune",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:iron_hoe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      {
+       "Count": 4,
+       "Slot": 24,
+       "id": "minecraft:lapis_block"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/8e/8e5a8431-0d7a-4df2-a1ec-66f36e9ece87",
+  "position": {
+   "X": -1191,
+   "Y": 170,
+   "Z": -1266
+  },
+  "size": 27,
+  "uuid": [
+   -1906670543,
+   226119154,
+   -1578342669,
+   1855901319
+  ],
+  "uuid_str": "8e5a8431-0d7a-4df2-a1ec-66f36e9ece87"
+ }
+}

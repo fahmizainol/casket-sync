@@ -1,0 +1,262 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:paper"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:leather_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "magistuarmory:rustedchainmail_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:golden_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:leather_chestplate",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:leather_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "magistuarmory:rustedchainmail_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "magistuarmory:rustedkettlehat",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:potion",
+       "tag": {
+        "Potion": "minecraft:long_slow_falling"
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:gold_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 3,
+       "Slot": 12,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:feather"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "magistuarmory:rustedchainmail_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 6,
+       "Slot": 22,
+       "id": "minecraft:glowstone_dust"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "magistuarmory:rustedchainmail_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/2/24/2410a30c-88a7-4781-8e90-010832146c19",
+  "position": {
+   "X": -1196,
+   "Y": 179,
+   "Z": -1272
+  },
+  "size": 27,
+  "uuid": [
+   605070092,
+   -2002303103,
+   -1903165176,
+   840199193
+  ],
+  "uuid_str": "2410a30c-88a7-4781-8e90-010832146c19"
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:golden_apple"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:golden_apple"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:gold_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:brick"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:stick"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:golden_apple"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:brick"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/c/cb/cb08628c-3816-467d-a185-08905f445a10",
+  "position": {
+   "X": -1225,
+   "Y": 80,
+   "Z": 852
+  },
+  "size": 27,
+  "uuid": [
+   -888642932,
+   940983933,
+   -1585117040,
+   1598315024
+  ],
+  "uuid_str": "cb08628c-3816-467d-a185-08905f445a10"
+ }
+}

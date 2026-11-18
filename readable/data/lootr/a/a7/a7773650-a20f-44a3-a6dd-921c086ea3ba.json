@@ -1,0 +1,73 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:spruce_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:potato"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:spruce_sapling"
+      },
+      {
+       "Count": 2,
+       "Slot": 25,
+       "id": "minecraft:potato"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/a/a7/a7773650-a20f-44a3-a6dd-921c086ea3ba",
+  "position": {
+   "X": -1231,
+   "Y": 69,
+   "Z": 858
+  },
+  "size": 27,
+  "uuid": [
+   -1485359536,
+   -1576057693,
+   -1495428580,
+   141468602
+  ],
+  "uuid_str": "a7773650-a20f-44a3-a6dd-921c086ea3ba"
+ }
+}

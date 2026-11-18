@@ -1,0 +1,111 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:tripwire_hook"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:bread"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/a/af/af6c6692-3e4f-4ea7-9bdd-a9220d202dda",
+  "position": {
+   "X": -1478,
+   "Y": 82,
+   "Z": -424
+  },
+  "size": 27,
+  "uuid": [
+   -1351850350,
+   1045384871,
+   -1679972062,
+   220212698
+  ],
+  "uuid_str": "af6c6692-3e4f-4ea7-9bdd-a9220d202dda"
+ }
+}

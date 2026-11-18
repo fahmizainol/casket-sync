@@ -1,0 +1,113 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:beetroot_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:oak_fence"
+      },
+      {
+       "Count": 6,
+       "Slot": 2,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:deepslate_bricks"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:stone_hoe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "magistuarmory:rusted_bastardsword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:wooden_pickaxe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:carrot_on_a_stick",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:name_tag",
+       "tag": {
+        "sheath": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:beetroot_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:lead"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/1/15/157fbdaf-bfe9-402d-95c0-9596ae8cdb0a",
+  "position": {
+   "X": -569,
+   "Y": 163,
+   "Z": -1154
+  },
+  "size": 27,
+  "uuid": [
+   360693167,
+   -1075232723,
+   -1782540906,
+   -1366500598
+  ],
+  "uuid_str": "157fbdaf-bfe9-402d-95c0-9596ae8cdb0a"
+ }
+}

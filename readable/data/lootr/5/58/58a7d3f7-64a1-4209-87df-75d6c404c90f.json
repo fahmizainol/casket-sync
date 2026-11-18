@@ -1,0 +1,132 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 3,
+       "Slot": 0,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 4,
+       "Slot": 1,
+       "id": "minecraft:spectral_arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:leather_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:thorns",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 3,
+       "Slot": 4,
+       "id": "minecraft:tipped_arrow",
+       "tag": {
+        "Potion": "minecraft:weakness"
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 2,
+       "Slot": 6,
+       "id": "minecraft:tipped_arrow",
+       "tag": {
+        "Potion": "minecraft:weakness"
+       }
+      },
+      {
+       "Count": 2,
+       "Slot": 16,
+       "id": "minecraft:tipped_arrow",
+       "tag": {
+        "Potion": "minecraft:weakness"
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:spectral_arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:lingering_potion",
+       "tag": {
+        "Potion": "minecraft:regeneration"
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:goat_horn"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/5/58/58a7d3f7-64a1-4209-87df-75d6c404c90f",
+  "position": {
+   "X": -2676,
+   "Y": 95,
+   "Z": -851
+  },
+  "size": 27,
+  "uuid": [
+   1487393783,
+   1688289801,
+   -2015398442,
+   -1006319345
+  ],
+  "uuid_str": "58a7d3f7-64a1-4209-87df-75d6c404c90f"
+ }
+}
