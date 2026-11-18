@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -3965979487766103515,
-    6679433186021356455
+    -5097830770938147466,
+    345465248128028265
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    2231951236237759141,
-    4254498050100575779
+    3299832087259482380,
+    7518086288723736120
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    330555761076980463,
-    -2040947344555366107
+    -2347302827844772563,
+    8948167135583000922
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    7906359084712103262,
-    3357085808469249091
+    -6258488612548443700,
+    -8704948301684024028
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    7112908533540779419,
-    -8138443409035361004
+    -1661919488511545626,
+    5493841914046559536
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    399699047456227767,
-    -7868371992904833386
+    -3801162260363575568,
+    1970494558031202822
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -345,8 +345,8 @@
   },
   "minecraft:blocks/basalt": {
    "source": [
-    -6172318929116729437,
-    813322980621934679
+    -6910514447389938916,
+    -8991164063706149598
    ]
   },
   "minecraft:blocks/big_dripleaf": {
@@ -381,8 +381,8 @@
   },
   "minecraft:blocks/blackstone": {
    "source": [
-    857671829986321335,
-    -1604540051086246466
+    -4845769880253228403,
+    -3586008513469531963
    ]
   },
   "minecraft:blocks/blackstone_stairs": {
@@ -519,8 +519,8 @@
   },
   "minecraft:blocks/cracked_polished_blackstone_bricks": {
    "source": [
-    8450477806209966798,
-    -1423075106472715352
+    -6592342995415410170,
+    -4183778206796064500
    ]
   },
   "minecraft:blocks/cracked_stone_bricks": {
@@ -597,8 +597,8 @@
   },
   "minecraft:blocks/deepslate": {
    "source": [
-    -334945571917138102,
-    -6631112538742452098
+    -7579530213018062128,
+    -6190558264761375063
    ]
   },
   "minecraft:blocks/deepslate_bricks": {
@@ -613,10 +613,16 @@
     213613722111142855
    ]
   },
+  "minecraft:blocks/deepslate_diamond_ore": {
+   "source": [
+    -6235438157622674383,
+    6605296363371483382
+   ]
+  },
   "minecraft:blocks/deepslate_redstone_ore": {
    "source": [
-    -2115500463791443515,
-    6358037655813201427
+    -2239663840682330771,
+    3469464277186652618
    ]
   },
   "minecraft:blocks/deepslate_tile_wall": {
@@ -669,8 +675,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -5905548095864152892,
-    8855376231741053607
+    4353551535245093491,
+    -8776028694909092440
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -693,8 +699,8 @@
   },
   "minecraft:blocks/gilded_blackstone": {
    "source": [
-    -7140346737759635015,
-    4042211348347495040
+    3798017478818980143,
+    4054863365345313438
    ]
   },
   "minecraft:blocks/glass_pane": {
@@ -855,8 +861,8 @@
   },
   "minecraft:blocks/magma_block": {
    "source": [
-    -7663907166553731782,
-    -3764081017543463308
+    8451928603923138446,
+    -9183213682610964022
    ]
   },
   "minecraft:blocks/medium_amethyst_bud": {
@@ -939,8 +945,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -4538844609345626594,
-    -5721430164696782700
+    -9080699634086034029,
+    -809231993565937013
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1047,8 +1053,8 @@
   },
   "minecraft:blocks/polished_blackstone_bricks": {
    "source": [
-    -1607172129934246084,
-    -8150765271330844656
+    8253629395517662100,
+    -3328715434798806923
    ]
   },
   "minecraft:blocks/polished_blackstone_stairs": {
@@ -1677,8 +1683,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -8859877513064845996,
-    -7328974934925358936
+    2364989353806393844,
+    -5968961164165247413
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1731,8 +1737,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -9066523405869417993,
-    -5228079211991658729
+    -9042853160385198513,
+    3381137269333961705
    ]
   },
   "minecraft:entities/tropical_fish": {

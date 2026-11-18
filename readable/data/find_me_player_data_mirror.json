@@ -35345,12 +35345,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "minecraft:the_nether",
-        "x": 111.3002,
-        "xRot": 9.1211,
-        "y": 35.0,
-        "yRot": -168.8509,
-        "z": -422.5313
+        "dimension": "minecraft:overworld",
+        "x": -2858.0,
+        "xRot": -40.0,
+        "y": -5.8,
+        "yRot": -353.8738,
+        "z": 52.0
        },
        "uuid": [
         -644884357,
@@ -35411,6 +35411,23 @@
        "entity": {
         "AbsorptionAmount": 0.0,
         "AccumulatedRoll": 0.0,
+        "ActiveEffects": [
+         {
+          "Ambient": 1,
+          "Amplifier": 0,
+          "CurativeItems": [
+           {
+            "Count": 1,
+            "id": "minecraft:milk_bucket"
+           }
+          ],
+          "Duration": 2147377737,
+          "Id": 12,
+          "ShowIcon": 1,
+          "ShowParticles": 1,
+          "forge:id": "minecraft:fire_resistance"
+         }
+        ],
         "AffectionMap": {
          "4160a5c8-62ae-32ae-bcef-9d00a1d04297": 1000
         },
@@ -35487,10 +35504,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 220.0,
+        "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1165137,
+        "CompanionRescueStoredAt": 1170756,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -35594,10 +35611,10 @@
          {},
          {}
         ],
-        "HasClearAirspace": 1,
+        "HasClearAirspace": 0,
         "HasConsumedFood": 0,
-        "Health": 220.0,
-        "HurtByTimestamp": 1565,
+        "Health": 219.0,
+        "HurtByTimestamp": 45375,
         "HurtTime": 0,
         "InLove": 0,
         "InSittingPose": 0,
@@ -35614,8 +35631,8 @@
         "IsDoingAerialAttack": 0,
         "IsFreeLooking": 0,
         "IsFromTamedParents": 0,
-        "IsGoingDown": 1,
-        "IsOnSolidGround": 1,
+        "IsGoingDown": 0,
+        "IsOnSolidGround": 0,
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
@@ -35629,7 +35646,7 @@
         "OAH_CurrentFuel": 106,
         "OAH_FullRechargeCooldown": 0,
         "OAH_PendingScale": 0.0,
-        "OnGround": 1,
+        "OnGround": 0,
         "OrderedToSit": 0,
         "Owner": [
          1096852936,
@@ -35637,22 +35654,22 @@
          -1125147392,
          -1580186985
         ],
-        "PH_SmoothedEntityPitch": 0.0,
-        "PH_SmoothedMovementYaw": 7391.1491,
-        "PH_UnwrappedMovementYaw": 7391.1491,
+        "PH_SmoothedEntityPitch": -0.0,
+        "PH_SmoothedMovementYaw": 11166.1262,
+        "PH_UnwrappedMovementYaw": 11166.1262,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 8471.1491,
+        "PH_UnwrappedYaw": 12246.1262,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         111.3002,
-         35.0,
-         -422.5313
+         -2858.0,
+         -5.8,
+         52.0
         ],
         "Rotation": [
-         -168.8509,
-         9.1211
+         -353.8738,
+         -40.0
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
@@ -35665,8 +35682,8 @@
         "SpawnScaleTicks": 1,
         "TamingRitualCompleted": 1,
         "TamingRitualTimer": 0,
-        "ThrottleLevel": 0.0003,
-        "TransportMode": 0,
+        "ThrottleLevel": 0.0026,
+        "TransportMode": 1,
         "UUID": [
          -644884357,
          -1594343222,
@@ -35674,11 +35691,11 @@
          1492697879
         ],
         "UUID_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317",
-        "UseGroundNav": 1,
+        "UseGroundNav": 0,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 0.6545,
-         "foodLevel": 14,
+         "exhaustionLevel": 3.6733,
+         "foodLevel": 7,
          "saturationLevel": 0.0,
          "tickTimer": 0
         },

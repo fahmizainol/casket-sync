@@ -448,6 +448,15 @@
      }
     },
     {
+     "amount": 197,
+     "key": {
+      "stack": {
+       "item": "minecraft:cobbled_deepslate"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -814,7 +823,7 @@
      }
     },
     {
-     "amount": 193,
+     "amount": 194,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -949,7 +958,7 @@
      }
     },
     {
-     "amount": 3290,
+     "amount": 3323,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -1175,7 +1184,7 @@
      }
     },
     {
-     "amount": 71,
+     "amount": 261,
      "key": {
       "stack": {
        "item": "minecraft:basalt"
@@ -1229,6 +1238,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:bookshelf"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 204,
      "key": {
       "stack": {
@@ -1253,6 +1271,15 @@
      "amount": 3,
      "key": {
       "stack": {
+       "item": "minecraft:sandstone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
        "item": "minecraft:smooth_stone_slab",
        "tag": {
         "sheath": 0
@@ -1262,7 +1289,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 32,
      "key": {
       "stack": {
        "item": "minecraft:cobblestone"
@@ -1352,7 +1379,7 @@
      }
     },
     {
-     "amount": 21,
+     "amount": 27,
      "key": {
       "stack": {
        "item": "minecraft:magma_block"
@@ -1692,7 +1719,7 @@
      }
     },
     {
-     "amount": 23,
+     "amount": 31,
      "key": {
       "stack": {
        "item": "minecraft:andesite"
@@ -2771,7 +2798,7 @@
      }
     },
     {
-     "amount": 18,
+     "amount": 21,
      "key": {
       "stack": {
        "item": "minecraft:gravel"
@@ -3173,7 +3200,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 21,
      "key": {
       "stack": {
        "item": "minecraft:granite"
@@ -3191,7 +3218,7 @@
      }
     },
     {
-     "amount": 14,
+     "amount": 21,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -3483,7 +3510,7 @@
      }
     },
     {
-     "amount": 8,
+     "amount": 13,
      "key": {
       "stack": {
        "item": "minecraft:sand"
@@ -3557,7 +3584,7 @@
      }
     },
     {
-     "amount": 40,
+     "amount": 45,
      "key": {
       "stack": {
        "item": "minecraft:blackstone"
@@ -3841,7 +3868,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:flint"
@@ -4371,7 +4398,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 40,
      "key": {
       "stack": {
        "item": "minecraft:redstone"
