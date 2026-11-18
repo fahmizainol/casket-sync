@@ -9,8 +9,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    6095019177183468849,
-    5174901216136941715
+    -7711535808120117566,
+    -8369780610873169831
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,20 +21,20 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -618209692696075898,
-    100755522384221325
+    6962797085947331162,
+    -7281422516394739879
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -1874101512196664179,
-    2256976606169263316
+    -2026949609681240190,
+    2275591757635412073
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    2709695190896278537,
-    -3841294297379983916
+    8896428083072177380,
+    3284531480398594943
    ]
   },
   "artifacts:entity_equipment/zombie": {
@@ -45,8 +45,8 @@
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    3521768639314999868,
-    6014497888876159900
+    3406649101558941195,
+    1534879207663312353
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -895,10 +895,16 @@
     -3486178516170288285
    ]
   },
+  "minecraft:blocks/nether_brick_wall": {
+   "source": [
+    -5970988176965445714,
+    -472895572087295015
+   ]
+  },
   "minecraft:blocks/nether_bricks": {
    "source": [
-    -6097851197086939280,
-    -408204856761887350
+    3478516548244001304,
+    -3938695637153653385
    ]
   },
   "minecraft:blocks/nether_quartz_ore": {
@@ -909,8 +915,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -3747148211481030966,
-    2612873502183736366
+    2175044132512736632,
+    9100555892480944453
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1123,6 +1129,12 @@
     -1102431125252519363
    ]
   },
+  "minecraft:blocks/red_nether_brick_stairs": {
+   "source": [
+    2855272022104249757,
+    -81601718410622717
+   ]
+  },
   "minecraft:blocks/red_nether_bricks": {
    "source": [
     4162992210536187945,
@@ -1251,8 +1263,8 @@
   },
   "minecraft:blocks/spawner": {
    "source": [
-    80949054231431208,
-    9046660473852485949
+    283198888034035113,
+    -7575808213970765193
    ]
   },
   "minecraft:blocks/spore_blossom": {
@@ -1503,8 +1515,8 @@
   },
   "minecraft:entities/blaze": {
    "source": [
-    -1772137178151317680,
-    -1056801861898704825
+    3622280002445138111,
+    9079209182149334107
    ]
   },
   "minecraft:entities/cat": {
@@ -1617,8 +1629,8 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    4208480357325331212,
-    1228466786839265860
+    -8415189353590820625,
+    -1801929526039292480
    ]
   },
   "minecraft:entities/pillager": {
@@ -1665,8 +1677,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -3662137427947844546,
-    9095448500972733920
+    -1641988383636840921,
+    8893642785863064756
    ]
   },
   "minecraft:entities/slime": {
@@ -1713,8 +1725,8 @@
   },
   "minecraft:entities/wither_skeleton": {
    "source": [
-    -3662878053199393590,
-    -6409509847022775851
+    445948039627627302,
+    3354649616367653402
    ]
   },
   "minecraft:entities/wolf": {
@@ -1737,8 +1749,8 @@
   },
   "minecraft:entities/zombified_piglin": {
    "source": [
-    2397704983340977209,
-    -4049595784161955195
+    -3470610088905892238,
+    1652312964908681913
    ]
   }
  }

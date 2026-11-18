@@ -1,0 +1,64 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:saddle"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:golden_chestplate",
+       "tag": {
+        "Damage": 0
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/d/da/da5d6237-79b3-43b6-b6c8-05664d780f30",
+  "position": {
+   "X": -1758,
+   "Y": 73,
+   "Z": -1758
+  },
+  "size": 27,
+  "uuid": [
+   -631414217,
+   2041791414,
+   -1228405402,
+   1299713840
+  ],
+  "uuid_str": "da5d6237-79b3-43b6-b6c8-05664d780f30"
+ }
+}

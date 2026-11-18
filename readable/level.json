@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 302584,
+  "DayTime": 308584,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795009159945,
+  "LastPlayed": 1795009459995,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -430,6 +430,10 @@
     {
      "Base": 0.08,
      "Name": "forge:entity_gravity"
+    },
+    {
+     "Base": 4.0,
+     "Name": "epicfight:offhand_attack_speed"
     },
     {
      "Base": 0.1,
@@ -910,7 +914,7 @@
      "passive4": "epicfight:berserker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -4569,17 +4573,20 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_rs_active_until": 1094918,
+    "ua_accessory_types_seen": {
+     "uniqueaccessories:withered_heart": 1
+    },
+    "ua_rs_active_until": 1100932,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1095431,
-    "ua_shiny_last_x": -1715.4087,
-    "ua_shiny_last_y": 73.0,
-    "ua_shiny_last_z": -1739.3581,
-    "ua_tabi_last_dash": 1095407
+    "ua_shiny_last_active": 1101431,
+    "ua_shiny_last_x": -1801.0347,
+    "ua_shiny_last_y": 85.0,
+    "ua_shiny_last_z": -1773.6645,
+    "ua_tabi_last_dash": 1100228
    },
-   "Health": 26.75,
-   "HurtByTimestamp": 1531,
+   "Health": 28.0,
+   "HurtByTimestamp": 7193,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4673,147 +4680,50 @@
      "id": "tcrcore:core_flint"
     },
     {
-     "Count": 1,
+     "Count": 49,
      "Slot": 9,
-     "id": "minecraft:diamond"
+     "id": "minecraft:netherrack"
     },
     {
      "Count": 1,
      "Slot": 10,
-     "id": "minecraft:blackstone_stairs"
+     "id": "minecraft:coal"
     },
     {
-     "Count": 5,
+     "Count": 1,
      "Slot": 11,
-     "id": "minecraft:blackstone_wall"
-    },
-    {
-     "Count": 2,
-     "Slot": 12,
-     "id": "minecraft:polished_basalt"
-    },
-    {
-     "Count": 2,
-     "Slot": 13,
-     "id": "minecraft:cracked_polished_blackstone_bricks"
-    },
-    {
-     "Count": 2,
-     "Slot": 14,
-     "id": "minecraft:polished_blackstone"
+     "id": "minecraft:bone"
     },
     {
      "Count": 1,
-     "Slot": 15,
-     "id": "minecraft:polished_blackstone_stairs"
-    },
-    {
-     "Count": 1,
-     "Slot": 16,
-     "id": "minecraft:chiseled_polished_blackstone"
-    },
-    {
-     "Count": 1,
-     "Slot": 17,
-     "id": "minecraft:polished_blackstone_brick_stairs"
-    },
-    {
-     "Count": 2,
      "Slot": 18,
-     "id": "minecraft:polished_blackstone_wall"
-    },
-    {
-     "Count": 2,
-     "Slot": 19,
-     "id": "minecraft:polished_blackstone_brick_wall"
-    },
-    {
-     "Count": 2,
-     "Slot": 20,
-     "id": "minecraft:basalt"
-    },
-    {
-     "Count": 1,
-     "Slot": 21,
-     "id": "minecraft:smooth_basalt"
-    },
-    {
-     "Count": 2,
-     "Slot": 22,
-     "id": "minecraft:rotten_flesh"
-    },
-    {
-     "Count": 1,
-     "Slot": 23,
-     "id": "minecraft:gold_nugget"
-    },
-    {
-     "Count": 4,
-     "Slot": 24,
-     "id": "quark:magenta_shard"
-    },
-    {
-     "Count": 41,
-     "Slot": 25,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 5,
-     "Slot": 26,
-     "id": "minecraft:quartz"
-    },
-    {
-     "Count": 1,
-     "Slot": 27,
-     "id": "minecraft:diamond_pickaxe",
+     "id": "magistuarmory:gold_buckler",
      "tag": {
-      "Damage": 0,
-      "Enchantments": [
-       {
-        "id": "minecraft:unbreaking",
-        "lvl": 3
-       },
-       {
-        "id": "minecraft:mending",
-        "lvl": 1
-       }
-      ]
+      "Damage": 0
      }
     },
     {
-     "Count": 5,
-     "Slot": 28,
-     "id": "minecraft:gravel"
-    },
-    {
      "Count": 1,
-     "Slot": 29,
-     "id": "bosses_of_mass_destruction:soul_star"
-    },
-    {
-     "Count": 8,
-     "Slot": 30,
-     "id": "minecraft:nether_bricks"
-    },
-    {
-     "Count": 1,
-     "Slot": 31,
-     "id": "minecraft:saddle"
-    },
-    {
-     "Count": 1,
-     "Slot": 32,
-     "id": "irons_spellbooks:arcane_essence"
+     "Slot": 26,
+     "id": "magistuarmory:chainmail_horse_armor"
     },
     {
      "Count": 1,
      "Slot": 33,
-     "id": "minecraft:diamond_horse_armor"
+     "id": "minecraft:golden_sword",
+     "tag": {
+      "Damage": 0
+     }
     },
     {
      "Count": 1,
      "Slot": 34,
-     "id": "quark:smithing_template_rune"
+     "id": "minecraft:golden_horse_armor"
+    },
+    {
+     "Count": 1,
+     "Slot": 35,
+     "id": "magistuarmory:barding"
     },
     {
      "Count": 1,
@@ -4901,15 +4811,15 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -1715.4087,
-    73.0,
-    -1739.3581
+    -1801.0347,
+    85.0,
+    -1773.6645
    ],
    "Rotation": [
-    -17.9948,
-    8.8813
+    -89.8112,
+    0.0
    ],
-   "Score": 5625,
+   "Score": 5693,
    "SelectedItemSlot": 0,
    "SleepTimer": 0,
    "SpawnAngle": 79.7244,
@@ -4926,9 +4836,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 47,
-   "XpP": 0.6151,
+   "XpP": 0.8717,
    "XpSeed": 976728483,
-   "XpTotal": 5625,
+   "XpTotal": 5693,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4943,7 +4853,7 @@
     "y": 63.0,
     "z": -1778.7933
    },
-   "foodExhaustionLevel": 1.559,
+   "foodExhaustionLevel": 0.908,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15342,7 +15252,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 8125,
+    "ticks_since_last_warning": 2124,
     "warning_level": 0
    }
   },
@@ -15354,7 +15264,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1095431,
+  "Time": 1101431,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15362,7 +15272,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 10800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16050,9 +15960,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 25248,
+  "rainTime": 19248,
   "raining": 0,
-  "thunderTime": 66153,
+  "thunderTime": 60153,
   "thundering": 0,
   "version": 19133
  },
