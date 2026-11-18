@@ -9,8 +9,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -2715869728233139425,
-    6276287554366134437
+    80165215763582760,
+    7283162436519602754
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,20 +21,20 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -2584687720074432732,
-    4927762422499154421
+    -8919577201660636044,
+    8386719991658167458
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -7648027055312247133,
-    9114149634799889505
+    -6118707201377776835,
+    833715454190545515
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -8938417296763651178,
-    -5939651458037815706
+    7294899031242684193,
+    -9210751077066729840
    ]
   },
   "artifacts:entity_equipment/zombie": {
@@ -45,8 +45,8 @@
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -2190910528971766640,
-    -3272370665735709025
+    -1189091935521118255,
+    9180347958055416581
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1665,8 +1665,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    -1315662361177633035,
-    5054063548039468431
+    -6332005724511097703,
+    4490922628449073213
    ]
   },
   "minecraft:entities/chicken": {
@@ -1785,8 +1785,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -8977630864991423099,
-    4585435350830023277
+    -1752020900790386386,
+    1011306219845736325
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1821,8 +1821,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -2387121638541499296,
-    5357296543719780057
+    -5129365024225536228,
+    -4807596470332262336
    ]
   },
   "minecraft:entities/slime": {
@@ -1833,8 +1833,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    1922734813156475442,
-    -5239068221838025990
+    1292407421032967612,
+    -690405485793840098
    ]
   },
   "minecraft:entities/squid": {

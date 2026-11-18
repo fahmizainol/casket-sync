@@ -37210,7 +37210,7 @@
        "position": {
         "dimension": "minecraft:overworld",
         "x": -2858.0,
-        "xRot": -40.0,
+        "xRot": -2.4748,
         "y": -5.8,
         "yRot": -353.8738,
         "z": 52.0
@@ -37284,7 +37284,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147372192,
+          "Duration": 2147371375,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -37367,10 +37367,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 219.0,
+        "CompanionRescueHealth": 220.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1299317,
+        "CompanionRescueStoredAt": 1305001,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -37476,7 +37476,7 @@
         ],
         "HasClearAirspace": 0,
         "HasConsumedFood": 0,
-        "Health": 219.0,
+        "Health": 220.0,
         "HurtByTimestamp": 45375,
         "HurtTime": 0,
         "InLove": 0,
@@ -37532,7 +37532,7 @@
         ],
         "Rotation": [
          -353.8738,
-         -40.0
+         -2.4748
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
