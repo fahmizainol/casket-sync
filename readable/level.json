@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 326584,
+  "DayTime": 332584,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795010359938,
+  "LastPlayed": 1795010659938,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -906,7 +906,7 @@
      "passive4": "epicfight:berserker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "EPICFIGHT",
+     "playerMode": "VANILLA",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -1639,7 +1639,7 @@
       "dual_annihilator_lock": 1,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 1,
@@ -4191,7 +4191,7 @@
        "position": {
         "dimension": "minecraft:overworld",
         "x": -2858.0,
-        "xRot": -2.4833,
+        "xRot": -1.1415,
         "y": -5.8,
         "yRot": -353.8738,
         "z": 52.0
@@ -4265,7 +4265,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147378728,
+          "Duration": 2147377762,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -4348,10 +4348,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 220.0,
+        "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1119077,
+        "CompanionRescueStoredAt": 1123333,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -4457,7 +4457,7 @@
         ],
         "HasClearAirspace": 0,
         "HasConsumedFood": 0,
-        "Health": 220.0,
+        "Health": 219.0,
         "HurtByTimestamp": 45375,
         "HurtTime": 0,
         "InLove": 0,
@@ -4513,7 +4513,7 @@
         ],
         "Rotation": [
          -353.8738,
-         -2.4833
+         -1.1415
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
@@ -4565,13 +4565,13 @@
      "vehicles": []
     },
     "last_send_time": 0,
+    "ua_rs_active_until": 1124065,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1119137,
-    "ua_shiny_last_x": -2881.0823,
-    "ua_shiny_last_y": 30.0,
-    "ua_shiny_last_z": 55.2159,
-    "ua_tabi_last_dash": 1119107
+    "ua_shiny_last_active": 1124124,
+    "ua_shiny_last_x": 258.2482,
+    "ua_shiny_last_y": 66.0,
+    "ua_shiny_last_z": -1767.3137
    },
    "Health": 28.0,
    "HurtByTimestamp": 0,
@@ -4691,6 +4691,14 @@
      }
     },
     {
+     "Count": 16,
+     "Slot": 13,
+     "id": "minecraft:iron_ingot",
+     "tag": {
+      "sheath": 0
+     }
+    },
+    {
      "Count": 1,
      "Slot": 18,
      "id": "magistuarmory:gold_buckler",
@@ -4700,8 +4708,42 @@
     },
     {
      "Count": 1,
+     "Slot": 19,
+     "id": "epicfight:iron_longsword",
+     "tag": {
+      "Damage": 0
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 20,
+     "id": "efn:deepdark_heart"
+    },
+    {
+     "Count": 31,
+     "Slot": 22,
+     "id": "minecraft:iron_ingot",
+     "tag": {
+      "sheath": 0
+     }
+    },
+    {
+     "Count": 15,
+     "Slot": 23,
+     "id": "minecraft:iron_ingot",
+     "tag": {
+      "sheath": 0
+     }
+    },
+    {
+     "Count": 1,
      "Slot": 26,
      "id": "magistuarmory:chainmail_horse_armor"
+    },
+    {
+     "Count": 1,
+     "Slot": 29,
+     "id": "ba_bt:core_golem_eye"
     },
     {
      "Count": 1,
@@ -4794,9 +4836,9 @@
    "LastDeathLocation": {
     "dimension": "minecraft:the_nether",
     "pos": [
-     -1831,
+     -1818,
      85,
-     -1774
+     -1781
     ]
    },
    "Motion": [
@@ -4807,13 +4849,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -2881.073,
-    30.0,
-    55.2057
+    258.2482,
+    66.0,
+    -1767.3137
    ],
    "Rotation": [
-    45.7969,
-    22.2952
+    34.1752,
+    31.1023
    ],
    "Score": 5693,
    "SelectedItemSlot": 0,
@@ -4849,7 +4891,7 @@
     "y": 63.0,
     "z": -1778.7933
    },
-   "foodExhaustionLevel": 1.0,
+   "foodExhaustionLevel": 1.474,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -4860,7 +4902,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 36,
+    "mana": 100,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15248,7 +15290,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 6820,
+    "ticks_since_last_warning": 476,
     "warning_level": 0
    }
   },
@@ -15260,7 +15302,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1119431,
+  "Time": 1125431,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15268,7 +15310,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 10800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15956,9 +15998,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 1248,
-  "raining": 0,
-  "thunderTime": 42153,
+  "rainTime": 7625,
+  "raining": 1,
+  "thunderTime": 36153,
   "thundering": 0,
   "version": 19133
  },

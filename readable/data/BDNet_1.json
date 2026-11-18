@@ -1804,7 +1804,7 @@
      }
     },
     {
-     "amount": 185,
+     "amount": 186,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2865,18 +2865,6 @@
      }
     },
     {
-     "amount": 64,
-     "key": {
-      "stack": {
-       "item": "minecraft:iron_ingot",
-       "tag": {
-        "sheath": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 1,
      "key": {
       "stack": {
@@ -3106,15 +3094,6 @@
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "efn:deepdark_heart"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3578,15 +3557,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "ba_bt:core_golem_eye"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "uniqueaccessories:sun_stone"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -3623,6 +3593,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:moss_carpet"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:iron_sword",
        "tag": {
         "Damage": 0,
@@ -3633,15 +3612,6 @@
          }
         ]
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:moss_carpet"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4283,28 +4253,6 @@
          "spellWheel": 1
         },
         "sheath": 1
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:iron_sword",
-       "tag": {
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:sharpness",
-          "lvl": 3
-         },
-         {
-          "id": "minecraft:sweeping",
-          "lvl": 3
-         }
-        ]
        }
       },
       "type": "beyonddimensions:stack_type/item"

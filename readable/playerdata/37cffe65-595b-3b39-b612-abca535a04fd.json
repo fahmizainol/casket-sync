@@ -514,7 +514,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "dodge_parry_reward:heal1",
    "passive6": "wom:mindset",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1248,7 +1248,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4596,26 +4596,26 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_nether",
   "pos": [
-   -1829,
+   -1827,
    85,
-   -1772
+   -1769
   ]
  },
  "Motion": [
   0.0,
-  -0.0476,
+  -0.0784,
   0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -2881.5595,
-  30.5625,
-  55.883
+  256.5131,
+  66.0,
+  -1766.8353
  ],
  "Rotation": [
-  101.6447,
-  48.7499
+  97.3167,
+  0.0
  ],
  "Score": 3496,
  "SelectedItemSlot": 0,
@@ -4662,7 +4662,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 36,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14426,7 +14426,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6826,
+  "ticks_since_last_warning": 614,
   "warning_level": 0
  }
 }
