@@ -9,8 +9,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    8365128196994562628,
-    -7736606574697771529
+    4974166942675518302,
+    -7069402939952247128
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,32 +21,32 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    593414714343883756,
-    -9032571921265619339
+    1553847040704152807,
+    -6922431237524552465
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -4650298854927369951,
-    6132916901268617554
+    -1961966020242600151,
+    -535028358989657353
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    3753939491021735302,
-    5898593714846631450
+    -4126016148361342212,
+    5271048886360221829
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    8577096054519599211,
-    208367249530451619
+    2135573767150936454,
+    6849023138548310094
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    7463203302285221215,
-    5531556616929101522
+    -6068402632206097911,
+    2781480594128275319
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -999,8 +999,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -5573517589791249868,
-    -2035053787830573343
+    -7775546024646466469,
+    7340577259023957775
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1635,8 +1635,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    -701446424843864475,
-    6026463562997172384
+    -7411177740113394205,
+    7303972411233400782
    ]
   },
   "minecraft:entities/chicken": {
@@ -1737,8 +1737,8 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    8649142504543994633,
-    6366690359512465711
+    6521350333364918104,
+    -1206198568141803743
    ]
   },
   "minecraft:entities/piglin_brute": {
@@ -1791,8 +1791,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    6051281623703398392,
-    -3397693794654980645
+    -4247271262799855866,
+    -2745397176537494103
    ]
   },
   "minecraft:entities/slime": {
@@ -1839,8 +1839,8 @@
   },
   "minecraft:entities/wither_skeleton": {
    "source": [
-    5630344135963798729,
-    6496180321069862659
+    -3589339132140270572,
+    -2965015099064984475
    ]
   },
   "minecraft:entities/wolf": {
@@ -1863,8 +1863,8 @@
   },
   "minecraft:entities/zombified_piglin": {
    "source": [
-    6481099304790163453,
-    -1749956021844838677
+    4806541695659364254,
+    6210762555417919254
    ]
   },
   "tcr_bosses:entities/citadel_keeper": {

@@ -73,12 +73,12 @@
    "Name": "forge:step_height_addition"
   },
   {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
   },
   {
    "Base": 1.0,
@@ -122,12 +122,12 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 983,
- "Dimension": "minecraft:overworld",
+ "DeathTime": 0,
+ "Dimension": "minecraft:the_nether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": 0,
+ "Fire": -20,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -516,7 +516,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "dodge_parry_reward:heal1",
    "passive6": "wom:mindset",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1398,7 +1398,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4671,17 +4670,15 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1199755,
+  "ua_rs_active_until": 1242467,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1197890
+  "ua_rs_continuous": 0
  },
- "Health": 0.0,
- "HurtByTimestamp": 38805,
+ "Health": 24.6294,
+ "HurtByTimestamp": 1091,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4832,12 +4829,12 @@
    "id": "minecraft:raw_copper"
   },
   {
-   "Count": 3,
+   "Count": 4,
    "Slot": 21,
    "id": "minecraft:arrow"
   },
   {
-   "Count": 1,
+   "Count": 2,
    "Slot": 22,
    "id": "bosses_of_mass_destruction:soul_star"
   },
@@ -4847,9 +4844,24 @@
    "id": "minecraft:deepslate_diamond_ore"
   },
   {
-   "Count": 2,
+   "Count": 3,
    "Slot": 24,
    "id": "minecraft:bone"
+  },
+  {
+   "Count": 3,
+   "Slot": 25,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 1,
+   "Slot": 26,
+   "id": "minecraft:gold_nugget"
+  },
+  {
+   "Count": 1,
+   "Slot": 28,
+   "id": "artifacts:plastic_drinking_hat"
   },
   {
    "Count": 6,
@@ -4857,7 +4869,7 @@
    "id": "minecraft:magma_cream"
   },
   {
-   "Count": 3,
+   "Count": 9,
    "Slot": 30,
    "id": "irons_spellbooks:arcane_essence"
   },
@@ -4972,15 +4984,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  264.1309,
-  62.0,
-  -1779.6389
+  -48.5537,
+  86.0,
+  -900.2181
  ],
  "Rotation": [
-  -43.5592,
-  0.0
+  -24.7449,
+  3.124
  ],
- "Score": 3707,
+ "Score": 3763,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 52.3473,
@@ -4997,9 +5009,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 42,
- "XpP": 0.2364,
+ "XpP": 0.4909,
  "XpSeed": -736053570,
- "XpTotal": 3707,
+ "XpTotal": 3763,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5009,7 +5021,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.863,
+ "foodExhaustionLevel": 3.154,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5028,6 +5040,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14751,9 +14764,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2163,
+  "ticks_since_last_warning": 7115,
   "warning_level": 0
  }
 }

@@ -533,15 +533,15 @@
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
+  "minecraft:nether/root": {
     "criteria": {
-      "enchanted_item": "2026-11-18 22:17:53 +0800"
+      "entered_nether": "2026-11-18 21:29:34 +0800"
     },
     "done": true
   },
-  "minecraft:nether/find_bastion": {
+  "minecraft:story/enter_the_nether": {
     "criteria": {
-      "bastion": "2026-11-18 22:55:18 +0800"
+      "entered_nether": "2026-11-18 21:29:34 +0800"
     },
     "done": true
   },
@@ -554,9 +554,15 @@
     },
     "done": false
   },
-  "minecraft:nether/root": {
+  "minecraft:nether/find_fortress": {
     "criteria": {
-      "entered_nether": "2026-11-18 21:29:34 +0800"
+      "in_better_fortress": "2026-11-18 21:37:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-11-18 22:17:53 +0800"
     },
     "done": true
   },
@@ -566,15 +572,9 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_nether": {
+  "minecraft:nether/find_bastion": {
     "criteria": {
-      "entered_nether": "2026-11-18 21:29:34 +0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "in_better_fortress": "2026-11-18 21:37:41 +0800"
+      "bastion": "2026-11-18 22:55:18 +0800"
     },
     "done": true
   },
