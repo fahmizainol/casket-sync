@@ -9,8 +9,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    7633750705416694314,
-    5054122048660138089
+    2807485958597966396,
+    -5125580005589568018
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,20 +21,20 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -7642331469980849861,
-    2928489541673402222
+    -9012550205567126848,
+    -6555900199913955367
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    7659075165153527027,
-    -1297344277198124280
+    6987843457058572881,
+    1432491367525339836
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    8744928345691720448,
-    1306884851244745647
+    8317444872485429773,
+    5092477646684593964
    ]
   },
   "artifacts:entity_equipment/zombie": {
@@ -45,8 +45,8 @@
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -4410957175549576331,
-    -5820725844693004754
+    5962224290650232549,
+    6640067061738136635
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1509,8 +1509,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    7549025941821041564,
-    4203669030474963366
+    -467885081426322487,
+    4615878475556568093
    ]
   },
   "minecraft:entities/blaze": {
@@ -1527,8 +1527,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    5614312370855961560,
-    1493003658841894845
+    -8972008884690778609,
+    -1272469250975591905
    ]
   },
   "minecraft:entities/chicken": {
@@ -1629,8 +1629,8 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    -8415189353590820625,
-    -1801929526039292480
+    8102149250058701350,
+    3311027120997874640
    ]
   },
   "minecraft:entities/pillager": {
@@ -1641,8 +1641,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -7971156408962149987,
-    -8626083305410441665
+    -2625480821412001636,
+    -1653301257048924846
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1677,8 +1677,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -4682750714845516702,
-    -1527390206499921844
+    -2620965312823122367,
+    3691470025579958733
    ]
   },
   "minecraft:entities/slime": {
@@ -1689,8 +1689,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    -4650551415827769565,
-    -2306107875017593823
+    738605507653597327,
+    5323063251825516462
    ]
   },
   "minecraft:entities/squid": {
@@ -1737,8 +1737,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    -2782075797584387781,
-    -4321598797459214925
+    799595667889141327,
+    31000762029307532
    ]
   },
   "minecraft:entities/zombie_villager": {
