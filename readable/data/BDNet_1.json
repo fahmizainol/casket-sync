@@ -30,7 +30,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:golden_horse_armor"
@@ -260,15 +260,6 @@
      "key": {
       "stack": {
        "item": "tcrcore:core_flint"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:ancient_debris"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -812,6 +803,28 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:smite",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:brush",
        "tag": {
         "Damage": 0
@@ -940,7 +953,7 @@
      }
     },
     {
-     "amount": 206,
+     "amount": 207,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1084,7 +1097,7 @@
      }
     },
     {
-     "amount": 3758,
+     "amount": 3810,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -1310,6 +1323,24 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 9,
      "key": {
       "stack": {
@@ -1323,15 +1354,6 @@
      "key": {
       "stack": {
        "item": "minecraft:basalt"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 12,
-     "key": {
-      "stack": {
-       "item": "minecraft:netherite_scrap"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1391,7 +1413,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:golden_leggings",
@@ -1629,6 +1651,24 @@
     },
     {
      "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:leather_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:iron_horse_armor"
@@ -1872,7 +1912,7 @@
      }
     },
     {
-     "amount": 92,
+     "amount": 95,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -1938,7 +1978,7 @@
      }
     },
     {
-     "amount": 101,
+     "amount": 103,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -2085,6 +2125,24 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:bow",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:power",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:fishing_rod",
        "tag": {
         "Damage": 0,
@@ -2172,6 +2230,32 @@
      "key": {
       "stack": {
        "item": "minecraft:kelp"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:blast_protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 3
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2305,6 +2389,24 @@
        "item": "epicfight:iron_tachi",
        "tag": {
         "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 3
+         }
+        ]
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -2485,6 +2587,24 @@
      "key": {
       "stack": {
        "item": "minecraft:bucket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:leather_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:frost_walker",
+          "lvl": 1
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2842,6 +2962,24 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:leather_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 9,
      "key": {
       "stack": {
@@ -2915,7 +3053,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:chainmail_leggings",
@@ -2936,7 +3074,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "minecraft:leather_leggings",
@@ -3017,6 +3155,23 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "efn:scythe_enhance",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 18,
      "key": {
       "stack": {
@@ -3071,7 +3226,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:leather_helmet",
@@ -3247,7 +3402,7 @@
      }
     },
     {
-     "amount": 91,
+     "amount": 101,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -3270,6 +3425,24 @@
      "key": {
       "stack": {
        "item": "minecraft:nether_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:leather_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 1
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3332,12 +3505,37 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:golden_boots",
        "tag": {
         "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:crossbow",
+       "tag": {
+        "Charged": 0,
+        "ChargedProjectiles": [],
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:multishot",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:piercing",
+          "lvl": 3
+         }
+        ],
+        "sheath": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -3416,7 +3614,7 @@
      }
     },
     {
-     "amount": 23,
+     "amount": 25,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -3535,6 +3733,15 @@
      }
     },
     {
+     "amount": 11,
+     "key": {
+      "stack": {
+       "item": "minecraft:coal"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 16,
      "key": {
       "stack": {
@@ -3583,7 +3790,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:iron_sword",
@@ -4078,7 +4285,7 @@
      }
     },
     {
-     "amount": 51,
+     "amount": 63,
      "key": {
       "stack": {
        "item": "minecraft:flint"
@@ -4156,6 +4363,28 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 2
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:leather_chestplate",
        "tag": {
         "Damage": 0,
@@ -4218,6 +4447,18 @@
      "key": {
       "stack": {
        "item": "minecraft:cooked_porkchop"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:chainmail_chestplate",
+       "tag": {
+        "Damage": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4361,7 +4602,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:leather_boots",
@@ -4675,6 +4916,15 @@
      }
     },
     {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "minecraft:fire_charge"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -4761,7 +5011,7 @@
      }
     },
     {
-     "amount": 31,
+     "amount": 49,
      "key": {
       "stack": {
        "item": "minecraft:gunpowder"

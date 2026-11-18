@@ -1,0 +1,85 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 4,
+       "id": "minecraft:flint"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:leather_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:flint"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/84/84bab8ac-3a9f-4a65-b9a3-d053f52c8482",
+  "position": {
+   "X": 18,
+   "Y": 101,
+   "Z": -849
+  },
+  "size": 27,
+  "uuid": [
+   -2068137812,
+   983517797,
+   -1180446637,
+   -181631870
+  ],
+  "uuid_str": "84bab8ac-3a9f-4a65-b9a3-d053f52c8482"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:chainmail_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:leather_chestplate",
+       "tag": {
+        "Damage": 0
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/2/28/285077f6-5516-472b-8e6c-542a81e3ab87",
+  "position": {
+   "X": 7,
+   "Y": 101,
+   "Z": -861
+  },
+  "size": 27,
+  "uuid": [
+   676362230,
+   1427523371,
+   -1905503190,
+   -2115785849
+  ],
+  "uuid_str": "285077f6-5516-472b-8e6c-542a81e3ab87"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:leather_helmet",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:smite",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:string"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/9/97/9720bbd5-d547-4360-9017-4041040bfe07",
+  "position": {
+   "X": 22,
+   "Y": 101,
+   "Z": -850
+  },
+  "size": 27,
+  "uuid": [
+   -1759462443,
+   -716749984,
+   -1877524415,
+   67894791
+  ],
+  "uuid_str": "9720bbd5-d547-4360-9017-4041040bfe07"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:flint"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:string"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/e/ed/ed0a877c-b407-497d-a4ec-7daca4033049",
+  "position": {
+   "X": 22,
+   "Y": 101,
+   "Z": -848
+  },
+  "size": 27,
+  "uuid": [
+   -318077060,
+   -1274590851,
+   -1528005204,
+   -1543294903
+  ],
+  "uuid_str": "ed0a877c-b407-497d-a4ec-7daca4033049"
+ }
+}

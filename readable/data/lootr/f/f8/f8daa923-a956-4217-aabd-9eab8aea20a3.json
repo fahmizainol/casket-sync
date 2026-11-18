@@ -1,0 +1,46 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:stone_sword",
+       "tag": {
+        "Damage": 0
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/f/f8/f8daa923-a956-4217-aabd-9eab8aea20a3",
+  "position": {
+   "X": 13,
+   "Y": 102,
+   "Z": -880
+  },
+  "size": 27,
+  "uuid": [
+   -119887581,
+   -1453964777,
+   -1430413653,
+   -1964367709
+  ],
+  "uuid_str": "f8daa923-a956-4217-aabd-9eab8aea20a3"
+ }
+}

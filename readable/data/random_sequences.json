@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -2233942678517489179,
-    -4814600739409966182
+    6645754469369589806,
+    4326263759494054563
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -21,32 +21,32 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    1553847040704152807,
-    -6922431237524552465
+    -172729572597613450,
+    7922021473648413265
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -1961966020242600151,
-    -535028358989657353
+    -3750218928611158975,
+    3250779051772767416
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -4126016148361342212,
-    5271048886360221829
+    -1685253384159256849,
+    -2531850851629598970
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    2135573767150936454,
-    6849023138548310094
+    3055269363264148729,
+    5424179375439674723
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -6068402632206097911,
-    2781480594128275319
+    -2484794601073681171,
+    -6188724134090344258
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1617,8 +1617,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    -505816431742725657,
-    6663908616016152644
+    4695294886447462791,
+    -6871211445725939650
    ]
   },
   "minecraft:entities/blaze": {
@@ -1839,8 +1839,8 @@
   },
   "minecraft:entities/wither_skeleton": {
    "source": [
-    -3589339132140270572,
-    -2965015099064984475
+    2559383875248723948,
+    3365256440311713040
    ]
   },
   "minecraft:entities/wolf": {

@@ -1,0 +1,110 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:leather_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:flint"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:leather_boots",
+       "tag": {
+        "Damage": 0
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:stone_sword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:flint"
+      },
+      {
+       "Count": 2,
+       "Slot": 18,
+       "id": "minecraft:flint"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/0/02/0216b84d-e734-4488-ae95-e4e1b4bbc6ae",
+  "position": {
+   "X": 6,
+   "Y": 109,
+   "Z": -845
+  },
+  "size": 27,
+  "uuid": [
+   35043405,
+   -416004984,
+   -1365908255,
+   -1262762322
+  ],
+  "uuid_str": "0216b84d-e734-4488-ae95-e4e1b4bbc6ae"
+ }
+}

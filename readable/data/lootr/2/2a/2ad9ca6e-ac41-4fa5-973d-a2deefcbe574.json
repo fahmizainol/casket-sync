@@ -1,0 +1,56 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:leather_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:thorns",
+          "lvl": 1
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/2/2a/2ad9ca6e-ac41-4fa5-973d-a2deefcbe574",
+  "position": {
+   "X": 13,
+   "Y": 101,
+   "Z": -880
+  },
+  "size": 27,
+  "uuid": [
+   718916206,
+   -1405005915,
+   -1757568290,
+   -271850124
+  ],
+  "uuid_str": "2ad9ca6e-ac41-4fa5-973d-a2deefcbe574"
+ }
+}

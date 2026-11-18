@@ -1,0 +1,86 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:golden_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:bane_of_arthropods",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 2
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/8/8f/8fcecb8b-f083-4763-9787-1f3469d3a0e4",
+  "position": {
+   "X": 18,
+   "Y": 101,
+   "Z": -850
+  },
+  "size": 27,
+  "uuid": [
+   -1882272885,
+   -259831965,
+   -1752752332,
+   1775476964
+  ],
+  "uuid_str": "8fcecb8b-f083-4763-9787-1f3469d3a0e4"
+ }
+}
