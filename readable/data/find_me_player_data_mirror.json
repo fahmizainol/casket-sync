@@ -34656,7 +34656,7 @@
        "position": {
         "dimension": "minecraft:overworld",
         "x": -2858.0,
-        "xRot": -1.1344,
+        "xRot": -1.8661,
         "y": -5.8,
         "yRot": -353.8738,
         "z": 52.0
@@ -34683,7 +34683,7 @@
       }
      ],
      "mountIndex": 0,
-     "mountReadyAt": 1018747,
+     "mountReadyAt": 1081518,
      "mountWheelSlots": [],
      "mounts": [
       {
@@ -34699,12 +34699,12 @@
      "origins": [
       {
        "position": {
-        "dimension": "minecraft:overworld",
-        "x": -2905.5,
-        "xRot": 21.0,
-        "y": -20.0,
-        "yRot": -93.7119,
-        "z": 22.5
+        "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+        "x": -61.9895,
+        "xRot": 0.0,
+        "y": 130.0,
+        "yRot": -328.2582,
+        "z": -96.0
        },
        "uuid": [
         -644884357,
@@ -34730,7 +34730,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147382990,
+          "Duration": 2147382600,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -34756,24 +34756,24 @@
         ],
         "Attributes": [
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
+          "Base": 1.0216,
+          "Name": "minecraft:generic.flying_speed"
          },
          {
           "Base": 220.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 1.0216,
-          "Name": "minecraft:generic.flying_speed"
-         },
-         {
-          "Base": 0.1777,
-          "Name": "minecraft:generic.movement_speed"
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 0.0,
           "Name": "forge:step_height_addition"
+         },
+         {
+          "Base": 0.1777,
+          "Name": "minecraft:generic.movement_speed"
          },
          {
           "Base": 8.8,
@@ -34788,12 +34788,12 @@
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 0.24,
-          "Name": "minecraft:generic.knockback_resistance"
-         },
-         {
           "Base": 1.0,
           "Name": "forge:swim_speed"
+         },
+         {
+          "Base": 0.24,
+          "Name": "minecraft:generic.knockback_resistance"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -34816,7 +34816,7 @@
         "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1073812,
+        "CompanionRescueStoredAt": 1082481,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -34978,7 +34978,7 @@
         ],
         "Rotation": [
          -353.8738,
-         -1.1344
+         -1.8661
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
@@ -37456,12 +37456,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "minecraft:overworld",
-        "x": 251.0126,
-        "xRot": 0.0,
-        "y": 65.0,
-        "yRot": 77.044,
-        "z": -1770.5794
+        "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+        "x": -36.6052,
+        "xRot": -0.0089,
+        "y": 132.0,
+        "yRot": 7.8901,
+        "z": -74.4952
        },
        "uuid": [
         -316269812,
@@ -37485,7 +37485,7 @@
       }
      ],
      "mountIndex": 0,
-     "mountReadyAt": 968740,
+     "mountReadyAt": 1081063,
      "mountWheelSlots": [],
      "mounts": [
       {
@@ -37501,12 +37501,12 @@
      "origins": [
       {
        "position": {
-        "dimension": "minecraft:overworld",
-        "x": 291.5,
+        "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+        "x": 1.5123,
         "xRot": 0.0,
-        "y": 70.0,
-        "yRot": 88.1588,
-        "z": -1759.5
+        "y": 162.632,
+        "yRot": -175.1109,
+        "z": -7.4272
        },
        "uuid": [
         -316269812,
@@ -37532,7 +37532,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147442008,
+          "Duration": 2147439034,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -37558,36 +37558,8 @@
         ],
         "Attributes": [
          {
-          "Base": 0.2212,
-          "Name": "minecraft:generic.movement_speed"
-         },
-         {
           "Base": 0.08,
           "Name": "forge:entity_gravity"
-         },
-         {
-          "Base": 0.3376,
-          "Name": "minecraft:generic.knockback_resistance"
-         },
-         {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
-         },
-         {
-          "Base": 8.688,
-          "Name": "minecraft:generic.armor"
-         },
-         {
-          "Base": 0.0,
-          "Name": "epicfight:stun_armor"
-         },
-         {
-          "Base": 10.752,
-          "Name": "minecraft:generic.attack_damage"
-         },
-         {
-          "Base": 1.0,
-          "Name": "forge:swim_speed"
          },
          {
           "Base": 140.0,
@@ -37596,6 +37568,34 @@
          {
           "Base": 1.3696,
           "Name": "minecraft:generic.flying_speed"
+         },
+         {
+          "Base": 0.2212,
+          "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
+         },
+         {
+          "Base": 10.752,
+          "Name": "minecraft:generic.attack_damage"
+         },
+         {
+          "Base": 0.0,
+          "Name": "epicfight:stun_armor"
+         },
+         {
+          "Base": 8.688,
+          "Name": "minecraft:generic.armor"
+         },
+         {
+          "Base": 0.3376,
+          "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 1.0,
+          "Name": "forge:swim_speed"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -37614,7 +37614,7 @@
         "CompanionRescueHealth": 140.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 1007573,
+        "CompanionRescueStoredAt": 1082836,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -37799,7 +37799,7 @@
         "HasClearAirspace": 1,
         "HasConsumedFood": 0,
         "Health": 140.0,
-        "HurtByTimestamp": 8,
+        "HurtByTimestamp": 1852,
         "HurtTime": 0,
         "InLove": 0,
         "InSittingPose": 0,
@@ -37839,25 +37839,25 @@
          -1240290358,
          1398408445
         ],
-        "PH_SmoothedEntityPitch": 0.0,
-        "PH_SmoothedMovementYaw": 2597.044,
-        "PH_UnwrappedMovementYaw": 2597.044,
+        "PH_SmoothedEntityPitch": -0.0,
+        "PH_SmoothedMovementYaw": 1807.8901,
+        "PH_UnwrappedMovementYaw": 1807.8901,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 2957.044,
+        "PH_UnwrappedYaw": 2527.8901,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         251.0126,
-         65.0,
-         -1770.5794
+         -36.6052,
+         132.0,
+         -74.4952
         ],
         "RoostX": 210,
         "RoostY": 73,
         "RoostZ": -673,
         "Rotation": [
-         77.044,
-         0.0
+         7.8901,
+         -0.0089
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "lightning_strike",
@@ -37870,7 +37870,7 @@
         "SpawnScaleTicks": 1,
         "TamingRitualCompleted": 1,
         "TamingRitualTimer": 0,
-        "ThrottleLevel": 0.0,
+        "ThrottleLevel": 0.0054,
         "TransportMode": 0,
         "UUID": [
          -316269812,
@@ -37882,8 +37882,8 @@
         "UseGroundNav": 1,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 1.7235,
-         "foodLevel": 36,
+         "exhaustionLevel": 2.3873,
+         "foodLevel": 32,
          "saturationLevel": 0.0,
          "tickTimer": 0
         },

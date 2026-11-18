@@ -7,10 +7,6 @@
    "Name": "forge:entity_gravity"
   },
   {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
    "Base": 0.1,
    "Name": "minecraft:generic.movement_speed"
   },
@@ -35,10 +31,6 @@
    "Name": "minecraft:generic.armor"
   },
   {
-   "Base": 1.0,
-   "Name": "forge:swim_speed"
-  },
-  {
    "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
   },
@@ -54,7 +46,7 @@
    "Base": 20.0,
    "Modifiers": [
     {
-     "Amount": 6.0,
+     "Amount": 8.0,
      "Name": "health_boost",
      "Operation": 0,
      "UUID": [
@@ -96,7 +88,7 @@
    "Base": 15.0,
    "Modifiers": [
     {
-     "Amount": 2.4,
+     "Amount": 3.2,
      "Name": "stamina_boost",
      "Operation": 0,
      "UUID": [
@@ -123,16 +115,16 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
- "FallDistance": 0.0,
+ "FallDistance": 0.1307,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
    "CanShowPatreonMessage": 1,
-   "CanSpawnInAether": 0,
+   "CanSpawnInAether": 1,
    "HasSeenSunSpirit": 0,
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
@@ -524,6 +516,9 @@
   },
   "epicskills:skill_tree_progression": {
    "dodge_parry_reward:passive": {
+    "achieved": [
+     "tcrcore:fire_avoid"
+    ],
     "nodes": [
      {
       "children": [
@@ -619,7 +614,7 @@
      },
      {
       "name": "tcrcore:fire_avoid",
-      "state": "locked"
+      "state": "unlocked"
      },
      {
       "children": [
@@ -1237,7 +1232,6 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
-   "blessItem": "minecraft:air",
    "blessPos": {
     "X": 0,
     "Y": 0,
@@ -1248,8 +1242,9 @@
     "abyssEyeBlessed": 1,
     "abyss_eye_gotten": 1,
     "aineTalked": 1,
+    "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 54.0,
+    "currentQuestId": 57.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1260,7 +1255,10 @@
     "dodged": 1,
     "ferryGirlGiftGet": 1,
     "ferryGirlTalked": 1,
+    "fire_avoid_unlocked": 1,
     "first_joint": 1,
+    "flameEyeActivated": 1,
+    "flameEyeBlessed": 1,
     "flame_eye_gotten": 1,
     "isAllEyeKilled": 0,
     "isAllEyeKilledisLocked": 0,
@@ -1274,7 +1272,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 42,
+   "finishedQuestSize": 47,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1312,24 +1310,28 @@
    "finished_quest_4": 28,
    "finished_quest_40": 52,
    "finished_quest_41": 53,
+   "finished_quest_42": 54,
+   "finished_quest_43": 18,
+   "finished_quest_44": 13,
+   "finished_quest_45": 1,
+   "finished_quest_46": 56,
    "finished_quest_5": 24,
    "finished_quest_6": 25,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
-   "healthAdder": 6.0,
-   "questSize": 9,
+   "healthAdder": 8.0,
+   "questSize": 8,
    "quest_0": 84,
    "quest_1": 38,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
-   "quest_5": 13,
-   "quest_6": 18,
-   "quest_7": 55,
-   "quest_8": 54,
+   "quest_5": 55,
+   "quest_6": 8,
+   "quest_7": 57,
    "resonanceStoneInCooldown": 0,
-   "resonanceStoneStartTime": 884956,
+   "resonanceStoneStartTime": 1078647,
    "sardine": 0,
    "tickAfterBless": 0,
    "tickAfterBossDieLeft": 0
@@ -3749,7 +3751,7 @@
      "position": {
       "dimension": "minecraft:overworld",
       "x": -2858.0,
-      "xRot": -1.1344,
+      "xRot": -1.8661,
       "y": -5.8,
       "yRot": -353.8738,
       "z": 52.0
@@ -3776,7 +3778,7 @@
     }
    ],
    "mountIndex": 0,
-   "mountReadyAt": 1018747,
+   "mountReadyAt": 1081518,
    "mountWheelSlots": [],
    "mounts": [
     {
@@ -3792,12 +3794,12 @@
    "origins": [
     {
      "position": {
-      "dimension": "minecraft:overworld",
-      "x": -2905.5,
-      "xRot": 21.0,
-      "y": -20.0,
-      "yRot": -93.7119,
-      "z": 22.5
+      "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+      "x": -61.9895,
+      "xRot": 0.0,
+      "y": 130.0,
+      "yRot": -328.2582,
+      "z": -96.0
      },
      "uuid": [
       -644884357,
@@ -3823,7 +3825,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147382990,
+        "Duration": 2147382600,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -3849,24 +3851,24 @@
       ],
       "Attributes": [
        {
-        "Base": 0.08,
-        "Name": "forge:entity_gravity"
+        "Base": 1.0216,
+        "Name": "minecraft:generic.flying_speed"
        },
        {
         "Base": 220.0,
         "Name": "minecraft:generic.max_health"
        },
        {
-        "Base": 1.0216,
-        "Name": "minecraft:generic.flying_speed"
-       },
-       {
-        "Base": 0.1777,
-        "Name": "minecraft:generic.movement_speed"
+        "Base": 0.08,
+        "Name": "forge:entity_gravity"
        },
        {
         "Base": 0.0,
         "Name": "forge:step_height_addition"
+       },
+       {
+        "Base": 0.1777,
+        "Name": "minecraft:generic.movement_speed"
        },
        {
         "Base": 8.8,
@@ -3881,12 +3883,12 @@
         "Name": "minecraft:generic.armor"
        },
        {
-        "Base": 0.24,
-        "Name": "minecraft:generic.knockback_resistance"
-       },
-       {
         "Base": 1.0,
         "Name": "forge:swim_speed"
+       },
+       {
+        "Base": 0.24,
+        "Name": "minecraft:generic.knockback_resistance"
        }
       ],
       "AwaitingTamingRitual": 0,
@@ -3909,7 +3911,7 @@
       "CompanionRescueHealth": 219.0,
       "CompanionRescueMaxHealth": 220.0,
       "CompanionRescueName": "Hiddeous Zippleback",
-      "CompanionRescueStoredAt": 1073812,
+      "CompanionRescueStoredAt": 1082481,
       "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4071,7 +4073,7 @@
       ],
       "Rotation": [
        -353.8738,
-       -1.1344
+       -1.8661
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "gas_ignite",
@@ -4126,17 +4128,17 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:sun_stone": 1
   },
-  "ua_rs_active_until": 1056458,
+  "ua_rs_active_until": 1083423,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1075744,
-  "ua_shiny_last_x": 253.6631,
-  "ua_shiny_last_y": 65.5,
-  "ua_shiny_last_z": -1768.7857,
-  "ua_tabi_last_dash": 1056431
+  "ua_shiny_last_active": 1083431,
+  "ua_shiny_last_x": -133.8279,
+  "ua_shiny_last_y": 83.206,
+  "ua_shiny_last_z": -187.7899,
+  "ua_tabi_last_dash": 1083409
  },
- "Health": 26.0,
- "HurtByTimestamp": 6100,
+ "Health": 28.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4210,9 +4212,9 @@
    "id": "alexsmobs:flying_fish"
   },
   {
-   "Count": 2,
+   "Count": 1,
    "Slot": 5,
-   "id": "minecraft:rotten_flesh"
+   "id": "tcrcore:nether_resonance_stone"
   },
   {
    "Count": 27,
@@ -4227,11 +4229,7 @@
   {
    "Count": 1,
    "Slot": 8,
-   "id": "minecraft:flint_and_steel",
-   "tag": {
-    "Damage": 0,
-    "sheath": 0
-   }
+   "id": "tcrcore:core_flint"
   },
   {
    "Count": 1,
@@ -4266,7 +4264,7 @@
   {
    "Count": 2,
    "Slot": 15,
-   "id": "cataclysm:flame_eye"
+   "id": "epicskills:ability_stone"
   },
   {
    "Count": 2,
@@ -4302,6 +4300,25 @@
    "Count": 3,
    "Slot": 31,
    "id": "ba_bt:core_monolith_key"
+  },
+  {
+   "Count": 2,
+   "Slot": 32,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 2,
+   "Slot": 33,
+   "id": "cataclysm:flame_eye"
+  },
+  {
+   "Count": 1,
+   "Slot": 34,
+   "id": "minecraft:flint_and_steel",
+   "tag": {
+    "Damage": 0,
+    "sheath": 0
+   }
   },
   {
    "Count": 1,
@@ -4374,28 +4391,28 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "minecraft:overworld",
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
   "pos": [
-   -2876,
-   30,
-   62
+   -11,
+   132,
+   -52
   ]
  },
  "Motion": [
-  0.0,
-  -0.0784,
-  0.0
+  0.2395,
+  -0.2554,
+  -0.0029
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  253.6727,
-  65.5,
-  -1768.7771
+  -133.8279,
+  83.206,
+  -187.7899
  ],
  "Rotation": [
-  66.2568,
-  13.7951
+  -93.0644,
+  22.4154
  ],
  "Score": 5559,
  "SelectedItemSlot": 0,
@@ -4406,9 +4423,6 @@
  "SpawnX": -2883,
  "SpawnY": 30,
  "SpawnZ": 56,
- "Tags": [
-  "wom_health_fix:34.0"
- ],
  "UUID": [
   1096852936,
   1655583406,
@@ -4429,7 +4443,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.0144,
+ "foodExhaustionLevel": 1.341,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14828,7 +14842,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2379,
+  "ticks_since_last_warning": 8276,
   "warning_level": 0
  }
 }

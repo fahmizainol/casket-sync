@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -2325432111440754520,
-    7227663507011662716
+    -2709429624511930618,
+    6803317370848824571
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -15,14 +15,14 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    5081965419311723075,
-    6634249542441388261
+    -5868497547518009039,
+    -3483318552426273679
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -3568131513886114382,
-    -2345207551922398890
+    1648059921687759525,
+    -714975231170985213
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -591,8 +591,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    4926447966231645081,
-    -8450724958972218856
+    -2448132436106283300,
+    -1647187611855459389
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -1311,8 +1311,8 @@
   },
   "minecraft:blocks/white_carpet": {
    "source": [
-    -7795292471100897767,
-    -6385601121284466054
+    3693227324226260580,
+    -5037199991833292362
    ]
   },
   "minecraft:blocks/white_tulip": {
@@ -1341,8 +1341,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    8515702255179781682,
-    1988568290085485586
+    -9067399169001638833,
+    -5542639444092639052
    ]
   },
   "minecraft:entities/chicken": {
@@ -1449,8 +1449,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -2100140190897291622,
-    -2516828330438611769
+    -6479439253082494257,
+    1660121249596934252
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1485,8 +1485,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    647375900007707191,
-    -8539273232233981595
+    -4340024116926945648,
+    7280254811520535078
    ]
   },
   "minecraft:entities/slime": {
@@ -1545,8 +1545,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    3947244214918601264,
-    -7761419148000505334
+    -9160219105769868512,
+    -3549024810849462028
    ]
   },
   "minecraft:entities/zombie_villager": {

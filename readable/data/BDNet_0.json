@@ -118,6 +118,18 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "bookofdragons:rattlestaff",
+       "tag": {
+        "sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "tcrcore:magic_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -145,6 +157,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:cursed_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:chainmail_chestplate",
        "tag": {
         "Damage": 0,
@@ -164,6 +185,15 @@
      "key": {
       "stack": {
        "item": "minecraft:name_tag"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 12,
+     "key": {
+      "stack": {
+       "item": "minecraft:stick"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -208,6 +238,18 @@
      "key": {
       "stack": {
        "item": "armourers_workshop:skin-library-global"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 64,
+     "key": {
+      "stack": {
+       "item": "minecraft:emerald",
+       "tag": {
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -295,6 +337,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_scrap"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 6,
      "key": {
       "stack": {
@@ -308,6 +359,33 @@
      "key": {
       "stack": {
        "item": "minecraft:echo_shard"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 9,
+     "key": {
+      "stack": {
+       "item": "minecraft:book"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:artifact_ticket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "minecraft:oak_planks"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -370,7 +448,7 @@
      }
     },
     {
-     "amount": 71,
+     "amount": 91,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -435,6 +513,24 @@
         "StoredEnchantments": [
          {
           "id": "domesticationinnovation:health_boost",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:thorns",
           "lvl": 1
          }
         ]
@@ -595,6 +691,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:abyss_eye",
+       "tag": {
+        "sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -628,6 +736,15 @@
        "tag": {
         "sheath": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:dark_prismarine"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -684,6 +801,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:steadfast_spikes",
+       "tag": {
+        "sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 7,
      "key": {
       "stack": {
@@ -691,6 +820,15 @@
        "tag": {
         "Potion": "minecraft:weakness"
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:fire_gauntlet"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -734,6 +872,21 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "beyonddimensions:xp_exchange_item",
+       "tag": {
+        "sheath": 0,
+        "xp_net_keep_mode": 0,
+        "xp_target_level": 1,
+        "xp_transfer_speed_mode": "SLOW"
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:enchanted_book",
        "tag": {
         "StoredEnchantments": [
@@ -766,6 +919,15 @@
      }
     },
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "ba_bt:core_monolith_key"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -775,6 +937,33 @@
         "Enchantments": [
          {
           "id": "minecraft:smite",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:chest"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
           "lvl": 3
          }
         ]
@@ -837,6 +1026,15 @@
      "key": {
       "stack": {
        "item": "waystones:waystone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "alexsmobs:flying_fish"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -909,6 +1107,15 @@
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 8,
+     "key": {
+      "stack": {
+       "item": "minecraft:nautilus_shell"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1003,6 +1210,28 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:iron_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 4
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:moss_block"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -1018,7 +1247,7 @@
      }
     },
     {
-     "amount": 179,
+     "amount": 180,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1120,10 +1349,37 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:supreme_meat"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:necklace_of_the_desert"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 52,
      "key": {
       "stack": {
        "item": "minecraft:experience_bottle"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:heart_of_the_sea"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1199,7 +1455,7 @@
      }
     },
     {
-     "amount": 29,
+     "amount": 84,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -1618,6 +1874,15 @@
          "regenPauseTicks": 0
         }
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 24,
+     "key": {
+      "stack": {
+       "item": "minecraft:bone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
