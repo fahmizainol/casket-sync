@@ -11,6 +11,10 @@
    "Name": "forge:entity_gravity"
   },
   {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
    "Base": 0.1,
    "Name": "minecraft:generic.movement_speed"
   },
@@ -23,6 +27,10 @@
    "Name": "epicfight:impact"
   },
   {
+   "Base": 0.5,
+   "Name": "epicfight:offhand_impact"
+  },
+  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
@@ -31,12 +39,20 @@
    "Name": "attributeslib:mining_speed"
   },
   {
+   "Base": 1.0,
+   "Name": "epicfight:offhand_max_strikes"
+  },
+  {
    "Base": 0.0,
    "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:offhand_armor_negation"
   },
   {
    "Base": 0.0,
@@ -1163,7 +1179,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 127
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4080,13 +4097,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1259050,
+  "ua_rs_active_until": 1268721,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1259063,
-  "ua_shiny_last_x": 262.4159,
-  "ua_shiny_last_y": 64.0,
-  "ua_shiny_last_z": -1777.216,
+  "ua_shiny_last_active": 1269245,
+  "ua_shiny_last_x": 266.8094,
+  "ua_shiny_last_y": 63.0,
+  "ua_shiny_last_z": -1776.3182,
   "ua_tabi_last_dash": 1259025
  },
  "Health": 28.0,
@@ -4101,20 +4118,20 @@
     "Damage": 0,
     "Enchantments": [
      {
-      "id": "minecraft:sweeping",
-      "lvl": 3
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
      },
      {
       "id": "minecraft:sharpness",
-      "lvl": 3
+      "lvl": 5
      },
      {
       "id": "minecraft:knockback",
       "lvl": 2
      },
      {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
+      "id": "minecraft:sweeping",
+      "lvl": 3
      }
     ]
    }
@@ -4124,7 +4141,29 @@
    "Slot": 1,
    "id": "irons_spellbooks:keeper_flamberge",
    "tag": {
-    "Damage": 0
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:sweeping",
+      "lvl": 3
+     }
+    ]
    }
   },
   {
@@ -4419,6 +4458,14 @@
      }
     ]
    }
+  },
+  {
+   "Count": 1,
+   "Slot": -106,
+   "id": "magistuarmory:corruptedroundshield",
+   "tag": {
+    "Damage": 0
+   }
   }
  ],
  "Invulnerable": 0,
@@ -4438,15 +4485,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  262.4159,
-  64.0,
-  -1777.216
+  266.8004,
+  63.0,
+  -1776.3182
  ],
  "Rotation": [
-  -10.6049,
-  32.9568
+  69.5253,
+  26.5319
  ],
- "Score": 6160,
+ "Score": 6260,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 79.7244,
@@ -4462,10 +4509,10 @@
   -1580186985
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
- "XpLevel": 49,
- "XpP": 0.3251,
+ "XpLevel": 48,
+ "XpP": 0.7007,
  "XpSeed": 976728483,
- "XpTotal": 6160,
+ "XpTotal": 6260,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4475,7 +4522,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.891,
+ "foodExhaustionLevel": 3.941,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14799,7 +14846,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5504,
+  "ticks_since_last_warning": 11504,
   "warning_level": 0
  }
 }

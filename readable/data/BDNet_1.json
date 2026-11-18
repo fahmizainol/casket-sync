@@ -944,7 +944,7 @@
      }
     },
     {
-     "amount": 209,
+     "amount": 210,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3926,18 +3926,6 @@
           "lvl": 3
          }
         ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "magistuarmory:corruptedroundshield",
-       "tag": {
-        "Damage": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"

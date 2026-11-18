@@ -506,6 +506,12 @@
     },
     "done": true
   },
+  "efn:sword_of_pioneer": {
+    "criteria": {
+      "obtain": "2026-11-19 00:01:13 +0800"
+    },
+    "done": true
+  },
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2026-11-18 22:43:54 +0800"

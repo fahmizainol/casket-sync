@@ -1454,7 +1454,7 @@
      }
     },
     {
-     "amount": 210,
+     "amount": 211,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1601,19 +1601,19 @@
      }
     },
     {
-     "amount": 57,
+     "amount": 3,
      "key": {
       "stack": {
-       "item": "minecraft:experience_bottle"
+       "item": "minecraft:heart_of_the_sea"
       },
       "type": "beyonddimensions:stack_type/item"
      }
     },
     {
-     "amount": 3,
+     "amount": 55,
      "key": {
       "stack": {
-       "item": "minecraft:heart_of_the_sea"
+       "item": "minecraft:experience_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
      }

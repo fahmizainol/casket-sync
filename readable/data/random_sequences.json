@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -976856541062752077,
-    6631451238176227826
+    7020447268923542912,
+    -5965299222348141206
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -27,8 +27,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -3861581939237420055,
-    -4023553067429862143
+    8765917144557919388,
+    -1122769332225974660
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,8 +39,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -5953228403606240734,
-    -7441006350217503275
+    8103780115380255434,
+    -8659827760980252127
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1677,8 +1677,8 @@
   },
   "minecraft:entities/enderman": {
    "source": [
-    6247422752660849991,
-    -5051350639772401602
+    -859602216398907201,
+    -7394413751034101833
    ]
   },
   "minecraft:entities/evoker": {
@@ -1689,8 +1689,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    -1896735631335158097,
-    -2453573585527190109
+    5505719598308327157,
+    6532650093517651960
    ]
   },
   "minecraft:entities/guardian": {
@@ -1815,8 +1815,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    1602455173662182411,
-    -3607365291070099372
+    7496975156246180934,
+    7345676109361624938
    ]
   },
   "minecraft:entities/tropical_fish": {
