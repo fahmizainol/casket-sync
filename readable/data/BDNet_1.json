@@ -84,15 +84,6 @@
      }
     },
     {
-     "amount": 21,
-     "key": {
-      "stack": {
-       "item": "minecraft:crying_obsidian"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 1,
      "key": {
       "stack": {
@@ -211,7 +202,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "minecraft:obsidian"
@@ -242,15 +233,6 @@
      "key": {
       "stack": {
        "item": "tcrcore:core_flint"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:ancient_debris"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -291,6 +273,15 @@
      "key": {
       "stack": {
        "item": "minecraft:gray_glazed_terracotta"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:music_disc_pigstep"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -886,7 +877,25 @@
      }
     },
     {
-     "amount": 198,
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_pickaxe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 199,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -953,6 +962,15 @@
      "key": {
       "stack": {
        "item": "minecraft:brain_coral"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "alexsmobs:centipede_leg"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1051,15 +1069,6 @@
      }
     },
     {
-     "amount": 5,
-     "key": {
-      "stack": {
-       "item": "minecraft:amethyst_shard"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 10,
      "key": {
       "stack": {
@@ -1145,6 +1154,15 @@
      "key": {
       "stack": {
        "item": "minecraft:redstone_ore"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_block"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1251,15 +1269,6 @@
      "key": {
       "stack": {
        "item": "minecraft:basalt"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 9,
-     "key": {
-      "stack": {
-       "item": "minecraft:netherite_scrap"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1424,7 +1433,7 @@
      }
     },
     {
-     "amount": 16,
+     "amount": 18,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
@@ -1556,6 +1565,15 @@
      }
     },
     {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "minecraft:bone_block"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
@@ -1574,7 +1592,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 13,
      "key": {
       "stack": {
        "item": "minecraft:gilded_blackstone"
@@ -1654,6 +1672,15 @@
      "key": {
       "stack": {
        "item": "minecraft:spider_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "minecraft:amethyst_block"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1839,7 +1866,7 @@
      }
     },
     {
-     "amount": 71,
+     "amount": 80,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -2087,7 +2114,7 @@
      }
     },
     {
-     "amount": 74,
+     "amount": 76,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -2158,7 +2185,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "magistuarmory:rustedhalfarmor_chestplate",
@@ -2301,18 +2328,6 @@
           "lvl": 4
          }
         ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "epicfight:iron_longsword",
-       "tag": {
-        "Damage": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -3148,7 +3163,7 @@
      }
     },
     {
-     "amount": 83,
+     "amount": 91,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -3194,7 +3209,7 @@
      }
     },
     {
-     "amount": 98,
+     "amount": 105,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -3308,7 +3323,7 @@
      }
     },
     {
-     "amount": 7,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "supplementaries:ash"
@@ -3463,7 +3478,7 @@
      }
     },
     {
-     "amount": 8,
+     "amount": 11,
      "key": {
       "stack": {
        "item": "minecraft:crossbow",
@@ -3701,7 +3716,7 @@
      }
     },
     {
-     "amount": 68,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:book"
@@ -3722,7 +3737,7 @@
      }
     },
     {
-     "amount": 19,
+     "amount": 20,
      "key": {
       "stack": {
        "item": "minecraft:polished_blackstone_bricks"
@@ -4112,6 +4127,15 @@
      }
     },
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:cooked_porkchop"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -4444,6 +4468,15 @@
        "tag": {
         "sheath": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:snout_armor_trim_smithing_template"
       },
       "type": "beyonddimensions:stack_type/item"
      }

@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    7798275290907572080,
-    781908101091483894
+    2813404431660492537,
+    -2853339551646086406
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -27,8 +27,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2657316462772008859,
-    1003221163307780144
+    7007138525069813096,
+    -6985270735315433190
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,8 +39,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -7913391596258669854,
-    136031031141773260
+    -9209784448059308106,
+    7399522455837038852
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -695,6 +695,12 @@
    "source": [
     543097586394322373,
     -6658888564649716492
+   ]
+  },
+  "minecraft:blocks/enchanting_table": {
+   "source": [
+    6481234169098265318,
+    -4578084060888496862
    ]
   },
   "minecraft:blocks/ender_chest": {
@@ -1605,8 +1611,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    2443342150320369505,
-    2165896724973850653
+    -505816431742725657,
+    6663908616016152644
    ]
   },
   "minecraft:entities/blaze": {
@@ -1779,8 +1785,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    5443998912705964411,
-    -8853261726392443751
+    -4868958697164256271,
+    2972548998093975349
    ]
   },
   "minecraft:entities/slime": {
@@ -1791,8 +1797,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    -5106790370324535867,
-    -2157490424632332855
+    2811538336343904363,
+    -1294182555121315956
    ]
   },
   "minecraft:entities/squid": {
@@ -1845,8 +1851,8 @@
   },
   "minecraft:entities/zombie_villager": {
    "source": [
-    3862653796741906231,
-    -319337683859299172
+    6314540583398680421,
+    -6196345875627851957
    ]
   },
   "minecraft:entities/zombified_piglin": {
