@@ -1,0 +1,3 @@
+*.dat_old
+*.tmp
+__pycache__/
