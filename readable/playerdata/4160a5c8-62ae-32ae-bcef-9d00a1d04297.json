@@ -4080,14 +4080,14 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1255339,
+  "ua_rs_active_until": 1259050,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1257370,
-  "ua_shiny_last_x": 266.734,
-  "ua_shiny_last_y": 63.0,
-  "ua_shiny_last_z": -1774.4649,
-  "ua_tabi_last_dash": 1244918
+  "ua_shiny_last_active": 1259063,
+  "ua_shiny_last_x": 262.4159,
+  "ua_shiny_last_y": 64.0,
+  "ua_shiny_last_z": -1777.216,
+  "ua_tabi_last_dash": 1259025
  },
  "Health": 28.0,
  "HurtByTimestamp": 7574,
@@ -4438,16 +4438,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  266.7247,
-  63.0,
-  -1774.4649
+  262.4159,
+  64.0,
+  -1777.216
  ],
  "Rotation": [
-  111.2144,
-  0.0
+  -10.6049,
+  32.9568
  ],
  "Score": 6160,
- "SelectedItemSlot": 4,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 79.7244,
  "SpawnDimension": "minecraft:overworld",
@@ -4475,7 +4475,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.991,
+ "foodExhaustionLevel": 3.891,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14799,7 +14799,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11505,
+  "ticks_since_last_warning": 5504,
   "warning_level": 0
  }
 }
