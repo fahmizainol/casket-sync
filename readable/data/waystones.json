@@ -790,6 +790,30 @@
    },
    {
     "BlockPos": {
+     "X": 7,
+     "Y": 62,
+     "Z": -890
+    },
+    "IsGlobal": 0,
+    "Name": "nether",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1983483499,
+     -204585669,
+     -1273156081,
+     -44789588
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": -448,
      "Y": 83,
      "Z": 288

@@ -122,12 +122,12 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 983,
  "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": -20,
+ "Fire": 0,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -1398,6 +1398,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4679,8 +4680,8 @@
   "ua_rs_continuous": 0,
   "ua_tabi_last_dash": 1197890
  },
- "Health": 1.9983,
- "HurtByTimestamp": 20127,
+ "Health": 0.0,
+ "HurtByTimestamp": 38805,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4958,9 +4959,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:overworld",
   "pos": [
-   -206,
-   -37,
-   -74
+   264,
+   62,
+   -1779
   ]
  },
  "Motion": [
@@ -4971,13 +4972,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  264.8498,
+  264.1309,
   62.0,
-  -1778.8828
+  -1779.6389
  ],
  "Rotation": [
   -43.5592,
-  -47.1694
+  0.0
  ],
  "Score": 3707,
  "SelectedItemSlot": 0,
@@ -5008,7 +5009,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.663,
+ "foodExhaustionLevel": 0.863,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5027,7 +5028,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14751,10 +14751,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11893,
+  "ticks_since_last_warning": 2163,
   "warning_level": 0
  }
 }

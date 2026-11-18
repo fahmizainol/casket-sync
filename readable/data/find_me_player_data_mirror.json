@@ -36502,12 +36502,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "minecraft:the_nether",
-        "x": 29.134,
-        "xRot": 0.0,
-        "y": 37.49,
-        "yRot": -41.8349,
-        "z": -904.9171
+        "dimension": "minecraft:overworld",
+        "x": -2858.0,
+        "xRot": -40.0,
+        "y": -5.8,
+        "yRot": -353.8738,
+        "z": 52.0
        },
        "uuid": [
         -644884357,
@@ -36518,23 +36518,7 @@
        "uuid_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317"
       }
      ],
-     "mountDeployed": [
-      -644884357,
-      -1594343222,
-      -1261508161,
-      1492697879
-     ],
-     "mountDeployedList": [
-      {
-       "uuid": [
-        -644884357,
-        -1594343222,
-        -1261508161,
-        1492697879
-       ],
-       "uuid_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317"
-      }
-     ],
+     "mountDeployedList": [],
      "mountEligible": [
       {
        "uuid": [
@@ -36594,7 +36578,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147376641,
+          "Duration": 2147376175,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -36620,24 +36604,24 @@
         ],
         "Attributes": [
          {
-          "Base": 1.0216,
-          "Name": "minecraft:generic.flying_speed"
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 220.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
-         },
-         {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
+          "Base": 1.0216,
+          "Name": "minecraft:generic.flying_speed"
          },
          {
           "Base": 0.1777,
           "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 8.8,
@@ -36652,12 +36636,12 @@
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 1.0,
-          "Name": "forge:swim_speed"
-         },
-         {
           "Base": 0.24,
           "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 1.0,
+          "Name": "forge:swim_speed"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -36677,10 +36661,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 220.0,
+        "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1232561,
+        "CompanionRescueStoredAt": 1237036,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -36786,7 +36770,7 @@
         ],
         "HasClearAirspace": 0,
         "HasConsumedFood": 0,
-        "Health": 220.0,
+        "Health": 219.0,
         "HurtByTimestamp": 45375,
         "HurtTime": 0,
         "InLove": 0,
@@ -36809,8 +36793,8 @@
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
-        "LayerMotion": 2,
-        "LayerStance": 1,
+        "LayerMotion": 0,
+        "LayerStance": 0,
         "LeftHanded": 0,
         "MountTime": 0,
         "NoAI": 0,

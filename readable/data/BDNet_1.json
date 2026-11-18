@@ -30,7 +30,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:golden_horse_armor"
@@ -172,7 +172,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "magistuarmory:chainmail_horse_armor"
@@ -197,6 +197,15 @@
      "key": {
       "stack": {
        "item": "epicskills:ability_stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "supplementaries:bomb"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -497,6 +506,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:ancient_knowledge_fragment"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -922,7 +940,7 @@
      }
     },
     {
-     "amount": 204,
+     "amount": 205,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1066,7 +1084,7 @@
      }
     },
     {
-     "amount": 3381,
+     "amount": 3758,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -1150,7 +1168,7 @@
      }
     },
     {
-     "amount": 25,
+     "amount": 57,
      "key": {
       "stack": {
        "item": "minecraft:paper"
@@ -1478,7 +1496,7 @@
      }
     },
     {
-     "amount": 18,
+     "amount": 19,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
@@ -1505,7 +1523,7 @@
      }
     },
     {
-     "amount": 42,
+     "amount": 46,
      "key": {
       "stack": {
        "item": "minecraft:magma_block"
@@ -1605,6 +1623,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_horse_armor"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1803,7 +1830,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "uniqueaccessories:withered_heart"
@@ -1845,7 +1872,7 @@
      }
     },
     {
-     "amount": 90,
+     "amount": 92,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -1911,7 +1938,7 @@
      }
     },
     {
-     "amount": 99,
+     "amount": 101,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -2013,7 +2040,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:flint_and_steel",
@@ -2105,7 +2132,7 @@
      }
     },
     {
-     "amount": 29,
+     "amount": 35,
      "key": {
       "stack": {
        "item": "minecraft:nether_wart"
@@ -2159,7 +2186,7 @@
      }
     },
     {
-     "amount": 134,
+     "amount": 136,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -2951,7 +2978,7 @@
      }
     },
     {
-     "amount": 21,
+     "amount": 22,
      "key": {
       "stack": {
        "item": "minecraft:gravel"
@@ -3296,7 +3323,7 @@
      }
     },
     {
-     "amount": 44,
+     "amount": 52,
      "key": {
       "stack": {
        "item": "minecraft:quartz"
@@ -3380,7 +3407,7 @@
      }
     },
     {
-     "amount": 9,
+     "amount": 10,
      "key": {
       "stack": {
        "item": "supplementaries:ash"
@@ -3719,7 +3746,7 @@
      }
     },
     {
-     "amount": 543,
+     "amount": 545,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -3767,7 +3794,7 @@
      }
     },
     {
-     "amount": 67,
+     "amount": 71,
      "key": {
       "stack": {
        "item": "minecraft:blackstone"
@@ -3776,7 +3803,7 @@
      }
     },
     {
-     "amount": 69,
+     "amount": 76,
      "key": {
       "stack": {
        "item": "minecraft:book"

@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 440584,
+  "DayTime": 446584,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795016073416,
+  "LastPlayed": 1795016373374,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -490,12 +490,12 @@
      "Name": "forge:step_height_addition"
     },
     {
-     "Base": 1.0,
-     "Name": "epicfight:max_strikes"
-    },
-    {
      "Base": 0.0,
      "Name": "minecraft:generic.armor_toughness"
+    },
+    {
+     "Base": 1.0,
+     "Name": "epicfight:max_strikes"
     },
     {
      "Base": 1.0,
@@ -538,7 +538,7 @@
    "DeathTime": 0,
    "Dimension": "minecraft:the_nether",
    "EnderItems": [],
-   "FallDistance": 0.0,
+   "FallDistance": 1.2958,
    "FallFlying": 0,
    "Fire": -20,
    "ForgeCaps": {
@@ -1786,7 +1786,8 @@
         "a7fdc8cd-bc2a-4ee5-9cb6-33301dc8b910",
         "6f5816ae-139c-43f0-a4fc-bc8c84158621",
         "66dad821-0848-40d7-895e-96ad7567f50e",
-        "9a6aeeed-3d72-414d-82f8-6f331800a184"
+        "9a6aeeed-3d72-414d-82f8-6f331800a184",
+        "89c67195-f3ce-453b-b41d-2e0ffd5490ac"
        ]
       }
      }
@@ -4116,12 +4117,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "minecraft:the_nether",
-        "x": 29.134,
-        "xRot": 0.0,
-        "y": 37.49,
-        "yRot": -41.8349,
-        "z": -904.9171
+        "dimension": "minecraft:overworld",
+        "x": -2858.0,
+        "xRot": -40.0,
+        "y": -5.8,
+        "yRot": -353.8738,
+        "z": 52.0
        },
        "uuid": [
         -644884357,
@@ -4132,23 +4133,7 @@
        "uuid_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317"
       }
      ],
-     "mountDeployed": [
-      -644884357,
-      -1594343222,
-      -1261508161,
-      1492697879
-     ],
-     "mountDeployedList": [
-      {
-       "uuid": [
-        -644884357,
-        -1594343222,
-        -1261508161,
-        1492697879
-       ],
-       "uuid_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317"
-      }
-     ],
+     "mountDeployedList": [],
      "mountEligible": [
       {
        "uuid": [
@@ -4208,7 +4193,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147376641,
+          "Duration": 2147376175,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -4234,24 +4219,24 @@
         ],
         "Attributes": [
          {
-          "Base": 1.0216,
-          "Name": "minecraft:generic.flying_speed"
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 220.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
-         },
-         {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
+          "Base": 1.0216,
+          "Name": "minecraft:generic.flying_speed"
          },
          {
           "Base": 0.1777,
           "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 8.8,
@@ -4266,12 +4251,12 @@
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 1.0,
-          "Name": "forge:swim_speed"
-         },
-         {
           "Base": 0.24,
           "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 1.0,
+          "Name": "forge:swim_speed"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -4291,10 +4276,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 220.0,
+        "CompanionRescueHealth": 219.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1232561,
+        "CompanionRescueStoredAt": 1237036,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -4400,7 +4385,7 @@
         ],
         "HasClearAirspace": 0,
         "HasConsumedFood": 0,
-        "Health": 220.0,
+        "Health": 219.0,
         "HurtByTimestamp": 45375,
         "HurtTime": 0,
         "InLove": 0,
@@ -4423,8 +4408,8 @@
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
-        "LayerMotion": 2,
-        "LayerStance": 1,
+        "LayerMotion": 0,
+        "LayerStance": 0,
         "LeftHanded": 0,
         "MountTime": 0,
         "NoAI": 0,
@@ -4509,16 +4494,19 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_rs_active_until": 1233246,
+    "ua_accessory_types_seen": {
+     "uniqueaccessories:withered_heart": 1
+    },
+    "ua_rs_active_until": 1239434,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1233431,
-    "ua_shiny_last_x": 23.3526,
-    "ua_shiny_last_y": 45.3838,
-    "ua_shiny_last_z": -829.1893,
-    "ua_tabi_last_dash": 1228111
+    "ua_shiny_last_active": 1239431,
+    "ua_shiny_last_x": -3.6497,
+    "ua_shiny_last_y": 64.2685,
+    "ua_shiny_last_z": -896.603,
+    "ua_tabi_last_dash": 1239200
    },
-   "Health": 28.0,
+   "Health": 25.0,
    "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
@@ -4551,22 +4539,9 @@
     {
      "Count": 1,
      "Slot": 1,
-     "id": "minecraft:crossbow",
+     "id": "irons_spellbooks:keeper_flamberge",
      "tag": {
-      "Charged": 0,
-      "ChargedProjectiles": [],
-      "Damage": 0,
-      "Enchantments": [
-       {
-        "id": "minecraft:multishot",
-        "lvl": 1
-       },
-       {
-        "id": "minecraft:piercing",
-        "lvl": 3
-       }
-      ],
-      "sheath": 0
+      "Damage": 0
      }
     },
     {
@@ -4605,7 +4580,7 @@
      "id": "minecraft:bone_meal"
     },
     {
-     "Count": 21,
+     "Count": 20,
      "Slot": 6,
      "id": "waystones:waystone"
     },
@@ -4620,76 +4595,48 @@
      "id": "minecraft:blackstone"
     },
     {
-     "Count": 7,
+     "Count": 5,
      "Slot": 9,
-     "id": "minecraft:book"
+     "id": "minecraft:fire_charge"
     },
     {
-     "Count": 32,
+     "Count": 1,
      "Slot": 10,
-     "id": "minecraft:paper"
-    },
-    {
-     "Count": 1,
-     "Slot": 11,
-     "id": "irons_spellbooks:ancient_knowledge_fragment"
-    },
-    {
-     "Count": 64,
-     "Slot": 12,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 4,
-     "Slot": 13,
-     "id": "minecraft:magma_block"
-    },
-    {
-     "Count": 64,
-     "Slot": 14,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 1,
-     "Slot": 15,
-     "id": "minecraft:gravel"
-    },
-    {
-     "Count": 4,
-     "Slot": 16,
-     "id": "minecraft:blackstone"
-    },
-    {
-     "Count": 64,
-     "Slot": 17,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 64,
-     "Slot": 18,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 8,
-     "Slot": 19,
-     "id": "minecraft:quartz"
-    },
-    {
-     "Count": 64,
-     "Slot": 20,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 57,
-     "Slot": 21,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 1,
-     "Slot": 29,
-     "id": "irons_spellbooks:keeper_flamberge",
+     "id": "minecraft:bow",
      "tag": {
-      "Damage": 0
+      "Damage": 0,
+      "Enchantments": [
+       {
+        "id": "minecraft:power",
+        "lvl": 2
+       }
+      ]
+     }
+    },
+    {
+     "Count": 2,
+     "Slot": 11,
+     "id": "minecraft:diamond"
+    },
+    {
+     "Count": 1,
+     "Slot": 28,
+     "id": "minecraft:crossbow",
+     "tag": {
+      "Charged": 0,
+      "ChargedProjectiles": [],
+      "Damage": 0,
+      "Enchantments": [
+       {
+        "id": "minecraft:multishot",
+        "lvl": 1
+       },
+       {
+        "id": "minecraft:piercing",
+        "lvl": 3
+       }
+      ],
+      "sheath": 0
      }
     },
     {
@@ -4765,323 +4712,29 @@
    "LastDeathLocation": {
     "dimension": "minecraft:the_nether",
     "pos": [
-     -374,
-     33,
-     -1435
+     4,
+     62,
+     -834
     ]
    },
    "Motion": [
-    0.0,
-    -0.0784,
-    0.0
+    -0.0987,
+    -0.5399,
+    -0.0886
    ],
    "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    23.3526,
-    45.3838,
-    -829.1893
+    -3.6497,
+    64.2685,
+    -896.603
    ],
-   "RootVehicle": {
-    "Attach": [
-     -644884357,
-     -1594343222,
-     -1261508161,
-     1492697879
-    ],
-    "Entity": {
-     "AbsorptionAmount": 0.0,
-     "AccumulatedRoll": 0.0,
-     "ActiveEffects": [
-      {
-       "Ambient": 1,
-       "Amplifier": 0,
-       "CurativeItems": [
-        {
-         "Count": 1,
-         "id": "minecraft:milk_bucket"
-        }
-       ],
-       "Duration": 2147375721,
-       "Id": 12,
-       "ShowIcon": 1,
-       "ShowParticles": 1,
-       "forge:id": "minecraft:fire_resistance"
-      }
-     ],
-     "AffectionMap": {
-      "4160a5c8-62ae-32ae-bcef-9d00a1d04297": 1000
-     },
-     "Age": 0,
-     "Air": 300,
-     "ArmorDropChances": [
-      0.085,
-      0.085,
-      0.085,
-      0.085
-     ],
-     "ArmorItems": [
-      {},
-      {},
-      {},
-      {}
-     ],
-     "Attributes": [
-      {
-       "Base": 1.1416,
-       "Name": "minecraft:generic.flying_speed"
-      },
-      {
-       "Base": 240.0,
-       "Name": "minecraft:generic.max_health"
-      },
-      {
-       "Base": 0.08,
-       "Name": "forge:entity_gravity"
-      },
-      {
-       "Base": 0.0,
-       "Name": "forge:step_height_addition"
-      },
-      {
-       "Base": 0.1927,
-       "Name": "minecraft:generic.movement_speed"
-      },
-      {
-       "Base": 10.4,
-       "Name": "minecraft:generic.attack_damage"
-      },
-      {
-       "Base": 0.0,
-       "Name": "epicfight:stun_armor"
-      },
-      {
-       "Base": 14.4,
-       "Name": "minecraft:generic.armor"
-      },
-      {
-       "Base": 1.0,
-       "Name": "forge:swim_speed"
-      },
-      {
-       "Base": 0.32,
-       "Name": "minecraft:generic.knockback_resistance"
-      }
-     ],
-     "AwaitingTamingRitual": 0,
-     "BalmData": {},
-     "Brain": {
-      "memories": {}
-     },
-     "CanPickUpLoot": 0,
-     "CanUpdate": 1,
-     "CitadelData": {
-      "CollarSwapCooldown": 20,
-      "HasPetCollar": 1,
-      "StoredPetEnchantments": []
-     },
-     "Command": 2,
-     "DeathTime": 0,
-     "DragonDataVersion": 1,
-     "DragonIsRolling": 0,
-     "DragonRoll": 0.0,
-     "EatingTicks": 0,
-     "EntityArtVersion": 1,
-     "FallDistance": 11.3265,
-     "FallFlying": 0,
-     "Fire": 0,
-     "ForcedAge": 0,
-     "ForgeCaps": {
-      "aether:mob_accessory": {
-       "DropChances": {
-        "aether_gloves": 0.085,
-        "aether_pendant": 0.085,
-        "hands": 0.085,
-        "necklace": 0.085
-       }
-      },
-      "cataclysm:charge_cap": {
-       "ChargeDamage": 0.0,
-       "ChargeTime": 0,
-       "KnockbackSpeed": 0.0,
-       "dx": 0.0,
-       "dz": 0.0,
-       "isCharge": 0,
-       "timer": 0
-      },
-      "cataclysm:hook_cap": {
-       "hasHook": 0
-      },
-      "cataclysm:parry_cap": {
-       "frame": 0
-      },
-      "cataclysm:render_rush_cap": {
-       "damage": 0.0,
-       "isRush": 0,
-       "timer": 0
-      },
-      "cataclysm:tentacle_cap": {
-       "getLastTentacleID": 0,
-       "hasTentacle": 0
-      },
-      "curios:inventory": {
-       "Curios": []
-      },
-      "mowziesmobs:ability": {},
-      "mowziesmobs:frozen": {
-       "freezeDecayDelay": 0,
-       "freezeProgress": 0.0,
-       "frozen": 0,
-       "frozenPitch": 0.0,
-       "frozenRenderYawOffset": 0.0,
-       "frozenSwingProgress": 0.0,
-       "frozenWalkAnimPosition": 0.0,
-       "frozenWalkAnimSpeed": 0.0,
-       "frozenYaw": 0.0,
-       "frozenYawHead": 0.0,
-       "prevFrozen": 0,
-       "prevHasAI": 1
-      },
-      "mowziesmobs:frozen_cap": {
-       "freezeDecayDelay": 0,
-       "freezeProgress": 0.0,
-       "frozen": 0,
-       "frozenPitch": 0.0,
-       "frozenRenderYawOffset": 0.0,
-       "frozenSwingProgress": 0.0,
-       "frozenWalkAnimPosition": 0.0,
-       "frozenWalkAnimSpeed": 0.0,
-       "frozenYaw": 0.0,
-       "frozenYawHead": 0.0,
-       "prevFrozen": 0,
-       "prevHasAI": 1
-      },
-      "mowziesmobs:last_damage": {},
-      "mowziesmobs:living_cap": {},
-      "structure_gel:gel_entity": {
-       "portal": "structure_gel:empty"
-      }
-     },
-     "ForgeData": {},
-     "Genetics": {
-      "Genotype": "<156 bytes>",
-      "PaletteDraws": {
-       "Draws": [
-        8070450534634027827,
-        8088464933143509811
-       ]
-      },
-      "Species": "hideous_zippleback"
-     },
-     "GrowthProgress": 2400,
-     "GrowthStage": 2,
-     "HandDropChances": [
-      0.085,
-      0.085
-     ],
-     "HandItems": [
-      {},
-      {}
-     ],
-     "HasClearAirspace": 1,
-     "HasConsumedFood": 0,
-     "Health": 240.0,
-     "HurtByTimestamp": 45375,
-     "HurtTime": 0,
-     "InLove": 0,
-     "Inventory": [
-      {
-       "Count": 1,
-       "Slot": 0,
-       "id": "minecraft:saddle"
-      }
-     ],
-     "Invulnerable": 0,
-     "IsAlpha": 0,
-     "IsDoingAerialAttack": 0,
-     "IsFreeLooking": 0,
-     "IsFromTamedParents": 0,
-     "IsGoingDown": 0,
-     "IsOnSolidGround": 0,
-     "IsRoaring": 0,
-     "LayerMood": 2,
-     "LayerMotion": 2,
-     "LayerStance": 1,
-     "LeftHanded": 0,
-     "Motion": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "MountTime": 0,
-     "NoGravity": 1,
-     "OAH_BreathCooldown": 0,
-     "OAH_CurrentFuel": 106,
-     "OAH_FullRechargeCooldown": 0,
-     "OAH_PendingScale": 0.0,
-     "OnGround": 0,
-     "Owner": [
-      1096852936,
-      1655583406,
-      -1125147392,
-      -1580186985
-     ],
-     "PH_SmoothedEntityPitch": -0.0,
-     "PH_SmoothedMovementYaw": 11640.6482,
-     "PH_UnwrappedMovementYaw": 11640.6482,
-     "PH_UnwrappedRoll": 0.0,
-     "PH_UnwrappedYaw": 12728.6631,
-     "PersistenceRequired": 1,
-     "Personality": 0,
-     "PortalCooldown": 0,
-     "Pos": [
-      23.3526,
-      44.3838,
-      -829.1893
-     ],
-     "Rotation": [
-      128.6631,
-      0.0
-     ],
-     "SeatLocked": 1,
-     "SecondaryAbility": "gas_ignite",
-     "ShearingCooldown": 0,
-     "ShouldDoAerialAttack": 0,
-     "Sitting": 0,
-     "SmoothedPitch": 0.0,
-     "SmoothedRoll": 0.0,
-     "SpawnScaleTicks": 1,
-     "TamingRitualCompleted": 1,
-     "TamingRitualTimer": 0,
-     "ThrottleLevel": 0.7288,
-     "TransportMode": 1,
-     "UUID": [
-      -644884357,
-      -1594343222,
-      -1261508161,
-      1492697879
-     ],
-     "UUID_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317",
-     "UseGroundNav": 0,
-     "Variant": 0,
-     "dragonNeeds": {
-      "exhaustionLevel": 1.2101,
-      "foodLevel": 5,
-      "saturationLevel": 0.0,
-      "tickTimer": 0
-     },
-     "dragonStamina": {
-      "regenPauseTicks": 0
-     },
-     "id": "bookofdragons:hiddeous_zippleback"
-    }
-   },
    "Rotation": [
-    128.6631,
-    2.9459
+    170.8046,
+    0.0
    ],
-   "Score": 6139,
-   "SelectedItemSlot": 2,
+   "Score": 6158,
+   "SelectedItemSlot": 0,
    "SleepTimer": 0,
    "SpawnAngle": 79.7244,
    "SpawnDimension": "minecraft:overworld",
@@ -5097,9 +4750,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 49,
-   "XpP": 0.3463,
+   "XpP": 0.4134,
    "XpSeed": 976728483,
-   "XpTotal": 6139,
+   "XpTotal": 6158,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -5114,7 +4767,7 @@
     "y": 63.0,
     "z": -1778.2452
    },
-   "foodExhaustionLevel": 3.446,
+   "foodExhaustionLevel": 1.648,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15502,7 +15155,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 11616,
+    "ticks_since_last_warning": 5513,
     "warning_level": 0
    }
   },
@@ -15514,7 +15167,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1233431,
+  "Time": 1239431,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15522,7 +15175,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16210,9 +15863,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 4338,
-  "raining": 1,
-  "thunderTime": 34559,
+  "rainTime": 11405,
+  "raining": 0,
+  "thunderTime": 28559,
   "thundering": 0,
   "version": 19133
  },
