@@ -5,7 +5,7 @@
    {
     "Affection": 1000,
     "CustomName": "Hideous Zippleback",
-    "Dimension": "minecraft:the_nether",
+    "Dimension": "minecraft:overworld",
     "DragonUUID": [
      -644884357,
      -1594343222,
@@ -16,7 +16,7 @@
     "HasChest": 0,
     "HasSaddle": 1,
     "Health": 219.0,
-    "LastUpdate": 1795013742433,
+    "LastUpdate": 1795015347850,
     "MaxHealth": 220.0,
     "OwnerUUID": [
      1096852936,
@@ -25,9 +25,9 @@
      -1580186985
     ],
     "OwnerUUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-    "PosX": 105,
-    "PosY": 59,
-    "PosZ": -360,
+    "PosX": -2858,
+    "PosY": -6,
+    "PosZ": 52,
     "Stage": "BROAD_WING",
     "Type": "HIDEOUS_ZIPPLEBACK"
    }

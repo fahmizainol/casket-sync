@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    9022721358431471160,
-    -6202189944254226088
+    6767430420267624224,
+    -1039194014487523331
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    1201476114887111351,
-    1543920078463373991
+    -5616710471524205447,
+    -6777263154196943480
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -8162256671958820666,
-    2365864523249771992
+    -2229538469756168058,
+    4986608958099018188
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    5482499932434413612,
-    6625120267429732853
+    4073306726772961265,
+    1106249716527486099
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    994231690493064777,
-    -4352613639467505066
+    8897860169375301017,
+    2881927508253853376
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    1413642242718045489,
-    -7731010750708491149
+    1913383859585164818,
+    7273715088855287280
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -717,8 +717,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -1574409818441927420,
-    -2870043959371839783
+    -3700788436297694690,
+    5796193459100504522
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -989,6 +989,12 @@
    "source": [
     3379989489324030380,
     6745961268153990983
+   ]
+  },
+  "minecraft:blocks/nether_wart": {
+   "source": [
+    3421691526760211111,
+    -6651133183296655797
    ]
   },
   "minecraft:blocks/netherrack": {
@@ -1629,8 +1635,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    -5771993696884576747,
-    -937237968507093645
+    1782319653512978413,
+    5912271932979417155
    ]
   },
   "minecraft:entities/chicken": {
@@ -1749,8 +1755,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -1171671005976908353,
-    -156753132810118658
+    -4106046574995802374,
+    3831593232511874387
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1797,8 +1803,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    2811538336343904363,
-    -1294182555121315956
+    -1687162261677994029,
+    -5453475472428205256
    ]
   },
   "minecraft:entities/squid": {
@@ -1845,8 +1851,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    -2625549157207148917,
-    -5201549724209806481
+    8309058615681438844,
+    -3858849735205130871
    ]
   },
   "minecraft:entities/zombie_villager": {
@@ -1859,6 +1865,12 @@
    "source": [
     6481099304790163453,
     -1749956021844838677
+   ]
+  },
+  "tcr_bosses:entities/citadel_keeper": {
+   "source": [
+    1332165450984430822,
+    7108373495031503256
    ]
   }
  }

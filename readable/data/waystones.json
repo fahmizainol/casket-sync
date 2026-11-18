@@ -1183,6 +1183,30 @@
      -529032149
     ],
     "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -375,
+     "Y": 53,
+     "Z": -1391
+    },
+    "IsGlobal": 0,
+    "Name": "citadel",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1725618209,
+     138952919,
+     -1990289747,
+     1969747214
+    ],
+    "World": "minecraft:the_nether"
    }
   ]
  }
