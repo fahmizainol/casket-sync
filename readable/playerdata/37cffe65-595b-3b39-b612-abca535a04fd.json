@@ -125,7 +125,7 @@
  "DeathTime": 0,
  "Dimension": "minecraft:the_nether",
  "EnderItems": [],
- "FallDistance": 0.0,
+ "FallDistance": 0.757,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -516,7 +516,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "dodge_parry_reward:heal1",
    "passive6": "wom:mindset",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -4674,13 +4674,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1310853,
+  "ua_rs_active_until": 1317423,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1310583
+  "ua_tabi_last_dash": 1316253
  },
  "Health": 28.0,
- "HurtByTimestamp": 2151,
+ "HurtByTimestamp": 9206,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4753,7 +4753,7 @@
    }
   },
   {
-   "Count": 3,
+   "Count": 6,
    "Slot": 4,
    "id": "minecraft:netherite_scrap"
   },
@@ -4890,14 +4890,14 @@
    "id": "minecraft:magma_cream"
   },
   {
-   "Count": 9,
+   "Count": 12,
    "Slot": 30,
    "id": "irons_spellbooks:arcane_essence"
   },
   {
-   "Count": 5,
+   "Count": 1,
    "Slot": 31,
-   "id": "minecraft:chain"
+   "id": "tcrcore:blood_lotus"
   },
   {
    "Count": 9,
@@ -5017,19 +5017,19 @@
  },
  "Motion": [
   0.0,
-  -0.0784,
+  -0.3739,
   0.0
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -1826.1256,
-  85.0,
-  -1772.314
+  -1820.4688,
+  85.4952,
+  -1768.5833
  ],
  "Rotation": [
-  -125.3221,
-  24.2326
+  124.9861,
+  0.0
  ],
  "Score": 3788,
  "SelectedItemSlot": 0,
@@ -5060,7 +5060,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.184,
+ "foodExhaustionLevel": 2.175,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14806,7 +14806,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10575,
+  "ticks_since_last_warning": 4574,
   "warning_level": 0
  }
 }

@@ -9,8 +9,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -7034627240736216140,
-    -1710349981670947067
+    -2297869861285612046,
+    -5439047854848883104
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,20 +21,20 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    1965187823222613752,
-    -8850747549324592308
+    3653755203786463502,
+    -7826801899532959782
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -964776589113101726,
-    -2324277143773214373
+    -5472564319996664956,
+    -6003214593783140059
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    -7559700833417642981,
-    8113560893973309100
+    -8658141027225379513,
+    -8457246021764708109
    ]
   },
   "artifacts:entity_equipment/zombie": {
@@ -45,8 +45,8 @@
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -5538889658457711081,
-    9177393602720706416
+    -6604342071866946751,
+    -8796588358445392780
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1665,8 +1665,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    7302680344040663756,
-    -3939541314364863319
+    5039411955133243731,
+    -7541205460843586053
    ]
   },
   "minecraft:entities/chicken": {
@@ -1767,8 +1767,8 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    6521350333364918104,
-    -1206198568141803743
+    6126202257484562055,
+    1090415093798885494
    ]
   },
   "minecraft:entities/piglin_brute": {
@@ -1785,8 +1785,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -1877930229443293913,
-    -7346325990337158236
+    6263176639246929472,
+    5788694134059452732
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1821,8 +1821,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    5277171286158250290,
-    -2462523493408279160
+    3830495008952118138,
+    -8807819414687186106
    ]
   },
   "minecraft:entities/slime": {
@@ -1833,8 +1833,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    1292407421032967612,
-    -690405485793840098
+    6841436650037267201,
+    6621186626400147482
    ]
   },
   "minecraft:entities/squid": {
@@ -1905,8 +1905,8 @@
   },
   "tcr_bosses:entities/evening_ghost": {
    "source": [
-    1895240458617488677,
-    -4974294647423105952
+    -6752819634492776094,
+    2533280864073244097
    ]
   }
  }
