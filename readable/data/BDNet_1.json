@@ -75,10 +75,28 @@
      }
     },
     {
+     "amount": 14,
+     "key": {
+      "stack": {
+       "item": "minecraft:soul_sand"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 5,
      "key": {
       "stack": {
        "item": "minecraft:magma_cream"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 19,
+     "key": {
+      "stack": {
+       "item": "minecraft:crying_obsidian"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -233,6 +251,15 @@
      "key": {
       "stack": {
        "item": "tcrcore:core_flint"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:ancient_debris"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -475,7 +502,7 @@
      }
     },
     {
-     "amount": 197,
+     "amount": 259,
      "key": {
       "stack": {
        "item": "minecraft:cobbled_deepslate"
@@ -895,7 +922,7 @@
      }
     },
     {
-     "amount": 202,
+     "amount": 203,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1069,6 +1096,15 @@
      }
     },
     {
+     "amount": 30,
+     "key": {
+      "stack": {
+       "item": "minecraft:amethyst_shard"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 10,
      "key": {
       "stack": {
@@ -1078,7 +1114,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "irons_spellbooks:blank_rune"
@@ -1114,7 +1150,7 @@
      }
     },
     {
-     "amount": 11,
+     "amount": 25,
      "key": {
       "stack": {
        "item": "minecraft:paper"
@@ -1269,6 +1305,15 @@
      "key": {
       "stack": {
        "item": "minecraft:basalt"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 12,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_scrap"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1836,7 +1881,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 49,
      "key": {
       "stack": {
        "item": "minecraft:lantern"
@@ -1866,7 +1911,7 @@
      }
     },
     {
-     "amount": 80,
+     "amount": 99,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -1950,7 +1995,7 @@
      }
     },
     {
-     "amount": 210,
+     "amount": 211,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -1968,7 +2013,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:flint_and_steel",
@@ -2060,7 +2105,7 @@
      }
     },
     {
-     "amount": 20,
+     "amount": 29,
      "key": {
       "stack": {
        "item": "minecraft:nether_wart"
@@ -2114,7 +2159,7 @@
      }
     },
     {
-     "amount": 76,
+     "amount": 134,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -2334,6 +2379,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "epicfight:iron_longsword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 64,
      "key": {
       "stack": {
@@ -2446,6 +2503,15 @@
      "key": {
       "stack": {
        "item": "minecraft:grass_block"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "efn:duskfire_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2960,7 +3026,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 13,
      "key": {
       "stack": {
        "item": "irons_spellbooks:cinder_essence"
@@ -3323,7 +3389,7 @@
      }
     },
     {
-     "amount": 21,
+     "amount": 23,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -3460,7 +3526,7 @@
      }
     },
     {
-     "amount": 11,
+     "amount": 24,
      "key": {
       "stack": {
        "item": "minecraft:crossbow",
@@ -3641,7 +3707,19 @@
      }
     },
     {
-     "amount": 342,
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:corruptedroundshield",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 543,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -3698,7 +3776,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 69,
      "key": {
       "stack": {
        "item": "minecraft:book"
@@ -3973,7 +4051,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 51,
      "key": {
       "stack": {
        "item": "minecraft:flint"

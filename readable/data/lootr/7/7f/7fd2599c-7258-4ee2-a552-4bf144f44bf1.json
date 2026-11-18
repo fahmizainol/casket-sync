@@ -1,0 +1,37 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/7/7f/7fd2599c-7258-4ee2-a552-4bf144f44bf1",
+  "position": {
+   "X": -395,
+   "Y": 52,
+   "Z": -1397
+  },
+  "size": 27,
+  "uuid": [
+   2144491932,
+   1918389986,
+   -1521333263,
+   1156860913
+  ],
+  "uuid_str": "7fd2599c-7258-4ee2-a552-4bf144f44bf1"
+ }
+}

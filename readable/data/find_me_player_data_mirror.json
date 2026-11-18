@@ -36502,12 +36502,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "minecraft:overworld",
-        "x": -2858.0,
-        "xRot": -40.0,
-        "y": -5.8,
-        "yRot": -353.8738,
-        "z": 52.0
+        "dimension": "minecraft:the_nether",
+        "x": -430.0929,
+        "xRot": 0.0,
+        "y": 35.6579,
+        "yRot": -43.672,
+        "z": -1406.0736
        },
        "uuid": [
         -644884357,
@@ -36518,7 +36518,23 @@
        "uuid_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317"
       }
      ],
-     "mountDeployedList": [],
+     "mountDeployed": [
+      -644884357,
+      -1594343222,
+      -1261508161,
+      1492697879
+     ],
+     "mountDeployedList": [
+      {
+       "uuid": [
+        -644884357,
+        -1594343222,
+        -1261508161,
+        1492697879
+       ],
+       "uuid_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317"
+      }
+     ],
      "mountEligible": [
       {
        "uuid": [
@@ -36531,7 +36547,7 @@
       }
      ],
      "mountIndex": 0,
-     "mountReadyAt": 1184516,
+     "mountReadyAt": 1224591,
      "mountWheelSlots": [],
      "mounts": [
       {
@@ -36548,11 +36564,11 @@
       {
        "position": {
         "dimension": "minecraft:the_nether",
-        "x": 107.854,
+        "x": -430.5,
         "xRot": 0.0,
-        "y": 35.0,
-        "yRot": -1.2051,
-        "z": -383.8491
+        "y": 38.0,
+        "yRot": -148.8798,
+        "z": -1406.5
        },
        "uuid": [
         -644884357,
@@ -36578,7 +36594,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147377095,
+          "Duration": 2147377037,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -36661,10 +36677,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 219.0,
+        "CompanionRescueHealth": 220.0,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1220860,
+        "CompanionRescueStoredAt": 1224272,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -36770,7 +36786,7 @@
         ],
         "HasClearAirspace": 0,
         "HasConsumedFood": 0,
-        "Health": 219.0,
+        "Health": 220.0,
         "HurtByTimestamp": 45375,
         "HurtTime": 0,
         "InLove": 0,
@@ -36793,8 +36809,8 @@
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
-        "LayerMotion": 0,
-        "LayerStance": 0,
+        "LayerMotion": 2,
+        "LayerStance": 1,
         "LeftHanded": 0,
         "MountTime": 0,
         "NoAI": 0,
@@ -36826,7 +36842,7 @@
         ],
         "Rotation": [
          -353.8738,
-         -40.0
+         -1.185
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
