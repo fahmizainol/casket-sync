@@ -1476,15 +1476,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:netherite_upgrade_smithing_template"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "minecraft:enchanted_book",
        "tag": {
         "StoredEnchantments": [
@@ -1804,7 +1795,7 @@
      }
     },
     {
-     "amount": 186,
+     "amount": 187,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2123,15 +2114,6 @@
      "key": {
       "stack": {
        "item": "ba_bt:corrite_slab"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 56,
-     "key": {
-      "stack": {
-       "item": "minecraft:diamond"
       },
       "type": "beyonddimensions:stack_type/item"
      }

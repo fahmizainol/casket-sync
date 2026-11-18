@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -477466028192128614,
-    -4712745975490725549
+    -3872937621660959611,
+    -1367266967526587437
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    2807485958597966396,
-    -5125580005589568018
+    7488713582651907928,
+    7243105143198068529
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    4541726951272390637,
-    -571828215953770155
+    1622831751555717502,
+    5538430826360782916
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -6444916727652343342,
-    -4560375509338117394
+    -6588955431053503747,
+    4053026556502113157
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    4105376363025461621,
-    629990197428646012
+    697356668853279022,
+    5129706783074595318
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    6254348929374164919,
-    8768553920613530185
+    5668949222912179918,
+    5992754776856928317
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -909,14 +909,14 @@
   },
   "minecraft:blocks/nether_quartz_ore": {
    "source": [
-    -6487508826513672709,
-    6230021622450140450
+    -3568566319072400328,
+    447338563289754731
    ]
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -6701846231279681971,
-    3840762082698350148
+    8203672272964129115,
+    68163258920132808
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1695,8 +1695,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    791552598379873595,
-    3700583042877564409
+    3652438419687803378,
+    598729596859708446
    ]
   },
   "minecraft:entities/tropical_fish": {
