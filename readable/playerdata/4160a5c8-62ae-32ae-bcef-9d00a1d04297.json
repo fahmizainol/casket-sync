@@ -1,22 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 86,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -52,6 +35,10 @@
    "Name": "minecraft:generic.armor"
   },
   {
+   "Base": 1.0,
+   "Name": "forge:swim_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
   },
@@ -77,18 +64,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 8.0,
-     "Name": "effect.minecraft.health_boost 1",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -542,7 +517,7 @@
    }
   },
   "epicskills:ability_points": {
-   "abilityPoint": 1,
+   "abilityPoint": 3,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -3755,10 +3730,10 @@
     {
      "position": {
       "dimension": "minecraft:overworld",
-      "x": -2857.4826,
-      "xRot": 0.0,
+      "x": -2858.0,
+      "xRot": -1.1152,
       "y": -5.8,
-      "yRot": -358.0089,
+      "yRot": -353.8738,
       "z": 52.0
      },
      "uuid": [
@@ -3830,7 +3805,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147396114,
+        "Duration": 2147383628,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -3856,44 +3831,44 @@
       ],
       "Attributes": [
        {
-        "Base": 0.1777,
-        "Name": "minecraft:generic.movement_speed"
-       },
-       {
-        "Base": 0.08,
-        "Name": "forge:entity_gravity"
-       },
-       {
-        "Base": 0.24,
-        "Name": "minecraft:generic.knockback_resistance"
-       },
-       {
-        "Base": 0.0,
-        "Name": "forge:step_height_addition"
-       },
-       {
-        "Base": 13.2,
-        "Name": "minecraft:generic.armor"
-       },
-       {
-        "Base": 0.0,
-        "Name": "epicfight:stun_armor"
-       },
-       {
-        "Base": 8.8,
-        "Name": "minecraft:generic.attack_damage"
-       },
-       {
-        "Base": 1.0,
-        "Name": "forge:swim_speed"
+        "Base": 1.0216,
+        "Name": "minecraft:generic.flying_speed"
        },
        {
         "Base": 220.0,
         "Name": "minecraft:generic.max_health"
        },
        {
-        "Base": 1.0216,
-        "Name": "minecraft:generic.flying_speed"
+        "Base": 0.08,
+        "Name": "forge:entity_gravity"
+       },
+       {
+        "Base": 0.0,
+        "Name": "forge:step_height_addition"
+       },
+       {
+        "Base": 0.1777,
+        "Name": "minecraft:generic.movement_speed"
+       },
+       {
+        "Base": 8.8,
+        "Name": "minecraft:generic.attack_damage"
+       },
+       {
+        "Base": 0.0,
+        "Name": "epicfight:stun_armor"
+       },
+       {
+        "Base": 13.2,
+        "Name": "minecraft:generic.armor"
+       },
+       {
+        "Base": 1.0,
+        "Name": "forge:swim_speed"
+       },
+       {
+        "Base": 0.24,
+        "Name": "minecraft:generic.knockback_resistance"
        }
       ],
       "AwaitingTamingRitual": 0,
@@ -3913,10 +3888,10 @@
       "CompanionPreviewHeight": 2.5,
       "CompanionPreviewWidth": 2.88,
       "CompanionRescueArmor": 13,
-      "CompanionRescueHealth": 220.0,
+      "CompanionRescueHealth": 219.0,
       "CompanionRescueMaxHealth": 220.0,
       "CompanionRescueName": "Hiddeous Zippleback",
-      "CompanionRescueStoredAt": 1038536,
+      "CompanionRescueStoredAt": 1051027,
       "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4022,7 +3997,7 @@
       ],
       "HasClearAirspace": 0,
       "HasConsumedFood": 0,
-      "Health": 220.0,
+      "Health": 219.0,
       "HurtByTimestamp": 45375,
       "HurtTime": 0,
       "InLove": 0,
@@ -4064,21 +4039,21 @@
        -1580186985
       ],
       "PH_SmoothedEntityPitch": -0.0,
-      "PH_SmoothedMovementYaw": 11161.9911,
-      "PH_UnwrappedMovementYaw": 11161.9911,
+      "PH_SmoothedMovementYaw": 11166.1262,
+      "PH_UnwrappedMovementYaw": 11166.1262,
       "PH_UnwrappedRoll": 0.0,
-      "PH_UnwrappedYaw": 12241.9911,
+      "PH_UnwrappedYaw": 12246.1262,
       "PersistenceRequired": 1,
       "Personality": 0,
       "PortalCooldown": 0,
       "Pos": [
-       -2857.4826,
+       -2858.0,
        -5.8,
        52.0
       ],
       "Rotation": [
-       -358.0089,
-       0.0
+       -353.8738,
+       -1.1152
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "gas_ignite",
@@ -4133,17 +4108,17 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:sun_stone": 1
   },
-  "ua_rs_active_until": 1046522,
+  "ua_rs_active_until": 1052516,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1046715,
-  "ua_shiny_last_x": -2869.4109,
-  "ua_shiny_last_y": 30.0,
-  "ua_shiny_last_z": 57.0727,
-  "ua_tabi_last_dash": 1046321
+  "ua_shiny_last_active": 1053415,
+  "ua_shiny_last_x": 252.2253,
+  "ua_shiny_last_y": 63.0,
+  "ua_shiny_last_z": -1773.557,
+  "ua_tabi_last_dash": 1052482
  },
- "Health": 34.0,
- "HurtByTimestamp": 1825,
+ "Health": 13.9047,
+ "HurtByTimestamp": 5972,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4217,11 +4192,6 @@
    "id": "alexsmobs:flying_fish"
   },
   {
-   "Count": 1,
-   "Slot": 5,
-   "id": "ba_bt:ocean_monolith"
-  },
-  {
    "Count": 27,
    "Slot": 6,
    "id": "waystones:waystone"
@@ -4251,9 +4221,9 @@
    "id": "minecraft:iron_ingot"
   },
   {
-   "Count": 2,
+   "Count": 1,
    "Slot": 11,
-   "id": "epicskills:ability_stone"
+   "id": "ba_bt:ocean_monolith"
   },
   {
    "Count": 1,
@@ -4289,6 +4259,11 @@
    "Count": 1,
    "Slot": 18,
    "id": "ba_bt:core_golem_eye"
+  },
+  {
+   "Count": 1,
+   "Slot": 19,
+   "id": "tudigong:tudi_command_spell"
   },
   {
    "Count": 2,
@@ -4386,15 +4361,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -2869.4194,
-  30.0,
-  57.0727
+  252.2253,
+  63.0,
+  -1773.557
  ],
  "Rotation": [
-  0.0,
-  0.0001
+  -91.2341,
+  3.6503
  ],
- "Score": 5426,
+ "Score": 5543,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 79.7244,
@@ -4413,10 +4388,10 @@
   -1580186985
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
- "XpLevel": 46,
- "XpP": 0.8594,
+ "XpLevel": 47,
+ "XpP": 0.3057,
  "XpSeed": 976728483,
- "XpTotal": 5426,
+ "XpTotal": 5543,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4426,7 +4401,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.073,
+ "foodExhaustionLevel": 3.8544,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14825,7 +14800,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8391,
+  "ticks_since_last_warning": 2381,
   "warning_level": 0
  }
 }
