@@ -7,22 +7,40 @@
     6803317370848824571
    ]
   },
+  "artifacts:entity_equipment/ghast": {
+   "source": [
+    9130935866389007743,
+    3927356798905708901
+   ]
+  },
   "artifacts:entity_equipment/husk": {
    "source": [
     2020062851354897212,
     5514700741007867528
    ]
   },
+  "artifacts:entity_equipment/piglin": {
+   "source": [
+    5837360537161490745,
+    519701161115907599
+   ]
+  },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -5868497547518009039,
-    -3483318552426273679
+    -403795054369918160,
+    3354267239287741022
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    1648059921687759525,
-    -714975231170985213
+    8783328495765371699,
+    6226150017935228436
+   ]
+  },
+  "artifacts:entity_equipment/zombified_piglin": {
+   "source": [
+    -594651381825394803,
+    -8690343950944781550
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -313,6 +331,12 @@
     -859821343020878056
    ]
   },
+  "minecraft:blocks/basalt": {
+   "source": [
+    3895762927177359707,
+    -4011607274776138233
+   ]
+  },
   "minecraft:blocks/big_dripleaf": {
    "source": [
     7903488993954737936,
@@ -341,6 +365,24 @@
    "source": [
     -1810315346793803968,
     1543999554517348040
+   ]
+  },
+  "minecraft:blocks/blackstone": {
+   "source": [
+    3678435158907556897,
+    -7810723924702339690
+   ]
+  },
+  "minecraft:blocks/blackstone_stairs": {
+   "source": [
+    -8373148565641349475,
+    -5621343499601917007
+   ]
+  },
+  "minecraft:blocks/blackstone_wall": {
+   "source": [
+    8404032216366688547,
+    6970203291410658414
    ]
   },
   "minecraft:blocks/blast_furnace": {
@@ -427,6 +469,12 @@
     4625191637339384108
    ]
   },
+  "minecraft:blocks/chiseled_polished_blackstone": {
+   "source": [
+    4205692216766256337,
+    829822750135869311
+   ]
+  },
   "minecraft:blocks/chiseled_red_sandstone": {
    "source": [
     -8250895030405205482,
@@ -455,6 +503,12 @@
    "source": [
     6226851305580531077,
     8955312034075527407
+   ]
+  },
+  "minecraft:blocks/cracked_polished_blackstone_bricks": {
+   "source": [
+    8450477806209966798,
+    -1423075106472715352
    ]
   },
   "minecraft:blocks/cracked_stone_bricks": {
@@ -591,8 +645,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -2448132436106283300,
-    -1647187611855459389
+    -6779409015182648221,
+    -1900512721386475479
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -611,6 +665,12 @@
    "source": [
     5761588102201637917,
     -8177878685328784818
+   ]
+  },
+  "minecraft:blocks/gilded_blackstone": {
+   "source": [
+    -7140346737759635015,
+    4042211348347495040
    ]
   },
   "minecraft:blocks/glass_pane": {
@@ -817,6 +877,18 @@
     -8017665681818376474
    ]
   },
+  "minecraft:blocks/nether_brick_fence": {
+   "source": [
+    8980799808297545962,
+    -3486178516170288285
+   ]
+  },
+  "minecraft:blocks/netherrack": {
+   "source": [
+    -3030522643071045188,
+    7682702067853678930
+   ]
+  },
   "minecraft:blocks/oak_fence": {
    "source": [
     3280790110324015787,
@@ -895,6 +967,48 @@
     4533659879170428030
    ]
   },
+  "minecraft:blocks/polished_basalt": {
+   "source": [
+    6398406988075111960,
+    -7360245526163350465
+   ]
+  },
+  "minecraft:blocks/polished_blackstone": {
+   "source": [
+    -2208930407656896758,
+    -7532129139645488429
+   ]
+  },
+  "minecraft:blocks/polished_blackstone_brick_stairs": {
+   "source": [
+    -5125817941253827970,
+    1942566648302604547
+   ]
+  },
+  "minecraft:blocks/polished_blackstone_brick_wall": {
+   "source": [
+    -8094833770181040683,
+    -4253637555624925803
+   ]
+  },
+  "minecraft:blocks/polished_blackstone_bricks": {
+   "source": [
+    -1607172129934246084,
+    -8150765271330844656
+   ]
+  },
+  "minecraft:blocks/polished_blackstone_stairs": {
+   "source": [
+    -5333519082777193608,
+    -7928629895307730530
+   ]
+  },
+  "minecraft:blocks/polished_blackstone_wall": {
+   "source": [
+    -5431798137434205180,
+    7430182408888728725
+   ]
+  },
   "minecraft:blocks/polished_granite": {
    "source": [
     -6752371590042880501,
@@ -943,6 +1057,18 @@
     -6425038332295234615
    ]
   },
+  "minecraft:blocks/quartz_block": {
+   "source": [
+    -214780516976050032,
+    -154118759429214376
+   ]
+  },
+  "minecraft:blocks/quartz_slab": {
+   "source": [
+    -3110028685287822731,
+    -8565880742319514059
+   ]
+  },
   "minecraft:blocks/rail": {
    "source": [
     7637186749555608267,
@@ -959,6 +1085,12 @@
    "source": [
     5842084262068300291,
     -6049812001690013156
+   ]
+  },
+  "minecraft:blocks/red_nether_brick_slab": {
+   "source": [
+    8232360125602806974,
+    -1102431125252519363
    ]
   },
   "minecraft:blocks/red_nether_bricks": {
@@ -1043,6 +1175,12 @@
    "source": [
     -1121279144946890482,
     -4482715075571284375
+   ]
+  },
+  "minecraft:blocks/smooth_basalt": {
+   "source": [
+    2620327030820333122,
+    2493056625973457907
    ]
   },
   "minecraft:blocks/smooth_stone": {
@@ -1441,6 +1579,12 @@
     2883988495439465470
    ]
   },
+  "minecraft:entities/piglin": {
+   "source": [
+    -3634945248599269772,
+    -5942793662227623291
+   ]
+  },
   "minecraft:entities/pillager": {
    "source": [
     5862155715563378426,
@@ -1449,8 +1593,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -6479439253082494257,
-    1660121249596934252
+    5358528015025889242,
+    -7377466129927608674
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1485,8 +1629,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -4340024116926945648,
-    7280254811520535078
+    6558579082067644502,
+    7294150584889353359
    ]
   },
   "minecraft:entities/slime": {
@@ -1545,14 +1689,20 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    -9160219105769868512,
-    -3549024810849462028
+    6125113040272819497,
+    3561720130297013795
    ]
   },
   "minecraft:entities/zombie_villager": {
    "source": [
     3862653796741906231,
     -319337683859299172
+   ]
+  },
+  "minecraft:entities/zombified_piglin": {
+   "source": [
+    -5351180690600339622,
+    -5899224529241127685
    ]
   }
  }

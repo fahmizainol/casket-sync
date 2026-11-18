@@ -6,8 +6,6 @@
 	last_seen: { dim: "minecraft:overworld", x: -2871, y: 30, z: 57, time: 1795008043402L, xRot: 0.0f, yRot: -130.8198f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: -2869, y: 30, z: 56, time: 1794847834000L }
-		{ dim: "minecraft:overworld", x: -2878, y: 30, z: 55, time: 1794847901271L }
 		{ dim: "minecraft:overworld", x: -2880, y: 30, z: 57, time: 1794847931131L }
 		{ dim: "minecraft:overworld", x: -2872, y: 30, z: 52, time: 1794847956234L }
 		{ dim: "minecraft:overworld", x: -2876, y: 30, z: 52, time: 1794847970233L }
@@ -16,6 +14,8 @@
 		{ dim: "minecraft:overworld", x: -2870, y: 30, z: 53, time: 1794848228977L }
 		{ dim: "minecraft:overworld", x: -2870, y: 30, z: 59, time: 1795008075460L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -15, y: 132, z: -52, time: 1795008490081L }
+		{ dim: "minecraft:the_nether", x: 129, y: 35, z: -358, time: 1795008834350L }
+		{ dim: "minecraft:overworld", x: -2881, y: 30, z: 53, time: 1795008837817L }
 	]
 	homes: { }
 	kit_use_times: { }

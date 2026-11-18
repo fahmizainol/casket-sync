@@ -24,6 +24,10 @@
   },
   {
    "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 0.0,
    "Name": "minecraft:generic.armor"
   },
   {
@@ -115,7 +119,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "minecraft:the_nether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1274,7 +1278,7 @@
     "aineTalked": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 57.0,
+    "currentQuestId": 58.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1302,7 +1306,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 47,
+   "finishedQuestSize": 48,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1345,6 +1349,7 @@
    "finished_quest_44": 13,
    "finished_quest_45": 1,
    "finished_quest_46": 56,
+   "finished_quest_47": 57,
    "finished_quest_5": 24,
    "finished_quest_6": 25,
    "finished_quest_7": 26,
@@ -1359,7 +1364,7 @@
    "quest_4": 7,
    "quest_5": 55,
    "quest_6": 8,
-   "quest_7": 57,
+   "quest_7": 58,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1078647,
    "sardine": 0,
@@ -3809,12 +3814,12 @@
    "lastKnownPositions": [
     {
      "position": {
-      "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
-      "x": -36.6052,
-      "xRot": -0.0089,
-      "y": 132.0,
-      "yRot": 7.8901,
-      "z": -74.4952
+      "dimension": "minecraft:the_nether",
+      "x": 114.4,
+      "xRot": 0.0,
+      "y": 39.0,
+      "yRot": 10.8502,
+      "z": -302.4693
      },
      "uuid": [
       -316269812,
@@ -3838,7 +3843,7 @@
     }
    ],
    "mountIndex": 0,
-   "mountReadyAt": 1081063,
+   "mountReadyAt": 1086381,
    "mountWheelSlots": [],
    "mounts": [
     {
@@ -3854,12 +3859,12 @@
    "origins": [
     {
      "position": {
-      "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
-      "x": 1.5123,
-      "xRot": 0.0,
-      "y": 162.632,
-      "yRot": -175.1109,
-      "z": -7.4272
+      "dimension": "minecraft:the_nether",
+      "x": 123.5,
+      "xRot": -15.3003,
+      "y": 42.0,
+      "yRot": 5.7497,
+      "z": -433.5
      },
      "uuid": [
       -316269812,
@@ -3885,7 +3890,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147439034,
+        "Duration": 2147438421,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -3967,7 +3972,7 @@
       "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 1082836,
+      "CompanionRescueStoredAt": 1086499,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4149,7 +4154,7 @@
        {},
        {}
       ],
-      "HasClearAirspace": 1,
+      "HasClearAirspace": 0,
       "HasConsumedFood": 0,
       "Health": 140.0,
       "HurtByTimestamp": 1852,
@@ -4192,25 +4197,25 @@
        -1240290358,
        1398408445
       ],
-      "PH_SmoothedEntityPitch": -0.0,
-      "PH_SmoothedMovementYaw": 1807.8901,
-      "PH_UnwrappedMovementYaw": 1807.8901,
+      "PH_SmoothedEntityPitch": 0.0,
+      "PH_SmoothedMovementYaw": 1810.1893,
+      "PH_UnwrappedMovementYaw": 1810.1893,
       "PH_UnwrappedRoll": 0.0,
-      "PH_UnwrappedYaw": 2527.8901,
+      "PH_UnwrappedYaw": 2530.8502,
       "PersistenceRequired": 1,
       "Personality": 0,
       "PortalCooldown": 0,
       "Pos": [
-       -36.6052,
-       132.0,
-       -74.4952
+       114.4,
+       39.0,
+       -302.4693
       ],
       "RoostX": 210,
       "RoostY": 73,
       "RoostZ": -673,
       "Rotation": [
-       7.8901,
-       -0.0089
+       10.8502,
+       0.0
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "lightning_strike",
@@ -4223,7 +4228,7 @@
       "SpawnScaleTicks": 1,
       "TamingRitualCompleted": 1,
       "TamingRitualTimer": 0,
-      "ThrottleLevel": 0.0054,
+      "ThrottleLevel": 0.0,
       "TransportMode": 0,
       "UUID": [
        -316269812,
@@ -4235,8 +4240,8 @@
       "UseGroundNav": 1,
       "Variant": 0,
       "dragonNeeds": {
-       "exhaustionLevel": 2.3873,
-       "foodLevel": 32,
+       "exhaustionLevel": 3.8189,
+       "foodLevel": 31,
        "saturationLevel": 0.0,
        "tickTimer": 0
       },
@@ -4263,10 +4268,9 @@
   },
   "last_send_time": 0,
   "ua_accessory_types_seen": {
-   "uniqueaccessories:sun_stone": 1,
-   "uniqueaccessories:supreme_meat": 1
+   "uniqueaccessories:sun_stone": 1
   },
-  "ua_rs_active_until": 1082741,
+  "ua_rs_active_until": 1089396,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
@@ -4340,7 +4344,12 @@
    "id": "dodosmobs:chimera_claw"
   },
   {
-   "Count": 32,
+   "Count": 1,
+   "Slot": 6,
+   "id": "minecraft:red_nether_brick_slab"
+  },
+  {
+   "Count": 34,
    "Slot": 7,
    "id": "minecraft:iron_ingot"
   },
@@ -4354,9 +4363,59 @@
    }
   },
   {
+   "Count": 3,
+   "Slot": 9,
+   "id": "minecraft:gold_nugget"
+  },
+  {
+   "Count": 1,
+   "Slot": 10,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 1,
+   "Slot": 11,
+   "id": "bosses_of_mass_destruction:soul_star"
+  },
+  {
    "Count": 1,
    "Slot": 25,
    "id": "uniqueaccessories:sun_stone"
+  },
+  {
+   "Count": 2,
+   "Slot": 29,
+   "id": "minecraft:gold_ingot"
+  },
+  {
+   "Count": 1,
+   "Slot": 30,
+   "id": "minecraft:golden_apple"
+  },
+  {
+   "Count": 2,
+   "Slot": 31,
+   "id": "minecraft:experience_bottle"
+  },
+  {
+   "Count": 1,
+   "Slot": 32,
+   "id": "minecraft:obsidian"
+  },
+  {
+   "Count": 4,
+   "Slot": 33,
+   "id": "minecraft:golden_carrot"
+  },
+  {
+   "Count": 1,
+   "Slot": 34,
+   "id": "minecraft:diamond"
+  },
+  {
+   "Count": 1,
+   "Slot": 35,
+   "id": "minecraft:netherite_upgrade_smithing_template"
   },
   {
    "Count": 1,
@@ -4420,11 +4479,11 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "dimension": "minecraft:the_nether",
   "pos": [
-   -15,
-   132,
-   -51
+   129,
+   35,
+   -359
   ]
  },
  "Motion": [
@@ -4435,16 +4494,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  261.3967,
-  63.0,
-  -1775.1999
+  127.8485,
+  35.0,
+  -422.3367
  ],
  "Rotation": [
-  -52.799,
-  3.4241
+  -88.7166,
+  15.8033
  ],
- "Score": 3218,
- "SelectedItemSlot": 6,
+ "Score": 3237,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 72.8998,
  "SpawnDimension": "minecraft:overworld",
@@ -4460,9 +4519,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 41,
- "XpP": 0.3791,
+ "XpP": 0.4692,
  "XpSeed": -1221340157,
- "XpTotal": 3218,
+ "XpTotal": 3237,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4472,7 +4531,12 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.726,
+ "enteredNetherPosition": {
+  "x": 260.3,
+  "y": 63.0,
+  "z": -1778.5727
+ },
+ "foodExhaustionLevel": 1.3,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4483,7 +4547,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 51,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14247,7 +14311,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8817,
+  "ticks_since_last_warning": 2712,
   "warning_level": 0
  }
 }

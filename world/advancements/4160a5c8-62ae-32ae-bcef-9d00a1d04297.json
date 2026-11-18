@@ -196,7 +196,9 @@
       "minecraft:magma_cube": "2026-11-16 22:48:50 +0800",
       "minecraft:spider": "2026-11-14 15:10:35 +0800",
       "minecraft:evoker": "2026-11-15 14:54:21 +0800",
+      "minecraft:zombified_piglin": "2026-11-18 21:33:05 +0800",
       "minecraft:husk": "2026-11-15 18:24:03 +0800",
+      "minecraft:piglin": "2026-11-18 21:31:33 +0800",
       "minecraft:enderman": "2026-11-15 15:37:14 +0800",
       "minecraft:zombie": "2026-11-14 15:11:27 +0800",
       "minecraft:drowned": "2026-11-15 16:34:46 +0800",
@@ -493,6 +495,25 @@
   "uniqueaccessories:adventure/get_epic_accessory": {
     "criteria": {
       "obtained_epic": "2026-11-17 00:58:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-11-18 21:29:43 +0800",
+      "minecraft:basalt_deltas": "2026-11-18 21:30:52 +0800"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-11-18 21:29:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-11-18 21:29:43 +0800"
     },
     "done": true
   },
