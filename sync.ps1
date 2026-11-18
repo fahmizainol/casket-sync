@@ -2,7 +2,7 @@
 # Run after playing (Minecraft must be closed). Double-click sync.bat or run: powershell -File sync.ps1
 $ErrorActionPreference = 'Stop'
 $Repo  = $PSScriptRoot
-$World = 'C:\Users\kny\AppData\Roaming\PrismLauncher\instances\The Casket of Reveries -2.2.9.8\minecraft\saves\rotters fixed'
+$World = "$env:APPDATA\PrismLauncher\instances\The Casket of Reveries -2.2.9.8\minecraft\saves\rotters fixed"
 $Dest  = Join-Path $Repo 'world'
 $Json  = Join-Path $Repo 'readable'
 
