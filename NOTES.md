@@ -1,6 +1,6 @@
 # Casket of Reveries world snapshot: notes for AI agents
 
-A partial snapshot of the Minecraft world "rotters (fixed)", synced by NIG after play sessions.
+A partial snapshot of the Minecraft world "rotters (fixed)", synced automatically every 5 minutes while NIG has the game open, plus once when it closes.
 Use it to answer questions about inventories, equipment, quests, storage networks, and team progress.
 `git pull` first to get the latest snapshot. The commit time is the snapshot time.
 
