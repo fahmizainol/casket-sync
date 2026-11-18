@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    2813404431660492537,
-    -2853339551646086406
+    8253857309394227643,
+    5483091635978491715
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -2852077752199371150,
-    2965521812221812635
+    9072790937888148164,
+    -1064451467081305646
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    7007138525069813096,
-    -6985270735315433190
+    -2501455441738943639,
+    -8034544096762876454
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -9209784448059308106,
-    7399522455837038852
+    7286134126528112951,
+    6869664665919813419
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    8745160949111939802,
-    -7042138376217594691
+    51140995897468441,
+    -5884117108008101670
    ]
   },
   "ba_bt:blocks/active_corrite_block": {

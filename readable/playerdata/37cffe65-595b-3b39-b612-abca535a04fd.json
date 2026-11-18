@@ -1276,7 +1276,7 @@
     "aineTalked": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 58.0,
+    "currentQuestId": 59.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1304,7 +1304,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 48,
+   "finishedQuestSize": 49,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1348,13 +1348,14 @@
    "finished_quest_45": 1,
    "finished_quest_46": 56,
    "finished_quest_47": 57,
+   "finished_quest_48": 58,
    "finished_quest_5": 24,
    "finished_quest_6": 25,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 8.0,
-   "questSize": 8,
+   "questSize": 10,
    "quest_0": 84,
    "quest_1": 38,
    "quest_2": 2,
@@ -1362,7 +1363,9 @@
    "quest_4": 7,
    "quest_5": 55,
    "quest_6": 8,
-   "quest_7": 58,
+   "quest_7": 61,
+   "quest_8": 60,
+   "quest_9": 59,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1078647,
    "sardine": 0,
@@ -4601,9 +4604,9 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  265.7162,
+  265.6764,
   63.0,
-  -1776.3277
+  -1776.698
  ],
  "Rotation": [
   55.8909,
@@ -14384,7 +14387,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5895,
+  "ticks_since_last_warning": 11895,
   "warning_level": 0
  }
 }
