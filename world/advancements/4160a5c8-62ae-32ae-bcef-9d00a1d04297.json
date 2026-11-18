@@ -466,24 +466,6 @@
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2026-11-16 23:04:21 +0800"
-    },
-    "done": true
-  },
-  "uniqueaccessories:adventure/get_epic_accessory": {
-    "criteria": {
-      "obtained_epic": "2026-11-17 00:58:13 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2026-11-16 23:18:28 +0800"
-    },
-    "done": true
-  },
   "tcrcore:unlock_magic_and_boss": {
     "criteria": {
       "unlock_magic_and_boss": "2026-11-16 22:44:44 +0800"
@@ -493,6 +475,24 @@
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_bridge": "2026-11-16 22:48:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-11-16 23:04:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-11-16 23:18:28 +0800"
+    },
+    "done": true
+  },
+  "uniqueaccessories:adventure/get_epic_accessory": {
+    "criteria": {
+      "obtained_epic": "2026-11-17 00:58:13 +0800"
     },
     "done": true
   },

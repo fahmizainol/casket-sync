@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 254584,
+  "DayTime": 254590,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1794848347063,
+  "LastPlayed": 1795006708262,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -435,7 +435,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 92,
+     "Duration": 86,
      "Id": 21,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -445,10 +445,6 @@
    "Air": 300,
    "Attributes": [
     {
-     "Base": 0.1,
-     "Name": "minecraft:generic.movement_speed"
-    },
-    {
      "Base": 0.08,
      "Name": "forge:entity_gravity"
     },
@@ -457,12 +453,8 @@
      "Name": "epicfight:offhand_attack_speed"
     },
     {
-     "Base": 4.0,
-     "Name": "minecraft:generic.attack_speed"
-    },
-    {
-     "Base": 0.0,
-     "Name": "minecraft:generic.armor"
+     "Base": 0.1,
+     "Name": "minecraft:generic.movement_speed"
     },
     {
      "Base": 40.0,
@@ -482,57 +474,19 @@
     },
     {
      "Base": 0.0,
-     "Name": "epicfight:armor_negation"
+     "Name": "minecraft:generic.armor"
     },
     {
      "Base": 0.0,
      "Name": "minecraft:generic.knockback_resistance"
     },
     {
-     "Base": 0.6,
-     "Name": "forge:step_height_addition"
-    },
-    {
-     "Base": 1.0,
-     "Name": "epicfight:max_strikes"
-    },
-    {
      "Base": 0.0,
-     "Name": "attributeslib:creative_flight"
+     "Name": "epicfight:armor_negation"
     },
     {
-     "Base": 3.0,
-     "Name": "forge:entity_reach"
-    },
-    {
-     "Base": 1.0,
-     "Name": "minecraft:generic.attack_damage"
-    },
-    {
-     "Base": 0.0,
-     "Name": "minecraft:generic.armor_toughness"
-    },
-    {
-     "Base": 15.0,
-     "Modifiers": [
-      {
-       "Amount": 2.4,
-       "Name": "stamina_boost",
-       "Operation": 0,
-       "UUID": [
-        289739801,
-        427885108,
-        305402420,
-        1450744508
-       ],
-       "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      }
-     ],
-     "Name": "epicfight:staminar"
-    },
-    {
-     "Base": 0.0,
-     "Name": "attributeslib:armor_pierce"
+     "Base": 4.0,
+     "Name": "minecraft:generic.attack_speed"
     },
     {
      "Base": 20.0,
@@ -563,6 +517,52 @@
       }
      ],
      "Name": "minecraft:generic.max_health"
+    },
+    {
+     "Base": 0.6,
+     "Name": "forge:step_height_addition"
+    },
+    {
+     "Base": 0.0,
+     "Name": "minecraft:generic.armor_toughness"
+    },
+    {
+     "Base": 1.0,
+     "Name": "epicfight:max_strikes"
+    },
+    {
+     "Base": 1.0,
+     "Name": "minecraft:generic.attack_damage"
+    },
+    {
+     "Base": 0.0,
+     "Name": "attributeslib:creative_flight"
+    },
+    {
+     "Base": 3.0,
+     "Name": "forge:entity_reach"
+    },
+    {
+     "Base": 15.0,
+     "Modifiers": [
+      {
+       "Amount": 2.4,
+       "Name": "stamina_boost",
+       "Operation": 0,
+       "UUID": [
+        289739801,
+        427885108,
+        305402420,
+        1450744508
+       ],
+       "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      }
+     ],
+     "Name": "epicfight:staminar"
+    },
+    {
+     "Base": 0.0,
+     "Name": "attributeslib:armor_pierce"
     }
    ],
    "BalmData": {},
@@ -582,12 +582,12 @@
     "aether:aether_player": {
      "CanGetPortal": 0,
      "CanShowPatreonMessage": 1,
-     "CanSpawnInAether": 1,
+     "CanSpawnInAether": 0,
      "HasSeenSunSpirit": 0,
      "LifeShardCount": 0,
      "LoginsUntilPatreonMessage": -1,
      "RemedyStartDuration": 0,
-     "SavedHealth": 34.0
+     "SavedHealth": 0.0
     },
     "armourers_workshop:entity-skin-provider": {
      "DataVersion": 1
@@ -926,8 +926,8 @@
       "0": "efn:efn_parry"
      },
      "learned:passive": {
-      "0": "dodge_parry_reward:damage_boost1",
-      "1": "dodge_parry_reward:stamina1",
+      "0": "dodge_parry_reward:stamina1",
+      "1": "dodge_parry_reward:damage_boost1",
       "2": "dodge_parry_reward:heal2",
       "3": "dodge_parry_reward:damage_boost2",
       "4": "epicfight:emergency_escape",
@@ -1686,6 +1686,7 @@
     },
     "sword_soaring:ss_player": {},
     "tcrcore:tcr_player": {
+     "blessItem": "minecraft:air",
      "blessPos": {
       "X": 0,
       "Y": 0,
@@ -4815,8 +4816,8 @@
     57.0727
    ],
    "Rotation": [
-    105.8843,
-    0.0
+    0.0,
+    0.0001
    ],
    "Score": 5426,
    "SelectedItemSlot": 0,
@@ -15249,7 +15250,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 8386,
+    "ticks_since_last_warning": 8391,
     "warning_level": 0
    }
   },
@@ -15261,7 +15262,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1047431,
+  "Time": 1047437,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15957,9 +15958,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 73248,
+  "rainTime": 73242,
   "raining": 0,
-  "thunderTime": 114153,
+  "thunderTime": 114147,
   "thundering": 0,
   "version": 19133
  },

@@ -24,6 +24,48 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:crossbow",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:tube_coral"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:wheat_seeds"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:white_banner",
        "tag": {
         "BlockEntityTag": {
@@ -73,62 +115,6 @@
      }
     },
     {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "minecraft:sentry_armor_trim_smithing_template"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:netherite_upgrade_smithing_template"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 34,
-     "key": {
-      "stack": {
-       "item": "minecraft:bread",
-       "tag": {
-        "sheath": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 3,
-     "key": {
-      "stack": {
-       "item": "minecraft:vex_armor_trim_smithing_template"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:enchanted_book",
-       "tag": {
-        "StoredEnchantments": [
-         {
-          "id": "alexsmobs:serpentfriend",
-          "lvl": 1
-         }
-        ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 1,
      "key": {
       "stack": {
@@ -147,116 +133,10 @@
      }
     },
     {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "minecraft:oak_stairs"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "minecraft:lead"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:iron_helmet",
-       "tag": {
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:protection",
-          "lvl": 2
-         },
-         {
-          "id": "minecraft:aqua_affinity",
-          "lvl": 1
-         }
-        ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 8,
      "key": {
       "stack": {
-       "item": "minecraft:chiseled_deepslate"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "armourers_workshop:skin-library-global"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "supplementaries:bomb"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:goat_horn",
-       "tag": {
-        "instrument": "minecraft:ponder_goat_horn"
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 21,
-     "key": {
-      "stack": {
-       "item": "minecraft:chorus_fruit"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:prismarine_brick_stairs"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 3,
-     "key": {
-      "stack": {
-       "item": "minecraft:amethyst_shard"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 79,
-     "key": {
-      "stack": {
-       "item": "minecraft:golden_carrot"
+       "item": "minecraft:crying_obsidian"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -283,156 +163,7 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:enchanted_book",
-       "tag": {
-        "StoredEnchantments": [
-         {
-          "id": "minecraft:blast_protection",
-          "lvl": 2
-         }
-        ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:water_bucket"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "artifacts:aqua_dashers"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "armourers_workshop:skinning-table"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 5,
-     "key": {
-      "stack": {
-       "item": "minecraft:lapis_lazuli",
-       "tag": {
-        "sheath": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:miner_pottery_sherd"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "minecraft:ender_pearl"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "minecraft:obsidian"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "uniqueaccessories:anklet_of_fortune"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:golden_leggings",
-       "tag": {
-        "Damage": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:rose_bush"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 10,
-     "key": {
-      "stack": {
-       "item": "minecraft:cooked_salmon"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "irons_spellbooks:shriving_stone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 29,
-     "key": {
-      "stack": {
-       "item": "minecraft:diamond"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "bosses_of_mass_destruction:soul_star"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 23,
-     "key": {
-      "stack": {
-       "item": "minecraft:golden_apple"
+       "item": "minecraft:name_tag"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -455,78 +186,10 @@
      }
     },
     {
-     "amount": 8,
+     "amount": 4,
      "key": {
       "stack": {
-       "item": "minecraft:crying_obsidian"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "minecraft:baked_potato",
-       "tag": {
-        "sheath": 1
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:brown_bed"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 9,
-     "key": {
-      "stack": {
-       "item": "irons_spellbooks:firefly_jar"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:crossbow",
-       "tag": {
-        "Damage": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:enchanted_book",
-       "tag": {
-        "StoredEnchantments": [
-         {
-          "id": "minecraft:flame",
-          "lvl": 1
-         }
-        ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:spider_eye"
+       "item": "minecraft:sentry_armor_trim_smithing_template"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -535,10 +198,7 @@
      "amount": 7,
      "key": {
       "stack": {
-       "item": "minecraft:tipped_arrow",
-       "tag": {
-        "Potion": "minecraft:weakness"
-       }
+       "item": "minecraft:slime_ball"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -547,33 +207,7 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:enchanted_book",
-       "tag": {
-        "StoredEnchantments": [
-         {
-          "id": "wom:invigoration",
-          "lvl": 1
-         }
-        ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:tube_coral"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "epicfight_leonidas:the_lost_helmet"
+       "item": "armourers_workshop:skin-library-global"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -582,7 +216,16 @@
      "amount": 3,
      "key": {
       "stack": {
-       "item": "minecraft:stripped_dark_oak_log"
+       "item": "minecraft:totem_of_undying"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_horse_armor"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -591,34 +234,44 @@
      "amount": 2,
      "key": {
       "stack": {
-       "item": "minecraft:mossy_cobblestone"
+       "item": "supplementaries:bomb"
       },
       "type": "beyonddimensions:stack_type/item"
      }
     },
     {
-     "amount": 25,
+     "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:spruce_stairs"
+       "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:smite",
+          "lvl": 3
+         }
+        ],
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
     },
     {
-     "amount": 31,
+     "amount": 191,
      "key": {
       "stack": {
-       "item": "minecraft:smooth_stone_slab"
+       "item": "minecraft:arrow"
       },
       "type": "beyonddimensions:stack_type/item"
      }
     },
     {
-     "amount": 10,
+     "amount": 79,
      "key": {
       "stack": {
-       "item": "minecraft:lapis_lazuli"
+       "item": "minecraft:golden_carrot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -627,70 +280,7 @@
      "amount": 4,
      "key": {
       "stack": {
-       "item": "minecraft:spruce_planks"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:stone_sword",
-       "tag": {
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:smite",
-          "lvl": 3
-         }
-        ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:moss_block"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 32,
-     "key": {
-      "stack": {
-       "item": "waystones:waystone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:stripped_dark_oak_wood"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:diamond_shovel",
-       "tag": {
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:silk_touch",
-          "lvl": 1
-         }
-        ]
-       }
+       "item": "minecraft:obsidian"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -705,73 +295,10 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 6,
      "key": {
       "stack": {
-       "item": "tudigong:tudi_command_spell"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "uniqueaccessories:survival_belt"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 5,
-     "key": {
-      "stack": {
-       "item": "minecraft:string"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:shaper_armor_trim_smithing_template"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "minecraft:stone_bricks"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 3,
-     "key": {
-      "stack": {
-       "item": "minecraft:tripwire_hook"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "artifacts:chorus_totem"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "bookofdragons:book_of_dragons"
+       "item": "minecraft:honey_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -789,55 +316,20 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "quark:smithing_template_rune"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 3,
-     "key": {
-      "stack": {
-       "item": "minecraft:raw_iron"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "epicfight:uchigatana",
-       "tag": {
-        "Damage": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:crossbow",
+       "item": "minecraft:iron_helmet",
        "tag": {
         "Damage": 0,
         "Enchantments": [
          {
-          "id": "minecraft:piercing",
+          "id": "minecraft:protection",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:aqua_affinity",
           "lvl": 1
          }
         ]
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 5,
-     "key": {
-      "stack": {
-       "item": "irons_spellbooks:arcane_essence"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -878,20 +370,19 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 71,
      "key": {
       "stack": {
-       "item": "minecraft:iron_sword",
-       "tag": {
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:smite",
-          "lvl": 3
-         }
-        ],
-        "sheath": 0
-       }
+       "item": "minecraft:emerald"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:stripped_dark_oak_log"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -900,7 +391,37 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:oak_trapdoor"
+       "item": "minecraft:golden_leggings",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:wild_armor_trim_smithing_template"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:cobblestone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:aqua_dashers"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -923,10 +444,27 @@
      }
     },
     {
-     "amount": 174,
+     "amount": 1,
      "key": {
       "stack": {
-       "item": "beyonddimensions:shattered_space_time_crystallization"
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:thorns",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "armourers_workshop:skinning-table"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -952,25 +490,16 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "lootr:trophy"
+       "item": "minecraft:rose_bush"
       },
       "type": "beyonddimensions:stack_type/item"
      }
     },
     {
-     "amount": 191,
+     "amount": 4,
      "key": {
       "stack": {
-       "item": "minecraft:arrow"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:diorite"
+       "item": "minecraft:spruce_planks"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -979,16 +508,7 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:cobblestone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:wheat_seeds"
+       "item": "uniqueaccessories:anklet_of_fortune"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1003,10 +523,73 @@
      }
     },
     {
-     "amount": 12,
+     "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:prismarine_crystals"
+       "item": "minecraft:prismarine_brick_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 31,
+     "key": {
+      "stack": {
+       "item": "minecraft:smooth_stone_slab"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diorite"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:shriving_stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "bosses_of_mass_destruction:soul_star"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:crossbow",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:piercing",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 11,
+     "key": {
+      "stack": {
+       "item": "minecraft:magma_block"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1015,7 +598,108 @@
      "amount": 2,
      "key": {
       "stack": {
-       "item": "minecraft:wild_armor_trim_smithing_template"
+       "item": "minecraft:lead"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "domesticationinnovation:speedster",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "minecraft:lapis_lazuli",
+       "tag": {
+        "sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 34,
+     "key": {
+      "stack": {
+       "item": "minecraft:bread",
+       "tag": {
+        "sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 21,
+     "key": {
+      "stack": {
+       "item": "minecraft:chorus_fruit"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:shaper_armor_trim_smithing_template"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:baked_potato",
+       "tag": {
+        "sheath": 1
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 9,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:firefly_jar"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 7,
+     "key": {
+      "stack": {
+       "item": "minecraft:tipped_arrow",
+       "tag": {
+        "Potion": "minecraft:weakness"
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 10,
+     "key": {
+      "stack": {
+       "item": "minecraft:lapis_lazuli"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1030,10 +714,18 @@
      }
     },
     {
-     "amount": 71,
+     "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:emerald"
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 4
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1042,7 +734,78 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "artifacts:rooted_boots"
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "alexsmobs:serpentfriend",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 10,
+     "key": {
+      "stack": {
+       "item": "minecraft:cooked_salmon"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 12,
+     "key": {
+      "stack": {
+       "item": "minecraft:wheat"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:stone_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:smite",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "epicfight_leonidas:the_lost_helmet"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 8,
+     "key": {
+      "stack": {
+       "item": "minecraft:chiseled_deepslate"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:spider_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1070,10 +833,276 @@
      }
     },
     {
+     "amount": 32,
+     "key": {
+      "stack": {
+       "item": "waystones:waystone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_upgrade_smithing_template"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tudigong:tudi_command_spell"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:survival_belt"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:chorus_totem"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "bookofdragons:book_of_dragons"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "minecraft:oak_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "quark:smithing_template_rune"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 105,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "epicfight:uchigatana",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:mossy_cobblestone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:brush",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:stripped_dark_oak_wood"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:arcane_essence"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:blast_protection",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:vex_armor_trim_smithing_template"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:flowering_azalea"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:moss_block"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "minecraft:string"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 174,
+     "key": {
+      "stack": {
+       "item": "beyonddimensions:shattered_space_time_crystallization"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 12,
+     "key": {
+      "stack": {
+       "item": "minecraft:prismarine_crystals"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:gold_nugget"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "lootr:trophy"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:brown_bed"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:tripwire_hook"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:rooted_boots"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 107,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_shovel",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:silk_touch",
+          "lvl": 1
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1091,36 +1120,10 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 52,
      "key": {
       "stack": {
-       "item": "minecraft:enchanted_book",
-       "tag": {
-        "StoredEnchantments": [
-         {
-          "id": "minecraft:thorns",
-          "lvl": 3
-         }
-        ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 7,
-     "key": {
-      "stack": {
-       "item": "minecraft:slime_ball"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 3,
-     "key": {
-      "stack": {
-       "item": "minecraft:totem_of_undying"
+       "item": "minecraft:experience_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1129,15 +1132,7 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:enchanted_book",
-       "tag": {
-        "StoredEnchantments": [
-         {
-          "id": "domesticationinnovation:speedster",
-          "lvl": 3
-         }
-        ]
-       }
+       "item": "minecraft:oak_trapdoor"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1155,10 +1150,107 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:iron_sword",
+       "item": "minecraft:enchanted_book",
        "tag": {
-        "Damage": 0
+        "StoredEnchantments": [
+         {
+          "id": "wom:invigoration",
+          "lvl": 1
+         }
+        ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:amethyst_shard"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:flame",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:ender_pearl"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 29,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 25,
+     "key": {
+      "stack": {
+       "item": "minecraft:spruce_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:water_bucket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:goat_horn",
+       "tag": {
+        "instrument": "minecraft:ponder_goat_horn"
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:miner_pottery_sherd"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:raw_iron"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1173,64 +1265,10 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 23,
      "key": {
       "stack": {
-       "item": "minecraft:gold_nugget"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 11,
-     "key": {
-      "stack": {
-       "item": "minecraft:magma_block"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 6,
-     "key": {
-      "stack": {
-       "item": "minecraft:honey_bottle"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:diamond_horse_armor"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 12,
-     "key": {
-      "stack": {
-       "item": "minecraft:wheat"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:flowering_azalea"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 52,
-     "key": {
-      "stack": {
-       "item": "minecraft:experience_bottle"
+       "item": "minecraft:golden_apple"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1585,54 +1623,16 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
-       "item": "minecraft:brush",
-       "tag": {
-        "Damage": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 107,
-     "key": {
-      "stack": {
-       "item": "minecraft:iron_ingot"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:name_tag"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:enchanted_book",
-       "tag": {
-        "StoredEnchantments": [
-         {
-          "id": "minecraft:sharpness",
-          "lvl": 4
-         }
-        ]
-       }
+       "item": "minecraft:stone_bricks"
       },
       "type": "beyonddimensions:stack_type/item"
      }
     }
    ]
   },
-  "currentTime": 6860
+  "currentTime": 6872
  }
 }
