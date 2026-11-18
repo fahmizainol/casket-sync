@@ -9,8 +9,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    9130935866389007743,
-    3927356798905708901
+    6095019177183468849,
+    5174901216136941715
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,20 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    5837360537161490745,
-    519701161115907599
+    -618209692696075898,
+    100755522384221325
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -403795054369918160,
-    3354267239287741022
+    -1874101512196664179,
+    2256976606169263316
+   ]
+  },
+  "artifacts:entity_equipment/wither_skeleton": {
+   "source": [
+    2709695190896278537,
+    -3841294297379983916
    ]
   },
   "artifacts:entity_equipment/zombie": {
@@ -39,8 +45,8 @@
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -594651381825394803,
-    -8690343950944781550
+    3521768639314999868,
+    6014497888876159900
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -333,8 +339,8 @@
   },
   "minecraft:blocks/basalt": {
    "source": [
-    3895762927177359707,
-    -4011607274776138233
+    -4230461435049068471,
+    -2328034496153897220
    ]
   },
   "minecraft:blocks/big_dripleaf": {
@@ -435,8 +441,8 @@
   },
   "minecraft:blocks/brown_mushroom": {
    "source": [
-    -1013527274622793386,
-    8071500667792788066
+    -5153829282277476938,
+    -3141827163096052251
    ]
   },
   "minecraft:blocks/bubble_coral": {
@@ -709,6 +715,12 @@
     6872689898237336489
    ]
   },
+  "minecraft:blocks/gravel": {
+   "source": [
+    -4271074913888394290,
+    -1027997408647418393
+   ]
+  },
   "minecraft:blocks/gray_carpet": {
    "source": [
     58773827522808523,
@@ -883,10 +895,22 @@
     -3486178516170288285
    ]
   },
+  "minecraft:blocks/nether_bricks": {
+   "source": [
+    -6097851197086939280,
+    -408204856761887350
+   ]
+  },
+  "minecraft:blocks/nether_quartz_ore": {
+   "source": [
+    -6487508826513672709,
+    6230021622450140450
+   ]
+  },
   "minecraft:blocks/netherrack": {
    "source": [
-    -3030522643071045188,
-    7682702067853678930
+    -3747148211481030966,
+    2612873502183736366
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -969,8 +993,8 @@
   },
   "minecraft:blocks/polished_basalt": {
    "source": [
-    6398406988075111960,
-    -7360245526163350465
+    -5540944421109185769,
+    2116551785241970991
    ]
   },
   "minecraft:blocks/polished_blackstone": {
@@ -1085,6 +1109,12 @@
    "source": [
     5842084262068300291,
     -6049812001690013156
+   ]
+  },
+  "minecraft:blocks/red_mushroom": {
+   "source": [
+    -1657710392928407983,
+    5009534135516007034
    ]
   },
   "minecraft:blocks/red_nether_brick_slab": {
@@ -1471,6 +1501,12 @@
     4203669030474963366
    ]
   },
+  "minecraft:entities/blaze": {
+   "source": [
+    -1772137178151317680,
+    -1056801861898704825
+   ]
+  },
   "minecraft:entities/cat": {
    "source": [
     1044643989868713269,
@@ -1581,8 +1617,8 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    -3634945248599269772,
-    -5942793662227623291
+    4208480357325331212,
+    1228466786839265860
    ]
   },
   "minecraft:entities/pillager": {
@@ -1593,8 +1629,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    5358528015025889242,
-    -7377466129927608674
+    7583129586889097192,
+    -5270456287848843212
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1629,8 +1665,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    6558579082067644502,
-    7294150584889353359
+    -3662137427947844546,
+    9095448500972733920
    ]
   },
   "minecraft:entities/slime": {
@@ -1677,8 +1713,8 @@
   },
   "minecraft:entities/wither_skeleton": {
    "source": [
-    7865098343116533845,
-    8302094322694132273
+    -3662878053199393590,
+    -6409509847022775851
    ]
   },
   "minecraft:entities/wolf": {
@@ -1689,8 +1725,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    6125113040272819497,
-    3561720130297013795
+    5556306454777370852,
+    2455506887782492542
    ]
   },
   "minecraft:entities/zombie_villager": {
@@ -1701,8 +1737,8 @@
   },
   "minecraft:entities/zombified_piglin": {
    "source": [
-    -5351180690600339622,
-    -5899224529241127685
+    2397704983340977209,
+    -4049595784161955195
    ]
   }
  }

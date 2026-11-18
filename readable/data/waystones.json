@@ -28,6 +28,24 @@
    },
    {
     "BlockPos": {
+     "X": -1744,
+     "Y": 73,
+     "Z": -1632
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1805496982,
+     -1568914808,
+     -1522837228,
+     329023566
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": -2353,
      "Y": 63,
      "Z": -2024
@@ -292,6 +310,24 @@
    },
    {
     "BlockPos": {
+     "X": -1376,
+     "Y": 96,
+     "Z": -1392
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1122046918,
+     180110876,
+     -2107830162,
+     -1517844332
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": 352,
      "Y": 73,
      "Z": -2560
@@ -496,6 +532,24 @@
    },
    {
     "BlockPos": {
+     "X": -896,
+     "Y": 84,
+     "Z": -464
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1753887296,
+     1715751881,
+     -1295987842,
+     -1213314840
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": -2880,
      "Y": 75,
      "Z": -1200
@@ -652,6 +706,24 @@
    },
    {
     "BlockPos": {
+     "X": -1760,
+     "Y": 85,
+     "Z": -1760
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -592486471,
+     -359119610,
+     -1665389728,
+     1239459168
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": -2920,
      "Y": 85,
      "Z": -616
@@ -745,6 +817,24 @@
      -1551033568
     ],
     "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
+     "X": -976,
+     "Y": 55,
+     "Z": -880
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1352211984,
+     -1973403385,
+     -1137943401,
+     1717522164
+    ],
+    "World": "minecraft:the_nether"
    },
    {
     "BlockPos": {
