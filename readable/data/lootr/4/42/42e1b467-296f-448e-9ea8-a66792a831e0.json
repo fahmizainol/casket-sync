@@ -10,6 +10,45 @@
      "Items": [
       {
        "Count": 1,
+       "Slot": 11,
+       "id": "tcrcore:cinderwyrm",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sweeping",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 2
+         }
+        ],
+        "kusabimaru_sheath": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "efn:air_tachi",
+       "tag": {
+        "kusabimaru_sheath": 0
+       }
+      },
+      {
+       "Count": 1,
        "Slot": 13,
        "id": "efn:nf_dual_sword"
       },

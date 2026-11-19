@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 599,
+   "Duration": 1124,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -68,6 +68,14 @@
   {
    "Base": 3.0,
    "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 4.0,
@@ -1209,7 +1217,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 355
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4517,17 +4525,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1496504,
+  "ua_rs_active_until": 1503702,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1498092,
-  "ua_shiny_last_x": 98.007,
+  "ua_shiny_last_active": 1504092,
+  "ua_shiny_last_x": 81.5388,
   "ua_shiny_last_y": 73.0,
-  "ua_shiny_last_z": -182.0038,
-  "ua_tabi_last_dash": 1498034
+  "ua_shiny_last_z": -185.8415,
+  "ua_tabi_last_dash": 1503935
  },
- "Health": 2.6245,
- "HurtByTimestamp": 9079,
+ "Health": 37.9979,
+ "HurtByTimestamp": 15081,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4594,23 +4602,6 @@
   {
    "Count": 1,
    "Slot": 2,
-   "id": "efn:air_tachi",
-   "tag": {
-    "kusabimaru_sheath": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 3,
-   "id": "magistuarmory:steel_zweihander",
-   "tag": {
-    "Damage": 0,
-    "kusabimaru_sheath": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 4,
    "id": "irons_spellbooks:keeper_flamberge",
    "tag": {
     "Damage": 0,
@@ -4640,45 +4631,26 @@
    }
   },
   {
-   "Count": 22,
+   "Count": 1,
+   "Slot": 3,
+   "id": "magistuarmory:steel_zweihander",
+   "tag": {
+    "Damage": 0,
+    "kusabimaru_sheath": 0
+   }
+  },
+  {
+   "Count": 21,
    "Slot": 5,
-   "id": "minecraft:golden_apple"
+   "id": "minecraft:golden_apple",
+   "tag": {
+    "kusabimaru_sheath": 0
+   }
   },
   {
    "Count": 17,
    "Slot": 6,
    "id": "waystones:waystone"
-  },
-  {
-   "Count": 1,
-   "Slot": 7,
-   "id": "tcrcore:cinderwyrm",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
-     }
-    ],
-    "kusabimaru_sheath": 0
-   }
   },
   {
    "Count": 7,
@@ -4839,16 +4811,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  98.007,
+  81.5388,
   73.0,
-  -182.0038
+  -185.8415
  ],
  "Rotation": [
-  -139.8563,
-  0.0
+  -27.699,
+  28.182
  ],
  "Score": 8702,
- "SelectedItemSlot": 7,
+ "SelectedItemSlot": 2,
  "SleepTimer": 0,
  "SpawnAngle": -67.4363,
  "SpawnDimension": "aether:the_aether",
@@ -4876,7 +4848,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.416,
+ "foodExhaustionLevel": 0.766,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4887,7 +4859,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 101,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15199,7 +15171,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2521,
+  "ticks_since_last_warning": 8521,
   "warning_level": 0
  }
 }
