@@ -3,16 +3,12 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 1.0,
@@ -38,11 +34,11 @@
   },
   {
    "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
+   "Name": "minecraft:generic.armor"
   },
   {
    "Base": 0.0,
-   "Name": "minecraft:generic.armor"
+   "Name": "attributeslib:creative_flight"
   },
   {
    "Base": 40.0,
@@ -53,12 +49,12 @@
    "Name": "forge:entity_reach"
   },
   {
-   "Base": 0.0,
-   "Name": "attributeslib:armor_pierce"
-  },
-  {
    "Base": 4.0,
    "Name": "minecraft:generic.attack_speed"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:armor_pierce"
   },
   {
    "Base": 4.5,
@@ -91,12 +87,12 @@
    "Name": "minecraft:generic.armor_toughness"
   },
   {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
    "Base": 0.08,
    "Name": "forge:entity_gravity"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
   },
   {
    "Base": 1.0,
@@ -122,8 +118,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 80,
- "Dimension": "minecraft:the_nether",
+ "DeathTime": 0,
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -132,7 +128,7 @@
   "aether:aether_player": {
    "CanGetPortal": 0,
    "CanShowPatreonMessage": 1,
-   "CanSpawnInAether": 0,
+   "CanSpawnInAether": 1,
    "HasSeenSunSpirit": 0,
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
@@ -516,7 +512,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "dodge_parry_reward:heal1",
    "passive6": "wom:mindset",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1264,7 +1260,6 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
-   "blessItem": "minecraft:air",
    "blessPos": {
     "X": 0,
     "Y": 0,
@@ -1399,7 +1394,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4672,17 +4666,15 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1317658,
+  "ua_rs_active_until": 1334745,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1329003
+  "ua_rs_continuous": 0
  },
- "Health": 0.0,
- "HurtByTimestamp": 3019,
+ "Health": 28.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5025,13 +5017,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1826.2834,
-  85.0,
-  -1769.8772
+  263.5,
+  63.0,
+  -1773.5
  ],
  "Rotation": [
-  -136.4333,
-  0.0
+  100.2001,
+  90.0
  ],
  "Score": 3819,
  "SelectedItemSlot": 0,
@@ -5062,7 +5054,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.791,
+ "foodExhaustionLevel": 3.087,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5081,6 +5073,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14804,9 +14797,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8230,
+  "ticks_since_last_warning": 2186,
   "warning_level": 0
  }
 }

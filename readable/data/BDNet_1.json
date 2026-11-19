@@ -3055,15 +3055,6 @@
      }
     },
     {
-     "amount": 30,
-     "key": {
-      "stack": {
-       "item": "minecraft:amethyst_shard"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 7,
      "key": {
       "stack": {
@@ -3268,15 +3259,6 @@
      "key": {
       "stack": {
        "item": "armourers_workshop:skinning-table"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "tcrcore:blood_lotus"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4077,7 +4059,7 @@
      }
     },
     {
-     "amount": 220,
+     "amount": 221,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

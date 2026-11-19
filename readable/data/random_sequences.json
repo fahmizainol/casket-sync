@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -3125797371699761321,
-    -3351604550449042098
+    -5470796077398421542,
+    -4535032871652613429
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -27,20 +27,20 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -1279302548093220050,
-    903185014404361421
+    3883910045304307427,
+    258473528597350509
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
    "source": [
-    5634589083111284655,
-    8563733943697336515
+    530366531808316115,
+    6753793860431993008
    ]
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -7882155815016386210,
-    -3063757932882135720
+    -1933909897386787610,
+    -3551271046035771896
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1665,8 +1665,8 @@
   },
   "minecraft:entities/cave_spider": {
    "source": [
-    5039411955133243731,
-    -7541205460843586053
+    8252110162003111871,
+    527491624580965188
    ]
   },
   "minecraft:entities/chicken": {
@@ -1713,8 +1713,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    5505719598308327157,
-    6532650093517651960
+    -6942060951012875454,
+    2460618826732790163
    ]
   },
   "minecraft:entities/guardian": {
@@ -1785,8 +1785,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -4218616433092088087,
-    5448464782598605506
+    -1448273473159988729,
+    139756022379168483
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1821,8 +1821,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    3830495008952118138,
-    -8807819414687186106
+    -7644042665664546401,
+    2617474013244068477
    ]
   },
   "minecraft:entities/slime": {
@@ -1833,14 +1833,14 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    6841436650037267201,
-    6621186626400147482
+    2086216220348497079,
+    -443701425539173173
    ]
   },
   "minecraft:entities/squid": {
    "source": [
-    7496975156246180934,
-    7345676109361624938
+    -4163389243760227593,
+    -6646066240920407650
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -1881,8 +1881,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    8242719973837946685,
-    -3558134290955141032
+    6568996097807861922,
+    -258682096197223397
    ]
   },
   "minecraft:entities/zombie_villager": {
