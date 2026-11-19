@@ -488,7 +488,7 @@
      }
     },
     {
-     "amount": 12,
+     "amount": 15,
      "key": {
       "stack": {
        "item": "minecraft:deepslate"
@@ -1227,7 +1227,7 @@
      }
     },
     {
-     "amount": 112,
+     "amount": 48,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -1799,16 +1799,7 @@
      }
     },
     {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "minecraft:netherite_upgrade_smithing_template"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 3,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "minecraft:raw_iron"
@@ -1973,7 +1964,7 @@
      }
     },
     {
-     "amount": 223,
+     "amount": 224,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1982,7 +1973,7 @@
      }
     },
     {
-     "amount": 30,
+     "amount": 61,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -2122,7 +2113,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "dodosmobs:chimera_claw"
