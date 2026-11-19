@@ -16,7 +16,7 @@
     "HasChest": 0,
     "HasSaddle": 1,
     "Health": 64.3761,
-    "LastUpdate": 1795103840117,
+    "LastUpdate": 1795104140120,
     "MaxHealth": 140.0,
     "OwnerUUID": [
      936377957,
@@ -25,9 +25,9 @@
      1398408445
     ],
     "OwnerUUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
-    "PosX": 68,
+    "PosX": 69,
     "PosY": 73,
-    "PosZ": -174,
+    "PosZ": -219,
     "Stage": "BROAD_WING",
     "Type": "NIGHTFURY"
    },
@@ -45,7 +45,7 @@
     "HasChest": 0,
     "HasSaddle": 1,
     "Health": 198.4478,
-    "LastUpdate": 1795103839967,
+    "LastUpdate": 1795104139968,
     "MaxHealth": 220.0,
     "OwnerUUID": [
      1096852936,
@@ -56,7 +56,7 @@
     "OwnerUUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
     "PosX": 69,
     "PosY": 73,
-    "PosZ": -176,
+    "PosZ": -218,
     "Stage": "BROAD_WING",
     "Type": "HIDEOUS_ZIPPLEBACK"
    }
