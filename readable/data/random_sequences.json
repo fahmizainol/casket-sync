@@ -33,8 +33,8 @@
   },
   "aether:entities/blue_swet": {
    "source": [
-    -2396433032878028980,
-    -8675211626176967141
+    -4220981491368470792,
+    -810935316797952690
    ]
   },
   "aether:entities/flying_cow": {
@@ -45,8 +45,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    -4658655938334173039,
-    -2935412135507964014
+    -7635618513976504980,
+    -2341914312850154138
    ]
   },
   "aether:entities/phyg": {
@@ -63,8 +63,8 @@
   },
   "aether:entities/valkyrie": {
    "source": [
-    6913484601296498789,
-    3061403770813344798
+    527946622521688257,
+    -948075053621029179
    ]
   },
   "aether:entities/zephyr": {
@@ -99,8 +99,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -3672847734029583235,
-    -6602785380134104099
+    2493575528765479294,
+    -4613669674333766197
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -111,8 +111,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    7058060315865228597,
-    8771461854634713050
+    -8497072496023914881,
+    893907311044574890
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1887,8 +1887,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -1071814509211952713,
-    -3285931086587854928
+    -6957704082070972891,
+    -2974365029103819932
    ]
   },
   "minecraft:entities/pufferfish": {

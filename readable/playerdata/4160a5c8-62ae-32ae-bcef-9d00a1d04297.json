@@ -1,11 +1,24 @@
 {
  "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 32,
+   "Id": 5,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:strength"
+  }
+ ],
  "Air": 300,
  "Attributes": [
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
   {
    "Base": 0.1,
    "Name": "minecraft:generic.movement_speed"
@@ -54,10 +67,6 @@
   },
   {
    "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
-   "Base": 4.0,
    "Name": "minecraft:generic.attack_speed"
   },
   {
@@ -84,6 +93,20 @@
   },
   {
    "Base": 1.0,
+   "Modifiers": [
+    {
+     "Amount": 6.0,
+     "Name": "effect.minecraft.strength 1",
+     "Operation": 0,
+     "UUID": [
+      1686990948,
+      1784696665,
+      -1967209790,
+      980277161
+     ],
+     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
+    }
+   ],
    "Name": "minecraft:generic.attack_damage"
   },
   {
@@ -501,7 +524,7 @@
    "passive4": "epicfight:berserker",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1240,7 +1263,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1414,7 +1437,8 @@
       "89c67195-f3ce-453b-b41d-2e0ffd5490ac",
       "a5c49e14-fd87-4b7a-bc05-fa2b6768f5e5",
       "78a5047e-f134-48d4-8314-a6dd7fa30d6a",
-      "3827dc2f-f181-4b77-a1d0-df3fbd609460"
+      "3827dc2f-f181-4b77-a1d0-df3fbd609460",
+      "43a42e6e-43ee-4d0f-9be3-d7414418b119"
      ]
     }
    }
@@ -4465,19 +4489,16 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1443723,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1443914,
-  "ua_shiny_last_x": 91.2448,
-  "ua_shiny_last_y": 200.0,
-  "ua_shiny_last_z": -1789.2751,
-  "ua_tabi_last_dash": 1437334
+  "ua_shiny_last_active": 1450092,
+  "ua_shiny_last_x": 667.7089,
+  "ua_shiny_last_y": 85.0,
+  "ua_shiny_last_z": -1121.7828
  },
  "Health": 30.0,
- "HurtByTimestamp": 6549,
- "HurtTime": 0,
+ "HurtByTimestamp": 0,
+ "HurtTime": 2,
  "Inventory": [
   {
    "Count": 1,
@@ -4604,19 +4625,14 @@
    "id": "waystones:waystone"
   },
   {
-   "Count": 1,
-   "Slot": 7,
-   "id": "tcrcore:core_flint"
-  },
-  {
    "Count": 63,
    "Slot": 8,
    "id": "minecraft:blackstone"
   },
   {
-   "Count": 7,
-   "Slot": 9,
-   "id": "aether:victory_medal"
+   "Count": 1,
+   "Slot": 34,
+   "id": "tcrcore:core_flint"
   },
   {
    "Count": 1,
@@ -4723,9 +4739,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   96,
-   171,
-   -1803
+   669,
+   85,
+   -1135
   ]
  },
  "Motion": [
@@ -4736,15 +4752,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  91.2352,
-  200.0,
-  -1789.2751
+  667.7089,
+  85.0,
+  -1121.7828
  ],
  "Rotation": [
-  -80.8224,
-  40.7289
+  -175.6816,
+  23.3925
  ],
- "Score": 8554,
+ "Score": 8558,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -97.0065,
@@ -4761,9 +4777,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 50,
- "XpP": 0.1575,
+ "XpP": 0.1712,
  "XpSeed": 976728483,
- "XpTotal": 8554,
+ "XpTotal": 8558,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4773,7 +4789,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.51,
+ "foodExhaustionLevel": 0.1,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4784,7 +4800,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 130,
+  "mana": 28,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15096,7 +15112,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 778,
+  "ticks_since_last_warning": 5506,
   "warning_level": 0
  }
 }

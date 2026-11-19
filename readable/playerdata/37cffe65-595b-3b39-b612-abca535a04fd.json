@@ -3,10 +3,6 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
    "Base": 0.1,
    "Name": "minecraft:generic.movement_speed"
   },
@@ -123,9 +119,9 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "aether:the_aether",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
- "FallDistance": 1.0939,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -519,7 +515,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "dodge_parry_reward:heal1",
    "passive6": "wom:mindset",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1258,7 +1254,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1427,7 +1423,8 @@
       "a5c49e14-fd87-4b7a-bc05-fa2b6768f5e5",
       "38ad1344-e908-4c51-bf6b-3bf955674b55",
       "78a5047e-f134-48d4-8314-a6dd7fa30d6a",
-      "3827dc2f-f181-4b77-a1d0-df3fbd609460"
+      "3827dc2f-f181-4b77-a1d0-df3fbd609460",
+      "43a42e6e-43ee-4d0f-9be3-d7414418b119"
      ]
     }
    }
@@ -4706,13 +4703,11 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1444027,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1435843
+  "ua_rs_continuous": 0
  },
- "Health": 12.088,
- "HurtByTimestamp": 7602,
+ "Health": 30.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4794,7 +4789,7 @@
    "id": "tcrcore:divine_fragment"
   },
   {
-   "Count": 31,
+   "Count": 30,
    "Slot": 7,
    "id": "waystones:waystone"
   },
@@ -4808,7 +4803,7 @@
    }
   },
   {
-   "Count": 2,
+   "Count": 1,
    "Slot": 9,
    "id": "aether:victory_medal"
   },
@@ -4997,28 +4992,28 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   104,
-   171,
-   -1806
+   668,
+   85,
+   -1129
   ]
  },
  "Motion": [
   0.0,
-  -0.6517,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  674.9017,
-  93.9061,
-  -1136.3
+  265.4744,
+  63.0,
+  -1775.3953
  ],
  "Rotation": [
-  17.8038,
-  30.0
+  13.7252,
+  24.8468
  ],
- "Score": 3935,
+ "Score": 3941,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -78.7506,
@@ -5035,9 +5030,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 40,
- "XpP": 0.0297,
+ "XpP": 0.0594,
  "XpSeed": -736053570,
- "XpTotal": 3935,
+ "XpTotal": 3941,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5047,7 +5042,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.564,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5058,7 +5053,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 6,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14654,7 +14649,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 873,
+  "ticks_since_last_warning": 6033,
   "warning_level": 0
  }
 }

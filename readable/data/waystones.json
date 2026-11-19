@@ -106,6 +106,30 @@
    },
    {
     "BlockPos": {
+     "X": 669,
+     "Y": 86,
+     "Z": -1137
+    },
+    "IsGlobal": 0,
+    "Name": "valk queen",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1134833262,
+     1139690767,
+     -1679567039,
+     1142468889
+    ],
+    "World": "aether:the_aether"
+   },
+   {
+    "BlockPos": {
      "X": -16,
      "Y": 67,
      "Z": -1360
