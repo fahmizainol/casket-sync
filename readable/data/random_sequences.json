@@ -9,32 +9,50 @@
   },
   "aether:blocks/cold_aercloud": {
    "source": [
-    -8178574509165686678,
-    -6546495554410761233
+    6533847247755195530,
+    -9074433968829694486
+   ]
+  },
+  "aether:blocks/purple_flower": {
+   "source": [
+    7095803468753459398,
+    -2065139497368510240
    ]
   },
   "aether:blocks/white_flower": {
    "source": [
-    -7657085478198477246,
-    -3443944057306697472
+    8607370592601046296,
+    4561157910643114855
    ]
   },
   "aether:entities/blue_swet": {
    "source": [
-    3927620766443305596,
-    2900655673667302721
+    6620902089953807165,
+    -8903991471099128744
    ]
   },
   "aether:entities/golden_swet": {
    "source": [
-    -3302821110251016491,
-    796263394678970644
+    1471652431601924536,
+    -8629343194420265640
+   ]
+  },
+  "aether:entities/phyg": {
+   "source": [
+    -4774746559305022313,
+    1844927433556583253
+   ]
+  },
+  "aether:entities/valkyrie": {
+   "source": [
+    6913484601296498789,
+    3061403770813344798
    ]
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -3480556837305595419,
-    2602594318161666623
+    -3090562096469632614,
+    7547666892637817485
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -57,8 +75,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -3983716705880766526,
-    -5993465005893519962
+    -3672847734029583235,
+    -6602785380134104099
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -69,8 +87,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    2784201285818951740,
-    5305877633263837455
+    7058060315865228597,
+    8771461854634713050
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -771,8 +789,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -8613178314726029284,
-    2668785707424841436
+    -2992410462443069045,
+    -8167421211586447876
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -831,8 +849,8 @@
   },
   "minecraft:blocks/grass": {
    "source": [
-    -7316986583186200004,
-    2562577596255446896
+    -7512711149050426578,
+    -6497027235618503283
    ]
   },
   "minecraft:blocks/grass_block": {
@@ -1599,8 +1617,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    7358356957932994722,
-    5641071172315789338
+    -3014128334676768044,
+    6784005120106025153
    ]
   },
   "minecraft:blocks/tall_seagrass": {
@@ -1803,8 +1821,8 @@
   },
   "minecraft:entities/iron_golem": {
    "source": [
-    2695711688633200229,
-    1606051909590356097
+    2424860566263046005,
+    -4684191587149466544
    ]
   },
   "minecraft:entities/magma_cube": {
@@ -1845,8 +1863,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    6936923801769169971,
-    4680004666016087196
+    -1071814509211952713,
+    -3285931086587854928
    ]
   },
   "minecraft:entities/pufferfish": {

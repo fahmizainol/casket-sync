@@ -1,0 +1,105 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "aether:the_aether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:crossbow",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      {
+       "Count": 10,
+       "Slot": 1,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:gold_block"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:lodestone"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/c/c2/c248c8b4-0c26-42e9-8313-0f2062bd192f",
+  "position": {
+   "X": 676,
+   "Y": 96,
+   "Z": -1128
+  },
+  "size": 27,
+  "uuid": [
+   -1035417420,
+   203834089,
+   -2095902944,
+   1656559919
+  ],
+  "uuid_str": "c248c8b4-0c26-42e9-8313-0f2062bd192f"
+ }
+}

@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 639245,
+  "DayTime": 645245,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795100240839,
+  "LastPlayed": 1795100540828,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -476,6 +476,10 @@
     {
      "Base": 3.0,
      "Name": "forge:entity_reach"
+    },
+    {
+     "Base": 4.0,
+     "Name": "epicfight:offhand_attack_speed"
     },
     {
      "Base": 4.0,
@@ -550,8 +554,8 @@
    "DeathTime": 0,
    "Dimension": "aether:the_aether",
    "EnderItems": [],
-   "FallDistance": 0.0,
-   "FallFlying": 0,
+   "FallDistance": 1.0,
+   "FallFlying": 1,
    "Fire": -20,
    "ForgeCaps": {
     "aether:aether_player": {
@@ -922,7 +926,7 @@
      "passive4": "epicfight:berserker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -4883,17 +4887,18 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1431934,
+    "quark:trying_crawl": 0,
+    "ua_rs_active_until": 1437952,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1432087,
-    "ua_shiny_last_x": 689.9007,
-    "ua_shiny_last_y": 85.0,
-    "ua_shiny_last_z": -1123.1424,
-    "ua_tabi_last_dash": 1430093
+    "ua_shiny_last_active": 1438092,
+    "ua_shiny_last_x": 671.5288,
+    "ua_shiny_last_y": 72.9838,
+    "ua_shiny_last_z": -1001.7787,
+    "ua_tabi_last_dash": 1437334
    },
-   "Health": 27.2465,
-   "HurtByTimestamp": 0,
+   "Health": 21.9389,
+   "HurtByTimestamp": 6549,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -5031,6 +5036,11 @@
      "id": "minecraft:blackstone"
     },
     {
+     "Count": 7,
+     "Slot": 9,
+     "id": "aether:victory_medal"
+    },
+    {
      "Count": 1,
      "Slot": 100,
      "id": "minecraft:diamond_boots",
@@ -5141,22 +5151,22 @@
     ]
    },
    "Motion": [
-    0.0,
-    -0.0784,
-    0.0
+    -0.0272,
+    -0.1333,
+    0.6179
    ],
-   "OnGround": 1,
+   "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    689.9007,
-    85.0,
-    -1123.131
+    671.5288,
+    72.9838,
+    -1001.7787
    ],
    "Rotation": [
-    13.0321,
-    9.8323
+    -24.3235,
+    -2.9657
    ],
-   "Score": 8521,
+   "Score": 8551,
    "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": -97.0065,
@@ -5173,9 +5183,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 50,
-   "XpP": 0.0445,
+   "XpP": 0.1473,
    "XpSeed": 976728483,
-   "XpTotal": 8521,
+   "XpTotal": 8551,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -5185,7 +5195,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.976,
+   "foodExhaustionLevel": 0.898,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15508,7 +15518,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 779,
+    "ticks_since_last_warning": 6779,
     "warning_level": 0
    }
   },
@@ -15520,7 +15530,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1432092,
+  "Time": 1438092,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15528,7 +15538,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 10800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16216,9 +16226,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 96245,
+  "rainTime": 90245,
   "raining": 0,
-  "thunderTime": 20390,
+  "thunderTime": 14390,
   "thundering": 0,
   "version": 19133
  },

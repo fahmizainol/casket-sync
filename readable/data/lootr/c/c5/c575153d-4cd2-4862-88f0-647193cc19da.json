@@ -1,0 +1,125 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "aether:the_aether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:golden_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:blast_protection",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 3,
+       "Slot": 3,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 2,
+       "Slot": 11,
+       "id": "minecraft:gold_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:gold_block"
+      },
+      {
+       "Count": 8,
+       "Slot": 19,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:gold_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/c/c5/c575153d-4cd2-4862-88f0-647193cc19da",
+  "position": {
+   "X": 676,
+   "Y": 96,
+   "Z": -1122
+  },
+  "size": 27,
+  "uuid": [
+   -982182595,
+   1288849506,
+   -1997511567,
+   -1815340582
+  ],
+  "uuid_str": "c575153d-4cd2-4862-88f0-647193cc19da"
+ }
+}

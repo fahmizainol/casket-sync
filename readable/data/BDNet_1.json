@@ -323,7 +323,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:golden_leggings",
@@ -410,7 +410,7 @@
      }
     },
     {
-     "amount": 7,
+     "amount": 10,
      "key": {
       "stack": {
        "item": "minecraft:magma_cream"
@@ -704,7 +704,7 @@
      }
     },
     {
-     "amount": 87,
+     "amount": 109,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -852,7 +852,7 @@
      }
     },
     {
-     "amount": 120,
+     "amount": 130,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -870,7 +870,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "minecraft:lodestone"
@@ -1128,6 +1128,24 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:iron_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "supplementaries:bamboo_spikes_tipped",
        "tag": {
         "Damage": 0,
@@ -1349,6 +1367,24 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:golden_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:chainmail_helmet",
        "tag": {
         "Damage": 0,
@@ -1425,7 +1461,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:iron_block"
@@ -1525,7 +1561,7 @@
      }
     },
     {
-     "amount": 43,
+     "amount": 62,
      "key": {
       "stack": {
        "item": "minecraft:iron_nugget"
@@ -1652,7 +1688,7 @@
      }
     },
     {
-     "amount": 10,
+     "amount": 25,
      "key": {
       "stack": {
        "item": "minecraft:spectral_arrow"
@@ -1791,7 +1827,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:diamond_boots",
@@ -1956,7 +1992,7 @@
      }
     },
     {
-     "amount": 17,
+     "amount": 26,
      "key": {
       "stack": {
        "item": "minecraft:leather"
@@ -2005,6 +2041,32 @@
      "key": {
       "stack": {
        "item": "supplementaries:flax_seeds"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:thorns",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:protection",
+          "lvl": 3
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 2
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2477,6 +2539,24 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:golden_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:brewing_stand"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -2492,7 +2572,7 @@
      }
     },
     {
-     "amount": 30,
+     "amount": 32,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -2519,10 +2599,28 @@
      }
     },
     {
-     "amount": 547,
+     "amount": 573,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 2
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2582,7 +2680,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "minecraft:prismarine_shard"
@@ -4172,7 +4270,7 @@
      }
     },
     {
-     "amount": 237,
+     "amount": 238,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4417,6 +4515,24 @@
      "key": {
       "stack": {
        "item": "minecraft:oak_fence"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_axe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 2
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4670,7 +4786,7 @@
      }
     },
     {
-     "amount": 204,
+     "amount": 207,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -4692,6 +4808,18 @@
      "key": {
       "stack": {
        "item": "minecraft:tuff"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_shovel",
+       "tag": {
+        "Damage": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4797,6 +4925,32 @@
      "key": {
       "stack": {
        "item": "minecraft:copper_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:aqua_affinity",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:respiration",
+          "lvl": 2
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4930,6 +5084,24 @@
         "StoredEnchantments": [
          {
           "id": "domesticationinnovation:blight_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_axe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:silk_touch",
           "lvl": 1
          }
         ]
@@ -5299,7 +5471,7 @@
      }
     },
     {
-     "amount": 125,
+     "amount": 140,
      "key": {
       "stack": {
        "item": "minecraft:gold_nugget"

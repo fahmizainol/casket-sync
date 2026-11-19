@@ -7,58 +7,7 @@
   "inventories": [
    {
     "chest": {
-     "Items": [
-      {
-       "Count": 1,
-       "Slot": 0,
-       "id": "minecraft:string"
-      },
-      {
-       "Count": 1,
-       "Slot": 1,
-       "id": "minecraft:lodestone"
-      },
-      {
-       "Count": 4,
-       "Slot": 2,
-       "id": "minecraft:gold_ingot"
-      },
-      {
-       "Count": 2,
-       "Slot": 4,
-       "id": "minecraft:iron_nugget"
-      },
-      {
-       "Count": 2,
-       "Slot": 13,
-       "id": "minecraft:iron_nugget"
-      },
-      {
-       "Count": 2,
-       "Slot": 18,
-       "id": "minecraft:string"
-      },
-      {
-       "Count": 1,
-       "Slot": 20,
-       "id": "minecraft:iron_nugget"
-      },
-      {
-       "Count": 1,
-       "Slot": 22,
-       "id": "minecraft:gold_ingot"
-      },
-      {
-       "Count": 2,
-       "Slot": 23,
-       "id": "minecraft:gold_ingot"
-      },
-      {
-       "Count": 1,
-       "Slot": 26,
-       "id": "minecraft:gold_ingot"
-      }
-     ]
+     "Items": []
     },
     "name": "{\"translate\":\"container.chest\"}",
     "uuid": [

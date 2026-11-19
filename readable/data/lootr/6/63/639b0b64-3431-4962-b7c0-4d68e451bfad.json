@@ -1,0 +1,125 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "aether:the_aether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:golden_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:frost_walker",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 12,
+       "Slot": 2,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 2,
+       "Slot": 3,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 2,
+       "Slot": 5,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 2,
+       "Slot": 6,
+       "id": "minecraft:arrow"
+      },
+      {
+       "Count": 2,
+       "Slot": 10,
+       "id": "minecraft:leather"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:lodestone"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:leather"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:iron_nugget"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/6/63/639b0b64-3431-4962-b7c0-4d68e451bfad",
+  "position": {
+   "X": 683,
+   "Y": 86,
+   "Z": -1122
+  },
+  "size": 27,
+  "uuid": [
+   1671105380,
+   875645282,
+   -1212134040,
+   -464404563
+  ],
+  "uuid_str": "639b0b64-3431-4962-b7c0-4d68e451bfad"
+ }
+}

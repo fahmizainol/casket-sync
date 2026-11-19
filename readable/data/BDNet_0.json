@@ -145,6 +145,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "epicskills:ability_stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -157,6 +166,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "aether:book_of_lore"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1043,7 +1061,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "tcrcore:artifact_ticket"
@@ -1290,7 +1308,7 @@
      }
     },
     {
-     "amount": 662,
+     "amount": 665,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -1568,6 +1586,15 @@
      }
     },
     {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "minecraft:wither_rose"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -1642,7 +1669,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:glowstone_dust"
@@ -1803,6 +1830,15 @@
      "key": {
       "stack": {
        "item": "minecraft:granite"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:mech_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2018,7 +2054,7 @@
      }
     },
     {
-     "amount": 238,
+     "amount": 239,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2140,7 +2176,7 @@
      }
     },
     {
-     "amount": 20,
+     "amount": 22,
      "key": {
       "stack": {
        "item": "minecraft:gold_nugget"
@@ -2180,6 +2216,18 @@
      "key": {
       "stack": {
        "item": "minecraft:gilded_blackstone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "aether:golden_parachute",
+       "tag": {
+        "Damage": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
