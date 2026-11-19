@@ -588,12 +588,6 @@
    },
    {
     "Locked": 1,
-    "Name": "eac3ff85-5eed-4052-a990-5787f715c8f0",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "2a7c1c47-4de8-43b0-a7d1-1ca9e2b758b4",
     "Objective": "001",
     "Score": 2
@@ -2526,12 +2520,6 @@
    },
    {
     "Locked": 1,
-    "Name": "b3f112ee-8e02-4710-892e-54b29d91a61f",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "351839d1-8d16-43af-abde-650883d13586",
     "Objective": "001",
     "Score": 1
@@ -2779,12 +2767,6 @@
    {
     "Locked": 1,
     "Name": "a9d9fb84-81c1-44dc-818d-1a055b043553",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "5020fbc6-46a1-444d-8027-9fef19ed5216",
     "Objective": "001",
     "Score": 2
    },
@@ -3228,12 +3210,6 @@
    },
    {
     "Locked": 1,
-    "Name": "6dc0ebc4-86b1-41ee-97bd-a157a8d69aaf",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "86988dae-ef39-4b1f-aeaa-4f120cc67daa",
     "Objective": "001",
     "Score": 1
@@ -3315,12 +3291,6 @@
     "Name": "6037fd72-a1c1-46a1-8d3b-bfdda33486c0",
     "Objective": "001",
     "Score": 1
-   },
-   {
-    "Locked": 1,
-    "Name": "a01c3410-b409-49c4-807f-1b8b6c16fe92",
-    "Objective": "001",
-    "Score": 2
    },
    {
     "Locked": 1,
@@ -3481,12 +3451,6 @@
    {
     "Locked": 1,
     "Name": "d3e763fc-642d-492e-b62b-6f054279f577",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "c22177f0-c809-4e28-aa24-fae612e53c8c",
     "Objective": "001",
     "Score": 2
    },
@@ -3702,12 +3666,6 @@
    },
    {
     "Locked": 1,
-    "Name": "0cbdce62-bf09-4b01-8249-c34db52aab48",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "61b1aa01-03b1-42bc-a88b-a1f4d16f64f0",
     "Objective": "001",
     "Score": 1
@@ -3879,12 +3837,6 @@
     "Name": "fbf61a12-43ca-4b0b-868e-8e91e40b6350",
     "Objective": "001",
     "Score": 1
-   },
-   {
-    "Locked": 1,
-    "Name": "407af17c-ab29-4e43-a03e-7b9edad4d376",
-    "Objective": "001",
-    "Score": 2
    },
    {
     "Locked": 1,
@@ -4542,12 +4494,6 @@
    },
    {
     "Locked": 1,
-    "Name": "c40d3d46-2590-45ab-99de-bd6e55337e91",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "48076805-8506-44be-b450-4d948d59f3bf",
     "Objective": "001",
     "Score": 2
@@ -4819,12 +4765,6 @@
    {
     "Locked": 1,
     "Name": "4e0b4b63-ba35-4135-ac3e-7b849c4865aa",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "91131352-83f5-4d10-9b6e-5942dda45384",
     "Objective": "001",
     "Score": 2
    },
@@ -5143,12 +5083,6 @@
    {
     "Locked": 1,
     "Name": "3ab722d2-965d-45a3-8515-3d088c7d51b4",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "13639654-3cca-4337-9226-6e178eac74b2",
     "Objective": "001",
     "Score": 2
    },
@@ -5916,12 +5850,6 @@
    },
    {
     "Locked": 1,
-    "Name": "6fa0b563-7aba-4ee2-875a-52701d355df0",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "97bd93f2-55ba-47eb-9656-84b63af30fc4",
     "Objective": "001",
     "Score": 1
@@ -6171,12 +6099,6 @@
     "Name": "27878e1e-6f20-4929-b22e-437869b28a93",
     "Objective": "001",
     "Score": 1
-   },
-   {
-    "Locked": 1,
-    "Name": "dbbba19e-607e-4a55-b4af-3744c5df0c3f",
-    "Objective": "001",
-    "Score": 2
    },
    {
     "Locked": 1,
@@ -7044,12 +6966,6 @@
    },
    {
     "Locked": 1,
-    "Name": "e71ebf51-c978-4710-8fdf-37e2bc8c3bbc",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "0f1ab87a-859c-44ee-97fa-1a1deeeea057",
     "Objective": "001",
     "Score": 2
@@ -7357,12 +7273,6 @@
    {
     "Locked": 1,
     "Name": "c7cbecad-f81a-44c1-a6a3-8a7c5f9ec3dd",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "ca6a7c18-042d-4932-92e9-fcc0d042ee86",
     "Objective": "001",
     "Score": 2
    },
@@ -7848,12 +7758,6 @@
    },
    {
     "Locked": 1,
-    "Name": "6665155d-8edd-41f2-9994-e4a713aa85d3",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "e0aedb72-224a-40e0-ac58-622c2a3eda03",
     "Objective": "001",
     "Score": 1
@@ -7915,12 +7819,6 @@
    {
     "Locked": 1,
     "Name": "7393fde6-6aeb-4f50-9e88-e2cf04a8d67e",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "a22b4475-ca3d-4de8-b311-6455dfcce4a2",
     "Objective": "001",
     "Score": 2
    },
@@ -8388,12 +8286,6 @@
    },
    {
     "Locked": 1,
-    "Name": "beefdd8f-567d-4f07-b59c-f6b153558953",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "457d93fe-a737-48f9-b577-32e3466ef881",
     "Objective": "001",
     "Score": 2
@@ -8737,12 +8629,6 @@
    {
     "Locked": 1,
     "Name": "0faf9be4-7f84-43a9-9a45-8d4891c3c167",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "929b85cf-af17-4459-b708-223aced100e4",
     "Objective": "001",
     "Score": 2
    },
@@ -9207,12 +9093,6 @@
     "Name": "e3ab796e-8cc8-4425-b012-2deaf29e39e8",
     "Objective": "001",
     "Score": 1
-   },
-   {
-    "Locked": 1,
-    "Name": "cb6d3f44-ed06-46db-9b77-5dcb01446b0c",
-    "Objective": "001",
-    "Score": 2
    },
    {
     "Locked": 1,
@@ -11058,12 +10938,6 @@
    },
    {
     "Locked": 1,
-    "Name": "c43c186c-33d2-459b-8b7f-1ca875da7e22",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "902e337b-e61e-43f5-b663-0098c2f8c18c",
     "Objective": "001",
     "Score": 2
@@ -11155,12 +11029,6 @@
    {
     "Locked": 1,
     "Name": "017a7374-91ed-4dab-902c-6ec33e01f25b",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "1a428fab-b735-43d3-9345-e4d2601df1ab",
     "Objective": "001",
     "Score": 2
    },
@@ -11761,12 +11629,6 @@
    {
     "Locked": 1,
     "Name": "3ab42fb8-2c4c-4955-8270-07bab142b1c7",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "9dda4ce8-6cde-4935-9cbc-76612937635f",
     "Objective": "001",
     "Score": 2
    },
@@ -12972,12 +12834,6 @@
    },
    {
     "Locked": 1,
-    "Name": "12e941c2-a9e4-4cae-bb52-b3d0c7e00355",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "34217a4a-b3f6-454c-a803-0d7623fb50e6",
     "Objective": "001",
     "Score": 1
@@ -13248,12 +13104,6 @@
    },
    {
     "Locked": 1,
-    "Name": "4be62369-b5d1-4fc9-9e49-3c939646defd",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "b5bc9b44-0ebe-47ae-a299-4e1b3e727966",
     "Objective": "001",
     "Score": 1
@@ -13405,12 +13255,6 @@
    {
     "Locked": 1,
     "Name": "2242932a-8802-4f15-8fa3-1329a71e452b",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "4f441687-0dce-419f-9d98-b428d6d1d5cc",
     "Objective": "001",
     "Score": 2
    },
@@ -13956,18 +13800,6 @@
    },
    {
     "Locked": 1,
-    "Name": "a43ce207-f92d-40c1-921c-2985682dd41d",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "35d3190d-2a84-432b-9a71-92ff4b564590",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "6176db52-a5a5-4b43-a0f9-ecd801478822",
     "Objective": "001",
     "Score": 1
@@ -14082,12 +13914,6 @@
    },
    {
     "Locked": 1,
-    "Name": "cbc4f71f-2128-4c7d-93cb-a5f848294b2d",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "734450dd-3ba6-41e7-a66f-1520a6d78fbf",
     "Objective": "001",
     "Score": 2
@@ -14125,12 +13951,6 @@
    {
     "Locked": 1,
     "Name": "94a37e77-10ef-46b5-80f5-bef47772c35d",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "de167388-afec-4253-acbc-545397ba3227",
     "Objective": "001",
     "Score": 2
    },
@@ -14545,12 +14365,6 @@
    {
     "Locked": 1,
     "Name": "52b46118-e402-41f3-85b8-e6ed69ae1396",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "6ba0b847-c4fa-4b3d-9848-e81ba5f0b8e0",
     "Objective": "001",
     "Score": 2
    },
@@ -15156,12 +14970,6 @@
    },
    {
     "Locked": 1,
-    "Name": "c5aff6d3-f545-428e-a457-b7446395d9cb",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "623344e4-fed7-423c-bb84-1230d061605b",
     "Objective": "001",
     "Score": 2
@@ -15295,12 +15103,6 @@
    {
     "Locked": 1,
     "Name": "7982918f-a3b8-4cd9-b462-de0c481a43a5",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "c4e22840-fbaf-4a03-a4ff-82b490ed6c19",
     "Objective": "001",
     "Score": 2
    },
@@ -15480,12 +15282,6 @@
    },
    {
     "Locked": 1,
-    "Name": "35c61244-825b-47ec-a56d-da7d13c7a10a",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "59c230de-222c-4809-bd12-4ae4240315ec",
     "Objective": "001",
     "Score": 2
@@ -15639,12 +15435,6 @@
     "Name": "35357dc6-c370-4865-b65a-9454513b9041",
     "Objective": "001",
     "Score": 1
-   },
-   {
-    "Locked": 1,
-    "Name": "3eb4065e-3b11-4338-99b2-4e518293776a",
-    "Objective": "001",
-    "Score": 2
    },
    {
     "Locked": 1,
@@ -15876,12 +15666,6 @@
    },
    {
     "Locked": 1,
-    "Name": "0a5ad822-9e95-4452-9cff-baca64bd3df1",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "23f5bcb3-b8fe-432f-a748-a0e55bc322a5",
     "Objective": "001",
     "Score": 1
@@ -15909,12 +15693,6 @@
     "Name": "8444e6b1-4379-4757-ad6f-60e318734490",
     "Objective": "001",
     "Score": 1
-   },
-   {
-    "Locked": 1,
-    "Name": "4613b28a-14c6-4329-a683-350df00592e7",
-    "Objective": "001",
-    "Score": 2
    },
    {
     "Locked": 1,
@@ -15949,12 +15727,6 @@
    {
     "Locked": 1,
     "Name": "aa2bff22-ac23-4af9-88a1-b61638967af2",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "4901bbb7-9b73-4eed-baed-095c7197efb1",
     "Objective": "001",
     "Score": 2
    },
@@ -16602,12 +16374,6 @@
    },
    {
     "Locked": 1,
-    "Name": "9452a722-dc0b-40a4-b88f-d3d636cf15bb",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "01a4699a-0d46-464c-85cb-d32776f875a3",
     "Objective": "001",
     "Score": 2
@@ -16747,12 +16513,6 @@
    {
     "Locked": 1,
     "Name": "9829d83e-4c6e-444a-9468-b1d919025d2b",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "eabf623a-726c-4d0b-8504-898756d5f0b9",
     "Objective": "001",
     "Score": 2
    },
@@ -17598,12 +17358,6 @@
    },
    {
     "Locked": 1,
-    "Name": "70521dfa-6ae2-46ec-89ad-8f65b4934ac5",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "a90ab7c5-93a3-4bcb-a604-41ac96d8d184",
     "Objective": "001",
     "Score": 1
@@ -17623,12 +17377,6 @@
    {
     "Locked": 1,
     "Name": "2ef27ab3-a264-41fb-abe0-f50a34cfd6d1",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "bc392e9d-4f17-4d1c-8982-2c4fc8b5cc29",
     "Objective": "001",
     "Score": 2
    },
@@ -19080,12 +18828,6 @@
    },
    {
     "Locked": 1,
-    "Name": "acb991dd-f8d8-4030-8b87-f3e071bfbfcd",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "7b19158b-7226-4013-99ba-7ca37c486af3",
     "Objective": "001",
     "Score": 2
@@ -19255,12 +18997,6 @@
    {
     "Locked": 1,
     "Name": "476cb07d-92ca-421d-a322-12519762a7f6",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "d0876fe1-1f8f-475e-b2bb-8d369cf65c86",
     "Objective": "001",
     "Score": 2
    },
@@ -19794,12 +19530,6 @@
    },
    {
     "Locked": 1,
-    "Name": "78d4b494-8727-4fbf-b45f-29dab9955652",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "641baa06-8138-463a-877e-a9c9b7ddaa8a",
     "Objective": "001",
     "Score": 1
@@ -19857,12 +19587,6 @@
     "Name": "f6b8f1d8-9e87-4a32-b962-c0aae4ebf7f3",
     "Objective": "001",
     "Score": 1
-   },
-   {
-    "Locked": 1,
-    "Name": "9f614c1b-a9a9-4d20-bbbb-dea6e9bc2eeb",
-    "Objective": "001",
-    "Score": 2
    },
    {
     "Locked": 1,
