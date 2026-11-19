@@ -221,6 +221,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:corruptedroundshield",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 13,
      "key": {
       "stack": {
@@ -560,6 +572,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:black_bed"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "magistuarmory:gothic_leggings",
        "tag": {
         "Damage": 0
@@ -653,7 +674,7 @@
      }
     },
     {
-     "amount": 31,
+     "amount": 85,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -692,6 +713,18 @@
           "lvl": 1
          }
         ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:steel_zweihander",
+       "tag": {
+        "Damage": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -903,6 +936,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "uniqueaccessories:fossil_shark_tooth"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:iron_sword",
        "tag": {
         "Damage": 0,
@@ -973,7 +1015,25 @@
      "amount": 2,
      "key": {
       "stack": {
+       "item": "ba_bt:nether_monolith_key"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
        "item": "minecraft:chiseled_red_sandstone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "minecraft:chain"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1317,7 +1377,7 @@
      }
     },
     {
-     "amount": 35,
+     "amount": 41,
      "key": {
       "stack": {
        "item": "minecraft:nether_wart"
@@ -1380,7 +1440,7 @@
      }
     },
     {
-     "amount": 211,
+     "amount": 221,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -1447,6 +1507,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:sun_stone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1763,6 +1832,15 @@
      "key": {
       "stack": {
        "item": "minecraft:polished_blackstone_brick_wall"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:nether_brick_fence"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2139,7 +2217,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "uniqueaccessories:black_belt"
@@ -2437,7 +2515,7 @@
      }
     },
     {
-     "amount": 107,
+     "amount": 113,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -2826,7 +2904,7 @@
      }
     },
     {
-     "amount": 7,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "magistuarmory:chainmail_horse_armor"
@@ -2928,7 +3006,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "supplementaries:bomb_blue"
@@ -3129,6 +3207,15 @@
      "key": {
       "stack": {
        "item": "armourers_workshop:skinning-table"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:blood_lotus"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3920,7 +4007,7 @@
      }
     },
     {
-     "amount": 136,
+     "amount": 138,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -3929,7 +4016,7 @@
      }
     },
     {
-     "amount": 218,
+     "amount": 219,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3938,7 +4025,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "uniqueaccessories:withered_heart"
@@ -4092,7 +4179,7 @@
      }
     },
     {
-     "amount": 16,
+     "amount": 17,
      "key": {
       "stack": {
        "item": "minecraft:bone_meal"
@@ -4101,7 +4188,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:golden_boots",
@@ -4170,7 +4257,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "minecraft:netherite_scrap"
@@ -4188,7 +4275,7 @@
      }
     },
     {
-     "amount": 103,
+     "amount": 124,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -4258,6 +4345,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:ancient_chisel"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4511,7 +4607,7 @@
      }
     },
     {
-     "amount": 18,
+     "amount": 19,
      "key": {
       "stack": {
        "item": "minecraft:coal"
@@ -4600,10 +4696,23 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "magistuarmory:barding"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "waystones:warp_stone",
+       "tag": {
+        "Damage": 0,
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5004,7 +5113,7 @@
      }
     },
     {
-     "amount": 115,
+     "amount": 119,
      "key": {
       "stack": {
        "item": "minecraft:gold_nugget"
@@ -5075,6 +5184,6 @@
     }
    ]
   },
-  "currentTime": 1597
+  "currentTime": 1514
  }
 }
