@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -1186862225771676177,
-    7489505081714114703
+    -8661706710641436858,
+    3786645069790333456
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    6083789860899153924,
-    -5708491386112845982
+    5372662540454324590,
+    1640889121961061055
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    7128274853768287654,
-    3440462497906856258
+    -422270527695083456,
+    -6086819473213246449
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -698545967672356228,
-    5519359277916713737
+    3924340880472660703,
+    -3172878597196352466
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -7444049594816700112,
-    5250327776428588201
+    7595286214715115927,
+    7096139804284718102
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -4060825676527139647,
-    -2102551089075804025
+    3261855378756784583,
+    -8069270448494401308
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1857,8 +1857,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    148420225973230125,
-    -4034580008905688322
+    -6588937701289111193,
+    8835005962289611617
    ]
   },
   "minecraft:entities/tropical_fish": {
