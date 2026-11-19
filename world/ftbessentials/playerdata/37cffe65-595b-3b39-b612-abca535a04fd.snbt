@@ -6,9 +6,6 @@
 	last_seen: { dim: "minecraft:the_nether", x: -1821, y: 85, z: -1769, time: 1795094985382L, xRot: 57.255154f, yRot: 4.4716797f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:the_nether", x: -1833, y: 85, z: -1771, time: 1795019324170L }
-		{ dim: "minecraft:overworld", x: -2882, y: 30, z: 55, time: 1795019326803L }
-		{ dim: "minecraft:the_nether", x: -1830, y: 85, z: -1769, time: 1795019614924L }
 		{ dim: "minecraft:overworld", x: -2880, y: 30, z: 56, time: 1795019618999L }
 		{ dim: "minecraft:the_nether", x: -1824, y: 85, z: -1775, time: 1795019670052L }
 		{ dim: "minecraft:the_nether", x: -1824, y: 85, z: -1775, time: 1795019755216L }
@@ -16,6 +13,9 @@
 		{ dim: "minecraft:the_nether", x: -1827, y: 85, z: -1770, time: 1795095142935L }
 		{ dim: "minecraft:overworld", x: 251, y: 63, z: -1775, time: 1795096113944L }
 		{ dim: "minecraft:overworld", x: 256, y: 63, z: -1774, time: 1795096319367L }
+		{ dim: "minecraft:the_nether", x: 120, y: 35, z: -410, time: 1795096349009L }
+		{ dim: "minecraft:overworld", x: -2882, y: 30, z: 55, time: 1795096351357L }
+		{ dim: "minecraft:the_nether", x: 122, y: 35, z: -405, time: 1795096368939L }
 	]
 	homes: { }
 	kit_use_times: { }

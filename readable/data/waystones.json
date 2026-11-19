@@ -124,6 +124,30 @@
    },
    {
     "BlockPos": {
+     "X": 118,
+     "Y": 36,
+     "Z": -412
+    },
+    "IsGlobal": 0,
+    "Name": "infeerurnier",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1513841132,
+     -41464966,
+     -1140458965,
+     1734931941
+    ],
+    "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
      "X": -1107,
      "Y": 64,
      "Z": 635
