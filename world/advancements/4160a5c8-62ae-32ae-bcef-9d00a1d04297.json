@@ -500,24 +500,6 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2026-11-18 22:51:24 +0800"
-    },
-    "done": true
-  },
-  "efn:sword_of_pioneer": {
-    "criteria": {
-      "obtain": "2026-11-19 00:01:13 +0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2026-11-18 22:43:54 +0800"
-    },
-    "done": true
-  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2026-11-18 21:37:26 +0800",
@@ -533,15 +515,27 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-11-18 21:29:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2026-11-18 21:37:49 +0800"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2026-11-18 22:31:57 +0800"
     },
     "done": true
   },
-  "minecraft:story/enter_the_nether": {
+  "minecraft:nether/find_bastion": {
     "criteria": {
-      "entered_nether": "2026-11-18 21:29:43 +0800"
+      "bastion": "2026-11-18 22:43:54 +0800"
     },
     "done": true
   },
@@ -551,15 +545,21 @@
     },
     "done": true
   },
-  "efn:nf_dual_sword": {
+  "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
-      "obtain": "2026-11-19 00:08:36 +0800"
+      "crying_obsidian": "2026-11-18 22:51:24 +0800"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "efn:sword_of_pioneer": {
     "criteria": {
-      "in_better_fortress": "2026-11-18 21:37:49 +0800"
+      "obtain": "2026-11-19 00:01:13 +0800"
+    },
+    "done": true
+  },
+  "efn:nf_dual_sword": {
+    "criteria": {
+      "obtain": "2026-11-19 00:08:36 +0800"
     },
     "done": true
   },
