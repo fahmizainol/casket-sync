@@ -45,8 +45,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    3601214293877578918,
-    2951545746739696145
+    2529393646249783790,
+    629637898426001772
    ]
   },
   "aether:entities/phyg": {
@@ -75,8 +75,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -3090562096469632614,
-    7547666892637817485
+    2044013452814754268,
+    -6609263449998708444
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -99,8 +99,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -6832329130301766702,
-    1616708533775866469
+    3755949545602457149,
+    -3466787041499750596
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -111,8 +111,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -8497072496023914881,
-    893907311044574890
+    -8691283659701568590,
+    -6313213896942696257
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1887,8 +1887,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    5650521609364149009,
-    -7894507105028047625
+    5663588546808027365,
+    4407214618034501150
    ]
   },
   "minecraft:entities/pufferfish": {
