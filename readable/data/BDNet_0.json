@@ -148,24 +148,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:golden_boots",
-       "tag": {
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:soul_speed",
-          "lvl": 2
-         }
-        ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "minecraft:enchanted_book",
        "tag": {
         "StoredEnchantments": [
@@ -1723,7 +1705,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 1,
      "key": {
       "stack": {
        "item": "minecraft:golden_sword",
@@ -1821,15 +1803,6 @@
        "tag": {
         "Potion": "minecraft:weakness"
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 32,
-     "key": {
-      "stack": {
-       "item": "waystones:waystone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2054,7 +2027,7 @@
      }
     },
     {
-     "amount": 235,
+     "amount": 236,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

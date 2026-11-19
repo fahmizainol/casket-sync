@@ -131,9 +131,9 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
- "FallDistance": 1.1125,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -324,7 +324,7 @@
          "Slot": 1,
          "id": "artifacts:whoopee_cushion",
          "tag": {
-          "HasFarted": 0
+          "HasFarted": 1
          }
         }
        ],
@@ -527,7 +527,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "dodge_parry_reward:heal1",
    "passive6": "wom:mindset",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1326,7 +1326,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 61,
+   "finishedQuestSize": 62,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1385,23 +1385,23 @@
    "finished_quest_59": 1,
    "finished_quest_6": 25,
    "finished_quest_60": 67,
+   "finished_quest_61": 66,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 10.0,
-   "questSize": 12,
+   "questSize": 11,
    "quest_0": 84,
    "quest_1": 38,
-   "quest_10": 3,
-   "quest_11": 68,
+   "quest_10": 68,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
    "quest_5": 8,
    "quest_6": 59,
    "quest_7": 18,
-   "quest_8": 66,
-   "quest_9": 4,
+   "quest_8": 4,
+   "quest_9": 3,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -4707,42 +4707,19 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
+  "quark:trying_crawl": 1,
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1414095,
+  "ua_rs_active_until": 1415805,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
   "ua_tabi_last_dash": 1411556
  },
- "Health": 9.704,
+ "Health": 2.324,
  "HurtByTimestamp": 33168,
  "HurtTime": 0,
  "Inventory": [
-  {
-   "Count": 1,
-   "Slot": 0,
-   "id": "efn:sword_of_pioneer",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ],
-    "sheath": 1
-   }
-  },
   {
    "Count": 3,
    "Slot": 1,
@@ -4751,39 +4728,23 @@
   {
    "Count": 1,
    "Slot": 2,
-   "id": "minecraft:diamond_pickaxe",
+   "id": "minecraft:golden_boots",
    "tag": {
     "Damage": 0,
     "Enchantments": [
      {
-      "id": "minecraft:efficiency",
-      "lvl": 4
-     },
-     {
-      "id": "minecraft:silk_touch",
-      "lvl": 1
+      "id": "minecraft:soul_speed",
+      "lvl": 2
      }
-    ],
-    "sheath": 0
+    ]
    }
   },
   {
    "Count": 1,
    "Slot": 3,
-   "id": "minecraft:golden_pickaxe",
+   "id": "minecraft:golden_sword",
    "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:silk_touch",
-      "lvl": 1
-     },
-     {
-      "id": "minecraft:fortune",
-      "lvl": 2
-     }
-    ],
-    "sheath": 0
+    "Damage": 0
    }
   },
   {
@@ -4815,9 +4776,9 @@
    "id": "cataclysm:mech_eye"
   },
   {
-   "Count": 42,
+   "Count": 32,
    "Slot": 7,
-   "id": "minecraft:soul_sand"
+   "id": "waystones:waystone"
   },
   {
    "Count": 1,
@@ -4863,6 +4824,25 @@
   },
   {
    "Count": 1,
+   "Slot": 29,
+   "id": "minecraft:diamond_pickaxe",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:efficiency",
+      "lvl": 4
+     },
+     {
+      "id": "minecraft:silk_touch",
+      "lvl": 1
+     }
+    ],
+    "sheath": 0
+   }
+  },
+  {
+   "Count": 1,
    "Slot": 32,
    "id": "minecraft:flint_and_steel",
    "tag": {
@@ -4878,6 +4858,11 @@
    "Count": 3,
    "Slot": 34,
    "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 42,
+   "Slot": 35,
+   "id": "minecraft:soul_sand"
   },
   {
    "Count": 1,
@@ -4967,20 +4952,20 @@
   ]
  },
  "Motion": [
-  0.811,
-  1.7323,
-  -0.3657
+  0.0,
+  -0.0784,
+  0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  265.7146,
-  63.8663,
-  -1774.6238
+  2.0891,
+  3.0,
+  -1.4293
  ],
  "Rotation": [
-  -122.7274,
-  -14.6872
+  25.6617,
+  33.4194
  ],
  "Score": 3920,
  "SelectedItemSlot": 0,
@@ -5011,7 +4996,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.944,
+ "foodExhaustionLevel": 3.451,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14618,7 +14603,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7243,
+  "ticks_since_last_warning": 1242,
   "warning_level": 0
  }
 }

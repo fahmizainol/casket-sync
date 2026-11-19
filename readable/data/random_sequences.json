@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    1411089241110263440,
-    2690781569760651887
+    -6815421526602121910,
+    4277624031521647501
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -27,8 +27,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -8348707312140351368,
-    289105516137867871
+    8563695637749109087,
+    4237574439155315442
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,8 +39,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -3214407324516671088,
-    -5096215851328160227
+    -958569976666450330,
+    -1893410714853136106
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {

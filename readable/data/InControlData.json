@@ -1,8 +1,8 @@
 {
  "DataVersion": 3465,
  "data": {
-  "daycounter": 59,
-  "isday": 0,
+  "daycounter": 60,
+  "isday": 1,
   "numbers": {},
   "phases": []
  }
