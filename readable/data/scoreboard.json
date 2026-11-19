@@ -3360,12 +3360,6 @@
    },
    {
     "Locked": 1,
-    "Name": "80fdff0d-ac06-47d8-a228-e3837fa64330",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
     "Name": "5c1e90fa-45fd-47a0-9447-1bbe228afd20",
     "Objective": "001",
     "Score": 1
@@ -13597,12 +13591,6 @@
    {
     "Locked": 1,
     "Name": "5116c43a-f7ba-447b-a931-908f74ad32a7",
-    "Objective": "001",
-    "Score": 2
-   },
-   {
-    "Locked": 1,
-    "Name": "402506c5-81ee-4f0f-8b5e-1666d478fd42",
     "Objective": "001",
     "Score": 2
    },

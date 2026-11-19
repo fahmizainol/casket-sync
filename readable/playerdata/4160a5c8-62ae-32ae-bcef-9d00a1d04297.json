@@ -1,5 +1,22 @@
 {
  "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 1,
+   "Id": 5,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:strength"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -84,6 +101,20 @@
   },
   {
    "Base": 1.0,
+   "Modifiers": [
+    {
+     "Amount": 6.0,
+     "Name": "effect.minecraft.strength 1",
+     "Operation": 0,
+     "UUID": [
+      1686990948,
+      1784696665,
+      -1967209790,
+      980277161
+     ],
+     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
+    }
+   ],
    "Name": "minecraft:generic.attack_damage"
   },
   {
@@ -131,9 +162,9 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:the_nether",
  "EnderItems": [],
- "FallDistance": 0.0,
+ "FallDistance": 6.6502,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -505,7 +536,7 @@
    "passive4": "epicfight:berserker",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1184,7 +1215,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 127
+   "currentLogicNodeId": 386
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -3968,10 +3999,10 @@
       "CompanionPreviewHeight": 2.5,
       "CompanionPreviewWidth": 2.88,
       "CompanionRescueArmor": 13,
-      "CompanionRescueHealth": 198.6956,
+      "CompanionRescueHealth": 220.0,
       "CompanionRescueMaxHealth": 220.0,
       "CompanionRescueName": "Hiddeous Zippleback",
-      "CompanionRescueStoredAt": 1417852,
+      "CompanionRescueStoredAt": 1420778,
       "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4077,7 +4108,7 @@
       ],
       "HasClearAirspace": 0,
       "HasConsumedFood": 0,
-      "Health": 198.6956,
+      "Health": 220.0,
       "HurtByTimestamp": 3906,
       "HurtTime": 0,
       "InLove": 0,
@@ -4463,16 +4494,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1419117,
+  "quark:trying_crawl": 0,
+  "ua_rs_active_until": 1426083,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1420022,
-  "ua_shiny_last_x": 1.175,
-  "ua_shiny_last_y": 3.0,
-  "ua_shiny_last_z": 0.9691,
-  "ua_tabi_last_dash": 1419048
+  "ua_shiny_last_active": 1426092,
+  "ua_shiny_last_x": 51.7736,
+  "ua_shiny_last_y": 90.1714,
+  "ua_shiny_last_z": -220.8329,
+  "ua_tabi_last_dash": 1421290
  },
- "Health": 30.0,
+ "Health": 24.1371,
  "HurtByTimestamp": 1462,
  "HurtTime": 0,
  "Inventory": [
@@ -4591,6 +4623,11 @@
    }
   },
   {
+   "Count": 22,
+   "Slot": 5,
+   "id": "minecraft:golden_apple"
+  },
+  {
    "Count": 19,
    "Slot": 6,
    "id": "waystones:waystone"
@@ -4655,6 +4692,21 @@
    }
   },
   {
+   "Count": 50,
+   "Slot": 16,
+   "id": "minecraft:netherrack"
+  },
+  {
+   "Count": 3,
+   "Slot": 17,
+   "id": "minecraft:glowstone_dust"
+  },
+  {
+   "Count": 2,
+   "Slot": 18,
+   "id": "minecraft:glowstone"
+  },
+  {
    "Count": 4,
    "Slot": 20,
    "id": "efn:duskfire_ingot"
@@ -4675,7 +4727,7 @@
    "id": "cataclysm:monstrous_eye"
   },
   {
-   "Count": 5,
+   "Count": 8,
    "Slot": 33,
    "id": "minecraft:wheat_seeds"
   },
@@ -4791,22 +4843,22 @@
  },
  "Motion": [
   0.0,
-  -0.0784,
-  0.0
+  -1.086,
+  0.0037
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  1.175,
-  3.0,
-  0.9586
+  51.7736,
+  90.1714,
+  -220.8329
  ],
  "Rotation": [
-  117.1315,
-  30.6135
+  149.0075,
+  29.7002
  ],
  "Score": 8521,
- "SelectedItemSlot": 5,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -97.0065,
  "SpawnDimension": "minecraft:overworld",
@@ -4834,7 +4886,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.0552,
+ "foodExhaustionLevel": 1.5902,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4845,7 +4897,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 119,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15157,7 +15209,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1943,
+  "ticks_since_last_warning": 7943,
   "warning_level": 0
  }
 }

@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -6815421526602121910,
-    4277624031521647501
+    -3480556837305595419,
+    2602594318161666623
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    5696225509378091599,
-    1712620840018572830
+    -3498617227785028727,
+    1301340122202965543
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    250718976262081902,
-    6025957398537811306
+    5551117739169462163,
+    -4312482136116318897
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    8563695637749109087,
-    4237574439155315442
+    8588633826629575160,
+    7887217946884802882
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -958569976666450330,
-    -1893410714853136106
+    -4254185351709494186,
+    -3574846604974880241
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    5636790170932862791,
-    -9014258250160143058
+    6196845074542918785,
+    733684201441341469
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -781,6 +781,12 @@
     7585291734042277764
    ]
   },
+  "minecraft:blocks/glowstone": {
+   "source": [
+    7220072680672076726,
+    -879139563077471174
+   ]
+  },
   "minecraft:blocks/gold_block": {
    "source": [
     4615753901258372491,
@@ -1035,8 +1041,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    4336307602022496772,
-    3591736481061573387
+    856399277283661595,
+    1533351030056781132
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1809,8 +1815,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    4913800818687210551,
-    7985234813263478282
+    5992636619917775421,
+    -2193643984501423026
    ]
   },
   "minecraft:entities/pufferfish": {

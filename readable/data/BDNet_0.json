@@ -1290,7 +1290,7 @@
      }
     },
     {
-     "amount": 726,
+     "amount": 662,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -2027,7 +2027,7 @@
      }
     },
     {
-     "amount": 236,
+     "amount": 237,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
