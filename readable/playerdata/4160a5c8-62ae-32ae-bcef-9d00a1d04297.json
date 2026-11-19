@@ -4574,6 +4574,16 @@
    "id": "minecraft:blackstone"
   },
   {
+   "Count": 60,
+   "Slot": 14,
+   "id": "minecraft:gold_ingot"
+  },
+  {
+   "Count": 4,
+   "Slot": 20,
+   "id": "efn:duskfire_ingot"
+  },
+  {
    "Count": 3,
    "Slot": 21,
    "id": "minecraft:netherite_scrap"
@@ -4582,11 +4592,6 @@
    "Count": 1,
    "Slot": 22,
    "id": "minecraft:netherite_ingot"
-  },
-  {
-   "Count": 60,
-   "Slot": 24,
-   "id": "minecraft:gold_ingot"
   },
   {
    "Count": 1,
@@ -4711,8 +4716,8 @@
   -1768.1548
  ],
  "Rotation": [
-  91.6058,
-  31.3253
+  0.8558,
+  24.6943
  ],
  "Score": 8465,
  "SelectedItemSlot": 0,
@@ -15066,7 +15071,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8052,
+  "ticks_since_last_warning": 2051,
   "warning_level": 0
  }
 }

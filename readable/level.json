@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 597245,
+  "DayTime": 603245,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795098140817,
+  "LastPlayed": 1795098440824,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -4999,6 +4999,16 @@
      "id": "minecraft:blackstone"
     },
     {
+     "Count": 60,
+     "Slot": 14,
+     "id": "minecraft:gold_ingot"
+    },
+    {
+     "Count": 4,
+     "Slot": 20,
+     "id": "efn:duskfire_ingot"
+    },
+    {
      "Count": 3,
      "Slot": 21,
      "id": "minecraft:netherite_scrap"
@@ -5007,11 +5017,6 @@
      "Count": 1,
      "Slot": 22,
      "id": "minecraft:netherite_ingot"
-    },
-    {
-     "Count": 60,
-     "Slot": 24,
-     "id": "minecraft:gold_ingot"
     },
     {
      "Count": 1,
@@ -5136,8 +5141,8 @@
     -1768.1548
    ],
    "Rotation": [
-    91.6058,
-    31.3253
+    0.8558,
+    24.6943
    ],
    "Score": 8465,
    "SelectedItemSlot": 0,
@@ -15491,7 +15496,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 8052,
+    "ticks_since_last_warning": 2051,
     "warning_level": 0
    }
   },
@@ -15503,7 +15508,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1390092,
+  "Time": 1396092,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15511,7 +15516,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 10800,
+  "WanderingTraderSpawnDelay": 4800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16199,9 +16204,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 138245,
+  "rainTime": 132245,
   "raining": 0,
-  "thunderTime": 62390,
+  "thunderTime": 56390,
   "thundering": 0,
   "version": 19133
  },
