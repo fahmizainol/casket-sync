@@ -577,6 +577,12 @@
     },
     "done": true
   },
+  "efn:air_tachi": {
+    "criteria": {
+      "obtain": "2026-11-19 23:49:17 +0800"
+    },
+    "done": true
+  },
   "aether:enter_aether": {
     "criteria": {
       "enter_aether": "2026-11-19 22:53:09 +0800"

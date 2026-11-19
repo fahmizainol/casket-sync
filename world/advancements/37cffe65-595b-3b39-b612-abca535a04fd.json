@@ -578,9 +578,9 @@
     },
     "done": true
   },
-  "tcrcore:unlock_epic_boss": {
+  "minecraft:nether/get_wither_skull": {
     "criteria": {
-      "unlock_epic_boss": "2026-11-19 22:36:55 +0800"
+      "wither_skull": "2026-11-19 22:33:31 +0800"
     },
     "done": true
   },
@@ -590,15 +590,9 @@
     },
     "done": true
   },
-  "minecraft:nether/get_wither_skull": {
+  "tcrcore:unlock_epic_boss": {
     "criteria": {
-      "wither_skull": "2026-11-19 22:33:31 +0800"
-    },
-    "done": true
-  },
-  "aether:zanite": {
-    "criteria": {
-      "zanite": "2026-11-19 22:56:09 +0800"
+      "unlock_epic_boss": "2026-11-19 22:36:55 +0800"
     },
     "done": true
   },
@@ -611,6 +605,12 @@
   "aether:the_aether": {
     "criteria": {
       "the_aether": "2026-11-19 22:53:10 +0800"
+    },
+    "done": true
+  },
+  "aether:zanite": {
+    "criteria": {
+      "zanite": "2026-11-19 22:56:09 +0800"
     },
     "done": true
   },
