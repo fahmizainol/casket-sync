@@ -6,7 +6,6 @@
 	last_seen: { dim: "minecraft:the_nether", x: -1824, y: 85, z: -1769, time: 1795094515112L, xRot: 22.988754f, yRot: 99.11426f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "aether:the_aether", x: 663, y: 85, z: -1127, time: 1795101278206L }
 		{ dim: "aether:the_aether", x: 664, y: 85, z: -1134, time: 1795101359536L }
 		{ dim: "aether:the_aether", x: 666, y: 85, z: -1126, time: 1795101450898L }
 		{ dim: "aether:the_aether", x: 669, y: 85, z: -1132, time: 1795101624304L }
@@ -16,6 +15,7 @@
 		{ dim: "aether:the_aether", x: 667, y: 85, z: -1126, time: 1795101903210L }
 		{ dim: "aether:the_aether", x: 665, y: 85, z: -1123, time: 1795101918736L }
 		{ dim: "aether:the_aether", x: 669, y: 85, z: -1121, time: 1795101923217L }
+		{ dim: "tcrcore:sanctum", x: 64, y: 73, z: -170, time: 1795102625662L }
 	]
 	homes: { }
 	kit_use_times: { }

@@ -16,7 +16,7 @@
     "HasChest": 0,
     "HasSaddle": 1,
     "Health": 140.0,
-    "LastUpdate": 1795102333736,
+    "LastUpdate": 1795102623731,
     "MaxHealth": 140.0,
     "OwnerUUID": [
      936377957,
@@ -44,8 +44,8 @@
     "DragonUUID_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317",
     "HasChest": 0,
     "HasSaddle": 1,
-    "Health": 198.6956,
-    "LastUpdate": 1795102334181,
+    "Health": 198.6435,
+    "LastUpdate": 1795102624182,
     "MaxHealth": 220.0,
     "OwnerUUID": [
      1096852936,
@@ -54,9 +54,9 @@
      -1580186985
     ],
     "OwnerUUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-    "PosX": 83,
+    "PosX": 59,
     "PosY": 73,
-    "PosZ": -138,
+    "PosZ": -164,
     "Stage": "BROAD_WING",
     "Type": "HIDEOUS_ZIPPLEBACK"
    }

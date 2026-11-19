@@ -39344,11 +39344,11 @@
       {
        "position": {
         "dimension": "tcrcore:sanctum",
-        "x": 83.0,
-        "xRot": -0.0515,
+        "x": 62.0326,
+        "xRot": -14.6405,
         "y": 73.0,
-        "yRot": -60.936,
-        "z": -137.85
+        "yRot": -136.939,
+        "z": -165.9998
        },
        "uuid": [
         -644884357,
@@ -39372,7 +39372,7 @@
       }
      ],
      "mountIndex": 0,
-     "mountReadyAt": 1379633,
+     "mountReadyAt": 1476204,
      "mountWheelSlots": [],
      "mounts": [
       {
@@ -39388,12 +39388,12 @@
      "origins": [
       {
        "position": {
-        "dimension": "minecraft:overworld",
-        "x": 215.5,
-        "xRot": 12.0228,
-        "y": 71.0,
-        "yRot": -93.6003,
-        "z": -1767.5
+        "dimension": "tcrcore:sanctum",
+        "x": 76.5,
+        "xRot": 0.0,
+        "y": 77.0,
+        "yRot": 18.6369,
+        "z": -185.5
        },
        "uuid": [
         -644884357,
@@ -39419,7 +39419,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147370674,
+          "Duration": 2147358760,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -39445,32 +39445,32 @@
         ],
         "Attributes": [
          {
-          "Base": 0.1777,
-          "Name": "minecraft:generic.movement_speed"
-         },
-         {
           "Base": 0.0,
           "Name": "forge:step_height_addition"
+         },
+         {
+          "Base": 0.1777,
+          "Name": "minecraft:generic.movement_speed"
          },
          {
           "Base": 220.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 8.8,
-          "Name": "minecraft:generic.attack_damage"
-         },
-         {
           "Base": 13.2,
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
+          "Base": 8.8,
+          "Name": "minecraft:generic.attack_damage"
          },
          {
           "Base": 0.24,
           "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 1.0216,
@@ -39502,10 +39502,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 220.0,
+        "CompanionRescueHealth": 198.6435,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1420778,
+        "CompanionRescueStoredAt": 1479790,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -39609,10 +39609,10 @@
          {},
          {}
         ],
-        "HasClearAirspace": 0,
+        "HasClearAirspace": 1,
         "HasConsumedFood": 0,
-        "Health": 220.0,
-        "HurtByTimestamp": 3906,
+        "Health": 198.6435,
+        "HurtByTimestamp": 11841,
         "HurtTime": 0,
         "InLove": 0,
         "InSittingPose": 0,
@@ -39634,7 +39634,7 @@
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
-        "LayerMotion": 0,
+        "LayerMotion": 1,
         "LayerStance": 0,
         "LeftHanded": 0,
         "MountTime": 0,
@@ -39653,21 +39653,21 @@
          -1580186985
         ],
         "PH_SmoothedEntityPitch": 0.0,
-        "PH_SmoothedMovementYaw": 11459.064,
-        "PH_UnwrappedMovementYaw": 11459.064,
+        "PH_SmoothedMovementYaw": 11383.0084,
+        "PH_UnwrappedMovementYaw": 11383.0084,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 12539.064,
+        "PH_UnwrappedYaw": 12463.061,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         83.0,
+         62.0326,
          73.0,
-         -137.85
+         -165.9998
         ],
         "Rotation": [
-         -60.936,
-         -0.0515
+         -136.939,
+         -14.6405
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
@@ -39692,10 +39692,10 @@
         "UseGroundNav": 1,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 2.152,
-         "foodLevel": 2,
+         "exhaustionLevel": 2.0429,
+         "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 0
+         "tickTimer": 14
         },
         "dragonStamina": {
          "regenPauseTicks": 0
@@ -42824,12 +42824,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "aether:the_aether",
-        "x": 97.7444,
-        "xRot": -51.2057,
-        "y": 174.452,
-        "yRot": 160.3159,
-        "z": -1806.9735
+        "dimension": "tcrcore:sanctum",
+        "x": -3.0,
+        "xRot": 0.0,
+        "y": 73.0,
+        "yRot": 0.0,
+        "z": -190.0
        },
        "uuid": [
         -316269812,
@@ -42900,7 +42900,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147414152,
+          "Duration": 2147405556,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -42926,32 +42926,32 @@
         ],
         "Attributes": [
          {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
-         },
-         {
           "Base": 0.2212,
           "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 140.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 10.752,
-          "Name": "minecraft:generic.attack_damage"
-         },
-         {
           "Base": 8.688,
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
+          "Base": 10.752,
+          "Name": "minecraft:generic.attack_damage"
          },
          {
           "Base": 0.3376,
           "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 1.3696,
@@ -42982,7 +42982,7 @@
         "CompanionRescueHealth": 140.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 1440890,
+        "CompanionRescueStoredAt": 1479793,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -43167,7 +43167,7 @@
         "HasClearAirspace": 1,
         "HasConsumedFood": 0,
         "Health": 140.0,
-        "HurtByTimestamp": 476,
+        "HurtByTimestamp": 136,
         "HurtTime": 0,
         "InLove": 0,
         "InSittingPose": 0,
@@ -43189,8 +43189,8 @@
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
-        "LayerMotion": 3,
-        "LayerStance": 1,
+        "LayerMotion": 0,
+        "LayerStance": 0,
         "LeftHanded": 0,
         "MountTime": 0,
         "NoAI": 0,
@@ -43199,7 +43199,7 @@
         "OAH_CurrentFuel": 0,
         "OAH_FullRechargeCooldown": 0,
         "OAH_PendingScale": 0.0,
-        "OnGround": 0,
+        "OnGround": 1,
         "OrderedToSit": 0,
         "Owner": [
          936377957,
@@ -43207,25 +43207,25 @@
          -1240290358,
          1398408445
         ],
-        "PH_SmoothedEntityPitch": -30.0351,
-        "PH_SmoothedMovementYaw": 2753.4702,
-        "PH_UnwrappedMovementYaw": 2753.4702,
+        "PH_SmoothedEntityPitch": 0.0,
+        "PH_SmoothedMovementYaw": 1440.0,
+        "PH_UnwrappedMovementYaw": 1440.0,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 3760.3159,
+        "PH_UnwrappedYaw": 2520.0,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         97.7444,
-         174.452,
-         -1806.9735
+         -3.0,
+         73.0,
+         -190.0
         ],
         "RoostX": 210,
         "RoostY": 73,
         "RoostZ": -673,
         "Rotation": [
-         160.3159,
-         -51.2057
+         0.0,
+         0.0
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "lightning_strike",
@@ -43239,7 +43239,7 @@
         "TamingRitualCompleted": 1,
         "TamingRitualTimer": 0,
         "ThrottleLevel": 0.0,
-        "TransportMode": 1,
+        "TransportMode": 0,
         "UUID": [
          -316269812,
          593383161,
@@ -43247,13 +43247,13 @@
          760723722
         ],
         "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-        "UseGroundNav": 0,
+        "UseGroundNav": 1,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 0.1328,
-         "foodLevel": 0,
+         "exhaustionLevel": 2.214,
+         "foodLevel": 5,
          "saturationLevel": 0.0,
-         "tickTimer": 18
+         "tickTimer": 0
         },
         "dragonStamina": {
          "regenPauseTicks": 0
