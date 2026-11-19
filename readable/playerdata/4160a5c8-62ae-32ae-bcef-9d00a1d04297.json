@@ -1236,7 +1236,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -3978,10 +3978,10 @@
       "CompanionPreviewHeight": 2.5,
       "CompanionPreviewWidth": 2.88,
       "CompanionRescueArmor": 13,
-      "CompanionRescueHealth": 198.6304,
+      "CompanionRescueHealth": 220.0,
       "CompanionRescueMaxHealth": 220.0,
       "CompanionRescueName": "Hiddeous Zippleback",
-      "CompanionRescueStoredAt": 1484899,
+      "CompanionRescueStoredAt": 1487124,
       "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4087,7 +4087,7 @@
       ],
       "HasClearAirspace": 1,
       "HasConsumedFood": 0,
-      "Health": 198.6304,
+      "Health": 220.0,
       "HurtByTimestamp": 922,
       "HurtTime": 0,
       "InLove": 0,
@@ -4473,18 +4473,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1486089,
+  "ua_rs_active_until": 1491532,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1486092,
-  "ua_shiny_last_x": 253.8087,
-  "ua_shiny_last_y": 66.7522,
-  "ua_shiny_last_z": -1769.7125,
-  "ua_tabi_last_dash": 1485984
+  "ua_shiny_last_active": 1491597,
+  "ua_shiny_last_x": 248.8713,
+  "ua_shiny_last_y": 63.0,
+  "ua_shiny_last_z": -1775.8733,
+  "ua_tabi_last_dash": 1491582
  },
  "Health": 30.0,
- "HurtByTimestamp": 17579,
+ "HurtByTimestamp": 259,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4649,6 +4648,16 @@
    "id": "minecraft:experience_bottle"
   },
   {
+   "Count": 1,
+   "Slot": 9,
+   "id": "bosses_of_mass_destruction:soul_star"
+  },
+  {
+   "Count": 4,
+   "Slot": 10,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
    "Count": 61,
    "Slot": 32,
    "id": "minecraft:blackstone"
@@ -4763,28 +4772,28 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   665,
+   669,
    85,
-   -1125
+   -1121
   ]
  },
  "Motion": [
-  -0.0239,
-  -0.0754,
-  -0.103
- ],
- "OnGround": 0,
- "PortalCooldown": 0,
- "Pos": [
-  253.8087,
-  66.7522,
-  -1769.7125
- ],
- "Rotation": [
-  148.4658,
+  0.0,
+  -0.0784,
   0.0
  ],
- "Score": 8588,
+ "OnGround": 1,
+ "PortalCooldown": 0,
+ "Pos": [
+  248.8579,
+  63.0,
+  -1775.8733
+ ],
+ "Rotation": [
+  99.0469,
+  38.9944
+ ],
+ "Score": 8602,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -67.4363,
@@ -4801,9 +4810,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 48,
- "XpP": 0.7153,
+ "XpP": 0.7664,
  "XpSeed": 976728483,
- "XpTotal": 8588,
+ "XpTotal": 8602,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4813,7 +4822,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.399,
+ "foodExhaustionLevel": 2.241,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15136,7 +15145,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3018,
+  "ticks_since_last_warning": 8522,
   "warning_level": 0
  }
 }

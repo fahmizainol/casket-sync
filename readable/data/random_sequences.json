@@ -33,8 +33,8 @@
   },
   "aether:entities/blue_swet": {
    "source": [
-    1080926770504541914,
-    -8002151168776423723
+    -910804789318909079,
+    -4571176329006036242
    ]
   },
   "aether:entities/flying_cow": {
@@ -45,8 +45,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    2529393646249783790,
-    629637898426001772
+    -4890848698891117504,
+    5493549221968446705
    ]
   },
   "aether:entities/phyg": {
@@ -75,8 +75,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -2866673084431942771,
-    -1574728196670195829
+    5398726932440762947,
+    5971236456947309076
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -99,8 +99,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -2514818276345357566,
-    644261877116340287
+    -6909243315493093509,
+    7496018005306758626
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -111,8 +111,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -8810221661847182749,
-    3905937413396061679
+    1097132426390420751,
+    -7830852830460360244
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1887,8 +1887,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    5663588546808027365,
-    4407214618034501150
+    -4589688360311280491,
+    2096040951392210776
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1989,8 +1989,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    5701168403828202410,
-    2513295033320868768
+    -8669823540826887925,
+    3817146455297741279
    ]
   },
   "minecraft:entities/zombie_villager": {

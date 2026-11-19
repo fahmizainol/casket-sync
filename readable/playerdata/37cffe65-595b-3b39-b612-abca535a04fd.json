@@ -118,8 +118,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "DeathTime": 623,
+ "Dimension": "aether:the_aether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -515,7 +515,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "dodge_parry_reward:heal1",
    "passive6": "wom:mindset",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1431,6 +1431,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4704,12 +4705,12 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1486063,
+  "ua_rs_active_until": 1487062,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 30.0,
- "HurtByTimestamp": 0,
+ "Health": 0.0,
+ "HurtByTimestamp": 22828,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4994,9 +4995,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   655,
-   86,
-   -1134
+   671,
+   85,
+   -1132
   ]
  },
  "Motion": [
@@ -5007,13 +5008,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  265.6458,
-  63.0,
-  -1772.7536
+  671.7,
+  85.0,
+  -1132.4365
  ],
  "Rotation": [
-  106.6743,
-  8.5498
+  51.656,
+  0.0
  ],
  "Score": 3941,
  "SelectedItemSlot": 0,
@@ -5044,7 +5045,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.412,
+ "foodExhaustionLevel": 1.962,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5063,7 +5064,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14648,10 +14648,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4858,
+  "ticks_since_last_warning": 6878,
   "warning_level": 0
  }
 }
