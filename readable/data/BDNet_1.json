@@ -704,7 +704,7 @@
      }
     },
     {
-     "amount": 91,
+     "amount": 27,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -4083,7 +4083,7 @@
      }
     },
     {
-     "amount": 229,
+     "amount": 230,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4143,6 +4143,15 @@
      }
     },
     {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "minecraft:saddle"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -4150,15 +4159,6 @@
        "tag": {
         "Damage": 0
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "minecraft:saddle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4319,15 +4319,6 @@
      "key": {
       "stack": {
        "item": "minecraft:nether_quartz_ore"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 7,
-     "key": {
-      "stack": {
-       "item": "minecraft:netherite_scrap"
       },
       "type": "beyonddimensions:stack_type/item"
      }
