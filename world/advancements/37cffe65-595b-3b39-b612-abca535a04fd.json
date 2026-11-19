@@ -578,5 +578,23 @@
     },
     "done": true
   },
+  "tcrcore:unlock_epic_boss": {
+    "criteria": {
+      "unlock_epic_boss": "2026-11-19 22:36:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2026-11-19 22:33:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-11-19 22:33:31 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

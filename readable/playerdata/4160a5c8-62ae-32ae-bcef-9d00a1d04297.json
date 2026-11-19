@@ -53,8 +53,8 @@
    "Name": "forge:entity_reach"
   },
   {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 4.0,
@@ -127,7 +127,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:the_nether",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1246,11 +1246,10 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
-   "blessItem": "cataclysm:monstrous_eye",
    "blessPos": {
-    "X": -176,
-    "Y": 83,
-    "Z": -118
+    "X": 0,
+    "Y": 0,
+    "Z": 0
    },
    "customDataManager": {
     "abyssEyeActivated": 1,
@@ -1259,7 +1258,7 @@
     "aineTalked": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 63.0,
+    "currentQuestId": 66.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1281,6 +1280,7 @@
     "isAllHumanoidKilledisLocked": 0,
     "locked": 1,
     "lockedisLocked": 0,
+    "mech_eye_gotten": 1,
     "monstEyeBlessed": 1,
     "monst_eye_gotten": 1,
     "ornnTalked": 1,
@@ -1289,7 +1289,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 54,
+   "finishedQuestSize": 57,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1340,23 +1340,29 @@
    "finished_quest_51": 61,
    "finished_quest_52": 62,
    "finished_quest_53": 18,
+   "finished_quest_54": 63,
+   "finished_quest_55": 64,
+   "finished_quest_56": 65,
    "finished_quest_6": 25,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 10.0,
-   "questSize": 9,
+   "questSize": 12,
    "quest_0": 84,
    "quest_1": 38,
+   "quest_10": 1,
+   "quest_11": 66,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
    "quest_5": 8,
    "quest_6": 59,
    "quest_7": 17,
-   "quest_8": 63,
-   "resonanceStoneInCooldown": 0,
-   "resonanceStoneStartTime": 1078647,
+   "quest_8": 14,
+   "quest_9": 18,
+   "resonanceStoneInCooldown": 1,
+   "resonanceStoneStartTime": 1407051,
    "sardine": 0,
    "tickAfterBless": 0,
    "tickAfterBossDieLeft": 0
@@ -4427,18 +4433,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1399838,
+  "ua_rs_active_until": 1407660,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1402075,
-  "ua_shiny_last_x": 40.3123,
-  "ua_shiny_last_y": 57.0,
-  "ua_shiny_last_z": -225.5665,
-  "ua_tabi_last_dash": 1399834
+  "ua_shiny_last_active": 1408092,
+  "ua_shiny_last_x": -116.9817,
+  "ua_shiny_last_y": 79.0,
+  "ua_shiny_last_z": -126.5681,
+  "ua_tabi_last_dash": 1407621
  },
  "Health": 30.0,
- "HurtByTimestamp": 1437,
+ "HurtByTimestamp": 1462,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4556,6 +4561,11 @@
    }
   },
   {
+   "Count": 22,
+   "Slot": 5,
+   "id": "minecraft:golden_apple"
+  },
+  {
    "Count": 19,
    "Slot": 6,
    "id": "waystones:waystone"
@@ -4569,6 +4579,31 @@
    "Count": 63,
    "Slot": 8,
    "id": "minecraft:blackstone"
+  },
+  {
+   "Count": 6,
+   "Slot": 9,
+   "id": "minecraft:wither_rose"
+  },
+  {
+   "Count": 2,
+   "Slot": 10,
+   "id": "epicskills:ability_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 11,
+   "id": "cataclysm:mech_eye"
+  },
+  {
+   "Count": 1,
+   "Slot": 12,
+   "id": "minecraft:nether_star"
+  },
+  {
+   "Count": 2,
+   "Slot": 13,
+   "id": "fantasy_armor:moon_crystal"
   },
   {
    "Count": 60,
@@ -4594,6 +4629,11 @@
    "Count": 2,
    "Slot": 32,
    "id": "cataclysm:monstrous_eye"
+  },
+  {
+   "Count": 5,
+   "Slot": 33,
+   "id": "minecraft:wheat_seeds"
   },
   {
    "Count": 1,
@@ -4698,11 +4738,11 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "minecraft:the_nether",
+  "dimension": "minecraft:overworld",
   "pos": [
-   102,
-   34,
-   -411
+   93,
+   76,
+   -1937
   ]
  },
  "Motion": [
@@ -4713,16 +4753,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  40.3123,
-  57.0,
-  -225.5751
+  -116.9817,
+  79.0,
+  -126.5681
  ],
  "Rotation": [
-  -40.5004,
-  27.849
+  -67.7292,
+  29.5746
  ],
- "Score": 8465,
- "SelectedItemSlot": 5,
+ "Score": 8521,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -97.0065,
  "SpawnDimension": "minecraft:overworld",
@@ -4737,10 +4777,10 @@
   -1580186985
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
- "XpLevel": 49,
- "XpP": 0.8481,
+ "XpLevel": 50,
+ "XpP": 0.0445,
  "XpSeed": 976728483,
- "XpTotal": 8465,
+ "XpTotal": 8521,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4750,12 +4790,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "enteredNetherPosition": {
-  "x": 261.1509,
-  "y": 63.0,
-  "z": -1778.8199
- },
- "foodExhaustionLevel": 3.382,
+ "foodExhaustionLevel": 2.522,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4766,7 +4801,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 150,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15078,7 +15113,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8050,
+  "ticks_since_last_warning": 1946,
   "warning_level": 0
  }
 }

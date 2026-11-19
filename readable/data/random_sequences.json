@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -8661706710641436858,
-    3786645069790333456
+    -4139321104449631273,
+    -5086860771609840229
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    5372662540454324590,
-    1640889121961061055
+    5696225509378091599,
+    1712620840018572830
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -422270527695083456,
-    -6086819473213246449
+    250718976262081902,
+    6025957398537811306
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    3924340880472660703,
-    -3172878597196352466
+    -2998017797886817210,
+    -1751948355368688025
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    7595286214715115927,
-    7096139804284718102
+    6712648611044893218,
+    -2545498602761026427
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    3261855378756784583,
-    -8069270448494401308
+    5636790170932862791,
+    -9014258250160143058
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -205,6 +205,12 @@
     -8344455583147604194
    ]
   },
+  "biomeswevegone:blocks/prairie_grass": {
+   "source": [
+    -4113354877395983931,
+    2500176321920338838
+   ]
+  },
   "biomeswevegone:blocks/quicksand": {
    "source": [
     -5535623491465634760,
@@ -237,8 +243,8 @@
   },
   "biomeswevegone:blocks/tall_prairie_grass": {
    "source": [
-    -2635433333821399827,
-    -7010091287710998153
+    4459951012376474533,
+    -5782261451822709228
    ]
   },
   "biomeswevegone:blocks/tall_white_allium": {
@@ -735,8 +741,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -229476023839479698,
-    7374710966563407195
+    -8613178314726029284,
+    2668785707424841436
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -789,8 +795,8 @@
   },
   "minecraft:blocks/grass": {
    "source": [
-    1850399930198138915,
-    -7369249051269586858
+    5261790931073773611,
+    -5777794862181028098
    ]
   },
   "minecraft:blocks/grass_block": {
@@ -1557,8 +1563,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    -9096747424469897686,
-    -4204989749590413861
+    3236551363549027957,
+    -8357659397932595013
    ]
   },
   "minecraft:blocks/tall_seagrass": {
@@ -1689,8 +1695,8 @@
   },
   "minecraft:entities/chicken": {
    "source": [
-    8160221950125129434,
-    8926362043517729880
+    6922600612335260944,
+    -2306168501079673083
    ]
   },
   "minecraft:entities/cod": {
@@ -1731,8 +1737,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    4388143742598168012,
-    -9218377453383209441
+    1987381753835371945,
+    -7713907122834438904
    ]
   },
   "minecraft:entities/guardian": {
@@ -1803,8 +1809,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -7846139406544529130,
-    -8988907143930947289
+    4913800818687210551,
+    7985234813263478282
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1883,6 +1889,12 @@
    "source": [
     6138135777808596275,
     749918411731255686
+   ]
+  },
+  "minecraft:entities/wither": {
+   "source": [
+    662494949442184689,
+    3613809719775572638
    ]
   },
   "minecraft:entities/wither_skeleton": {

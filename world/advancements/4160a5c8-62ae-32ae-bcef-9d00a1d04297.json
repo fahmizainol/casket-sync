@@ -176,6 +176,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2026-11-14 15:09:22 +0800",
+      "golden_apple": "2026-11-19 22:35:13 +0800",
       "melon_slice": "2026-11-14 16:11:43 +0800",
       "golden_carrot": "2026-11-14 21:41:34 +0800",
       "cod": "2026-11-14 16:11:49 +0800"
@@ -196,6 +197,7 @@
       "minecraft:magma_cube": "2026-11-16 22:48:50 +0800",
       "minecraft:spider": "2026-11-14 15:10:35 +0800",
       "minecraft:piglin_brute": "2026-11-18 22:55:58 +0800",
+      "minecraft:wither": "2026-11-19 22:35:31 +0800",
       "minecraft:evoker": "2026-11-15 14:54:21 +0800",
       "minecraft:zombified_piglin": "2026-11-18 21:33:05 +0800",
       "minecraft:wither_skeleton": "2026-11-18 21:37:59 +0800",
@@ -566,6 +568,12 @@
   "uniqueaccessories:adventure/ua_collect_05": {
     "criteria": {
       "count_reached": "2026-11-19 00:23:27 +0800"
+    },
+    "done": true
+  },
+  "tcrcore:unlock_epic_boss": {
+    "criteria": {
+      "unlock_epic_boss": "2026-11-19 22:36:55 +0800"
     },
     "done": true
   },
