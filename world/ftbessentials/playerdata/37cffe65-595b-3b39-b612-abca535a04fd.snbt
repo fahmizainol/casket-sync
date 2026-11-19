@@ -3,7 +3,7 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "aether:the_aether", x: 671, y: 85, z: -1133, time: 1795103443235L, xRot: 0.0f, yRot: 51.656006f }
+	last_seen: { dim: "tcrcore:sanctum", x: 81, y: 73, z: -143, time: 1795104175519L, xRot: 48.055115f, yRot: -62.717224f }
 	recording: "none"
 	teleport_history: [
 		{ dim: "aether:the_aether", x: 660, y: 86, z: -1133, time: 1795101402589L }
