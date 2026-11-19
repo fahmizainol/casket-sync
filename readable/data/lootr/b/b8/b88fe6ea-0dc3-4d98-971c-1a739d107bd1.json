@@ -1,0 +1,86 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:the_nether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:leather_boots",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:chainmail_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:aqua_affinity",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:chainmail_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:blast_protection",
+          "lvl": 3
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/b/b8/b88fe6ea-0dc3-4d98-971c-1a739d107bd1",
+  "position": {
+   "X": -1830,
+   "Y": 101,
+   "Z": -1763
+  },
+  "size": 27,
+  "uuid": [
+   -1198528790,
+   230903192,
+   -1759765901,
+   -1659864111
+  ],
+  "uuid_str": "b88fe6ea-0dc3-4d98-971c-1a739d107bd1"
+ }
+}

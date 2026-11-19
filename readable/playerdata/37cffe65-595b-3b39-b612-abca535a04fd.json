@@ -3,94 +3,20 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 0.08,
-   "Name": "forge:entity_gravity"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
-  },
-  {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
-  },
-  {
-   "Base": 0.5,
-   "Name": "epicfight:impact"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:mining_speed"
-  },
-  {
    "Base": 0.0,
    "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 4.0,
-   "Name": "minecraft:generic.attack_speed"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:armor_negation"
-  },
-  {
-   "Base": 20.0,
-   "Modifiers": [
-    {
-     "Amount": 8.0,
-     "Name": "health_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "minecraft:generic.max_health"
-  },
-  {
-   "Base": 4.5,
-   "Name": "forge:block_reach"
   },
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
   },
   {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
-   "Base": 1.0,
-   "Name": "minecraft:generic.attack_damage"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
+   "Name": "attributeslib:mining_speed"
   },
   {
    "Base": 15.0,
@@ -112,7 +38,81 @@
   },
   {
    "Base": 0.0,
+   "Name": "attributeslib:creative_flight"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
+  },
+  {
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 0.0,
    "Name": "attributeslib:armor_pierce"
+  },
+  {
+   "Base": 4.0,
+   "Name": "minecraft:generic.attack_speed"
+  },
+  {
+   "Base": 4.5,
+   "Name": "forge:block_reach"
+  },
+  {
+   "Base": 20.0,
+   "Modifiers": [
+    {
+     "Amount": 8.0,
+     "Name": "health_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "minecraft:generic.max_health"
+  },
+  {
+   "Base": 1.0,
+   "Name": "minecraft:generic.attack_damage"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 0.08,
+   "Name": "forge:entity_gravity"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
+  },
+  {
+   "Base": 0.5,
+   "Name": "epicfight:impact"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:armor_negation"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
   }
  ],
  "BalmData": {},
@@ -122,7 +122,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 80,
  "Dimension": "minecraft:the_nether",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -132,12 +132,12 @@
   "aether:aether_player": {
    "CanGetPortal": 0,
    "CanShowPatreonMessage": 1,
-   "CanSpawnInAether": 1,
+   "CanSpawnInAether": 0,
    "HasSeenSunSpirit": 0,
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 28.0
+   "SavedHealth": 0.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -494,21 +494,21 @@
    "dodge": "efn:efn_step",
    "guard": "efn:efn_parry",
    "learned:dodge": {
-    "0": "efn:efn_step",
-    "1": "efn:efn_dodge"
+    "0": "efn:efn_dodge",
+    "1": "efn:efn_step"
    },
    "learned:guard": {
     "0": "efn:efn_parry"
    },
    "learned:passive": {
-    "0": "dodge_parry_reward:heal3",
-    "1": "dodge_parry_reward:stamina1",
-    "2": "dodge_parry_reward:heal2",
-    "3": "wom:pain_anticipation",
-    "4": "dodge_parry_reward:absorb1",
-    "5": "wom:latent_retribution",
-    "6": "wom:mindset",
-    "7": "dodge_parry_reward:heal1"
+    "0": "wom:mindset",
+    "1": "wom:pain_anticipation",
+    "2": "dodge_parry_reward:heal1",
+    "3": "dodge_parry_reward:heal3",
+    "4": "dodge_parry_reward:heal2",
+    "5": "dodge_parry_reward:absorb1",
+    "6": "wom:latent_retribution",
+    "7": "dodge_parry_reward:stamina1"
    },
    "passive1": "dodge_parry_reward:absorb1",
    "passive2": "wom:pain_anticipation",
@@ -558,20 +558,24 @@
          {
           "children": [
            {
-            "name": "dodge_parry_reward:damage_boost4",
-            "state": "locked"
+            "name": "dodge_parry_reward:heal4",
+            "state": "unlockable"
            }
           ],
-          "name": "dodge_parry_reward:damage_boost3",
-          "state": "locked"
+          "name": "dodge_parry_reward:heal3",
+          "state": "unlocked"
          }
         ],
-        "name": "dodge_parry_reward:damage_boost2",
-        "state": "locked"
+        "name": "dodge_parry_reward:heal2",
+        "state": "unlocked"
        }
       ],
-      "name": "dodge_parry_reward:damage_boost1",
-      "state": "unlockable"
+      "name": "dodge_parry_reward:heal1",
+      "state": "unlocked"
+     },
+     {
+      "name": "tcrcore:fire_avoid",
+      "state": "unlocked"
      },
      {
       "children": [
@@ -580,24 +584,20 @@
          {
           "children": [
            {
-            "name": "dodge_parry_reward:stamina4",
+            "name": "dodge_parry_reward:speed4",
             "state": "locked"
            }
           ],
-          "name": "dodge_parry_reward:stamina3",
+          "name": "dodge_parry_reward:speed3",
           "state": "locked"
          }
         ],
-        "name": "dodge_parry_reward:stamina2",
-        "state": "unlockable"
+        "name": "dodge_parry_reward:speed2",
+        "state": "locked"
        }
       ],
-      "name": "dodge_parry_reward:stamina1",
-      "state": "unlocked"
-     },
-     {
-      "name": "tcrcore:water_avoid",
-      "state": "locked"
+      "name": "dodge_parry_reward:speed1",
+      "state": "unlockable"
      },
      {
       "children": [
@@ -644,8 +644,26 @@
       "state": "unlocked"
      },
      {
-      "name": "tcrcore:fire_avoid",
-      "state": "unlocked"
+      "children": [
+       {
+        "children": [
+         {
+          "children": [
+           {
+            "name": "dodge_parry_reward:resist4",
+            "state": "locked"
+           }
+          ],
+          "name": "dodge_parry_reward:resist3",
+          "state": "locked"
+         }
+        ],
+        "name": "dodge_parry_reward:resist2",
+        "state": "locked"
+       }
+      ],
+      "name": "dodge_parry_reward:resist1",
+      "state": "unlockable"
      },
      {
       "children": [
@@ -676,19 +694,19 @@
          {
           "children": [
            {
-            "name": "dodge_parry_reward:speed4",
+            "name": "dodge_parry_reward:damage_boost4",
             "state": "locked"
            }
           ],
-          "name": "dodge_parry_reward:speed3",
+          "name": "dodge_parry_reward:damage_boost3",
           "state": "locked"
          }
         ],
-        "name": "dodge_parry_reward:speed2",
+        "name": "dodge_parry_reward:damage_boost2",
         "state": "locked"
        }
       ],
-      "name": "dodge_parry_reward:speed1",
+      "name": "dodge_parry_reward:damage_boost1",
       "state": "unlockable"
      },
      {
@@ -698,42 +716,24 @@
          {
           "children": [
            {
-            "name": "dodge_parry_reward:resist4",
+            "name": "dodge_parry_reward:stamina4",
             "state": "locked"
            }
           ],
-          "name": "dodge_parry_reward:resist3",
+          "name": "dodge_parry_reward:stamina3",
           "state": "locked"
          }
         ],
-        "name": "dodge_parry_reward:resist2",
-        "state": "locked"
+        "name": "dodge_parry_reward:stamina2",
+        "state": "unlockable"
        }
       ],
-      "name": "dodge_parry_reward:resist1",
-      "state": "unlockable"
-     },
-     {
-      "children": [
-       {
-        "children": [
-         {
-          "children": [
-           {
-            "name": "dodge_parry_reward:heal4",
-            "state": "unlockable"
-           }
-          ],
-          "name": "dodge_parry_reward:heal3",
-          "state": "unlocked"
-         }
-        ],
-        "name": "dodge_parry_reward:heal2",
-        "state": "unlocked"
-       }
-      ],
-      "name": "dodge_parry_reward:heal1",
+      "name": "dodge_parry_reward:stamina1",
       "state": "unlocked"
+     },
+     {
+      "name": "tcrcore:water_avoid",
+      "state": "locked"
      }
     ],
     "state": "unlocked"
@@ -745,43 +745,7 @@
    "epicskills:battleborn": {
     "nodes": [
      {
-      "name": "efn:efn_step",
-      "state": "unlocked"
-     },
-     {
-      "name": "efn:efn_parry",
-      "state": "unlocked"
-     },
-     {
-      "name": "efn:stomp",
-      "state": "unlockable"
-     },
-     {
       "name": "epicfight:emergency_escape",
-      "state": "unlockable"
-     },
-     {
-      "name": "efn:efn_dodge",
-      "state": "unlocked"
-     },
-     {
-      "name": "tcrcore:perfect_dodge",
-      "state": "unlockable"
-     },
-     {
-      "name": "epicfight:forbidden_strength",
-      "state": "unlockable"
-     },
-     {
-      "name": "sword_soaring:sword_soaring_master",
-      "state": "locked"
-     },
-     {
-      "name": "efn:precise_parry",
-      "state": "unlockable"
-     },
-     {
-      "name": "efn:execution",
       "state": "unlockable"
      },
      {
@@ -803,8 +767,44 @@
       "state": "unlockable"
      },
      {
+      "name": "tcrcore:perfect_dodge",
+      "state": "unlockable"
+     },
+     {
+      "name": "efn:precise_parry",
+      "state": "unlockable"
+     },
+     {
+      "name": "efn:execution",
+      "state": "unlockable"
+     },
+     {
+      "name": "efn:stomp",
+      "state": "unlockable"
+     },
+     {
+      "name": "efn:efn_dodge",
+      "state": "unlocked"
+     },
+     {
+      "name": "epicfight:forbidden_strength",
+      "state": "unlockable"
+     },
+     {
+      "name": "sword_soaring:sword_soaring_master",
+      "state": "locked"
+     },
+     {
+      "name": "efn:efn_step",
+      "state": "unlocked"
+     },
+     {
       "name": "sword_soaring:sword_soaring_elytra_master",
       "state": "locked"
+     },
+     {
+      "name": "efn:efn_parry",
+      "state": "unlocked"
      }
     ],
     "state": "unlocked"
@@ -836,7 +836,7 @@
         "state": "locked"
        }
       ],
-      "name": "efs_iss:magic_sword",
+      "name": "efs_iss:rapid_chant",
       "state": "unlockable"
      },
      {
@@ -857,6 +857,16 @@
        }
       ],
       "name": "efs_iss:mana_shield",
+      "state": "unlockable"
+     },
+     {
+      "children": [
+       {
+        "name": "tcrcore:regen_mana",
+        "state": "locked"
+       }
+      ],
+      "name": "efs_iss:magic_sword",
       "state": "unlockable"
      },
      {
@@ -888,16 +898,6 @@
       ],
       "name": "efs_iss:hasty_casting",
       "state": "unlockable"
-     },
-     {
-      "children": [
-       {
-        "name": "tcrcore:regen_mana",
-        "state": "locked"
-       }
-      ],
-      "name": "efs_iss:rapid_chant",
-      "state": "unlockable"
      }
     ],
     "state": "unlocked"
@@ -912,6 +912,10 @@
      "wom:arrow_tenacity"
     ],
     "nodes": [
+     {
+      "name": "wom:dancing_blade",
+      "state": "locked"
+     },
      {
       "children": [
        {
@@ -1015,32 +1019,6 @@
        {
         "children": [
          {
-          "children": [
-           {
-            "name": "wom:voodoo_magic",
-            "state": "locked"
-           }
-          ],
-          "name": "wom:time_travel",
-          "state": "locked"
-         }
-        ],
-        "name": "wom:ender_obscuris",
-        "state": "locked"
-       }
-      ],
-      "name": "wom:ender_step",
-      "state": "locked"
-     },
-     {
-      "name": "wom:dancing_blade",
-      "state": "locked"
-     },
-     {
-      "children": [
-       {
-        "children": [
-         {
           "name": "wom:voodoo_magic",
           "state": "locked"
          }
@@ -1059,36 +1037,12 @@
      {
       "children": [
        {
-        "children": [
-         {
-          "name": "wom:voodoo_magic",
-          "state": "locked"
-         }
-        ],
-        "name": "wom:lunatic_vivacity",
-        "state": "locked"
-       }
-      ],
-      "name": "wom:dodge_master",
-      "state": "locked"
-     },
-     {
-      "children": [
-       {
         "name": "wom:bull_charge",
         "state": "locked"
        }
       ],
       "name": "wom:precise_roll",
       "state": "unlockable"
-     },
-     {
-      "name": "wom:shulker_cloak",
-      "state": "locked"
-     },
-     {
-      "name": "wom:arrow_tenacity",
-      "state": "unlocked"
      },
      {
       "children": [
@@ -1179,6 +1133,52 @@
       ],
       "name": "wom:shooting_style",
       "state": "locked"
+     },
+     {
+      "name": "wom:arrow_tenacity",
+      "state": "unlocked"
+     },
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "children": [
+           {
+            "name": "wom:voodoo_magic",
+            "state": "locked"
+           }
+          ],
+          "name": "wom:time_travel",
+          "state": "locked"
+         }
+        ],
+        "name": "wom:ender_obscuris",
+        "state": "locked"
+       }
+      ],
+      "name": "wom:ender_step",
+      "state": "locked"
+     },
+     {
+      "name": "wom:shulker_cloak",
+      "state": "locked"
+     },
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "name": "wom:voodoo_magic",
+          "state": "locked"
+         }
+        ],
+        "name": "wom:lunatic_vivacity",
+        "state": "locked"
+       }
+      ],
+      "name": "wom:dodge_master",
+      "state": "locked"
      }
     ],
     "state": "unlocked"
@@ -1264,6 +1264,7 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
+   "blessItem": "minecraft:air",
    "blessPos": {
     "X": 0,
     "Y": 0,
@@ -1398,10 +1399,478 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
    "backups": [
+    {
+     "reason": "auto",
+     "savedAt": 1327183,
+     "state": {
+      "autoBindTypeBlacklist": [],
+      "companionDeployedList": [],
+      "companionIndex": 0,
+      "companionWheelSlots": [],
+      "companions": [],
+      "deadCompanions": [],
+      "displayNames": [],
+      "homeNestBlocks": [],
+      "homePositions": [],
+      "lastKnownPositions": [
+       {
+        "position": {
+         "dimension": "minecraft:the_nether",
+         "x": 102.4,
+         "xRot": 40.0,
+         "y": 58.0,
+         "yRot": -171.822,
+         "z": -136.4
+        },
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "mountDeployedList": [],
+      "mountEligible": [
+       {
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "mountIndex": 0,
+      "mountWheelSlots": [],
+      "mounts": [
+       {
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "origins": [
+       {
+        "position": {
+         "dimension": "minecraft:the_nether",
+         "x": 105.5,
+         "xRot": -4.65,
+         "y": 42.0,
+         "yRot": -4.4219,
+         "z": -393.5
+        },
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "storedEntities": [
+       {
+        "entity": {
+         "AbsorptionAmount": 0.0,
+         "AccumulatedRoll": 0.0,
+         "ActiveEffects": [
+          {
+           "Ambient": 1,
+           "Amplifier": 0,
+           "CurativeItems": [
+            {
+             "Count": 1,
+             "id": "minecraft:milk_bucket"
+            }
+           ],
+           "Duration": 2147424999,
+           "Id": 12,
+           "ShowIcon": 1,
+           "ShowParticles": 1,
+           "forge:id": "minecraft:fire_resistance"
+          }
+         ],
+         "AffectionMap": {
+          "37cffe65-595b-3b39-b612-abca535a04fd": 1000
+         },
+         "Age": 0,
+         "Air": 300,
+         "ArmorDropChances": [
+          0.085,
+          0.085,
+          0.085,
+          0.085
+         ],
+         "ArmorItems": [
+          {},
+          {},
+          {},
+          {}
+         ],
+         "Attributes": [
+          {
+           "Base": 1.3696,
+           "Name": "minecraft:generic.flying_speed"
+          },
+          {
+           "Base": 140.0,
+           "Name": "minecraft:generic.max_health"
+          },
+          {
+           "Base": 0.08,
+           "Name": "forge:entity_gravity"
+          },
+          {
+           "Base": 0.0,
+           "Name": "forge:step_height_addition"
+          },
+          {
+           "Base": 0.2212,
+           "Name": "minecraft:generic.movement_speed"
+          },
+          {
+           "Base": 10.752,
+           "Name": "minecraft:generic.attack_damage"
+          },
+          {
+           "Base": 0.0,
+           "Name": "epicfight:stun_armor"
+          },
+          {
+           "Base": 8.688,
+           "Name": "minecraft:generic.armor"
+          },
+          {
+           "Base": 1.0,
+           "Name": "forge:swim_speed"
+          },
+          {
+           "Base": 0.3376,
+           "Name": "minecraft:generic.knockback_resistance"
+          }
+         ],
+         "AwaitingTamingRitual": 0,
+         "BalmData": {},
+         "Brain": {
+          "memories": {}
+         },
+         "CanPickUpLoot": 0,
+         "CanUpdate": 1,
+         "CitadelData": {},
+         "Command": 2,
+         "CompanionPreviewDepth": 1.9,
+         "CompanionPreviewHeight": 2.6,
+         "CompanionPreviewWidth": 1.9,
+         "CompanionRescueArmor": 8,
+         "CompanionRescueHealth": 140.0,
+         "CompanionRescueMaxHealth": 140.0,
+         "CompanionRescueName": "Night Fury",
+         "CompanionRescueStoredAt": 1192543,
+         "CompanionRescueType": "bookofdragons:nightfury",
+         "DeathTime": 0,
+         "DragonDataVersion": 1,
+         "DragonIsRolling": 0,
+         "DragonRoll": 0.0,
+         "EatingTicks": 0,
+         "EntityArtVersion": 1,
+         "FallDistance": 0.0,
+         "FallFlying": 0,
+         "Fire": 0,
+         "ForcedAge": 0,
+         "ForgeCaps": {
+          "aether:mob_accessory": {
+           "DropChances": {
+            "aether_gloves": 0.085,
+            "aether_pendant": 0.085,
+            "hands": 0.085,
+            "necklace": 0.085
+           }
+          },
+          "cataclysm:charge_cap": {
+           "ChargeDamage": 0.0,
+           "ChargeTime": 0,
+           "KnockbackSpeed": 0.0,
+           "dx": 0.0,
+           "dz": 0.0,
+           "isCharge": 0,
+           "timer": 0
+          },
+          "cataclysm:hook_cap": {
+           "hasHook": 0
+          },
+          "cataclysm:parry_cap": {
+           "frame": 0
+          },
+          "cataclysm:render_rush_cap": {
+           "damage": 0.0,
+           "isRush": 0,
+           "timer": 0
+          },
+          "cataclysm:tentacle_cap": {
+           "getLastTentacleID": 0,
+           "hasTentacle": 0
+          },
+          "curios:inventory": {
+           "Curios": []
+          },
+          "mowziesmobs:ability": {},
+          "mowziesmobs:frozen": {
+           "freezeDecayDelay": 0,
+           "freezeProgress": 0.0,
+           "frozen": 0,
+           "frozenPitch": 0.0,
+           "frozenRenderYawOffset": 0.0,
+           "frozenSwingProgress": 0.0,
+           "frozenWalkAnimPosition": 0.0,
+           "frozenWalkAnimSpeed": 0.0,
+           "frozenYaw": 0.0,
+           "frozenYawHead": 0.0,
+           "prevFrozen": 0,
+           "prevHasAI": 1
+          },
+          "mowziesmobs:frozen_cap": {
+           "freezeDecayDelay": 0,
+           "freezeProgress": 0.0,
+           "frozen": 0,
+           "frozenPitch": 0.0,
+           "frozenRenderYawOffset": 0.0,
+           "frozenSwingProgress": 0.0,
+           "frozenWalkAnimPosition": 0.0,
+           "frozenWalkAnimSpeed": 0.0,
+           "frozenYaw": 0.0,
+           "frozenYawHead": 0.0,
+           "prevFrozen": 0,
+           "prevHasAI": 1
+          },
+          "mowziesmobs:last_damage": {},
+          "mowziesmobs:living_cap": {},
+          "structure_gel:gel_entity": {
+           "portal": "structure_gel:empty"
+          }
+         },
+         "ForgeData": {},
+         "Genetics": {
+          "Genotype": "<258 bytes>",
+          "PaletteDraws": {
+           "Draws": [
+            6953557825234395046,
+            5260204366869865266,
+            5278218765379347250,
+            8673932882889924518,
+            3494793311202810391,
+            3512807711450112818,
+            8646911285125701542,
+            -1702360657494287249,
+            -8043428933909356634,
+            -8070450531673579610,
+            -1729382256335921242,
+            6980579422998618022,
+            576460754404549426,
+            603482352168772402,
+            2323857408733486066,
+            -6341068271223316815,
+            -2269814210093604046,
+            8106479329841242022,
+            -6323053872713834831,
+            -2242792612329381070,
+            2314850208587923310,
+            8124493728350724006,
+            5224175569850901298,
+            5251197167615124274,
+            8700954480654147494,
+            8682940082144665510,
+            1783425456194207154,
+            1765411057683801649,
+            -1693353459316957274,
+            -1666331861552734298,
+            -8646911283977003098,
+            -8619889684794861612,
+            -2305843007112568014,
+            -6881500229764998808,
+            -2278821407691209675,
+            2359886206153470539,
+            2341871806355840370,
+            -6863485831256440345,
+            4080261263817718034,
+            5206161171341419314,
+            4089268461997167896,
+            5188146771080186525,
+            1747396657520878386,
+            1729382259011396402,
+            4629700417281627416,
+            4611686018772145432,
+            1197957502709223269,
+            1206964700404063250,
+            7512004181235948021,
+            -8610882486958039130,
+            2101125938,
+            -8583860889193816154,
+            27021599865348914,
+            -6890507429302509658,
+            5296233163887905713,
+            -6917529027066732634,
+            7502996981981207029,
+            2882303763618243378,
+            3476778914814529324,
+            3458764516302276777,
+            5323254761653052210,
+            2909325361382466354,
+            4035225266468721944,
+            4062246867650142777,
+            -7475975380945596776,
+            -7484982580200337768,
+            1170935903384175761,
+            5782621921888474392,
+            5764607523378992408,
+            -8016407336145133658,
+            6917529029291918574,
+            1152921504874693777,
+            6935543426724913062,
+            639511149187736370,
+            -8034421734654615642,
+            612489551423513394,
+            8070450532822278054,
+            8088464932019221337,
+            7548032978253988468,
+            7530018579744506484
+           ]
+          },
+          "Species": "nightfury"
+         },
+         "GrowthProgress": 9400,
+         "GrowthStage": 2,
+         "HandDropChances": [
+          0.085,
+          0.085
+         ],
+         "HandItems": [
+          {},
+          {}
+         ],
+         "HasClearAirspace": 0,
+         "HasConsumedFood": 0,
+         "Health": 140.0,
+         "HurtByTimestamp": 473,
+         "HurtTime": 0,
+         "InLove": 0,
+         "InSittingPose": 0,
+         "Inventory": [
+          {
+           "Count": 1,
+           "Slot": 0,
+           "id": "minecraft:saddle"
+          }
+         ],
+         "Invisible": 0,
+         "Invulnerable": 0,
+         "IsAlpha": 0,
+         "IsDoingAerialAttack": 0,
+         "IsFreeLooking": 0,
+         "IsFromTamedParents": 0,
+         "IsGoingDown": 0,
+         "IsOnSolidGround": 1,
+         "IsRoaring": 0,
+         "IsSitting": 0,
+         "LayerMood": 2,
+         "LayerMotion": 0,
+         "LayerStance": 0,
+         "LeftHanded": 0,
+         "MountTime": 0,
+         "NoAI": 0,
+         "NoGravity": 0,
+         "OAH_BreathCooldown": 0,
+         "OAH_CurrentFuel": 0,
+         "OAH_FullRechargeCooldown": 0,
+         "OAH_PendingScale": 0.0,
+         "OnGround": 1,
+         "OrderedToSit": 0,
+         "Owner": [
+          936377957,
+          1499151161,
+          -1240290358,
+          1398408445
+         ],
+         "PH_SmoothedEntityPitch": 0.0,
+         "PH_SmoothedMovementYaw": 1628.178,
+         "PH_UnwrappedMovementYaw": 1628.178,
+         "PH_UnwrappedRoll": 0.0,
+         "PH_UnwrappedYaw": 2708.178,
+         "PersistenceRequired": 1,
+         "Personality": 0,
+         "PortalCooldown": 0,
+         "Pos": [
+          102.4,
+          58.0,
+          -136.4
+         ],
+         "RoostX": 210,
+         "RoostY": 73,
+         "RoostZ": -673,
+         "Rotation": [
+          -171.822,
+          40.0
+         ],
+         "SeatLocked": 1,
+         "SecondaryAbility": "lightning_strike",
+         "ShearingCooldown": 0,
+         "ShouldDoAerialAttack": 0,
+         "Sitting": 0,
+         "SittingPose": 0,
+         "SmoothedPitch": 0.0,
+         "SmoothedRoll": 0.0,
+         "SpawnScaleTicks": 1,
+         "TamingRitualCompleted": 1,
+         "TamingRitualTimer": 0,
+         "ThrottleLevel": 0.0,
+         "TransportMode": 0,
+         "UUID": [
+          -316269812,
+          593383161,
+          -1800086921,
+          760723722
+         ],
+         "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
+         "UseGroundNav": 1,
+         "Variant": 0,
+         "dragonNeeds": {
+          "exhaustionLevel": 0.5631,
+          "foodLevel": 18,
+          "saturationLevel": 0.0,
+          "tickTimer": 0
+         },
+         "dragonStamina": {
+          "regenPauseTicks": 0
+         },
+         "id": "bookofdragons:nightfury"
+        },
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "vehicleIndex": 0,
+      "vehicleMounts": [],
+      "vehicleWheelSlots": [],
+      "vehicleWheelSlotsConfigured": 1,
+      "vehicles": []
+     }
+    },
     {
      "reason": "auto",
      "savedAt": 1289800,
@@ -3736,473 +4205,6 @@
       "vehicleWheelSlotsConfigured": 1,
       "vehicles": []
      }
-    },
-    {
-     "reason": "auto",
-     "savedAt": 1109421,
-     "state": {
-      "autoBindTypeBlacklist": [],
-      "companionDeployedList": [],
-      "companionIndex": 0,
-      "companionWheelSlots": [],
-      "companions": [],
-      "deadCompanions": [],
-      "displayNames": [],
-      "homeNestBlocks": [],
-      "homePositions": [],
-      "lastKnownPositions": [
-       {
-        "position": {
-         "dimension": "minecraft:the_nether",
-         "x": -1732.4178,
-         "xRot": 8.2766,
-         "y": 86.0,
-         "yRot": -63.3409,
-         "z": -1670.1264
-        },
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "mountDeployedList": [],
-      "mountEligible": [
-       {
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "mountIndex": 0,
-      "mountWheelSlots": [],
-      "mounts": [
-       {
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "origins": [
-       {
-        "position": {
-         "dimension": "minecraft:the_nether",
-         "x": 135.5,
-         "xRot": 11.3425,
-         "y": 39.0,
-         "yRot": 37.687,
-         "z": -314.5
-        },
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "storedEntities": [
-       {
-        "entity": {
-         "AbsorptionAmount": 0.0,
-         "AccumulatedRoll": 0.0,
-         "ActiveEffects": [
-          {
-           "Ambient": 1,
-           "Amplifier": 0,
-           "CurativeItems": [
-            {
-             "Count": 1,
-             "id": "minecraft:milk_bucket"
-            }
-           ],
-           "Duration": 2147434399,
-           "Id": 12,
-           "ShowIcon": 1,
-           "ShowParticles": 1,
-           "forge:id": "minecraft:fire_resistance"
-          }
-         ],
-         "AffectionMap": {
-          "37cffe65-595b-3b39-b612-abca535a04fd": 1000
-         },
-         "Age": 0,
-         "Air": 300,
-         "ArmorDropChances": [
-          0.085,
-          0.085,
-          0.085,
-          0.085
-         ],
-         "ArmorItems": [
-          {},
-          {},
-          {},
-          {}
-         ],
-         "Attributes": [
-          {
-           "Base": 1.3696,
-           "Name": "minecraft:generic.flying_speed"
-          },
-          {
-           "Base": 140.0,
-           "Name": "minecraft:generic.max_health"
-          },
-          {
-           "Base": 0.08,
-           "Name": "forge:entity_gravity"
-          },
-          {
-           "Base": 0.0,
-           "Name": "forge:step_height_addition"
-          },
-          {
-           "Base": 0.2212,
-           "Name": "minecraft:generic.movement_speed"
-          },
-          {
-           "Base": 10.752,
-           "Name": "minecraft:generic.attack_damage"
-          },
-          {
-           "Base": 0.0,
-           "Name": "epicfight:stun_armor"
-          },
-          {
-           "Base": 8.688,
-           "Name": "minecraft:generic.armor"
-          },
-          {
-           "Base": 1.0,
-           "Name": "forge:swim_speed"
-          },
-          {
-           "Base": 0.3376,
-           "Name": "minecraft:generic.knockback_resistance"
-          }
-         ],
-         "AwaitingTamingRitual": 0,
-         "BalmData": {},
-         "Brain": {
-          "memories": {}
-         },
-         "CanPickUpLoot": 0,
-         "CanUpdate": 1,
-         "CitadelData": {},
-         "Command": 2,
-         "CompanionPreviewDepth": 1.9,
-         "CompanionPreviewHeight": 2.6,
-         "CompanionPreviewWidth": 1.9,
-         "CompanionRescueArmor": 8,
-         "CompanionRescueHealth": 140.0,
-         "CompanionRescueMaxHealth": 140.0,
-         "CompanionRescueName": "Night Fury",
-         "CompanionRescueStoredAt": 1101454,
-         "CompanionRescueType": "bookofdragons:nightfury",
-         "DeathTime": 0,
-         "DragonDataVersion": 1,
-         "DragonIsRolling": 0,
-         "DragonRoll": 0.0,
-         "EatingTicks": 0,
-         "EntityArtVersion": 1,
-         "FallDistance": 0.0,
-         "FallFlying": 0,
-         "Fire": 0,
-         "ForcedAge": 0,
-         "ForgeCaps": {
-          "aether:mob_accessory": {
-           "DropChances": {
-            "aether_gloves": 0.085,
-            "aether_pendant": 0.085,
-            "hands": 0.085,
-            "necklace": 0.085
-           }
-          },
-          "cataclysm:charge_cap": {
-           "ChargeDamage": 0.0,
-           "ChargeTime": 0,
-           "KnockbackSpeed": 0.0,
-           "dx": 0.0,
-           "dz": 0.0,
-           "isCharge": 0,
-           "timer": 0
-          },
-          "cataclysm:hook_cap": {
-           "hasHook": 0
-          },
-          "cataclysm:parry_cap": {
-           "frame": 0
-          },
-          "cataclysm:render_rush_cap": {
-           "damage": 0.0,
-           "isRush": 0,
-           "timer": 0
-          },
-          "cataclysm:tentacle_cap": {
-           "getLastTentacleID": 0,
-           "hasTentacle": 0
-          },
-          "curios:inventory": {
-           "Curios": []
-          },
-          "mowziesmobs:ability": {},
-          "mowziesmobs:frozen": {
-           "freezeDecayDelay": 0,
-           "freezeProgress": 0.0,
-           "frozen": 0,
-           "frozenPitch": 0.0,
-           "frozenRenderYawOffset": 0.0,
-           "frozenSwingProgress": 0.0,
-           "frozenWalkAnimPosition": 0.0,
-           "frozenWalkAnimSpeed": 0.0,
-           "frozenYaw": 0.0,
-           "frozenYawHead": 0.0,
-           "prevFrozen": 0,
-           "prevHasAI": 1
-          },
-          "mowziesmobs:frozen_cap": {
-           "freezeDecayDelay": 0,
-           "freezeProgress": 0.0,
-           "frozen": 0,
-           "frozenPitch": 0.0,
-           "frozenRenderYawOffset": 0.0,
-           "frozenSwingProgress": 0.0,
-           "frozenWalkAnimPosition": 0.0,
-           "frozenWalkAnimSpeed": 0.0,
-           "frozenYaw": 0.0,
-           "frozenYawHead": 0.0,
-           "prevFrozen": 0,
-           "prevHasAI": 1
-          },
-          "mowziesmobs:last_damage": {},
-          "mowziesmobs:living_cap": {},
-          "structure_gel:gel_entity": {
-           "portal": "structure_gel:empty"
-          }
-         },
-         "ForgeData": {},
-         "Genetics": {
-          "Genotype": "<258 bytes>",
-          "PaletteDraws": {
-           "Draws": [
-            6953557825234395046,
-            5260204366869865266,
-            5278218765379347250,
-            8673932882889924518,
-            3494793311202810391,
-            3512807711450112818,
-            8646911285125701542,
-            -1702360657494287249,
-            -8043428933909356634,
-            -8070450531673579610,
-            -1729382256335921242,
-            6980579422998618022,
-            576460754404549426,
-            603482352168772402,
-            2323857408733486066,
-            -6341068271223316815,
-            -2269814210093604046,
-            8106479329841242022,
-            -6323053872713834831,
-            -2242792612329381070,
-            2314850208587923310,
-            8124493728350724006,
-            5224175569850901298,
-            5251197167615124274,
-            8700954480654147494,
-            8682940082144665510,
-            1783425456194207154,
-            1765411057683801649,
-            -1693353459316957274,
-            -1666331861552734298,
-            -8646911283977003098,
-            -8619889684794861612,
-            -2305843007112568014,
-            -6881500229764998808,
-            -2278821407691209675,
-            2359886206153470539,
-            2341871806355840370,
-            -6863485831256440345,
-            4080261263817718034,
-            5206161171341419314,
-            4089268461997167896,
-            5188146771080186525,
-            1747396657520878386,
-            1729382259011396402,
-            4629700417281627416,
-            4611686018772145432,
-            1197957502709223269,
-            1206964700404063250,
-            7512004181235948021,
-            -8610882486958039130,
-            2101125938,
-            -8583860889193816154,
-            27021599865348914,
-            -6890507429302509658,
-            5296233163887905713,
-            -6917529027066732634,
-            7502996981981207029,
-            2882303763618243378,
-            3476778914814529324,
-            3458764516302276777,
-            5323254761653052210,
-            2909325361382466354,
-            4035225266468721944,
-            4062246867650142777,
-            -7475975380945596776,
-            -7484982580200337768,
-            1170935903384175761,
-            5782621921888474392,
-            5764607523378992408,
-            -8016407336145133658,
-            6917529029291918574,
-            1152921504874693777,
-            6935543426724913062,
-            639511149187736370,
-            -8034421734654615642,
-            612489551423513394,
-            8070450532822278054,
-            8088464932019221337,
-            7548032978253988468,
-            7530018579744506484
-           ]
-          },
-          "Species": "nightfury"
-         },
-         "GrowthProgress": 9400,
-         "GrowthStage": 2,
-         "HandDropChances": [
-          0.085,
-          0.085
-         ],
-         "HandItems": [
-          {},
-          {}
-         ],
-         "HasClearAirspace": 1,
-         "HasConsumedFood": 0,
-         "Health": 140.0,
-         "HurtByTimestamp": 3926,
-         "HurtTime": 0,
-         "InLove": 0,
-         "InSittingPose": 0,
-         "Inventory": [
-          {
-           "Count": 1,
-           "Slot": 0,
-           "id": "minecraft:saddle"
-          }
-         ],
-         "Invisible": 0,
-         "Invulnerable": 0,
-         "IsAlpha": 0,
-         "IsDoingAerialAttack": 0,
-         "IsFreeLooking": 0,
-         "IsFromTamedParents": 0,
-         "IsGoingDown": 0,
-         "IsOnSolidGround": 1,
-         "IsRoaring": 0,
-         "IsSitting": 0,
-         "LayerMood": 2,
-         "LayerMotion": 2,
-         "LayerStance": 0,
-         "LeftHanded": 0,
-         "MountTime": 0,
-         "NoAI": 0,
-         "NoGravity": 0,
-         "OAH_BreathCooldown": 0,
-         "OAH_CurrentFuel": 0,
-         "OAH_FullRechargeCooldown": 0,
-         "OAH_PendingScale": 0.0,
-         "OnGround": 1,
-         "OrderedToSit": 0,
-         "Owner": [
-          936377957,
-          1499151161,
-          -1240290358,
-          1398408445
-         ],
-         "PH_SmoothedEntityPitch": -0.0,
-         "PH_SmoothedMovementYaw": 2096.6146,
-         "PH_UnwrappedMovementYaw": 2096.6146,
-         "PH_UnwrappedRoll": 0.0,
-         "PH_UnwrappedYaw": 2816.6591,
-         "PersistenceRequired": 1,
-         "Personality": 0,
-         "PortalCooldown": 0,
-         "Pos": [
-          -1732.4178,
-          86.0,
-          -1670.1264
-         ],
-         "RoostX": 210,
-         "RoostY": 73,
-         "RoostZ": -673,
-         "Rotation": [
-          -63.3409,
-          8.2766
-         ],
-         "SeatLocked": 1,
-         "SecondaryAbility": "lightning_strike",
-         "ShearingCooldown": 0,
-         "ShouldDoAerialAttack": 0,
-         "Sitting": 0,
-         "SittingPose": 0,
-         "SmoothedPitch": 0.0,
-         "SmoothedRoll": 0.0,
-         "SpawnScaleTicks": 1,
-         "TamingRitualCompleted": 1,
-         "TamingRitualTimer": 0,
-         "ThrottleLevel": 0.0,
-         "TransportMode": 0,
-         "UUID": [
-          -316269812,
-          593383161,
-          -1800086921,
-          760723722
-         ],
-         "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-         "UseGroundNav": 1,
-         "Variant": 0,
-         "dragonNeeds": {
-          "exhaustionLevel": 1.1973,
-          "foodLevel": 27,
-          "saturationLevel": 0.0,
-          "tickTimer": 0
-         },
-         "dragonStamina": {
-          "regenPauseTicks": 0
-         },
-         "id": "bookofdragons:nightfury"
-        },
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "vehicleIndex": 0,
-      "vehicleMounts": [],
-      "vehicleWheelSlots": [],
-      "vehicleWheelSlotsConfigured": 1,
-      "vehicles": []
-     }
     }
    ],
    "companionDeployedList": [],
@@ -4677,10 +4679,10 @@
   "ua_rs_active_until": 1317658,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1317603
+  "ua_tabi_last_dash": 1329003
  },
- "Health": 28.0,
- "HurtByTimestamp": 9206,
+ "Health": 0.0,
+ "HurtByTimestamp": 3019,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5010,9 +5012,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_nether",
   "pos": [
-   -1825,
+   -1826,
    85,
-   -1775
+   -1771
   ]
  },
  "Motion": [
@@ -5023,15 +5025,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1820.206,
+  -1826.2834,
   85.0,
-  -1768.964
+  -1769.8772
  ],
  "Rotation": [
-  4.4717,
-  57.2552
+  -136.4333,
+  0.0
  ],
- "Score": 3788,
+ "Score": 3819,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 55.2559,
@@ -5040,9 +5042,6 @@
  "SpawnX": -2883,
  "SpawnY": 30,
  "SpawnZ": 56,
- "Tags": [
-  "wom_health_fix:28.0"
- ],
  "UUID": [
   936377957,
   1499151161,
@@ -5050,10 +5049,10 @@
   1398408445
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
- "XpLevel": 39,
- "XpP": 0.9275,
+ "XpLevel": 40,
+ "XpP": 0.0842,
  "XpSeed": -736053570,
- "XpTotal": 3788,
+ "XpTotal": 3819,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5063,7 +5062,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.941,
+ "foodExhaustionLevel": 2.791,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5082,7 +5081,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14806,10 +14804,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5181,
+  "ticks_since_last_warning": 8230,
   "warning_level": 0
  }
 }
