@@ -39344,11 +39344,11 @@
       {
        "position": {
         "dimension": "tcrcore:sanctum",
-        "x": 62.0326,
-        "xRot": -14.6405,
+        "x": 71.8717,
+        "xRot": -30.0,
         "y": 73.0,
-        "yRot": -136.939,
-        "z": -165.9998
+        "yRot": -42.839,
+        "z": -147.1618
        },
        "uuid": [
         -644884357,
@@ -39419,7 +39419,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147358760,
+          "Duration": 2147354538,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -39445,32 +39445,32 @@
         ],
         "Attributes": [
          {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
-         },
-         {
           "Base": 0.1777,
           "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 220.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 13.2,
-          "Name": "minecraft:generic.armor"
-         },
-         {
           "Base": 8.8,
           "Name": "minecraft:generic.attack_damage"
          },
          {
-          "Base": 0.24,
-          "Name": "minecraft:generic.knockback_resistance"
+          "Base": 13.2,
+          "Name": "minecraft:generic.armor"
          },
          {
           "Base": 0.08,
           "Name": "forge:entity_gravity"
+         },
+         {
+          "Base": 0.24,
+          "Name": "minecraft:generic.knockback_resistance"
          },
          {
           "Base": 1.0216,
@@ -39502,10 +39502,10 @@
         "CompanionPreviewHeight": 2.5,
         "CompanionPreviewWidth": 2.88,
         "CompanionRescueArmor": 13,
-        "CompanionRescueHealth": 198.6435,
+        "CompanionRescueHealth": 198.6304,
         "CompanionRescueMaxHealth": 220.0,
         "CompanionRescueName": "Hiddeous Zippleback",
-        "CompanionRescueStoredAt": 1479790,
+        "CompanionRescueStoredAt": 1484899,
         "CompanionRescueType": "bookofdragons:hiddeous_zippleback",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -39611,8 +39611,8 @@
         ],
         "HasClearAirspace": 1,
         "HasConsumedFood": 0,
-        "Health": 198.6435,
-        "HurtByTimestamp": 11841,
+        "Health": 198.6304,
+        "HurtByTimestamp": 922,
         "HurtTime": 0,
         "InLove": 0,
         "InSittingPose": 0,
@@ -39653,21 +39653,21 @@
          -1580186985
         ],
         "PH_SmoothedEntityPitch": 0.0,
-        "PH_SmoothedMovementYaw": 11383.0084,
-        "PH_UnwrappedMovementYaw": 11383.0084,
+        "PH_SmoothedMovementYaw": 11118.6307,
+        "PH_UnwrappedMovementYaw": 11118.6307,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 12463.061,
+        "PH_UnwrappedYaw": 12557.161,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         62.0326,
+         71.8717,
          73.0,
-         -165.9998
+         -147.1618
         ],
         "Rotation": [
-         -136.939,
-         -14.6405
+         -42.839,
+         -30.0
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "gas_ignite",
@@ -39692,10 +39692,10 @@
         "UseGroundNav": 1,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 2.0429,
+         "exhaustionLevel": 1.9756,
          "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 14
+         "tickTimer": 76
         },
         "dragonStamina": {
          "regenPauseTicks": 0
@@ -42900,7 +42900,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147405556,
+          "Duration": 2147401341,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -42926,32 +42926,32 @@
         ],
         "Attributes": [
          {
-          "Base": 0.2212,
-          "Name": "minecraft:generic.movement_speed"
-         },
-         {
           "Base": 0.0,
           "Name": "forge:step_height_addition"
+         },
+         {
+          "Base": 0.2212,
+          "Name": "minecraft:generic.movement_speed"
          },
          {
           "Base": 140.0,
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 8.688,
-          "Name": "minecraft:generic.armor"
-         },
-         {
           "Base": 10.752,
           "Name": "minecraft:generic.attack_damage"
          },
          {
-          "Base": 0.3376,
-          "Name": "minecraft:generic.knockback_resistance"
+          "Base": 8.688,
+          "Name": "minecraft:generic.armor"
          },
          {
           "Base": 0.08,
           "Name": "forge:entity_gravity"
+         },
+         {
+          "Base": 0.3376,
+          "Name": "minecraft:generic.knockback_resistance"
          },
          {
           "Base": 1.3696,
@@ -42982,7 +42982,7 @@
         "CompanionRescueHealth": 140.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 1479793,
+        "CompanionRescueStoredAt": 1484899,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,

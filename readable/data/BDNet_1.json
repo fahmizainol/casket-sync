@@ -4261,7 +4261,7 @@
      }
     },
     {
-     "amount": 245,
+     "amount": 246,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -5388,15 +5388,6 @@
        "tag": {
         "Potion": "minecraft:long_turtle_master"
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 11,
-     "key": {
-      "stack": {
-       "item": "minecraft:experience_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
