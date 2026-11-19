@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    8987158809117392253,
-    -9011741847587248715
+    -341589599070519395,
+    -7440684013059823279
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -4432902370818662422,
-    9215882407123114115
+    -8711571394982284696,
+    -952738010320492756
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    8513977534810658208,
-    -8547271798160198845
+    3455586359883204810,
+    -8536426382904715276
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -41046403040190496,
-    -5169806155820002553
+    7457428720650763072,
+    7957508467432795882
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    4811435699645410631,
-    -4758082401637946290
+    7317372669372246337,
+    -6793328012579812465
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -7487606636668574412,
-    -4125365534100076354
+    -6470731232196269226,
+    4459604707026718937
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -399,8 +399,8 @@
   },
   "minecraft:blocks/blackstone": {
    "source": [
-    -6028877682864979959,
-    -8234057800957977852
+    -3016165902303283690,
+    -1408217449532293637
    ]
   },
   "minecraft:blocks/blackstone_stairs": {
@@ -411,8 +411,8 @@
   },
   "minecraft:blocks/blackstone_wall": {
    "source": [
-    8404032216366688547,
-    6970203291410658414
+    5535704065023684418,
+    -2590167061665581587
    ]
   },
   "minecraft:blocks/blast_furnace": {
@@ -1125,14 +1125,14 @@
   },
   "minecraft:blocks/polished_blackstone_brick_wall": {
    "source": [
-    -8094833770181040683,
-    -4253637555624925803
+    7145307425062428713,
+    4299281504958972955
    ]
   },
   "minecraft:blocks/polished_blackstone_bricks": {
    "source": [
-    -844662805090578207,
-    -7532838504529454239
+    -558552625823287093,
+    7209988739794065325
    ]
   },
   "minecraft:blocks/polished_blackstone_stairs": {
@@ -1767,8 +1767,8 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    6336348718844575118,
-    5341122165351757130
+    -6426609363584562240,
+    5429103918944220089
    ]
   },
   "minecraft:entities/piglin_brute": {
@@ -1785,8 +1785,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -6912378281522637294,
-    -5272753683944321140
+    2641175309617719184,
+    7789080367089070173
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1821,8 +1821,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    2519981940253910805,
-    2174941758522159443
+    -1456807880125377826,
+    -7468487815093593235
    ]
   },
   "minecraft:entities/slime": {
@@ -1839,8 +1839,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -9027872701070440232,
-    -7573567097112682529
+    224268312161752473,
+    -149987959258262455
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -1881,8 +1881,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    6568996097807861922,
-    -258682096197223397
+    -3395245236517661910,
+    -937480652206975819
    ]
   },
   "minecraft:entities/zombie_villager": {

@@ -1,7 +1,28 @@
 {
  "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 18,
+   "Id": 5,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:strength"
+  }
+ ],
  "Air": 300,
  "Attributes": [
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
   {
    "Base": 0.1,
    "Name": "minecraft:generic.movement_speed"
@@ -76,6 +97,20 @@
   },
   {
    "Base": 1.0,
+   "Modifiers": [
+    {
+     "Amount": 6.0,
+     "Name": "effect.minecraft.strength 1",
+     "Operation": 0,
+     "UUID": [
+      1686990948,
+      1784696665,
+      -1967209790,
+      980277161
+     ],
+     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
+    }
+   ],
    "Name": "minecraft:generic.attack_damage"
   },
   {
@@ -119,7 +154,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "minecraft:the_nether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1224,7 +1259,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4384,52 +4419,21 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1361319,
+  "ua_rs_active_until": 1371868,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1363011,
-  "ua_shiny_last_x": 259.9026,
-  "ua_shiny_last_y": 63.0,
-  "ua_shiny_last_z": -1773.8147,
-  "ua_tabi_last_dash": 1361119
+  "ua_shiny_last_active": 1372087,
+  "ua_shiny_last_x": 99.9411,
+  "ua_shiny_last_y": 35.0,
+  "ua_shiny_last_z": -406.3249
  },
- "Health": 28.0,
- "HurtByTimestamp": 0,
+ "Health": 24.6,
+ "HurtByTimestamp": 227,
  "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
    "Slot": 0,
-   "id": "efn:nf_dual_sword",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ]
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 1,
    "id": "tcrcore:cinderwyrm",
    "tag": {
     "Damage": 0,
@@ -4453,6 +4457,36 @@
      {
       "id": "minecraft:fire_aspect",
       "lvl": 2
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 1,
+   "id": "efn:nf_dual_sword",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:sweeping",
+      "lvl": 3
      }
     ]
    }
@@ -4509,6 +4543,11 @@
    }
   },
   {
+   "Count": 2,
+   "Slot": 5,
+   "id": "minecraft:arrow"
+  },
+  {
    "Count": 19,
    "Slot": 6,
    "id": "waystones:waystone"
@@ -4545,14 +4584,6 @@
   },
   {
    "Count": 1,
-   "Slot": 13,
-   "id": "minecraft:golden_chestplate",
-   "tag": {
-    "Damage": 0
-   }
-  },
-  {
-   "Count": 1,
    "Slot": 14,
    "id": "minecraft:red_nether_bricks"
   },
@@ -4570,6 +4601,37 @@
    "Count": 1,
    "Slot": 17,
    "id": "minecraft:quartz_slab"
+  },
+  {
+   "Count": 1,
+   "Slot": 18,
+   "id": "magistuarmory:rustedchainmail_boots",
+   "tag": {
+    "Damage": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 19,
+   "id": "minecraft:bone"
+  },
+  {
+   "Count": 1,
+   "Slot": 20,
+   "id": "minecraft:iron_ingot"
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "domesticationinnovation:blight_curse",
+      "lvl": 1
+     }
+    ]
+   }
   },
   {
    "Count": 11,
@@ -4681,9 +4743,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_nether",
   "pos": [
-   114,
+   105,
    35,
-   -409
+   -411
   ]
  },
  "Motion": [
@@ -4694,16 +4756,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  259.9026,
-  63.0,
-  -1773.8014
+  99.9191,
+  35.0,
+  -406.3154
  ],
  "Rotation": [
-  20.6549,
-  24.9207
+  83.1439,
+  24.7892
  ],
- "Score": 6451,
- "SelectedItemSlot": 1,
+ "Score": 6462,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -97.0065,
  "SpawnDimension": "minecraft:overworld",
@@ -4719,9 +4781,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 41,
- "XpP": 0.7867,
+ "XpP": 0.8389,
  "XpSeed": 976728483,
- "XpTotal": 6451,
+ "XpTotal": 6462,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4736,7 +4798,7 @@
   "y": 63.0,
   "z": -1778.9502
  },
- "foodExhaustionLevel": 0.975,
+ "foodExhaustionLevel": 0.45,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4747,7 +4809,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 150,
+  "mana": 40,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15059,7 +15121,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8364,
+  "ticks_since_last_warning": 2261,
   "warning_level": 0
  }
 }
