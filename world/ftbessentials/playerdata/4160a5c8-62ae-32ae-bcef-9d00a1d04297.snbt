@@ -6,16 +6,16 @@
 	last_seen: { dim: "minecraft:the_nether", x: -1824, y: 85, z: -1769, time: 1795094515112L, xRot: 22.988754f, yRot: 99.11426f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1774, time: 1795101134434L }
-		{ dim: "aether:the_aether", x: 666, y: 85, z: -1125, time: 1795101170795L }
-		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1774, time: 1795101173095L }
-		{ dim: "aether:the_aether", x: 664, y: 85, z: -1123, time: 1795101182294L }
 		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1774, time: 1795101183450L }
 		{ dim: "aether:the_aether", x: 667, y: 85, z: -1128, time: 1795101199962L }
 		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1773, time: 1795101211947L }
 		{ dim: "aether:the_aether", x: 665, y: 85, z: -1126, time: 1795101240034L }
 		{ dim: "aether:the_aether", x: 663, y: 85, z: -1127, time: 1795101278206L }
 		{ dim: "aether:the_aether", x: 664, y: 85, z: -1134, time: 1795101359536L }
+		{ dim: "aether:the_aether", x: 666, y: 85, z: -1126, time: 1795101450898L }
+		{ dim: "aether:the_aether", x: 669, y: 85, z: -1132, time: 1795101624304L }
+		{ dim: "aether:the_aether", x: 666, y: 85, z: -1126, time: 1795101644516L }
+		{ dim: "aether:the_aether", x: 654, y: 86, z: -1123, time: 1795101734370L }
 	]
 	homes: { }
 	kit_use_times: { }
