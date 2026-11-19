@@ -1,22 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 18,
-   "Id": 5,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:strength"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -71,6 +54,10 @@
   },
   {
    "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
+   "Base": 4.0,
    "Name": "minecraft:generic.attack_speed"
   },
   {
@@ -97,20 +84,6 @@
   },
   {
    "Base": 1.0,
-   "Modifiers": [
-    {
-     "Amount": 6.0,
-     "Name": "effect.minecraft.strength 1",
-     "Operation": 0,
-     "UUID": [
-      1686990948,
-      1784696665,
-      -1967209790,
-      980277161
-     ],
-     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
-    }
-   ],
    "Name": "minecraft:generic.attack_damage"
   },
   {
@@ -154,7 +127,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:the_nether",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1259,7 +1232,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1285,7 +1258,7 @@
     "aineTalked": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 59.0,
+    "currentQuestId": 63.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1307,13 +1280,14 @@
     "isAllHumanoidKilledisLocked": 0,
     "locked": 1,
     "lockedisLocked": 0,
+    "monst_eye_gotten": 1,
     "ornnTalked": 1,
     "parried": 1,
     "tutorial_passed": 1,
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 51,
+   "finishedQuestSize": 53,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1361,20 +1335,24 @@
    "finished_quest_49": 60,
    "finished_quest_5": 24,
    "finished_quest_50": 55,
+   "finished_quest_51": 61,
+   "finished_quest_52": 62,
    "finished_quest_6": 25,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 8.0,
-   "questSize": 8,
+   "questSize": 10,
    "quest_0": 84,
    "quest_1": 38,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
    "quest_5": 8,
-   "quest_6": 61,
-   "quest_7": 59,
+   "quest_6": 59,
+   "quest_7": 17,
+   "quest_8": 18,
+   "quest_9": 63,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1078647,
    "sardine": 0,
@@ -4419,16 +4397,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1371868,
+  "ua_rs_active_until": 1377299,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1372087,
-  "ua_shiny_last_x": 99.9411,
-  "ua_shiny_last_y": 35.0,
-  "ua_shiny_last_z": -406.3249
+  "ua_shiny_last_active": 1377838,
+  "ua_shiny_last_x": 247.944,
+  "ua_shiny_last_y": 65.0,
+  "ua_shiny_last_z": -1769.6721,
+  "ua_tabi_last_dash": 1375207
  },
- "Health": 24.6,
- "HurtByTimestamp": 227,
+ "Health": 28.0,
+ "HurtByTimestamp": 1437,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4545,7 +4524,7 @@
   {
    "Count": 2,
    "Slot": 5,
-   "id": "minecraft:arrow"
+   "id": "cataclysm:monstrous_eye"
   },
   {
    "Count": 19,
@@ -4581,6 +4560,11 @@
    "Count": 8,
    "Slot": 12,
    "id": "minecraft:iron_nugget"
+  },
+  {
+   "Count": 4,
+   "Slot": 13,
+   "id": "epicskills:ability_stone"
   },
   {
    "Count": 1,
@@ -4634,9 +4618,44 @@
    }
   },
   {
+   "Count": 1,
+   "Slot": 22,
+   "id": "tcrcore:artifact_ticket"
+  },
+  {
+   "Count": 2,
+   "Slot": 23,
+   "id": "minecraft:netherite_upgrade_smithing_template"
+  },
+  {
+   "Count": 2,
+   "Slot": 25,
+   "id": "efn:duskfire_ingot"
+  },
+  {
+   "Count": 1,
+   "Slot": 26,
+   "id": "tcrcore:artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 27,
+   "id": "ba_bt:nether_monolith_key"
+  },
+  {
+   "Count": 1,
+   "Slot": 28,
+   "id": "ba_bt:nether_golem_eye"
+  },
+  {
    "Count": 11,
    "Slot": 30,
    "id": "minecraft:experience_bottle"
+  },
+  {
+   "Count": 2,
+   "Slot": 33,
+   "id": "minecraft:arrow"
   },
   {
    "Count": 1,
@@ -4743,8 +4762,8 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_nether",
   "pos": [
-   105,
-   35,
+   102,
+   34,
    -411
   ]
  },
@@ -4756,15 +4775,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  99.9191,
-  35.0,
-  -406.3154
+  247.944,
+  65.0,
+  -1769.6721
  ],
  "Rotation": [
-  83.1439,
-  24.7892
+  -66.1741,
+  30.1161
  ],
- "Score": 6462,
+ "Score": 8465,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -97.0065,
@@ -4780,10 +4799,10 @@
   -1580186985
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
- "XpLevel": 41,
- "XpP": 0.8389,
+ "XpLevel": 49,
+ "XpP": 0.8481,
  "XpSeed": 976728483,
- "XpTotal": 6462,
+ "XpTotal": 8465,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4793,12 +4812,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "enteredNetherPosition": {
-  "x": 260.8695,
-  "y": 63.0,
-  "z": -1778.9502
- },
- "foodExhaustionLevel": 0.45,
+ "foodExhaustionLevel": 2.289,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4809,7 +4823,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 40,
+  "mana": 150,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15121,7 +15135,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2261,
+  "ticks_since_last_warning": 8054,
   "warning_level": 0
  }
 }

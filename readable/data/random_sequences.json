@@ -9,8 +9,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -8711571394982284696,
-    -952738010320492756
+    6083789860899153924,
+    -5708491386112845982
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    3455586359883204810,
-    -8536426382904715276
+    7128274853768287654,
+    3440462497906856258
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    7457428720650763072,
-    7957508467432795882
+    105451275896775256,
+    2244794870496782119
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    7317372669372246337,
-    -6793328012579812465
+    -4412121616146092488,
+    6024817816323068377
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -6470731232196269226,
-    4459604707026718937
+    -4060825676527139647,
+    -2102551089075804025
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -89,6 +89,12 @@
    "source": [
     8434596111225708624,
     4804697808955242654
+   ]
+  },
+  "ba_bt:entities/nether_golem": {
+   "source": [
+    -4265678615134680657,
+    -8065519704260597651
    ]
   },
   "ba_bt:entities/ocean_golem": {
@@ -843,8 +849,8 @@
   },
   "minecraft:blocks/iron_bars": {
    "source": [
-    -5206887151631988334,
-    5575941690608169543
+    -497261265100877442,
+    -5386527753177909302
    ]
   },
   "minecraft:blocks/iron_door": {
@@ -1023,8 +1029,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    7462918955395534665,
-    -4807868546533589096
+    4336307602022496772,
+    3591736481061573387
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1117,6 +1123,12 @@
     -7532129139645488429
    ]
   },
+  "minecraft:blocks/polished_blackstone_brick_slab": {
+   "source": [
+    7116057088519133979,
+    -6878318025736420411
+   ]
+  },
   "minecraft:blocks/polished_blackstone_brick_stairs": {
    "source": [
     -5125817941253827970,
@@ -1125,14 +1137,20 @@
   },
   "minecraft:blocks/polished_blackstone_brick_wall": {
    "source": [
-    7145307425062428713,
-    4299281504958972955
+    -4103809605512992849,
+    -1235356000995233169
    ]
   },
   "minecraft:blocks/polished_blackstone_bricks": {
    "source": [
     -558552625823287093,
     7209988739794065325
+   ]
+  },
+  "minecraft:blocks/polished_blackstone_slab": {
+   "source": [
+    5542228466649630028,
+    -7109932059250533540
    ]
   },
   "minecraft:blocks/polished_blackstone_stairs": {
@@ -1143,8 +1161,8 @@
   },
   "minecraft:blocks/polished_blackstone_wall": {
    "source": [
-    -5431798137434205180,
-    7430182408888728725
+    104656937486828967,
+    8992283868899324669
    ]
   },
   "minecraft:blocks/polished_granite": {
@@ -1767,8 +1785,8 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    -6426609363584562240,
-    5429103918944220089
+    -4309821647857280650,
+    -6814477130957976818
    ]
   },
   "minecraft:entities/piglin_brute": {
@@ -1785,8 +1803,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    2641175309617719184,
-    7789080367089070173
+    -7846139406544529130,
+    -8988907143930947289
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1839,8 +1857,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    224268312161752473,
-    -149987959258262455
+    -7269641079917109014,
+    6241812827049206903
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -1893,8 +1911,8 @@
   },
   "minecraft:entities/zombified_piglin": {
    "source": [
-    2077932742430884356,
-    6638085900041956833
+    -4263509973034879418,
+    -8871957016744500258
    ]
   },
   "tcr_bosses:entities/citadel_keeper": {
