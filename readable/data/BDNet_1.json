@@ -590,15 +590,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:black_bed"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "magistuarmory:gothic_leggings",
        "tag": {
         "Damage": 0
@@ -4270,7 +4261,7 @@
      }
     },
     {
-     "amount": 240,
+     "amount": 241,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
