@@ -265,15 +265,6 @@
      }
     },
     {
-     "amount": 12,
-     "key": {
-      "stack": {
-       "item": "minecraft:stick"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 34,
      "key": {
       "stack": {
@@ -1597,15 +1588,6 @@
      }
     },
     {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "minecraft:ancient_debris"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 1,
      "key": {
       "stack": {
@@ -1991,7 +1973,7 @@
      }
     },
     {
-     "amount": 222,
+     "amount": 223,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2000,7 +1982,7 @@
      }
     },
     {
-     "amount": 94,
+     "amount": 30,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -2104,7 +2086,7 @@
      }
     },
     {
-     "amount": 19,
+     "amount": 20,
      "key": {
       "stack": {
        "item": "minecraft:gold_nugget"
@@ -2162,6 +2144,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:rotten_flesh"
       },
       "type": "beyonddimensions:stack_type/item"
      }
