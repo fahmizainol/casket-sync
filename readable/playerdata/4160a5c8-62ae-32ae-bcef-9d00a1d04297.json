@@ -129,8 +129,8 @@
  "DeathTime": 0,
  "Dimension": "aether:the_aether",
  "EnderItems": [],
- "FallDistance": 1.0,
- "FallFlying": 1,
+ "FallDistance": 0.0,
+ "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
   "aether:aether_player": {
@@ -501,7 +501,7 @@
    "passive4": "epicfight:berserker",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1267,7 +1267,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 69.0,
+    "currentQuestId": 70.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1300,7 +1300,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 63,
+   "finishedQuestSize": 64,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1361,14 +1361,17 @@
    "finished_quest_60": 67,
    "finished_quest_61": 66,
    "finished_quest_62": 68,
+   "finished_quest_63": 69,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 10.0,
-   "questSize": 11,
+   "questSize": 13,
    "quest_0": 84,
    "quest_1": 38,
-   "quest_10": 69,
+   "quest_10": 72,
+   "quest_11": 71,
+   "quest_12": 70,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
@@ -4463,16 +4466,16 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1437952,
+  "ua_rs_active_until": 1443723,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1438092,
-  "ua_shiny_last_x": 671.5288,
-  "ua_shiny_last_y": 72.9838,
-  "ua_shiny_last_z": -1001.7787,
+  "ua_shiny_last_active": 1443914,
+  "ua_shiny_last_x": 91.2448,
+  "ua_shiny_last_y": 200.0,
+  "ua_shiny_last_z": -1789.2751,
   "ua_tabi_last_dash": 1437334
  },
- "Health": 21.9389,
+ "Health": 30.0,
  "HurtByTimestamp": 6549,
  "HurtTime": 0,
  "Inventory": [
@@ -4726,23 +4729,23 @@
   ]
  },
  "Motion": [
-  -0.0272,
-  -0.1333,
-  0.6179
+  0.0,
+  -0.0784,
+  0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  671.5288,
-  72.9838,
-  -1001.7787
+  91.2352,
+  200.0,
+  -1789.2751
  ],
  "Rotation": [
-  -24.3235,
-  -2.9657
+  -80.8224,
+  40.7289
  ],
- "Score": 8551,
- "SelectedItemSlot": 1,
+ "Score": 8554,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -97.0065,
  "SpawnDimension": "minecraft:overworld",
@@ -4758,9 +4761,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 50,
- "XpP": 0.1473,
+ "XpP": 0.1575,
  "XpSeed": 976728483,
- "XpTotal": 8551,
+ "XpTotal": 8554,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4770,7 +4773,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.898,
+ "foodExhaustionLevel": 1.51,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4781,7 +4784,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 130,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15093,7 +15096,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6779,
+  "ticks_since_last_warning": 778,
   "warning_level": 0
  }
 }
