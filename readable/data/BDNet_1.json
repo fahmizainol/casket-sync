@@ -185,7 +185,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "epicskills:ability_stone"
@@ -695,7 +695,16 @@
      }
     },
     {
-     "amount": 27,
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "efn:duskfire_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 87,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -897,7 +906,7 @@
      }
     },
     {
-     "amount": 14,
+     "amount": 59,
      "key": {
       "stack": {
        "item": "minecraft:soul_sand"
@@ -980,6 +989,15 @@
         "Damage": 0,
         "sheath": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:nether_star"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1224,6 +1242,18 @@
      "key": {
       "stack": {
        "item": "minecraft:carved_pumpkin"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "aether:golden_parachute",
+       "tag": {
+        "Damage": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1571,15 +1601,6 @@
      }
     },
     {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "tcrcore:core_flint"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 57,
      "key": {
       "stack": {
@@ -1815,6 +1836,15 @@
      }
     },
     {
+     "amount": 43,
+     "key": {
+      "stack": {
+       "item": "aether:cold_aercloud"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -1841,7 +1871,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 11,
      "key": {
       "stack": {
        "item": "minecraft:wheat_seeds"
@@ -2194,6 +2224,15 @@
      }
     },
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:glowstone_dust"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -2222,6 +2261,15 @@
      "key": {
       "stack": {
        "item": "minecraft:brick"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:monstrous_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2310,6 +2358,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:mech_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -2323,6 +2380,15 @@
      "key": {
       "stack": {
        "item": "minecraft:deepslate_tile_wall"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "lost_aether_content:crystal_sapling"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2923,6 +2989,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "tcrcore:divine_fragment"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -3038,6 +3113,29 @@
      "key": {
       "stack": {
        "item": "ba_bt:ocean_monolith"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_pickaxe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:silk_touch",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:fortune",
+          "lvl": 2
+         }
+        ],
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3560,7 +3658,7 @@
      }
     },
     {
-     "amount": 3810,
+     "amount": 3861,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -3835,7 +3933,16 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 6,
+     "key": {
+      "stack": {
+       "item": "minecraft:wither_rose"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:netherite_ingot"
@@ -3956,7 +4063,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "fantasy_armor:moon_crystal"
@@ -4065,7 +4172,7 @@
      }
     },
     {
-     "amount": 236,
+     "amount": 237,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4252,7 +4359,25 @@
      "amount": 5,
      "key": {
       "stack": {
+       "item": "aether:white_apple"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 5,
+     "key": {
+      "stack": {
        "item": "minecraft:blackstone_wall"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 13,
+     "key": {
+      "stack": {
+       "item": "aether:enchanted_dart"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4297,10 +4422,28 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "aether:book_of_lore"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:nether_quartz_ore"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_scrap"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4324,7 +4467,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "minecraft:glowstone"
@@ -4509,6 +4652,18 @@
           "lvl": 2
          }
         ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:magic_bottle",
+       "tag": {
+        "fdbosses": {}
        }
       },
       "type": "beyonddimensions:stack_type/item"

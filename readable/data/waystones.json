@@ -190,6 +190,54 @@
    },
    {
     "BlockPos": {
+     "X": 93,
+     "Y": 172,
+     "Z": -1809
+    },
+    "IsGlobal": 0,
+    "Name": "sky",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     950866756,
+     -385332143,
+     -1083491335,
+     1432832853
+    ],
+    "World": "aether:the_aether"
+   },
+   {
+    "BlockPos": {
+     "X": 696,
+     "Y": 86,
+     "Z": -1127
+    },
+    "IsGlobal": 0,
+    "Name": "aethersus",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     942136367,
+     -243184777,
+     -1580146881,
+     -1117744032
+    ],
+    "World": "aether:the_aether"
+   },
+   {
+    "BlockPos": {
      "X": 304,
      "Y": 45,
      "Z": -160
@@ -553,6 +601,30 @@
      -2102826748
     ],
     "World": "minecraft:the_nether"
+   },
+   {
+    "BlockPos": {
+     "X": 97,
+     "Y": 201,
+     "Z": -1805
+    },
+    "IsGlobal": 0,
+    "Name": "aether boss",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     2024080510,
+     -248231724,
+     -2095798563,
+     2141392234
+    ],
+    "World": "aether:the_aether"
    },
    {
     "BlockPos": {

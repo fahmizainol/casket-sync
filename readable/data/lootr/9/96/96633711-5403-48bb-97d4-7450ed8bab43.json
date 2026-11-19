@@ -1,0 +1,88 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "aether:the_aether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:lodestone"
+      },
+      {
+       "Count": 4,
+       "Slot": 2,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 2,
+       "Slot": 4,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 2,
+       "Slot": 13,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 2,
+       "Slot": 18,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:iron_nugget"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 2,
+       "Slot": 23,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:gold_ingot"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/9/96/96633711-5403-48bb-97d4-7450ed8bab43",
+  "position": {
+   "X": 689,
+   "Y": 86,
+   "Z": -1122
+  },
+  "size": 27,
+  "uuid": [
+   -1771882735,
+   1409501371,
+   -1747684272,
+   -309613757
+  ],
+  "uuid_str": "96633711-5403-48bb-97d4-7450ed8bab43"
+ }
+}

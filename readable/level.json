@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 633245,
+  "DayTime": 639245,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,27 +421,10 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795099940864,
+  "LastPlayed": 1795100240839,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
-   "ActiveEffects": [
-    {
-     "Ambient": 0,
-     "Amplifier": 1,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 1,
-     "Id": 5,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:strength"
-    }
-   ],
    "Air": 300,
    "Attributes": [
     {
@@ -495,10 +478,6 @@
      "Name": "forge:entity_reach"
     },
     {
-     "Base": 1.0,
-     "Name": "attributeslib:draw_speed"
-    },
-    {
      "Base": 4.0,
      "Name": "minecraft:generic.attack_speed"
     },
@@ -526,20 +505,6 @@
     },
     {
      "Base": 1.0,
-     "Modifiers": [
-      {
-       "Amount": 6.0,
-       "Name": "effect.minecraft.strength 1",
-       "Operation": 0,
-       "UUID": [
-        1686990948,
-        1784696665,
-        -1967209790,
-        980277161
-       ],
-       "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
-      }
-     ],
      "Name": "minecraft:generic.attack_damage"
     },
     {
@@ -567,10 +532,6 @@
      "Name": "epicfight:impact"
     },
     {
-     "Base": 1.0,
-     "Name": "forge:swim_speed"
-    },
-    {
      "Base": 0.0,
      "Name": "epicfight:armor_negation"
     },
@@ -587,9 +548,9 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:the_nether",
+   "Dimension": "aether:the_aether",
    "EnderItems": [],
-   "FallDistance": 6.6502,
+   "FallDistance": 0.0,
    "FallFlying": 0,
    "Fire": -20,
    "ForgeCaps": {
@@ -961,7 +922,7 @@
      "passive4": "epicfight:berserker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "EPICFIGHT",
+     "playerMode": "VANILLA",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -1727,7 +1688,7 @@
       "canEnterAether": 1,
       "canEnterNether": 1,
       "chronosTalked": 1,
-      "currentQuestId": 68.0,
+      "currentQuestId": 69.0,
       "currentQuestIdisLocked": 0,
       "cursedEyeActivated": 1,
       "cursedEyeBlessed": 1,
@@ -1760,7 +1721,7 @@
       "way_stone_interacted": 1,
       "weapon_innate_used": 1
      },
-     "finishedQuestSize": 62,
+     "finishedQuestSize": 63,
      "finished_quest_0": 21,
      "finished_quest_1": 23,
      "finished_quest_10": 29,
@@ -1820,6 +1781,7 @@
      "finished_quest_6": 25,
      "finished_quest_60": 67,
      "finished_quest_61": 66,
+     "finished_quest_62": 68,
      "finished_quest_7": 26,
      "finished_quest_8": 27,
      "finished_quest_9": 27,
@@ -1827,7 +1789,7 @@
      "questSize": 11,
      "quest_0": 84,
      "quest_1": 38,
-     "quest_10": 68,
+     "quest_10": 69,
      "quest_2": 2,
      "quest_3": 6,
      "quest_4": 7,
@@ -1868,7 +1830,9 @@
         "66dad821-0848-40d7-895e-96ad7567f50e",
         "9a6aeeed-3d72-414d-82f8-6f331800a184",
         "89c67195-f3ce-453b-b41d-2e0ffd5490ac",
-        "a5c49e14-fd87-4b7a-bc05-fa2b6768f5e5"
+        "a5c49e14-fd87-4b7a-bc05-fa2b6768f5e5",
+        "78a5047e-f134-48d4-8314-a6dd7fa30d6a",
+        "3827dc2f-f181-4b77-a1d0-df3fbd609460"
        ]
       }
      }
@@ -4919,18 +4883,17 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "quark:trying_crawl": 0,
-    "ua_rs_active_until": 1426083,
+    "ua_rs_active_until": 1431934,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1426092,
-    "ua_shiny_last_x": 51.7736,
-    "ua_shiny_last_y": 90.1714,
-    "ua_shiny_last_z": -220.8329,
-    "ua_tabi_last_dash": 1421290
+    "ua_shiny_last_active": 1432087,
+    "ua_shiny_last_x": 689.9007,
+    "ua_shiny_last_y": 85.0,
+    "ua_shiny_last_z": -1123.1424,
+    "ua_tabi_last_dash": 1430093
    },
-   "Health": 24.1371,
-   "HurtByTimestamp": 1462,
+   "Health": 27.2465,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -5053,108 +5016,19 @@
      "id": "minecraft:golden_apple"
     },
     {
-     "Count": 19,
+     "Count": 17,
      "Slot": 6,
      "id": "waystones:waystone"
     },
     {
-     "Count": 45,
+     "Count": 1,
      "Slot": 7,
-     "id": "minecraft:soul_sand"
+     "id": "tcrcore:core_flint"
     },
     {
      "Count": 63,
      "Slot": 8,
      "id": "minecraft:blackstone"
-    },
-    {
-     "Count": 6,
-     "Slot": 9,
-     "id": "minecraft:wither_rose"
-    },
-    {
-     "Count": 2,
-     "Slot": 10,
-     "id": "epicskills:ability_stone"
-    },
-    {
-     "Count": 1,
-     "Slot": 11,
-     "id": "cataclysm:mech_eye"
-    },
-    {
-     "Count": 1,
-     "Slot": 12,
-     "id": "minecraft:nether_star"
-    },
-    {
-     "Count": 2,
-     "Slot": 13,
-     "id": "fantasy_armor:moon_crystal"
-    },
-    {
-     "Count": 60,
-     "Slot": 14,
-     "id": "minecraft:gold_ingot"
-    },
-    {
-     "Count": 1,
-     "Slot": 15,
-     "id": "minecraft:golden_pickaxe",
-     "tag": {
-      "Damage": 0,
-      "Enchantments": [
-       {
-        "id": "minecraft:silk_touch",
-        "lvl": 1
-       },
-       {
-        "id": "minecraft:fortune",
-        "lvl": 2
-       }
-      ],
-      "sheath": 0
-     }
-    },
-    {
-     "Count": 50,
-     "Slot": 16,
-     "id": "minecraft:netherrack"
-    },
-    {
-     "Count": 3,
-     "Slot": 17,
-     "id": "minecraft:glowstone_dust"
-    },
-    {
-     "Count": 2,
-     "Slot": 18,
-     "id": "minecraft:glowstone"
-    },
-    {
-     "Count": 4,
-     "Slot": 20,
-     "id": "efn:duskfire_ingot"
-    },
-    {
-     "Count": 3,
-     "Slot": 21,
-     "id": "minecraft:netherite_scrap"
-    },
-    {
-     "Count": 1,
-     "Slot": 22,
-     "id": "minecraft:netherite_ingot"
-    },
-    {
-     "Count": 2,
-     "Slot": 32,
-     "id": "cataclysm:monstrous_eye"
-    },
-    {
-     "Count": 8,
-     "Slot": 33,
-     "id": "minecraft:wheat_seeds"
     },
     {
      "Count": 1,
@@ -5259,31 +5133,31 @@
    ],
    "Invulnerable": 0,
    "LastDeathLocation": {
-    "dimension": "minecraft:overworld",
+    "dimension": "aether:the_aether",
     "pos": [
-     93,
-     76,
-     -1937
+     96,
+     171,
+     -1803
     ]
    },
    "Motion": [
     0.0,
-    -1.086,
-    0.0037
+    -0.0784,
+    0.0
    ],
-   "OnGround": 0,
+   "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    51.7736,
-    90.1714,
-    -220.8329
+    689.9007,
+    85.0,
+    -1123.131
    ],
    "Rotation": [
-    149.0075,
-    29.7002
+    13.0321,
+    9.8323
    ],
    "Score": 8521,
-   "SelectedItemSlot": 0,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": -97.0065,
    "SpawnDimension": "minecraft:overworld",
@@ -5311,7 +5185,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.5902,
+   "foodExhaustionLevel": 3.976,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5322,7 +5196,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 119,
+    "mana": 100,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15634,7 +15508,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 7943,
+    "ticks_since_last_warning": 779,
     "warning_level": 0
    }
   },
@@ -15646,7 +15520,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1426092,
+  "Time": 1432092,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15654,7 +15528,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16342,9 +16216,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 102245,
+  "rainTime": 96245,
   "raining": 0,
-  "thunderTime": 26390,
+  "thunderTime": 20390,
   "thundering": 0,
   "version": 19133
  },

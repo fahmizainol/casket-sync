@@ -577,5 +577,17 @@
     },
     "done": true
   },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2026-11-19 22:53:09 +0800"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2026-11-19 22:53:09 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

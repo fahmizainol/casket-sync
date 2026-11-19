@@ -1,6 +1,36 @@
 {
  "DataVersion": 3465,
  "data": {
+  "aether:advancements/enter_aether": {
+   "source": [
+    -266141440158940718,
+    -3414770712370430180
+   ]
+  },
+  "aether:blocks/cold_aercloud": {
+   "source": [
+    -8178574509165686678,
+    -6546495554410761233
+   ]
+  },
+  "aether:blocks/white_flower": {
+   "source": [
+    -7657085478198477246,
+    -3443944057306697472
+   ]
+  },
+  "aether:entities/blue_swet": {
+   "source": [
+    3927620766443305596,
+    2900655673667302721
+   ]
+  },
+  "aether:entities/golden_swet": {
+   "source": [
+    -3302821110251016491,
+    796263394678970644
+   ]
+  },
   "artifacts:entity_equipment/drowned": {
    "source": [
     -3480556837305595419,
@@ -27,8 +57,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    8588633826629575160,
-    7887217946884802882
+    -3983716705880766526,
+    -5993465005893519962
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,8 +69,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -4254185351709494186,
-    -3574846604974880241
+    2784201285818951740,
+    5305877633263837455
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -801,8 +831,8 @@
   },
   "minecraft:blocks/grass": {
    "source": [
-    5261790931073773611,
-    -5777794862181028098
+    -7316986583186200004,
+    2562577596255446896
    ]
   },
   "minecraft:blocks/grass_block": {
@@ -1041,8 +1071,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    856399277283661595,
-    1533351030056781132
+    4009698003130694302,
+    -7264740345216610237
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1569,8 +1599,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    3236551363549027957,
-    -8357659397932595013
+    7358356957932994722,
+    5641071172315789338
    ]
   },
   "minecraft:blocks/tall_seagrass": {
@@ -1773,8 +1803,8 @@
   },
   "minecraft:entities/iron_golem": {
    "source": [
-    -5533501027319764788,
-    5261374554435081057
+    2695711688633200229,
+    1606051909590356097
    ]
   },
   "minecraft:entities/magma_cube": {
@@ -1815,8 +1845,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    5992636619917775421,
-    -2193643984501423026
+    6936923801769169971,
+    4680004666016087196
    ]
   },
   "minecraft:entities/pufferfish": {

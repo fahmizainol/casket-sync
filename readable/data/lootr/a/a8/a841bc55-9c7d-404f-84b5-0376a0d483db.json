@@ -1,0 +1,71 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "aether:the_aether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "lost_aether_content:crystal_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "aether:white_cape"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "lost_aether_content:crystal_sapling"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "lost_aether_content:holiday_sapling"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/a/a8/a841bc55-9c7d-404f-84b5-0376a0d483db",
+  "position": {
+   "X": 88,
+   "Y": 179,
+   "Z": -1793
+  },
+  "size": 27,
+  "uuid": [
+   -1472086955,
+   -1669513137,
+   -2068511882,
+   -1596685349
+  ],
+  "uuid_str": "a841bc55-9c7d-404f-84b5-0376a0d483db"
+ }
+}

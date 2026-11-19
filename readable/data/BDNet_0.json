@@ -1332,15 +1332,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:water_bucket"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "bookofdragons:book_of_dragons"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -2027,7 +2018,7 @@
      }
     },
     {
-     "amount": 237,
+     "amount": 238,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
