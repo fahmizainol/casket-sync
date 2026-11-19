@@ -3,14 +3,14 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    6529623652063573484,
-    8876174852717037046
+    -7724597081891789199,
+    1609590265867975954
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    6617457893840748577,
-    7347627858804988376
+    -5468469228162981760,
+    -5649325918483209461
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -21,14 +21,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    4573066360429655151,
-    4654970982120564639
+    -4460862035039533061,
+    -5978727468925905663
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    7338765297816790823,
-    3129019591833270312
+    4296921865618093345,
+    -1428113486688636507
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,14 +39,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    2088497545112043742,
-    1737216627946697303
+    -8181866261722398528,
+    2498834485835280
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -3703404065720531576,
-    -7276663890205676538
+    -2973811950272993290,
+    1128239491999078973
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -729,8 +729,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -3700788436297694690,
-    5796193459100504522
+    -229476023839479698,
+    7374710966563407195
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -1767,8 +1767,8 @@
   },
   "minecraft:entities/piglin": {
    "source": [
-    6126202257484562055,
-    1090415093798885494
+    6336348718844575118,
+    5341122165351757130
    ]
   },
   "minecraft:entities/piglin_brute": {
@@ -1785,8 +1785,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -1448273473159988729,
-    139756022379168483
+    1538967572221813617,
+    -5060712916511799865
    ]
   },
   "minecraft:entities/pufferfish": {

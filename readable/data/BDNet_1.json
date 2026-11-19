@@ -1045,15 +1045,6 @@
      "amount": 2,
      "key": {
       "stack": {
-       "item": "ba_bt:nether_monolith_key"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
        "item": "minecraft:chiseled_red_sandstone"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -4059,7 +4050,7 @@
      }
     },
     {
-     "amount": 223,
+     "amount": 224,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

@@ -118,8 +118,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "DeathTime": 92,
+ "Dimension": "minecraft:the_nether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1246,7 +1246,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1394,6 +1394,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4368,10 +4369,10 @@
       "CompanionPreviewHeight": 2.6,
       "CompanionPreviewWidth": 1.9,
       "CompanionRescueArmor": 8,
-      "CompanionRescueHealth": 67.9842,
+      "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 1339928,
+      "CompanionRescueStoredAt": 1349556,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4555,7 +4556,7 @@
       ],
       "HasClearAirspace": 0,
       "HasConsumedFood": 0,
-      "Health": 67.9842,
+      "Health": 140.0,
       "HurtByTimestamp": 136,
       "HurtTime": 0,
       "InLove": 0,
@@ -4670,12 +4671,12 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1341004,
+  "ua_rs_active_until": 1351301,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 27.712,
- "HurtByTimestamp": 0,
+ "Health": 0.0,
+ "HurtByTimestamp": 23856,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5008,9 +5009,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_nether",
   "pos": [
-   -1826,
-   85,
-   -1771
+   118,
+   35,
+   -410
   ]
  },
  "Motion": [
@@ -5021,13 +5022,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  253.6069,
-  65.0,
-  -1770.035
+  120.1897,
+  35.0,
+  -409.9075
  ],
  "Rotation": [
-  4.5103,
-  25.4573
+  88.6671,
+  0.0
  ],
  "Score": 3823,
  "SelectedItemSlot": 4,
@@ -5058,7 +5059,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.062,
+ "foodExhaustionLevel": 0.393,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5077,7 +5078,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14662,10 +14662,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2184,
+  "ticks_since_last_warning": 8112,
   "warning_level": 0
  }
 }

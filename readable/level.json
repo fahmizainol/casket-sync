@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 555245,
+  "DayTime": 561245,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795096040817,
+  "LastPlayed": 1795096340814,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -556,7 +556,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "minecraft:the_nether",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -923,7 +923,7 @@
      },
      "passive1": "dodge_parry_reward:damage_boost2",
      "passive2": "epicfight:bonebreaker",
-     "passive3": "dodge_parry_reward:stamina1",
+     "passive3": "tcrcore:fire_avoid",
      "passive4": "epicfight:berserker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
@@ -4531,17 +4531,17 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1347925,
+    "ua_rs_active_until": 1353811,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1348009,
-    "ua_shiny_last_x": 263.5,
-    "ua_shiny_last_y": 63.0,
-    "ua_shiny_last_z": -1773.5,
-    "ua_tabi_last_dash": 1347917
+    "ua_shiny_last_active": 1354090,
+    "ua_shiny_last_x": 121.6626,
+    "ua_shiny_last_y": 35.0,
+    "ua_shiny_last_z": -389.3763,
+    "ua_tabi_last_dash": 1352750
    },
-   "Health": 28.0,
-   "HurtByTimestamp": 13474,
+   "Health": 17.8377,
+   "HurtByTimestamp": 23702,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4617,11 +4617,6 @@
      }
     },
     {
-     "Count": 11,
-     "Slot": 3,
-     "id": "minecraft:experience_bottle"
-    },
-    {
      "Count": 1,
      "Slot": 4,
      "id": "irons_spellbooks:keeper_flamberge",
@@ -4667,7 +4662,7 @@
      "id": "minecraft:soul_sand"
     },
     {
-     "Count": 64,
+     "Count": 63,
      "Slot": 8,
      "id": "minecraft:blackstone"
     },
@@ -4690,6 +4685,19 @@
      "Count": 8,
      "Slot": 12,
      "id": "minecraft:iron_nugget"
+    },
+    {
+     "Count": 1,
+     "Slot": 13,
+     "id": "minecraft:golden_chestplate",
+     "tag": {
+      "Damage": 0
+     }
+    },
+    {
+     "Count": 11,
+     "Slot": 30,
+     "id": "minecraft:experience_bottle"
     },
     {
      "Count": 1,
@@ -4809,15 +4817,15 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    263.5,
-    63.0,
-    -1773.5
+    121.6626,
+    35.0,
+    -389.3667
    ],
    "Rotation": [
-    81.2999,
-    11.6812
+    -174.3267,
+    20.651
    ],
-   "Score": 6436,
+   "Score": 6451,
    "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": 79.7244,
@@ -4834,9 +4842,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 41,
-   "XpP": 0.9052,
+   "XpP": 0.9763,
    "XpSeed": 976728483,
-   "XpTotal": 6436,
+   "XpTotal": 6451,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4846,7 +4854,12 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.7109,
+   "enteredNetherPosition": {
+    "x": 260.8695,
+    "y": 63.0,
+    "z": -1778.9502
+   },
+   "foodExhaustionLevel": 0.8789,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -4857,7 +4870,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 150,
+    "mana": 104,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15169,7 +15182,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 2601,
+    "ticks_since_last_warning": 8601,
     "warning_level": 0
    }
   },
@@ -15181,15 +15194,15 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1348092,
+  "Time": 1354092,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
    "Series": "main",
    "Snapshot": 0
   },
-  "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 4800,
+  "WanderingTraderSpawnChance": 50,
+  "WanderingTraderSpawnDelay": 22800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15877,9 +15890,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 16572,
+  "rainTime": 10572,
   "raining": 1,
-  "thunderTime": 12104,
+  "thunderTime": 6104,
   "thundering": 1,
   "version": 19133
  },
