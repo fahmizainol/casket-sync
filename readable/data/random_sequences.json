@@ -3,8 +3,8 @@
  "data": {
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -341589599070519395,
-    -7440684013059823279
+    3313446506988122496,
+    6663051056461515319
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -27,8 +27,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    105451275896775256,
-    2244794870496782119
+    -2238941709996553913,
+    -7384859224273951013
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -39,8 +39,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -4412121616146092488,
-    6024817816323068377
+    1513374536031409806,
+    2652868844665185511
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1911,8 +1911,8 @@
   },
   "minecraft:entities/zombified_piglin": {
    "source": [
-    -4263509973034879418,
-    -8871957016744500258
+    6996913398258913502,
+    8952845697705222372
    ]
   },
   "tcr_bosses:entities/citadel_keeper": {

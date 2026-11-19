@@ -695,7 +695,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "efn:duskfire_ingot"
@@ -743,18 +743,6 @@
           "lvl": 1
          }
         ]
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "magistuarmory:steel_zweihander",
-       "tag": {
-        "Damage": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -855,7 +843,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:red_nether_bricks"
@@ -1037,6 +1025,15 @@
      "key": {
       "stack": {
        "item": "minecraft:deepslate_coal_ore"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "ba_bt:nether_monolith_key"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1483,7 +1480,7 @@
      }
     },
     {
-     "amount": 221,
+     "amount": 222,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -1516,7 +1513,7 @@
      }
     },
     {
-     "amount": 35,
+     "amount": 43,
      "key": {
       "stack": {
        "item": "minecraft:iron_nugget"
@@ -1532,6 +1529,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "ba_bt:nether_golem_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1574,7 +1580,7 @@
      }
     },
     {
-     "amount": 17,
+     "amount": 20,
      "key": {
       "stack": {
        "item": "minecraft:spider_eye"
@@ -1746,7 +1752,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "minecraft:amethyst_block"
@@ -1759,6 +1765,15 @@
      "key": {
       "stack": {
        "item": "minecraft:dark_oak_log"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "tcrcore:artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1911,7 +1926,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:quartz_slab"
@@ -2340,7 +2355,7 @@
      }
     },
     {
-     "amount": 7,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "minecraft:netherite_upgrade_smithing_template"
@@ -2456,7 +2471,7 @@
      }
     },
     {
-     "amount": 545,
+     "amount": 547,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -2555,7 +2570,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "magistuarmory:rustedchainmail_boots",
@@ -3046,6 +3061,15 @@
      }
     },
     {
+     "amount": 29,
+     "key": {
+      "stack": {
+       "item": "minecraft:amethyst_shard"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 7,
      "key": {
       "stack": {
@@ -3192,7 +3216,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:quartz_block"
@@ -3693,7 +3717,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:red_nether_brick_slab"
@@ -3833,6 +3857,15 @@
      "key": {
       "stack": {
        "item": "minecraft:netherite_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:quartz_bricks"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4041,7 +4074,7 @@
      }
     },
     {
-     "amount": 138,
+     "amount": 139,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -4050,7 +4083,7 @@
      }
     },
     {
-     "amount": 228,
+     "amount": 229,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4761,6 +4794,23 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "domesticationinnovation:blight_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -5047,6 +5097,15 @@
        "tag": {
         "Potion": "minecraft:long_turtle_master"
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 11,
+     "key": {
+      "stack": {
+       "item": "minecraft:experience_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
