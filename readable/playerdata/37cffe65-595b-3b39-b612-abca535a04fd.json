@@ -3,6 +3,14 @@
  "Air": 300,
  "Attributes": [
   {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
+  },
+  {
    "Base": 0.5,
    "Name": "epicfight:impact"
   },
@@ -29,12 +37,20 @@
    "Name": "attributeslib:creative_flight"
   },
   {
+   "Base": 4.0,
+   "Name": "minecraft:generic.attack_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:holy_spell_power"
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:dodge_chance"
   },
   {
    "Base": 20.0,
@@ -59,60 +75,20 @@
    "Name": "forge:entity_gravity"
   },
   {
-   "Base": 100.0,
-   "Name": "irons_spellbooks:max_mana"
-  },
-  {
    "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
+   "Name": "minecraft:generic.knockback_resistance"
   },
   {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
   {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
-  },
-  {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:ice_spell_power"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:lightning_spell_power"
-  },
-  {
-   "Base": 4.0,
-   "Name": "minecraft:generic.attack_speed"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:dodge_chance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 15.0,
@@ -143,6 +119,10 @@
   {
    "Base": 0.05,
    "Name": "attributeslib:crit_chance"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
   }
  ],
  "BalmData": {},
@@ -153,7 +133,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -518,10 +498,13 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_dodge",
+   "GUARD": "efn:efn_parry"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_dodge",
-   "guard": "efn:efn_parry",
+   "dodge": "efn:murasama_dodge",
+   "guard": "efn:murasama_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge"
    },
@@ -545,7 +528,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost3",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1284,7 +1267,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1441,8 +1424,6 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 1,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4746,11 +4727,9 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1924805,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1924029
+  "ua_tabi_last_dash": 1929748
  },
  "Health": 1.0,
  "HurtByTimestamp": 0,
@@ -4814,17 +4793,9 @@
    }
   },
   {
-   "Count": 1,
+   "Count": 2,
    "Slot": 4,
-   "id": "minecraft:enchanted_book",
-   "tag": {
-    "StoredEnchantments": [
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 1
-     }
-    ]
-   }
+   "id": "cataclysm:strange_key"
   },
   {
    "Count": 1,
@@ -4854,9 +4825,9 @@
    }
   },
   {
-   "Count": 1,
+   "Count": 19,
    "Slot": 9,
-   "id": "minecraft:cut_sandstone_slab"
+   "id": "minecraft:rotten_flesh"
   },
   {
    "Count": 1,
@@ -4864,14 +4835,37 @@
    "id": "minecraft:string"
   },
   {
-   "Count": 6,
+   "Count": 1,
    "Slot": 11,
-   "id": "minecraft:bone_block"
+   "id": "minecraft:iron_ingot"
   },
   {
-   "Count": 3,
-   "Slot": 12,
-   "id": "cataclysm:sandstone_falling_trap"
+   "Count": 1,
+   "Slot": 13,
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 1
+     }
+    ]
+   }
+  },
+  {
+   "Count": 14,
+   "Slot": 14,
+   "id": "cataclysm:black_steel_nugget"
+  },
+  {
+   "Count": 10,
+   "Slot": 15,
+   "id": "minecraft:bone"
+  },
+  {
+   "Count": 5,
+   "Slot": 16,
+   "id": "cataclysm:black_steel_ingot"
   },
   {
    "Count": 11,
@@ -5117,11 +5111,11 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
   "pos": [
-   -57,
-   132,
-   -43
+   -54,
+   98,
+   -23
   ]
  },
  "Motion": [
@@ -5132,16 +5126,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -21.1369,
-  199.0,
-  -31.5118
+  -147.9819,
+  79.0,
+  -189.2923
  ],
  "Rotation": [
-  -127.0766,
-  0.0
+  -42.0002,
+  -15.2999
  ],
- "Score": 9037,
- "SelectedItemSlot": 5,
+ "Score": 9157,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "UUID": [
   936377957,
@@ -5150,20 +5144,20 @@
   1398408445
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
- "XpLevel": 56,
- "XpP": 0.8728,
+ "XpLevel": 57,
+ "XpP": 0.2141,
  "XpSeed": -736053570,
- "XpTotal": 9037,
+ "XpTotal": 9157,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
   "instabuild": 0,
-  "invulnerable": 1,
+  "invulnerable": 0,
   "mayBuild": 1,
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.953,
+ "foodExhaustionLevel": 2.468,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14711,7 +14705,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9089,
+  "ticks_since_last_warning": 2861,
   "warning_level": 0
  }
 }

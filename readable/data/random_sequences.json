@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    6376362478261767714,
-    4188542255184305622
+    -7352354197674697814,
+    108359094989952525
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -8427813109670174253,
-    -2549072716125490247
+    -246222151425260859,
+    1116957773300819920
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -419,6 +419,18 @@
    "source": [
     -4552806652282971808,
     -6795284348136608776
+   ]
+  },
+  "cataclysm:blocks/pointed_icicle": {
+   "source": [
+    3008965549477172923,
+    4876831679226443177
+   ]
+  },
+  "cataclysm:entities/draugr": {
+   "source": [
+    1572550289757642329,
+    -3612400020276051721
    ]
   },
   "cataclysm:entities/kobolediator": {
@@ -907,6 +919,12 @@
     -3203095427690672857
    ]
   },
+  "minecraft:blocks/flower_pot": {
+   "source": [
+    841405512255410837,
+    5216516698262113200
+   ]
+  },
   "minecraft:blocks/flowering_azalea": {
    "source": [
     -1272643257671136051,
@@ -1285,6 +1303,18 @@
     1860951505811324041
    ]
   },
+  "minecraft:blocks/polished_andesite": {
+   "source": [
+    -1649836724418994339,
+    -1619084457956365516
+   ]
+  },
+  "minecraft:blocks/polished_andesite_slab": {
+   "source": [
+    4446042595255685523,
+    6089004326548254071
+   ]
+  },
   "minecraft:blocks/polished_basalt": {
    "source": [
     8644380840103746633,
@@ -1521,8 +1551,8 @@
   },
   "minecraft:blocks/skeleton_skull": {
    "source": [
-    -7959704296687779310,
-    857551980472394782
+    2490954111051217792,
+    7902606099921435934
    ]
   },
   "minecraft:blocks/small_amethyst_bud": {
@@ -1609,6 +1639,12 @@
     7000885155380100092
    ]
   },
+  "minecraft:blocks/soul_fire": {
+   "source": [
+    8332878296648202844,
+    -7216140058120827488
+   ]
+  },
   "minecraft:blocks/soul_lantern": {
    "source": [
     -6896956283470338383,
@@ -1617,8 +1653,8 @@
   },
   "minecraft:blocks/soul_sand": {
    "source": [
-    -9217615429032270810,
-    2074261052838984471
+    4852518274644172287,
+    3050672295210238535
    ]
   },
   "minecraft:blocks/spawner": {
@@ -1695,20 +1731,26 @@
   },
   "minecraft:blocks/stone_brick_slab": {
    "source": [
-    -90478946902032682,
-    974719502582300807
+    -1304082045050993498,
+    -2971936468136171445
    ]
   },
   "minecraft:blocks/stone_brick_stairs": {
    "source": [
-    5910956536049069327,
-    -4785808620399538839
+    -3240439035865023478,
+    -9129134833214265276
+   ]
+  },
+  "minecraft:blocks/stone_brick_wall": {
+   "source": [
+    7739256789652187239,
+    2885289441615621878
    ]
   },
   "minecraft:blocks/stone_bricks": {
    "source": [
-    -9104173205226538852,
-    -7350839502004555535
+    -5095753627035655169,
+    -1786705706352804282
    ]
   },
   "minecraft:blocks/stone_button": {
@@ -1893,8 +1935,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    -274561691066631030,
-    2613041198614517278
+    -604678268413273345,
+    -2783828593985019536
    ]
   },
   "minecraft:entities/blaze": {
@@ -2031,8 +2073,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    2745297239345544071,
-    259291810892673099
+    1626800499983849299,
+    -2731220479873910229
    ]
   },
   "minecraft:entities/pufferfish": {

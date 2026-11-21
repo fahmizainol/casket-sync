@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1131969,
+  "DayTime": 1137969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795257848866,
+  "LastPlayed": 1795258148865,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -450,7 +450,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 105,
+     "Duration": 70,
      "Id": 28,
      "ShowIcon": 1,
      "ShowParticles": 1,
@@ -519,10 +519,6 @@
     },
     {
      "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
-    },
-    {
-     "Base": 0.0,
      "Name": "minecraft:generic.armor"
     },
     {
@@ -571,10 +567,6 @@
     },
     {
      "Base": 1.0,
-     "Name": "forge:swim_speed"
-    },
-    {
-     "Base": 1.0,
      "Name": "epicfight:max_strikes"
     }
    ],
@@ -589,7 +581,7 @@
    "Dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
    "EnderItems": [],
    "FallDistance": 0.0,
-   "FallFlying": 1,
+   "FallFlying": 0,
    "Fire": -20,
    "ForgeCaps": {
     "aether:aether_player": {
@@ -4610,21 +4602,17 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "quark:trying_crawl": 0,
-    "ua_accessory_types_seen": {
-     "uniqueaccessories:ancient_chisel": 1
-    },
-    "ua_rs_active_until": 1924778,
+    "ua_rs_active_until": 1930659,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1924816,
-    "ua_shiny_last_x": -44.2371,
-    "ua_shiny_last_y": 161.4552,
-    "ua_shiny_last_z": -54.1453,
-    "ua_tabi_last_dash": 1923938
+    "ua_shiny_last_active": 1930816,
+    "ua_shiny_last_x": -22.3049,
+    "ua_shiny_last_y": 200.8681,
+    "ua_shiny_last_z": -31.2677,
+    "ua_tabi_last_dash": 1930006
    },
    "Health": 32.0,
-   "HurtByTimestamp": 6489,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4738,7 +4726,12 @@
      }
     },
     {
-     "Count": 11,
+     "Count": 3,
+     "Slot": 5,
+     "id": "cataclysm:pointed_icicle"
+    },
+    {
+     "Count": 10,
      "Slot": 6,
      "id": "minecraft:golden_carrot",
      "tag": {
@@ -4848,6 +4841,46 @@
     },
     {
      "Count": 1,
+     "Slot": 27,
+     "id": "cataclysm:stone_tiles"
+    },
+    {
+     "Count": 5,
+     "Slot": 28,
+     "id": "minecraft:stone_bricks"
+    },
+    {
+     "Count": 5,
+     "Slot": 29,
+     "id": "cataclysm:black_steel_fence"
+    },
+    {
+     "Count": 2,
+     "Slot": 30,
+     "id": "cataclysm:frosted_stone_bricks"
+    },
+    {
+     "Count": 2,
+     "Slot": 31,
+     "id": "cataclysm:stone_pillar"
+    },
+    {
+     "Count": 1,
+     "Slot": 32,
+     "id": "cataclysm:frosted_stone_brick_slab"
+    },
+    {
+     "Count": 2,
+     "Slot": 33,
+     "id": "minecraft:stone_brick_stairs"
+    },
+    {
+     "Count": 2,
+     "Slot": 34,
+     "id": "cataclysm:frosted_stone_brick_stairs"
+    },
+    {
+     "Count": 1,
      "Slot": 100,
      "id": "minecraft:diamond_boots",
      "tag": {
@@ -4949,28 +4982,28 @@
    ],
    "Invulnerable": 0,
    "LastDeathLocation": {
-    "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+    "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
     "pos": [
-     -55,
-     132,
-     -46
+     -67,
+     100,
+     -20
     ]
    },
    "Motion": [
-    -0.4478,
-    -0.0583,
-    0.5757
+    0.0,
+    -0.2926,
+    0.0
    ],
    "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    -44.2371,
-    161.4552,
-    -54.1453
+    -22.3049,
+    200.8681,
+    -31.2677
    ],
    "Rotation": [
-    25.6974,
-    31.9089
+    -62.8513,
+    74.5154
    ],
    "Score": 15192,
    "SelectedItemSlot": 1,
@@ -4990,12 +5023,12 @@
     "flySpeed": 0.05,
     "flying": 0,
     "instabuild": 0,
-    "invulnerable": 1,
+    "invulnerable": 0,
     "mayBuild": 1,
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.3286,
+   "foodExhaustionLevel": 3.933,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5006,7 +5039,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 100,
+    "mana": 98,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15318,7 +15351,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 5356,
+    "ticks_since_last_warning": 10875,
     "warning_level": 0
    }
   },
@@ -15330,7 +15363,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1924816,
+  "Time": 1930816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15338,7 +15371,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 4800,
+  "WanderingTraderSpawnDelay": 22800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16026,9 +16059,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 14771,
+  "rainTime": 8771,
   "raining": 0,
-  "thunderTime": 121732,
+  "thunderTime": 115732,
   "thundering": 0,
   "version": 19133
  },
