@@ -17,6 +17,98 @@
      -1580186985
     ],
     "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 4,
+       "Slot": 3,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 9,
+       "Slot": 9,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "domesticationinnovation:linked_inventory",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 4,
+       "Slot": 20,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:string"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
    }
   ],
   "key": "lootr/a/a1/a1ff6af9-a243-4708-8d85-d4e0aef0d96c",

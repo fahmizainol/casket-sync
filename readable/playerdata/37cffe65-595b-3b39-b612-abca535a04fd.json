@@ -155,7 +155,7 @@
  "DeathTime": 0,
  "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
  "EnderItems": [],
- "FallDistance": 0.3887,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -518,13 +518,10 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge",
-   "GUARD": "efn:efn_parry"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:murasama_dodge",
-   "guard": "efn:murasama_parry",
+   "dodge": "efn:efn_dodge",
+   "guard": "efn:efn_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge"
    },
@@ -548,7 +545,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost3",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1444,8 +1441,8 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 11,
+  "EFNMurasamaMaxSoundPlayed": 1,
+  "EFNMurasamaSheathTicks": 0,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4750,11 +4747,10 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_bb_dodge_until": 1912890,
-  "ua_rs_active_until": 1912814,
+  "ua_rs_active_until": 1918590,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1911330
+  "ua_tabi_last_dash": 1915386
  },
  "Health": 1.0,
  "HurtByTimestamp": 0,
@@ -4779,7 +4775,7 @@
       "lvl": 3
      }
     ],
-    "murasama_sheath": 0
+    "murasama_sheath": 1
    }
   },
   {
@@ -4820,7 +4816,15 @@
   {
    "Count": 1,
    "Slot": 4,
-   "id": "ba_bt:sky_monolith_key"
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 1
+     }
+    ]
+   }
   },
   {
    "Count": 1,
@@ -4850,49 +4854,27 @@
    }
   },
   {
-   "Count": 47,
+   "Count": 1,
    "Slot": 9,
-   "id": "minecraft:iron_ingot"
-  },
-  {
-   "Count": 2,
-   "Slot": 10,
-   "id": "cataclysm:kobolediator_skull"
-  },
-  {
-   "Count": 3,
-   "Slot": 11,
-   "id": "cataclysm:sandstone_falling_trap"
-  },
-  {
-   "Count": 9,
-   "Slot": 12,
-   "id": "tcrcore:divine_fragment"
-  },
-  {
-   "Count": 1,
-   "Slot": 13,
-   "id": "ba_bt:sky_golem_eye"
-  },
-  {
-   "Count": 5,
-   "Slot": 14,
-   "id": "minecraft:rotten_flesh"
-  },
-  {
-   "Count": 1,
-   "Slot": 15,
-   "id": "tcrcore:end_resonance_stone"
-  },
-  {
-   "Count": 1,
-   "Slot": 16,
-   "id": "uniqueaccessories:accessory_box"
-  },
-  {
-   "Count": 29,
-   "Slot": 17,
-   "id": "waystones:waystone"
+   "id": "minecraft:player_head",
+   "tag": {
+    "SkullOwner": {
+     "Id": [
+      -493531989,
+      48713487,
+      -2122758895,
+      -226351268
+     ],
+     "Name": "EoMoTTy",
+     "Properties": {
+      "textures": [
+       {
+        "Value": "ewogICJ0aW1lc3RhbXAiIDogMTY0MDQ5NzI0ODcxMywKICAicHJvZmlsZUlkIiA6ICJlMjk1NGNhYjAyZTc0ZjBmODE3OTQ1MTFmMjgyMjc1YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFb01vVFR5IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkNGYwM2U3NThlNGNiNGI5N2NkNjVlMjgyNDgwMjk3NzZlZmQzNmY5MTYwYmNhN2EwMDE2MDQxNzIxYjk5OCIKICAgIH0KICB9Cn0="
+       }
+      ]
+     }
+    }
+   }
   },
   {
    "Count": 1,
@@ -4920,24 +4902,6 @@
   },
   {
    "Count": 1,
-   "Slot": 19,
-   "id": "minecraft:golden_apple"
-  },
-  {
-   "Count": 2,
-   "Slot": 20,
-   "id": "minecraft:dune_armor_trim_smithing_template"
-  },
-  {
-   "Count": 1,
-   "Slot": 21,
-   "id": "tcrcore:iris_jadae",
-   "tag": {
-    "Damage": 0
-   }
-  },
-  {
-   "Count": 1,
    "Slot": 22,
    "id": "minecraft:diamond_pickaxe",
    "tag": {
@@ -4956,9 +4920,9 @@
    }
   },
   {
-   "Count": 3,
+   "Count": 2,
    "Slot": 23,
-   "id": "aether:zanite_gemstone"
+   "id": "irons_spellbooks:common_ink"
   },
   {
    "Count": 1,
@@ -4966,14 +4930,14 @@
    "id": "cataclysm:storm_eye"
   },
   {
-   "Count": 3,
+   "Count": 1,
    "Slot": 25,
-   "id": "minecraft:wither_rose"
+   "id": "artifacts:thorn_pendant"
   },
   {
-   "Count": 13,
+   "Count": 2,
    "Slot": 26,
-   "id": "aether:enchanted_dart"
+   "id": "minecraft:golden_apple"
   },
   {
    "Count": 1,
@@ -5137,22 +5101,22 @@
  },
  "Motion": [
   0.0,
-  -0.7171,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -36.2622,
-  166.1547,
-  -27.6923
+  -50.2734,
+  132.0,
+  0.4598
  ],
  "Rotation": [
-  -94.0499,
-  18.8671
+  -113.8298,
+  13.4204
  ],
  "Score": 9037,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 5,
  "SleepTimer": 0,
  "UUID": [
   936377957,
@@ -14722,7 +14686,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9090,
+  "ticks_since_last_warning": 3089,
   "warning_level": 0
  }
 }

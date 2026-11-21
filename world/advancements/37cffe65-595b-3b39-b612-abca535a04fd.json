@@ -633,6 +633,12 @@
     },
     "done": false
   },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2026-11-21 18:38:04 +0800"
+    },
+    "done": true
+  },
   "uniqueaccessories:adventure/ua_collect_05": {
     "criteria": {
       "count_reached": "2026-11-21 16:40:52 +0800"

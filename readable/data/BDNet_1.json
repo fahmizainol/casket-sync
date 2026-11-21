@@ -121,7 +121,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "cataclysm:sandstorm_in_a_bottle"
@@ -304,7 +304,7 @@
      }
     },
     {
-     "amount": 154,
+     "amount": 190,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -639,6 +639,15 @@
      }
     },
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_apple"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -723,10 +732,19 @@
      }
     },
     {
-     "amount": 132,
+     "amount": 195,
      "key": {
       "stack": {
        "item": "minecraft:string"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:sandstone_poison_dart_trap"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -931,7 +949,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "minecraft:golden_horse_armor"
@@ -1443,7 +1461,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "uniqueaccessories:ancient_chisel"
@@ -1501,6 +1519,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 33,
+     "key": {
+      "stack": {
+       "item": "minecraft:smooth_sandstone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1808,7 +1835,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:iron_horse_armor"
@@ -2060,7 +2087,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "quark:smithing_template_rune"
@@ -2105,7 +2132,7 @@
      }
     },
     {
-     "amount": 121,
+     "amount": 159,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -2114,7 +2141,7 @@
      }
     },
     {
-     "amount": 18,
+     "amount": 28,
      "key": {
       "stack": {
        "item": "cataclysm:koboleton_bone"
@@ -2422,7 +2449,7 @@
      }
     },
     {
-     "amount": 317,
+     "amount": 318,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2592,6 +2619,23 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:silk_touch",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:leather_chestplate",
        "tag": {
         "Damage": 0,
@@ -2643,7 +2687,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "minecraft:saddle"
@@ -2713,6 +2757,15 @@
          "Name": "{\"text\":\"Soda\",\"italic\":false}"
         }
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:smooth_red_sandstone_stairs"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3164,6 +3217,23 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:riptide",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 9,
      "key": {
       "stack": {
@@ -3316,7 +3386,7 @@
      }
     },
     {
-     "amount": 207,
+     "amount": 215,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -3396,6 +3466,23 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -3462,7 +3549,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "cataclysm:ancient_metal_block"
@@ -3724,6 +3811,15 @@
      }
     },
     {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "minecraft:smooth_sandstone_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 142,
      "key": {
       "stack": {
@@ -3905,6 +4001,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:smooth_sandstone_slab"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -3976,7 +4081,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "irons_spellbooks:common_ink"
@@ -4069,7 +4174,7 @@
      }
     },
     {
-     "amount": 223,
+     "amount": 240,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -4120,7 +4225,7 @@
      }
     },
     {
-     "amount": 20,
+     "amount": 68,
      "key": {
       "stack": {
        "item": "minecraft:sand"
@@ -4150,7 +4255,7 @@
      }
     },
     {
-     "amount": 119,
+     "amount": 125,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -4528,7 +4633,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "artifacts:charm_of_sinking"
@@ -4564,7 +4669,7 @@
      }
     },
     {
-     "amount": 152,
+     "amount": 174,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -4613,6 +4718,15 @@
      "key": {
       "stack": {
        "item": "uniqueaccessories:withered_heart"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:thorn_pendant"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4782,7 +4896,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:dune_armor_trim_smithing_template"
@@ -5009,6 +5123,15 @@
      }
     },
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:sandstone_wall"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -5075,7 +5198,7 @@
      }
     },
     {
-     "amount": 21,
+     "amount": 30,
      "key": {
       "stack": {
        "item": "minecraft:spider_eye"
@@ -5216,7 +5339,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:cut_sandstone"
@@ -5234,7 +5357,7 @@
      }
     },
     {
-     "amount": 62,
+     "amount": 109,
      "key": {
       "stack": {
        "item": "minecraft:gunpowder"
@@ -5535,7 +5658,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "epicfight:uchigatana",

@@ -1,0 +1,126 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 3,
+       "Slot": 1,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 2,
+       "Slot": 2,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 3,
+       "Slot": 4,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:iron_horse_armor"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 3,
+       "Slot": 14,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 2,
+       "Slot": 17,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 3,
+       "Slot": 21,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 3,
+       "Slot": 24,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:rotten_flesh"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/3/33/33d50e3a-f6b0-4262-9227-9a6677262ba9",
+  "position": {
+   "X": -60,
+   "Y": 133,
+   "Z": -12
+  },
+  "size": 27,
+  "uuid": [
+   869600826,
+   -156220830,
+   -1842898330,
+   1998990249
+  ],
+  "uuid_str": "33d50e3a-f6b0-4262-9227-9a6677262ba9"
+ }
+}

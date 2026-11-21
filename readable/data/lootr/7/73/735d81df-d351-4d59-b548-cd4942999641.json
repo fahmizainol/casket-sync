@@ -1,0 +1,123 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 2,
+       "Slot": 1,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 2,
+       "Slot": 5,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 4,
+       "Slot": 10,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 4,
+       "Slot": 11,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:spider_eye"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 17,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 2,
+       "Slot": 18,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "irons_spellbooks:arcane_essence"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 2,
+       "Slot": 24,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:string"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/7/73/735d81df-d351-4d59-b548-cd4942999641",
+  "position": {
+   "X": -46,
+   "Y": 147,
+   "Z": -26
+  },
+  "size": 27,
+  "uuid": [
+   1935507935,
+   -749646503,
+   -1253520055,
+   1117361729
+  ],
+  "uuid_str": "735d81df-d351-4d59-b548-cd4942999641"
+ }
+}
