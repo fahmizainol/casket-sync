@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 957969,
+  "DayTime": 963969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795249148857,
+  "LastPlayed": 1795249448862,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -4556,13 +4556,13 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1750214,
+    "ua_rs_active_until": 1750999,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1750228,
-    "ua_shiny_last_x": 99.332,
-    "ua_shiny_last_y": 200.0,
-    "ua_shiny_last_z": -1803.8888,
+    "ua_shiny_last_active": 1753887,
+    "ua_shiny_last_x": 108.0646,
+    "ua_shiny_last_y": 201.0,
+    "ua_shiny_last_z": -1793.0457,
     "ua_tabi_last_dash": 1750074
    },
    "Health": 30.0,
@@ -4893,13 +4893,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    99.332,
-    200.0,
-    -1803.8761
+    108.0646,
+    201.0,
+    -1793.0457
    ],
    "Rotation": [
-    -61.3289,
-    32.7939
+    -16.6307,
+    37.1478
    ],
    "Score": 11864,
    "SelectedItemSlot": 0,
@@ -4930,7 +4930,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.938,
+   "foodExhaustionLevel": 0.866,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15253,7 +15253,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 2608,
+    "ticks_since_last_warning": 8608,
     "warning_level": 0
    }
   },
@@ -15265,7 +15265,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1750816,
+  "Time": 1756816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15273,7 +15273,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 10800,
+  "WanderingTraderSpawnDelay": 4800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15961,9 +15961,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 9269,
+  "rainTime": 3269,
   "raining": 0,
-  "thunderTime": 13002,
+  "thunderTime": 7002,
   "thundering": 0,
   "version": 19133
  },

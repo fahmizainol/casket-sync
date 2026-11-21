@@ -123,7 +123,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "aether:the_aether",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -4715,7 +4715,7 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1643797,
+  "ua_rs_active_until": 1754060,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
   "ua_tabi_last_dash": 1643222
@@ -4831,6 +4831,11 @@
      }
     ]
    }
+  },
+  {
+   "Count": 1,
+   "Slot": 11,
+   "id": "cataclysm:storm_eye"
   },
   {
    "Count": 1,
@@ -5055,13 +5060,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  90.6732,
-  200.0,
-  -1794.0697
+  -207.4766,
+  85.0,
+  -191.0993
  ],
  "Rotation": [
-  -88.6467,
-  10.112
+  81.4503,
+  -7.1715
  ],
  "Score": 3943,
  "SelectedItemSlot": 0,
@@ -5092,7 +5097,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.941,
+ "foodExhaustionLevel": 1.815,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14699,7 +14704,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7664,
+  "ticks_since_last_warning": 1662,
   "warning_level": 0
  }
 }
