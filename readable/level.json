@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1035969,
+  "DayTime": 1041969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795253048867,
+  "LastPlayed": 1795253348862,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -435,7 +435,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 1006,
+     "Duration": 361,
      "Id": 21,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -475,6 +475,10 @@
     {
      "Base": 0.0,
      "Name": "epicfight:stun_armor"
+    },
+    {
+     "Base": 4.0,
+     "Name": "epicfight:offhand_attack_speed"
     },
     {
      "Base": 20.0,
@@ -1618,8 +1622,8 @@
     },
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
-     "currentDataNodeId": 215,
-     "currentLogicNodeId": 215
+     "currentDataNodeId": 218,
+     "currentLogicNodeId": 218
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -4583,18 +4587,17 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "quark:trying_crawl": 0,
-    "ua_rs_active_until": 1828647,
+    "ua_rs_active_until": 1834663,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1828816,
-    "ua_shiny_last_x": 94.3397,
+    "ua_shiny_last_active": 1834814,
+    "ua_shiny_last_x": 104.0925,
     "ua_shiny_last_y": 200.0,
-    "ua_shiny_last_z": -1795.069,
-    "ua_tabi_last_dash": 1826438
+    "ua_shiny_last_z": -1789.4015,
+    "ua_tabi_last_dash": 1834158
    },
-   "Health": 25.0546,
-   "HurtByTimestamp": 14980,
+   "Health": 29.0546,
+   "HurtByTimestamp": 1018,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4694,7 +4697,7 @@
      }
     },
     {
-     "Count": 15,
+     "Count": 14,
      "Slot": 5,
      "id": "minecraft:golden_apple",
      "tag": {
@@ -4847,11 +4850,11 @@
    ],
    "Invulnerable": 0,
    "LastDeathLocation": {
-    "dimension": "minecraft:the_nether",
+    "dimension": "aether:the_aether",
     "pos": [
-     84,
-     50,
-     -254
+     90,
+     200,
+     -1794
     ]
    },
    "Motion": [
@@ -4862,13 +4865,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    94.3397,
+    104.0842,
     200.0,
-    -1795.069
+    -1789.4114
    ],
    "Rotation": [
-    1.9136,
-    30.2632
+    -11.7687,
+    -10.4554
    ],
    "Score": 11896,
    "SelectedItemSlot": 0,
@@ -4899,7 +4902,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.209,
+   "foodExhaustionLevel": 0.849,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15222,7 +15225,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 7598,
+    "ticks_since_last_warning": 1147,
     "warning_level": 0
    }
   },
@@ -15234,15 +15237,15 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1828816,
+  "Time": 1834816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
    "Series": "main",
    "Snapshot": 0
   },
-  "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 4800,
+  "WanderingTraderSpawnChance": 75,
+  "WanderingTraderSpawnDelay": 22800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15930,9 +15933,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 58300,
+  "rainTime": 52300,
   "raining": 0,
-  "thunderTime": 59115,
+  "thunderTime": 53115,
   "thundering": 0,
   "version": 19133
  },
