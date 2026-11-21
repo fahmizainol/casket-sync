@@ -1,22 +1,5 @@
 {
- "AbsorptionAmount": 19.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 129,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  }
- ],
+ "AbsorptionAmount": 20.0,
  "Air": 300,
  "Attributes": [
   {
@@ -111,18 +94,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 3.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 0",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -550,7 +521,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "wom:heart_shield",
    "passive6": "wom:mindset",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1228,8 +1199,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 131,
-   "currentLogicNodeId": 131
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 127
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1289,7 +1260,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1316,7 +1287,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 72.0,
+    "currentQuestId": 73.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1417,10 +1388,11 @@
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 10.0,
-   "questSize": 11,
+   "questSize": 12,
    "quest_0": 84,
    "quest_1": 38,
    "quest_10": 72,
+   "quest_11": 73,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
@@ -4739,12 +4711,13 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "ua_rs_active_until": 1643797,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1642699
+  "ua_tabi_last_dash": 1643222
  },
  "Health": 30.0,
- "HurtByTimestamp": 2649,
+ "HurtByTimestamp": 3925,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4819,6 +4792,11 @@
    "id": "tcrcore:divine_fragment"
   },
   {
+   "Count": 2,
+   "Slot": 7,
+   "id": "epicskills:ability_stone"
+  },
+  {
    "Count": 1,
    "Slot": 8,
    "id": "waystones:warp_stone",
@@ -4851,19 +4829,29 @@
    }
   },
   {
-   "Count": 12,
-   "Slot": 11,
-   "id": "irons_spellbooks:arcane_essence"
-  },
-  {
    "Count": 1,
    "Slot": 12,
    "id": "tcrcore:nine_heaven_darksteel"
   },
   {
+   "Count": 1,
+   "Slot": 13,
+   "id": "tcrcore:artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 14,
+   "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
    "Count": 29,
    "Slot": 17,
    "id": "waystones:waystone"
+  },
+  {
+   "Count": 1,
+   "Slot": 18,
+   "id": "ba_bt:sky_monolith_key"
   },
   {
    "Count": 1,
@@ -5063,15 +5051,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  95.2487,
+  90.4578,
   200.0,
-  -1790.7695
+  -1794.1376
  ],
  "Rotation": [
-  -128.2679,
-  -11.9628
+  -88.6467,
+  10.112
  ],
- "Score": 3942,
+ "Score": 3943,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 105.2728,
@@ -5088,9 +5076,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 40,
- "XpP": 0.0644,
+ "XpP": 0.0693,
  "XpSeed": -736053570,
- "XpTotal": 3942,
+ "XpTotal": 3943,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5100,7 +5088,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.95,
+ "foodExhaustionLevel": 1.941,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14707,7 +14695,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7673,
+  "ticks_since_last_warning": 1672,
   "warning_level": 0
  }
 }

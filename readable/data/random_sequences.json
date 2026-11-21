@@ -39,8 +39,8 @@
   },
   "aether:entities/aechor_plant": {
    "source": [
-    -5900488656166522055,
-    78236690680392235
+    5086130239163403555,
+    -240787698211968757
    ]
   },
   "aether:entities/aerbunny": {
@@ -51,8 +51,8 @@
   },
   "aether:entities/blue_swet": {
    "source": [
-    8560285776219015123,
-    -7896287854796793454
+    -4927101113197687069,
+    -8346538515276295005
    ]
   },
   "aether:entities/cockatrice": {
@@ -69,8 +69,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    1424391445903307261,
-    -7505707231757666451
+    -4095307244850855852,
+    5541069723741713190
    ]
   },
   "aether:entities/moa": {
@@ -215,6 +215,12 @@
    "source": [
     2280503816620801566,
     2193183576637655602
+   ]
+  },
+  "ba_bt:entities/sky_golem": {
+   "source": [
+    8742054693031121032,
+    573624193932888854
    ]
   },
   "biomeswevegone:blocks/baobab_leaves": {

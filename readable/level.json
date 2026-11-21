@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 849969,
+  "DayTime": 855969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,27 +421,10 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795243748873,
+  "LastPlayed": 1795244048860,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
-   "ActiveEffects": [
-    {
-     "Ambient": 0,
-     "Amplifier": 1,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 692,
-     "Id": 21,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
-    }
-   ],
    "Air": 300,
    "Attributes": [
     {
@@ -494,18 +477,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 8.0,
-       "Name": "effect.minecraft.health_boost 1",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -1683,7 +1654,7 @@
       "dual_annihilator_lock": 1,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 1,
@@ -1710,7 +1681,7 @@
       "canEnterAether": 1,
       "canEnterNether": 1,
       "chronosTalked": 1,
-      "currentQuestId": 72.0,
+      "currentQuestId": 73.0,
       "currentQuestIdisLocked": 0,
       "cursedEyeActivated": 1,
       "cursedEyeBlessed": 1,
@@ -1811,10 +1782,11 @@
      "finished_quest_8": 27,
      "finished_quest_9": 27,
      "healthAdder": 10.0,
-     "questSize": 11,
+     "questSize": 12,
      "quest_0": 84,
      "quest_1": 38,
      "quest_10": 72,
+     "quest_11": 73,
      "quest_2": 2,
      "quest_3": 6,
      "quest_4": 7,
@@ -4580,17 +4552,17 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1642811,
+    "ua_rs_active_until": 1643249,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1642816,
-    "ua_shiny_last_x": 107.1971,
-    "ua_shiny_last_y": 204.5294,
-    "ua_shiny_last_z": -1791.9511,
+    "ua_shiny_last_active": 1643292,
+    "ua_shiny_last_x": 86.9623,
+    "ua_shiny_last_y": 200.0,
+    "ua_shiny_last_z": -1786.7173,
     "ua_tabi_last_dash": 1642024
    },
-   "Health": 22.0172,
-   "HurtByTimestamp": 1987,
+   "Health": 30.0,
+   "HurtByTimestamp": 2436,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4735,6 +4707,11 @@
      "id": "irons_spellbooks:arcane_essence"
     },
     {
+     "Count": 2,
+     "Slot": 13,
+     "id": "epicskills:ability_stone"
+    },
+    {
      "Count": 1,
      "Slot": 14,
      "id": "tcrcore:divine_fragment"
@@ -4751,13 +4728,33 @@
     },
     {
      "Count": 1,
+     "Slot": 17,
+     "id": "tcrcore:artifact_ticket"
+    },
+    {
+     "Count": 1,
      "Slot": 18,
      "id": "minecraft:saddle"
     },
     {
      "Count": 1,
+     "Slot": 19,
+     "id": "tcrcore:rare_artifact_ticket"
+    },
+    {
+     "Count": 1,
      "Slot": 20,
      "id": "minecraft:netherrack"
+    },
+    {
+     "Count": 3,
+     "Slot": 21,
+     "id": "irons_spellbooks:divine_pearl"
+    },
+    {
+     "Count": 1,
+     "Slot": 22,
+     "id": "irons_spellbooks:shriving_stone"
     },
     {
      "Count": 61,
@@ -4880,23 +4877,23 @@
     ]
    },
    "Motion": [
-    0.2512,
-    0.0531,
-    0.1355
-   ],
-   "OnGround": 0,
-   "PortalCooldown": 0,
-   "Pos": [
-    107.1971,
-    204.5294,
-    -1791.9511
-   ],
-   "Rotation": [
-    11.6458,
+    0.0,
+    -0.0784,
     0.0
    ],
-   "Score": 8762,
-   "SelectedItemSlot": 8,
+   "OnGround": 1,
+   "PortalCooldown": 0,
+   "Pos": [
+    86.9623,
+    200.0,
+    -1786.7173
+   ],
+   "Rotation": [
+    -154.7759,
+    0.0
+   ],
+   "Score": 11864,
+   "SelectedItemSlot": 0,
    "SleepTimer": 0,
    "SpawnAngle": 161.3706,
    "SpawnDimension": "aether:the_aether",
@@ -4911,10 +4908,10 @@
     -1580186985
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-   "XpLevel": 49,
-   "XpP": 0.3392,
+   "XpLevel": 58,
+   "XpP": 0.8984,
    "XpSeed": 976728483,
-   "XpTotal": 8762,
+   "XpTotal": 11864,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4924,7 +4921,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.705,
+   "foodExhaustionLevel": 3.997,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15247,7 +15244,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 2617,
+    "ticks_since_last_warning": 8617,
     "warning_level": 0
    }
   },
@@ -15259,7 +15256,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1642816,
+  "Time": 1648816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15267,7 +15264,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15955,9 +15952,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 22742,
+  "rainTime": 16742,
   "raining": 0,
-  "thunderTime": 121002,
+  "thunderTime": 115002,
   "thundering": 0,
   "version": 19133
  },

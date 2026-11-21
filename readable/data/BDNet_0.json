@@ -317,7 +317,7 @@
      }
     },
     {
-     "amount": 38,
+     "amount": 50,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -1026,7 +1026,7 @@
      }
     },
     {
-     "amount": 273,
+     "amount": 274,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1125,10 +1125,19 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "irons_spellbooks:shriving_stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:divine_pearl"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2273,6 +2282,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "ba_bt:sky_golem_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }
