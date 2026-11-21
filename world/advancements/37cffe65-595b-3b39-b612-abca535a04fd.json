@@ -614,5 +614,11 @@
     },
     "done": true
   },
+  "uniqueaccessories:adventure/ua_collect_05": {
+    "criteria": {
+      "count_reached": "2026-11-21 16:40:52 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

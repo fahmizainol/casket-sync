@@ -498,11 +498,7 @@
         {
          "Count": 1,
          "Slot": 1,
-         "id": "uniqueaccessories:fossil_shark_tooth",
-         "tag": {
-          "ua_from_box": 1,
-          "ua_from_box_expires": 736102
-         }
+         "id": "uniqueaccessories:withered_heart"
         },
         {
          "Count": 1,
@@ -4447,10 +4443,10 @@
       "CompanionPreviewHeight": 2.6,
       "CompanionPreviewWidth": 1.9,
       "CompanionRescueArmor": 8,
-      "CompanionRescueHealth": 96.8346,
+      "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 1772504,
+      "CompanionRescueStoredAt": 1778603,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4634,7 +4630,7 @@
       ],
       "HasClearAirspace": 1,
       "HasConsumedFood": 0,
-      "Health": 96.8346,
+      "Health": 140.0,
       "HurtByTimestamp": 1603,
       "HurtTime": 0,
       "InLove": 0,
@@ -4748,15 +4744,17 @@
   "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:ancient_chisel": 1,
+   "uniqueaccessories:black_belt": 1,
+   "uniqueaccessories:fossil_shark_tooth": 1,
    "uniqueaccessories:hero_emblem": 1,
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 1771439,
+  "ua_rs_active_until": 1775207,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1643222
+  "ua_tabi_last_dash": 1775231
  },
- "Health": 30.0,
+ "Health": 1.0,
  "HurtByTimestamp": 132015,
  "HurtTime": 0,
  "Inventory": [
@@ -4853,6 +4851,15 @@
   },
   {
    "Count": 1,
+   "Slot": 10,
+   "id": "uniqueaccessories:fossil_shark_tooth",
+   "tag": {
+    "ua_from_box": 1,
+    "ua_from_box_expires": 736102
+   }
+  },
+  {
+   "Count": 1,
    "Slot": 11,
    "id": "cataclysm:storm_eye"
   },
@@ -4864,12 +4871,22 @@
   {
    "Count": 1,
    "Slot": 13,
-   "id": "tcrcore:artifact_ticket"
+   "id": "uniqueaccessories:black_belt"
+  },
+  {
+   "Count": 1,
+   "Slot": 14,
+   "id": "uniqueaccessories:ancient_chisel"
   },
   {
    "Count": 1,
    "Slot": 15,
    "id": "tcrcore:end_resonance_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 16,
+   "id": "tcrcore:artifact_ticket"
   },
   {
    "Count": 29,
@@ -4904,11 +4921,6 @@
    "Count": 1,
    "Slot": 19,
    "id": "efn:hf_murasama_blade"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "uniqueaccessories:ancient_chisel"
   },
   {
    "Count": 7,
@@ -5093,13 +5105,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  79.0194,
+  79.8668,
   73.0,
-  -140.8881
+  -133.3721
  ],
  "Rotation": [
-  150.0002,
-  0.7864
+  -32.0999,
+  10.3864
  ],
  "Score": 3943,
  "SelectedItemSlot": 1,
@@ -5130,7 +5142,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.744,
+ "foodExhaustionLevel": 3.269,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14718,7 +14730,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7660,
+  "ticks_since_last_warning": 1658,
   "warning_level": 0
  }
 }

@@ -1035,7 +1035,7 @@
      }
     },
     {
-     "amount": 295,
+     "amount": 296,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1187,7 +1187,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 1,
      "key": {
       "stack": {
        "item": "tcrcore:artifact_ticket"
