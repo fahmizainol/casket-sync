@@ -4134,10 +4134,10 @@
   "ua_rs_active_until": 1687797,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1687914,
-  "ua_shiny_last_x": 97.0921,
+  "ua_shiny_last_active": 1715452,
+  "ua_shiny_last_x": 97.2613,
   "ua_shiny_last_y": 200.0,
-  "ua_shiny_last_z": -1802.7497,
+  "ua_shiny_last_z": -1802.2268,
   "ua_tabi_last_dash": 1687684
  },
  "Health": 30.0,
@@ -4468,13 +4468,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  97.1034,
+  97.2613,
   200.0,
-  -1802.7545
+  -1802.2268
  ],
  "Rotation": [
-  -169.3324,
-  32.2904
+  7.8253,
+  18.3182
  ],
  "Score": 11864,
  "SelectedItemSlot": 0,
@@ -4505,7 +4505,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.538,
+ "foodExhaustionLevel": 1.588,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14828,7 +14828,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2611,
+  "ticks_since_last_warning": 8611,
   "warning_level": 0
  }
 }
