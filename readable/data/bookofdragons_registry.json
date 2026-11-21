@@ -30,35 +30,6 @@
     "PosZ": -328,
     "Stage": "BROAD_WING",
     "Type": "NIGHTFURY"
-   },
-   {
-    "Affection": 1000,
-    "CustomName": "Hideous Zippleback",
-    "Dimension": "tcrcore:sanctum",
-    "DragonUUID": [
-     -644884357,
-     -1594343222,
-     -1261508161,
-     1492697879
-    ],
-    "DragonUUID_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317",
-    "HasChest": 0,
-    "HasSaddle": 1,
-    "Health": 198.4478,
-    "LastUpdate": 1795253582679,
-    "MaxHealth": 220.0,
-    "OwnerUUID": [
-     1096852936,
-     1655583406,
-     -1125147392,
-     -1580186985
-    ],
-    "OwnerUUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-    "PosX": 81,
-    "PosY": 73,
-    "PosZ": -165,
-    "Stage": "BROAD_WING",
-    "Type": "HIDEOUS_ZIPPLEBACK"
    }
   ]
  }

@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1047969,
+  "DayTime": 1053969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795253648875,
+  "LastPlayed": 1795253948854,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -467,7 +467,7 @@
      "Base": 20.0,
      "Modifiers": [
       {
-       "Amount": 10.0,
+       "Amount": 12.0,
        "Name": "health_boost",
        "Operation": 0,
        "UUID": [
@@ -505,7 +505,7 @@
      "Base": 15.0,
      "Modifiers": [
       {
-       "Amount": 4.0,
+       "Amount": 4.8,
        "Name": "stamina_boost",
        "Operation": 0,
        "UUID": [
@@ -540,7 +540,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "tcrcore:sanctum",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -893,17 +893,19 @@
       "0": "efn:efn_parry"
      },
      "learned:passive": {
-      "0": "epicfight:berserker",
-      "1": "dodge_parry_reward:stamina1",
-      "10": "tcrcore:fire_avoid",
-      "2": "epicfight:emergency_escape",
-      "3": "dodge_parry_reward:heal2",
-      "4": "dodge_parry_reward:heal1",
-      "5": "dodge_parry_reward:damage_boost2",
-      "6": "epicfight:bonebreaker",
-      "7": "dodge_parry_reward:health_boost1",
-      "8": "dodge_parry_reward:damage_boost1",
-      "9": "efn:precise_parry"
+      "0": "dodge_parry_reward:stamina1",
+      "1": "dodge_parry_reward:heal2",
+      "10": "epicfight:bonebreaker",
+      "11": "dodge_parry_reward:damage_boost1",
+      "12": "wom:mindset",
+      "2": "dodge_parry_reward:heal1",
+      "3": "dodge_parry_reward:damage_boost2",
+      "4": "dodge_parry_reward:health_boost1",
+      "5": "efn:precise_parry",
+      "6": "tcrcore:fire_avoid",
+      "7": "epicfight:berserker",
+      "8": "epicfight:emergency_escape",
+      "9": "wom:latent_retribution"
      },
      "learned:sword_soaring": {
       "0": "sword_soaring:sword_soaring_master",
@@ -911,11 +913,11 @@
      },
      "passive1": "dodge_parry_reward:damage_boost2",
      "passive2": "epicfight:bonebreaker",
-     "passive3": "dodge_parry_reward:stamina1",
+     "passive3": "wom:mindset",
      "passive4": "dodge_parry_reward:health_boost1",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -941,7 +943,7 @@
      "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
     },
     "epicskills:ability_points": {
-     "abilityPoint": 7,
+     "abilityPoint": 2,
      "requiredExp": 7,
      "requiredExpLevel": 0
     },
@@ -1340,11 +1342,11 @@
             "children": [
              {
               "name": "wom:adrenaline",
-              "state": "locked"
+              "state": "unlockable"
              },
              {
               "name": "wom:heart_shield",
-              "state": "locked"
+              "state": "unlockable"
              },
              {
               "children": [
@@ -1368,11 +1370,11 @@
                }
               ],
               "name": "wom:meditation",
-              "state": "locked"
+              "state": "unlockable"
              }
             ],
             "name": "wom:mindset",
-            "state": "locked"
+            "state": "unlocked"
            },
            {
             "children": [
@@ -1420,7 +1422,7 @@
            }
           ],
           "name": "wom:latent_retribution",
-          "state": "unlockable"
+          "state": "unlocked"
          }
         ],
         "name": "wom:pain_anticipation",
@@ -1593,8 +1595,8 @@
     },
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
-     "currentDataNodeId": 1,
-     "currentLogicNodeId": 212
+     "currentDataNodeId": 215,
+     "currentLogicNodeId": 215
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1709,13 +1711,14 @@
       "monst_eye_gotten": 1,
       "ornnTalked": 1,
       "parried": 1,
+      "stormEyeBlessed": 1,
       "storm_eye_gotten": 1,
       "sword_soaring_avoid_unlocked": 1,
       "tutorial_passed": 1,
       "way_stone_interacted": 1,
       "weapon_innate_used": 1
      },
-     "finishedQuestSize": 70,
+     "finishedQuestSize": 71,
      "finished_quest_0": 21,
      "finished_quest_1": 23,
      "finished_quest_10": 29,
@@ -1784,23 +1787,23 @@
      "finished_quest_68": 74,
      "finished_quest_69": 76,
      "finished_quest_7": 26,
+     "finished_quest_70": 18,
      "finished_quest_8": 27,
      "finished_quest_9": 27,
-     "healthAdder": 10.0,
-     "questSize": 13,
+     "healthAdder": 12.0,
+     "questSize": 12,
      "quest_0": 84,
      "quest_1": 38,
-     "quest_10": 15,
-     "quest_11": 75,
-     "quest_12": 77,
+     "quest_10": 75,
+     "quest_11": 77,
      "quest_2": 2,
      "quest_3": 6,
      "quest_4": 7,
      "quest_5": 8,
      "quest_6": 59,
-     "quest_7": 18,
-     "quest_8": 4,
-     "quest_9": 3,
+     "quest_7": 4,
+     "quest_8": 3,
+     "quest_9": 15,
      "resonanceStoneInCooldown": 0,
      "resonanceStoneStartTime": 1407051,
      "sardine": 0,
@@ -4559,17 +4562,17 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_rs_active_until": 1840209,
+    "ua_rs_active_until": 1844752,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1840764,
-    "ua_shiny_last_x": 269.4276,
-    "ua_shiny_last_y": 63.0,
-    "ua_shiny_last_z": -1774.5475,
-    "ua_tabi_last_dash": 1840701
+    "ua_shiny_last_active": 1845006,
+    "ua_shiny_last_x": 78.3604,
+    "ua_shiny_last_y": 73.0,
+    "ua_shiny_last_z": -138.9254,
+    "ua_tabi_last_dash": 1844742
    },
-   "Health": 30.0,
-   "HurtByTimestamp": 1145,
+   "Health": 32.0,
+   "HurtByTimestamp": 7857,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4608,6 +4611,33 @@
      "id": "efn:crimson_moon",
      "tag": {
       "Damage": 0,
+      "Enchantments": [
+       {
+        "id": "minecraft:looting",
+        "lvl": 3
+       },
+       {
+        "id": "minecraft:sharpness",
+        "lvl": 5
+       },
+       {
+        "id": "minecraft:knockback",
+        "lvl": 2
+       },
+       {
+        "id": "minecraft:fire_aspect",
+        "lvl": 2
+       },
+       {
+        "id": "minecraft:sweeping",
+        "lvl": 3
+       },
+       {
+        "id": "efn:scythe_enhance",
+        "lvl": 1
+       }
+      ],
+      "RepairCost": 1,
       "kusabimaru_sheath": 0
      }
     },
@@ -4682,11 +4712,6 @@
      "id": "waystones:waystone"
     },
     {
-     "Count": 60,
-     "Slot": 7,
-     "id": "minecraft:dark_oak_log"
-    },
-    {
      "Count": 3,
      "Slot": 8,
      "id": "efn:duskfire_ingot"
@@ -4722,25 +4747,17 @@
      "id": "irons_spellbooks:divine_pearl"
     },
     {
-     "Count": 1,
-     "Slot": 15,
-     "id": "minecraft:enchanted_book",
-     "tag": {
-      "StoredEnchantments": [
-       {
-        "id": "efn:scythe_enhance",
-        "lvl": 1
-       }
-      ]
-     }
-    },
-    {
      "Count": 2,
      "Slot": 32,
      "id": "irons_spellbooks:lightning_bottle",
      "tag": {
       "kusabimaru_sheath": 0
      }
+    },
+    {
+     "Count": 60,
+     "Slot": 33,
+     "id": "minecraft:dark_oak_log"
     },
     {
      "Count": 53,
@@ -4865,16 +4882,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    269.4383,
-    63.0,
-    -1774.5475
+    78.3604,
+    73.0,
+    -138.9347
    ],
    "Rotation": [
-    -48.2699,
-    39.49
+    8.5566,
+    20.9068
    ],
    "Score": 14377,
-   "SelectedItemSlot": 1,
+   "SelectedItemSlot": 2,
    "SleepTimer": 0,
    "SpawnAngle": 161.3706,
    "SpawnDimension": "aether:the_aether",
@@ -4889,8 +4906,8 @@
     -1580186985
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-   "XpLevel": 65,
-   "XpP": 0.2412,
+   "XpLevel": 64,
+   "XpP": 0.0957,
    "XpSeed": 976728483,
    "XpTotal": 14377,
    "abilities": {
@@ -4902,7 +4919,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.87,
+   "foodExhaustionLevel": 2.494,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15225,7 +15242,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 6947,
+    "ticks_since_last_warning": 945,
     "warning_level": 0
    }
   },
@@ -15237,7 +15254,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1840816,
+  "Time": 1846816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15245,7 +15262,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 10800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15933,9 +15950,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 46300,
+  "rainTime": 40300,
   "raining": 0,
-  "thunderTime": 47115,
+  "thunderTime": 41115,
   "thundering": 0,
   "version": 19133
  },
