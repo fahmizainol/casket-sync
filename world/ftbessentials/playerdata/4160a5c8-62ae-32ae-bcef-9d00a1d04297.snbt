@@ -6,16 +6,16 @@
 	last_seen: { dim: "tcrcore:sanctum", x: 80, y: 73, z: -144, time: 1795237129374L, xRot: 0.0f, yRot: 76.49806f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -42, y: 132, z: -54, time: 1795255034464L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -39, y: 132, z: -67, time: 1795255047483L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -42, y: 101, z: -72, time: 1795255268115L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 178, z: 0, time: 1795255287434L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -28, y: 97, z: -45, time: 1795255514684L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 190, z: 0, time: 1795255533762L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -29, y: 97, z: -39, time: 1795255594200L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 195, z: 0, time: 1795255611489L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -33, y: 97, z: -2, time: 1795255645456L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 196, z: 0, time: 1795255662209L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -52, y: 97, z: -11, time: 1795255796148L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -49, y: 98, z: -39, time: 1795255862406L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -37, y: 97, z: -47, time: 1795255947231L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 183, z: 0, time: 1795255966036L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -37, y: 97, z: -40, time: 1795255975929L }
 	]
 	homes: { }
 	kit_use_times: { }

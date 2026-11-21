@@ -1,24 +1,11 @@
 {
- "AbsorptionAmount": 20.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 233,
-   "Id": 28,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "minecraft:slow_falling"
-  }
- ],
+ "AbsorptionAmount": 0.0,
  "Air": 300,
  "Attributes": [
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:ice_spell_power"
+  },
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
@@ -40,6 +27,10 @@
    "Name": "attributeslib:creative_flight"
   },
   {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:lightning_spell_power"
+  },
+  {
    "Base": 4.0,
    "Name": "minecraft:generic.attack_speed"
   },
@@ -50,6 +41,10 @@
   {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:holy_spell_power"
   },
   {
    "Base": 0.0,
@@ -80,6 +75,10 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 100.0,
+   "Name": "irons_spellbooks:max_mana"
   },
   {
    "Base": 1.0,
@@ -135,7 +134,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 92,
  "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1201,7 +1200,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 231
+   "currentLogicNodeId": 253
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1417,8 +1416,6 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 8,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -1450,6 +1447,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4722,12 +4720,13 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "ua_rs_active_until": 1888639,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1882468
+  "ua_tabi_last_dash": 1887662
  },
- "Health": 1.0,
- "HurtByTimestamp": 0,
+ "Health": 0.0,
+ "HurtByTimestamp": 1198,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5100,26 +5099,26 @@
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
   "pos": [
-   -54,
-   97,
-   -8
+   -36,
+   98,
+   -60
   ]
  },
  "Motion": [
   0.0,
-  -0.0098,
+  -0.0784,
   0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -29.3451,
-  97.0,
-  -32.1528
+  -35.5988,
+  98.0,
+  -59.4898
  ],
  "Rotation": [
-  44.0684,
-  -9.1178
+  -175.4179,
+  0.0
  ],
  "Score": 8134,
  "SelectedItemSlot": 0,
@@ -5144,7 +5143,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.226,
+ "foodExhaustionLevel": 2.753,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5155,7 +5154,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 48,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5163,7 +5162,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14689,10 +14687,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4124,
+  "ticks_since_last_warning": 9740,
   "warning_level": 0
  }
 }

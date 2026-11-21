@@ -3,18 +3,18 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 2,
+   "Amplifier": 14,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 8,
-   "Id": 11,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:resistance"
+   "Duration": 120,
+   "Id": 169,
+   "ShowIcon": 1,
+   "ShowParticles": 1,
+   "forge:id": "efn:attack_speed_increase"
   },
   {
    "Ambient": 0,
@@ -25,37 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 8,
-   "Id": 3,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:haste"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 163,
-   "Id": 101,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "cataclysm:curse_of_desert"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 1199,
+   "Duration": 1171,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -63,21 +33,6 @@
   },
   {
    "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 8,
-   "Id": 150,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "efn:ring"
-  },
-  {
-   "Ambient": 0,
    "Amplifier": 1,
    "CurativeItems": [
     {
@@ -85,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 39,
+   "Duration": 11,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -132,16 +87,16 @@
    "Base": 4.0,
    "Modifiers": [
     {
-     "Amount": 0.4,
-     "Name": "effect.minecraft.haste 3",
+     "Amount": 0.15,
+     "Name": "effect.efn.attack_speed_increase 14",
      "Operation": 2,
      "UUID": [
-      -1349816769,
-      858278922,
-      -1439278174,
-      -1147289869
+      -1177307004,
+      906514079,
+      -1925037345,
+      -1450983089
      ],
-     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
+     "UUID_str": "b9d3b884-3608-4e9f-8d42-42dfa983c14f"
     }
    ],
    "Name": "minecraft:generic.attack_speed"
@@ -151,29 +106,11 @@
    "Name": "minecraft:generic.armor_toughness"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
-  },
-  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
   {
    "Base": 4.0,
-   "Modifiers": [
-    {
-     "Amount": 0.4,
-     "Name": "effect.minecraft.haste 3",
-     "Operation": 2,
-     "UUID": [
-      -1349816769,
-      858278922,
-      -1439278174,
-      -1147289869
-     ],
-     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
-    }
-   ],
    "Name": "epicfight:offhand_attack_speed"
   },
   {
@@ -192,8 +129,8 @@
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
     },
     {
-     "Amount": 8.0,
-     "Name": "effect.minecraft.health_boost 1",
+     "Amount": 16.0,
+     "Name": "effect.minecraft.health_boost 3",
      "Operation": 0,
      "UUID": [
       1567558562,
@@ -624,17 +561,18 @@
    "learned:passive": {
     "0": "dodge_parry_reward:stamina1",
     "1": "dodge_parry_reward:heal2",
-    "10": "epicfight:bonebreaker",
-    "11": "dodge_parry_reward:damage_boost1",
-    "12": "wom:mindset",
+    "10": "wom:latent_retribution",
+    "11": "epicfight:bonebreaker",
+    "12": "dodge_parry_reward:damage_boost1",
+    "13": "wom:mindset",
     "2": "dodge_parry_reward:heal1",
     "3": "dodge_parry_reward:damage_boost2",
     "4": "dodge_parry_reward:health_boost1",
     "5": "efn:precise_parry",
     "6": "tcrcore:fire_avoid",
-    "7": "epicfight:berserker",
-    "8": "epicfight:emergency_escape",
-    "9": "wom:latent_retribution"
+    "7": "dodge_parry_reward:health_boost2",
+    "8": "epicfight:berserker",
+    "9": "epicfight:emergency_escape"
    },
    "learned:sword_soaring": {
     "0": "sword_soaring:sword_soaring_master",
@@ -643,7 +581,7 @@
    "passive1": "dodge_parry_reward:damage_boost2",
    "passive2": "epicfight:bonebreaker",
    "passive3": "wom:mindset",
-   "passive4": "dodge_parry_reward:health_boost1",
+   "passive4": "dodge_parry_reward:health_boost2",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
    "playerMode": "EPICFIGHT",
@@ -672,7 +610,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 2,
+   "abilityPoint": 0,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -808,11 +746,11 @@
            }
           ],
           "name": "dodge_parry_reward:health_boost3",
-          "state": "locked"
+          "state": "unlockable"
          }
         ],
         "name": "dodge_parry_reward:health_boost2",
-        "state": "unlockable"
+        "state": "unlocked"
        }
       ],
       "name": "dodge_parry_reward:health_boost1",
@@ -1385,7 +1323,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4292,18 +4230,18 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1882735,
+  "ua_rs_active_until": 1888728,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1882816,
-  "ua_shiny_last_x": -48.591,
+  "ua_shiny_last_active": 1888816,
+  "ua_shiny_last_x": -25.1229,
   "ua_shiny_last_y": 98.0,
-  "ua_shiny_last_z": -22.1765,
-  "ua_tabi_last_dash": 1882726
+  "ua_shiny_last_z": -59.9492,
+  "ua_tabi_last_dash": 1888294
  },
- "Health": 38.976,
- "HurtByTimestamp": 2030,
- "HurtTime": 9,
+ "Health": 9.4962,
+ "HurtByTimestamp": 1410,
+ "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
@@ -4427,6 +4365,7 @@
    "Slot": 6,
    "id": "minecraft:golden_carrot",
    "tag": {
+    "kusabimaru_sheath": 0,
     "sheath": 0
    }
   },
@@ -4613,26 +4552,26 @@
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
   "pos": [
-   -33,
-   98,
-   -1
+   -37,
+   97,
+   -41
   ]
  },
  "Motion": [
-  0.0112,
+  0.0,
   -0.0784,
-  -0.0078
+  0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -48.591,
+  -25.1229,
   98.0,
-  -22.1765
+  -59.9492
  ],
  "Rotation": [
-  -21.652,
-  9.4018
+  -13.0333,
+  0.0
  ],
  "Score": 14701,
  "SelectedItemSlot": 1,
@@ -4657,7 +4596,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.3746,
+ "foodExhaustionLevel": 0.2887,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14980,7 +14919,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 223,
+  "ticks_since_last_warning": 5797,
   "warning_level": 0
  }
 }
