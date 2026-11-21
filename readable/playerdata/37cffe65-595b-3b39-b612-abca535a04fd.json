@@ -1,22 +1,5 @@
 {
- "AbsorptionAmount": 18.6914,
- "ActiveEffects": [
-  {
-   "Ambient": 1,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 3,
-   "Id": 55,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "epicfight:stun_immunity"
-  }
- ],
+ "AbsorptionAmount": 17.4165,
  "Air": 300,
  "Attributes": [
   {
@@ -156,9 +139,9 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "aether:the_aether",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
- "FallDistance": 0.0,
+ "FallDistance": 0.912,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -4742,11 +4725,13 @@
    "uniqueaccessories:fossil_shark_tooth": 1,
    "uniqueaccessories:tool_belt": 1
   },
+  "ua_rs_active_until": 1804493,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 1804430
  },
  "Health": 1.0,
- "HurtByTimestamp": 182,
+ "HurtByTimestamp": 6245,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4770,6 +4755,11 @@
      }
     ]
    }
+  },
+  {
+   "Count": 3,
+   "Slot": 1,
+   "id": "irons_spellbooks:divine_pearl"
   },
   {
    "Count": 1,
@@ -4814,6 +4804,11 @@
    "id": "tcrcore:divine_fragment"
   },
   {
+   "Count": 2,
+   "Slot": 7,
+   "id": "minecraft:wither_rose"
+  },
+  {
    "Count": 1,
    "Slot": 8,
    "id": "waystones:warp_stone",
@@ -4823,7 +4818,7 @@
    }
   },
   {
-   "Count": 1,
+   "Count": 2,
    "Slot": 9,
    "id": "ba_bt:sky_golem_eye"
   },
@@ -4917,9 +4912,9 @@
    }
   },
   {
-   "Count": 7,
+   "Count": 1,
    "Slot": 22,
-   "id": "aether:cold_aercloud"
+   "id": "ba_bt:sky_monolith_key"
   },
   {
    "Count": 3,
@@ -4990,19 +4985,19 @@
    }
   },
   {
-   "Count": 21,
+   "Count": 36,
    "Slot": 33,
-   "id": "minecraft:tnt"
-  },
-  {
-   "Count": 3,
-   "Slot": 34,
-   "id": "minecraft:rotten_flesh"
-  },
-  {
-   "Count": 42,
-   "Slot": 35,
    "id": "minecraft:soul_sand"
+  },
+  {
+   "Count": 1,
+   "Slot": 34,
+   "id": "minecraft:feather"
+  },
+  {
+   "Count": 2,
+   "Slot": 35,
+   "id": "irons_spellbooks:shriving_stone"
   },
   {
    "Count": 1,
@@ -5093,21 +5088,21 @@
  },
  "Motion": [
   0.0,
-  -0.0784,
+  -0.1552,
   0.0
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  99.8962,
-  200.0,
-  -1785.8318
+  100.1654,
+  76.9137,
+  -1962.3273
  ],
  "Rotation": [
-  -139.6533,
-  -9.79
+  -37.2124,
+  -84.5187
  ],
- "Score": 3943,
+ "Score": 7049,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 105.2728,
@@ -5123,10 +5118,10 @@
   1398408445
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
- "XpLevel": 38,
- "XpP": 0.7826,
+ "XpLevel": 51,
+ "XpP": 0.5183,
  "XpSeed": -736053570,
- "XpTotal": 3943,
+ "XpTotal": 7049,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5136,7 +5131,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.1,
+ "foodExhaustionLevel": 3.401,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5147,7 +5142,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 49,
+  "mana": 150,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14724,7 +14719,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6956,
+  "ticks_since_last_warning": 955,
   "warning_level": 0
  }
 }

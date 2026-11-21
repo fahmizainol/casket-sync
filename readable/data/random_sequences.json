@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -4152195642581368016,
-    -4376727386739183645
+    811214826467988244,
+    -8554250073171990268
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    5108097658273258167,
-    -7774556800403597272
+    5086590740159929486,
+    -7066455589641834545
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -219,8 +219,8 @@
   },
   "ba_bt:entities/sky_golem": {
    "source": [
-    8742054693031121032,
-    573624193932888854
+    4176424451493626063,
+    -7078937933172627324
    ]
   },
   "biomeswevegone:blocks/baobab_leaves": {
@@ -327,8 +327,8 @@
   },
   "biomeswevegone:blocks/prairie_grass": {
    "source": [
-    -4113354877395983931,
-    2500176321920338838
+    6233419622761983506,
+    7541639470465079973
    ]
   },
   "biomeswevegone:blocks/quicksand": {
@@ -363,8 +363,8 @@
   },
   "biomeswevegone:blocks/tall_prairie_grass": {
    "source": [
-    4459951012376474533,
-    -5782261451822709228
+    4734003495871285633,
+    7047345390601402791
    ]
   },
   "biomeswevegone:blocks/tall_white_allium": {
@@ -861,8 +861,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    9048180528099129670,
-    -2422691334602860086
+    -1687868921880182831,
+    -2002583617119738553
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -921,8 +921,8 @@
   },
   "minecraft:blocks/grass": {
    "source": [
-    -2306058139838809965,
-    4139608670006122102
+    8654647876344335615,
+    -1985499039385153534
    ]
   },
   "minecraft:blocks/grass_block": {
@@ -1533,8 +1533,8 @@
   },
   "minecraft:blocks/soul_sand": {
    "source": [
-    2897165197046388799,
-    -5303132509926125761
+    -9217615429032270810,
+    2074261052838984471
    ]
   },
   "minecraft:blocks/spawner": {
@@ -1689,8 +1689,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    2443631116905669404,
-    -8928844430431014787
+    8392055122094369723,
+    -3996512145367373222
    ]
   },
   "minecraft:blocks/tall_seagrass": {
@@ -1821,8 +1821,8 @@
   },
   "minecraft:entities/chicken": {
    "source": [
-    6922600612335260944,
-    -2306168501079673083
+    5591957718323705933,
+    7660270091687668160
    ]
   },
   "minecraft:entities/cod": {
@@ -1863,8 +1863,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    4486391314951786000,
-    -4074541138809928593
+    -6303320918713398046,
+    6858079666799322673
    ]
   },
   "minecraft:entities/guardian": {
@@ -1935,8 +1935,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    5207957030338707821,
-    -7250625617016524715
+    -490206542322896635,
+    739208481229301861
    ]
   },
   "minecraft:entities/pufferfish": {

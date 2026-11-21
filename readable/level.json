@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1005969,
+  "DayTime": 1011969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,87 +421,10 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795251548869,
+  "LastPlayed": 1795251848896,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
-   "ActiveEffects": [
-    {
-     "Ambient": 0,
-     "Amplifier": 2,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 17,
-     "Id": 11,
-     "ShowIcon": 0,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:resistance"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 3,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 17,
-     "Id": 3,
-     "ShowIcon": 0,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:haste"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 1,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 1180,
-     "Id": 21,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 0,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 17,
-     "Id": 150,
-     "ShowIcon": 0,
-     "ShowParticles": 0,
-     "forge:id": "efn:ring"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 1,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 20,
-     "Id": 5,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:strength"
-    }
-   ],
    "Air": 300,
    "Attributes": [
     {
@@ -518,20 +441,6 @@
     },
     {
      "Base": 1.0,
-     "Modifiers": [
-      {
-       "Amount": 6.0,
-       "Name": "effect.minecraft.strength 1",
-       "Operation": 0,
-       "UUID": [
-        1686990948,
-        1784696665,
-        -1967209790,
-        980277161
-       ],
-       "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
-      }
-     ],
      "Name": "minecraft:generic.attack_damage"
     },
     {
@@ -540,20 +449,6 @@
     },
     {
      "Base": 4.0,
-     "Modifiers": [
-      {
-       "Amount": 0.4,
-       "Name": "effect.minecraft.haste 3",
-       "Operation": 2,
-       "UUID": [
-        -1349816769,
-        858278922,
-        -1439278174,
-        -1147289869
-       ],
-       "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
-      }
-     ],
      "Name": "minecraft:generic.attack_speed"
     },
     {
@@ -563,24 +458,6 @@
     {
      "Base": 0.0,
      "Name": "epicfight:stun_armor"
-    },
-    {
-     "Base": 4.0,
-     "Modifiers": [
-      {
-       "Amount": 0.4,
-       "Name": "effect.minecraft.haste 3",
-       "Operation": 2,
-       "UUID": [
-        -1349816769,
-        858278922,
-        -1439278174,
-        -1147289869
-       ],
-       "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
-      }
-     ],
-     "Name": "epicfight:offhand_attack_speed"
     },
     {
      "Base": 20.0,
@@ -596,18 +473,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 8.0,
-       "Name": "effect.minecraft.health_boost 1",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -671,7 +536,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "aether:the_aether",
+   "Dimension": "minecraft:overworld",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -1724,8 +1589,8 @@
     },
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
-     "currentDataNodeId": 217,
-     "currentLogicNodeId": 217
+     "currentDataNodeId": 219,
+     "currentLogicNodeId": 219
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -4689,17 +4554,16 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1798616,
+    "ua_rs_active_until": 1804762,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1798815,
-    "ua_shiny_last_x": 100.6951,
-    "ua_shiny_last_y": 200.0,
-    "ua_shiny_last_z": -1786.984,
-    "ua_tabi_last_dash": 1798558
+    "ua_shiny_last_active": 1804816,
+    "ua_shiny_last_x": 100.0452,
+    "ua_shiny_last_y": 76.0,
+    "ua_shiny_last_z": -1962.6724
    },
-   "Health": 38.0,
-   "HurtByTimestamp": 850,
+   "Health": 30.0,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4798,7 +4662,7 @@
      }
     },
     {
-     "Count": 17,
+     "Count": 15,
      "Slot": 5,
      "id": "minecraft:golden_apple",
      "tag": {
@@ -4809,6 +4673,11 @@
      "Count": 17,
      "Slot": 6,
      "id": "waystones:waystone"
+    },
+    {
+     "Count": 7,
+     "Slot": 7,
+     "id": "aether:cold_aercloud"
     },
     {
      "Count": 2,
@@ -4879,7 +4748,7 @@
      "id": "minecraft:netherrack"
     },
     {
-     "Count": 3,
+     "Count": 6,
      "Slot": 21,
      "id": "irons_spellbooks:divine_pearl"
     },
@@ -4892,6 +4761,16 @@
      "Count": 1,
      "Slot": 23,
      "id": "cataclysm:storm_eye"
+    },
+    {
+     "Count": 1,
+     "Slot": 24,
+     "id": "minecraft:egg"
+    },
+    {
+     "Count": 1,
+     "Slot": 25,
+     "id": "minecraft:wheat_seeds"
     },
     {
      "Count": 1,
@@ -5014,28 +4893,28 @@
    ],
    "Invulnerable": 0,
    "LastDeathLocation": {
-    "dimension": "aether:the_aether",
+    "dimension": "minecraft:overworld",
     "pos": [
-     92,
-     200,
-     -1787
+     113,
+     77,
+     -1944
     ]
    },
    "Motion": [
-    -0.0214,
+    0.0,
     -0.0784,
-    0.0179
+    0.0
    ],
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    100.6968,
-    200.0,
-    -1786.9814
+    100.0452,
+    76.0,
+    -1962.6724
    ],
    "Rotation": [
-    -129.8818,
-    37.2913
+    27.8157,
+    0.0
    ],
    "Score": 11864,
    "SelectedItemSlot": 0,
@@ -5066,7 +4945,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 0.695,
+   "foodExhaustionLevel": 0.173,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5077,7 +4956,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 91,
+    "mana": 100,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15389,7 +15268,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 1819,
+    "ticks_since_last_warning": 7713,
     "warning_level": 0
    }
   },
@@ -15401,7 +15280,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1798816,
+  "Time": 1804816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15409,7 +15288,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 10800,
+  "WanderingTraderSpawnDelay": 4800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16097,9 +15976,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 945,
-  "raining": 0,
-  "thunderTime": 89115,
+  "rainTime": 13603,
+  "raining": 1,
+  "thunderTime": 83115,
   "thundering": 0,
   "version": 19133
  },
