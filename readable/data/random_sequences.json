@@ -39,14 +39,20 @@
   },
   "aether:entities/aerbunny": {
    "source": [
-    8042872316514847436,
-    4416695088516956302
+    4447802162370553812,
+    7720519657718059370
    ]
   },
   "aether:entities/blue_swet": {
    "source": [
-    -2681318344927787686,
-    -7859104000448374134
+    5853030138656889533,
+    -4573713051688866774
+   ]
+  },
+  "aether:entities/cockatrice": {
+   "source": [
+    -342637426352119218,
+    -97167957140796722
    ]
   },
   "aether:entities/flying_cow": {
@@ -57,8 +63,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    -5763661754373725044,
-    -6705329203482940905
+    -9058853591675922032,
+    4250723803194990352
    ]
   },
   "aether:entities/moa": {
@@ -89,6 +95,12 @@
    "source": [
     -9022144739804023103,
     1150166168826177623
+   ]
+  },
+  "aether:selectors/whirlwind_junk": {
+   "source": [
+    -2291604786837543689,
+    -4141535878382961211
    ]
   },
   "artifacts:entity_equipment/drowned": {
@@ -831,8 +843,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    304242745239280046,
-    4602450761648982579
+    9048180528099129670,
+    -2422691334602860086
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -891,8 +903,8 @@
   },
   "minecraft:blocks/grass": {
    "source": [
-    -2930923448082167616,
-    -1449870182876398286
+    -2306058139838809965,
+    4139608670006122102
    ]
   },
   "minecraft:blocks/grass_block": {
@@ -1059,8 +1071,8 @@
   },
   "minecraft:blocks/moss_carpet": {
    "source": [
-    -7798744790973783692,
-    5092031463970815813
+    -4739323114826064359,
+    -2436379352748327724
    ]
   },
   "minecraft:blocks/mossy_cobblestone": {
@@ -1659,8 +1671,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    -3014128334676768044,
-    6784005120106025153
+    2443631116905669404,
+    -8928844430431014787
    ]
   },
   "minecraft:blocks/tall_seagrass": {

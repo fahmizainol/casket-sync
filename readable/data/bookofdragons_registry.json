@@ -5,7 +5,7 @@
    {
     "Affection": 1000,
     "CustomName": "Night Fury",
-    "Dimension": "aether:the_aether",
+    "Dimension": "minecraft:overworld",
     "DragonUUID": [
      -316269812,
      593383161,
@@ -15,9 +15,9 @@
     "DragonUUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
     "HasChest": 0,
     "HasSaddle": 1,
-    "Health": 160.0,
-    "LastUpdate": 1795240440369,
-    "MaxHealth": 160.0,
+    "Health": 140.0,
+    "LastUpdate": 1795240496027,
+    "MaxHealth": 140.0,
     "OwnerUUID": [
      936377957,
      1499151161,
@@ -25,9 +25,9 @@
      1398408445
     ],
     "OwnerUUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
-    "PosX": 687,
-    "PosY": 80,
-    "PosZ": -546,
+    "PosX": 583,
+    "PosY": 1375,
+    "PosZ": -548,
     "Stage": "BROAD_WING",
     "Type": "NIGHTFURY"
    },
@@ -43,10 +43,10 @@
     ],
     "DragonUUID_str": "d98fd87b-a0f8-40ca-b4ce-e9bf58f8c317",
     "HasChest": 0,
-    "HasSaddle": 1,
-    "Health": 240.0,
-    "LastUpdate": 1795240445472,
-    "MaxHealth": 240.0,
+    "HasSaddle": 0,
+    "Health": 200.0,
+    "LastUpdate": 1795240740373,
+    "MaxHealth": 220.0,
     "OwnerUUID": [
      1096852936,
      1655583406,
@@ -54,9 +54,9 @@
      -1580186985
     ],
     "OwnerUUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-    "PosX": 668,
-    "PosY": 75,
-    "PosZ": -535,
+    "PosX": 763,
+    "PosY": 63,
+    "PosZ": -842,
     "Stage": "BROAD_WING",
     "Type": "HIDEOUS_ZIPPLEBACK"
    }
