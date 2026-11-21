@@ -1,0 +1,146 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:saddle"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 3,
+       "Slot": 7,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 2,
+       "Slot": 9,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 2,
+       "Slot": 11,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "quark:smithing_template_rune"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 2,
+       "Slot": 15,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 2,
+       "Slot": 19,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 3,
+       "Slot": 25,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:bone"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/1/14/1407e771-987a-4cc9-91b6-5a3826ac46a3",
+  "position": {
+   "X": -37,
+   "Y": 134,
+   "Z": -57
+  },
+  "size": 27,
+  "uuid": [
+   336062321,
+   -1736815415,
+   -1850320328,
+   648824483
+  ],
+  "uuid_str": "1407e771-987a-4cc9-91b6-5a3826ac46a3"
+ }
+}
