@@ -1,52 +1,5 @@
 {
- "AbsorptionAmount": 7.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 71,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  },
-  {
-   "Ambient": 1,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 26,
-   "Id": 0,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "combat_evolution:full_stun_immunity"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 1,
-   "Id": 55,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "epicfight:stun_immunity"
-  }
- ],
+ "AbsorptionAmount": 20.0,
  "Air": 300,
  "Attributes": [
   {
@@ -141,18 +94,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 3.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 0",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -182,7 +123,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "aether:the_aether",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1259,7 +1200,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 130
+   "currentLogicNodeId": 127
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1319,7 +1260,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1346,7 +1287,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 70.0,
+    "currentQuestId": 71.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1379,7 +1320,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 64,
+   "finishedQuestSize": 65,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1441,16 +1382,16 @@
    "finished_quest_61": 66,
    "finished_quest_62": 68,
    "finished_quest_63": 69,
+   "finished_quest_64": 70,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 10.0,
-   "questSize": 13,
+   "questSize": 12,
    "quest_0": 84,
    "quest_1": 38,
    "quest_10": 72,
    "quest_11": 71,
-   "quest_12": 70,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
@@ -4768,13 +4709,13 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1564435,
+  "ua_rs_active_until": 1570796,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1564631
+  "ua_tabi_last_dash": 1569929
  },
  "Health": 30.0,
- "HurtByTimestamp": 3284,
+ "HurtByTimestamp": 2874,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4849,6 +4790,11 @@
    "Count": 27,
    "Slot": 4,
    "id": "minecraft:netherrack"
+  },
+  {
+   "Count": 2,
+   "Slot": 5,
+   "id": "irons_spellbooks:lightning_bottle"
   },
   {
    "Count": 8,
@@ -5059,7 +5005,7 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   665,
+   666,
    85,
    -1131
   ]
@@ -5072,16 +5018,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  665.343,
-  86.0,
-  -1118.3731
+  253.8464,
+  65.0,
+  -1769.9957
  ],
  "Rotation": [
-  -94.0815,
-  -30.4106
+  -24.9112,
+  12.9305
  ],
  "Score": 3942,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 2,
  "SleepTimer": 0,
  "SpawnAngle": -72.8483,
  "SpawnDimension": "aether:the_aether",
@@ -5109,7 +5055,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.486,
+ "foodExhaustionLevel": 3.699,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14716,7 +14662,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7200,
+  "ticks_since_last_warning": 991,
   "warning_level": 0
  }
 }

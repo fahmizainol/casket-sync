@@ -1,22 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 1071,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -48,6 +31,10 @@
    "Name": "minecraft:generic.armor_toughness"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
@@ -69,18 +56,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 8.0,
-     "Name": "effect.minecraft.health_boost 1",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -1257,7 +1232,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1284,7 +1259,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 70.0,
+    "currentQuestId": 71.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1317,7 +1292,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 64,
+   "finishedQuestSize": 65,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1379,16 +1354,16 @@
    "finished_quest_61": 66,
    "finished_quest_62": 68,
    "finished_quest_63": 69,
+   "finished_quest_64": 70,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 10.0,
-   "questSize": 13,
+   "questSize": 12,
    "quest_0": 84,
    "quest_1": 38,
    "quest_10": 72,
    "quest_11": 71,
-   "quest_12": 70,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
@@ -4527,17 +4502,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1564786,
+  "ua_rs_active_until": 1570129,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1564811,
-  "ua_shiny_last_x": 666.3895,
-  "ua_shiny_last_y": 85.0,
-  "ua_shiny_last_z": -1119.7263,
-  "ua_tabi_last_dash": 1563815
+  "ua_shiny_last_active": 1570155,
+  "ua_shiny_last_x": 649.3,
+  "ua_shiny_last_y": 89.0,
+  "ua_shiny_last_z": -1127.964,
+  "ua_tabi_last_dash": 1570049
  },
- "Health": 38.0,
- "HurtByTimestamp": 1114,
+ "Health": 30.0,
+ "HurtByTimestamp": 3622,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4658,7 +4633,7 @@
    }
   },
   {
-   "Count": 21,
+   "Count": 20,
    "Slot": 5,
    "id": "minecraft:golden_apple",
    "tag": {
@@ -4676,6 +4651,11 @@
    "id": "aether:victory_medal"
   },
   {
+   "Count": 2,
+   "Slot": 8,
+   "id": "irons_spellbooks:lightning_bottle"
+  },
+  {
    "Count": 1,
    "Slot": 9,
    "id": "bosses_of_mass_destruction:soul_star"
@@ -4684,6 +4664,26 @@
    "Count": 4,
    "Slot": 10,
    "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 1,
+   "Slot": 11,
+   "id": "tcrcore:nine_heaven_darksteel"
+  },
+  {
+   "Count": 24,
+   "Slot": 12,
+   "id": "irons_spellbooks:arcane_essence"
+  },
+  {
+   "Count": 1,
+   "Slot": 13,
+   "id": "ba_bt:sky_monolith_key"
+  },
+  {
+   "Count": 1,
+   "Slot": 14,
+   "id": "tcrcore:divine_fragment"
   },
   {
    "Count": 61,
@@ -4800,9 +4800,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   665,
-   86,
-   -1138
+   664,
+   85,
+   -1134
   ]
  },
  "Motion": [
@@ -4813,13 +4813,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  666.3758,
-  85.0,
-  -1119.702
+  649.3,
+  89.0,
+  -1127.9747
  ],
  "Rotation": [
-  -6.4127,
-  -51.4283
+  90.5061,
+  8.0989
  ],
  "Score": 8754,
  "SelectedItemSlot": 0,
@@ -4850,7 +4850,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.45,
+ "foodExhaustionLevel": 1.012,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15173,7 +15173,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4346,
+  "ticks_since_last_warning": 10195,
   "warning_level": 0
  }
 }
