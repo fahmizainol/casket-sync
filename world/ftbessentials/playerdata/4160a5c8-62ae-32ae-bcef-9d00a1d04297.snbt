@@ -1,7 +1,7 @@
 {
 	muted: false
 	fly: false
-	god: false
+	god: true
 	nick: ""
 	last_seen: { dim: "tcrcore:sanctum", x: 80, y: 73, z: -144, time: 1795237129374L, xRot: 0.0f, yRot: 76.49806f }
 	recording: "none"

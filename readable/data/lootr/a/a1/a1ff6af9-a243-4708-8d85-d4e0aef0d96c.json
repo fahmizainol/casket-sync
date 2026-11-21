@@ -1,0 +1,37 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/a/a1/a1ff6af9-a243-4708-8d85-d4e0aef0d96c",
+  "position": {
+   "X": -37,
+   "Y": 134,
+   "Z": -57
+  },
+  "size": 27,
+  "uuid": [
+   -1577096455,
+   -1572649208,
+   -1920609056,
+   -1359947412
+  ],
+  "uuid_str": "a1ff6af9-a243-4708-8d85-d4e0aef0d96c"
+ }
+}

@@ -1,12 +1,11 @@
 {
 	muted: false
 	fly: false
-	god: false
+	god: true
 	nick: ""
 	last_seen: { dim: "aether:the_aether", x: 686, y: 72, z: -584, time: 1795242480067L, xRot: 0.0f, yRot: 119.24719f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -53, y: 97, z: -21, time: 1795256246943L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -51, y: 97, z: -26, time: 1795256433448L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 190, z: 0, time: 1795256451367L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 166, z: 0, time: 1795256724599L }
@@ -16,6 +15,7 @@
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -56, y: 132, z: -43, time: 1795256844894L }
 		{ dim: "minecraft:overworld", x: 213, y: 73, z: -673, time: 1795256848155L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 197, z: 0, time: 1795256861590L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -27, y: 132, z: 1, time: 1795257125222L }
 	]
 	homes: { }
 	kit_use_times: { }

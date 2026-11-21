@@ -62,6 +62,10 @@
   },
   {
    "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 0.0,
    "Name": "minecraft:generic.armor"
   },
   {
@@ -4135,17 +4139,21 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1906174,
+  "quark:trying_crawl": 0,
+  "ua_accessory_types_seen": {
+   "uniqueaccessories:ancient_chisel": 1
+  },
+  "ua_rs_active_until": 1912811,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1906230,
-  "ua_shiny_last_x": -35.3576,
-  "ua_shiny_last_y": 132.0,
-  "ua_shiny_last_z": -93.813,
-  "ua_tabi_last_dash": 1906015
+  "ua_shiny_last_active": 1912815,
+  "ua_shiny_last_x": -9.337,
+  "ua_shiny_last_y": 153.0,
+  "ua_shiny_last_z": -69.5232,
+  "ua_tabi_last_dash": 1910823
  },
  "Health": 32.0,
- "HurtByTimestamp": 137,
+ "HurtByTimestamp": 6489,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4283,6 +4291,72 @@
    "id": "waystones:waystone"
   },
   {
+   "Count": 6,
+   "Slot": 9,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 10,
+   "Slot": 10,
+   "id": "irons_spellbooks:arcane_essence"
+  },
+  {
+   "Count": 2,
+   "Slot": 11,
+   "id": "minecraft:iron_ingot"
+  },
+  {
+   "Count": 5,
+   "Slot": 12,
+   "id": "minecraft:string"
+  },
+  {
+   "Count": 11,
+   "Slot": 13,
+   "id": "minecraft:sand"
+  },
+  {
+   "Count": 1,
+   "Slot": 14,
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 15,
+   "id": "epicfight:uchigatana",
+   "tag": {
+    "Damage": 0
+   }
+  },
+  {
+   "Count": 5,
+   "Slot": 16,
+   "id": "minecraft:bone"
+  },
+  {
+   "Count": 1,
+   "Slot": 17,
+   "id": "uniqueaccessories:ancient_chisel"
+  },
+  {
+   "Count": 1,
+   "Slot": 18,
+   "id": "cataclysm:sandstorm_in_a_bottle"
+  },
+  {
+   "Count": 1,
+   "Slot": 19,
+   "id": "cataclysm:ancient_metal_block"
+  },
+  {
    "Count": 1,
    "Slot": 100,
    "id": "minecraft:diamond_boots",
@@ -4393,22 +4467,22 @@
   ]
  },
  "Motion": [
-  0.0,
-  -0.0784,
-  0.0
+  -0.0628,
+  1.2723,
+  -0.128
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -35.3576,
-  132.0,
-  -93.804
+  -9.3457,
+  153.0,
+  -69.5402
  ],
  "Rotation": [
-  22.6498,
-  28.8389
+  138.8342,
+  18.1016
  ],
- "Score": 14848,
+ "Score": 15192,
  "SelectedItemSlot": 1,
  "SleepTimer": 0,
  "UUID": [
@@ -4418,20 +4492,20 @@
   -1580186985
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
- "XpLevel": 65,
- "XpP": 0.2178,
+ "XpLevel": 66,
+ "XpP": 0.0229,
  "XpSeed": 976728483,
- "XpTotal": 14848,
+ "XpTotal": 15192,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
   "instabuild": 0,
-  "invulnerable": 0,
+  "invulnerable": 1,
   "mayBuild": 1,
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.16,
+ "foodExhaustionLevel": 1.3286,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14754,7 +14828,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11359,
+  "ticks_since_last_warning": 5358,
   "warning_level": 0
  }
 }
