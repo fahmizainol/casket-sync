@@ -368,15 +368,6 @@
      }
     },
     {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "uniqueaccessories:withered_heart"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 2,
      "key": {
       "stack": {
@@ -1044,7 +1035,7 @@
      }
     },
     {
-     "amount": 294,
+     "amount": 295,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

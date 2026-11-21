@@ -43601,12 +43601,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "minecraft:overworld",
-        "x": 583.5094,
-        "xRot": 0.0,
-        "y": 1375.0344,
-        "yRot": 49.6399,
-        "z": -547.508
+        "dimension": "tcrcore:sanctum",
+        "x": 86.7271,
+        "xRot": -0.0323,
+        "y": 73.0,
+        "yRot": 192.1951,
+        "z": -156.4722
        },
        "uuid": [
         -316269812,
@@ -43677,7 +43677,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147414130,
+          "Duration": 2147377687,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -43756,10 +43756,10 @@
         "CompanionPreviewHeight": 2.6,
         "CompanionPreviewWidth": 1.9,
         "CompanionRescueArmor": 8,
-        "CompanionRescueHealth": 140.0,
+        "CompanionRescueHealth": 96.8346,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 1578138,
+        "CompanionRescueStoredAt": 1772504,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -43943,8 +43943,8 @@
         ],
         "HasClearAirspace": 1,
         "HasConsumedFood": 0,
-        "Health": 140.0,
-        "HurtByTimestamp": 136,
+        "Health": 96.8346,
+        "HurtByTimestamp": 1603,
         "HurtTime": 0,
         "InLove": 0,
         "InSittingPose": 0,
@@ -43962,11 +43962,11 @@
         "IsFreeLooking": 0,
         "IsFromTamedParents": 0,
         "IsGoingDown": 0,
-        "IsOnSolidGround": 0,
+        "IsOnSolidGround": 1,
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
-        "LayerMotion": 0,
+        "LayerMotion": 2,
         "LayerStance": 0,
         "LeftHanded": 0,
         "MountTime": 0,
@@ -43976,7 +43976,7 @@
         "OAH_CurrentFuel": 0,
         "OAH_FullRechargeCooldown": 0,
         "OAH_PendingScale": 0.0,
-        "OnGround": 0,
+        "OnGround": 1,
         "OrderedToSit": 0,
         "Owner": [
          936377957,
@@ -43984,25 +43984,25 @@
          -1240290358,
          1398408445
         ],
-        "PH_SmoothedEntityPitch": -0.0,
-        "PH_SmoothedMovementYaw": 2209.6399,
-        "PH_UnwrappedMovementYaw": 2209.6399,
+        "PH_SmoothedEntityPitch": 0.0074,
+        "PH_SmoothedMovementYaw": -1544.6128,
+        "PH_UnwrappedMovementYaw": -1544.6128,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 3289.6399,
+        "PH_UnwrappedYaw": 1632.1951,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         583.5094,
-         1375.0344,
-         -547.508
+         86.7271,
+         73.0,
+         -156.4722
         ],
         "RoostX": 210,
         "RoostY": 73,
         "RoostZ": -673,
         "Rotation": [
-         49.6399,
-         0.0
+         192.1951,
+         -0.0323
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "lightning_strike",
@@ -44015,8 +44015,8 @@
         "SpawnScaleTicks": 1,
         "TamingRitualCompleted": 1,
         "TamingRitualTimer": 0,
-        "ThrottleLevel": 1.6378,
-        "TransportMode": 1,
+        "ThrottleLevel": 0.0,
+        "TransportMode": 0,
         "UUID": [
          -316269812,
          593383161,
@@ -44024,13 +44024,13 @@
          760723722
         ],
         "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-        "UseGroundNav": 0,
+        "UseGroundNav": 1,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 1.8867,
+         "exhaustionLevel": 1.5563,
          "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 40
+         "tickTimer": 71
         },
         "dragonStamina": {
          "regenPauseTicks": 0
