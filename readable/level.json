@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1023969,
+  "DayTime": 1029969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795252448873,
+  "LastPlayed": 1795252748868,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -1646,7 +1646,7 @@
       "dual_annihilator_lock": 1,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 1,
@@ -4550,13 +4550,14 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1816543,
+    "ua_rs_active_until": 1822525,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1816700,
-    "ua_shiny_last_x": 98.3,
-    "ua_shiny_last_y": 204.0,
-    "ua_shiny_last_z": -1778.2761
+    "ua_shiny_last_active": 1822816,
+    "ua_shiny_last_x": 110.488,
+    "ua_shiny_last_y": 215.6268,
+    "ua_shiny_last_z": -1864.3809,
+    "ua_tabi_last_dash": 1817953
    },
    "Health": 30.0,
    "HurtByTimestamp": 0,
@@ -4816,19 +4817,19 @@
    },
    "Motion": [
     0.0,
-    -0.0784,
+    -3.9178,
     0.0
    ],
-   "OnGround": 1,
+   "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    98.3,
-    204.0,
-    -1778.2761
+    110.488,
+    215.6268,
+    -1864.3809
    ],
    "Rotation": [
-    132.804,
-    31.4881
+    -156.3747,
+    -4.648
    ],
    "Score": 11896,
    "SelectedItemSlot": 1,
@@ -4859,7 +4860,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.459,
+   "foodExhaustionLevel": 0.728,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15182,7 +15183,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 7601,
+    "ticks_since_last_warning": 1600,
     "warning_level": 0
    }
   },
@@ -15194,7 +15195,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1816816,
+  "Time": 1822816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15202,7 +15203,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 10800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15890,9 +15891,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 1603,
-  "raining": 1,
-  "thunderTime": 71115,
+  "rainTime": 64300,
+  "raining": 0,
+  "thunderTime": 65115,
   "thundering": 0,
   "version": 19133
  },
