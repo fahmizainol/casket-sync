@@ -1,5 +1,22 @@
 {
- "AbsorptionAmount": 20.0,
+ "AbsorptionAmount": 8.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 95,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -65,6 +82,10 @@
    "Name": "minecraft:generic.knockback_resistance"
   },
   {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
@@ -90,6 +111,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 3.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 0",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -121,7 +154,7 @@
  "DeathTime": 0,
  "Dimension": "aether:the_aether",
  "EnderItems": [],
- "FallDistance": 0.0,
+ "FallDistance": 1.6204,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -1192,7 +1225,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 231
+   "currentLogicNodeId": 265
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4712,7 +4745,7 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:fossil_shark_tooth": 1
   },
-  "ua_rs_active_until": 1820108,
+  "ua_bb_dodge_until": 1828835,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
@@ -5062,26 +5095,26 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   92,
+   100,
    200,
-   -1789
+   -1790
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
+  -1.3414,
   0.0
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  106.6282,
-  196.0,
-  -1786.4146
+  94.0195,
+  202.1898,
+  -1786.6667
  ],
  "Rotation": [
-  157.6416,
-  3.2049
+  -96.5904,
+  39.991
  ],
  "Score": 7264,
  "SelectedItemSlot": 0,
@@ -5112,7 +5145,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.1,
+ "foodExhaustionLevel": 0.05,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5123,7 +5156,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 19,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14660,7 +14693,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6547,
+  "ticks_since_last_warning": 154,
   "warning_level": 0
  }
 }
