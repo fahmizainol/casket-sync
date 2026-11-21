@@ -63,8 +63,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    -5073041512637359008,
-    -3113422405156772098
+    -3473972921010413007,
+    -7715924901812376198
    ]
   },
   "aether:entities/moa": {
@@ -79,10 +79,16 @@
     1844927433556583253
    ]
   },
+  "aether:entities/sheepuff/light_blue": {
+   "source": [
+    -345940005743865550,
+    7855247810027085650
+   ]
+  },
   "aether:entities/sheepuff/white": {
    "source": [
-    8871864460460434896,
-    1629542140606898034
+    8963710480569622054,
+    5005437524506292139
    ]
   },
   "aether:entities/valkyrie": {
@@ -1917,8 +1923,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -1381909461621419311,
-    -7287514050818394325
+    2027624036490109935,
+    -7655840288349110927
    ]
   },
   "minecraft:entities/pufferfish": {

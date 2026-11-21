@@ -1,5 +1,22 @@
 {
- "AbsorptionAmount": 0.0,
+ "AbsorptionAmount": 11.8759,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 180,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -94,6 +111,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 3.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 0",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -122,7 +151,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 125,
+ "DeathTime": 0,
  "Dimension": "aether:the_aether",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -505,8 +534,8 @@
     "1": "dodge_parry_reward:heal3",
     "2": "dodge_parry_reward:stamina1",
     "3": "dodge_parry_reward:heal2",
-    "4": "dodge_parry_reward:heal1",
-    "5": "wom:latent_retribution",
+    "4": "wom:latent_retribution",
+    "5": "dodge_parry_reward:heal1",
     "6": "dodge_parry_reward:stamina2",
     "7": "wom:pain_anticipation",
     "8": "dodge_parry_reward:absorb1",
@@ -1199,7 +1228,7 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
+   "currentDataNodeId": 130,
    "currentLogicNodeId": 130
   },
   "lost_aether_content:player_capability": {
@@ -1260,7 +1289,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1438,7 +1467,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4711,13 +4739,11 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1587636,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 0.0,
- "HurtByTimestamp": 1417,
+ "Health": 30.0,
+ "HurtByTimestamp": 1163,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5008,9 +5034,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   682,
-   74,
-   -582
+   683,
+   72,
+   -584
   ]
  },
  "Motion": [
@@ -5021,13 +5047,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  681.2751,
+  678.899,
   72.0,
-  -581.9996
+  -577.8227
  ],
  "Rotation": [
-  -102.3964,
-  0.0
+  -176.6048,
+  -14.6653
  ],
  "Score": 3942,
  "SelectedItemSlot": 0,
@@ -5058,7 +5084,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.25,
+ "foodExhaustionLevel": 1.566,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5077,6 +5103,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14661,9 +14688,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6571,
+  "ticks_since_last_warning": 10613,
   "warning_level": 0
  }
 }
