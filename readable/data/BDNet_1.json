@@ -2403,7 +2403,7 @@
      }
     },
     {
-     "amount": 309,
+     "amount": 310,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4791,19 +4791,6 @@
      "key": {
       "stack": {
        "item": "supplementaries:ash"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "waystones:warp_stone",
-       "tag": {
-        "Damage": 0,
-        "sheath": 0
-       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

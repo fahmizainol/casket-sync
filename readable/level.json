@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1071969,
+  "DayTime": 1077969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,25 +421,25 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795254848860,
+  "LastPlayed": 1795255148862,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "ActiveEffects": [
     {
      "Ambient": 0,
-     "Amplifier": 1,
+     "Amplifier": 2,
      "CurativeItems": [
       {
        "Count": 1,
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 902,
-     "Id": 21,
+     "Duration": 19,
+     "Id": 1,
      "ShowIcon": 1,
      "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
+     "forge:id": "minecraft:speed"
     }
    ],
    "Air": 300,
@@ -481,10 +481,6 @@
      "Name": "epicfight:stun_armor"
     },
     {
-     "Base": 4.0,
-     "Name": "epicfight:offhand_attack_speed"
-    },
-    {
      "Base": 20.0,
      "Modifiers": [
       {
@@ -498,18 +494,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 8.0,
-       "Name": "effect.minecraft.health_boost 1",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -524,14 +508,24 @@
     },
     {
      "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
-    },
-    {
-     "Base": 0.0,
      "Name": "minecraft:generic.armor"
     },
     {
      "Base": 0.1,
+     "Modifiers": [
+      {
+       "Amount": 0.6,
+       "Name": "effect.minecraft.speed 2",
+       "Operation": 2,
+       "UUID": [
+        -1850824106,
+        929776792,
+        -1822740609,
+        1745290805
+       ],
+       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+      }
+     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -562,10 +556,6 @@
     },
     {
      "Base": 1.0,
-     "Name": "forge:swim_speed"
-    },
-    {
-     "Base": 1.0,
      "Name": "epicfight:max_strikes"
     }
    ],
@@ -580,7 +570,7 @@
    "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
    "EnderItems": [],
    "FallDistance": 0.0,
-   "FallFlying": 0,
+   "FallFlying": 1,
    "Fire": -20,
    "ForgeCaps": {
     "aether:aether_player": {
@@ -1852,7 +1842,7 @@
     "PlayerPersisted": {
      "BalmData": {
       "WaystonesData": {
-       "WarpStoneCooldownUntilUnix": 1795016903475,
+       "WarpStoneCooldownUntilUnix": 1795255029291,
        "Waystones": [
         "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
         "4b7ff26e-e510-41d2-8001-3000c1ab11b3",
@@ -4599,17 +4589,17 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_rs_active_until": 1864743,
+    "ua_rs_active_until": 1870797,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1864783,
-    "ua_shiny_last_x": -18.5546,
-    "ua_shiny_last_y": 146.0,
-    "ua_shiny_last_z": -35.1623,
-    "ua_tabi_last_dash": 1862115
+    "ua_shiny_last_active": 1870816,
+    "ua_shiny_last_x": -40.321,
+    "ua_shiny_last_y": 164.8455,
+    "ua_shiny_last_z": -36.1181,
+    "ua_tabi_last_dash": 1868911
    },
-   "Health": 25.6973,
-   "HurtByTimestamp": 7579,
+   "Health": 28.4536,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4745,9 +4735,13 @@
      "id": "waystones:waystone"
     },
     {
-     "Count": 64,
+     "Count": 1,
      "Slot": 7,
-     "id": "minecraft:cobbled_deepslate"
+     "id": "waystones:warp_stone",
+     "tag": {
+      "Damage": 0,
+      "sheath": 0
+     }
     },
     {
      "Count": 3,
@@ -4851,6 +4845,11 @@
      "Count": 1,
      "Slot": 26,
      "id": "cataclysm:necklace_of_the_desert"
+    },
+    {
+     "Count": 64,
+     "Slot": 30,
+     "id": "minecraft:cobbled_deepslate"
     },
     {
      "Count": 2,
@@ -4980,36 +4979,30 @@
    "LastDeathLocation": {
     "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
     "pos": [
-     -75,
-     132,
-     -19
+     -21,
+     137,
+     -54
     ]
    },
    "Motion": [
-    0.0,
-    -0.0784,
-    0.0
+    0.0453,
+    0.0263,
+    0.0699
    ],
-   "OnGround": 1,
+   "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    -18.5503,
-    146.0,
-    -35.1504
+    -40.321,
+    164.8455,
+    -36.1181
    ],
    "Rotation": [
-    -22.8835,
-    0.0
+    -31.2129,
+    -43.7995
    ],
    "Score": 14561,
-   "SelectedItemSlot": 4,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
-   "SpawnAngle": 161.3706,
-   "SpawnDimension": "aether:the_aether",
-   "SpawnForced": 0,
-   "SpawnX": 95,
-   "SpawnY": 200,
-   "SpawnZ": -1803,
    "UUID": [
     1096852936,
     1655583406,
@@ -5030,7 +5023,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.1177,
+   "foodExhaustionLevel": 3.304,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15353,7 +15346,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 6738,
+    "ticks_since_last_warning": 635,
     "warning_level": 0
    }
   },
@@ -15365,7 +15358,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1864816,
+  "Time": 1870816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15373,7 +15366,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 10800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16061,9 +16054,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 22300,
+  "rainTime": 16300,
   "raining": 0,
-  "thunderTime": 23115,
+  "thunderTime": 17115,
   "thundering": 0,
   "version": 19133
  },
