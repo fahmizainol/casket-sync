@@ -1,37 +1,5 @@
 {
- "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 134,
-   "Id": 122,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "irons_spellbooks:guided"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 186,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  }
- ],
+ "AbsorptionAmount": 11.0,
  "Air": 300,
  "Attributes": [
   {
@@ -126,18 +94,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 3.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 0",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -1243,8 +1199,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 131,
-   "currentLogicNodeId": 131
+   "currentDataNodeId": 130,
+   "currentLogicNodeId": 130
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1304,7 +1260,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4754,11 +4710,12 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "ua_rs_active_until": 1612497,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
  "Health": 30.0,
- "HurtByTimestamp": 171,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5049,9 +5006,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   683,
+   681,
    73,
-   -581
+   -583
   ]
  },
  "Motion": [
@@ -5062,13 +5019,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  682.7513,
+  683.2811,
   72.0,
-  -577.3804
+  -588.3672
  ],
  "Rotation": [
-  -165.3432,
-  -10.5763
+  -161.116,
+  29.6694
  ],
  "Score": 3942,
  "SelectedItemSlot": 0,
@@ -5099,7 +5056,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.2,
+ "foodExhaustionLevel": 0.65,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5110,7 +5067,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 44,
+  "mana": 54,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14706,7 +14663,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9914,
+  "ticks_since_last_warning": 3501,
   "warning_level": 0
  }
 }

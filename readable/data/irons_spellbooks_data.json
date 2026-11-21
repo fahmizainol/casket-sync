@@ -2,14 +2,7 @@
  "DataVersion": 3465,
  "data": {
   "GuidingBoltManager": {
-   "TrackedEntities": [
-    [
-     936377957,
-     1499151161,
-     -1240290358,
-     1398408445
-    ]
-   ]
+   "TrackedEntities": []
   },
   "PocketDimensionIdManager": {
    "ids": [],
