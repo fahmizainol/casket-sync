@@ -628,15 +628,6 @@
      }
     },
     {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "cataclysm:necklace_of_the_desert"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 2,
      "key": {
       "stack": {
@@ -1074,7 +1065,7 @@
      }
     },
     {
-     "amount": 311,
+     "amount": 312,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

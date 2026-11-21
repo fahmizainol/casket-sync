@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    8930783880964856565,
-    2513279231772486285
+    -7114340236973483155,
+    2720226798390975506
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -1332265599718625515,
-    -6520531314362816169
+    -1945492280653033224,
+    7972490919889306984
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -423,14 +423,14 @@
   },
   "cataclysm:entities/kobolediator": {
    "source": [
-    -6285177147115661905,
-    4588203722219484096
+    -4424891625172051389,
+    5923397811100327656
    ]
   },
   "cataclysm:entities/wadjet": {
    "source": [
-    2477654233894856905,
-    6696658916859836194
+    -9000714658312051187,
+    -5627098748653375209
    ]
   },
   "enchantinginfuser:blocks/enchanting_infuser": {
@@ -873,8 +873,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -1687868921880182831,
-    -2002583617119738553
+    -1154288015595119289,
+    9184657860402504078
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -1875,8 +1875,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    -6303320918713398046,
-    6858079666799322673
+    -2873995545115873250,
+    7476355891243258773
    ]
   },
   "minecraft:entities/guardian": {
@@ -1947,8 +1947,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    9191544918853789019,
-    7623786507988978432
+    -781701774586924965,
+    -6635752568363449264
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1983,8 +1983,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -2294232591006106074,
-    8482898255970501390
+    9008322002488256286,
+    -386587198688074464
    ]
   },
   "minecraft:entities/slime": {
@@ -2049,14 +2049,14 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    729227173587129697,
-    6459907742232776932
+    -3748158691055298751,
+    5559993836531994785
    ]
   },
   "minecraft:entities/zombie_villager": {
    "source": [
-    6314540583398680421,
-    -6196345875627851957
+    2328011445720157533,
+    -4248317930910063149
    ]
   },
   "minecraft:entities/zombified_piglin": {

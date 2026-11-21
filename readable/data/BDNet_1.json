@@ -175,6 +175,23 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "domesticationinnovation:healing_aura",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:chainmail_leggings",
        "tag": {
         "Damage": 0,
@@ -278,7 +295,7 @@
      }
     },
     {
-     "amount": 139,
+     "amount": 140,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -604,7 +621,7 @@
      }
     },
     {
-     "amount": 24,
+     "amount": 84,
      "key": {
       "stack": {
        "item": "minecraft:dark_oak_log"
@@ -697,7 +714,7 @@
      }
     },
     {
-     "amount": 130,
+     "amount": 132,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -1712,7 +1729,7 @@
      }
     },
     {
-     "amount": 3862,
+     "amount": 3865,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"
@@ -1795,7 +1812,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:iron_horse_armor"
@@ -2092,10 +2109,19 @@
      }
     },
     {
-     "amount": 117,
+     "amount": 121,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 18,
+     "key": {
+      "stack": {
+       "item": "cataclysm:koboleton_bone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2403,7 +2429,7 @@
      }
     },
     {
-     "amount": 310,
+     "amount": 311,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2448,7 +2474,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "irons_spellbooks:divine_pearl"
@@ -2893,6 +2919,15 @@
      "key": {
       "stack": {
        "item": "minecraft:verdant_froglight"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:kobolediator_skull"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3666,7 +3701,7 @@
      }
     },
     {
-     "amount": 140,
+     "amount": 142,
      "key": {
       "stack": {
        "item": "minecraft:gold_nugget"
@@ -3742,7 +3777,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "irons_spellbooks:shriving_stone"
@@ -4011,7 +4046,7 @@
      }
     },
     {
-     "amount": 222,
+     "amount": 223,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -4050,7 +4085,7 @@
      }
     },
     {
-     "amount": 13,
+     "amount": 19,
      "key": {
       "stack": {
        "item": "minecraft:sand"
@@ -4080,7 +4115,7 @@
      }
     },
     {
-     "amount": 109,
+     "amount": 116,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -4459,7 +4494,7 @@
      }
     },
     {
-     "amount": 149,
+     "amount": 152,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -4618,6 +4653,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:poisonward_ring"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4948,7 +4992,7 @@
      }
     },
     {
-     "amount": 20,
+     "amount": 21,
      "key": {
       "stack": {
        "item": "minecraft:spider_eye"
