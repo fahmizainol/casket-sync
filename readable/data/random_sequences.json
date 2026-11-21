@@ -117,8 +117,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -4775307594665631921,
-    -679931610300085204
+    4580258823646355373,
+    8370432806697228151
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    4004927470693349533,
-    3926206036764968393
+    5602798775275098522,
+    7662584147068612336
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    7062585691400547961,
-    7825933414708214415
+    -207328652309848308,
+    4656949518652525844
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -219,8 +219,8 @@
   },
   "ba_bt:entities/sky_golem": {
    "source": [
-    4176424451493626063,
-    -7078937933172627324
+    3244975361308165004,
+    8504145717990064420
    ]
   },
   "biomeswevegone:blocks/baobab_leaves": {
@@ -1935,8 +1935,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -4242924718547626946,
-    6007884792751975968
+    -6800837359968933167,
+    5081408035871750311
    ]
   },
   "minecraft:entities/pufferfish": {

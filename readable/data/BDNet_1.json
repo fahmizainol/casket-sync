@@ -2403,19 +2403,10 @@
      }
     },
     {
-     "amount": 304,
+     "amount": 305,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "efn:duskfire_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5013,23 +5004,6 @@
      "key": {
       "stack": {
        "item": "tcrcore:artifact_ticket"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:enchanted_book",
-       "tag": {
-        "StoredEnchantments": [
-         {
-          "id": "efn:scythe_enhance",
-          "lvl": 1
-         }
-        ]
-       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

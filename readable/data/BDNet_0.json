@@ -1053,7 +1053,7 @@
      }
     },
     {
-     "amount": 305,
+     "amount": 306,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1357,28 +1357,6 @@
      "key": {
       "stack": {
        "item": "minecraft:spruce_stairs"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "dodosmobs:amalgam_claws",
-       "tag": {
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:sharpness",
-          "lvl": 5
-         },
-         {
-          "id": "minecraft:looting",
-          "lvl": 3
-         }
-        ]
-       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
