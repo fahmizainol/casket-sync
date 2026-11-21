@@ -1,22 +1,5 @@
 {
- "AbsorptionAmount": 4.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 8,
-   "Id": 22,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:absorption"
-  }
- ],
+ "AbsorptionAmount": 0.0,
  "Air": 300,
  "Attributes": [
   {
@@ -139,7 +122,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 65,
  "Dimension": "aether:the_aether",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1214,8 +1197,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 135,
-   "currentLogicNodeId": 135
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 127
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1275,7 +1258,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1452,6 +1435,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4727,8 +4711,8 @@
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 30.0,
- "HurtByTimestamp": 1651,
+ "Health": 0.0,
+ "HurtByTimestamp": 407,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5015,7 +4999,7 @@
   "pos": [
    664,
    85,
-   -1123
+   -1121
   ]
  },
  "Motion": [
@@ -5026,13 +5010,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  670.7,
+  664.3,
   85.0,
-  -1129.0071
+  -1120.3
  ],
  "Rotation": [
-  -47.3268,
-  7.9991
+  -162.3262,
+  0.0
  ],
  "Score": 3942,
  "SelectedItemSlot": 0,
@@ -5063,7 +5047,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.95,
+ "foodExhaustionLevel": 0.75,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5074,7 +5058,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 44,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5082,7 +5066,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14667,10 +14650,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2975,
+  "ticks_since_last_warning": 8374,
   "warning_level": 0
  }
 }
