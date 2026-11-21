@@ -1,0 +1,88 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 3,
+       "Slot": 1,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 2,
+       "Slot": 16,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 3,
+       "Slot": 22,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:gunpowder"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/d/d8/d83aa90d-e4d9-425d-9672-0efaef45885e",
+  "position": {
+   "X": 0,
+   "Y": 132,
+   "Z": -8
+  },
+  "size": 27,
+  "uuid": [
+   -667244275,
+   -455523747,
+   -1770909958,
+   -280655778
+  ],
+  "uuid_str": "d83aa90d-e4d9-425d-9672-0efaef45885e"
+ }
+}

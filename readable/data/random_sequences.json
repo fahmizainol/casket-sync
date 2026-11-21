@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -3537686499720712973,
-    1013417298714594065
+    6376362478261767714,
+    4188542255184305622
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    8486451563705672271,
-    -3945734927270672857
+    -8427813109670174253,
+    -2549072716125490247
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -571,6 +571,12 @@
     -5334141160714606340
    ]
   },
+  "minecraft:blocks/bone_block": {
+   "source": [
+    -3288794457178835674,
+    -3135540414961315346
+   ]
+  },
   "minecraft:blocks/bookshelf": {
    "source": [
     1181454263988274359,
@@ -669,8 +675,8 @@
   },
   "minecraft:blocks/chiseled_sandstone": {
    "source": [
-    5610071249006146454,
-    6020142004380686754
+    6839159660317747241,
+    5498345409580421672
    ]
   },
   "minecraft:blocks/chiseled_stone_bricks": {
@@ -725,6 +731,12 @@
    "source": [
     1274584802602619248,
     -4850332072773504092
+   ]
+  },
+  "minecraft:blocks/cut_sandstone_slab": {
+   "source": [
+    7949033599151267408,
+    4885822817136628882
    ]
   },
   "minecraft:blocks/dandelion": {
@@ -785,6 +797,12 @@
    "source": [
     -966610548754961922,
     2663744602943574504
+   ]
+  },
+  "minecraft:blocks/decorated_pot": {
+   "source": [
+    1729734342299513605,
+    -8036011222730640544
    ]
   },
   "minecraft:blocks/deepslate": {
@@ -921,8 +939,8 @@
   },
   "minecraft:blocks/glowstone": {
    "source": [
-    7220072680672076726,
-    -879139563077471174
+    7331309076855697329,
+    6009915013007508652
    ]
   },
   "minecraft:blocks/gold_block": {
@@ -1263,8 +1281,8 @@
   },
   "minecraft:blocks/player_head": {
    "source": [
-    2834828665178970789,
-    5964208779656700761
+    7807152721813466193,
+    1860951505811324041
    ]
   },
   "minecraft:blocks/polished_basalt": {
@@ -1467,8 +1485,8 @@
   },
   "minecraft:blocks/sandstone_wall": {
    "source": [
-    -8602000250377059092,
-    -5318776413750235538
+    -5586587695280668250,
+    -3923750579564701689
    ]
   },
   "minecraft:blocks/scaffolding": {
@@ -1531,28 +1549,40 @@
     6954357301058247991
    ]
   },
+  "minecraft:blocks/smooth_red_sandstone": {
+   "source": [
+    -1620321923941096384,
+    -1568291195634763845
+   ]
+  },
+  "minecraft:blocks/smooth_red_sandstone_slab": {
+   "source": [
+    -394286114539504058,
+    3229482810732943377
+   ]
+  },
   "minecraft:blocks/smooth_red_sandstone_stairs": {
    "source": [
-    -8775211972748177631,
-    -2028600565926964010
+    6856803695045511091,
+    -4207134156827520701
    ]
   },
   "minecraft:blocks/smooth_sandstone": {
    "source": [
-    -2859129437624676655,
-    -5829764010658229956
+    -2986715662353977159,
+    -6612827481436633046
    ]
   },
   "minecraft:blocks/smooth_sandstone_slab": {
    "source": [
-    1837159443857889404,
-    3977330179561469748
+    5652481429949586263,
+    -5963896625039247602
    ]
   },
   "minecraft:blocks/smooth_sandstone_stairs": {
    "source": [
-    8346436425948914981,
-    -2983409390460519536
+    2753419614308024817,
+    697877035065756021
    ]
   },
   "minecraft:blocks/smooth_stone": {
@@ -1807,6 +1837,12 @@
     -3768882613772432200
    ]
   },
+  "minecraft:blocks/water_cauldron": {
+   "source": [
+    -5900400610696718923,
+    -2420818785223653827
+   ]
+  },
   "minecraft:blocks/waxed_cut_copper_slab": {
    "source": [
     6613909284115531722,
@@ -1839,8 +1875,8 @@
   },
   "minecraft:blocks/white_carpet": {
    "source": [
-    -8384263409224488175,
-    -3540588743800408217
+    5344081360667184007,
+    5552901151366736386
    ]
   },
   "minecraft:blocks/white_tulip": {

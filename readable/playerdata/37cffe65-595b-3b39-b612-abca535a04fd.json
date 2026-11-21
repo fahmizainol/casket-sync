@@ -153,7 +153,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+ "Dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -545,7 +545,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost3",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1441,8 +1441,8 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 1,
-  "EFNMurasamaSheathTicks": 0,
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 1,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4747,10 +4747,10 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1918590,
+  "ua_rs_active_until": 1924805,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1915386
+  "ua_tabi_last_dash": 1924029
  },
  "Health": 1.0,
  "HurtByTimestamp": 0,
@@ -4775,7 +4775,7 @@
       "lvl": 3
      }
     ],
-    "murasama_sheath": 1
+    "murasama_sheath": 0
    }
   },
   {
@@ -4856,25 +4856,27 @@
   {
    "Count": 1,
    "Slot": 9,
-   "id": "minecraft:player_head",
-   "tag": {
-    "SkullOwner": {
-     "Id": [
-      -493531989,
-      48713487,
-      -2122758895,
-      -226351268
-     ],
-     "Name": "EoMoTTy",
-     "Properties": {
-      "textures": [
-       {
-        "Value": "ewogICJ0aW1lc3RhbXAiIDogMTY0MDQ5NzI0ODcxMywKICAicHJvZmlsZUlkIiA6ICJlMjk1NGNhYjAyZTc0ZjBmODE3OTQ1MTFmMjgyMjc1YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFb01vVFR5IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkNGYwM2U3NThlNGNiNGI5N2NkNjVlMjgyNDgwMjk3NzZlZmQzNmY5MTYwYmNhN2EwMDE2MDQxNzIxYjk5OCIKICAgIH0KICB9Cn0="
-       }
-      ]
-     }
-    }
-   }
+   "id": "minecraft:cut_sandstone_slab"
+  },
+  {
+   "Count": 1,
+   "Slot": 10,
+   "id": "minecraft:string"
+  },
+  {
+   "Count": 6,
+   "Slot": 11,
+   "id": "minecraft:bone_block"
+  },
+  {
+   "Count": 3,
+   "Slot": 12,
+   "id": "cataclysm:sandstone_falling_trap"
+  },
+  {
+   "Count": 11,
+   "Slot": 17,
+   "id": "minecraft:glowstone_dust"
   },
   {
    "Count": 1,
@@ -4901,6 +4903,29 @@
    }
   },
   {
+   "Count": 3,
+   "Slot": 19,
+   "id": "minecraft:emerald"
+  },
+  {
+   "Count": 1,
+   "Slot": 20,
+   "id": "irons_spellbooks:uncommon_ink"
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "domesticationinnovation:total_recall",
+      "lvl": 1
+     }
+    ]
+   }
+  },
+  {
    "Count": 1,
    "Slot": 22,
    "id": "minecraft:diamond_pickaxe",
@@ -4920,7 +4945,7 @@
    }
   },
   {
-   "Count": 2,
+   "Count": 3,
    "Slot": 23,
    "id": "irons_spellbooks:common_ink"
   },
@@ -5107,13 +5132,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -50.2734,
-  132.0,
-  0.4598
+  -21.1369,
+  199.0,
+  -31.5118
  ],
  "Rotation": [
-  -113.8298,
-  13.4204
+  -127.0766,
+  0.0
  ],
  "Score": 9037,
  "SelectedItemSlot": 5,
@@ -14686,7 +14711,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3089,
+  "ticks_since_last_warning": 9089,
   "warning_level": 0
  }
 }

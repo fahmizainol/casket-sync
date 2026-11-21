@@ -621,6 +621,12 @@
     },
     "done": true
   },
+  "cataclysm:find_frosted_prison": {
+    "criteria": {
+      "prison": "2026-11-21 18:43:37 +0800"
+    },
+    "done": true
+  },
   "cataclysm:kill_remnant": {
     "criteria": {
       "ignis": "2026-11-21 18:21:43 +0800"

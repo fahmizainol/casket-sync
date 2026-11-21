@@ -17,6 +17,80 @@
      -1580186985
     ],
     "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:spider_eye"
+      },
+      {
+       "Count": 2,
+       "Slot": 3,
+       "id": "minecraft:spider_eye"
+      },
+      {
+       "Count": 2,
+       "Slot": 6,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 2,
+       "Slot": 10,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 3,
+       "Slot": 11,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 2,
+       "Slot": 12,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 2,
+       "Slot": 13,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:sand"
+      },
+      {
+       "Count": 1,
+       "Slot": 23,
+       "id": "minecraft:sand"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
    }
   ],
   "key": "lootr/d/d8/d8638c7d-7fa6-48b0-9b81-bc7fb4c9c14e",

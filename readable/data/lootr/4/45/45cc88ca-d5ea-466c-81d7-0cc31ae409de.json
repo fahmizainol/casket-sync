@@ -1,0 +1,111 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 3,
+       "Slot": 0,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:spider_eye"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:spider_eye"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "epicfight:uchigatana",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 4,
+       "Slot": 15,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 3,
+       "Slot": 17,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 20,
+       "id": "minecraft:golden_horse_armor"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 6,
+       "Slot": 23,
+       "id": "minecraft:gold_ingot"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 7,
+       "Slot": 25,
+       "id": "minecraft:string"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/4/45/45cc88ca-d5ea-466c-81d7-0cc31ae409de",
+  "position": {
+   "X": -5,
+   "Y": 132,
+   "Z": -9
+  },
+  "size": 27,
+  "uuid": [
+   1171032266,
+   -706066836,
+   -2116612925,
+   451152350
+  ],
+  "uuid_str": "45cc88ca-d5ea-466c-81d7-0cc31ae409de"
+ }
+}

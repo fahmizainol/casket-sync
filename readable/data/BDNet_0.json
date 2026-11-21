@@ -550,6 +550,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:smooth_sandstone_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 22,
      "key": {
       "stack": {
@@ -1210,7 +1219,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:smooth_sandstone"
@@ -1264,7 +1273,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:chiseled_sandstone"
@@ -1561,7 +1570,7 @@
      }
     },
     {
-     "amount": 24,
+     "amount": 25,
      "key": {
       "stack": {
        "item": "minecraft:bone_block"
@@ -1923,10 +1932,19 @@
      }
     },
     {
-     "amount": 319,
+     "amount": 320,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:sandstone_wall"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2063,6 +2081,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:sandstone_ignite_trap"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -2152,7 +2179,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:cut_sandstone"

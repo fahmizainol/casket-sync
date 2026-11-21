@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1125969,
+  "DayTime": 1131969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,10 +421,42 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795257548867,
+  "LastPlayed": 1795257848866,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
+   "ActiveEffects": [
+    {
+     "Ambient": 0,
+     "Amplifier": 2,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 19,
+     "Id": 1,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:speed"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 1,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 105,
+     "Id": 28,
+     "ShowIcon": 1,
+     "ShowParticles": 1,
+     "forge:id": "minecraft:slow_falling"
+    }
+   ],
    "Air": 300,
    "Attributes": [
     {
@@ -495,6 +527,20 @@
     },
     {
      "Base": 0.1,
+     "Modifiers": [
+      {
+       "Amount": 0.6,
+       "Name": "effect.minecraft.speed 2",
+       "Operation": 2,
+       "UUID": [
+        -1850824106,
+        929776792,
+        -1822740609,
+        1745290805
+       ],
+       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+      }
+     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -540,10 +586,10 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+   "Dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
    "EnderItems": [],
    "FallDistance": 0.0,
-   "FallFlying": 0,
+   "FallFlying": 1,
    "Fire": -20,
    "ForgeCaps": {
     "aether:aether_player": {
@@ -944,7 +990,7 @@
      "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
     },
     "epicskills:ability_points": {
-     "abilityPoint": 0,
+     "abilityPoint": 4,
      "requiredExp": 7,
      "requiredExpLevel": 0
     },
@@ -4568,14 +4614,14 @@
     "ua_accessory_types_seen": {
      "uniqueaccessories:ancient_chisel": 1
     },
-    "ua_rs_active_until": 1918799,
+    "ua_rs_active_until": 1924778,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1918816,
-    "ua_shiny_last_x": -22.694,
-    "ua_shiny_last_y": 146.0,
-    "ua_shiny_last_z": -59.9964,
-    "ua_tabi_last_dash": 1917926
+    "ua_shiny_last_active": 1924816,
+    "ua_shiny_last_x": -44.2371,
+    "ua_shiny_last_y": 161.4552,
+    "ua_shiny_last_z": -54.1453,
+    "ua_tabi_last_dash": 1923938
    },
    "Health": 32.0,
    "HurtByTimestamp": 6489,
@@ -4692,11 +4738,6 @@
      }
     },
     {
-     "Count": 4,
-     "Slot": 5,
-     "id": "epicskills:ability_stone"
-    },
-    {
      "Count": 11,
      "Slot": 6,
      "id": "minecraft:golden_carrot",
@@ -4706,29 +4747,104 @@
      }
     },
     {
-     "Count": 26,
+     "Count": 38,
      "Slot": 7,
      "id": "minecraft:chiseled_sandstone"
     },
     {
-     "Count": 16,
+     "Count": 15,
      "Slot": 8,
      "id": "waystones:waystone"
     },
     {
-     "Count": 2,
+     "Count": 4,
      "Slot": 9,
      "id": "minecraft:smooth_sandstone_slab"
     },
     {
-     "Count": 12,
+     "Count": 41,
      "Slot": 10,
      "id": "minecraft:smooth_sandstone"
     },
     {
-     "Count": 4,
+     "Count": 9,
      "Slot": 11,
      "id": "minecraft:smooth_sandstone_stairs"
+    },
+    {
+     "Count": 1,
+     "Slot": 12,
+     "id": "cataclysm:sandstone_ignite_trap"
+    },
+    {
+     "Count": 1,
+     "Slot": 13,
+     "id": "minecraft:danger_pottery_sherd"
+    },
+    {
+     "Count": 1,
+     "Slot": 14,
+     "id": "minecraft:arms_up_pottery_sherd"
+    },
+    {
+     "Count": 1,
+     "Slot": 15,
+     "id": "minecraft:snort_pottery_sherd"
+    },
+    {
+     "Count": 8,
+     "Slot": 16,
+     "id": "minecraft:gunpowder"
+    },
+    {
+     "Count": 6,
+     "Slot": 17,
+     "id": "minecraft:rotten_flesh"
+    },
+    {
+     "Count": 3,
+     "Slot": 18,
+     "id": "minecraft:iron_ingot"
+    },
+    {
+     "Count": 8,
+     "Slot": 19,
+     "id": "irons_spellbooks:arcane_essence"
+    },
+    {
+     "Count": 4,
+     "Slot": 20,
+     "id": "minecraft:sand"
+    },
+    {
+     "Count": 1,
+     "Slot": 21,
+     "id": "minecraft:golden_apple"
+    },
+    {
+     "Count": 4,
+     "Slot": 22,
+     "id": "minecraft:bone"
+    },
+    {
+     "Count": 1,
+     "Slot": 23,
+     "id": "minecraft:cauldron"
+    },
+    {
+     "Count": 3,
+     "Slot": 24,
+     "id": "minecraft:smooth_red_sandstone_stairs"
+    },
+    {
+     "Count": 2,
+     "Slot": 25,
+     "id": "minecraft:smooth_red_sandstone"
+    },
+    {
+     "Count": 1,
+     "Slot": 26,
+     "id": "cataclysm:sandstone_falling_trap"
     },
     {
      "Count": 1,
@@ -4841,23 +4957,23 @@
     ]
    },
    "Motion": [
-    0.0,
-    -0.0784,
-    0.0
+    -0.4478,
+    -0.0583,
+    0.5757
    ],
-   "OnGround": 1,
+   "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    -22.694,
-    146.0,
-    -59.9964
+    -44.2371,
+    161.4552,
+    -54.1453
    ],
    "Rotation": [
-    0.0751,
-    0.0
+    25.6974,
+    31.9089
    ],
    "Score": 15192,
-   "SelectedItemSlot": 4,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "UUID": [
     1096852936,
@@ -15202,7 +15318,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 11358,
+    "ticks_since_last_warning": 5356,
     "warning_level": 0
    }
   },
@@ -15214,7 +15330,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1918816,
+  "Time": 1924816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15222,7 +15338,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 10800,
+  "WanderingTraderSpawnDelay": 4800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15910,9 +16026,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 20771,
+  "rainTime": 14771,
   "raining": 0,
-  "thunderTime": 127732,
+  "thunderTime": 121732,
   "thundering": 0,
   "version": 19133
  },

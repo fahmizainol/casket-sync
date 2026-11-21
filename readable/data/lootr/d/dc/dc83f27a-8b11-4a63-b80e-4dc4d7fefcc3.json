@@ -1,0 +1,131 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:iron_ingot"
+      },
+      {
+       "Count": 3,
+       "Slot": 3,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "epicfight:uchigatana",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      {
+       "Count": 2,
+       "Slot": 5,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:saddle"
+      },
+      {
+       "Count": 2,
+       "Slot": 13,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 2,
+       "Slot": 14,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 7,
+       "Slot": 15,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 2,
+       "Slot": 23,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 2,
+       "Slot": 25,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 2,
+       "Slot": 26,
+       "id": "minecraft:rotten_flesh"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/d/dc/dc83f27a-8b11-4a63-b80e-4dc4d7fefcc3",
+  "position": {
+   "X": -5,
+   "Y": 132,
+   "Z": -8
+  },
+  "size": 27,
+  "uuid": [
+   -595332486,
+   -1961801117,
+   -1207022140,
+   -671155005
+  ],
+  "uuid_str": "dc83f27a-8b11-4a63-b80e-4dc4d7fefcc3"
+ }
+}
