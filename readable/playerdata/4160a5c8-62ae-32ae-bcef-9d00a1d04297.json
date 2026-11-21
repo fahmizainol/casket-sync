@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 1013,
+   "Duration": 1143,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -1196,8 +1196,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 212
+   "currentDataNodeId": 220,
+   "currentLogicNodeId": 220
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1257,7 +1257,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4518,13 +4518,14 @@
   "last_send_time": 0,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1540803,
-  "ua_shiny_last_x": 665.9257,
+  "ua_shiny_last_active": 1546814,
+  "ua_shiny_last_x": 667.4123,
   "ua_shiny_last_y": 85.0,
-  "ua_shiny_last_z": -1127.3091
+  "ua_shiny_last_z": -1121.0997,
+  "ua_tabi_last_dash": 1546255
  },
- "Health": 3.1378,
- "HurtByTimestamp": 210,
+ "Health": 38.0,
+ "HurtByTimestamp": 2083,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4782,9 +4783,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   668,
+   662,
    85,
-   -1136
+   -1132
   ]
  },
  "Motion": [
@@ -4795,13 +4796,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  665.9257,
+  667.3831,
   85.0,
-  -1127.3091
+  -1121.1059
  ],
  "Rotation": [
-  -55.9391,
-  -12.4254
+  -130.8766,
+  -6.3953
  ],
  "Score": 8754,
  "SelectedItemSlot": 0,
@@ -4832,7 +4833,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.5,
+ "foodExhaustionLevel": 2.9,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4843,7 +4844,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 29,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15155,7 +15156,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6166,
+  "ticks_since_last_warning": 11838,
   "warning_level": 0
  }
 }

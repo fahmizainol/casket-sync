@@ -2370,7 +2370,7 @@
      }
     },
     {
-     "amount": 255,
+     "amount": 256,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
