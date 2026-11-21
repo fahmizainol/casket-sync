@@ -5055,9 +5055,9 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  90.5121,
+  90.6732,
   200.0,
-  -1794.1308
+  -1794.0697
  ],
  "Rotation": [
   -88.6467,
@@ -14699,7 +14699,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1664,
+  "ticks_since_last_warning": 7664,
   "warning_level": 0
  }
 }
