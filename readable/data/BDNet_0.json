@@ -584,7 +584,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -1038,7 +1038,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "tudigong:tudi_command_spell"
@@ -1065,7 +1065,7 @@
      }
     },
     {
-     "amount": 315,
+     "amount": 316,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1382,6 +1382,15 @@
      "key": {
       "stack": {
        "item": "minecraft:spruce_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "minecraft:gunpowder"
       },
       "type": "beyonddimensions:stack_type/item"
      }

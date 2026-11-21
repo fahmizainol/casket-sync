@@ -621,6 +621,18 @@
     },
     "done": true
   },
+  "cataclysm:kill_remnant": {
+    "criteria": {
+      "ignis": "2026-11-21 18:21:43 +0800"
+    },
+    "done": true
+  },
+  "cataclysm:kill_all_bosses": {
+    "criteria": {
+      "cataclysm:ancient_remnant": "2026-11-21 18:21:43 +0800"
+    },
+    "done": false
+  },
   "uniqueaccessories:adventure/ua_collect_05": {
     "criteria": {
       "count_reached": "2026-11-21 16:40:52 +0800"

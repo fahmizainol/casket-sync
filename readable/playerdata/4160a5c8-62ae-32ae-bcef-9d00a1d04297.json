@@ -1,52 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 1,
-   "Id": 1,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:speed"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 112,
-   "Id": 101,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "cataclysm:curse_of_desert"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 145,
-   "Id": 28,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "minecraft:slow_falling"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -82,6 +35,10 @@
    "Name": "epicfight:stun_armor"
   },
   {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
    "Base": 20.0,
    "Modifiers": [
     {
@@ -109,24 +66,14 @@
   },
   {
    "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 0.0,
    "Name": "minecraft:generic.armor"
   },
   {
    "Base": 0.1,
-   "Modifiers": [
-    {
-     "Amount": 0.6,
-     "Name": "effect.minecraft.speed 2",
-     "Operation": 2,
-     "UUID": [
-      -1850824106,
-      929776792,
-      -1822740609,
-      1745290805
-     ],
-     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-    }
-   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -157,6 +104,10 @@
   },
   {
    "Base": 1.0,
+   "Name": "forge:swim_speed"
+  },
+  {
+   "Base": 1.0,
    "Name": "epicfight:max_strikes"
   }
  ],
@@ -168,7 +119,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1285,7 +1236,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1320,6 +1271,7 @@
     "desertEyeActivated": 1,
     "desertEyeBlessed": 1,
     "desert_eye_gotten": 1,
+    "desert_eye_killed": 1,
     "dodged": 1,
     "ferryGirlGiftGet": 1,
     "ferryGirlTalked": 1,
@@ -1347,7 +1299,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 71,
+   "finishedQuestSize": 72,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1417,22 +1369,22 @@
    "finished_quest_69": 76,
    "finished_quest_7": 26,
    "finished_quest_70": 18,
+   "finished_quest_71": 2,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 12.0,
-   "questSize": 12,
+   "questSize": 11,
    "quest_0": 84,
    "quest_1": 38,
-   "quest_10": 75,
-   "quest_11": 77,
-   "quest_2": 2,
-   "quest_3": 6,
-   "quest_4": 7,
-   "quest_5": 8,
-   "quest_6": 59,
-   "quest_7": 4,
-   "quest_8": 3,
-   "quest_9": 15,
+   "quest_10": 77,
+   "quest_2": 6,
+   "quest_3": 7,
+   "quest_4": 8,
+   "quest_5": 59,
+   "quest_6": 4,
+   "quest_7": 3,
+   "quest_8": 15,
+   "quest_9": 75,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -4192,18 +4144,18 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1894767,
+  "ua_rs_active_until": 1899215,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1894816,
-  "ua_shiny_last_x": -47.2867,
-  "ua_shiny_last_y": 98.3049,
-  "ua_shiny_last_z": -17.2755,
-  "ua_tabi_last_dash": 1894356
+  "ua_shiny_last_active": 1900618,
+  "ua_shiny_last_x": 77.7698,
+  "ua_shiny_last_y": 73.0,
+  "ua_shiny_last_z": -132.5877,
+  "ua_tabi_last_dash": 1896205
  },
- "Health": 10.1797,
- "HurtByTimestamp": 554,
- "HurtTime": 4,
+ "Health": 32.0,
+ "HurtByTimestamp": 3932,
+ "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
@@ -4316,15 +4268,12 @@
    }
   },
   {
-   "Count": 6,
+   "Count": 3,
    "Slot": 5,
-   "id": "minecraft:golden_apple",
-   "tag": {
-    "kusabimaru_sheath": 0
-   }
+   "id": "epicskills:ability_stone"
   },
   {
-   "Count": 12,
+   "Count": 11,
    "Slot": 6,
    "id": "minecraft:golden_carrot",
    "tag": {
@@ -4347,24 +4296,42 @@
    }
   },
   {
-   "Count": 10,
-   "Slot": 9,
-   "id": "cataclysm:koboleton_bone"
-  },
-  {
-   "Count": 1,
+   "Count": 2,
    "Slot": 10,
    "id": "cataclysm:kobolediator_skull"
   },
   {
-   "Count": 1,
+   "Count": 2,
    "Slot": 11,
    "id": "minecraft:amethyst_shard"
   },
   {
-   "Count": 1,
+   "Count": 2,
    "Slot": 12,
    "id": "cataclysm:necklace_of_the_desert"
+  },
+  {
+   "Count": 1,
+   "Slot": 14,
+   "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 17,
+   "id": "cataclysm:ancient_metal_block"
+  },
+  {
+   "Count": 1,
+   "Slot": 22,
+   "id": "cataclysm:remnant_skull",
+   "tag": {
+    "kusabimaru_sheath": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 23,
+   "id": "cataclysm:sandstorm_in_a_bottle"
   },
   {
    "Count": 1,
@@ -4401,6 +4368,14 @@
    "Count": 64,
    "Slot": 30,
    "id": "minecraft:cobbled_deepslate"
+  },
+  {
+   "Count": 6,
+   "Slot": 31,
+   "id": "minecraft:golden_apple",
+   "tag": {
+    "kusabimaru_sheath": 0
+   }
   },
   {
    "Count": 2,
@@ -4530,29 +4505,29 @@
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
   "pos": [
-   -46,
-   97,
-   -32
+   -49,
+   98,
+   -43
   ]
  },
  "Motion": [
   0.0,
-  0.0354,
-  -0.9537
+  -0.0784,
+  0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -47.2867,
-  98.3049,
-  -17.2755
+  77.7698,
+  73.0,
+  -132.5785
  ],
  "Rotation": [
-  -136.8417,
-  22.3426
+  -161.2888,
+  36.6592
  ],
- "Score": 14761,
- "SelectedItemSlot": 1,
+ "Score": 14768,
+ "SelectedItemSlot": 5,
  "SleepTimer": 0,
  "UUID": [
   1096852936,
@@ -4562,9 +4537,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 65,
- "XpP": 0.0141,
+ "XpP": 0.0304,
  "XpSeed": 976728483,
- "XpTotal": 14761,
+ "XpTotal": 14768,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4574,7 +4549,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.165,
+ "foodExhaustionLevel": 1.0983,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4585,7 +4560,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 57,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14897,7 +14872,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11572,
+  "ticks_since_last_warning": 5469,
   "warning_level": 0
  }
 }

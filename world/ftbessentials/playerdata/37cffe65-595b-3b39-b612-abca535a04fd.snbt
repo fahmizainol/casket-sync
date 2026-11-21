@@ -6,8 +6,6 @@
 	last_seen: { dim: "aether:the_aether", x: 686, y: 72, z: -584, time: 1795242480067L, xRot: 0.0f, yRot: 119.24719f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -55, y: 97, z: -8, time: 1795255725209L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 193, z: 0, time: 1795255742793L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -46, y: 97, z: -11, time: 1795255798534L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -29, y: 98, z: -77, time: 1795255849136L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -42, y: 97, z: -28, time: 1795255983810L }
@@ -16,6 +14,8 @@
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -37, y: 98, z: -66, time: 1795256105123L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 196, z: 0, time: 1795256121909L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -53, y: 97, z: -21, time: 1795256246943L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -51, y: 97, z: -26, time: 1795256433448L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 190, z: 0, time: 1795256451367L }
 	]
 	homes: { }
 	kit_use_times: { }
