@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 20.0,
+ "AbsorptionAmount": 0.0,
  "Air": 300,
  "Attributes": [
   {
@@ -29,10 +29,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 0.0,
@@ -126,7 +122,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 125,
  "Dimension": "aether:the_aether",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1204,7 +1200,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 127
+   "currentLogicNodeId": 130
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1264,7 +1260,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1415,7 +1411,7 @@
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795240374467,
+     "WarpStoneCooldownUntilUnix": 1795240866599,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -1434,13 +1430,15 @@
       "38ad1344-e908-4c51-bf6b-3bf955674b55",
       "78a5047e-f134-48d4-8314-a6dd7fa30d6a",
       "3827dc2f-f181-4b77-a1d0-df3fbd609460",
-      "43a42e6e-43ee-4d0f-9be3-d7414418b119"
+      "43a42e6e-43ee-4d0f-9be3-d7414418b119",
+      "6a55f8ba-eebf-4eab-a68e-aa6705f1343d"
      ]
     }
    }
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4714,13 +4712,12 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1582796,
+  "ua_rs_active_until": 1587636,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1569929
+  "ua_rs_continuous": 0
  },
- "Health": 30.0,
- "HurtByTimestamp": 2874,
+ "Health": 0.0,
+ "HurtByTimestamp": 1417,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4790,7 +4787,7 @@
    "id": "tcrcore:divine_fragment"
   },
   {
-   "Count": 30,
+   "Count": 29,
    "Slot": 7,
    "id": "waystones:waystone"
   },
@@ -5011,36 +5008,36 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   666,
-   85,
-   -1131
+   682,
+   74,
+   -582
   ]
  },
  "Motion": [
-  0.0191,
+  0.0,
   -0.0784,
-  0.0166
+  0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  687.6513,
-  88.0,
-  -557.321
+  681.2751,
+  72.0,
+  -581.9996
  ],
  "Rotation": [
-  69.6419,
+  -102.3964,
   0.0
  ],
  "Score": 3942,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
- "SpawnAngle": -72.8483,
+ "SpawnAngle": 14.0997,
  "SpawnDimension": "aether:the_aether",
  "SpawnForced": 0,
- "SpawnX": 669,
- "SpawnY": 85,
- "SpawnZ": -1120,
+ "SpawnX": 682,
+ "SpawnY": 73,
+ "SpawnZ": -602,
  "UUID": [
   936377957,
   1499151161,
@@ -5061,7 +5058,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.249,
+ "foodExhaustionLevel": 0.25,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5080,7 +5077,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14665,10 +14661,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 985,
+  "ticks_since_last_warning": 6571,
   "warning_level": 0
  }
 }

@@ -1072,6 +1072,30 @@
    },
    {
     "BlockPos": {
+     "X": 685,
+     "Y": 74,
+     "Z": -604
+    },
+    "IsGlobal": 0,
+    "Name": "gilded",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1784019130,
+     -289452373,
+     -1500599705,
+     99693629
+    ],
+    "World": "aether:the_aether"
+   },
+   {
+    "BlockPos": {
      "X": -160,
      "Y": 123,
      "Z": -3216

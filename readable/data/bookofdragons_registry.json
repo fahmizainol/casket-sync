@@ -45,7 +45,7 @@
     "HasChest": 0,
     "HasSaddle": 0,
     "Health": 200.0,
-    "LastUpdate": 1795240740373,
+    "LastUpdate": 1795240770370,
     "MaxHealth": 220.0,
     "OwnerUUID": [
      1096852936,
@@ -54,9 +54,9 @@
      -1580186985
     ],
     "OwnerUUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-    "PosX": 763,
-    "PosY": 63,
-    "PosZ": -842,
+    "PosX": 759,
+    "PosY": 62,
+    "PosZ": -840,
     "Stage": "BROAD_WING",
     "Type": "HIDEOUS_ZIPPLEBACK"
    }
