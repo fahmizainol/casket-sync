@@ -512,7 +512,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 5,
+   "abilityPoint": 7,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -1164,8 +1164,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 219,
-   "currentLogicNodeId": 219
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1225,7 +1225,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4129,13 +4129,14 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1804762,
+  "ua_rs_active_until": 1808208,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1804816,
-  "ua_shiny_last_x": 100.0452,
-  "ua_shiny_last_y": 76.0,
-  "ua_shiny_last_z": -1962.6724
+  "ua_shiny_last_active": 1810696,
+  "ua_shiny_last_x": 252.0919,
+  "ua_shiny_last_y": 66.0,
+  "ua_shiny_last_z": -1768.1637,
+  "ua_tabi_last_dash": 1806134
  },
  "Health": 30.0,
  "HurtByTimestamp": 0,
@@ -4174,9 +4175,9 @@
   {
    "Count": 1,
    "Slot": 1,
-   "id": "minecraft:gravel",
+   "id": "magistuarmory:netherite_lucernhammer",
    "tag": {
-    "kusabimaru_sheath": 0
+    "Damage": 0
    }
   },
   {
@@ -4250,9 +4251,9 @@
    "id": "waystones:waystone"
   },
   {
-   "Count": 7,
+   "Count": 56,
    "Slot": 7,
-   "id": "aether:cold_aercloud"
+   "id": "minecraft:gunpowder"
   },
   {
    "Count": 2,
@@ -4261,109 +4262,6 @@
    "tag": {
     "kusabimaru_sheath": 0
    }
-  },
-  {
-   "Count": 1,
-   "Slot": 9,
-   "id": "bosses_of_mass_destruction:soul_star"
-  },
-  {
-   "Count": 4,
-   "Slot": 10,
-   "id": "minecraft:rotten_flesh"
-  },
-  {
-   "Count": 1,
-   "Slot": 11,
-   "id": "tcrcore:nine_heaven_darksteel"
-  },
-  {
-   "Count": 24,
-   "Slot": 12,
-   "id": "irons_spellbooks:arcane_essence"
-  },
-  {
-   "Count": 2,
-   "Slot": 13,
-   "id": "epicskills:ability_stone"
-  },
-  {
-   "Count": 1,
-   "Slot": 14,
-   "id": "tcrcore:divine_fragment"
-  },
-  {
-   "Count": 1,
-   "Slot": 15,
-   "id": "aether:blue_aercloud"
-  },
-  {
-   "Count": 5,
-   "Slot": 16,
-   "id": "minecraft:diamond"
-  },
-  {
-   "Count": 1,
-   "Slot": 17,
-   "id": "tcrcore:artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 18,
-   "id": "minecraft:saddle"
-  },
-  {
-   "Count": 1,
-   "Slot": 19,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "minecraft:netherrack"
-  },
-  {
-   "Count": 6,
-   "Slot": 21,
-   "id": "irons_spellbooks:divine_pearl"
-  },
-  {
-   "Count": 1,
-   "Slot": 22,
-   "id": "irons_spellbooks:shriving_stone"
-  },
-  {
-   "Count": 1,
-   "Slot": 23,
-   "id": "cataclysm:storm_eye"
-  },
-  {
-   "Count": 1,
-   "Slot": 24,
-   "id": "minecraft:egg"
-  },
-  {
-   "Count": 1,
-   "Slot": 25,
-   "id": "minecraft:wheat_seeds"
-  },
-  {
-   "Count": 1,
-   "Slot": 26,
-   "id": "aether:victory_medal",
-   "tag": {
-    "kusabimaru_sheath": 0
-   }
-  },
-  {
-   "Count": 61,
-   "Slot": 32,
-   "id": "minecraft:blackstone"
-  },
-  {
-   "Count": 1,
-   "Slot": 34,
-   "id": "tcrcore:core_flint"
   },
   {
    "Count": 1,
@@ -4483,16 +4381,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  100.0452,
-  76.0,
-  -1962.6724
+  252.0919,
+  66.0,
+  -1768.1531
  ],
  "Rotation": [
-  27.8157,
+  146.4561,
   0.0
  ],
  "Score": 11864,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 7,
  "SleepTimer": 0,
  "SpawnAngle": 161.3706,
  "SpawnDimension": "aether:the_aether",
@@ -4520,7 +4418,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.173,
+ "foodExhaustionLevel": 2.432,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14843,7 +14741,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7713,
+  "ticks_since_last_warning": 1712,
   "warning_level": 0
  }
 }

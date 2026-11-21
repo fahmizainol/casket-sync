@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 17.4165,
+ "AbsorptionAmount": 20.0,
  "Air": 300,
  "Attributes": [
   {
@@ -85,6 +85,10 @@
    "Name": "minecraft:generic.attack_speed"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
@@ -141,7 +145,7 @@
  "DeathTime": 0,
  "Dimension": "minecraft:overworld",
  "EnderItems": [],
- "FallDistance": 0.912,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -235,7 +239,13 @@
       },
       "SavedBaseSize": 1,
       "Stacks": {
-       "Items": [],
+       "Items": [
+        {
+         "Count": 1,
+         "Slot": 0,
+         "id": "artifacts:superstitious_hat"
+        }
+       ],
        "Size": 1
       },
       "Visible": 1
@@ -1263,7 +1273,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1421,7 +1431,7 @@
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795240866599,
+     "WarpStoneCooldownUntilUnix": 1795251912837,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -4267,12 +4277,12 @@
    "lastKnownPositions": [
     {
      "position": {
-      "dimension": "tcrcore:sanctum",
-      "x": 86.7271,
-      "xRot": -0.0323,
-      "y": 73.0,
-      "yRot": 192.1951,
-      "z": -156.4722
+      "dimension": "minecraft:the_nether",
+      "x": -1038.8879,
+      "xRot": -3.6,
+      "y": 67.6587,
+      "yRot": 60.0016,
+      "z": -300.8628
      },
      "uuid": [
       -316269812,
@@ -4296,7 +4306,7 @@
     }
    ],
    "mountIndex": 0,
-   "mountReadyAt": 1576135,
+   "mountReadyAt": 1809279,
    "mountWheelSlots": [],
    "mounts": [
     {
@@ -4312,12 +4322,12 @@
    "origins": [
     {
      "position": {
-      "dimension": "aether:the_aether",
-      "x": 622.5,
-      "xRot": -45.2206,
-      "y": 56.0,
-      "yRot": 84.1271,
-      "z": -631.5
+      "dimension": "minecraft:the_nether",
+      "x": 115.5,
+      "xRot": -16.5409,
+      "y": 42.0,
+      "yRot": -0.2998,
+      "z": -425.5
      },
      "uuid": [
       -316269812,
@@ -4343,7 +4353,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147377687,
+        "Duration": 2147376254,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -4369,16 +4379,16 @@
       ],
       "Attributes": [
        {
-        "Base": 0.0,
-        "Name": "forge:step_height_addition"
+        "Base": 1.3696,
+        "Name": "minecraft:generic.flying_speed"
        },
        {
         "Base": 0.08,
         "Name": "forge:entity_gravity"
        },
        {
-        "Base": 1.3696,
-        "Name": "minecraft:generic.flying_speed"
+        "Base": 0.0,
+        "Name": "forge:step_height_addition"
        },
        {
         "Base": 0.3376,
@@ -4389,12 +4399,12 @@
         "Name": "minecraft:generic.attack_damage"
        },
        {
-        "Base": 0.2212,
-        "Name": "minecraft:generic.movement_speed"
-       },
-       {
         "Base": 8.688,
         "Name": "minecraft:generic.armor"
+       },
+       {
+        "Base": 0.2212,
+        "Name": "minecraft:generic.movement_speed"
        },
        {
         "Base": 0.0,
@@ -4425,7 +4435,7 @@
       "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 1778603,
+      "CompanionRescueStoredAt": 1810652,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4628,12 +4638,12 @@
       "IsFreeLooking": 0,
       "IsFromTamedParents": 0,
       "IsGoingDown": 0,
-      "IsOnSolidGround": 1,
+      "IsOnSolidGround": 0,
       "IsRoaring": 0,
       "IsSitting": 0,
       "LayerMood": 2,
       "LayerMotion": 2,
-      "LayerStance": 0,
+      "LayerStance": 1,
       "LeftHanded": 0,
       "MountTime": 0,
       "NoAI": 0,
@@ -4642,7 +4652,7 @@
       "OAH_CurrentFuel": 0,
       "OAH_FullRechargeCooldown": 0,
       "OAH_PendingScale": 0.0,
-      "OnGround": 1,
+      "OnGround": 0,
       "OrderedToSit": 0,
       "Owner": [
        936377957,
@@ -4650,25 +4660,25 @@
        -1240290358,
        1398408445
       ],
-      "PH_SmoothedEntityPitch": 0.0074,
-      "PH_SmoothedMovementYaw": -1544.6128,
-      "PH_UnwrappedMovementYaw": -1544.6128,
+      "PH_SmoothedEntityPitch": 0.0,
+      "PH_SmoothedMovementYaw": -1379.9984,
+      "PH_UnwrappedMovementYaw": -1379.9984,
       "PH_UnwrappedRoll": 0.0,
-      "PH_UnwrappedYaw": 1632.1951,
+      "PH_UnwrappedYaw": 1860.0016,
       "PersistenceRequired": 1,
       "Personality": 0,
       "PortalCooldown": 0,
       "Pos": [
-       86.7271,
-       73.0,
-       -156.4722
+       -1038.8879,
+       67.6587,
+       -300.8628
       ],
       "RoostX": 210,
       "RoostY": 73,
       "RoostZ": -673,
       "Rotation": [
-       192.1951,
-       -0.0323
+       60.0016,
+       -3.6
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "lightning_strike",
@@ -4681,8 +4691,8 @@
       "SpawnScaleTicks": 1,
       "TamingRitualCompleted": 1,
       "TamingRitualTimer": 0,
-      "ThrottleLevel": 0.0,
-      "TransportMode": 0,
+      "ThrottleLevel": 0.9093,
+      "TransportMode": 1,
       "UUID": [
        -316269812,
        593383161,
@@ -4690,13 +4700,13 @@
        760723722
       ],
       "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-      "UseGroundNav": 1,
+      "UseGroundNav": 0,
       "Variant": 0,
       "dragonNeeds": {
-       "exhaustionLevel": 1.5563,
+       "exhaustionLevel": 3.1358,
        "foodLevel": 0,
        "saturationLevel": 0.0,
-       "tickTimer": 71
+       "tickTimer": 64
       },
       "dragonStamina": {
        "regenPauseTicks": 0
@@ -4720,18 +4730,19 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:ancient_chisel": 1,
    "uniqueaccessories:fossil_shark_tooth": 1,
    "uniqueaccessories:tool_belt": 1
   },
-  "ua_rs_active_until": 1804493,
+  "ua_rs_active_until": 1809464,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
   "ua_tabi_last_dash": 1804430
  },
  "Health": 1.0,
- "HurtByTimestamp": 6245,
+ "HurtByTimestamp": 11446,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4789,9 +4800,9 @@
    }
   },
   {
-   "Count": 26,
+   "Count": 1,
    "Slot": 4,
-   "id": "minecraft:netherrack"
+   "id": "minecraft:nether_star"
   },
   {
    "Count": 2,
@@ -4804,7 +4815,7 @@
    "id": "tcrcore:divine_fragment"
   },
   {
-   "Count": 2,
+   "Count": 3,
    "Slot": 7,
    "id": "minecraft:wither_rose"
   },
@@ -4818,9 +4829,9 @@
    }
   },
   {
-   "Count": 2,
+   "Count": 46,
    "Slot": 9,
-   "id": "ba_bt:sky_golem_eye"
+   "id": "minecraft:iron_ingot"
   },
   {
    "Count": 1,
@@ -4842,24 +4853,19 @@
    "id": "tcrcore:nine_heaven_darksteel"
   },
   {
-   "Count": 1,
+   "Count": 2,
    "Slot": 13,
-   "id": "uniqueaccessories:tool_belt"
+   "id": "ba_bt:sky_golem_eye"
   },
   {
    "Count": 1,
    "Slot": 14,
-   "id": "uniqueaccessories:ancient_chisel"
+   "id": "minecraft:netherite_ingot"
   },
   {
    "Count": 1,
    "Slot": 15,
    "id": "tcrcore:end_resonance_stone"
-  },
-  {
-   "Count": 1,
-   "Slot": 16,
-   "id": "tcrcore:artifact_ticket"
   },
   {
    "Count": 29,
@@ -4922,14 +4928,9 @@
    "id": "aether:zanite_gemstone"
   },
   {
-   "Count": 10,
+   "Count": 2,
    "Slot": 24,
-   "id": "aether:white_apple"
-  },
-  {
-   "Count": 1,
-   "Slot": 25,
-   "id": "minecraft:bucket"
+   "id": "minecraft:iron_block"
   },
   {
    "Count": 13,
@@ -4967,9 +4968,9 @@
    }
   },
   {
-   "Count": 3,
+   "Count": 26,
    "Slot": 30,
-   "id": "minecraft:glowstone"
+   "id": "minecraft:netherrack"
   },
   {
    "Count": 1,
@@ -4983,16 +4984,6 @@
    "tag": {
     "Damage": 0
    }
-  },
-  {
-   "Count": 36,
-   "Slot": 33,
-   "id": "minecraft:soul_sand"
-  },
-  {
-   "Count": 1,
-   "Slot": 34,
-   "id": "minecraft:feather"
   },
   {
    "Count": 2,
@@ -5088,21 +5079,21 @@
  },
  "Motion": [
   0.0,
-  -0.1552,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  100.1654,
-  76.9137,
-  -1962.3273
+  253.0831,
+  65.0,
+  -1769.7054
  ],
  "Rotation": [
-  -37.2124,
-  -84.5187
+  31.556,
+  -9.0003
  ],
- "Score": 7049,
+ "Score": 7099,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 105.2728,
@@ -5119,9 +5110,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 51,
- "XpP": 0.5183,
+ "XpP": 0.6844,
  "XpSeed": -736053570,
- "XpTotal": 7049,
+ "XpTotal": 7099,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5131,7 +5122,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.401,
+ "foodExhaustionLevel": 2.07,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5155,7 +5146,7 @@
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
   "isBlastingFurnaceGuiOpen": 0,
-  "isFilteringCraftable": 1,
+  "isFilteringCraftable": 0,
   "isFurnaceFilteringCraftable": 0,
   "isFurnaceGuiOpen": 0,
   "isGuiOpen": 0,
@@ -10536,7 +10527,6 @@
    "quark:world/crafting/woodsets/blossom/button",
    "quark:building/stonecutting/vertslabs/weathered_cut_copper_vertical_slab_from_weathered_copper",
    "quark:world/crafting/stairs/granite_bricks_stairs",
-   "minecraft:bone_block",
    "biomeswevegone:chiseled_white_dacite_brick_stairs",
    "supplementaries:bunting/bunting_green_2",
    "aether:incubator",
@@ -10593,7 +10583,6 @@
    "cataclysm:chorus_trapdoor",
    "minecraft:chiseled_nether_bricks",
    "quark:world/crafting/woodsets/blossom/pressure_plate",
-   "minecraft:copper_block",
    "minecraft:nether_brick_stairs",
    "quark:building/crafting/vertslabs/mossy_cobblestone_bricks_vertical_slab",
    "magistuarmory:tin_roundshield",
@@ -10673,10 +10662,8 @@
    "supplementaries:biomeswevegone/sign_post_redwood",
    "minecraft:cut_copper_stairs_from_copper_block_stonecutting",
    "magistuarmory:silver_tartsche",
-   "minecraft:polished_blackstone_slab",
    "minecraft:stone_stairs",
    "quark:building/crafting/vertslabs/red_sandstone_vertical_slab_revert",
-   "tcrcore:uchigatana",
    "ribbits:mossy_oak_planks_slab",
    "minecraft:dried_kelp_block",
    "wom:satsujin",
@@ -11274,7 +11261,6 @@
    "quark:tweaks/crafting/white_glass",
    "quark:building/crafting/vertplanks/vertical_mangrove_planks_revert",
    "domesticationinnovation:pet_bed_lime_from_dye",
-   "minecraft:raw_iron_block",
    "aether:skyroot_milk_bucket_moa_egg_cake",
    "aether:quicksoil_glass_pane",
    "minecraft:cracked_red_rock_brick_stairs_from_cracked_red_rock_bricks_stonecutting",
@@ -11318,7 +11304,6 @@
    "irons_spellbooks:cast_time_ring",
    "supplementaries:flags/flag_pink",
    "quark:tweaks/smelting/raw_iron_block_smelt",
-   "alexsmobs:gustmaker",
    "quark:building/crafting/vertslabs/thatch_vertical_slab_revert",
    "magistuarmory:copper_heavywarhammer",
    "minecraft:chiseled_red_rock_brick_wall_from_chiseled_red_rock_bricks_stonecutting",
@@ -11347,7 +11332,6 @@
    "supplementaries:flags/flag_green",
    "quark:building/crafting/vertslabs/cut_soul_sandstone_vertical_slab_revert",
    "quark:building/stonecutting/stonevariants/granite_bricks_stairs_polished_stonecutting",
-   "minecraft:polished_blackstone",
    "fantasy_armor:golden_execution_chestplate",
    "quark:building/stonecutting/vertslabs/dripstone_bricks_vertical_slab_stonecutter",
    "aether:holystone_pickaxe_repairing",
@@ -11450,7 +11434,6 @@
    "magistuarmory:netherite_target_smithing",
    "aether:holystone_brick_wall",
    "supplementaries:biomeswevegone/sign_post_willow",
-   "irons_spellbooks:plagued_helmet_crafting",
    "magistuarmory:steel_chainmorgenstern",
    "minecraft:red_stained_glass_pane_from_glass_pane",
    "quark:building/stonecutting/mud_pillar_stonecutter",
@@ -11581,7 +11564,6 @@
    "wom:jabberwocky",
    "magistuarmory:gold_flamebladedsword",
    "quark:building/stonecutting/mossy_cobblestone_bricks_stonecutter",
-   "biomeswevegone:polished_red_rock_stairs",
    "quark:building/crafting/vertslabs/red_nether_brick_vertical_slab",
    "quark:building/stonecutting/mud_brick_lattice_stonecutter",
    "cataclysm:azure_seastone_bricks",
@@ -11657,7 +11639,6 @@
    "supplementaries:statue",
    "quark:building/stonecutting/slabs/dripstone_block_slab_stonecutter",
    "biomeswevegone:winter_rosy_wreath",
-   "minecraft:polished_granite_slab",
    "magistuarmory:gold_ahlspiess",
    "magistuarmory:wood_claymore",
    "magistuarmory:diamond_shortsword",
@@ -11681,7 +11662,6 @@
    "mowziesmobs:grottol_blast",
    "quark:building/crafting/stonevariants/granite_pillar",
    "quark:world/crafting/stairs/ancient_planks_stairs",
-   "minecraft:polished_blackstone_brick_stairs",
    "aether:enchanted_dart_enchanting",
    "quark:building/crafting/shingles/magenta_shingles",
    "supplementaries:pancake",
@@ -11693,7 +11673,6 @@
    "magistuarmory:copper_heatershield",
    "minecraft:diamond_from_blasting_diamond_ore",
    "irons_spellbooks:archevoker_chestplate_crafting",
-   "magistuarmory:wood_guisarme",
    "aether:white_moa_incubation",
    "efn:smithing/crimson_moon",
    "quark:tweaks/crafting/utility/bent/bread",
@@ -11759,7 +11738,6 @@
    "magistuarmory:bronze_shortsword",
    "supplementaries:bunting/bunting_purple_2",
    "fantasy_armor:wind_worshipper_chestplate",
-   "beyonddimensions:xp_exchange_item",
    "domesticationinnovation:pet_bed_pink_from_dye",
    "quark:building/crafting/vertslabs/myalite_vertical_slab_revert",
    "minecraft:white_dacite_brick_wall_from_white_dacite_bricks_stonecutting",
@@ -11995,7 +11973,6 @@
    "supplementaries:checker",
    "quark:building/crafting/vertplanks/vertical_cherry_planks_revert",
    "quark:building/stonecutting/vertslabs/brick_vertical_slab_stonecutter",
-   "magistuarmory:bronze_guisarme",
    "irons_spellbooks:cryomancer_leggings_crafting",
    "minecraft:cyan_candle",
    "alexsmobs:cooked_lobster_tail_smoke",
@@ -12126,7 +12103,6 @@
    "minecraft:deepslate_brick_stairs_from_deepslate_bricks_stonecutting",
    "minecraft:mossy_dacite_brick_wall_from_mossy_dacite_bricks_stonecutting",
    "quark:world/crafting/woodsets/blossom/hanging_sign",
-   "irons_spellbooks:plagued_chestplate_crafting",
    "cataclysm:stonecutting/polished_end_stone_stairs_from_stonecutting",
    "biomeswevegone:cracked_white_dacite_bricks",
    "quark:world/crafting/slabs/shale_bricks_slab",
@@ -12379,7 +12355,6 @@
    "biomeswevegone:blue_stained_glass_from_blue_sand",
    "minecraft:deepslate_tile_wall",
    "quark:tweaks/smelting/raw_iron_bricks_smelt",
-   "minecraft:polished_deepslate_stairs",
    "supplementaries:candy",
    "cataclysm:stonecutting/stone_pillar_from_stonecutting",
    "quark:building/crafting/vertslabs/blue_shingles_vertical_slab_revert",
@@ -12457,7 +12432,6 @@
    "magistuarmory:bronze_flamebladedsword",
    "minecraft:deepslate_tile_stairs_from_cobbled_deepslate_stonecutting",
    "epicfight:wooden_tachi",
-   "magistuarmory:diamond_guisarme",
    "minecraft:sea_lantern",
    "quark:building/stonecutting/stairs/light_gray_shingles_stairs_stonecutter",
    "quark:building/stonecutting/vertslabs/shingles_vertical_slab_stonecutter",
@@ -12523,7 +12497,6 @@
    "magistuarmory:plume_left_decoration",
    "minecraft:activator_rail",
    "quark:building/stonecutting/stonevariants/granite_pillar_stonecutter",
-   "magistuarmory:gold_guisarme",
    "minecraft:pink_allium_petal_block",
    "quark:building/stonecutting/stonevariants/calcite_bricks_stairs_rough_stonecutting",
    "minecraft:windswept_sandstone_wall_from_windswept_sandstone_stonecutting",
@@ -12609,7 +12582,6 @@
    "minecraft:red_nether_brick_slab",
    "quark:building/crafting/glass/black_framed_glass",
    "wom:iron_greataxe",
-   "mowziesmobs:blowgun",
    "quark:building/crafting/vertplanks/vertical_acacia_planks_revert",
    "efn:smithing/meen_spear",
    "minecraft:cooked_salmon_from_campfire_cooking",
@@ -12726,7 +12698,6 @@
    "cataclysm:smithing/ignitium_leggings",
    "magistuarmory:tin_ellipticalshield",
    "quark:building/crafting/walls/sandstone_bricks_wall",
-   "minecraft:polished_andesite_slab",
    "beyonddimensions:net_hopper_block",
    "magistuarmory:diamond_ranseur",
    "biomeswevegone:petal_wreath",
@@ -12794,7 +12765,6 @@
    "quark:building/crafting/vertslabs/acacia_vertical_slab",
    "quark:building/crafting/vertslabs/smooth_stone_vertical_slab",
    "quark:building/stonecutting/stonevariants/limestone_bricks_wall_rough_stonecutting",
-   "magistuarmory:iron_guisarme",
    "magistuarmory:tin_ranseur",
    "minecraft:brown_carpet",
    "quark:building/crafting/yellow_stool",
@@ -12858,7 +12828,6 @@
    "quark:building/stonecutting/vertslabs/black_shingles_vertical_slab_stonecutter2",
    "fantasy_armor:flesh_of_the_feaster_boots",
    "quark:building/crafting/stonevariants/chiseled_myalite_bricks",
-   "magistuarmory:steel_guisarme",
    "cataclysm:stonecutting/frosted_stone_brick_stairs_from_stonecutting",
    "quark:building/stonecutting/vertslabs/magenta_shingles_vertical_slab_stonecutter",
    "quark:building/crafting/warped_post",
@@ -12964,7 +12933,6 @@
    "quark:building/crafting/rusty_iron_plate",
    "supplementaries:blackstone_tile_slab",
    "minecraft:redstone_from_smelting_deepslate_redstone_ore",
-   "minecraft:warped_fungus_on_a_stick",
    "supplementaries:quark/sign_post_azalea",
    "quark:building/stonecutting/iron_pillar_stonecutter",
    "minecraft:sandstone_slab",
@@ -12977,7 +12945,6 @@
    "magistuarmory:big_plume_decoration",
    "minecraft:gold_ingot_from_smelting_raw_gold",
    "quark:building/stonecutting/stairs/light_gray_shingles_stairs_stonecutter2",
-   "quark:building/crafting/compressed/gunpowder_sack",
    "minecraft:dacite_brick_stairs_from_dacite_bricks_stonecutting",
    "minecraft:deepslate_brick_slab_from_cobbled_deepslate_stonecutting",
    "minecraft:cracked_polished_blackstone_bricks",
@@ -13079,7 +13046,6 @@
    "magistuarmory:wood_lochaberaxe",
    "magistuarmory:stone_kiteshield",
    "quark:building/crafting/slabs/midori_block_slab",
-   "mowziesmobs:dart",
    "minecraft:deepslate_tile_wall_from_cobbled_deepslate_stonecutting",
    "quark:building/crafting/stripped_warped_post",
    "irons_spellbooks:shadowwalker_leggings_crafting",
@@ -13219,7 +13185,6 @@
    "minecraft:deepslate_tiles_from_polished_deepslate_stonecutting",
    "biomeswevegone:smooth_blue_sandstone_slab",
    "magistuarmory:chainmail_leggings",
-   "minecraft:polished_blackstone_stairs",
    "supplementaries:stonecutting/checker_slab",
    "alexsmobs:centipede_leggings",
    "minecraft:netherite_pickaxe_smithing",
@@ -13251,7 +13216,6 @@
    "magistuarmory:copper_lucernhammer",
    "quark:building/crafting/shingles/pink_shingles_dye",
    "quark:building/crafting/compressed/nether_wart_sack",
-   "minecraft:polished_deepslate",
    "magistuarmory:cuirassier_helmet",
    "quark:building/crafting/acacia_bookshelf",
    "alexsmobs:chorus_on_a_stick",
@@ -13301,19 +13265,14 @@
    "efn:amethyst_bless/nf_claw",
    "waystones:warp_plate",
    "minecraft:iron_nugget_from_smelting",
-   "minecraft:raw_gold_block",
-   "ftbquests:screen_5",
    "minecraft:end_golem_eye_from_smelting_end_golem_chest",
    "quark:building/crafting/hollowlogs/hollow_ancient_log",
-   "ftbquests:screen_7",
    "biomeswevegone:black_sandstone_stairs",
    "supplementaries:awnings/awning_white",
    "quark:world/crafting/slabs/polished_jasper_slab",
    "fantasy_armor:dragonslayer_leggings",
    "quark:world/crafting/woodsets/azalea/chest_wood",
-   "ftbquests:screen_1",
    "magistuarmory:bronze_stylet",
-   "ftbquests:screen_3",
    "quark:building/crafting/stairs/iron_plate_stairs",
    "quark:building/stonecutting/purple_shingles_stonecutter2",
    "quark:building/crafting/hollowlogs/hollow_acacia_log",
@@ -13884,7 +13843,6 @@
    "quark:building/crafting/stonevariants/vanilla/polished_dripstone",
    "quark:building/crafting/vertslabs/waxed_weathered_cut_copper_vertical_slab_revert",
    "minecraft:light_blue_stained_glass_pane",
-   "magistuarmory:copper_guisarme",
    "quark:building/crafting/chests/chest_trapped",
    "quark:building/crafting/compressed/sugar_cane_block_uncompress",
    "minecraft:yellow_dye_from_sunflower",
@@ -14082,7 +14040,6 @@
    "quark:building/crafting/chests/purpur_trapped_chest",
    "quark:building/stonecutting/green_shingles_stonecutter2",
    "quark:building/stonecutting/vertslabs/prismarine_vertical_slab_stonecutter",
-   "minecraft:netherite_block",
    "supplementaries:awnings/awning_green",
    "biomeswevegone:mossy_red_rock_brick_wall",
    "quark:building/stonecutting/vertslabs/cyan_shingles_vertical_slab_stonecutter",
@@ -14099,7 +14056,6 @@
    "biomeswevegone:chiseled_dacite_brick_wall",
    "aether:ambrosium_shard_from_blasting",
    "quark:building/crafting/vertslabs/jasper_bricks_vertical_slab",
-   "ftbquests:task_screen_configurator",
    "minecraft:smooth_white_sandstone_slab_from_white_sandstone_stonecutting",
    "quark:building/crafting/stonevariants/myalite_bricks",
    "quark:building/crafting/vertslabs/dark_prismarine_vertical_slab",
@@ -14222,7 +14178,6 @@
    "quark:building/crafting/walls/mossy_cobblestone_bricks_wall",
    "minecraft:blast_furnace",
    "cataclysm:stonecutting/azure_seastone_tiles_from_stonecutting",
-   "minecraft:polished_andesite_stairs",
    "minecraft:rocky_stone_stairs_from_rocky_stone_stonecutting",
    "biomeswevegone:pink_stained_glass_from_pink_sand",
    "quark:world/crafting/walls/andesite_bricks_wall",
@@ -14329,7 +14284,6 @@
    "supplementaries:hat_stand",
    "cataclysm:bone_meal",
    "cataclysm:smithing/cursium_boots",
-   "quark:building/crafting/compressed/gunpowder_sack_uncompress",
    "efn:smithing/duskfire_boots",
    "cataclysm:azure_seastone_wall",
    "minecraft:black_banner",
@@ -14340,7 +14294,6 @@
    "quark:world/stonecutting/slabs/permafrost_bricks_slab_stonecutter",
    "quark:building/crafting/vertslabs/cherry_vertical_slab_revert",
    "quark:tweaks/crafting/utility/chests/warped_chest_wood",
-   "minecraft:polished_deepslate_slab",
    "quark:tools/smithing/rune_smithing_orange",
    "quark:building/crafting/compressed/potato_crate_uncompress",
    "quark:world/crafting/panes/blue_corundum_pane",
@@ -14474,14 +14427,12 @@
    "quark:building/stonecutting/vertslabs/gray_shingles_vertical_slab_stonecutter",
    "minecraft:firework_rocket_simple",
    "quark:world/crafting/stairs/permafrost_bricks_stairs",
-   "minecraft:black_dye_from_wither_rose",
    "quark:building/stonecutting/stonevariants/dripstone_bricks_wall_rough_stonecutting",
    "lost_aether_content:noble_armor_trim_smithing_template_smithing_trim",
    "minecraft:white_dacite_cobblestone_wall_from_white_dacite_cobblestone_stonecutting",
    "quark:building/crafting/stairs/polished_dripstone_stairs",
    "minecraft:pink_allium",
    "supplementaries:awnings/awning_cyan",
-   "magistuarmory:stone_guisarme",
    "quark:world/crafting/woodsets/azalea/bookshelf",
    "aether:netherite_shovel_repairing",
    "magistuarmory:iron_ahlspiess",
@@ -14719,7 +14670,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 955,
+  "ticks_since_last_warning": 6953,
   "warning_level": 0
  }
 }

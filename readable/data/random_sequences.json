@@ -117,14 +117,14 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -6164406328788226238,
-    -7558862903536269659
+    9071017571602441983,
+    675539315110535599
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -3498617227785028727,
-    1301340122202965543
+    -2930485997837276774,
+    -3245066698162065147
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -135,14 +135,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    5551117739169462163,
-    -4312482136116318897
+    5693889648539836235,
+    7328916804073180931
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    811214826467988244,
-    -8554250073171990268
+    -9138852884051978776,
+    2913650659293898172
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,14 +153,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    5086590740159929486,
-    -7066455589641834545
+    1010654606685599623,
+    -1853509357897571985
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    6196845074542918785,
-    733684201441341469
+    8005160154648435475,
+    5859117931763937775
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -597,8 +597,8 @@
   },
   "minecraft:blocks/brown_mushroom": {
    "source": [
-    -1121422825805925157,
-    8886994656179730579
+    5694700033051647469,
+    -4203238594834091690
    ]
   },
   "minecraft:blocks/bubble_coral": {
@@ -921,8 +921,8 @@
   },
   "minecraft:blocks/grass": {
    "source": [
-    8654647876344335615,
-    -1985499039385153534
+    -6127056716322900139,
+    -1693614029777248461
    ]
   },
   "minecraft:blocks/grass_block": {
@@ -1689,8 +1689,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    8392055122094369723,
-    -3996512145367373222
+    -1450468452993156166,
+    2259807377951639053
    ]
   },
   "minecraft:blocks/tall_seagrass": {
@@ -1797,8 +1797,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    5211718083717855141,
-    9183946411900187239
+    -274561691066631030,
+    2613041198614517278
    ]
   },
   "minecraft:entities/blaze": {
@@ -1989,8 +1989,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -6715908228213808027,
-    8203237177574216619
+    -4923346913268075300,
+    -705949769392788666
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -2019,8 +2019,8 @@
   },
   "minecraft:entities/wither": {
    "source": [
-    662494949442184689,
-    3613809719775572638
+    1749821601391204139,
+    1400441200685905819
    ]
   },
   "minecraft:entities/wither_skeleton": {
