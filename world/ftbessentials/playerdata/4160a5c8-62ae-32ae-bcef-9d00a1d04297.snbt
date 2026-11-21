@@ -6,7 +6,6 @@
 	last_seen: { dim: "tcrcore:sanctum", x: 80, y: 73, z: -144, time: 1795237129374L, xRot: 0.0f, yRot: 76.49806f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "aether:the_aether", x: 98, y: 171, z: -1777, time: 1795253368205L }
 		{ dim: "aether:the_aether", x: 83, y: 201, z: -1795, time: 1795253380403L }
 		{ dim: "aether:the_aether", x: 99, y: 200, z: -1795, time: 1795253454608L }
 		{ dim: "aether:the_aether", x: 98, y: 200, z: -1799, time: 1795254031656L }
@@ -16,6 +15,7 @@
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -75, y: 132, z: -19, time: 1795254225764L }
 		{ dim: "aether:the_aether", x: 96, y: 200, z: -1803, time: 1795254227194L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 195, z: 0, time: 1795254243476L }
+		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -45, y: 132, z: -67, time: 1795254538061L }
 	]
 	homes: { }
 	kit_use_times: { }

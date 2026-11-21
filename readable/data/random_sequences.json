@@ -421,6 +421,12 @@
     -6795284348136608776
    ]
   },
+  "cataclysm:entities/kobolediator": {
+   "source": [
+    -6266361873147629896,
+    4635439302978588242
+   ]
+  },
   "cataclysm:entities/wadjet": {
    "source": [
     2477654233894856905,
@@ -525,8 +531,8 @@
   },
   "minecraft:blocks/black_bed": {
    "source": [
-    5994979313190931385,
-    -2050940047100824954
+    7370729536446885966,
+    -7458672010996526100
    ]
   },
   "minecraft:blocks/black_candle": {
@@ -1941,8 +1947,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    8211559553483484454,
-    7802726912110631188
+    -5692538374930282760,
+    -2223490206695927396
    ]
   },
   "minecraft:entities/pufferfish": {

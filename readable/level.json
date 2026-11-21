@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1059969,
+  "DayTime": 1065969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795254248855,
+  "LastPlayed": 1795254548858,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -435,11 +435,11 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 255,
-     "Id": 28,
+     "Duration": 528,
+     "Id": 21,
      "ShowIcon": 1,
-     "ShowParticles": 1,
-     "forge:id": "minecraft:slow_falling"
+     "ShowParticles": 0,
+     "forge:id": "minecraft:health_boost"
     }
    ],
    "Air": 300,
@@ -473,8 +473,16 @@
      "Name": "minecraft:generic.armor_toughness"
     },
     {
+     "Base": 1.0,
+     "Name": "attributeslib:draw_speed"
+    },
+    {
      "Base": 0.0,
      "Name": "epicfight:stun_armor"
+    },
+    {
+     "Base": 4.0,
+     "Name": "epicfight:offhand_attack_speed"
     },
     {
      "Base": 20.0,
@@ -490,6 +498,18 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      },
+      {
+       "Amount": 8.0,
+       "Name": "effect.minecraft.health_boost 1",
+       "Operation": 0,
+       "UUID": [
+        1567558562,
+        294012588,
+        -1198078436,
+        1559140812
+       ],
+       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -501,6 +521,10 @@
     {
      "Base": 0.0,
      "Name": "minecraft:generic.knockback_resistance"
+    },
+    {
+     "Base": 0.0,
+     "Name": "cataclysm:additional_critical_damage"
     },
     {
      "Base": 0.0,
@@ -535,6 +559,10 @@
     {
      "Base": 0.0,
      "Name": "epicfight:armor_negation"
+    },
+    {
+     "Base": 1.0,
+     "Name": "forge:swim_speed"
     },
     {
      "Base": 1.0,
@@ -4570,17 +4598,18 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1852782,
+    "quark:trying_crawl": 0,
+    "ua_rs_active_until": 1858751,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1852816,
-    "ua_shiny_last_x": -39.5138,
-    "ua_shiny_last_y": 133.3078,
-    "ua_shiny_last_z": 1.2877,
-    "ua_tabi_last_dash": 1852719
+    "ua_shiny_last_active": 1858816,
+    "ua_shiny_last_x": -22.744,
+    "ua_shiny_last_y": 146.0,
+    "ua_shiny_last_z": -59.2317,
+    "ua_tabi_last_dash": 1858621
    },
-   "Health": 32.0,
-   "HurtByTimestamp": 0,
+   "Health": 31.88,
+   "HurtByTimestamp": 2720,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4703,7 +4732,7 @@
      }
     },
     {
-     "Count": 13,
+     "Count": 12,
      "Slot": 5,
      "id": "minecraft:golden_apple",
      "tag": {
@@ -4726,7 +4755,7 @@
      "id": "efn:duskfire_ingot"
     },
     {
-     "Count": 3,
+     "Count": 4,
      "Slot": 9,
      "id": "minecraft:rotten_flesh"
     },
@@ -4759,6 +4788,59 @@
      "Count": 8,
      "Slot": 15,
      "id": "cataclysm:koboleton_bone"
+    },
+    {
+     "Count": 1,
+     "Slot": 16,
+     "id": "minecraft:bone"
+    },
+    {
+     "Count": 2,
+     "Slot": 17,
+     "id": "minecraft:string"
+    },
+    {
+     "Count": 3,
+     "Slot": 18,
+     "id": "irons_spellbooks:arcane_essence"
+    },
+    {
+     "Count": 1,
+     "Slot": 19,
+     "id": "minecraft:enchanted_book",
+     "tag": {
+      "StoredEnchantments": [
+       {
+        "id": "domesticationinnovation:healing_aura",
+        "lvl": 2
+       }
+      ]
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 20,
+     "id": "minecraft:spider_eye"
+    },
+    {
+     "Count": 7,
+     "Slot": 21,
+     "id": "minecraft:gold_ingot"
+    },
+    {
+     "Count": 1,
+     "Slot": 22,
+     "id": "irons_spellbooks:poisonward_ring"
+    },
+    {
+     "Count": 6,
+     "Slot": 23,
+     "id": "minecraft:sand"
+    },
+    {
+     "Count": 1,
+     "Slot": 24,
+     "id": "minecraft:iron_horse_armor"
     },
     {
      "Count": 2,
@@ -4890,21 +4972,21 @@
    },
    "Motion": [
     0.0,
-    -0.2267,
-    0.0094
+    -0.0784,
+    0.0
    ],
-   "OnGround": 0,
+   "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -39.5138,
-    133.3078,
-    1.2877
+    -22.744,
+    146.0,
+    -59.2317
    ],
    "Rotation": [
-    -102.2237,
-    28.95
+    -61.8436,
+    0.0
    ],
-   "Score": 14401,
+   "Score": 14481,
    "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": 161.3706,
@@ -4921,9 +5003,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 64,
-   "XpP": 0.1531,
+   "XpP": 0.3445,
    "XpSeed": 976728483,
-   "XpTotal": 14401,
+   "XpTotal": 14481,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4933,7 +5015,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.615,
+   "foodExhaustionLevel": 2.4286,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -4944,7 +5026,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 47,
+    "mana": 100,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15256,7 +15338,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 6739,
+    "ticks_since_last_warning": 738,
     "warning_level": 0
    }
   },
@@ -15268,15 +15350,15 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1852816,
+  "Time": 1858816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
    "Series": "main",
    "Snapshot": 0
   },
-  "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 4800,
+  "WanderingTraderSpawnChance": 50,
+  "WanderingTraderSpawnDelay": 22800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15964,9 +16046,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 34300,
+  "rainTime": 28300,
   "raining": 0,
-  "thunderTime": 35115,
+  "thunderTime": 29115,
   "thundering": 0,
   "version": 19133
  },
