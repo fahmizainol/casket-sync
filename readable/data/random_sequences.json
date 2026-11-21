@@ -45,8 +45,8 @@
   },
   "aether:entities/blue_swet": {
    "source": [
-    1062647712365290076,
-    1619632537646878775
+    -7721540012410506276,
+    2809305683556935956
    ]
   },
   "aether:entities/cockatrice": {
@@ -63,8 +63,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    7405047159663602073,
-    -8255178446921870667
+    7163755490723525717,
+    -2970489956717751044
    ]
   },
   "aether:entities/moa": {
@@ -1923,8 +1923,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -6765653487261122690,
-    -1159260906256481743
+    533830294674126250,
+    3290345202377327332
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2051,6 +2051,12 @@
    "source": [
     -6752819634492776094,
     2533280864073244097
+   ]
+  },
+  "tcr_bosses:entities/gilded_hunter": {
+   "source": [
+    5589171084802667258,
+    5051018103616762450
    ]
   },
   "tcr_bosses:entities/valkyrie": {

@@ -10,26 +10,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 1191,
+   "Duration": 944,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 31,
-   "Id": 5,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:strength"
   }
  ],
  "Air": 300,
@@ -48,20 +33,6 @@
   },
   {
    "Base": 1.0,
-   "Modifiers": [
-    {
-     "Amount": 6.0,
-     "Name": "effect.minecraft.strength 1",
-     "Operation": 0,
-     "UUID": [
-      1686990948,
-      1784696665,
-      -1967209790,
-      980277161
-     ],
-     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
-    }
-   ],
    "Name": "minecraft:generic.attack_damage"
   },
   {
@@ -172,7 +143,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 77,
  "Dimension": "aether:the_aether",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1226,8 +1197,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 215,
-   "currentLogicNodeId": 215
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 218
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1314,7 +1285,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 71.0,
+    "currentQuestId": 72.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1347,7 +1318,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 65,
+   "finishedQuestSize": 66,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1410,15 +1381,15 @@
    "finished_quest_62": 68,
    "finished_quest_63": 69,
    "finished_quest_64": 70,
+   "finished_quest_65": 71,
    "finished_quest_7": 26,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 10.0,
-   "questSize": 12,
+   "questSize": 11,
    "quest_0": 84,
    "quest_1": 38,
    "quest_10": 72,
-   "quest_11": 71,
    "quest_2": 2,
    "quest_3": 6,
    "quest_4": 7,
@@ -1469,6 +1440,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4184,18 +4156,16 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1618706,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1618816,
-  "ua_shiny_last_x": 681.4974,
-  "ua_shiny_last_y": 72.0,
-  "ua_shiny_last_z": -582.459,
-  "ua_tabi_last_dash": 1617731
+  "ua_shiny_last_active": 1624739,
+  "ua_shiny_last_x": 100.5048,
+  "ua_shiny_last_y": 200.0,
+  "ua_shiny_last_z": -1786.5469
  },
- "Health": 38.0,
- "HurtByTimestamp": 887,
- "HurtTime": 1,
+ "Health": 0.0,
+ "HurtByTimestamp": 847,
+ "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
@@ -4226,11 +4196,6 @@
     ],
     "kusabimaru_sheath": 0
    }
-  },
-  {
-   "Count": 1,
-   "Slot": 1,
-   "id": "minecraft:netherrack"
   },
   {
    "Count": 1,
@@ -4285,6 +4250,7 @@
      }
     ],
     "RepairCost": 1,
+    "kusabimaru_sheath": 0,
     "sheath": 0
    }
   },
@@ -4339,11 +4305,6 @@
   },
   {
    "Count": 1,
-   "Slot": 13,
-   "id": "ba_bt:sky_monolith_key"
-  },
-  {
-   "Count": 1,
    "Slot": 14,
    "id": "tcrcore:divine_fragment"
   },
@@ -4353,9 +4314,19 @@
    "id": "aether:blue_aercloud"
   },
   {
+   "Count": 5,
+   "Slot": 16,
+   "id": "minecraft:diamond"
+  },
+  {
    "Count": 1,
    "Slot": 18,
    "id": "minecraft:saddle"
+  },
+  {
+   "Count": 1,
+   "Slot": 20,
+   "id": "minecraft:netherrack"
   },
   {
    "Count": 61,
@@ -4472,9 +4443,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   684,
-   73,
-   -603
+   101,
+   200,
+   -1786
   ]
  },
  "Motion": [
@@ -4485,13 +4456,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  681.4974,
-  72.0,
-  -582.459
+  100.4958,
+  200.0,
+  -1786.5628
  ],
  "Rotation": [
-  112.9977,
-  7.6655
+  -29.3825,
+  0.0
  ],
  "Score": 8762,
  "SelectedItemSlot": 0,
@@ -4522,7 +4493,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.938,
+ "foodExhaustionLevel": 1.8,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4533,7 +4504,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 88,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -4541,7 +4512,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14842,10 +14812,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4711,
+  "ticks_since_last_warning": 10512,
   "warning_level": 0
  }
 }
