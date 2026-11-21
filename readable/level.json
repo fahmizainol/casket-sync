@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 891969,
+  "DayTime": 897969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795245848863,
+  "LastPlayed": 1795246148878,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -1681,7 +1681,7 @@
       "canEnterAether": 1,
       "canEnterNether": 1,
       "chronosTalked": 1,
-      "currentQuestId": 73.0,
+      "currentQuestId": 74.0,
       "currentQuestIdisLocked": 0,
       "cursedEyeActivated": 1,
       "cursedEyeBlessed": 1,
@@ -1709,12 +1709,13 @@
       "monst_eye_gotten": 1,
       "ornnTalked": 1,
       "parried": 1,
+      "storm_eye_gotten": 1,
       "sword_soaring_avoid_unlocked": 1,
       "tutorial_passed": 1,
       "way_stone_interacted": 1,
       "weapon_innate_used": 1
      },
-     "finishedQuestSize": 66,
+     "finishedQuestSize": 68,
      "finished_quest_0": 21,
      "finished_quest_1": 23,
      "finished_quest_10": 29,
@@ -1778,15 +1779,18 @@
      "finished_quest_63": 69,
      "finished_quest_64": 70,
      "finished_quest_65": 71,
+     "finished_quest_66": 73,
+     "finished_quest_67": 72,
      "finished_quest_7": 26,
      "finished_quest_8": 27,
      "finished_quest_9": 27,
      "healthAdder": 10.0,
-     "questSize": 12,
+     "questSize": 13,
      "quest_0": 84,
      "quest_1": 38,
-     "quest_10": 72,
-     "quest_11": 73,
+     "quest_10": 15,
+     "quest_11": 75,
+     "quest_12": 74,
      "quest_2": 2,
      "quest_3": 6,
      "quest_4": 7,
@@ -4552,14 +4556,14 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1643249,
+    "ua_rs_active_until": 1687797,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1643292,
-    "ua_shiny_last_x": 86.9623,
+    "ua_shiny_last_active": 1687914,
+    "ua_shiny_last_x": 97.0921,
     "ua_shiny_last_y": 200.0,
-    "ua_shiny_last_z": -1786.7173,
-    "ua_tabi_last_dash": 1642024
+    "ua_shiny_last_z": -1802.7497,
+    "ua_tabi_last_dash": 1687684
    },
    "Health": 30.0,
    "HurtByTimestamp": 2436,
@@ -4671,14 +4675,6 @@
      "id": "waystones:waystone"
     },
     {
-     "Count": 1,
-     "Slot": 7,
-     "id": "aether:victory_medal",
-     "tag": {
-      "kusabimaru_sheath": 0
-     }
-    },
-    {
      "Count": 2,
      "Slot": 8,
      "id": "irons_spellbooks:lightning_bottle",
@@ -4755,6 +4751,19 @@
      "Count": 1,
      "Slot": 22,
      "id": "irons_spellbooks:shriving_stone"
+    },
+    {
+     "Count": 1,
+     "Slot": 23,
+     "id": "cataclysm:storm_eye"
+    },
+    {
+     "Count": 1,
+     "Slot": 26,
+     "id": "aether:victory_medal",
+     "tag": {
+      "kusabimaru_sheath": 0
+     }
     },
     {
      "Count": 61,
@@ -4884,13 +4893,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    86.9623,
+    97.1034,
     200.0,
-    -1786.7173
+    -1802.7545
    ],
    "Rotation": [
-    -154.7759,
-    0.0
+    -169.3324,
+    32.2904
    ],
    "Score": 11864,
    "SelectedItemSlot": 0,
@@ -4921,7 +4930,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.997,
+   "foodExhaustionLevel": 1.538,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15244,7 +15253,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 8614,
+    "ticks_since_last_warning": 2613,
     "warning_level": 0
    }
   },
@@ -15256,15 +15265,15 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1684816,
+  "Time": 1690816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
    "Series": "main",
    "Snapshot": 0
   },
-  "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 4800,
+  "WanderingTraderSpawnChance": 75,
+  "WanderingTraderSpawnDelay": 22800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15952,9 +15961,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 1001,
-  "raining": 1,
-  "thunderTime": 79002,
+  "rainTime": 69269,
+  "raining": 0,
+  "thunderTime": 73002,
   "thundering": 0,
   "version": 19133
  },
