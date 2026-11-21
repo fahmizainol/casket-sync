@@ -521,7 +521,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "wom:heart_shield",
    "passive6": "wom:mindset",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -4751,9 +4751,9 @@
    }
   },
   {
-   "Count": 5,
+   "Count": 1,
    "Slot": 1,
-   "id": "minecraft:diamond"
+   "id": "efn:hf_murasama_blade"
   },
   {
    "Count": 1,
@@ -4814,25 +4814,7 @@
   {
    "Count": 1,
    "Slot": 9,
-   "id": "aether:victory_medal"
-  },
-  {
-   "Count": 1,
-   "Slot": 10,
-   "id": "dodosmobs:amalgam_claws",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     }
-    ]
-   }
+   "id": "ba_bt:sky_golem_eye"
   },
   {
    "Count": 1,
@@ -4860,34 +4842,9 @@
    "id": "tcrcore:end_resonance_stone"
   },
   {
-   "Count": 1,
-   "Slot": 16,
-   "id": "minecraft:netherite_ingot"
-  },
-  {
    "Count": 29,
    "Slot": 17,
    "id": "waystones:waystone"
-  },
-  {
-   "Count": 1,
-   "Slot": 18,
-   "id": "ba_bt:sky_monolith_key"
-  },
-  {
-   "Count": 1,
-   "Slot": 19,
-   "id": "minecraft:lodestone"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "minecraft:snout_armor_trim_smithing_template"
-  },
-  {
-   "Count": 9,
-   "Slot": 21,
-   "id": "minecraft:emerald"
   },
   {
    "Count": 7,
@@ -4895,7 +4852,7 @@
    "id": "aether:cold_aercloud"
   },
   {
-   "Count": 1,
+   "Count": 3,
    "Slot": 23,
    "id": "aether:zanite_gemstone"
   },
@@ -5072,16 +5029,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  258.3126,
+  256.9249,
   66.0,
-  -1767.4525
+  -1768.0577
  ],
  "Rotation": [
-  1.0495,
-  21.0287
+  -48.1337,
+  23.0252
  ],
  "Score": 3943,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 1,
  "SleepTimer": 0,
  "SpawnAngle": 105.2728,
  "SpawnDimension": "aether:the_aether",
@@ -5136,7 +5093,7 @@
   "isFilteringCraftable": 1,
   "isFurnaceFilteringCraftable": 0,
   "isFurnaceGuiOpen": 0,
-  "isGuiOpen": 1,
+  "isGuiOpen": 0,
   "isSmokerFilteringCraftable": 0,
   "isSmokerGuiOpen": 0,
   "isaltarFilteringCraftable": 0,
@@ -10648,7 +10605,6 @@
    "quark:building/stonecutting/stonevariants/chiseled_jasper_bricks_stonecutter",
    "minecraft:lodestone",
    "biomeswevegone:red_rock_tiles",
-   "minecraft:purpur_block",
    "supplementaries:biomeswevegone/sign_post_redwood",
    "minecraft:cut_copper_stairs_from_copper_block_stonecutting",
    "magistuarmory:silver_tartsche",
@@ -11291,7 +11247,6 @@
    "quark:building/crafting/azalea_leaf_carpet",
    "quark:building/stonecutting/walls/cobblestone_bricks_wall_stonecutter",
    "minecraft:pink_dye_from_pink_tulip",
-   "minecraft:arrow",
    "quark:building/crafting/stonevariants/limestone_bricks",
    "quark:building/crafting/walls/raw_iron_bricks_wall",
    "quark:building/stonecutting/stonevariants/calcite_bricks_vertical_slab_polished_stonecutting",
@@ -11460,7 +11415,6 @@
    "minecraft:polished_diorite_stairs_from_polished_diorite_stonecutting",
    "irons_spellbooks:pyromancer_chestplate_crafting",
    "magistuarmory:steel_ranseur",
-   "aether:poison_dart",
    "minecraft:orange_candle",
    "supplementaries:flags/flag_purple",
    "quark:building/stonecutting/stonevariants/andesite_bricks_wall_rough_stonecutting",
@@ -11844,7 +11798,6 @@
    "quark:building/stonecutting/vertslabs/smooth_soul_sandstone_vertical_slab_stonecutter",
    "magistuarmory:silver_katzbalger",
    "magistuarmory:barbute",
-   "quark:world/crafting/woodsets/ancient/wood",
    "quark:world/stonecutting/stairs/permafrost_bricks_stairs_stonecutter2",
    "quark:building/crafting/lavender_blossom_leaf_carpet",
    "magistuarmory:crusader_boots",
@@ -12223,7 +12176,6 @@
    "magistuarmory:iron_target",
    "cataclysm:smithing/gauntlet_of_guard",
    "quark:building/crafting/stonevariants/chiseled_andesite_bricks",
-   "quark:world/crafting/woodsets/ancient/stripped_wood",
    "quark:building/crafting/chests/nether_brick_chest",
    "minecraft:stone_slab_from_stone_stonecutting",
    "biomeswevegone:cut_purple_sandstone_slab",
@@ -12520,7 +12472,6 @@
    "quark:world/crafting/stairs/polished_limestone_stairs",
    "quark:building/crafting/vertslabs/dripstone_block_vertical_slab_revert",
    "aether:aether_iron_nugget_from_blasting",
-   "minecraft:red_sandstone",
    "magistuarmory:bronze_target",
    "mowziesmobs:painted_acacia_block_from_slab",
    "quark:building/crafting/stairs/light_blue_shingles_stairs",
@@ -12532,7 +12483,6 @@
    "quark:building/stonecutting/stairs/polished_dripstone_stairs_stonecutter",
    "quark:building/stonecutting/vertslabs/light_gray_shingles_vertical_slab_stonecutter2",
    "minecraft:waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting",
-   "minecraft:deepslate_tiles",
    "quark:building/crafting/vertslabs/diorite_bricks_vertical_slab",
    "minecraft:bamboo_fence",
    "quark:world/stonecutting/stairs/andesite_bricks_stairs_stonecutter",
@@ -12773,7 +12723,6 @@
    "minecraft:cracked_white_dacite_brick_stairs_from_cracked_white_dacite_bricks_stonecutting",
    "magistuarmory:tin_katzbalger",
    "quark:automation/crafting/iron_button",
-   "quark:world/crafting/woodsets/azalea/wood",
    "quark:building/stonecutting/stonevariants/tuff_pillar_stonecutter",
    "minecraft:red_candle",
    "irons_spellbooks:wizard_boots",
@@ -12929,7 +12878,6 @@
    "magistuarmory:iron_tartsche",
    "minecraft:book",
    "quark:building/crafting/spruce_leaf_carpet",
-   "quark:building/crafting/vertslabs/azalea_planks_vertical_slab",
    "quark:world/crafting/polished_jasper",
    "aether:black_moa_incubation",
    "armourers_workshop:items/paintbrush",
@@ -13333,7 +13281,6 @@
    "minecraft:chiseled_white_dacite_brick_wall_from_chiseled_white_dacite_bricks_stonecutting",
    "minecraft:smooth_quartz_slab",
    "magistuarmory:stone_target",
-   "efn:hf_murasama_blade",
    "minecraft:lapis_lazuli_from_smelting_lapis_ore",
    "aether:skyroot_bucket",
    "quark:building/stonecutting/vertslabs/waxed_exposed_cut_copper_vertical_slab_from_waxed_exposed_copper",
@@ -13353,7 +13300,6 @@
    "minecraft:lightning_rod",
    "minecraft:brown_stained_glass_pane_from_glass_pane",
    "quark:building/crafting/vertslabs/cut_copper_vertical_slab_revert",
-   "efn:hf_murasama_sheath",
    "quark:building/crafting/vertslabs/jungle_vertical_slab",
    "magistuarmory:steel_pavese",
    "minecraft:redstone_block",
@@ -13779,7 +13725,6 @@
    "aether:carved_stone_from_sentry_stone_stonecutting",
    "quark:building/crafting/stripped_crimson_post",
    "magistuarmory:cuirassier_leggings",
-   "aether:zanite_block",
    "magistuarmory:copper_shortsword",
    "supplementaries:stonecutting/lapis_brick_stairs_from_bricks",
    "quark:building/stonecutting/stonevariants/tuff_bricks_stonecutter",
@@ -14008,7 +13953,6 @@
    "quark:tweaks/crafting/utility/wool/red_wool",
    "magistuarmory:gold_concavehalberd",
    "quark:building/crafting/vertslabs/cyan_shingles_vertical_slab_revert",
-   "magistuarmory:pitchfork",
    "quark:building/crafting/vertslabs/mud_brick_vertical_slab",
    "quark:building/crafting/soul_sandstone_bricks",
    "quark:building/stonecutting/slabs/netherrack_bricks_slab_stonecutter",
@@ -14021,7 +13965,6 @@
    "magistuarmory:gold_ranseur",
    "cataclysm:smithing/monstrous_helm",
    "quark:building/crafting/slabs/polished_tuff_slab",
-   "quark:world/crafting/woodsets/azalea/stripped_wood",
    "irons_spellbooks:pyromancer_helmet_crafting",
    "cataclysm:stonecutting/quartz_brick_wall_from_stonecutting",
    "quark:automation/crafting/crafter",
@@ -14031,7 +13974,6 @@
    "minecraft:white_allium_petal_block",
    "aether:holystone_shovel_repairing",
    "alexsmobs:straddlite_block",
-   "quark:world/crafting/woodsets/blossom/stripped_wood",
    "magistuarmory:diamond_morgenstern",
    "quark:building/stonecutting/stonevariants/diorite_bricks_polished_stonecutting",
    "quark:world/stonecutting/stairs/permafrost_stairs_stonecutter",
@@ -14072,7 +14014,6 @@
    "waystones:bound_scroll",
    "quark:building/crafting/cherry_post",
    "magistuarmory:stone_tartsche",
-   "quark:world/crafting/woodsets/blossom/wood",
    "quark:building/crafting/chests/purpur_trapped_chest",
    "quark:building/stonecutting/green_shingles_stonecutter2",
    "quark:building/stonecutting/vertslabs/prismarine_vertical_slab_stonecutter",
@@ -14158,7 +14099,6 @@
    "cataclysm:chorus_slab",
    "ba_bt:ocean_chest",
    "minecraft:sponge",
-   "minecraft:quartz_stairs",
    "magistuarmory:silver_pavese",
    "waystones:yellow_sharestone",
    "minecraft:quartz_from_blasting",
@@ -14672,7 +14612,6 @@
    "minecraft:netherite_scrap",
    "supplementaries:daub",
    "quark:building/crafting/walls/tuff_bricks_wall",
-   "efn:thornwheel",
    "biomeswevegone:smooth_blue_sandstone_stairs",
    "minecraft:cut_sandstone",
    "fantasy_armor:spark_of_dawn_helmet",
@@ -14715,7 +14654,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7661,
+  "ticks_since_last_warning": 1660,
   "warning_level": 0
  }
 }

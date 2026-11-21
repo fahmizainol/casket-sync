@@ -299,7 +299,7 @@
      }
     },
     {
-     "amount": 91,
+     "amount": 100,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -539,6 +539,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:lodestone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:diamond_chestplate",
        "tag": {
         "Damage": 0,
@@ -709,6 +718,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:snout_armor_trim_smithing_template"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1026,7 +1044,7 @@
      }
     },
     {
-     "amount": 293,
+     "amount": 294,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1330,6 +1348,28 @@
      "key": {
       "stack": {
        "item": "minecraft:spruce_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "dodosmobs:amalgam_claws",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1877,6 +1917,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "aether:victory_medal"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -2067,6 +2116,15 @@
      "key": {
       "stack": {
        "item": "minecraft:shaper_armor_trim_smithing_template"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "ba_bt:sky_monolith_key"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2282,15 +2340,6 @@
        "tag": {
         "Damage": 0
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "ba_bt:sky_golem_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }

@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 969969,
+  "DayTime": 975969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795249748893,
+  "LastPlayed": 1795250048877,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -4900,8 +4900,8 @@
     -1791.6138
    ],
    "Rotation": [
-    -16.6307,
-    0.0
+    100.0405,
+    18.3455
    ],
    "Score": 11864,
    "SelectedItemSlot": 0,
@@ -15255,7 +15255,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 2607,
+    "ticks_since_last_warning": 8607,
     "warning_level": 0
    }
   },
@@ -15267,7 +15267,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1762816,
+  "Time": 1768816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15275,7 +15275,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15963,10 +15963,10 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 19374,
+  "rainTime": 13374,
   "raining": 1,
-  "thunderTime": 1002,
-  "thundering": 0,
+  "thunderTime": 1298,
+  "thundering": 1,
   "version": 19133
  },
  "fml": {
