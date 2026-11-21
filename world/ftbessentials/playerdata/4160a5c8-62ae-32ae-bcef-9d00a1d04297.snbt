@@ -6,16 +6,16 @@
 	last_seen: { dim: "tcrcore:sanctum", x: 80, y: 73, z: -144, time: 1795237129374L, xRot: 0.0f, yRot: 76.49806f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "aether:the_aether", x: 681, y: 72, z: -578, time: 1795241187523L }
-		{ dim: "aether:the_aether", x: 680, y: 72, z: -582, time: 1795241212049L }
-		{ dim: "aether:the_aether", x: 685, y: 72, z: -582, time: 1795241238148L }
-		{ dim: "aether:the_aether", x: 684, y: 72, z: -582, time: 1795241347773L }
-		{ dim: "aether:the_aether", x: 679, y: 72, z: -578, time: 1795241377623L }
-		{ dim: "aether:the_aether", x: 684, y: 72, z: -584, time: 1795241451197L }
-		{ dim: "aether:the_aether", x: 679, y: 72, z: -585, time: 1795241478573L }
-		{ dim: "aether:the_aether", x: 683, y: 73, z: -599, time: 1795241492097L }
-		{ dim: "aether:the_aether", x: 687, y: 72, z: -588, time: 1795241550116L }
-		{ dim: "aether:the_aether", x: 683, y: 72, z: -583, time: 1795241594948L }
+		{ dim: "aether:the_aether", x: 683, y: 72, z: -582, time: 1795241655624L }
+		{ dim: "aether:the_aether", x: 681, y: 72, z: -581, time: 1795241762014L }
+		{ dim: "aether:the_aether", x: 678, y: 72, z: -582, time: 1795241785814L }
+		{ dim: "aether:the_aether", x: 681, y: 73, z: -602, time: 1795241799028L }
+		{ dim: "aether:the_aether", x: 686, y: 72, z: -585, time: 1795241821431L }
+		{ dim: "aether:the_aether", x: 687, y: 72, z: -581, time: 1795241833424L }
+		{ dim: "aether:the_aether", x: 683, y: 73, z: -600, time: 1795241845115L }
+		{ dim: "aether:the_aether", x: 682, y: 72, z: -583, time: 1795241871262L }
+		{ dim: "aether:the_aether", x: 686, y: 72, z: -585, time: 1795241889238L }
+		{ dim: "aether:the_aether", x: 685, y: 72, z: -583, time: 1795241901238L }
 	]
 	homes: { }
 	kit_use_times: { }
