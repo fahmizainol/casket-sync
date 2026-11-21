@@ -3,54 +3,24 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
-  },
-  {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:mining_speed"
-  },
-  {
-   "Base": 15.0,
-   "Modifiers": [
-    {
-     "Amount": 4.0,
-     "Name": "stamina_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
+   "Base": 0.5,
+   "Name": "epicfight:impact"
   },
   {
    "Base": 3.0,
    "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 1.0,
+   "Name": "minecraft:generic.attack_damage"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:creative_flight"
   },
   {
    "Base": 4.0,
@@ -58,7 +28,11 @@
   },
   {
    "Base": 0.0,
-   "Name": "attributeslib:armor_pierce"
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
   },
   {
    "Base": 4.5,
@@ -83,14 +57,6 @@
    "Name": "minecraft:generic.max_health"
   },
   {
-   "Base": 1.0,
-   "Name": "minecraft:generic.attack_damage"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
    "Base": 0.08,
    "Name": "forge:entity_gravity"
   },
@@ -99,20 +65,54 @@
    "Name": "minecraft:generic.knockback_resistance"
   },
   {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
-   "Base": 0.5,
-   "Name": "epicfight:impact"
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:mining_speed"
+  },
+  {
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
+  },
+  {
+   "Base": 15.0,
+   "Modifiers": [
+    {
+     "Amount": 4.0,
+     "Name": "stamina_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:armor_pierce"
+  },
+  {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
   },
   {
    "Base": 0.0,
    "Name": "epicfight:armor_negation"
   },
   {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
   }
  ],
  "BalmData": {},
@@ -132,12 +132,12 @@
   "aether:aether_player": {
    "CanGetPortal": 0,
    "CanShowPatreonMessage": 1,
-   "CanSpawnInAether": 1,
+   "CanSpawnInAether": 0,
    "HasSeenSunSpirit": 0,
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 18.2449
+   "SavedHealth": 0.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -494,21 +494,21 @@
    "dodge": "efn:efn_step",
    "guard": "efn:efn_parry",
    "learned:dodge": {
-    "0": "efn:efn_dodge",
-    "1": "efn:efn_step"
+    "0": "efn:efn_step",
+    "1": "efn:efn_dodge"
    },
    "learned:guard": {
     "0": "efn:efn_parry"
    },
    "learned:passive": {
-    "0": "wom:mindset",
-    "1": "wom:pain_anticipation",
-    "2": "dodge_parry_reward:heal1",
-    "3": "dodge_parry_reward:heal3",
-    "4": "dodge_parry_reward:heal2",
-    "5": "dodge_parry_reward:absorb1",
-    "6": "wom:latent_retribution",
-    "7": "dodge_parry_reward:stamina1"
+    "0": "dodge_parry_reward:heal3",
+    "1": "dodge_parry_reward:stamina1",
+    "2": "dodge_parry_reward:heal2",
+    "3": "dodge_parry_reward:heal1",
+    "4": "wom:latent_retribution",
+    "5": "wom:pain_anticipation",
+    "6": "dodge_parry_reward:absorb1",
+    "7": "wom:mindset"
    },
    "learned:sword_soaring": {
     "0": "sword_soaring:sword_soaring_master"
@@ -562,54 +562,6 @@
          {
           "children": [
            {
-            "name": "dodge_parry_reward:heal4",
-            "state": "unlockable"
-           }
-          ],
-          "name": "dodge_parry_reward:heal3",
-          "state": "unlocked"
-         }
-        ],
-        "name": "dodge_parry_reward:heal2",
-        "state": "unlocked"
-       }
-      ],
-      "name": "dodge_parry_reward:heal1",
-      "state": "unlocked"
-     },
-     {
-      "name": "tcrcore:fire_avoid",
-      "state": "unlocked"
-     },
-     {
-      "children": [
-       {
-        "children": [
-         {
-          "children": [
-           {
-            "name": "dodge_parry_reward:speed4",
-            "state": "locked"
-           }
-          ],
-          "name": "dodge_parry_reward:speed3",
-          "state": "locked"
-         }
-        ],
-        "name": "dodge_parry_reward:speed2",
-        "state": "locked"
-       }
-      ],
-      "name": "dodge_parry_reward:speed1",
-      "state": "unlockable"
-     },
-     {
-      "children": [
-       {
-        "children": [
-         {
-          "children": [
-           {
             "name": "dodge_parry_reward:stun_imm4",
             "state": "locked"
            }
@@ -626,25 +578,51 @@
       "state": "unlockable"
      },
      {
+      "name": "tcrcore:water_avoid",
+      "state": "locked"
+     },
+     {
       "children": [
        {
         "children": [
          {
           "children": [
            {
-            "name": "dodge_parry_reward:absorb4",
+            "name": "dodge_parry_reward:stamina4",
             "state": "locked"
            }
           ],
-          "name": "dodge_parry_reward:absorb3",
+          "name": "dodge_parry_reward:stamina3",
           "state": "locked"
          }
         ],
-        "name": "dodge_parry_reward:absorb2",
+        "name": "dodge_parry_reward:stamina2",
         "state": "unlockable"
        }
       ],
-      "name": "dodge_parry_reward:absorb1",
+      "name": "dodge_parry_reward:stamina1",
+      "state": "unlocked"
+     },
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "children": [
+           {
+            "name": "dodge_parry_reward:heal4",
+            "state": "unlockable"
+           }
+          ],
+          "name": "dodge_parry_reward:heal3",
+          "state": "unlocked"
+         }
+        ],
+        "name": "dodge_parry_reward:heal2",
+        "state": "unlocked"
+       }
+      ],
+      "name": "dodge_parry_reward:heal1",
       "state": "unlocked"
      },
      {
@@ -676,6 +654,28 @@
          {
           "children": [
            {
+            "name": "dodge_parry_reward:speed4",
+            "state": "locked"
+           }
+          ],
+          "name": "dodge_parry_reward:speed3",
+          "state": "locked"
+         }
+        ],
+        "name": "dodge_parry_reward:speed2",
+        "state": "locked"
+       }
+      ],
+      "name": "dodge_parry_reward:speed1",
+      "state": "unlockable"
+     },
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "children": [
+           {
             "name": "dodge_parry_reward:health_boost4",
             "state": "locked"
            }
@@ -690,6 +690,28 @@
       ],
       "name": "dodge_parry_reward:health_boost1",
       "state": "unlockable"
+     },
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "children": [
+           {
+            "name": "dodge_parry_reward:absorb4",
+            "state": "locked"
+           }
+          ],
+          "name": "dodge_parry_reward:absorb3",
+          "state": "locked"
+         }
+        ],
+        "name": "dodge_parry_reward:absorb2",
+        "state": "unlockable"
+       }
+      ],
+      "name": "dodge_parry_reward:absorb1",
+      "state": "unlocked"
      },
      {
       "children": [
@@ -714,30 +736,8 @@
       "state": "unlockable"
      },
      {
-      "children": [
-       {
-        "children": [
-         {
-          "children": [
-           {
-            "name": "dodge_parry_reward:stamina4",
-            "state": "locked"
-           }
-          ],
-          "name": "dodge_parry_reward:stamina3",
-          "state": "locked"
-         }
-        ],
-        "name": "dodge_parry_reward:stamina2",
-        "state": "unlockable"
-       }
-      ],
-      "name": "dodge_parry_reward:stamina1",
+      "name": "tcrcore:fire_avoid",
       "state": "unlocked"
-     },
-     {
-      "name": "tcrcore:water_avoid",
-      "state": "locked"
      }
     ],
     "state": "unlocked"
@@ -752,10 +752,6 @@
      "sword_soaring:sword_soaring_elytra_master"
     ],
     "nodes": [
-     {
-      "name": "epicfight:emergency_escape",
-      "state": "unlockable"
-     },
      {
       "children": [
        {
@@ -775,27 +771,15 @@
       "state": "unlockable"
      },
      {
-      "name": "tcrcore:perfect_dodge",
+      "name": "epicfight:emergency_escape",
       "state": "unlockable"
      },
      {
-      "name": "efn:precise_parry",
-      "state": "unlockable"
-     },
-     {
-      "name": "efn:execution",
-      "state": "unlockable"
-     },
-     {
-      "name": "efn:stomp",
-      "state": "unlockable"
-     },
-     {
-      "name": "efn:efn_dodge",
+      "name": "efn:efn_step",
       "state": "unlocked"
      },
      {
-      "name": "epicfight:forbidden_strength",
+      "name": "efn:stomp",
       "state": "unlockable"
      },
      {
@@ -803,16 +787,32 @@
       "state": "unlocked"
      },
      {
-      "name": "efn:efn_step",
-      "state": "unlocked"
-     },
-     {
       "name": "sword_soaring:sword_soaring_elytra_master",
       "state": "unlocked"
      },
      {
+      "name": "efn:precise_parry",
+      "state": "unlockable"
+     },
+     {
+      "name": "efn:efn_dodge",
+      "state": "unlocked"
+     },
+     {
+      "name": "tcrcore:perfect_dodge",
+      "state": "unlockable"
+     },
+     {
       "name": "efn:efn_parry",
       "state": "unlocked"
+     },
+     {
+      "name": "epicfight:forbidden_strength",
+      "state": "unlockable"
+     },
+     {
+      "name": "efn:execution",
+      "state": "unlockable"
      }
     ],
     "state": "unlocked"
@@ -827,26 +827,6 @@
    },
    "tcrcore:magic": {
     "nodes": [
-     {
-      "children": [
-       {
-        "name": "tcrcore:regen_mana",
-        "state": "locked"
-       }
-      ],
-      "name": "efs_iss:against_magic",
-      "state": "unlockable"
-     },
-     {
-      "children": [
-       {
-        "name": "tcrcore:regen_mana",
-        "state": "locked"
-       }
-      ],
-      "name": "efs_iss:rapid_chant",
-      "state": "unlockable"
-     },
      {
       "children": [
        {
@@ -874,7 +854,7 @@
         "state": "locked"
        }
       ],
-      "name": "efs_iss:magic_sword",
+      "name": "efs_iss:blood_into_mana",
       "state": "unlockable"
      },
      {
@@ -894,7 +874,7 @@
         "state": "locked"
        }
       ],
-      "name": "efs_iss:blood_into_mana",
+      "name": "efs_iss:rapid_chant",
       "state": "unlockable"
      },
      {
@@ -906,6 +886,26 @@
       ],
       "name": "efs_iss:hasty_casting",
       "state": "unlockable"
+     },
+     {
+      "children": [
+       {
+        "name": "tcrcore:regen_mana",
+        "state": "locked"
+       }
+      ],
+      "name": "efs_iss:against_magic",
+      "state": "unlockable"
+     },
+     {
+      "children": [
+       {
+        "name": "tcrcore:regen_mana",
+        "state": "locked"
+       }
+      ],
+      "name": "efs_iss:magic_sword",
+      "state": "unlockable"
      }
     ],
     "state": "unlocked"
@@ -916,10 +916,18 @@
    },
    "wom:prodigy": {
     "achieved": [
-     "wom:precise_roll",
-     "wom:arrow_tenacity"
+     "wom:arrow_tenacity",
+     "wom:precise_roll"
     ],
     "nodes": [
+     {
+      "name": "wom:shulker_cloak",
+      "state": "locked"
+     },
+     {
+      "name": "wom:arrow_tenacity",
+      "state": "unlocked"
+     },
      {
       "name": "wom:dancing_blade",
       "state": "locked"
@@ -1027,70 +1035,6 @@
        {
         "children": [
          {
-          "name": "wom:voodoo_magic",
-          "state": "locked"
-         }
-        ],
-        "name": "wom:lunatic_vivacity",
-        "state": "locked"
-       },
-       {
-        "name": "wom:manipulator",
-        "state": "locked"
-       }
-      ],
-      "name": "wom:dopamine",
-      "state": "locked"
-     },
-     {
-      "children": [
-       {
-        "name": "wom:bull_charge",
-        "state": "locked"
-       }
-      ],
-      "name": "wom:precise_roll",
-      "state": "unlockable"
-     },
-     {
-      "children": [
-       {
-        "children": [
-         {
-          "name": "wom:all_eyes_on_you",
-          "state": "locked"
-         },
-         {
-          "name": "wom:all_eyes_on_me",
-          "state": "locked"
-         }
-        ],
-        "name": "wom:shadow_step",
-        "state": "locked"
-       },
-       {
-        "children": [
-         {
-          "name": "wom:all_eyes_on_you",
-          "state": "locked"
-         },
-         {
-          "name": "wom:all_eyes_on_me",
-          "state": "locked"
-         }
-        ],
-        "name": "wom:vengeful_parry",
-        "state": "locked"
-       }
-      ],
-      "name": "wom:soul_protection",
-      "state": "locked"
-     },
-     {
-      "children": [
-       {
-        "children": [
-         {
           "children": [
            {
             "name": "wom:back_and_forth",
@@ -1143,8 +1087,54 @@
       "state": "locked"
      },
      {
-      "name": "wom:arrow_tenacity",
-      "state": "unlocked"
+      "children": [
+       {
+        "children": [
+         {
+          "name": "wom:voodoo_magic",
+          "state": "locked"
+         }
+        ],
+        "name": "wom:lunatic_vivacity",
+        "state": "locked"
+       }
+      ],
+      "name": "wom:dodge_master",
+      "state": "locked"
+     },
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "name": "wom:all_eyes_on_you",
+          "state": "locked"
+         },
+         {
+          "name": "wom:all_eyes_on_me",
+          "state": "locked"
+         }
+        ],
+        "name": "wom:shadow_step",
+        "state": "locked"
+       },
+       {
+        "children": [
+         {
+          "name": "wom:all_eyes_on_you",
+          "state": "locked"
+         },
+         {
+          "name": "wom:all_eyes_on_me",
+          "state": "locked"
+         }
+        ],
+        "name": "wom:vengeful_parry",
+        "state": "locked"
+       }
+      ],
+      "name": "wom:soul_protection",
+      "state": "locked"
      },
      {
       "children": [
@@ -1169,8 +1159,14 @@
       "state": "locked"
      },
      {
-      "name": "wom:shulker_cloak",
-      "state": "locked"
+      "children": [
+       {
+        "name": "wom:bull_charge",
+        "state": "locked"
+       }
+      ],
+      "name": "wom:precise_roll",
+      "state": "unlockable"
      },
      {
       "children": [
@@ -1183,9 +1179,13 @@
         ],
         "name": "wom:lunatic_vivacity",
         "state": "locked"
+       },
+       {
+        "name": "wom:manipulator",
+        "state": "locked"
        }
       ],
-      "name": "wom:dodge_master",
+      "name": "wom:dopamine",
       "state": "locked"
      }
     ],
@@ -1272,6 +1272,7 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
+   "blessItem": "minecraft:air",
    "blessPos": {
     "X": 0,
     "Y": 0,
@@ -5011,13 +5012,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  81.2181,
+  80.7486,
   73.0,
-  -142.1527
+  -142.155
  ],
  "Rotation": [
-  -62.7172,
-  48.0551
+  59.2994,
+  0.0
  ],
  "Score": 3941,
  "SelectedItemSlot": 0,
@@ -14658,7 +14659,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9319,
+  "ticks_since_last_warning": 9693,
   "warning_level": 0
  }
 }
