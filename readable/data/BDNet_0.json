@@ -1035,7 +1035,7 @@
      }
     },
     {
-     "amount": 297,
+     "amount": 298,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2107,15 +2107,6 @@
      "key": {
       "stack": {
        "item": "minecraft:shaper_armor_trim_smithing_template"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "ba_bt:sky_monolith_key"
       },
       "type": "beyonddimensions:stack_type/item"
      }

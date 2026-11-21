@@ -1,5 +1,22 @@
 {
  "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 1048,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -52,6 +69,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 8.0,
+     "Name": "effect.minecraft.health_boost 1",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -114,8 +143,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "DeathTime": 82,
+ "Dimension": "aether:the_aether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1169,7 +1198,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 212
+   "currentLogicNodeId": 219
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1229,7 +1258,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1418,6 +1447,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4133,17 +4163,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1786789,
+  "ua_rs_active_until": 1792369,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1786816,
-  "ua_shiny_last_x": 82.1489,
-  "ua_shiny_last_y": 73.0,
-  "ua_shiny_last_z": -153.014,
-  "ua_tabi_last_dash": 1786784
+  "ua_shiny_last_active": 1792734,
+  "ua_shiny_last_x": 102.6092,
+  "ua_shiny_last_y": 200.0,
+  "ua_shiny_last_z": -1798.7583,
+  "ua_tabi_last_dash": 1792330
  },
- "Health": 30.0,
- "HurtByTimestamp": 2436,
+ "Health": 0.0,
+ "HurtByTimestamp": 1614,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4179,7 +4209,10 @@
   {
    "Count": 1,
    "Slot": 1,
-   "id": "minecraft:gravel"
+   "id": "minecraft:gravel",
+   "tag": {
+    "kusabimaru_sheath": 0
+   }
   },
   {
    "Count": 1,
@@ -4239,7 +4272,7 @@
    }
   },
   {
-   "Count": 19,
+   "Count": 18,
    "Slot": 5,
    "id": "minecraft:golden_apple",
    "tag": {
@@ -4457,9 +4490,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   95,
+   100,
    200,
-   -1792
+   -1799
   ]
  },
  "Motion": [
@@ -4470,13 +4503,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  82.1489,
-  73.0,
-  -153.014
+  102.6267,
+  200.0,
+  -1798.7633
  ],
  "Rotation": [
-  65.72,
-  26.2955
+  163.0184,
+  0.0
  ],
  "Score": 11864,
  "SelectedItemSlot": 0,
@@ -4507,7 +4540,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.396,
+ "foodExhaustionLevel": 0.582,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4526,7 +4559,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14827,10 +14859,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2605,
+  "ticks_since_last_warning": 8199,
   "warning_level": 0
  }
 }

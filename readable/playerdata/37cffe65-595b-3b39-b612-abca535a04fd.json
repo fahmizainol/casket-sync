@@ -1,5 +1,22 @@
 {
- "AbsorptionAmount": 20.0,
+ "AbsorptionAmount": 17.2756,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 108,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -57,10 +74,6 @@
    "Name": "attributeslib:arrow_damage"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:mining_speed"
-  },
-  {
    "Base": 0.1,
    "Name": "minecraft:generic.movement_speed"
   },
@@ -93,10 +106,6 @@
    "Name": "epicfight:stun_armor"
   },
   {
-   "Base": 4.5,
-   "Name": "forge:block_reach"
-  },
-  {
    "Base": 0.0,
    "Name": "attributeslib:dodge_chance"
   },
@@ -122,25 +131,33 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 3.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 0",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:armor_pierce"
   },
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
   },
   {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
-  },
-  {
    "Base": 0.0,
    "Name": "epicfight:armor_negation"
+  },
+  {
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
   }
  ],
  "BalmData": {},
@@ -151,7 +168,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "aether:the_aether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -536,7 +553,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "wom:heart_shield",
    "passive6": "wom:mindset",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -4732,35 +4749,23 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:ancient_chisel": 1,
-   "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:fossil_shark_tooth": 1,
-   "uniqueaccessories:hero_emblem": 1,
-   "uniqueaccessories:tool_belt": 1,
-   "uniqueaccessories:withered_heart": 1
+   "uniqueaccessories:tool_belt": 1
   },
-  "ua_rs_active_until": 1786605,
+  "ua_bb_dodge_until": 1792825,
+  "ua_rs_active_until": 1792730,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1786550
+  "ua_rs_continuous": 0
  },
  "Health": 1.0,
- "HurtByTimestamp": 132015,
+ "HurtByTimestamp": 983,
  "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
    "Slot": 0,
-   "id": "tcrcore:iris_jadae",
-   "tag": {
-    "Damage": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 1,
    "id": "tcrcore:lux_jadae",
    "tag": {
     "Damage": 0,
@@ -4915,6 +4920,14 @@
    "id": "artifacts:whoopee_cushion",
    "tag": {
     "HasFarted": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "tcrcore:iris_jadae",
+   "tag": {
+    "Damage": 0
    }
   },
   {
@@ -5087,29 +5100,29 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   95,
+   92,
    200,
-   -1787
+   -1783
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
+  -0.8415,
   0.0
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  79.7102,
-  73.0,
-  -138.76
+  95.5543,
+  201.8257,
+  -1798.0643
  ],
  "Rotation": [
-  -26.0964,
-  6.1864
+  22.135,
+  50.9791
  ],
  "Score": 3943,
- "SelectedItemSlot": 7,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 105.2728,
  "SpawnDimension": "aether:the_aether",
@@ -5137,7 +5150,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.419,
+ "foodExhaustionLevel": 0.9,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5148,7 +5161,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 150,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14725,7 +14738,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7658,
+  "ticks_since_last_warning": 1458,
   "warning_level": 0
  }
 }
