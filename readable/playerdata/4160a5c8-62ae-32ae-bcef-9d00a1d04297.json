@@ -1,22 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 1132,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -52,10 +35,6 @@
    "Name": "epicfight:stun_armor"
   },
   {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
    "Base": 20.0,
    "Modifiers": [
     {
@@ -69,18 +48,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 8.0,
-     "Name": "effect.minecraft.health_boost 1",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -92,10 +59,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -1196,8 +1159,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 218,
-   "currentLogicNodeId": 218
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1257,7 +1220,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4516,17 +4479,15 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1552713,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1552816,
-  "ua_shiny_last_x": 666.4345,
+  "ua_shiny_last_active": 1558816,
+  "ua_shiny_last_x": 666.6851,
   "ua_shiny_last_y": 85.0,
-  "ua_shiny_last_z": -1130.8603,
-  "ua_tabi_last_dash": 1552660
+  "ua_shiny_last_z": -1126.2636
  },
- "Health": 25.6775,
- "HurtByTimestamp": 4135,
+ "Health": 30.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4784,9 +4745,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   663,
+   664,
    85,
-   -1122
+   -1136
   ]
  },
  "Motion": [
@@ -4797,13 +4758,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  666.4345,
+  666.6851,
   85.0,
-  -1130.8603
+  -1126.2636
  ],
  "Rotation": [
-  22.6394,
-  -26.5666
+  175.4143,
+  -42.6526
  ],
  "Score": 8754,
  "SelectedItemSlot": 0,
@@ -4834,7 +4795,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.665,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4845,7 +4806,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 7,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15157,7 +15118,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5727,
+  "ticks_since_last_warning": 11243,
   "warning_level": 0
  }
 }
