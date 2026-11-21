@@ -1,5 +1,37 @@
 {
- "AbsorptionAmount": 20.0,
+ "AbsorptionAmount": 10.5305,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 199,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  },
+  {
+   "Ambient": 1,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 1,
+   "Id": 55,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "epicfight:stun_immunity"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -118,6 +150,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 3.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 0",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -143,7 +187,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "aether:the_aether",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -502,10 +546,13 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_step",
+   "GUARD": "efn:efn_parry"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_step",
-   "guard": "efn:efn_parry",
+   "dodge": "efn:murasama_dodge",
+   "guard": "efn:murasama_parry",
    "learned:dodge": {
     "0": "efn:efn_step",
     "1": "efn:efn_dodge"
@@ -1213,7 +1260,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 127
+   "currentLogicNodeId": 264
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1273,7 +1320,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1428,10 +1475,12 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 8,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795251912837,
+     "WarpStoneCooldownUntilUnix": 1795252277898,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -4736,18 +4785,40 @@
    "uniqueaccessories:fossil_shark_tooth": 1,
    "uniqueaccessories:tool_belt": 1
   },
-  "ua_rs_active_until": 1809464,
+  "ua_rs_active_until": 1812435,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1804430
+  "ua_tabi_last_dash": 1816359
  },
  "Health": 1.0,
- "HurtByTimestamp": 11446,
+ "HurtByTimestamp": 18247,
  "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
    "Slot": 0,
+   "id": "efn:hf_blade",
+   "tag": {
+    "Enchantments": [
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:sweeping",
+      "lvl": 3
+     }
+    ],
+    "murasama_sheath": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 1,
    "id": "tcrcore:lux_jadae",
    "tag": {
     "Damage": 0,
@@ -4766,11 +4837,6 @@
      }
     ]
    }
-  },
-  {
-   "Count": 3,
-   "Slot": 1,
-   "id": "irons_spellbooks:divine_pearl"
   },
   {
    "Count": 1,
@@ -4801,23 +4867,16 @@
   },
   {
    "Count": 1,
-   "Slot": 4,
-   "id": "minecraft:nether_star"
-  },
-  {
-   "Count": 2,
    "Slot": 5,
-   "id": "irons_spellbooks:lightning_bottle"
+   "id": "minecraft:diamond_pickaxe",
+   "tag": {
+    "Damage": 0
+   }
   },
   {
    "Count": 9,
    "Slot": 6,
    "id": "tcrcore:divine_fragment"
-  },
-  {
-   "Count": 3,
-   "Slot": 7,
-   "id": "minecraft:wither_rose"
   },
   {
    "Count": 1,
@@ -4853,19 +4912,19 @@
    "id": "tcrcore:nine_heaven_darksteel"
   },
   {
-   "Count": 2,
+   "Count": 1,
    "Slot": 13,
    "id": "ba_bt:sky_golem_eye"
   },
   {
    "Count": 1,
-   "Slot": 14,
-   "id": "minecraft:netherite_ingot"
-  },
-  {
-   "Count": 1,
    "Slot": 15,
    "id": "tcrcore:end_resonance_stone"
+  },
+  {
+   "Count": 2,
+   "Slot": 16,
+   "id": "minecraft:gunpowder"
   },
   {
    "Count": 29,
@@ -4897,9 +4956,9 @@
    }
   },
   {
-   "Count": 1,
+   "Count": 3,
    "Slot": 19,
-   "id": "efn:hf_murasama_blade"
+   "id": "irons_spellbooks:divine_pearl"
   },
   {
    "Count": 1,
@@ -4918,19 +4977,14 @@
    }
   },
   {
-   "Count": 1,
-   "Slot": 22,
-   "id": "ba_bt:sky_monolith_key"
-  },
-  {
    "Count": 3,
    "Slot": 23,
    "id": "aether:zanite_gemstone"
   },
   {
-   "Count": 2,
-   "Slot": 24,
-   "id": "minecraft:iron_block"
+   "Count": 3,
+   "Slot": 25,
+   "id": "minecraft:wither_rose"
   },
   {
    "Count": 13,
@@ -4968,7 +5022,7 @@
    }
   },
   {
-   "Count": 26,
+   "Count": 30,
    "Slot": 30,
    "id": "minecraft:netherrack"
   },
@@ -4984,6 +5038,16 @@
    "tag": {
     "Damage": 0
    }
+  },
+  {
+   "Count": 2,
+   "Slot": 33,
+   "id": "irons_spellbooks:lightning_bottle"
+  },
+  {
+   "Count": 2,
+   "Slot": 34,
+   "id": "minecraft:quartz"
   },
   {
    "Count": 2,
@@ -5078,22 +5142,22 @@
   ]
  },
  "Motion": [
-  0.0,
+  -0.0078,
   -0.0784,
   0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  253.0831,
-  65.0,
-  -1769.7054
+  95.2498,
+  200.0,
+  -1795.6376
  ],
  "Rotation": [
-  31.556,
-  -9.0003
+  -9.1568,
+  3.3302
  ],
- "Score": 7099,
+ "Score": 7264,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 105.2728,
@@ -5110,9 +5174,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 51,
- "XpP": 0.6844,
+ "XpP": 0.412,
  "XpSeed": -736053570,
- "XpTotal": 7099,
+ "XpTotal": 7264,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5122,7 +5186,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.07,
+ "foodExhaustionLevel": 0.445,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5133,7 +5197,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 150,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5149,7 +5213,7 @@
   "isFilteringCraftable": 0,
   "isFurnaceFilteringCraftable": 0,
   "isFurnaceGuiOpen": 0,
-  "isGuiOpen": 0,
+  "isGuiOpen": 1,
   "isSmokerFilteringCraftable": 0,
   "isSmokerGuiOpen": 0,
   "isaltarFilteringCraftable": 0,
@@ -14670,7 +14734,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6953,
+  "ticks_since_last_warning": 952,
   "warning_level": 0
  }
 }

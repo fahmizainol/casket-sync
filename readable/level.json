@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1017969,
+  "DayTime": 1023969,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795252148875,
+  "LastPlayed": 1795252448873,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -487,10 +487,6 @@
     },
     {
      "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
-    },
-    {
-     "Base": 0.0,
      "Name": "minecraft:generic.armor"
     },
     {
@@ -536,7 +532,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "aether:the_aether",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -1650,7 +1646,7 @@
       "dual_annihilator_lock": 1,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 0,
+      "is_lock_on": 1,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 1,
@@ -4554,14 +4550,13 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1808208,
+    "ua_rs_active_until": 1816543,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1810696,
-    "ua_shiny_last_x": 252.0919,
-    "ua_shiny_last_y": 66.0,
-    "ua_shiny_last_z": -1768.1637,
-    "ua_tabi_last_dash": 1806134
+    "ua_shiny_last_active": 1816700,
+    "ua_shiny_last_x": 98.3,
+    "ua_shiny_last_y": 204.0,
+    "ua_shiny_last_z": -1778.2761
    },
    "Health": 30.0,
    "HurtByTimestamp": 0,
@@ -4602,7 +4597,8 @@
      "Slot": 1,
      "id": "magistuarmory:netherite_lucernhammer",
      "tag": {
-      "Damage": 0
+      "Damage": 0,
+      "kusabimaru_sheath": 0
      }
     },
     {
@@ -4676,7 +4672,7 @@
      "id": "waystones:waystone"
     },
     {
-     "Count": 56,
+     "Count": 53,
      "Slot": 7,
      "id": "minecraft:gunpowder"
     },
@@ -4687,6 +4683,26 @@
      "tag": {
       "kusabimaru_sheath": 0
      }
+    },
+    {
+     "Count": 3,
+     "Slot": 9,
+     "id": "minecraft:rotten_flesh"
+    },
+    {
+     "Count": 1,
+     "Slot": 10,
+     "id": "minecraft:iron_ingot"
+    },
+    {
+     "Count": 2,
+     "Slot": 11,
+     "id": "minecraft:gold_nugget"
+    },
+    {
+     "Count": 3,
+     "Slot": 12,
+     "id": "minecraft:netherrack"
     },
     {
      "Count": 1,
@@ -4791,11 +4807,11 @@
    ],
    "Invulnerable": 0,
    "LastDeathLocation": {
-    "dimension": "minecraft:overworld",
+    "dimension": "minecraft:the_nether",
     "pos": [
-     113,
-     77,
-     -1944
+     84,
+     50,
+     -254
     ]
    },
    "Motion": [
@@ -4806,16 +4822,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    252.0919,
-    66.0,
-    -1768.1531
+    98.3,
+    204.0,
+    -1778.2761
    ],
    "Rotation": [
-    146.4561,
-    0.0
+    132.804,
+    31.4881
    ],
-   "Score": 11864,
-   "SelectedItemSlot": 7,
+   "Score": 11896,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": 161.3706,
    "SpawnDimension": "aether:the_aether",
@@ -4831,9 +4847,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 58,
-   "XpP": 0.8984,
+   "XpP": 0.9863,
    "XpSeed": 976728483,
-   "XpTotal": 11864,
+   "XpTotal": 11896,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4843,7 +4859,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.432,
+   "foodExhaustionLevel": 3.459,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15166,7 +15182,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 1712,
+    "ticks_since_last_warning": 7601,
     "warning_level": 0
    }
   },
@@ -15178,7 +15194,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1810816,
+  "Time": 1816816,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15186,7 +15202,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15874,9 +15890,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 7603,
+  "rainTime": 1603,
   "raining": 1,
-  "thunderTime": 77115,
+  "thunderTime": 71115,
   "thundering": 0,
   "version": 19133
  },

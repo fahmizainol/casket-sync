@@ -615,6 +615,12 @@
     },
     "done": true
   },
+  "efn:hf_blade": {
+    "criteria": {
+      "obtain": "2026-11-21 17:12:36 +0800"
+    },
+    "done": true
+  },
   "uniqueaccessories:adventure/ua_collect_05": {
     "criteria": {
       "count_reached": "2026-11-21 16:40:52 +0800"

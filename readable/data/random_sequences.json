@@ -117,14 +117,14 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    9071017571602441983,
-    675539315110535599
+    -4775307594665631921,
+    -679931610300085204
    ]
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -2930485997837276774,
-    -3245066698162065147
+    -5305738216498912225,
+    7307115248764549751
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -135,14 +135,14 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    5693889648539836235,
-    7328916804073180931
+    -7798229990996929158,
+    -4222301381523669654
    ]
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -9138852884051978776,
-    2913650659293898172
+    4004927470693349533,
+    3926206036764968393
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,14 +153,14 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    1010654606685599623,
-    -1853509357897571985
+    7062585691400547961,
+    7825933414708214415
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    8005160154648435475,
-    5859117931763937775
+    -7440374387653567102,
+    5366964489594891568
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -1149,8 +1149,8 @@
   },
   "minecraft:blocks/nether_quartz_ore": {
    "source": [
-    8383793146511604528,
-    5914704617838149825
+    -5816684832960140419,
+    -8357181905216130305
    ]
   },
   "minecraft:blocks/nether_wart": {
@@ -1161,8 +1161,8 @@
   },
   "minecraft:blocks/netherrack": {
    "source": [
-    -2429677771950837327,
-    -7477707998180109300
+    -7899977158701694955,
+    1835388874895409325
    ]
   },
   "minecraft:blocks/oak_fence": {
@@ -1935,8 +1935,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -490206542322896635,
-    739208481229301861
+    -675752189102551291,
+    -3761967476019175764
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1971,8 +1971,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -8971553769583299832,
-    8997017966174325469
+    -2294232591006106074,
+    8482898255970501390
    ]
   },
   "minecraft:entities/slime": {
@@ -1989,8 +1989,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -4923346913268075300,
-    -705949769392788666
+    -2469944180852214719,
+    -3233711368155868992
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -2049,8 +2049,8 @@
   },
   "minecraft:entities/zombified_piglin": {
    "source": [
-    6996913398258913502,
-    8952845697705222372
+    795496723388572377,
+    7487658313257140414
    ]
   },
   "tcr_bosses:entities/citadel_keeper": {
