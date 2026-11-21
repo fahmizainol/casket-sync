@@ -1,5 +1,22 @@
 {
  "AbsorptionAmount": 20.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 233,
+   "Id": 28,
+   "ShowIcon": 1,
+   "ShowParticles": 1,
+   "forge:id": "minecraft:slow_falling"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -29,10 +46,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 0.0,
@@ -123,7 +136,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -509,7 +522,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost3",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1404,6 +1417,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 8,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -1427,7 +1442,8 @@
       "78a5047e-f134-48d4-8314-a6dd7fa30d6a",
       "3827dc2f-f181-4b77-a1d0-df3fbd609460",
       "43a42e6e-43ee-4d0f-9be3-d7414418b119",
-      "6a55f8ba-eebf-4eab-a68e-aa6705f1343d"
+      "6a55f8ba-eebf-4eab-a68e-aa6705f1343d",
+      "346229d9-1e17-4fdb-a7cb-2c04d24a246c"
      ]
     }
    }
@@ -4706,10 +4722,9 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1876753,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1876762
+  "ua_tabi_last_dash": 1882468
  },
  "Health": 1.0,
  "HurtByTimestamp": 0,
@@ -5085,26 +5100,26 @@
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
   "pos": [
-   -27,
+   -54,
    97,
-   -36
+   -8
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
+  -0.0098,
   0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -142.4745,
-  81.0,
-  -174.7159
+  -29.3451,
+  97.0,
+  -32.1528
  ],
  "Rotation": [
-  -106.3028,
-  -28.0858
+  44.0684,
+  -9.1178
  ],
  "Score": 8134,
  "SelectedItemSlot": 0,
@@ -5129,7 +5144,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.131,
+ "foodExhaustionLevel": 1.226,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5140,7 +5155,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 28,
+  "mana": 48,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14677,7 +14692,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10331,
+  "ticks_since_last_warning": 4124,
   "warning_level": 0
  }
 }

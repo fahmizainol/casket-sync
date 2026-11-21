@@ -370,6 +370,30 @@
    },
    {
     "BlockPos": {
+     "X": 206,
+     "Y": 74,
+     "Z": -670
+    },
+    "IsGlobal": 0,
+    "Name": "afsd",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     878848473,
+     504844251,
+     -1479857148,
+     -766892948
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
      "X": -1744,
      "Y": 104,
      "Z": 368

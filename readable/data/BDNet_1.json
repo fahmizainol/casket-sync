@@ -931,31 +931,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "minecraft:crossbow",
-       "tag": {
-        "Charged": 0,
-        "ChargedProjectiles": [],
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:multishot",
-          "lvl": 1
-         },
-         {
-          "id": "minecraft:piercing",
-          "lvl": 3
-         }
-        ],
-        "sheath": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "tcrcore:dragon_flute",
        "tag": {
         "AbsorptionAmount": 0.0,
@@ -2360,18 +2335,6 @@
      }
     },
     {
-     "amount": 15,
-     "key": {
-      "stack": {
-       "item": "minecraft:golden_carrot",
-       "tag": {
-        "sheath": 0
-       }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 2,
      "key": {
       "stack": {
@@ -2429,7 +2392,7 @@
      }
     },
     {
-     "amount": 311,
+     "amount": 312,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
