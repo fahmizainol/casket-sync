@@ -3,33 +3,33 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 14,
+   "Amplifier": 2,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 120,
-   "Id": 169,
+   "Duration": 1,
+   "Id": 1,
    "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "efn:attack_speed_increase"
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
   },
   {
    "Ambient": 0,
-   "Amplifier": 3,
+   "Amplifier": 0,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 1171,
-   "Id": 21,
+   "Duration": 112,
+   "Id": 101,
    "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
+   "ShowParticles": 1,
+   "forge:id": "cataclysm:curse_of_desert"
   },
   {
    "Ambient": 0,
@@ -40,11 +40,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 11,
-   "Id": 5,
+   "Duration": 145,
+   "Id": 28,
    "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:strength"
+   "ShowParticles": 1,
+   "forge:id": "minecraft:slow_falling"
   }
  ],
  "Air": 300,
@@ -63,20 +63,6 @@
   },
   {
    "Base": 1.0,
-   "Modifiers": [
-    {
-     "Amount": 6.0,
-     "Name": "effect.minecraft.strength 1",
-     "Operation": 0,
-     "UUID": [
-      1686990948,
-      1784696665,
-      -1967209790,
-      980277161
-     ],
-     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
-    }
-   ],
    "Name": "minecraft:generic.attack_damage"
   },
   {
@@ -85,20 +71,6 @@
   },
   {
    "Base": 4.0,
-   "Modifiers": [
-    {
-     "Amount": 0.15,
-     "Name": "effect.efn.attack_speed_increase 14",
-     "Operation": 2,
-     "UUID": [
-      -1177307004,
-      906514079,
-      -1925037345,
-      -1450983089
-     ],
-     "UUID_str": "b9d3b884-3608-4e9f-8d42-42dfa983c14f"
-    }
-   ],
    "Name": "minecraft:generic.attack_speed"
   },
   {
@@ -108,10 +80,6 @@
   {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 20.0,
@@ -127,18 +95,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 16.0,
-     "Name": "effect.minecraft.health_boost 3",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -153,14 +109,24 @@
   },
   {
    "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 0.0,
    "Name": "minecraft:generic.armor"
   },
   {
    "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.6,
+     "Name": "effect.minecraft.speed 2",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -188,10 +154,6 @@
   {
    "Base": 0.0,
    "Name": "epicfight:armor_negation"
-  },
-  {
-   "Base": 1.0,
-   "Name": "forge:swim_speed"
   },
   {
    "Base": 1.0,
@@ -1323,7 +1285,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4230,18 +4192,18 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1888728,
+  "ua_rs_active_until": 1894767,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1888816,
-  "ua_shiny_last_x": -25.1229,
-  "ua_shiny_last_y": 98.0,
-  "ua_shiny_last_z": -59.9492,
-  "ua_tabi_last_dash": 1888294
+  "ua_shiny_last_active": 1894816,
+  "ua_shiny_last_x": -47.2867,
+  "ua_shiny_last_y": 98.3049,
+  "ua_shiny_last_z": -17.2755,
+  "ua_tabi_last_dash": 1894356
  },
- "Health": 9.4962,
- "HurtByTimestamp": 1410,
- "HurtTime": 0,
+ "Health": 10.1797,
+ "HurtByTimestamp": 554,
+ "HurtTime": 4,
  "Inventory": [
   {
    "Count": 1,
@@ -4323,6 +4285,7 @@
       "lvl": 3
      }
     ],
+    "kusabimaru_sheath": 0,
     "sheath": 0
    }
   },
@@ -4353,7 +4316,7 @@
    }
   },
   {
-   "Count": 7,
+   "Count": 6,
    "Slot": 5,
    "id": "minecraft:golden_apple",
    "tag": {
@@ -4361,7 +4324,7 @@
    }
   },
   {
-   "Count": 13,
+   "Count": 12,
    "Slot": 6,
    "id": "minecraft:golden_carrot",
    "tag": {
@@ -4384,9 +4347,24 @@
    }
   },
   {
-   "Count": 6,
+   "Count": 10,
    "Slot": 9,
    "id": "cataclysm:koboleton_bone"
+  },
+  {
+   "Count": 1,
+   "Slot": 10,
+   "id": "cataclysm:kobolediator_skull"
+  },
+  {
+   "Count": 1,
+   "Slot": 11,
+   "id": "minecraft:amethyst_shard"
+  },
+  {
+   "Count": 1,
+   "Slot": 12,
+   "id": "cataclysm:necklace_of_the_desert"
   },
   {
    "Count": 1,
@@ -4552,28 +4530,28 @@
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
   "pos": [
-   -37,
+   -46,
    97,
-   -41
+   -32
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
-  0.0
+  0.0354,
+  -0.9537
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -25.1229,
-  98.0,
-  -59.9492
+  -47.2867,
+  98.3049,
+  -17.2755
  ],
  "Rotation": [
-  -13.0333,
-  0.0
+  -136.8417,
+  22.3426
  ],
- "Score": 14701,
+ "Score": 14761,
  "SelectedItemSlot": 1,
  "SleepTimer": 0,
  "UUID": [
@@ -4583,10 +4561,10 @@
   -1580186985
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
- "XpLevel": 64,
- "XpP": 0.8708,
+ "XpLevel": 65,
+ "XpP": 0.0141,
  "XpSeed": 976728483,
- "XpTotal": 14701,
+ "XpTotal": 14761,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4596,7 +4574,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.2887,
+ "foodExhaustionLevel": 1.165,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4607,7 +4585,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 57,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14919,7 +14897,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5797,
+  "ticks_since_last_warning": 11572,
   "warning_level": 0
  }
 }

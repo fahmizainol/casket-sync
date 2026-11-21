@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    1383849822418700365,
-    8928078299472760673
+    -5618487618084155458,
+    -5512493058239195948
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -6363402286939282614,
-    3221039839418966322
+    -2050163262111925537,
+    -7240583068005852607
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -423,14 +423,14 @@
   },
   "cataclysm:entities/kobolediator": {
    "source": [
-    -4424891625172051389,
-    5923397811100327656
+    6094448367881979061,
+    1615907343415878001
    ]
   },
   "cataclysm:entities/wadjet": {
    "source": [
-    -9000714658312051187,
-    -5627098748653375209
+    882477345599059713,
+    -5630030414274977794
    ]
   },
   "enchantinginfuser:blocks/enchanting_infuser": {
@@ -873,8 +873,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    6931734710943321788,
-    -1768783106562888013
+    -758253730507160320,
+    36883356940354845
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -1791,8 +1791,8 @@
   },
   "minecraft:blocks/white_carpet": {
    "source": [
-    6076445491891301699,
-    6208305410619064183
+    -7662945757939933230,
+    -4568297635292091627
    ]
   },
   "minecraft:blocks/white_tulip": {
@@ -1947,8 +1947,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -5560787814889666067,
-    5797735867478512089
+    4638951873091330526,
+    -743090980390914451
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2049,8 +2049,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    -3748158691055298751,
-    5559993836531994785
+    -5516872278676817968,
+    1873353722470671442
    ]
   },
   "minecraft:entities/zombie_villager": {
