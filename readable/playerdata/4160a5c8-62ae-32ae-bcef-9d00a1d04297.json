@@ -14819,7 +14819,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2614,
+  "ticks_since_last_warning": 8614,
   "warning_level": 0
  }
 }
