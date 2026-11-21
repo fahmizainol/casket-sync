@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1137969,
+  "DayTime": 1139137,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795258148865,
+  "LastPlayed": 1795258208187,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -435,7 +435,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 19,
+     "Duration": 13,
      "Id": 1,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -443,18 +443,18 @@
     },
     {
      "Ambient": 0,
-     "Amplifier": 1,
+     "Amplifier": 3,
      "CurativeItems": [
       {
        "Count": 1,
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 70,
-     "Id": 28,
+     "Duration": 494,
+     "Id": 21,
      "ShowIcon": 1,
-     "ShowParticles": 1,
-     "forge:id": "minecraft:slow_falling"
+     "ShowParticles": 0,
+     "forge:id": "minecraft:health_boost"
     }
    ],
    "Air": 300,
@@ -505,6 +505,18 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      },
+      {
+       "Amount": 16.0,
+       "Name": "effect.minecraft.health_boost 3",
+       "Operation": 0,
+       "UUID": [
+        1567558562,
+        294012588,
+        -1198078436,
+        1559140812
+       ],
+       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -592,7 +604,7 @@
      "LifeShardCount": 0,
      "LoginsUntilPatreonMessage": -1,
      "RemedyStartDuration": 0,
-     "SavedHealth": 0.0
+     "SavedHealth": 48.0
     },
     "armourers_workshop:entity-skin-provider": {
      "DataVersion": 1
@@ -4602,16 +4614,17 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1930659,
+    "quark:trying_crawl": 0,
+    "ua_rs_active_until": 1931359,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1930816,
-    "ua_shiny_last_x": -22.3049,
-    "ua_shiny_last_y": 200.8681,
-    "ua_shiny_last_z": -31.2677,
+    "ua_shiny_last_active": 1931739,
+    "ua_shiny_last_x": -78.383,
+    "ua_shiny_last_y": 139.0,
+    "ua_shiny_last_z": 18.9926,
     "ua_tabi_last_dash": 1930006
    },
-   "Health": 32.0,
+   "Health": 48.0,
    "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
@@ -4991,23 +5004,26 @@
    },
    "Motion": [
     0.0,
-    -0.2926,
+    -0.0784,
     0.0
    ],
-   "OnGround": 0,
+   "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -22.3049,
-    200.8681,
-    -31.2677
+    -78.383,
+    139.0,
+    18.9926
    ],
    "Rotation": [
-    -62.8513,
-    74.5154
+    -151.2766,
+    17.6802
    ],
    "Score": 15192,
    "SelectedItemSlot": 1,
    "SleepTimer": 0,
+   "Tags": [
+    "wom_health_fix:48.0"
+   ],
    "UUID": [
     1096852936,
     1655583406,
@@ -5028,7 +5044,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.933,
+   "foodExhaustionLevel": 0.54,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5039,7 +5055,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 98,
+    "mana": 100,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15351,7 +15367,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 10875,
+    "ticks_since_last_warning": 42,
     "warning_level": 0
    }
   },
@@ -15363,7 +15379,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1930816,
+  "Time": 1931984,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -16059,9 +16075,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 8771,
+  "rainTime": 7603,
   "raining": 0,
-  "thunderTime": 115732,
+  "thunderTime": 114564,
   "thundering": 0,
   "version": 19133
  },
