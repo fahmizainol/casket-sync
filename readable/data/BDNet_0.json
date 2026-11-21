@@ -377,6 +377,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:whoopee_cushion",
+       "tag": {
+        "HasFarted": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -854,6 +866,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "tcrcore:nine_heaven_darksteel"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "artifacts:chorus_totem"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -1053,7 +1074,7 @@
      }
     },
     {
-     "amount": 307,
+     "amount": 308,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1137,6 +1158,19 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "uniqueaccessories:fossil_shark_tooth",
+       "tag": {
+        "ua_from_box": 1,
+        "ua_from_box_expires": 736102
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "supplementaries:bomb_blue"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -1161,7 +1195,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "irons_spellbooks:divine_pearl"
@@ -2100,6 +2134,15 @@
      }
     },
     {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "fantasy_armor:moon_crystal"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -2121,6 +2164,18 @@
      "key": {
       "stack": {
        "item": "minecraft:granite"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 48,
+     "key": {
+      "stack": {
+       "item": "minecraft:obsidian",
+       "tag": {
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2300,7 +2355,7 @@
      }
     },
     {
-     "amount": 665,
+     "amount": 695,
      "key": {
       "stack": {
        "item": "minecraft:netherrack"

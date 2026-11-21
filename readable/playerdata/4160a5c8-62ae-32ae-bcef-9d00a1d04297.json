@@ -1,5 +1,22 @@
 {
  "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 255,
+   "Id": 28,
+   "ShowIcon": 1,
+   "ShowParticles": 1,
+   "forge:id": "minecraft:slow_falling"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -35,10 +52,6 @@
    "Name": "epicfight:stun_armor"
   },
   {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
    "Base": 20.0,
    "Modifiers": [
     {
@@ -63,10 +76,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -115,7 +124,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1170,8 +1179,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 215,
-   "currentLogicNodeId": 215
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4136,18 +4145,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1844752,
+  "ua_rs_active_until": 1852782,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1845006,
-  "ua_shiny_last_x": 78.3604,
-  "ua_shiny_last_y": 73.0,
-  "ua_shiny_last_z": -138.9254,
-  "ua_tabi_last_dash": 1844742
+  "ua_shiny_last_active": 1852816,
+  "ua_shiny_last_x": -39.5138,
+  "ua_shiny_last_y": 133.3078,
+  "ua_shiny_last_z": 1.2877,
+  "ua_tabi_last_dash": 1852719
  },
  "Health": 32.0,
- "HurtByTimestamp": 7857,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4200,16 +4208,12 @@
       "lvl": 2
      },
      {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
+      "id": "efn:scythe_enhance",
+      "lvl": 1
      },
      {
       "id": "minecraft:sweeping",
       "lvl": 3
-     },
-     {
-      "id": "efn:scythe_enhance",
-      "lvl": 1
      }
     ],
     "RepairCost": 1,
@@ -4274,7 +4278,7 @@
    }
   },
   {
-   "Count": 14,
+   "Count": 13,
    "Slot": 5,
    "id": "minecraft:golden_apple",
    "tag": {
@@ -4285,6 +4289,11 @@
    "Count": 17,
    "Slot": 6,
    "id": "waystones:waystone"
+  },
+  {
+   "Count": 1,
+   "Slot": 7,
+   "id": "alexsmobs:flying_fish"
   },
   {
    "Count": 3,
@@ -4320,6 +4329,11 @@
    "Count": 3,
    "Slot": 14,
    "id": "irons_spellbooks:divine_pearl"
+  },
+  {
+   "Count": 8,
+   "Slot": 15,
+   "id": "cataclysm:koboleton_bone"
   },
   {
    "Count": 2,
@@ -4442,31 +4456,31 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "aether:the_aether",
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
   "pos": [
-   98,
-   200,
-   -1794
+   -75,
+   132,
+   -19
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
-  0.0
+  -0.2267,
+  0.0094
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  78.3604,
-  73.0,
-  -138.9347
+  -39.5138,
+  133.3078,
+  1.2877
  ],
  "Rotation": [
-  8.5566,
-  20.9068
+  -102.2237,
+  28.95
  ],
- "Score": 14377,
- "SelectedItemSlot": 2,
+ "Score": 14401,
+ "SelectedItemSlot": 1,
  "SleepTimer": 0,
  "SpawnAngle": 161.3706,
  "SpawnDimension": "aether:the_aether",
@@ -4482,9 +4496,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 64,
- "XpP": 0.0957,
+ "XpP": 0.1531,
  "XpSeed": 976728483,
- "XpTotal": 14377,
+ "XpTotal": 14401,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4494,7 +4508,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.494,
+ "foodExhaustionLevel": 1.615,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4505,7 +4519,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 47,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14817,7 +14831,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 945,
+  "ticks_since_last_warning": 6739,
   "warning_level": 0
  }
 }

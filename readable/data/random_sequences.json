@@ -421,6 +421,12 @@
     -6795284348136608776
    ]
   },
+  "cataclysm:entities/wadjet": {
+   "source": [
+    2477654233894856905,
+    6696658916859836194
+   ]
+  },
   "enchantinginfuser:blocks/enchanting_infuser": {
    "source": [
     -6176149402635473694,
@@ -1779,8 +1785,8 @@
   },
   "minecraft:blocks/white_carpet": {
    "source": [
-    5450687641153936042,
-    8258538221216062113
+    2546339885235912782,
+    4154393428066570881
    ]
   },
   "minecraft:blocks/white_tulip": {
@@ -1935,8 +1941,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -6800837359968933167,
-    5081408035871750311
+    8211559553483484454,
+    7802726912110631188
    ]
   },
   "minecraft:entities/pufferfish": {

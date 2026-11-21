@@ -3,6 +3,14 @@
  "Air": 300,
  "Attributes": [
   {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
+  },
+  {
    "Base": 0.5,
    "Name": "epicfight:impact"
   },
@@ -15,12 +23,24 @@
    "Name": "attributeslib:creative_flight"
   },
   {
+   "Base": 4.0,
+   "Name": "minecraft:generic.attack_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:holy_spell_power"
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:dodge_chance"
   },
   {
    "Base": 20.0,
@@ -45,8 +65,8 @@
    "Name": "forge:entity_gravity"
   },
   {
-   "Base": 100.0,
-   "Name": "irons_spellbooks:max_mana"
+   "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
   },
   {
    "Base": 0.0,
@@ -57,48 +77,12 @@
    "Name": "attributeslib:arrow_damage"
   },
   {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
-  },
-  {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:ice_spell_power"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:lightning_spell_power"
-  },
-  {
-   "Base": 4.0,
-   "Name": "minecraft:generic.attack_speed"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:dodge_chance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 15.0,
@@ -129,6 +113,10 @@
   {
    "Base": 0.05,
    "Name": "attributeslib:crit_chance"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
   }
  ],
  "BalmData": {},
@@ -139,7 +127,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -498,10 +486,13 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_dodge",
+   "GUARD": "efn:efn_parry"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_dodge",
-   "guard": "efn:efn_parry",
+   "dodge": "efn:murasama_dodge",
+   "guard": "efn:murasama_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge"
    },
@@ -509,15 +500,20 @@
     "0": "efn:efn_parry"
    },
    "learned:passive": {
-    "0": "dodge_parry_reward:stamina1"
+    "0": "dodge_parry_reward:stamina1",
+    "1": "dodge_parry_reward:damage_boost4",
+    "2": "dodge_parry_reward:damage_boost1",
+    "3": "dodge_parry_reward:damage_boost2",
+    "4": "dodge_parry_reward:damage_boost3",
+    "5": "efn:precise_parry"
    },
    "passive1": "dodge_parry_reward:stamina1",
    "passive2": "wom:heart_shield",
-   "passive3": "wom:latent_retribution",
+   "passive3": "efn:precise_parry",
    "passive4": "wom:mindset",
-   "passive5": "tcrcore:fire_avoid",
-   "passive6": "wom:pain_anticipation",
-   "playerMode": "VANILLA",
+   "passive5": "dodge_parry_reward:damage_boost3",
+   "passive6": "dodge_parry_reward:damage_boost4",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -539,10 +535,11 @@
     "sword_soaring": 0,
     "weapon_innate": 0,
     "weapon_passive": 0
-   }
+   },
+   "sword_soaring": "sword_soaring:sword_soaring_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 15,
+   "abilityPoint": 2,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -718,19 +715,19 @@
           "children": [
            {
             "name": "dodge_parry_reward:damage_boost4",
-            "state": "locked"
+            "state": "unlocked"
            }
           ],
           "name": "dodge_parry_reward:damage_boost3",
-          "state": "locked"
+          "state": "unlocked"
          }
         ],
         "name": "dodge_parry_reward:damage_boost2",
-        "state": "locked"
+        "state": "unlocked"
        }
       ],
       "name": "dodge_parry_reward:damage_boost1",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "tcrcore:fire_avoid",
@@ -781,7 +778,7 @@
      },
      {
       "name": "sword_soaring:sword_soaring_master",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "sword_soaring:sword_soaring_elytra_master",
@@ -789,7 +786,7 @@
      },
      {
       "name": "efn:precise_parry",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "efn:efn_dodge",
@@ -801,7 +798,7 @@
      },
      {
       "name": "efn:efn_parry",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "epicfight:forbidden_strength",
@@ -1269,11 +1266,10 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
-   "blessItem": "cataclysm:storm_eye",
    "blessPos": {
-    "X": -176,
-    "Y": 83,
-    "Z": -118
+    "X": 0,
+    "Y": 0,
+    "Z": 0
    },
    "customDataManager": {
     "abyssEyeActivated": 1,
@@ -1413,7 +1409,7 @@
  },
  "ForgeData": {
   "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 18,
+  "EFNMurasamaSheathTicks": 6,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4716,17 +4712,16 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:fossil_shark_tooth": 1
   },
-  "ua_rs_active_until": 1843025,
+  "ua_rs_active_until": 1852192,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1844945
+  "ua_tabi_last_dash": 1851001
  },
  "Health": 1.0,
- "HurtByTimestamp": 1718,
+ "HurtByTimestamp": 1448,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4748,7 +4743,7 @@
       "lvl": 3
      }
     ],
-    "murasama_sheath": 1
+    "murasama_sheath": 0
    }
   },
   {
@@ -4819,6 +4814,11 @@
   },
   {
    "Count": 1,
+   "Slot": 7,
+   "id": "cataclysm:necklace_of_the_desert"
+  },
+  {
+   "Count": 1,
    "Slot": 8,
    "id": "waystones:warp_stone",
    "tag": {
@@ -4830,25 +4830,6 @@
    "Count": 46,
    "Slot": 9,
    "id": "minecraft:iron_ingot"
-  },
-  {
-   "Count": 1,
-   "Slot": 10,
-   "id": "uniqueaccessories:fossil_shark_tooth",
-   "tag": {
-    "ua_from_box": 1,
-    "ua_from_box_expires": 736102
-   }
-  },
-  {
-   "Count": 4,
-   "Slot": 11,
-   "id": "fantasy_armor:moon_crystal"
-  },
-  {
-   "Count": 1,
-   "Slot": 12,
-   "id": "tcrcore:nine_heaven_darksteel"
   },
   {
    "Count": 1,
@@ -4897,19 +4878,6 @@
     ],
     "kusabimaru_sheath": 0,
     "sheath": 1
-   }
-  },
-  {
-   "Count": 6,
-   "Slot": 19,
-   "id": "irons_spellbooks:divine_pearl"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "artifacts:whoopee_cushion",
-   "tag": {
-    "HasFarted": 0
    }
   },
   {
@@ -4968,12 +4936,9 @@
    }
   },
   {
-   "Count": 48,
+   "Count": 7,
    "Slot": 28,
-   "id": "minecraft:obsidian",
-   "tag": {
-    "sheath": 0
-   }
+   "id": "cataclysm:koboleton_bone"
   },
   {
    "Count": 1,
@@ -4988,11 +4953,6 @@
      }
     ]
    }
-  },
-  {
-   "Count": 30,
-   "Slot": 30,
-   "id": "minecraft:netherrack"
   },
   {
    "Count": 1,
@@ -5102,11 +5062,11 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "aether:the_aether",
+  "dimension": "cataclysm_dimension:cataclysm_pharaohs_bane",
   "pos": [
-   88,
-   200,
-   -1795
+   -59,
+   132,
+   -43
   ]
  },
  "Motion": [
@@ -5117,16 +5077,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -222.413,
-  79.0,
-  -116.2957
+  -34.9707,
+  133.0,
+  -0.0182
  ],
  "Rotation": [
-  -96.5996,
-  13.31
+  -87.9398,
+  54.8204
  ],
- "Score": 8014,
- "SelectedItemSlot": 7,
+ "Score": 8134,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 105.2728,
  "SpawnDimension": "aether:the_aether",
@@ -5141,10 +5101,10 @@
   1398408445
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
- "XpLevel": 53,
- "XpP": 0.8245,
+ "XpLevel": 54,
+ "XpP": 0.1951,
  "XpSeed": -736053570,
- "XpTotal": 8014,
+ "XpTotal": 8134,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5154,7 +5114,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.993,
+ "foodExhaustionLevel": 2.601,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14702,7 +14662,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5050,
+  "ticks_since_last_warning": 10842,
   "warning_level": 0
  }
 }
