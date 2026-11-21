@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 528,
+   "Duration": 902,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -4174,17 +4174,17 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1858751,
+  "ua_rs_active_until": 1864743,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1858816,
-  "ua_shiny_last_x": -22.744,
+  "ua_shiny_last_active": 1864783,
+  "ua_shiny_last_x": -18.5546,
   "ua_shiny_last_y": 146.0,
-  "ua_shiny_last_z": -59.2317,
-  "ua_tabi_last_dash": 1858621
+  "ua_shiny_last_z": -35.1623,
+  "ua_tabi_last_dash": 1862115
  },
- "Health": 31.88,
- "HurtByTimestamp": 2720,
+ "Health": 25.6973,
+ "HurtByTimestamp": 7579,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4320,9 +4320,9 @@
    "id": "waystones:waystone"
   },
   {
-   "Count": 1,
+   "Count": 64,
    "Slot": 7,
-   "id": "alexsmobs:flying_fish"
+   "id": "minecraft:cobbled_deepslate"
   },
   {
    "Count": 3,
@@ -4418,6 +4418,16 @@
    "id": "minecraft:iron_horse_armor"
   },
   {
+   "Count": 1,
+   "Slot": 25,
+   "id": "cataclysm:kobolediator_skull"
+  },
+  {
+   "Count": 1,
+   "Slot": 26,
+   "id": "cataclysm:necklace_of_the_desert"
+  },
+  {
    "Count": 2,
    "Slot": 32,
    "id": "irons_spellbooks:lightning_bottle",
@@ -4434,6 +4444,11 @@
    "Count": 53,
    "Slot": 34,
    "id": "minecraft:gunpowder"
+  },
+  {
+   "Count": 1,
+   "Slot": 35,
+   "id": "alexsmobs:flying_fish"
   },
   {
    "Count": 1,
@@ -4553,16 +4568,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -22.744,
+  -18.5503,
   146.0,
-  -59.2317
+  -35.1504
  ],
  "Rotation": [
-  -61.8436,
+  -22.8835,
   0.0
  ],
- "Score": 14481,
- "SelectedItemSlot": 1,
+ "Score": 14561,
+ "SelectedItemSlot": 4,
  "SleepTimer": 0,
  "SpawnAngle": 161.3706,
  "SpawnDimension": "aether:the_aether",
@@ -4578,9 +4593,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 64,
- "XpP": 0.3445,
+ "XpP": 0.5359,
  "XpSeed": 976728483,
- "XpTotal": 14481,
+ "XpTotal": 14561,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4590,7 +4605,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.4286,
+ "foodExhaustionLevel": 2.1177,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14913,7 +14928,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 738,
+  "ticks_since_last_warning": 6738,
   "warning_level": 0
  }
 }

@@ -2403,7 +2403,7 @@
      }
     },
     {
-     "amount": 308,
+     "amount": 309,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -5180,7 +5180,7 @@
      }
     },
     {
-     "amount": 259,
+     "amount": 195,
      "key": {
       "stack": {
        "item": "minecraft:cobbled_deepslate"

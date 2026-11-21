@@ -3,18 +3,6 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:ice_spell_power"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
-  },
-  {
    "Base": 0.5,
    "Name": "epicfight:impact"
   },
@@ -27,28 +15,12 @@
    "Name": "attributeslib:creative_flight"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:lightning_spell_power"
-  },
-  {
-   "Base": 4.0,
-   "Name": "minecraft:generic.attack_speed"
-  },
-  {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
   },
   {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
    "Base": 1.0,
    "Name": "irons_spellbooks:holy_spell_power"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:dodge_chance"
   },
   {
    "Base": 20.0,
@@ -73,24 +45,64 @@
    "Name": "forge:entity_gravity"
   },
   {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
    "Base": 100.0,
    "Name": "irons_spellbooks:max_mana"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
   {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
-  },
-  {
    "Base": 0.1,
    "Name": "minecraft:generic.movement_speed"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:ice_spell_power"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:lightning_spell_power"
+  },
+  {
+   "Base": 4.0,
+   "Name": "minecraft:generic.attack_speed"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:dodge_chance"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor"
   },
   {
    "Base": 15.0,
@@ -121,10 +133,6 @@
   {
    "Base": 0.05,
    "Name": "attributeslib:crit_chance"
-  },
-  {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
   }
  ],
  "BalmData": {},
@@ -494,13 +502,10 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge",
-   "GUARD": "efn:efn_parry"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:murasama_dodge",
-   "guard": "efn:murasama_parry",
+   "dodge": "efn:efn_dodge",
+   "guard": "efn:efn_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge"
    },
@@ -1416,6 +1421,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 0,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4718,13 +4725,14 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1858390,
+  "quark:trying_crawl": 0,
+  "ua_rs_active_until": 1864389,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1858568
+  "ua_tabi_last_dash": 1864345
  },
  "Health": 1.0,
- "HurtByTimestamp": 0,
+ "HurtByTimestamp": 4805,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4746,7 +4754,7 @@
       "lvl": 3
      }
     ],
-    "murasama_sheath": 0
+    "murasama_sheath": 1
    }
   },
   {
@@ -4941,7 +4949,7 @@
    }
   },
   {
-   "Count": 17,
+   "Count": 31,
    "Slot": 28,
    "id": "cataclysm:koboleton_bone"
   },
@@ -5100,16 +5108,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -22.0689,
-  132.0,
-  -64.4164
+  -17.6984,
+  146.0,
+  -38.5125
  ],
  "Rotation": [
-  -175.2144,
-  88.5
+  56.7924,
+  -47.5502
  ],
  "Score": 8134,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 5,
  "SleepTimer": 0,
  "SpawnAngle": 105.2728,
  "SpawnDimension": "aether:the_aether",
@@ -5137,7 +5145,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.521,
+ "foodExhaustionLevel": 0.095,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14685,7 +14693,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4638,
+  "ticks_since_last_warning": 10638,
   "warning_level": 0
  }
 }
