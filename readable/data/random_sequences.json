@@ -45,8 +45,8 @@
   },
   "aether:entities/blue_swet": {
    "source": [
-    -7721540012410506276,
-    2809305683556935956
+    -3850765279632335706,
+    -7282162403474512452
    ]
   },
   "aether:entities/cockatrice": {
@@ -63,8 +63,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    7163755490723525717,
-    -2970489956717751044
+    1424391445903307261,
+    -7505707231757666451
    ]
   },
   "aether:entities/moa": {
@@ -105,8 +105,8 @@
   },
   "aether:selectors/whirlwind_junk": {
    "source": [
-    -2291604786837543689,
-    -4141535878382961211
+    317718583695916711,
+    -3542017234689544002
    ]
   },
   "artifacts:entity_equipment/drowned": {
@@ -135,8 +135,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2832733482101363572,
-    -5890078987021211006
+    2772404366743066248,
+    4259711826399365091
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    5419154468207745018,
-    -6286380839527135802
+    2331304653859513496,
+    -8405993306430144267
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -507,8 +507,8 @@
   },
   "minecraft:blocks/black_bed": {
    "source": [
-    8592034498595390785,
-    -3372794162939004910
+    5994979313190931385,
+    -2050940047100824954
    ]
   },
   "minecraft:blocks/black_candle": {
@@ -1923,8 +1923,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    533830294674126250,
-    3290345202377327332
+    -4421068184485339426,
+    -9163150302538608217
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -1959,8 +1959,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -1456807880125377826,
-    -7468487815093593235
+    -8971553769583299832,
+    8997017966174325469
    ]
   },
   "minecraft:entities/slime": {

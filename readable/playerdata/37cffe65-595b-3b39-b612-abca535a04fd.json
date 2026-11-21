@@ -2,7 +2,7 @@
  "AbsorptionAmount": 0.0,
  "ActiveEffects": [
   {
-   "Ambient": 0,
+   "Ambient": 1,
    "Amplifier": 0,
    "CurativeItems": [
     {
@@ -10,11 +10,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 138,
-   "Id": 57,
-   "ShowIcon": 1,
+   "Duration": 3,
+   "Id": 55,
+   "ShowIcon": 0,
    "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
+   "forge:id": "epicfight:stun_immunity"
   }
  ],
  "Air": 300,
@@ -111,18 +111,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 3.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 0",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -4739,13 +4727,11 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 1622425,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1620655
+  "ua_rs_continuous": 0
  },
- "Health": 10.3294,
- "HurtByTimestamp": 6790,
+ "Health": 20.1378,
+ "HurtByTimestamp": 1171,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5051,9 +5037,9 @@
  "LastDeathLocation": {
   "dimension": "aether:the_aether",
   "pos": [
-   685,
-   73,
-   -607
+   97,
+   200,
+   -1792
   ]
  },
  "Motion": [
@@ -5064,23 +5050,23 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  100.9434,
+  93.6795,
   200.0,
-  -1787.4506
+  -1783.5665
  ],
  "Rotation": [
-  10.2391,
-  -15.4341
+  32.9577,
+  -17.188
  ],
  "Score": 3942,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
- "SpawnAngle": 14.0997,
+ "SpawnAngle": 105.2728,
  "SpawnDimension": "aether:the_aether",
  "SpawnForced": 0,
- "SpawnX": 682,
- "SpawnY": 73,
- "SpawnZ": -602,
+ "SpawnX": 95,
+ "SpawnY": 200,
+ "SpawnZ": -1803,
  "UUID": [
   936377957,
   1499151161,
@@ -5101,7 +5087,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.798,
+ "foodExhaustionLevel": 3.5,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14708,7 +14694,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2403,
+  "ticks_since_last_warning": 8101,
   "warning_level": 0
  }
 }
