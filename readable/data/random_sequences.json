@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2772404366743066248,
-    4259711826399365091
+    -5158842858276976783,
+    5547293936275240843
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    2331304653859513496,
-    -8405993306430144267
+    -1410458136452095524,
+    -6592996857027273097
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
