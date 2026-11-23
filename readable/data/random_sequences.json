@@ -117,8 +117,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -8140534592627006802,
-    5329900084313511813
+    2409168660178191998,
+    -6639470930650464692
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -8493677719974800927,
-    -1625368025282498388
+    2567643756265031835,
+    -7178625338215893622
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    8517745785093053071,
-    -5898023478265211324
+    -5739088835789217694,
+    -2677980614229714073
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -423,8 +423,8 @@
   },
   "cataclysm:blocks/pointed_icicle": {
    "source": [
-    8752277692624295584,
-    -6894555238419848616
+    7421312119675805694,
+    -7574140156179877535
    ]
   },
   "cataclysm:entities/draugr": {
@@ -1557,8 +1557,8 @@
   },
   "minecraft:blocks/skeleton_skull": {
    "source": [
-    -4162233996001493859,
-    237129928551932287
+    8257930440879759182,
+    7299581713148606357
    ]
   },
   "minecraft:blocks/small_amethyst_bud": {
@@ -1653,8 +1653,8 @@
   },
   "minecraft:blocks/soul_lantern": {
    "source": [
-    -8855435862097953722,
-    2759936240783412690
+    -5299033963486427105,
+    4823707512239068263
    ]
   },
   "minecraft:blocks/soul_sand": {
@@ -1743,20 +1743,20 @@
   },
   "minecraft:blocks/stone_brick_stairs": {
    "source": [
-    4030121226243401130,
-    7667826345513802516
+    -2025366141565784844,
+    5341069191407101112
    ]
   },
   "minecraft:blocks/stone_brick_wall": {
    "source": [
-    3025905250288024075,
-    -8931123541867017553
+    -8841639811406476262,
+    993286692062491111
    ]
   },
   "minecraft:blocks/stone_bricks": {
    "source": [
-    -4067319398867247167,
-    -2304779931339091762
+    1528201462189806786,
+    -9135828908620848473
    ]
   },
   "minecraft:blocks/stone_button": {
@@ -2007,8 +2007,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    6083587587530863939,
-    242276438659951074
+    5742109073255676898,
+    7357785780210622933
    ]
   },
   "minecraft:entities/guardian": {
@@ -2079,8 +2079,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -7122531425792095099,
-    3170628762066980488
+    7809772061839121033,
+    2959953707301606704
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2133,8 +2133,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    -5867934934625329464,
-    -4009389702248461497
+    -3089065596029355354,
+    -601611297277896052
    ]
   },
   "minecraft:entities/squid": {
@@ -2187,8 +2187,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    -8011229989922895255,
-    -8974477138609131952
+    7394502323619418440,
+    5694280057026448995
    ]
   },
   "minecraft:entities/zombie_villager": {
