@@ -6,7 +6,6 @@
 	last_seen: { dim: "wraithon:sanctum_of_the_wraithon", x: 99, y: 7, z: 293, time: 1795447169665L, xRot: 0.0f, yRot: 91.85504f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 122, y: 7, z: 245, time: 1795447360290L }
 		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795447362318L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 163, y: 6, z: 255, time: 1795447416139L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 131, y: 7, z: 294, time: 1795447440960L }
@@ -16,6 +15,7 @@
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 150, y: 6, z: 289, time: 1795447839958L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 139, y: 7, z: 259, time: 1795447877768L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 113, y: 7, z: 279, time: 1795447899035L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 137, y: 7, z: 280, time: 1795447960025L }
 	]
 	homes: { }
 	kit_use_times: { }
