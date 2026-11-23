@@ -671,6 +671,12 @@
     },
     "done": true
   },
+  "efn:yamato_dmc_in_sheath": {
+    "criteria": {
+      "obtain": "2026-11-23 23:07:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2026-11-23 22:57:30 +0800"

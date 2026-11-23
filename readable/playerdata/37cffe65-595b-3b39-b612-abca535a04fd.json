@@ -1,20 +1,20 @@
 {
- "AbsorptionAmount": 20.0,
+ "AbsorptionAmount": 2.0,
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 11,
+   "Amplifier": 4,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 252,
-   "Id": 136,
-   "ShowIcon": 1,
+   "Duration": 143,
+   "Id": 11,
+   "ShowIcon": 0,
    "ShowParticles": 0,
-   "forge:id": "irons_spellbooks:thunderstorm"
+   "forge:id": "minecraft:resistance"
   }
  ],
  "Air": 300,
@@ -59,7 +59,7 @@
    "Base": 20.0,
    "Modifiers": [
     {
-     "Amount": 12.0,
+     "Amount": 14.0,
      "Name": "health_boost",
      "Operation": 0,
      "UUID": [
@@ -96,14 +96,10 @@
    "Name": "cataclysm:additional_critical_damage"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
-  },
-  {
    "Base": 15.0,
    "Modifiers": [
     {
-     "Amount": 4.8,
+     "Amount": 5.6,
      "Name": "stamina_boost",
      "Operation": 0,
      "UUID": [
@@ -124,10 +120,6 @@
   {
    "Base": 0.0,
    "Name": "epicfight:armor_negation"
-  },
-  {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
   },
   {
    "Base": 4.0,
@@ -154,7 +146,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:the_end",
+ "Dimension": "wraithon:sanctum_of_the_wraithon",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -498,16 +490,6 @@
        "Items": [
         {
          "Count": 1,
-         "Slot": 0,
-         "id": "uniqueaccessories:hero_emblem"
-        },
-        {
-         "Count": 1,
-         "Slot": 1,
-         "id": "uniqueaccessories:withered_heart"
-        },
-        {
-         "Count": 1,
          "Slot": 2,
          "id": "uniqueaccessories:still_beating_heart"
         }
@@ -526,6 +508,7 @@
   "epicfight:skill_cap": {
    "dodge": "efn:murasama_dodge",
    "guard": "efn:murasama_parry",
+   "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:murasama_dodge",
     "1": "efn:efn_dodge"
@@ -555,7 +538,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost1",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1233,8 +1216,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 231
+   "currentDataNodeId": 250,
+   "currentLogicNodeId": 250
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1294,7 +1277,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1321,7 +1304,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 79.0,
+    "currentQuestId": 82.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1355,10 +1338,12 @@
     "storm_eye_gotten": 1,
     "sword_soaring_avoid_unlocked": 1,
     "tutorial_passed": 1,
+    "voidEyeBlessed": 1,
+    "void_eye_gotten": 1,
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 76,
+   "finishedQuestSize": 80,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1433,10 +1418,14 @@
    "finished_quest_73": 77,
    "finished_quest_74": 75,
    "finished_quest_75": 78,
+   "finished_quest_76": 79,
+   "finished_quest_77": 18,
+   "finished_quest_78": 81,
+   "finished_quest_79": 80,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
-   "healthAdder": 12.0,
-   "questSize": 9,
+   "healthAdder": 14.0,
+   "questSize": 10,
    "quest_0": 84,
    "quest_1": 38,
    "quest_2": 6,
@@ -1445,7 +1434,8 @@
    "quest_5": 4,
    "quest_6": 3,
    "quest_7": 15,
-   "quest_8": 79,
+   "quest_8": 16,
+   "quest_9": 82,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -1454,12 +1444,10 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 11,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795445686789,
+     "WarpStoneCooldownUntilUnix": 1795446730873,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -1481,7 +1469,8 @@
       "43a42e6e-43ee-4d0f-9be3-d7414418b119",
       "6a55f8ba-eebf-4eab-a68e-aa6705f1343d",
       "346229d9-1e17-4fdb-a7cb-2c04d24a246c",
-      "121a2140-3f3d-4d62-b016-d307cdcc5ef7"
+      "121a2140-3f3d-4d62-b016-d307cdcc5ef7",
+      "a79c1667-da99-4be3-a177-d078d39c1bd4"
      ]
     }
    }
@@ -4762,14 +4751,13 @@
   "last_send_time": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:amplifier_stone": 1,
-   "uniqueaccessories:hero_emblem": 1
+   "uniqueaccessories:hero_emblem": 1,
+   "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 2100131,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2100091
+  "ua_rs_continuous": 0
  },
- "Health": 1.0,
+ "Health": 34.0,
  "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
@@ -4830,9 +4818,9 @@
    }
   },
   {
-   "Count": 10,
+   "Count": 1,
    "Slot": 2,
-   "id": "minecraft:end_stone"
+   "id": "uniqueaccessories:withered_heart"
   },
   {
    "Count": 41,
@@ -4941,6 +4929,21 @@
   },
   {
    "Count": 1,
+   "Slot": 19,
+   "id": "cataclysm:void_eye"
+  },
+  {
+   "Count": 10,
+   "Slot": 20,
+   "id": "minecraft:end_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "uniqueaccessories:hero_emblem"
+  },
+  {
+   "Count": 1,
    "Slot": 22,
    "id": "fantasy_armor:moon_crystal"
   },
@@ -5018,7 +5021,7 @@
    "id": "uniqueaccessories:hero_emblem"
   },
   {
-   "Count": 3,
+   "Count": 5,
    "Slot": 34,
    "id": "epicskills:ability_stone"
   },
@@ -5107,11 +5110,11 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "minecraft:the_end",
+  "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   22,
-   59,
-   -34
+   104,
+   7,
+   278
   ]
  },
  "Motion": [
@@ -5122,23 +5125,23 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  18.0938,
-  59.0,
-  -31.8196
+  129.6439,
+  6.5,
+  285.1687
  ],
  "Rotation": [
-  53.7228,
-  8.1698
+  -126.0215,
+  24.8427
  ],
- "Score": 11907,
+ "Score": 12057,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
- "SpawnDimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
+ "SpawnDimension": "tcrcore:sanctum",
  "SpawnForced": 1,
- "SpawnX": -15,
- "SpawnY": 100,
- "SpawnZ": -23,
+ "SpawnX": -208,
+ "SpawnY": 85,
+ "SpawnZ": -191,
  "UUID": [
   936377957,
   1499151161,
@@ -5147,9 +5150,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 64,
- "XpP": 0.3636,
+ "XpP": 0.7225,
  "XpSeed": -736053570,
- "XpTotal": 11907,
+ "XpTotal": 12057,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5159,25 +5162,18 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.019,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "mainhand",
+  "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
-  "cooldowns": [
-   {
-    "cdr": 4533,
-    "id": "irons_spellbooks:thunderstorm",
-    "scd": 4800
-   }
-  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 27,
+  "mana": 12,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14714,7 +14710,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9625,
+  "ticks_since_last_warning": 3423,
   "warning_level": 0
  }
 }
