@@ -2,6 +2,21 @@
  "AbsorptionAmount": 0.0,
  "ActiveEffects": [
   {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 411,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
+  },
+  {
    "Ambient": 1,
    "Amplifier": 0,
    "CurativeItems": [
@@ -10,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 249,
+   "Duration": 244,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 249,
+   "Duration": 245,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -72,6 +87,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -79,6 +106,10 @@
   {
    "Base": 100.0,
    "Name": "irons_spellbooks:max_mana"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 1.0,
@@ -119,10 +150,6 @@
   {
    "Base": 4.0,
    "Name": "epicfight:offhand_attack_speed"
-  },
-  {
-   "Base": 4.5,
-   "Name": "forge:block_reach"
   },
   {
    "Base": 0.0,
@@ -223,7 +250,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -613,19 +640,20 @@
    "learned:passive": {
     "0": "epicfight:berserker",
     "1": "dodge_parry_reward:stamina1",
-    "10": "dodge_parry_reward:health_boost3",
+    "10": "dodge_parry_reward:damage_boost3",
+    "11": "dodge_parry_reward:health_boost3",
     "2": "dodge_parry_reward:heal3",
     "3": "dodge_parry_reward:damage_boost4",
-    "4": "dodge_parry_reward:health_boost4",
-    "5": "dodge_parry_reward:heal4",
-    "6": "dodge_parry_reward:damage_boost2",
-    "7": "epicfight:bonebreaker",
-    "8": "dodge_parry_reward:damage_boost1",
-    "9": "dodge_parry_reward:damage_boost3"
+    "4": "epicfight:emergency_escape",
+    "5": "dodge_parry_reward:health_boost4",
+    "6": "dodge_parry_reward:heal4",
+    "7": "dodge_parry_reward:damage_boost2",
+    "8": "epicfight:bonebreaker",
+    "9": "dodge_parry_reward:damage_boost1"
    },
    "passive1": "dodge_parry_reward:health_boost4",
    "passive2": "dodge_parry_reward:heal4",
-   "passive3": "epicfight:berserker",
+   "passive3": "epicfight:emergency_escape",
    "passive4": "epicfight:bonebreaker",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:damage_boost4",
@@ -655,7 +683,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 7,
+   "abilityPoint": 5,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -882,7 +910,7 @@
      },
      {
       "name": "epicfight:emergency_escape",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "efn:efn_step",
@@ -1368,7 +1396,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4286,14 +4314,16 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "ua_mn_tabi_last_dash": 2202302,
+  "ua_rs_active_until": 2202324,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2196334,
-  "ua_shiny_last_x": 211.8584,
-  "ua_shiny_last_y": 73.0,
-  "ua_shiny_last_z": -666.3046
+  "ua_shiny_last_active": 2202335,
+  "ua_shiny_last_x": 10.6296,
+  "ua_shiny_last_y": 3.0,
+  "ua_shiny_last_z": 21.0509
  },
- "Health": 34.0,
+ "Health": 63.0,
  "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
@@ -4696,29 +4726,29 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -6,
+   -7,
    3,
-   6
+   -7
   ]
  },
  "Motion": [
-  0.0,
+  0.0029,
   -0.0784,
-  0.0
+  -0.0049
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  211.8506,
-  73.0,
-  -666.3031
+  10.6296,
+  3.0,
+  21.0509
  ],
  "Rotation": [
-  81.9685,
-  15.5987
+  -149.3751,
+  20.454
  ],
  "Score": 27844,
- "SelectedItemSlot": 4,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "UUID": [
   1096852936,
@@ -4740,10 +4770,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 2.506,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 9,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -4751,7 +4781,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 11,
+  "mana": 125,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15063,7 +15093,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9888,
+  "ticks_since_last_warning": 3681,
   "warning_level": 0
  }
 }

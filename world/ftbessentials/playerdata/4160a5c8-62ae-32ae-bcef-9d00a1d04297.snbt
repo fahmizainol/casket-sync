@@ -6,8 +6,6 @@
 	last_seen: { dim: "tcrcore:sanctum", x: 81, y: 73, z: -132, time: 1795440431667L, xRot: 25.730911f, yRot: 158.01477f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 107, y: 7, z: 318, time: 1795449624591L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 202, y: 7, z: 276, time: 1795450773072L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -1, y: 3, z: 10, time: 1795450869611L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: 4, y: 3, z: 11, time: 1795450914030L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: 16, y: 3, z: 11, time: 1795450964079L }
@@ -16,6 +14,8 @@
 		{ dim: "pbf1:sanctum_of_the_battle1", x: 18, y: 3, z: 14, time: 1795451117510L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -15, y: 3, z: -18, time: 1795451195668L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -4, y: 3, z: 6, time: 1795451252615L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: 25, y: 3, z: -7, time: 1795451301459L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -8, y: 3, z: -8, time: 1795451486837L }
 	]
 	homes: { }
 	kit_use_times: { }

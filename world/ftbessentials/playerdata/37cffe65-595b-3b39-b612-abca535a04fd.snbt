@@ -6,7 +6,6 @@
 	last_seen: { dim: "wraithon:sanctum_of_the_wraithon", x: 120, y: 7, z: 295, time: 1795449546182L, xRot: 0.0f, yRot: -149.16379f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 141, y: 7, z: 286, time: 1795449223169L }
 		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449224292L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 111, y: 7, z: 289, time: 1795449257617L }
 		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449258774L }
@@ -16,6 +15,7 @@
 		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449556239L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 117, y: 7, z: 294, time: 1795449656196L }
 		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449657711L }
+		{ dim: "minecraft:overworld", x: 256, y: 66, z: -1768, time: 1795451504333L }
 	]
 	homes: { }
 	kit_use_times: { }
