@@ -4038,7 +4038,7 @@
      }
     },
     {
-     "amount": 370,
+     "amount": 371,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -5756,40 +5756,6 @@
      "key": {
       "stack": {
        "item": "minecraft:gravel"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "efn:kusabimaru",
-       "tag": {
-        "Enchantments": [
-         {
-          "id": "minecraft:sweeping",
-          "lvl": 3
-         },
-         {
-          "id": "minecraft:sharpness",
-          "lvl": 5
-         },
-         {
-          "id": "minecraft:knockback",
-          "lvl": 2
-         },
-         {
-          "id": "minecraft:looting",
-          "lvl": 3
-         },
-         {
-          "id": "minecraft:fire_aspect",
-          "lvl": 2
-         }
-        ],
-        "kusabimaru_sheath": 0
-       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

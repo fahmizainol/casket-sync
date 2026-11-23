@@ -691,7 +691,7 @@
      }
     },
     {
-     "amount": 372,
+     "amount": 373,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3170,15 +3170,6 @@
         ],
         "sheath": 0
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "artifacts:fire_gauntlet"
       },
       "type": "beyonddimensions:stack_type/item"
      }
