@@ -118,6 +118,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:glass_bottle"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -125,6 +134,15 @@
        "tag": {
         "sheath": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 7,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:firefly_jar"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -169,6 +187,30 @@
          }
         ],
         "sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:scroll",
+       "tag": {
+        "irons_spellbooks:spell_container": {
+         "data": [
+          {
+           "id": "irons_spellbooks:spider_aspect",
+           "index": 0,
+           "level": 4,
+           "locked": 1
+          }
+         ],
+         "maxSpells": 1,
+         "mustEquip": 0,
+         "spellWheel": 0
+        }
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -263,6 +305,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:carrot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 6,
      "key": {
       "stack": {
@@ -281,7 +332,7 @@
      }
     },
     {
-     "amount": 10,
+     "amount": 11,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
@@ -334,7 +385,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:golden_sword",
@@ -381,7 +432,7 @@
      }
     },
     {
-     "amount": 12,
+     "amount": 16,
      "key": {
       "stack": {
        "item": "minecraft:amethyst_shard"
@@ -518,6 +569,19 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "uniqueaccessories:amplifier_stone",
+       "tag": {
+        "ua_from_box": 1,
+        "ua_from_box_expires": 2048083
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "armourers_workshop:skin-library-global"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -533,7 +597,7 @@
      }
     },
     {
-     "amount": 41,
+     "amount": 44,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -636,7 +700,7 @@
      }
     },
     {
-     "amount": 354,
+     "amount": 355,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -934,6 +998,15 @@
      }
     },
     {
+     "amount": 10,
+     "key": {
+      "stack": {
+       "item": "minecraft:end_stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -1085,6 +1158,15 @@
      "key": {
       "stack": {
        "item": "minecraft:cut_sandstone_slab"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "aether:crystal_fruit_leaves"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1589,7 +1671,7 @@
      }
     },
     {
-     "amount": 11,
+     "amount": 13,
      "key": {
       "stack": {
        "item": "minecraft:stick"
@@ -1629,6 +1711,15 @@
      "key": {
       "stack": {
        "item": "minecraft:glowstone_dust"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:rare_artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1846,6 +1937,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "ba_bt:end_golem_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:iron_helmet",
        "tag": {
         "Damage": 0,
@@ -2039,6 +2139,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_axe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
@@ -2061,6 +2173,15 @@
      "key": {
       "stack": {
        "item": "tcrcore:divine_fragment"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:withered_heart"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2425,7 +2546,7 @@
      }
     },
     {
-     "amount": 14,
+     "amount": 16,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -2474,6 +2595,15 @@
      "key": {
       "stack": {
        "item": "tudigong:tudi_command_spell"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 28,
+     "key": {
+      "stack": {
+       "item": "waystones:waystone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2566,10 +2696,19 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:spider_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "aether:crystal_leaves"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2579,6 +2718,15 @@
      "key": {
       "stack": {
        "item": "irons_spellbooks:divine_pearl"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "ba_bt:end_monolith_key"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2639,6 +2787,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2844,6 +3001,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:void_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:enchanted_book",
        "tag": {
         "StoredEnchantments": [
@@ -2979,7 +3145,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "fantasy_armor:moon_crystal"
@@ -3123,6 +3289,15 @@
      "key": {
       "stack": {
        "item": "minecraft:oak_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:hero_emblem"
       },
       "type": "beyonddimensions:stack_type/item"
      }

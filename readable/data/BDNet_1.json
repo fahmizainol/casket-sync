@@ -1753,15 +1753,6 @@
      }
     },
     {
-     "amount": 10,
-     "key": {
-      "stack": {
-       "item": "epicskills:ability_stone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 6,
      "key": {
       "stack": {
@@ -3937,7 +3928,7 @@
      }
     },
     {
-     "amount": 352,
+     "amount": 353,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

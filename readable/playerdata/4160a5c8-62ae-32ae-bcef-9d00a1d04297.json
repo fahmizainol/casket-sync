@@ -550,7 +550,6 @@
   "epicfight:skill_cap": {
    "dodge": "efn:efn_step",
    "guard": "efn:efn_parry",
-   "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:efn_step",
     "1": "efn:efn_dodge"
@@ -560,30 +559,14 @@
    },
    "learned:passive": {
     "0": "dodge_parry_reward:stamina1",
-    "1": "dodge_parry_reward:heal2",
-    "10": "wom:latent_retribution",
-    "11": "epicfight:bonebreaker",
-    "12": "dodge_parry_reward:damage_boost1",
-    "13": "wom:mindset",
-    "2": "dodge_parry_reward:heal1",
-    "3": "dodge_parry_reward:damage_boost2",
-    "4": "dodge_parry_reward:health_boost1",
-    "5": "efn:precise_parry",
-    "6": "dodge_parry_reward:health_boost2",
-    "7": "tcrcore:fire_avoid",
-    "8": "epicfight:berserker",
-    "9": "epicfight:emergency_escape"
+    "1": "dodge_parry_reward:health_boost3"
    },
-   "learned:sword_soaring": {
-    "0": "sword_soaring:sword_soaring_master",
-    "1": "sword_soaring:sword_soaring_elytra_master"
-   },
-   "passive1": "dodge_parry_reward:damage_boost2",
-   "passive2": "epicfight:bonebreaker",
-   "passive3": "wom:mindset",
-   "passive4": "dodge_parry_reward:health_boost2",
+   "passive1": "dodge_parry_reward:stamina1",
+   "passive2": "dodge_parry_reward:health_boost2",
+   "passive3": "dodge_parry_reward:heal1",
+   "passive4": "dodge_parry_reward:heal2",
    "passive5": "efn:precise_parry",
-   "passive6": "dodge_parry_reward:heal2",
+   "passive6": "dodge_parry_reward:health_boost3",
    "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
@@ -601,7 +584,7 @@
     "passive3": 0,
     "passive4": 0,
     "passive5": 0,
-    "passive6": 0,
+    "passive6": 155,
     "sword_controller": 0,
     "sword_soaring": 0,
     "weapon_innate": 0,
@@ -610,7 +593,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 7,
+   "abilityPoint": 30,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -742,11 +725,11 @@
           "children": [
            {
             "name": "dodge_parry_reward:health_boost4",
-            "state": "locked"
+            "state": "unlocked"
            }
           ],
           "name": "dodge_parry_reward:health_boost3",
-          "state": "unlockable"
+          "state": "unlocked"
          }
         ],
         "name": "dodge_parry_reward:health_boost2",
@@ -790,19 +773,19 @@
            }
           ],
           "name": "dodge_parry_reward:damage_boost3",
-          "state": "unlockable"
+          "state": "locked"
          }
         ],
         "name": "dodge_parry_reward:damage_boost2",
-        "state": "unlocked"
+        "state": "locked"
        }
       ],
       "name": "dodge_parry_reward:damage_boost1",
-      "state": "unlocked"
+      "state": "unlockable"
      },
      {
       "name": "tcrcore:fire_avoid",
-      "state": "unlocked"
+      "state": "unlockable"
      }
     ],
     "state": "unlocked"
@@ -821,23 +804,23 @@
       "children": [
        {
         "name": "epicfight:bonebreaker",
-        "state": "unlocked"
+        "state": "locked"
        },
        {
         "name": "epicfight:adaptive_skin",
-        "state": "unlockable"
+        "state": "locked"
        },
        {
         "name": "epicfight:vengeance",
-        "state": "unlockable"
+        "state": "locked"
        }
       ],
       "name": "epicfight:berserker",
-      "state": "unlocked"
+      "state": "unlockable"
      },
      {
       "name": "epicfight:emergency_escape",
-      "state": "unlocked"
+      "state": "unlockable"
      },
      {
       "name": "efn:efn_step",
@@ -849,7 +832,7 @@
      },
      {
       "name": "sword_soaring:sword_soaring_master",
-      "state": "unlocked"
+      "state": "unlockable"
      },
      {
       "name": "sword_soaring:sword_soaring_elytra_master",
@@ -1009,11 +992,11 @@
           "children": [
            {
             "name": "wom:adrenaline",
-            "state": "unlockable"
+            "state": "locked"
            },
            {
             "name": "wom:heart_shield",
-            "state": "unlockable"
+            "state": "locked"
            },
            {
             "children": [
@@ -1037,11 +1020,11 @@
              }
             ],
             "name": "wom:meditation",
-            "state": "unlockable"
+            "state": "locked"
            }
           ],
           "name": "wom:mindset",
-          "state": "unlocked"
+          "state": "locked"
          },
          {
           "children": [
@@ -1089,11 +1072,11 @@
          }
         ],
         "name": "wom:latent_retribution",
-        "state": "unlocked"
+        "state": "locked"
        }
       ],
       "name": "wom:pain_anticipation",
-      "state": "unlocked"
+      "state": "unlockable"
      },
      {
       "children": [
@@ -4249,7 +4232,7 @@
   "ua_rs_active_until": 2124070,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2124159,
+  "ua_shiny_last_active": 2125928,
   "ua_shiny_last_x": -198.7472,
   "ua_shiny_last_y": 82.5,
   "ua_shiny_last_z": -190.2892
@@ -4688,8 +4671,8 @@
   -190.2848
  ],
  "Rotation": [
-  94.4142,
-  3.6837
+  89.2417,
+  -7.7421
  ],
  "Score": 27744,
  "SelectedItemSlot": 7,
@@ -4725,7 +4708,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 81,
+  "mana": 125,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15037,7 +15020,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1244,
+  "ticks_since_last_warning": 7244,
   "warning_level": 0
  }
 }
