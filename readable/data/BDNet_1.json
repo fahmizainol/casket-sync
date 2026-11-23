@@ -3557,7 +3557,7 @@
      }
     },
     {
-     "amount": 324,
+     "amount": 325,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4316,15 +4316,6 @@
          "Name": "{\"text\":\"Energy Drink\",\"italic\":false,\"color\":\"red\"}"
         }
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "tcrcore:rare_artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5442,15 +5433,6 @@
        "tag": {
         "kusabimaru_sheath": 0
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 3,
-     "key": {
-      "stack": {
-       "item": "tcrcore:artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }

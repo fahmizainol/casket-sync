@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1163137,
+  "DayTime": 1169137,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,42 +421,10 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795439119578,
+  "LastPlayed": 1795439419570,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
-   "ActiveEffects": [
-    {
-     "Ambient": 0,
-     "Amplifier": 3,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 1137,
-     "Id": 21,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 2,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 6,
-     "Id": 1,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:speed"
-    }
-   ],
    "Air": 300,
    "Attributes": [
     {
@@ -489,20 +457,6 @@
     },
     {
      "Base": 0.1,
-     "Modifiers": [
-      {
-       "Amount": 0.6,
-       "Name": "effect.minecraft.speed 2",
-       "Operation": 2,
-       "UUID": [
-        -1850824106,
-        929776792,
-        -1822740609,
-        1745290805
-       ],
-       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-      }
-     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -523,18 +477,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 16.0,
-       "Name": "effect.minecraft.health_boost 3",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -976,7 +918,7 @@
      "passive4": "dodge_parry_reward:health_boost2",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "EPICFIGHT",
+     "playerMode": "VANILLA",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -1654,8 +1596,8 @@
     },
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
-     "currentDataNodeId": 1,
-     "currentLogicNodeId": 212
+     "currentDataNodeId": 214,
+     "currentLogicNodeId": 214
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -4622,17 +4564,18 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_rs_active_until": 1955940,
+    "quark:trying_crawl": 0,
+    "ua_rs_active_until": 1959692,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 1955984,
-    "ua_shiny_last_x": 69.4875,
+    "ua_shiny_last_active": 1960013,
+    "ua_shiny_last_x": 80.776,
     "ua_shiny_last_y": 73.0,
-    "ua_shiny_last_z": -196.4828,
-    "ua_tabi_last_dash": 1955933
+    "ua_shiny_last_z": -130.8748,
+    "ua_tabi_last_dash": 1959457
    },
-   "Health": 48.0,
-   "HurtByTimestamp": 1037,
+   "Health": 32.0,
+   "HurtByTimestamp": 1332,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4722,7 +4665,10 @@
     {
      "Count": 6,
      "Slot": 3,
-     "id": "cataclysm:frosted_stone_bricks"
+     "id": "cataclysm:frosted_stone_bricks",
+     "tag": {
+      "kusabimaru_sheath": 0
+     }
     },
     {
      "Count": 1,
@@ -4789,6 +4735,31 @@
      "Count": 4,
      "Slot": 13,
      "id": "cataclysm:black_steel_nugget"
+    },
+    {
+     "Count": 1,
+     "Slot": 14,
+     "id": "tcrcore:artifact_ticket"
+    },
+    {
+     "Count": 1,
+     "Slot": 15,
+     "id": "artifacts:feral_claws"
+    },
+    {
+     "Count": 1,
+     "Slot": 16,
+     "id": "tcrcore:artifact_ticket"
+    },
+    {
+     "Count": 1,
+     "Slot": 17,
+     "id": "tcrcore:artifact_ticket"
+    },
+    {
+     "Count": 1,
+     "Slot": 24,
+     "id": "artifacts:crystal_heart"
     },
     {
      "Count": 1,
@@ -4908,16 +4879,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    69.4875,
+    80.776,
     73.0,
-    -196.4828
+    -130.8718
    ],
    "Rotation": [
-    140.7797,
-    0.0
+    167.5389,
+    10.131
    ],
    "Score": 15292,
-   "SelectedItemSlot": 2,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": 0.0,
    "SpawnDimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
@@ -4945,7 +4916,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.264,
+   "foodExhaustionLevel": 0.28,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15268,7 +15239,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 11154,
+    "ticks_since_last_warning": 5153,
     "warning_level": 0
    }
   },
@@ -15280,7 +15251,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1955984,
+  "Time": 1961984,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15288,7 +15259,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -15976,9 +15947,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 2425,
-  "raining": 1,
-  "thunderTime": 90564,
+  "rainTime": 134735,
+  "raining": 0,
+  "thunderTime": 84564,
   "thundering": 0,
   "version": 19133
  },
