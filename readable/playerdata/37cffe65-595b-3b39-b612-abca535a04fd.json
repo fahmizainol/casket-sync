@@ -1262,7 +1262,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4952,13 +4952,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  257.7832,
+  254.9569,
   66.0,
-  -1766.6005
+  -1767.6954
  ],
  "Rotation": [
-  -100.3576,
-  29.5512
+  88.1904,
+  25.0511
  ],
  "Score": 12057,
  "SelectedItemSlot": 0,
@@ -14492,7 +14492,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5540,
+  "ticks_since_last_warning": 11540,
   "warning_level": 0
  }
 }
