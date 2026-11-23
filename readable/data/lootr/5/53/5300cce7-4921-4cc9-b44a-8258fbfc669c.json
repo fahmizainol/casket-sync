@@ -11,6 +11,19 @@
     },
     "name": "{\"translate\":\"container.chest\"}",
     "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
      936377957,
      1499151161,
      -1240290358,
