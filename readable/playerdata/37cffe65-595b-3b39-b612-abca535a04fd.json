@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 5.0,
+ "AbsorptionAmount": 0.0,
  "Air": 300,
  "Attributes": [
   {
@@ -75,6 +75,10 @@
    "Name": "minecraft:generic.attack_damage"
   },
   {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
@@ -132,8 +136,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "DeathTime": 34,
+ "Dimension": "wraithon:sanctum_of_the_wraithon",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1202,7 +1206,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 231
+   "currentLogicNodeId": 267
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1462,6 +1466,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4735,10 +4740,11 @@
   },
   "last_send_time": 0,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 2160021
  },
- "Health": 34.0,
- "HurtByTimestamp": 0,
+ "Health": 0.0,
+ "HurtByTimestamp": 468,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4837,6 +4843,11 @@
    "id": "cataclysm:koboleton_bone"
   },
   {
+   "Count": 18,
+   "Slot": 7,
+   "id": "minecraft:golden_apple"
+  },
+  {
    "Count": 1,
    "Slot": 8,
    "id": "waystones:warp_stone",
@@ -4925,11 +4936,11 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "pbf1:sanctum_of_the_battle1",
+  "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   8,
-   3,
-   -2
+   120,
+   7,
+   296
   ]
  },
  "Motion": [
@@ -4940,13 +4951,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -207.5,
-  85.0,
-  -190.5
+  121.8488,
+  7.0,
+  295.7792
  ],
  "Rotation": [
-  175.3455,
-  22.6695
+  -88.4165,
+  0.0
  ],
  "Score": 12057,
  "SelectedItemSlot": 0,
@@ -4977,7 +4988,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 2.771,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4985,17 +4996,10 @@
   "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
-  "cooldowns": [
-   {
-    "cdr": 3175,
-    "id": "irons_spellbooks:thunderstorm",
-    "scd": 4800
-   }
-  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 5,
+  "mana": 50,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5003,7 +5007,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14529,10 +14532,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1987,
+  "ticks_since_last_warning": 7092,
   "warning_level": 0
  }
 }
