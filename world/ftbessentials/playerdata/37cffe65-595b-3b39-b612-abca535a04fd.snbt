@@ -3,19 +3,19 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "minecraft:overworld", x: 197, y: 73, z: -658, time: 1795440337098L, xRot: -19.98782f, yRot: -94.21179f }
+	last_seen: { dim: "minecraft:overworld", x: 197, y: 73, z: -658, time: 1795442269174L, xRot: -19.98782f, yRot: -94.21179f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: 200, y: 73, z: -661, time: 1795438547449L }
-		{ dim: "minecraft:overworld", x: 205, y: 73, z: -657, time: 1795438553847L }
-		{ dim: "minecraft:overworld", x: 205, y: 73, z: -657, time: 1795438554942L }
-		{ dim: "minecraft:overworld", x: 192, y: 78, z: -675, time: 1795438562424L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -62, y: 98, z: -20, time: 1795438589106L }
-		{ dim: "minecraft:overworld", x: 211, y: 73, z: -678, time: 1795438591800L }
-		{ dim: "minecraft:overworld", x: 210, y: 74, z: -672, time: 1795438606236L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -58, y: 98, z: -23, time: 1795438653989L }
-		{ dim: "minecraft:overworld", x: 216, y: 72, z: -675, time: 1795438659748L }
-		{ dim: "minecraft:overworld", x: 221, y: 128, z: -683, time: 1795438670073L }
+		{ dim: "minecraft:overworld", x: 197, y: 73, z: -658, time: 1795442285434L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -63, y: 98, z: -24, time: 1795442412017L }
+		{ dim: "minecraft:overworld", x: 204, y: 73, z: -673, time: 1795442414170L }
+		{ dim: "minecraft:overworld", x: 219, y: 72, z: -671, time: 1795442424929L }
+		{ dim: "minecraft:overworld", x: 219, y: 72, z: -671, time: 1795442427344L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -62, y: 98, z: -19, time: 1795442446733L }
+		{ dim: "minecraft:overworld", x: 214, y: 73, z: -681, time: 1795442448464L }
+		{ dim: "minecraft:overworld", x: 213, y: 73, z: -654, time: 1795442465963L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -62, y: 98, z: -20, time: 1795442505451L }
+		{ dim: "minecraft:overworld", x: 208, y: 73, z: -671, time: 1795442520620L }
 	]
 	homes: { }
 	kit_use_times: { }

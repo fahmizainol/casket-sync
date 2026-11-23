@@ -36,6 +36,10 @@
    "Name": "attributeslib:creative_flight"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
   },
@@ -176,7 +180,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -560,7 +564,7 @@
    "passive4": "dodge_parry_reward:health_boost2",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1238,8 +1242,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 214,
-   "currentLogicNodeId": 214
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1299,7 +1303,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4212,17 +4216,17 @@
    "uniqueaccessories:bloody_knife": 1,
    "uniqueaccessories:hero_emblem": 1
   },
-  "ua_rs_active_until": 1967073,
+  "ua_rs_active_until": 2022116,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1992080,
-  "ua_shiny_last_x": 83.5101,
-  "ua_shiny_last_y": 73.0,
-  "ua_shiny_last_z": -130.4319,
-  "ua_tabi_last_dash": 1967069
+  "ua_shiny_last_active": 2022242,
+  "ua_shiny_last_x": -54.6461,
+  "ua_shiny_last_y": 98.0,
+  "ua_shiny_last_z": -24.1212,
+  "ua_tabi_last_dash": 2022199
  },
- "Health": 32.0,
- "HurtByTimestamp": 1332,
+ "Health": 19.9238,
+ "HurtByTimestamp": 41790,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4335,7 +4339,7 @@
    }
   },
   {
-   "Count": 9,
+   "Count": 8,
    "Slot": 5,
    "id": "minecraft:golden_carrot",
    "tag": {
@@ -4389,6 +4393,11 @@
    "id": "tcrcore:artifact_ticket"
   },
   {
+   "Count": 5,
+   "Slot": 15,
+   "id": "cataclysm:frosted_stone_brick_stairs"
+  },
+  {
    "Count": 1,
    "Slot": 16,
    "id": "tcrcore:artifact_ticket"
@@ -4397,6 +4406,16 @@
    "Count": 1,
    "Slot": 17,
    "id": "tcrcore:artifact_ticket"
+  },
+  {
+   "Count": 3,
+   "Slot": 18,
+   "id": "minecraft:stone_brick_stairs"
+  },
+  {
+   "Count": 5,
+   "Slot": 19,
+   "id": "cataclysm:frosted_stone_brick_wall"
   },
   {
    "Count": 1,
@@ -4409,9 +4428,29 @@
    "id": "artifacts:crystal_heart"
   },
   {
+   "Count": 2,
+   "Slot": 22,
+   "id": "minecraft:cracked_stone_bricks"
+  },
+  {
+   "Count": 2,
+   "Slot": 23,
+   "id": "cataclysm:frosted_stone_bricks"
+  },
+  {
    "Count": 8,
    "Slot": 24,
    "id": "cataclysm:pointed_icicle"
+  },
+  {
+   "Count": 2,
+   "Slot": 25,
+   "id": "minecraft:stone_bricks"
+  },
+  {
+   "Count": 1,
+   "Slot": 26,
+   "id": "minecraft:stone_brick_wall"
   },
   {
    "Count": 1,
@@ -4531,13 +4570,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  83.5227,
-  73.0,
-  -130.4319
+  -54.6461,
+  98.0,
+  -24.1212
  ],
  "Rotation": [
-  105.2152,
-  81.9809
+  -38.3329,
+  16.6261
  ],
  "Score": 15292,
  "SelectedItemSlot": 1,
@@ -4568,7 +4607,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.7441,
+ "foodExhaustionLevel": 1.6381,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14891,7 +14930,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5148,
+  "ticks_since_last_warning": 11148,
   "warning_level": 0
  }
 }
