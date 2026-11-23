@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 558,
+   "Duration": 578,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 249,
+   "Duration": 247,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 58,
+   "Duration": 78,
    "HiddenEffect": {
     "Ambient": 1,
     "Amplifier": 0,
@@ -155,12 +155,20 @@
    "Name": "forge:entity_reach"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
   {
    "Base": 4.0,
    "Name": "epicfight:offhand_attack_speed"
+  },
+  {
+   "Base": 4.5,
+   "Name": "forge:block_reach"
   },
   {
    "Base": 0.0,
@@ -1347,7 +1355,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 218
+   "currentLogicNodeId": 217
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4328,13 +4336,12 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_mn_tabi_last_dash": 2255973,
-  "ua_rs_active_until": 2256171,
+  "ua_rs_active_until": 2262210,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 66.0,
- "HurtByTimestamp": 3234,
+ "Health": 54.4737,
+ "HurtByTimestamp": 1968,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4445,18 +4452,14 @@
       "id": "minecraft:looting",
       "lvl": 3
      }
-    ]
+    ],
+    "kusabimaru_sheath": 0
    }
   },
   {
    "Count": 1,
    "Slot": 4,
-   "id": "tcrcore:wither_soul_stone_activated"
-  },
-  {
-   "Count": 1,
-   "Slot": 5,
-   "id": "cataclysm:void_eye"
+   "id": "minecraft:glass_bottle"
   },
   {
    "Count": 12,
@@ -4621,6 +4624,11 @@
   },
   {
    "Count": 1,
+   "Slot": 22,
+   "id": "cataclysm:void_eye"
+  },
+  {
+   "Count": 1,
    "Slot": 23,
    "id": "minecraft:netherite_helmet",
    "tag": {
@@ -4657,6 +4665,11 @@
    "Count": 1,
    "Slot": 31,
    "id": "uniqueaccessories:shiny_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 32,
+   "id": "tcrcore:wither_soul_stone_activated"
   },
   {
    "Count": 1,
@@ -4804,9 +4817,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -1,
+   0,
    3,
-   -1
+   -18
   ]
  },
  "Motion": [
@@ -4817,13 +4830,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -18.7502,
+  5.1415,
   3.0,
-  15.4558
+  -14.2365
  ],
  "Rotation": [
-  -156.7832,
-  -6.5289
+  113.692,
+  -1.9294
  ],
  "Score": 27850,
  "SelectedItemSlot": 1,
@@ -4848,10 +4861,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.854,
+ "foodExhaustionLevel": 2.144,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 8,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -15171,7 +15184,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6830,
+  "ticks_since_last_warning": 284,
   "warning_level": 0
  }
 }
