@@ -37,23 +37,6 @@
     "whitelisted": 0
    },
    {
-    "maxX": 795.0,
-    "maxY": 262.0,
-    "maxZ": -359.0,
-    "minX": 573.0,
-    "minY": 22.0,
-    "minZ": -553.0,
-    "type": "biomeswevegone:lush_arch",
-    "uuid": [
-     -1836034687,
-     -1745139939,
-     -1882931191,
-     1180261988
-    ],
-    "uuid_str": "92905581-97fb-471d-8fc4-c00946595e64",
-    "whitelisted": 0
-   },
-   {
     "maxX": 149.0,
     "maxY": 84.0,
     "maxZ": -2875.0,
@@ -68,6 +51,23 @@
      1698308505
     ],
     "uuid_str": "f3e07181-198e-48d5-8f8d-4c13653a2199",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 795.0,
+    "maxY": 262.0,
+    "maxZ": -359.0,
+    "minX": 573.0,
+    "minY": 22.0,
+    "minZ": -553.0,
+    "type": "biomeswevegone:lush_arch",
+    "uuid": [
+     -1836034687,
+     -1745139939,
+     -1882931191,
+     1180261988
+    ],
+    "uuid_str": "92905581-97fb-471d-8fc4-c00946595e64",
     "whitelisted": 0
    },
    {
@@ -139,23 +139,6 @@
     "whitelisted": 0
    },
    {
-    "maxX": 185.0,
-    "maxY": 82.0,
-    "maxZ": 776.0,
-    "minX": 176.0,
-    "minY": 78.0,
-    "minZ": 768.0,
-    "type": "trek:overworld/common/small_desert_ruins",
-    "uuid": [
-     170101283,
-     2105033460,
-     -1930213797,
-     -1551433035
-    ],
-    "uuid_str": "0a238a23-7d78-42f4-8cf3-465ba38702b5",
-    "whitelisted": 0
-   },
-   {
     "maxX": 284.0,
     "maxY": 85.0,
     "maxZ": -2532.0,
@@ -170,6 +153,23 @@
      929390990
     ],
     "uuid_str": "4c7bd4d7-b55d-4fb2-91e9-55573765618e",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 185.0,
+    "maxY": 82.0,
+    "maxZ": 776.0,
+    "minX": 176.0,
+    "minY": 78.0,
+    "minZ": 768.0,
+    "type": "trek:overworld/common/small_desert_ruins",
+    "uuid": [
+     170101283,
+     2105033460,
+     -1930213797,
+     -1551433035
+    ],
+    "uuid_str": "0a238a23-7d78-42f4-8cf3-465ba38702b5",
     "whitelisted": 0
    },
    {
@@ -357,6 +357,23 @@
      1186943524
     ],
     "uuid_str": "bc943f99-2d4b-460b-824d-66b546bf5224",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3417.0,
+    "maxY": 29.0,
+    "maxZ": -7136.0,
+    "minX": 3399.0,
+    "minY": 23.0,
+    "minZ": -7154.0,
+    "type": "mowziesmobs:wrought_chamber",
+    "uuid": [
+     637447329,
+     400443402,
+     -1368718890,
+     1027593255
+    ],
+    "uuid_str": "25feaca1-17de-480a-ae6b-01d63d3fd427",
     "whitelisted": 0
    },
    {
@@ -850,6 +867,23 @@
      1769336507
     ],
     "uuid_str": "d9ed1fb4-89a5-42b4-bfec-a9396975eebb",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3465.0,
+    "maxY": 37.0,
+    "maxZ": -6893.0,
+    "minX": 3447.0,
+    "minY": 31.0,
+    "minZ": -6911.0,
+    "type": "mowziesmobs:wrought_chamber",
+    "uuid": [
+     1651756561,
+     832063610,
+     -1658400794,
+     2129690083
+    ],
+    "uuid_str": "6273ce11-3198-487a-9d26-cfe67ef07de3",
     "whitelisted": 0
    },
    {
@@ -1448,6 +1482,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3051.0,
+    "maxY": 97.0,
+    "maxZ": -6533.0,
+    "minX": 3012.0,
+    "minY": 66.0,
+    "minZ": -6572.0,
+    "type": "trek:overworld/medium/fort",
+    "uuid": [
+     441800658,
+     729366696,
+     -1368239230,
+     -599411810
+    ],
+    "uuid_str": "1a5557d2-2b79-40a8-ae72-5382dc45b39e",
+    "whitelisted": 0
+   },
+   {
     "maxX": -2235.0,
     "maxY": 96.0,
     "maxZ": -1850.0,
@@ -1754,6 +1805,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3515.0,
+    "maxY": 111.0,
+    "maxZ": -6565.0,
+    "minX": 3476.0,
+    "minY": 63.0,
+    "minZ": -6604.0,
+    "type": "dungeons_arise:wishing_well",
+    "uuid": [
+     2107105671,
+     677596205,
+     -1791210096,
+     1336963020
+    ],
+    "uuid_str": "7d97e187-2863-4c2d-953c-4d904fb06fcc",
+    "whitelisted": 0
+   },
+   {
     "maxX": -1753.0,
     "maxY": 19.0,
     "maxZ": -665.0,
@@ -1873,6 +1941,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3526.0,
+    "maxY": 102.0,
+    "maxZ": -6724.0,
+    "minX": 3492.0,
+    "minY": 69.0,
+    "minZ": -6756.0,
+    "type": "trek:overworld/common/strange_stone",
+    "uuid": [
+     -1596771199,
+     -805484960,
+     -1535130469,
+     783255314
+    ],
+    "uuid_str": "a0d33481-cffd-4660-a47f-c49b2eaf8712",
+    "whitelisted": 0
+   },
+   {
     "maxX": 544.0,
     "maxY": -36.0,
     "maxZ": 1648.0,
@@ -1922,6 +2007,23 @@
     ],
     "uuid_str": "73d3050d-7831-442e-88d0-be6298842c6c",
     "whitelisted": 0
+   },
+   {
+    "maxX": 3360.0,
+    "maxY": 127.0,
+    "maxZ": -6865.0,
+    "minX": 3245.0,
+    "minY": 80.0,
+    "minZ": -6980.0,
+    "type": "tlc:lost_castle",
+    "uuid": [
+     746354394,
+     -556970303,
+     -1090311012,
+     444024793
+    ],
+    "uuid_str": "2c7c76da-decd-4ec1-bf03-2c9c1a7747d9",
+    "whitelisted": 1
    },
    {
     "maxX": 72.0,
@@ -2060,6 +2162,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3410.0,
+    "maxY": 87.0,
+    "maxZ": -6560.0,
+    "minX": 3408.0,
+    "minY": 85.0,
+    "minZ": -6562.0,
+    "type": "trek:overworld/very_common/rocks",
+    "uuid": [
+     1452251927,
+     -960345430,
+     -1182622917,
+     -1172309517
+    ],
+    "uuid_str": "568f9b17-c6c2-4aaa-b982-9b3bba1ff9f3",
+    "whitelisted": 0
+   },
+   {
     "maxX": 25.0,
     "maxY": 90.0,
     "maxZ": 89.0,
@@ -2193,6 +2312,23 @@
      -2051469180
     ],
     "uuid_str": "d8063701-0dad-4450-bb2c-f45b85b91084",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3408.0,
+    "maxY": 85.0,
+    "maxZ": -6797.0,
+    "minX": 3406.0,
+    "minY": 82.0,
+    "minZ": -6800.0,
+    "type": "trek:overworld/very_common/rocks",
+    "uuid": [
+     -597847506,
+     -830518969,
+     -1131849068,
+     224822914
+    ],
+    "uuid_str": "dc5d922e-ce7f-4947-bc89-5a940d668682",
     "whitelisted": 0
    },
    {
@@ -3485,6 +3621,23 @@
      2116069248
     ],
     "uuid_str": "4b8333f4-90a4-42b9-a4ba-8a607e20a780",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3102.0,
+    "maxY": 53.0,
+    "maxZ": -7008.0,
+    "minX": 3088.0,
+    "minY": 44.0,
+    "minZ": -7022.0,
+    "type": "ati_structures:silverfish_nest",
+    "uuid": [
+     774114290,
+     -1489878215,
+     -1662643265,
+     784653652
+    ],
+    "uuid_str": "2e240bf2-a732-4339-9ce6-13bf2ec4dd54",
     "whitelisted": 0
    },
    {
@@ -5511,6 +5664,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3230.0,
+    "maxY": 3.0,
+    "maxZ": -6530.0,
+    "minX": 3216.0,
+    "minY": -6.0,
+    "minZ": -6544.0,
+    "type": "ati_structures:underwater_dungeon",
+    "uuid": [
+     1063192577,
+     -1126021159,
+     -1699628866,
+     -1834232449
+    ],
+    "uuid_str": "3f5f0801-bce2-47d9-9ab1-b8be92abd57f",
+    "whitelisted": 0
+   },
+   {
     "maxX": 67.0,
     "maxY": 97.0,
     "maxZ": 2248.0,
@@ -6038,6 +6208,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3403.0,
+    "maxY": 10.0,
+    "maxZ": -6759.0,
+    "minX": 3392.0,
+    "minY": 3.0,
+    "minZ": -6768.0,
+    "type": "minecraft:ruined_portal",
+    "uuid": [
+     -1576463015,
+     1109738325,
+     -1986393279,
+     -1643443425
+    ],
+    "uuid_str": "a2091559-4225-4355-899a-0b419e0b0b1f",
+    "whitelisted": 0
+   },
+   {
     "maxX": -3140.0,
     "maxY": 89.0,
     "maxZ": -852.0,
@@ -6208,6 +6395,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3526.0,
+    "maxY": 179.0,
+    "maxZ": -6858.0,
+    "minX": 3498.0,
+    "minY": 79.0,
+    "minZ": -6886.0,
+    "type": "ba_bt:land_tower",
+    "uuid": [
+     -979990974,
+     1646674771,
+     -1623868113,
+     1051623401
+    ],
+    "uuid_str": "c5968642-6226-4353-9f35-bd2f3eae7fe9",
+    "whitelisted": 1
+   },
+   {
     "maxX": -1392.0,
     "maxY": 53.0,
     "maxZ": 46.0,
@@ -6307,6 +6511,23 @@
      448038318
     ],
     "uuid_str": "9f820774-526c-4e92-a532-20291ab485ae",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3193.0,
+    "maxY": 29.0,
+    "maxZ": -6837.0,
+    "minX": 3175.0,
+    "minY": 23.0,
+    "minZ": -6855.0,
+    "type": "mowziesmobs:wrought_chamber",
+    "uuid": [
+     199519164,
+     -1624815508,
+     -1142908178,
+     1881490482
+    ],
+    "uuid_str": "0be46bbc-9f27-486c-bbe0-9aee70254432",
     "whitelisted": 0
    },
    {
@@ -6956,6 +7177,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3520.0,
+    "maxY": 29.0,
+    "maxZ": -6656.0,
+    "minX": 3504.0,
+    "minY": 15.0,
+    "minZ": -6668.0,
+    "type": "ati_structures:pufferfish_cave",
+    "uuid": [
+     1619933791,
+     442712479,
+     -2092151335,
+     2064239354
+    ],
+    "uuid_str": "608e3a5f-1a63-419f-834c-4dd97b09cafa",
+    "whitelisted": 0
+   },
+   {
     "maxX": 272.0,
     "maxY": 65.0,
     "maxZ": 544.0,
@@ -7004,6 +7242,23 @@
      757384604
     ],
     "uuid_str": "9d816198-ba30-4366-848e-1b362d24c59c",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 2942.0,
+    "maxY": 3.0,
+    "maxZ": -6880.0,
+    "minX": 2928.0,
+    "minY": -6.0,
+    "minZ": -6894.0,
+    "type": "ati_structures:underwater_dungeon",
+    "uuid": [
+     -866994493,
+     -170572220,
+     -1189558738,
+     598168542
+    ],
+    "uuid_str": "cc52b6c3-f5d5-4644-b918-c62e23a753de",
     "whitelisted": 0
    },
    {
@@ -7259,6 +7514,23 @@
      -303354882
     ],
     "uuid_str": "53918f36-38ac-43c2-b88b-8f3aedeb2bfe",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3659.0,
+    "maxY": 29.0,
+    "maxZ": -6589.0,
+    "minX": 3641.0,
+    "minY": 23.0,
+    "minZ": -6607.0,
+    "type": "mowziesmobs:wrought_chamber",
+    "uuid": [
+     -1355290053,
+     -1136900336,
+     -2085727619,
+     -1856113469
+    ],
+    "uuid_str": "af37ea3b-bc3c-4710-83ae-527d915df4c3",
     "whitelisted": 0
    },
    {
@@ -7786,6 +8058,23 @@
      -442569607
     ],
     "uuid_str": "74c98baa-185a-4e9e-8d47-f798e59eec79",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3648.0,
+    "maxY": 86.0,
+    "maxZ": -6846.0,
+    "minX": 3646.0,
+    "minY": 84.0,
+    "minZ": -6848.0,
+    "type": "trek:overworld/very_common/rocks",
+    "uuid": [
+     -695630858,
+     -566867019,
+     -1509445788,
+     462209164
+    ],
+    "uuid_str": "d68983f6-de36-4bb5-a607-af641b8cc08c",
     "whitelisted": 0
    },
    {
@@ -8401,6 +8690,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3104.0,
+    "maxY": 84.0,
+    "maxZ": -6892.0,
+    "minX": 3100.0,
+    "minY": 81.0,
+    "minZ": -6896.0,
+    "type": "trek:overworld/very_common/plains",
+    "uuid": [
+     109413879,
+     639451301,
+     -1241380170,
+     316346750
+    ],
+    "uuid_str": "068585f7-261d-40a5-b602-0ab612db117e",
+    "whitelisted": 0
+   },
+   {
     "maxX": -112.0,
     "maxY": 29.0,
     "maxZ": -2384.0,
@@ -8568,6 +8874,23 @@
      39844025
     ],
     "uuid_str": "624909a8-c2be-4c5a-8d00-ec0b025ff8b9",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3680.0,
+    "maxY": 53.0,
+    "maxZ": -6672.0,
+    "minX": 3666.0,
+    "minY": 44.0,
+    "minZ": -6686.0,
+    "type": "ati_structures:silverfish_nest",
+    "uuid": [
+     -647664027,
+     -1119664110,
+     -1514332729,
+     973686475
+    ],
+    "uuid_str": "d9656e65-bd43-4812-a5bd-1dc73a0946cb",
     "whitelisted": 0
    },
    {
@@ -8892,6 +9215,23 @@
     ],
     "uuid_str": "0affb8ec-e443-4178-bb3c-f762ac9840ef",
     "whitelisted": 1
+   },
+   {
+    "maxX": 3055.0,
+    "maxY": 246.0,
+    "maxZ": -6545.0,
+    "minX": 2992.0,
+    "minY": 199.0,
+    "minZ": -6608.0,
+    "type": "dungeons_arise:heavenly_conqueror",
+    "uuid": [
+     182174936,
+     872566551,
+     -1522135057,
+     191889366
+    ],
+    "uuid_str": "0adbc4d8-3402-4f17-a546-0fef0b6fffd6",
+    "whitelisted": 0
    },
    {
     "maxX": -1488.0,
@@ -9285,6 +9625,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3420.0,
+    "maxY": 103.0,
+    "maxZ": -6661.0,
+    "minX": 3381.0,
+    "minY": 72.0,
+    "minZ": -6700.0,
+    "type": "trek:overworld/medium/fort",
+    "uuid": [
+     646265747,
+     1497583295,
+     -1614139398,
+     1254236988
+    ],
+    "uuid_str": "26853b93-5943-4ebf-9fca-2ffa4ac2233c",
+    "whitelisted": 0
+   },
+   {
     "maxX": -1839.0,
     "maxY": 189.0,
     "maxZ": -829.0,
@@ -9469,6 +9826,23 @@
      1889993190
     ],
     "uuid_str": "ef4f0b8a-0053-49a5-863d-716070a701e6",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3625.0,
+    "maxY": 37.0,
+    "maxZ": -6875.0,
+    "minX": 3607.0,
+    "minY": 31.0,
+    "minZ": -6893.0,
+    "type": "mowziesmobs:wrought_chamber",
+    "uuid": [
+     -1936041205,
+     -2045753103,
+     -2087025936,
+     -31363820
+    ],
+    "uuid_str": "8c9a5b0b-8610-48f1-839a-82f0fe216d14",
     "whitelisted": 0
    },
    {
@@ -10030,6 +10404,23 @@
      -1951467199
     ],
     "uuid_str": "43bc76f1-e75c-4028-88b3-6f318baef941",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 2942.0,
+    "maxY": 3.0,
+    "maxZ": -6704.0,
+    "minX": 2928.0,
+    "minY": -6.0,
+    "minZ": -6718.0,
+    "type": "ati_structures:underwater_dungeon",
+    "uuid": [
+     1815816961,
+     -1524937005,
+     -1626303107,
+     -165109789
+    ],
+    "uuid_str": "6c3b2b01-a51b-4ed3-9f10-957df6289fe3",
     "whitelisted": 0
    },
    {
@@ -11138,6 +11529,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 2966.0,
+    "maxY": 109.0,
+    "maxZ": -6588.0,
+    "minX": 2942.0,
+    "minY": 71.0,
+    "minZ": -6612.0,
+    "type": "ati_structures:illager_homestead",
+    "uuid": [
+     446865698,
+     1946635386,
+     -1210341743,
+     1845878551
+    ],
+    "uuid_str": "1aa2a122-7407-4c7a-b7db-a6916e05df17",
+    "whitelisted": 0
+   },
+   {
     "maxX": 608.0,
     "maxY": 122.0,
     "maxZ": -1150.0,
@@ -11492,6 +11900,23 @@
      -1759832577
     ],
     "uuid_str": "b858a112-0c63-44e5-a8a4-9032971b15ff",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3056.0,
+    "maxY": 29.0,
+    "maxZ": -6820.0,
+    "minX": 3040.0,
+    "minY": 15.0,
+    "minZ": -6832.0,
+    "type": "ati_structures:pufferfish_cave",
+    "uuid": [
+     -1981647617,
+     -1360573477,
+     -1521263648,
+     -1316008798
+    ],
+    "uuid_str": "89e274ff-aee7-4bdb-a553-5be0b18f4ca2",
     "whitelisted": 0
    },
    {
@@ -12138,6 +12563,23 @@
      -1014166392
     ],
     "uuid_str": "3a337369-6d9a-47f6-8896-8b51c38d0c88",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3760.0,
+    "maxY": 9.0,
+    "maxZ": -6815.0,
+    "minX": 3617.0,
+    "minY": -50.0,
+    "minZ": -6964.0,
+    "type": "irons_spellbooks:catacombs",
+    "uuid": [
+     242141211,
+     -1490665261,
+     -1294206569,
+     -1769751621
+    ],
+    "uuid_str": "0e6ec81b-a726-40d3-b2db-f9979683bbbb",
     "whitelisted": 0
    },
    {

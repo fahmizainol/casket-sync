@@ -364,7 +364,7 @@
      }
     },
     {
-     "amount": 117,
+     "amount": 121,
      "key": {
       "stack": {
        "item": "minecraft:gunpowder"
@@ -677,7 +677,7 @@
      }
     },
     {
-     "amount": 151,
+     "amount": 154,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -1413,6 +1413,32 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_shovel",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:silk_touch",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -1535,15 +1561,6 @@
      }
     },
     {
-     "amount": 49,
-     "key": {
-      "stack": {
-       "item": "minecraft:diamond"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 2,
      "key": {
       "stack": {
@@ -1583,7 +1600,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "cataclysm:black_steel_ingot"
@@ -2222,6 +2239,32 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:bane_of_arthropods",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 7,
      "key": {
       "stack": {
@@ -2472,7 +2515,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:totem_of_undying"
@@ -2749,7 +2792,7 @@
      }
     },
     {
-     "amount": 257,
+     "amount": 264,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -2797,7 +2840,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "uniqueaccessories:tabi"
@@ -2891,6 +2934,24 @@
        "item": "magistuarmory:rusted_bastardsword",
        "tag": {
         "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:tarnished_helmet",
+       "tag": {
+        "Damage": 0,
+        "irons_spellbooks:spell_container": {
+         "data": [],
+         "maxSpells": 1,
+         "mustEquip": 1,
+         "spellWheel": 1
+        }
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -3857,7 +3918,7 @@
      }
     },
     {
-     "amount": 341,
+     "amount": 342,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4476,6 +4537,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:strange_key"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 12,
      "key": {
       "stack": {
@@ -4603,15 +4673,6 @@
      "key": {
       "stack": {
        "item": "minecraft:soul_campfire"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 7,
-     "key": {
-      "stack": {
-       "item": "minecraft:stick"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5149,7 +5210,7 @@
      }
     },
     {
-     "amount": 199,
+     "amount": 202,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -5226,15 +5287,6 @@
        "tag": {
         "Potion": "minecraft:water"
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 24,
-     "key": {
-      "stack": {
-       "item": "minecraft:leather"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5462,6 +5514,28 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:black_steel_axe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 5
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:moss_carpet"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -5671,6 +5745,28 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_shovel",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 200,
      "key": {
       "stack": {
@@ -5812,6 +5908,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:dual_bokken"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -5878,6 +5983,15 @@
        "tag": {
         "kusabimaru_sheath": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "tcrcore:artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -6316,6 +6430,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 15,
+     "key": {
+      "stack": {
+       "item": "minecraft:soul_lantern"
       },
       "type": "beyonddimensions:stack_type/item"
      }

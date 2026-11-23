@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 19.1529,
+ "AbsorptionAmount": 20.0,
  "Air": 300,
  "Attributes": [
   {
@@ -549,11 +549,11 @@
    },
    "passive1": "wom:adrenaline",
    "passive2": "wom:heart_shield",
-   "passive3": "efn:precise_parry",
+   "passive3": "dodge_parry_reward:damage_boost2",
    "passive4": "wom:mindset",
-   "passive5": "dodge_parry_reward:damage_boost3",
+   "passive5": "dodge_parry_reward:damage_boost1",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1292,7 +1292,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1319,7 +1319,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 77.0,
+    "currentQuestId": 78.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1356,7 +1356,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 73,
+   "finishedQuestSize": 74,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1428,6 +1428,7 @@
    "finished_quest_70": 18,
    "finished_quest_71": 2,
    "finished_quest_72": 7,
+   "finished_quest_73": 77,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 12.0,
@@ -1441,7 +1442,7 @@
    "quest_6": 3,
    "quest_7": 15,
    "quest_8": 75,
-   "quest_9": 77,
+   "quest_9": 78,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -1451,7 +1452,7 @@
  },
  "ForgeData": {
   "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 0,
+  "EFNMurasamaSheathTicks": 18,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4457,10 +4458,10 @@
       "CompanionPreviewHeight": 2.6,
       "CompanionPreviewWidth": 1.9,
       "CompanionRescueArmor": 8,
-      "CompanionRescueHealth": 138.1579,
+      "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 2058160,
+      "CompanionRescueStoredAt": 2061897,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4644,7 +4645,7 @@
       ],
       "HasClearAirspace": 1,
       "HasConsumedFood": 0,
-      "Health": 138.1579,
+      "Health": 140.0,
       "HurtByTimestamp": 101,
       "HurtTime": 0,
       "InLove": 0,
@@ -4759,13 +4760,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:amplifier_stone": 1
   },
-  "ua_rs_active_until": 2055285,
+  "ua_rs_active_until": 2063739,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2052976
+  "ua_tabi_last_dash": 2063261
  },
  "Health": 1.0,
- "HurtByTimestamp": 15163,
+ "HurtByTimestamp": 20011,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4818,9 +4819,9 @@
    "id": "minecraft:black_bed"
   },
   {
-   "Count": 1,
+   "Count": 27,
    "Slot": 3,
-   "id": "tcrcore:end_resonance_stone"
+   "id": "minecraft:emerald"
   },
   {
    "Count": 2,
@@ -4877,6 +4878,39 @@
    "Count": 1,
    "Slot": 12,
    "id": "minecraft:spider_eye"
+  },
+  {
+   "Count": 1,
+   "Slot": 13,
+   "id": "bosses_of_mass_destruction:soul_star"
+  },
+  {
+   "Count": 3,
+   "Slot": 14,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 1,
+   "Slot": 15,
+   "id": "minecraft:carrot"
+  },
+  {
+   "Count": 3,
+   "Slot": 16,
+   "id": "minecraft:amethyst_shard"
+  },
+  {
+   "Count": 1,
+   "Slot": 17,
+   "id": "minecraft:iron_axe",
+   "tag": {
+    "Damage": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 18,
+   "id": "minecraft:totem_of_undying"
   },
   {
    "Count": 1,
@@ -4981,15 +5015,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  213.3775,
-  73.0,
-  -672.6415
+  269.2313,
+  63.0,
+  -1772.8371
  ],
  "Rotation": [
-  27.4417,
-  35.9327
+  -135.6314,
+  51.7275
  ],
- "Score": 9205,
+ "Score": 9316,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
@@ -5006,9 +5040,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 57,
- "XpP": 0.3493,
+ "XpP": 0.662,
  "XpSeed": -736053570,
- "XpTotal": 9205,
+ "XpTotal": 9316,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5018,7 +5052,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.769,
+ "foodExhaustionLevel": 0.969,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14566,7 +14600,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5498,
+  "ticks_since_last_warning": 11496,
   "warning_level": 0
  }
 }

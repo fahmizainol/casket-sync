@@ -1366,6 +1366,24 @@
    },
    {
     "BlockPos": {
+     "X": 3040,
+     "Y": 108,
+     "Z": -6976
+    },
+    "IsGlobal": 0,
+    "Name": "",
+    "Origin": "WILDERNESS",
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     41283471,
+     -78230367,
+     -1477959110,
+     -1378484764
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
      "X": -188,
      "Y": 81,
      "Z": -199

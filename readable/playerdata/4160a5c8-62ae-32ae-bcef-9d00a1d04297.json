@@ -155,7 +155,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1333,7 +1333,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 77.0,
+    "currentQuestId": 78.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1370,7 +1370,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 73,
+   "finishedQuestSize": 74,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1442,6 +1442,7 @@
    "finished_quest_70": 18,
    "finished_quest_71": 2,
    "finished_quest_72": 7,
+   "finished_quest_73": 77,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 12.0,
@@ -1455,7 +1456,7 @@
    "quest_6": 3,
    "quest_7": 15,
    "quest_8": 75,
-   "quest_9": 77,
+   "quest_9": 78,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -4220,17 +4221,18 @@
    "uniqueaccessories:master_ninja_tabi": 1,
    "uniqueaccessories:tabi": 1
   },
-  "ua_rs_active_until": 2053454,
+  "ua_mn_tabi_last_dash": 2062489,
+  "ua_rs_active_until": 2063811,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2056055,
-  "ua_shiny_last_x": 79.5735,
-  "ua_shiny_last_y": 73.0,
-  "ua_shiny_last_z": -131.1034,
+  "ua_shiny_last_active": 2064112,
+  "ua_shiny_last_x": 258.1231,
+  "ua_shiny_last_y": 66.0,
+  "ua_shiny_last_z": -1767.0385,
   "ua_tabi_last_dash": 2049870
  },
  "Health": 32.0,
- "HurtByTimestamp": 1755,
+ "HurtByTimestamp": 15416,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4360,144 +4362,24 @@
    "id": "waystones:waystone"
   },
   {
-   "Count": 1,
-   "Slot": 10,
-   "id": "minecraft:diamond_shovel",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:efficiency",
-      "lvl": 4
-     },
-     {
-      "id": "minecraft:vanishing_curse",
-      "lvl": 1
-     },
-     {
-      "id": "minecraft:silk_touch",
-      "lvl": 1
-     }
-    ]
-   }
-  },
-  {
-   "Count": 8,
-   "Slot": 11,
-   "id": "cataclysm:black_steel_ingot"
-  },
-  {
-   "Count": 7,
-   "Slot": 12,
-   "id": "minecraft:iron_ingot"
-  },
-  {
-   "Count": 1,
-   "Slot": 13,
-   "id": "cataclysm:black_steel_sword",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:bane_of_arthropods",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     }
-    ]
-   }
-  },
-  {
    "Count": 3,
-   "Slot": 14,
-   "id": "minecraft:gold_ingot"
+   "Slot": 10,
+   "id": "minecraft:stick"
   },
   {
-   "Count": 1,
-   "Slot": 15,
-   "id": "cataclysm:black_steel_axe",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:vanishing_curse",
-      "lvl": 1
-     },
-     {
-      "id": "minecraft:efficiency",
-      "lvl": 5
-     }
-    ]
-   }
+   "Count": 6,
+   "Slot": 11,
+   "id": "magistuarmory:leather_strip"
   },
   {
-   "Count": 1,
-   "Slot": 18,
-   "id": "tcrcore:artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 19,
-   "id": "tcrcore:artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "uniqueaccessories:tabi"
-  },
-  {
-   "Count": 8,
-   "Slot": 22,
-   "id": "minecraft:soul_lantern"
-  },
-  {
-   "Count": 7,
-   "Slot": 23,
-   "id": "minecraft:soul_lantern"
-  },
-  {
-   "Count": 1,
-   "Slot": 26,
-   "id": "tcrcore:dual_bokken"
-  },
-  {
-   "Count": 2,
-   "Slot": 30,
-   "id": "cataclysm:strange_key"
-  },
-  {
-   "Count": 14,
-   "Slot": 33,
+   "Count": 63,
+   "Slot": 12,
    "id": "minecraft:diamond"
   },
   {
-   "Count": 1,
-   "Slot": 34,
-   "id": "minecraft:iron_shovel",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:vanishing_curse",
-      "lvl": 1
-     },
-     {
-      "id": "minecraft:efficiency",
-      "lvl": 3
-     }
-    ]
-   }
-  },
-  {
-   "Count": 4,
-   "Slot": 35,
-   "id": "minecraft:gunpowder"
+   "Count": 22,
+   "Slot": 23,
+   "id": "minecraft:leather"
   },
   {
    "Count": 1,
@@ -4617,15 +4499,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  79.5735,
-  73.0,
-  -131.1034
+  258.132,
+  66.0,
+  -1767.0385
  ],
  "Rotation": [
-  -92.9704,
-  6.8992
+  -14.7048,
+  32.9425
  ],
- "Score": 15849,
+ "Score": 15876,
  "SelectedItemSlot": 3,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
@@ -4642,9 +4524,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 67,
- "XpP": 0.5191,
+ "XpP": 0.5798,
  "XpSeed": 976728483,
- "XpTotal": 15849,
+ "XpTotal": 15876,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4654,7 +4536,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.862,
+ "foodExhaustionLevel": 3.625,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14977,7 +14859,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9603,
+  "ticks_since_last_warning": 3602,
   "warning_level": 0
  }
 }

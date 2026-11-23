@@ -117,8 +117,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    795556884345279114,
-    -6550155742021196016
+    8570039979797810551,
+    429073091117593794
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2665234168923804393,
-    -12443536475913697
+    4655571993321298158,
+    -8303639408053741812
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    6045344953089419163,
-    -8177004956045234346
+    5255101061009655593,
+    8201914820572572493
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -921,8 +921,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    3165117374615807006,
-    -6801674481027107410
+    -8560420496930115737,
+    7004095032039737247
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -1239,8 +1239,8 @@
   },
   "minecraft:blocks/oak_leaves": {
    "source": [
-    790010065407155330,
-    -4813643905484790479
+    -1274706769498767959,
+    -8466397235810224011
    ]
   },
   "minecraft:blocks/oak_log": {
@@ -1827,8 +1827,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    -1450468452993156166,
-    2259807377951639053
+    -658698045271572726,
+    -4583919042546051944
    ]
   },
   "minecraft:blocks/tall_seagrass": {
@@ -2013,8 +2013,8 @@
   },
   "minecraft:entities/evoker": {
    "source": [
-    4549930838513264530,
-    6894670689914164724
+    8883705184082436317,
+    -692258313239487785
    ]
   },
   "minecraft:entities/glow_squid": {
@@ -2127,8 +2127,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -7674407654859118138,
-    4053561452184744766
+    3351889328932044599,
+    -2614793853041452537
    ]
   },
   "minecraft:entities/skeleton_horse": {
@@ -2169,8 +2169,8 @@
   },
   "minecraft:entities/vindicator": {
    "source": [
-    4651997501316652854,
-    6185160864132663511
+    395657293330537826,
+    -7317811014591344777
    ]
   },
   "minecraft:entities/witch": {
@@ -2199,8 +2199,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    4025963954261239385,
-    7615967362231503919
+    2807249526781269104,
+    -4812308693085591472
    ]
   },
   "minecraft:entities/zombie_villager": {
