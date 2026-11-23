@@ -691,7 +691,7 @@
      }
     },
     {
-     "amount": 375,
+     "amount": 376,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3231,7 +3231,7 @@
      }
     },
     {
-     "amount": 9,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "tcrcore:reset_skill_stone"

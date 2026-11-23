@@ -43606,7 +43606,7 @@
         "xRot": 0.0,
         "y": 85.0,
         "yRot": 0.0,
-        "z": -189.6355
+        "z": -189.589
        },
        "uuid": [
         -316269812,
@@ -43677,7 +43677,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147375997,
+          "Duration": 2147374747,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -43703,12 +43703,12 @@
         ],
         "Attributes": [
          {
-          "Base": 0.08,
-          "Name": "forge:entity_gravity"
-         },
-         {
           "Base": 0.0,
           "Name": "forge:step_height_addition"
+         },
+         {
+          "Base": 0.08,
+          "Name": "forge:entity_gravity"
          },
          {
           "Base": 140.0,
@@ -43719,20 +43719,20 @@
           "Name": "minecraft:generic.attack_damage"
          },
          {
-          "Base": 0.3376,
-          "Name": "minecraft:generic.knockback_resistance"
-         },
-         {
           "Base": 0.0,
           "Name": "epicfight:stun_armor"
          },
          {
-          "Base": 1.3696,
-          "Name": "minecraft:generic.flying_speed"
+          "Base": 0.3376,
+          "Name": "minecraft:generic.knockback_resistance"
          },
          {
           "Base": 1.0,
           "Name": "forge:swim_speed"
+         },
+         {
+          "Base": 1.3696,
+          "Name": "minecraft:generic.flying_speed"
          },
          {
           "Base": 8.688,
@@ -43759,7 +43759,7 @@
         "CompanionRescueHealth": 139.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 2249846,
+        "CompanionRescueStoredAt": 2254647,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -43995,7 +43995,7 @@
         "Pos": [
          -207.5,
          85.0,
-         -189.6355
+         -189.589
         ],
         "RoostX": 210,
         "RoostY": 73,
@@ -44030,7 +44030,7 @@
          "exhaustionLevel": 3.3268,
          "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 1
+         "tickTimer": 51
         },
         "dragonStamina": {
          "regenPauseTicks": 0
