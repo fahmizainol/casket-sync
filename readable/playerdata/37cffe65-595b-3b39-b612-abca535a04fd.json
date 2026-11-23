@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 1.0,
+ "AbsorptionAmount": 5.0,
  "Air": 300,
  "Attributes": [
   {
@@ -75,10 +75,6 @@
    "Name": "minecraft:generic.attack_damage"
   },
   {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
@@ -136,8 +132,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 1845,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "DeathTime": 0,
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -146,7 +142,7 @@
   "aether:aether_player": {
    "CanGetPortal": 0,
    "CanShowPatreonMessage": 1,
-   "CanSpawnInAether": 0,
+   "CanSpawnInAether": 1,
    "HasSeenSunSpirit": 0,
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
@@ -1206,7 +1202,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 253
+   "currentLogicNodeId": 231
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1280,7 +1276,6 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
-   "blessItem": "minecraft:air",
    "blessPos": {
     "X": 0,
     "Y": 0,
@@ -1467,7 +1462,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4743,8 +4737,8 @@
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 0.0,
- "HurtByTimestamp": 280,
+ "Health": 34.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4946,13 +4940,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  8.2953,
-  3.0,
-  0.6509
+  -207.5,
+  85.0,
+  -190.5
  ],
  "Rotation": [
   175.3455,
-  0.0
+  22.6695
  ],
  "Score": 12057,
  "SelectedItemSlot": 0,
@@ -4983,7 +4977,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.55,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4993,7 +4987,7 @@
   "castingSpellLevel": 0,
   "cooldowns": [
    {
-    "cdr": 3219,
+    "cdr": 3175,
     "id": "irons_spellbooks:thunderstorm",
     "scd": 4800
    }
@@ -5001,7 +4995,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 31,
+  "mana": 5,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5009,6 +5003,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14534,9 +14529,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1946,
+  "ticks_since_last_warning": 1987,
   "warning_level": 0
  }
 }
