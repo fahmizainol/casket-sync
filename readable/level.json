@@ -243,11 +243,17 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1295489,
+  "DayTime": 1301489,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
-   "DragonKilled": 0,
+   "Dragon": [
+    -1045858667,
+    -65844023,
+    -2113317439,
+    1282415465
+   ],
+   "DragonKilled": 1,
    "ExitPortalLocation": [
     0,
     64,
@@ -272,11 +278,10 @@
     12,
     17,
     3,
-    2,
-    8
+    2
    ],
    "NeedsStateScanning": 0,
-   "PreviouslyKilled": 0
+   "PreviouslyKilled": 1
   },
   "GameRules": {
    "allowVanillaMelee": "true",
@@ -426,25 +431,25 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795445857019,
+  "LastPlayed": 1795446157009,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "ActiveEffects": [
     {
      "Ambient": 0,
-     "Amplifier": 2,
+     "Amplifier": 3,
      "CurativeItems": [
       {
        "Count": 1,
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 19,
-     "Id": 1,
+     "Duration": 746,
+     "Id": 21,
      "ShowIcon": 1,
      "ShowParticles": 0,
-     "forge:id": "minecraft:speed"
+     "forge:id": "minecraft:health_boost"
     }
    ],
    "Air": 300,
@@ -467,20 +472,6 @@
     },
     {
      "Base": 0.1,
-     "Modifiers": [
-      {
-       "Amount": 0.6,
-       "Name": "effect.minecraft.speed 2",
-       "Operation": 2,
-       "UUID": [
-        -1850824106,
-        929776792,
-        -1822740609,
-        1745290805
-       ],
-       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-      }
-     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -501,6 +492,18 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      },
+      {
+       "Amount": 16.0,
+       "Name": "effect.minecraft.health_boost 3",
+       "Operation": 0,
+       "UUID": [
+        1567558562,
+        294012588,
+        -1198078436,
+        1559140812
+       ],
+       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -635,7 +638,7 @@
    "Dimension": "minecraft:the_end",
    "EnderItems": [],
    "FallDistance": 0.0,
-   "FallFlying": 1,
+   "FallFlying": 0,
    "Fire": -20,
    "ForgeCaps": {
     "aether:aether_player": {
@@ -1723,7 +1726,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 212
+     "currentLogicNodeId": 285
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1783,7 +1786,7 @@
       "dual_annihilator_lock": 1,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 0,
+      "is_lock_on": 1,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 1,
@@ -1971,7 +1974,8 @@
         "78a5047e-f134-48d4-8314-a6dd7fa30d6a",
         "3827dc2f-f181-4b77-a1d0-df3fbd609460",
         "43a42e6e-43ee-4d0f-9be3-d7414418b119",
-        "346229d9-1e17-4fdb-a7cb-2c04d24a246c"
+        "346229d9-1e17-4fdb-a7cb-2c04d24a246c",
+        "a79c1667-da99-4be3-a177-d078d39c1bd4"
        ]
       }
      }
@@ -4693,21 +4697,20 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "quark:trying_crawl": 0,
     "ua_accessory_types_seen": {
      "uniqueaccessories:bloody_knife": 1
     },
-    "ua_mn_tabi_last_dash": 2087150,
-    "ua_rs_active_until": 2088309,
+    "ua_mn_tabi_last_dash": 2094298,
+    "ua_rs_active_until": 2094302,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 2088336,
-    "ua_shiny_last_x": 58.808,
-    "ua_shiny_last_y": 124.8299,
-    "ua_shiny_last_z": 21.1071
+    "ua_shiny_last_active": 2094336,
+    "ua_shiny_last_x": -18.0399,
+    "ua_shiny_last_y": 59.0,
+    "ua_shiny_last_z": -29.7201
    },
-   "Health": 32.0,
-   "HurtByTimestamp": 529,
+   "Health": 12.5788,
+   "HurtByTimestamp": 563,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4775,7 +4778,7 @@
     {
      "Count": 1,
      "Slot": 2,
-     "id": "efn:fire_exsiliumgladius",
+     "id": "efn:exsiliumgladius",
      "tag": {
       "Damage": 0,
       "Enchantments": [
@@ -4798,6 +4801,11 @@
       ],
       "kusabimaru_sheath": 0
      }
+    },
+    {
+     "Count": 34,
+     "Slot": 3,
+     "id": "irons_spellbooks:arcane_essence"
     },
     {
      "Count": 1,
@@ -4831,12 +4839,7 @@
      "id": "uniqueaccessories:bloody_knife"
     },
     {
-     "Count": 38,
-     "Slot": 7,
-     "id": "minecraft:chiseled_sandstone"
-    },
-    {
-     "Count": 15,
+     "Count": 14,
      "Slot": 8,
      "id": "waystones:waystone"
     },
@@ -4899,13 +4902,28 @@
     },
     {
      "Count": 1,
+     "Slot": 19,
+     "id": "minecraft:dragon_head"
+    },
+    {
+     "Count": 1,
      "Slot": 20,
      "id": "magistuarmory:hilt"
+    },
+    {
+     "Count": 14,
+     "Slot": 21,
+     "id": "irons_spellbooks:dragonskin"
     },
     {
      "Count": 6,
      "Slot": 22,
      "id": "minecraft:diamond"
+    },
+    {
+     "Count": 38,
+     "Slot": 23,
+     "id": "minecraft:chiseled_sandstone"
     },
     {
      "Count": 11,
@@ -5047,7 +5065,7 @@
     {
      "Count": 1,
      "Slot": -106,
-     "id": "efn:exsiliumgladius",
+     "id": "efn:fire_exsiliumgladius",
      "tag": {
       "Damage": 0,
       "Enchantments": [
@@ -5067,37 +5085,38 @@
         "id": "minecraft:sweeping",
         "lvl": 3
        }
-      ]
+      ],
+      "kusabimaru_sheath": 0
      }
     }
    ],
    "Invulnerable": 0,
    "LastDeathLocation": {
-    "dimension": "minecraft:overworld",
+    "dimension": "minecraft:the_end",
     "pos": [
-     264,
-     63,
-     -1777
+     -23,
+     60,
+     -15
     ]
    },
    "Motion": [
-    -0.6615,
-    0.4675,
-    -0.2059
+    0.0,
+    -0.0784,
+    0.0
    ],
-   "OnGround": 0,
+   "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    58.808,
-    124.8299,
-    21.1071
+    -18.0399,
+    59.0,
+    -29.7201
    ],
    "Rotation": [
-    103.6286,
-    1.5001
+    132.758,
+    28.4114
    ],
-   "Score": 16212,
-   "SelectedItemSlot": 1,
+   "Score": 27594,
+   "SelectedItemSlot": 2,
    "SleepTimer": 0,
    "SpawnAngle": 0.0,
    "SpawnDimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
@@ -5112,10 +5131,10 @@
     -1580186985
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-   "XpLevel": 66,
-   "XpP": 0.2752,
+   "XpLevel": 87,
+   "XpP": 0.7296,
    "XpSeed": 976728483,
-   "XpTotal": 16212,
+   "XpTotal": 27594,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -5125,7 +5144,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.78,
+   "foodExhaustionLevel": 2.947,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5136,7 +5155,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 125,
+    "mana": 73,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15448,7 +15467,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 3495,
+    "ticks_since_last_warning": 9287,
     "warning_level": 0
    }
   },
@@ -15460,7 +15479,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2088336,
+  "Time": 2094336,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15468,7 +15487,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 10800,
+  "WanderingTraderSpawnDelay": 4800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16148,18 +16167,18 @@
   "allowCommands": 1,
   "bei_ExtraDragonFight": {
    "FirstExitPortalSpawn": 0,
-   "HasDragonEverSpawned": 0,
-   "NumberTimesDragonKilled": 0
+   "HasDragonEverSpawned": 1,
+   "NumberTimesDragonKilled": 1
   },
   "clearWeatherTime": 0,
   "confirmedExperimentalSettings": 0,
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 8383,
+  "rainTime": 2383,
   "raining": 0,
-  "thunderTime": 830,
-  "thundering": 0,
+  "thunderTime": 8766,
+  "thundering": 1,
   "version": 19133
  },
  "fml": {

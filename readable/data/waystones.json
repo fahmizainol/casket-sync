@@ -874,6 +874,30 @@
    },
    {
     "BlockPos": {
+     "X": -41,
+     "Y": 60,
+     "Z": -8
+    },
+    "IsGlobal": 0,
+    "Name": "virgil",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     -1482942873,
+     -627487773,
+     -1585983368,
+     -744743980
+    ],
+    "World": "minecraft:the_end"
+   },
+   {
+    "BlockPos": {
      "X": -2392,
      "Y": 11,
      "Z": -2049

@@ -561,8 +561,8 @@
   },
   "minecraft:blocks/black_bed": {
    "source": [
-    7370729536446885966,
-    -7458672010996526100
+    7315144366583193814,
+    -1448804238327534068
    ]
   },
   "minecraft:blocks/black_candle": {
@@ -929,6 +929,12 @@
    "source": [
     6481234169098265318,
     -4578084060888496862
+   ]
+  },
+  "minecraft:blocks/end_stone": {
+   "source": [
+    6376288380224049239,
+    3245577816275604160
    ]
   },
   "minecraft:blocks/ender_chest": {
@@ -2035,6 +2041,12 @@
     -5008280003877965724
    ]
   },
+  "minecraft:entities/ender_dragon": {
+   "source": [
+    -1735837362110693593,
+    -5484173381317032010
+   ]
+  },
   "minecraft:entities/enderman": {
    "source": [
     -859602216398907201,
@@ -2121,8 +2133,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -6680613316233498279,
-    -4758383595960566271
+    -2196961591674819846,
+    -8140903520326439254
    ]
   },
   "minecraft:entities/pufferfish": {
