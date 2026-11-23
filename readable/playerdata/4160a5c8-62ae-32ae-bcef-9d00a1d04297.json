@@ -3,21 +3,6 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 13,
-   "Id": 1,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:speed"
-  },
-  {
-   "Ambient": 0,
    "Amplifier": 3,
    "CurativeItems": [
     {
@@ -25,11 +10,41 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 494,
+   "Duration": 405,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:health_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 4,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 112,
+   "Id": 11,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:resistance"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 19,
+   "Id": 1,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
   }
  ],
  "Air": 300,
@@ -39,32 +54,46 @@
    "Name": "forge:step_height_addition"
   },
   {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
-  },
-  {
    "Base": 0.5,
    "Name": "epicfight:impact"
   },
   {
-   "Base": 1.0,
-   "Name": "minecraft:generic.attack_damage"
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
   },
   {
    "Base": 0.0,
    "Name": "attributeslib:creative_flight"
   },
   {
-   "Base": 4.0,
-   "Name": "minecraft:generic.attack_speed"
-  },
-  {
    "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
+   "Name": "minecraft:generic.knockback_resistance"
   },
   {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.6,
+     "Name": "effect.minecraft.speed 2",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
+   "Name": "minecraft:generic.movement_speed"
+  },
+  {
+   "Base": 0.08,
+   "Name": "forge:entity_gravity"
   },
   {
    "Base": 20.0,
@@ -97,34 +126,8 @@
    "Name": "minecraft:generic.max_health"
   },
   {
-   "Base": 0.08,
-   "Name": "forge:entity_gravity"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 0.1,
-   "Modifiers": [
-    {
-     "Amount": 0.6,
-     "Name": "effect.minecraft.speed 2",
-     "Operation": 2,
-     "UUID": [
-      -1850824106,
-      929776792,
-      -1822740609,
-      1745290805
-     ],
-     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-    }
-   ],
-   "Name": "minecraft:generic.movement_speed"
+   "Base": 1.0,
+   "Name": "minecraft:generic.attack_damage"
   },
   {
    "Base": 15.0,
@@ -153,8 +156,20 @@
    "Name": "epicfight:armor_negation"
   },
   {
+   "Base": 4.0,
+   "Name": "minecraft:generic.attack_speed"
+  },
+  {
    "Base": 1.0,
    "Name": "epicfight:max_strikes"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
   }
  ],
  "BalmData": {},
@@ -165,7 +180,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -174,12 +189,12 @@
   "aether:aether_player": {
    "CanGetPortal": 0,
    "CanShowPatreonMessage": 1,
-   "CanSpawnInAether": 1,
+   "CanSpawnInAether": 0,
    "HasSeenSunSpirit": 0,
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 48.0
+   "SavedHealth": 0.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -528,8 +543,8 @@
     "3": "dodge_parry_reward:damage_boost2",
     "4": "dodge_parry_reward:health_boost1",
     "5": "efn:precise_parry",
-    "6": "tcrcore:fire_avoid",
-    "7": "dodge_parry_reward:health_boost2",
+    "6": "dodge_parry_reward:health_boost2",
+    "7": "tcrcore:fire_avoid",
     "8": "epicfight:berserker",
     "9": "epicfight:emergency_escape"
    },
@@ -1296,6 +1311,7 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
+   "blessItem": "minecraft:air",
    "blessPos": {
     "X": 0,
     "Y": 0,
@@ -4193,10 +4209,10 @@
   "ua_rs_active_until": 1931359,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1931739,
-  "ua_shiny_last_x": -78.383,
-  "ua_shiny_last_y": 139.0,
-  "ua_shiny_last_z": 18.9926,
+  "ua_shiny_last_active": 1931989,
+  "ua_shiny_last_x": -2.5,
+  "ua_shiny_last_y": 73.0,
+  "ua_shiny_last_z": -189.5,
   "ua_tabi_last_dash": 1930006
  },
  "Health": 48.0,
@@ -4585,20 +4601,17 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -78.383,
-  139.0,
-  18.9926
+  -2.5,
+  73.0,
+  -189.5
  ],
  "Rotation": [
-  -151.2766,
-  17.6802
+  19.5,
+  35.2743
  ],
  "Score": 15192,
  "SelectedItemSlot": 1,
  "SleepTimer": 0,
- "Tags": [
-  "wom_health_fix:48.0"
- ],
  "UUID": [
   1096852936,
   1655583406,
@@ -14942,7 +14955,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 42,
+  "ticks_since_last_warning": 129,
   "warning_level": 0
  }
 }

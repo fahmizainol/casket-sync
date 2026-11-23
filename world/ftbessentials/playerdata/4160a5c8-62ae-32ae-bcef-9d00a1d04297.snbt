@@ -3,7 +3,7 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -79, y: 139, z: 18, time: 1795258207170L, xRot: 17.680218f, yRot: -151.27661f }
+	last_seen: { dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -79, y: 139, z: 18, time: 1795437895613L, xRot: 17.680218f, yRot: -151.27661f }
 	recording: "none"
 	teleport_history: [
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -37, y: 97, z: -40, time: 1795255975929L }
