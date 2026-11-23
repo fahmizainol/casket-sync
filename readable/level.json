@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1187489,
+  "DayTime": 1187715,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,10 +421,27 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795440429098,
+  "LastPlayed": 1795440451183,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
+   "ActiveEffects": [
+    {
+     "Ambient": 0,
+     "Amplifier": 2,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 19,
+     "Id": 1,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:speed"
+    }
+   ],
    "Air": 300,
    "Attributes": [
     {
@@ -432,12 +449,12 @@
      "Name": "forge:step_height_addition"
     },
     {
-     "Base": 3.0,
-     "Name": "forge:entity_reach"
-    },
-    {
      "Base": 0.5,
      "Name": "epicfight:impact"
+    },
+    {
+     "Base": 3.0,
+     "Name": "forge:entity_reach"
     },
     {
      "Base": 0.0,
@@ -445,11 +462,11 @@
     },
     {
      "Base": 0.0,
-     "Name": "epicfight:stun_armor"
+     "Name": "minecraft:generic.knockback_resistance"
     },
     {
      "Base": 0.0,
-     "Name": "minecraft:generic.knockback_resistance"
+     "Name": "epicfight:stun_armor"
     },
     {
      "Base": 4.0,
@@ -461,6 +478,20 @@
     },
     {
      "Base": 0.1,
+     "Modifiers": [
+      {
+       "Amount": 0.6,
+       "Name": "effect.minecraft.speed 2",
+       "Operation": 2,
+       "UUID": [
+        -1850824106,
+        929776792,
+        -1822740609,
+        1745290805
+       ],
+       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+      }
+     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -520,12 +551,12 @@
      "Name": "epicfight:weight"
     },
     {
-     "Base": 0.05,
-     "Name": "attributeslib:crit_chance"
-    },
-    {
      "Base": 0.0,
      "Name": "epicfight:armor_negation"
+    },
+    {
+     "Base": 0.05,
+     "Name": "attributeslib:crit_chance"
     },
     {
      "Base": 1.0,
@@ -555,11 +586,11 @@
     },
     {
      "Base": 0.0,
-     "Name": "minecraft:generic.armor_toughness"
+     "Name": "minecraft:generic.armor"
     },
     {
      "Base": 0.0,
-     "Name": "minecraft:generic.armor"
+     "Name": "minecraft:generic.armor_toughness"
     }
    ],
    "BalmData": {},
@@ -579,7 +610,7 @@
     "aether:aether_player": {
      "CanGetPortal": 0,
      "CanShowPatreonMessage": 1,
-     "CanSpawnInAether": 1,
+     "CanSpawnInAether": 0,
      "HasSeenSunSpirit": 0,
      "LifeShardCount": 0,
      "LoginsUntilPatreonMessage": -1,
@@ -1707,6 +1738,7 @@
     },
     "sword_soaring:ss_player": {},
     "tcrcore:tcr_player": {
+     "blessItem": "minecraft:air",
      "blessPos": {
       "X": 0,
       "Y": 0,
@@ -4929,8 +4961,8 @@
     -131.65
    ],
    "Rotation": [
-    158.0148,
-    25.7309
+    99.0651,
+    30.8309
    ],
    "Score": 15292,
    "SelectedItemSlot": 1,
@@ -15284,7 +15316,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 5152,
+    "ticks_since_last_warning": 5377,
     "warning_level": 0
    }
   },
@@ -15296,7 +15328,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 1980336,
+  "Time": 1980562,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15992,9 +16024,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 116383,
+  "rainTime": 116157,
   "raining": 0,
-  "thunderTime": 66212,
+  "thunderTime": 65986,
   "thundering": 0,
   "version": 19133
  },
