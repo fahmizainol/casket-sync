@@ -1683,15 +1683,6 @@
      }
     },
     {
-     "amount": 11,
-     "key": {
-      "stack": {
-       "item": "cataclysm:black_steel_ingot"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 1,
      "key": {
       "stack": {
@@ -4047,7 +4038,7 @@
      }
     },
     {
-     "amount": 360,
+     "amount": 361,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

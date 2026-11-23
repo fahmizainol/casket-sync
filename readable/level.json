@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1379489,
+  "DayTime": 1385489,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -426,7 +426,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795450057002,
+  "LastPlayed": 1795450356999,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -972,11 +972,9 @@
       }
      ]
     },
-    "efn:original_skill_memory": {
-     "DODGE": "efn:efn_step"
-    },
+    "efn:original_skill_memory": {},
     "epicfight:skill_cap": {
-     "dodge": "efn:yamato_step",
+     "dodge": "efn:efn_step",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
      "learned:dodge": {
@@ -1682,7 +1680,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 42
+     "currentLogicNodeId": 282
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -4660,18 +4658,19 @@
      "vehicles": []
     },
     "last_send_time": 0,
+    "quark:trying_crawl": 0,
     "ua_accessory_types_seen": {
      "uniqueaccessories:bloody_knife": 1,
      "uniqueaccessories:hero_emblem": 1
     },
-    "ua_mn_tabi_last_dash": 2165315,
-    "ua_rs_active_until": 2171118,
+    "ua_mn_tabi_last_dash": 2178255,
+    "ua_rs_active_until": 2177756,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 2171491,
-    "ua_shiny_last_x": 262.0556,
+    "ua_shiny_last_active": 2178269,
+    "ua_shiny_last_x": 254.736,
     "ua_shiny_last_y": 63.0,
-    "ua_shiny_last_z": -1773.6776
+    "ua_shiny_last_z": -1775.1069
    },
    "Health": 34.0,
    "HurtByTimestamp": 0,
@@ -4819,12 +4818,22 @@
     },
     {
      "Count": 60,
+     "Slot": 10,
+     "id": "cataclysm:cursium_ingot"
+    },
+    {
+     "Count": 60,
      "Slot": 11,
      "id": "minecraft:netherite_ingot"
     },
     {
+     "Count": 7,
+     "Slot": 12,
+     "id": "cataclysm:black_steel_ingot"
+    },
+    {
      "Count": 1,
-     "Slot": 26,
+     "Slot": 23,
      "id": "minecraft:netherite_helmet",
      "tag": {
       "Damage": 0
@@ -4833,7 +4842,7 @@
     {
      "Count": 1,
      "Slot": 100,
-     "id": "minecraft:netherite_boots",
+     "id": "cataclysm:cursium_boots",
      "tag": {
       "Damage": 0,
       "Enchantments": [
@@ -4863,7 +4872,7 @@
     {
      "Count": 1,
      "Slot": 101,
-     "id": "minecraft:netherite_leggings",
+     "id": "cataclysm:cursium_leggings",
      "tag": {
       "Damage": 0,
       "Enchantments": [
@@ -4877,7 +4886,7 @@
     {
      "Count": 1,
      "Slot": 102,
-     "id": "minecraft:netherite_chestplate",
+     "id": "cataclysm:cursium_chestplate",
      "tag": {
       "Damage": 0,
       "Enchantments": [
@@ -4903,7 +4912,7 @@
     {
      "Count": 1,
      "Slot": 103,
-     "id": "minecraft:netherite_helmet",
+     "id": "cataclysm:cursium_helmet",
      "tag": {
       "Damage": 0,
       "Enchantments": [
@@ -4975,16 +4984,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    262.0556,
+    254.7452,
     63.0,
-    -1773.6776
+    -1775.1069
    ],
    "Rotation": [
-    -3.2832,
-    26.9755
+    -90.9573,
+    26.8405
    ],
    "Score": 27844,
-   "SelectedItemSlot": 0,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "UUID": [
     1096852936,
@@ -5006,7 +5015,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.584,
+   "foodExhaustionLevel": 2.208,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15329,7 +15338,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 11443,
+    "ticks_since_last_warning": 5442,
     "warning_level": 0
    }
   },
@@ -15341,7 +15350,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2172336,
+  "Time": 2178336,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15349,7 +15358,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16037,9 +16046,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 97756,
+  "rainTime": 91756,
   "raining": 0,
-  "thunderTime": 54258,
+  "thunderTime": 48258,
   "thundering": 0,
   "version": 19133
  },

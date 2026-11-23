@@ -4954,7 +4954,7 @@
  "Pos": [
   248.2375,
   66.0,
-  -1767.396
+  -1767.9392
  ],
  "Rotation": [
   100.0451,
@@ -14492,7 +14492,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5541,
+  "ticks_since_last_warning": 11541,
   "warning_level": 0
  }
 }
