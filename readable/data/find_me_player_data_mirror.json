@@ -43604,9 +43604,9 @@
         "dimension": "tcrcore:sanctum",
         "x": -207.5,
         "xRot": 0.0,
-        "y": 85.9205,
+        "y": 85.0,
         "yRot": 0.0,
-        "z": -190.2273
+        "z": -189.6355
        },
        "uuid": [
         -316269812,
@@ -43677,7 +43677,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147376112,
+          "Duration": 2147375997,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -43759,7 +43759,7 @@
         "CompanionRescueHealth": 139.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 2243787,
+        "CompanionRescueStoredAt": 2249846,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -43966,8 +43966,8 @@
         "IsRoaring": 0,
         "IsSitting": 0,
         "LayerMood": 2,
-        "LayerMotion": 2,
-        "LayerStance": 1,
+        "LayerMotion": 0,
+        "LayerStance": 0,
         "LeftHanded": 0,
         "MountTime": 0,
         "NoAI": 0,
@@ -43976,7 +43976,7 @@
         "OAH_CurrentFuel": 0,
         "OAH_FullRechargeCooldown": 0,
         "OAH_PendingScale": 0.0,
-        "OnGround": 0,
+        "OnGround": 1,
         "OrderedToSit": 0,
         "Owner": [
          936377957,
@@ -43984,9 +43984,9 @@
          -1240290358,
          1398408445
         ],
-        "PH_SmoothedEntityPitch": -8.1696,
-        "PH_SmoothedMovementYaw": -1134.873,
-        "PH_UnwrappedMovementYaw": -1134.873,
+        "PH_SmoothedEntityPitch": -0.0,
+        "PH_SmoothedMovementYaw": -1080.0,
+        "PH_UnwrappedMovementYaw": -1080.0,
         "PH_UnwrappedRoll": 0.0,
         "PH_UnwrappedYaw": 2160.0,
         "PersistenceRequired": 1,
@@ -43994,8 +43994,8 @@
         "PortalCooldown": 0,
         "Pos": [
          -207.5,
-         85.9205,
-         -190.2273
+         85.0,
+         -189.6355
         ],
         "RoostX": 210,
         "RoostY": 73,
@@ -44016,7 +44016,7 @@
         "TamingRitualCompleted": 1,
         "TamingRitualTimer": 0,
         "ThrottleLevel": 0.0,
-        "TransportMode": 1,
+        "TransportMode": 0,
         "UUID": [
          -316269812,
          593383161,
@@ -44024,16 +44024,16 @@
          760723722
         ],
         "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-        "UseGroundNav": 0,
+        "UseGroundNav": 1,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 3.3242,
+         "exhaustionLevel": 3.3268,
          "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 46
+         "tickTimer": 1
         },
         "dragonStamina": {
-         "regenPauseTicks": 40
+         "regenPauseTicks": 0
         },
         "id": "bookofdragons:nightfury"
        },

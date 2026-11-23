@@ -691,7 +691,7 @@
      }
     },
     {
-     "amount": 374,
+     "amount": 375,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2550,15 +2550,6 @@
      "key": {
       "stack": {
        "item": "minecraft:raw_copper"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 5,
-     "key": {
-      "stack": {
-       "item": "minecraft:totem_of_undying"
       },
       "type": "beyonddimensions:stack_type/item"
      }
