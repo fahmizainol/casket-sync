@@ -159,7 +159,7 @@
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 0.0
+   "SavedHealth": 32.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -4238,6 +4238,9 @@
  "SpawnX": -15,
  "SpawnY": 100,
  "SpawnZ": -23,
+ "Tags": [
+  "wom_health_fix:32.0"
+ ],
  "UUID": [
   1096852936,
   1655583406,
@@ -14581,7 +14584,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11152,
+  "ticks_since_last_warning": 11504,
   "warning_level": 0
  }
 }

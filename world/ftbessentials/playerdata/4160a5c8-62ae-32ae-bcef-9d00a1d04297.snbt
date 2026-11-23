@@ -3,7 +3,7 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -79, y: 139, z: 18, time: 1795437895613L, xRot: 17.680218f, yRot: -151.27661f }
+	last_seen: { dim: "tcrcore:sanctum", x: 82, y: 73, z: -149, time: 1795440337069L, xRot: 16.430935f, yRot: 0.04748535f }
 	recording: "none"
 	teleport_history: [
 		{ dim: "tcrcore:sanctum", x: -15, y: 87, z: -23, time: 1795439637946L }
