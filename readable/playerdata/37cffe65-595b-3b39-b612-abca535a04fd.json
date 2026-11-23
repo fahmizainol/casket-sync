@@ -1,22 +1,5 @@
 {
- "AbsorptionAmount": 2.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 4,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 143,
-   "Id": 11,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:resistance"
-  }
- ],
+ "AbsorptionAmount": 0.0,
  "Air": 300,
  "Attributes": [
   {
@@ -96,6 +79,10 @@
    "Name": "cataclysm:additional_critical_damage"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
+  },
+  {
    "Base": 15.0,
    "Modifiers": [
     {
@@ -122,6 +109,10 @@
    "Name": "epicfight:armor_negation"
   },
   {
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
+  },
+  {
    "Base": 4.0,
    "Name": "minecraft:generic.attack_speed"
   },
@@ -145,7 +136,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 58,
  "Dimension": "wraithon:sanctum_of_the_wraithon",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -488,6 +479,16 @@
       "SavedBaseSize": 3,
       "Stacks": {
        "Items": [
+        {
+         "Count": 1,
+         "Slot": 0,
+         "id": "uniqueaccessories:hero_emblem"
+        },
+        {
+         "Count": 1,
+         "Slot": 1,
+         "id": "uniqueaccessories:withered_heart"
+        },
         {
          "Count": 1,
          "Slot": 2,
@@ -1216,8 +1217,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 250,
-   "currentLogicNodeId": 250
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 256
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1477,6 +1478,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4751,14 +4753,16 @@
   "last_send_time": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:amplifier_stone": 1,
-   "uniqueaccessories:hero_emblem": 1,
-   "uniqueaccessories:withered_heart": 1
+   "uniqueaccessories:hero_emblem": 1
   },
+  "ua_bb_dodge_until": 2112369,
+  "ua_rs_active_until": 2112270,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 2112088
  },
- "Health": 34.0,
- "HurtByTimestamp": 0,
+ "Health": 0.0,
+ "HurtByTimestamp": 821,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4816,11 +4820,6 @@
      }
     ]
    }
-  },
-  {
-   "Count": 1,
-   "Slot": 2,
-   "id": "uniqueaccessories:withered_heart"
   },
   {
    "Count": 41,
@@ -4959,11 +4958,6 @@
   },
   {
    "Count": 1,
-   "Slot": 25,
-   "id": "minecraft:totem_of_undying"
-  },
-  {
-   "Count": 1,
    "Slot": 26,
    "id": "minecraft:totem_of_undying"
   },
@@ -5014,11 +5008,6 @@
    "Count": 1,
    "Slot": 32,
    "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 33,
-   "id": "uniqueaccessories:hero_emblem"
   },
   {
    "Count": 5,
@@ -5112,9 +5101,9 @@
  "LastDeathLocation": {
   "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   104,
-   7,
-   278
+   118,
+   9,
+   290
   ]
  },
  "Motion": [
@@ -5125,13 +5114,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  129.6439,
-  6.5,
-  285.1687
+  119.482,
+  7.0,
+  289.9156
  ],
  "Rotation": [
-  -126.0215,
-  24.8427
+  52.0144,
+  0.0
  ],
  "Score": 12057,
  "SelectedItemSlot": 0,
@@ -5162,7 +5151,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 3.796,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5173,7 +5162,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 12,
+  "mana": 82,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5181,7 +5170,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14707,10 +14695,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3423,
+  "ticks_since_last_warning": 8013,
   "warning_level": 0
  }
 }

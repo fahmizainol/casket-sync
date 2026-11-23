@@ -49,10 +49,6 @@
    "Name": "irons_spellbooks:max_mana"
   },
   {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
@@ -87,10 +83,6 @@
   {
    "Base": 4.0,
    "Name": "epicfight:offhand_attack_speed"
-  },
-  {
-   "Base": 4.5,
-   "Name": "forge:block_reach"
   },
   {
    "Base": 0.0,
@@ -175,7 +167,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -550,9 +542,11 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_step"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_step",
+   "dodge": "efn:yamato_step",
    "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
@@ -1327,7 +1321,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1341,11 +1335,10 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
-   "blessItem": "cataclysm:void_eye",
    "blessPos": {
-    "X": -176,
-    "Y": 83,
-    "Z": -118
+    "X": 0,
+    "Y": 0,
+    "Z": 0
    },
    "customDataManager": {
     "abyssEyeActivated": 1,
@@ -4246,24 +4239,46 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:bloody_knife": 1,
    "uniqueaccessories:hero_emblem": 1
   },
-  "ua_mn_tabi_last_dash": 2104692,
-  "ua_rs_active_until": 2104586,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2104706,
-  "ua_shiny_last_x": -232.9886,
-  "ua_shiny_last_y": 79.0,
-  "ua_shiny_last_z": -97.7692
+  "ua_shiny_last_active": 2112232,
+  "ua_shiny_last_x": -16.8004,
+  "ua_shiny_last_y": 100.0,
+  "ua_shiny_last_z": -21.9552
  },
  "Health": 34.0,
- "HurtByTimestamp": 460,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
+  {
+   "Count": 1,
+   "Slot": 0,
+   "id": "efn:yamato_dmc_in_sheath",
+   "tag": {
+    "Enchantments": [
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     }
+    ]
+   }
+  },
   {
    "Count": 1,
    "Slot": 1,
@@ -4383,120 +4398,17 @@
    "id": "waystones:waystone"
   },
   {
-   "Count": 1,
-   "Slot": 9,
-   "id": "efn:duskfire_ingot"
-  },
-  {
    "Count": 5,
+   "Slot": 9,
+   "id": "minecraft:golden_carrot",
+   "tag": {
+    "kusabimaru_sheath": 0,
+    "sheath": 0
+   }
+  },
+  {
+   "Count": 1,
    "Slot": 10,
-   "id": "minecraft:netherite_upgrade_smithing_template"
-  },
-  {
-   "Count": 13,
-   "Slot": 11,
-   "id": "minecraft:diamond"
-  },
-  {
-   "Count": 7,
-   "Slot": 12,
-   "id": "minecraft:diamond"
-  },
-  {
-   "Count": 24,
-   "Slot": 13,
-   "id": "minecraft:diamond"
-  },
-  {
-   "Count": 1,
-   "Slot": 14,
-   "id": "magistuarmory:diamond_bastardsword",
-   "tag": {
-    "Damage": 0,
-    "twoHandedPenalty": 1
-   }
-  },
-  {
-   "Count": 4,
-   "Slot": 15,
-   "id": "cataclysm:kobolediator_skull"
-  },
-  {
-   "Count": 2,
-   "Slot": 16,
-   "id": "dodosmobs:chimera_claw"
-  },
-  {
-   "Count": 6,
-   "Slot": 17,
-   "id": "minecraft:bone"
-  },
-  {
-   "Count": 1,
-   "Slot": 18,
-   "id": "magistuarmory:rustedchainmail_helmet",
-   "tag": {
-    "Damage": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 19,
-   "id": "minecraft:dragon_head"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "magistuarmory:hilt"
-  },
-  {
-   "Count": 14,
-   "Slot": 21,
-   "id": "irons_spellbooks:dragonskin"
-  },
-  {
-   "Count": 6,
-   "Slot": 22,
-   "id": "minecraft:diamond"
-  },
-  {
-   "Count": 38,
-   "Slot": 23,
-   "id": "minecraft:chiseled_sandstone"
-  },
-  {
-   "Count": 11,
-   "Slot": 24,
-   "id": "magistuarmory:leather_strip"
-  },
-  {
-   "Count": 1,
-   "Slot": 25,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 26,
-   "id": "uniqueaccessories:hero_emblem"
-  },
-  {
-   "Count": 2,
-   "Slot": 27,
-   "id": "minecraft:arrow"
-  },
-  {
-   "Count": 34,
-   "Slot": 29,
-   "id": "irons_spellbooks:arcane_essence"
-  },
-  {
-   "Count": 1,
-   "Slot": 30,
-   "id": "tcrcore:dual_bokken"
-  },
-  {
-   "Count": 1,
-   "Slot": 31,
    "id": "efn:kusabimaru",
    "tag": {
     "Enchantments": [
@@ -4525,12 +4437,127 @@
    }
   },
   {
-   "Count": 5,
-   "Slot": 32,
-   "id": "minecraft:golden_carrot",
+   "Count": 1,
+   "Slot": 11,
+   "id": "magistuarmory:diamond_bastardsword",
    "tag": {
-    "kusabimaru_sheath": 0,
-    "sheath": 0
+    "Damage": 0,
+    "twoHandedPenalty": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 12,
+   "id": "magistuarmory:rustedchainmail_helmet",
+   "tag": {
+    "Damage": 0
+   }
+  },
+  {
+   "Count": 2,
+   "Slot": 13,
+   "id": "minecraft:arrow"
+  },
+  {
+   "Count": 50,
+   "Slot": 14,
+   "id": "minecraft:diamond"
+  },
+  {
+   "Count": 6,
+   "Slot": 15,
+   "id": "minecraft:bone"
+  },
+  {
+   "Count": 5,
+   "Slot": 16,
+   "id": "minecraft:netherite_upgrade_smithing_template"
+  },
+  {
+   "Count": 1,
+   "Slot": 17,
+   "id": "uniqueaccessories:hero_emblem"
+  },
+  {
+   "Count": 2,
+   "Slot": 18,
+   "id": "dodosmobs:chimera_claw"
+  },
+  {
+   "Count": 11,
+   "Slot": 19,
+   "id": "magistuarmory:leather_strip"
+  },
+  {
+   "Count": 1,
+   "Slot": 20,
+   "id": "magistuarmory:hilt"
+  },
+  {
+   "Count": 14,
+   "Slot": 21,
+   "id": "irons_spellbooks:dragonskin"
+  },
+  {
+   "Count": 34,
+   "Slot": 22,
+   "id": "irons_spellbooks:arcane_essence"
+  },
+  {
+   "Count": 1,
+   "Slot": 23,
+   "id": "efn:duskfire_ingot"
+  },
+  {
+   "Count": 1,
+   "Slot": 24,
+   "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 25,
+   "id": "tcrcore:dual_bokken"
+  },
+  {
+   "Count": 38,
+   "Slot": 26,
+   "id": "minecraft:chiseled_sandstone"
+  },
+  {
+   "Count": 1,
+   "Slot": 27,
+   "id": "minecraft:dragon_head"
+  },
+  {
+   "Count": 4,
+   "Slot": 28,
+   "id": "cataclysm:kobolediator_skull"
+  },
+  {
+   "Count": 1,
+   "Slot": 29,
+   "id": "efn:fire_exsiliumgladius",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:sweeping",
+      "lvl": 3
+     }
+    ],
+    "kusabimaru_sheath": 0
    }
   },
   {
@@ -4632,42 +4659,15 @@
      }
     ]
    }
-  },
-  {
-   "Count": 1,
-   "Slot": -106,
-   "id": "efn:fire_exsiliumgladius",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ],
-    "kusabimaru_sheath": 0
-   }
   }
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "minecraft:the_end",
+  "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   22,
-   59,
-   -35
+   129,
+   7,
+   275
   ]
  },
  "Motion": [
@@ -4678,16 +4678,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -232.9921,
-  79.0,
-  -97.7604
+  -16.8103,
+  100.0,
+  -21.9552
  ],
  "Rotation": [
-  102.8521,
-  1.0866
+  75.0941,
+  0.0
  ],
  "Score": 27744,
- "SelectedItemSlot": 5,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
@@ -4703,7 +4703,7 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 87,
- "XpP": 0.9696,
+ "XpP": 0.5216,
  "XpSeed": 976728483,
  "XpTotal": 27744,
  "abilities": {
@@ -4715,7 +4715,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.136,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4726,7 +4726,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 125,
+  "mana": 115,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15038,7 +15038,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8932,
+  "ticks_since_last_warning": 2824,
   "warning_level": 0
  }
 }
