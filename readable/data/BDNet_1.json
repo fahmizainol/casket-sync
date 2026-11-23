@@ -415,6 +415,15 @@
      }
     },
     {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_nugget"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -556,13 +565,22 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "artifacts:power_glove"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:stone_button"
       },
       "type": "beyonddimensions:stack_type/item"
      }
     },
     {
-     "amount": 34,
+     "amount": 51,
      "key": {
       "stack": {
        "item": "cataclysm:black_steel_fence"
@@ -652,7 +670,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_brick_slab"
@@ -1271,6 +1289,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_wall"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 75,
      "key": {
       "stack": {
@@ -1325,7 +1352,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 18,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_bricks"
@@ -1454,6 +1481,15 @@
      "key": {
       "stack": {
        "item": "minecraft:oak_log"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1989,7 +2025,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 13,
      "key": {
       "stack": {
        "item": "cataclysm:stone_tiles"
@@ -2403,6 +2439,15 @@
      "key": {
       "stack": {
        "item": "irons_spellbooks:divine_pearl"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:crystal_heart"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3023,7 +3068,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:iron_bars"
@@ -3079,7 +3124,7 @@
      }
     },
     {
-     "amount": 11,
+     "amount": 18,
      "key": {
       "stack": {
        "item": "minecraft:stone_brick_stairs"
@@ -3548,7 +3593,7 @@
      }
     },
     {
-     "amount": 335,
+     "amount": 336,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3696,7 +3741,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:cracked_stone_bricks"
@@ -3781,7 +3826,7 @@
      }
     },
     {
-     "amount": 213,
+     "amount": 215,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -3968,6 +4013,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:stone_brick_slab"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 5,
      "key": {
       "stack": {
@@ -4100,6 +4154,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 8,
+     "key": {
+      "stack": {
+       "item": "cataclysm:pointed_icicle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4550,7 +4613,7 @@
      }
     },
     {
-     "amount": 20,
+     "amount": 124,
      "key": {
       "stack": {
        "item": "minecraft:stone_bricks"
@@ -4894,7 +4957,7 @@
      }
     },
     {
-     "amount": 8,
+     "amount": 10,
      "key": {
       "stack": {
        "item": "minecraft:chain"
@@ -5190,7 +5253,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_brick_wall"
@@ -5235,7 +5298,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 16,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_brick_stairs"
@@ -5424,6 +5487,15 @@
        "tag": {
         "kusabimaru_sheath": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "tcrcore:artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5692,7 +5764,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "cataclysm:stone_pillar"
@@ -5701,7 +5773,7 @@
      }
     },
     {
-     "amount": 7,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "minecraft:stone_brick_wall"

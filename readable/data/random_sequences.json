@@ -117,8 +117,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    4386759577917887630,
-    6288839309350529518
+    1645303366197813498,
+    -8899020675211821386
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -2600366158485635173,
-    8992565717865514565
+    8770619012799040600,
+    4073599695394831483
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -6720076635662829621,
-    -1767919717428954576
+    -5427151569676410254,
+    1481648110892581359
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -423,8 +423,8 @@
   },
   "cataclysm:blocks/pointed_icicle": {
    "source": [
-    7421312119675805694,
-    -7574140156179877535
+    8450358952679375985,
+    -5246594207118895503
    ]
   },
   "cataclysm:entities/draugr": {
@@ -663,8 +663,8 @@
   },
   "minecraft:blocks/chain": {
    "source": [
-    -862374039826848598,
-    5775653898879598698
+    -7556278771913829809,
+    3201204493104075912
    ]
   },
   "minecraft:blocks/chiseled_deepslate": {
@@ -699,8 +699,8 @@
   },
   "minecraft:blocks/chiseled_stone_bricks": {
    "source": [
-    4778575718195744520,
-    -7237966456714041910
+    3700253583015588716,
+    -2146442880646523276
    ]
   },
   "minecraft:blocks/coal_ore": {
@@ -927,8 +927,8 @@
   },
   "minecraft:blocks/flower_pot": {
    "source": [
-    -7767653417260849871,
-    7506455571747084537
+    1140426745742337642,
+    -2909642170837108580
    ]
   },
   "minecraft:blocks/flowering_azalea": {
@@ -1041,8 +1041,8 @@
   },
   "minecraft:blocks/iron_bars": {
    "source": [
-    -915379827147211288,
-    -5689537023696189032
+    4991629668062501019,
+    7892026050835740505
    ]
   },
   "minecraft:blocks/iron_door": {
@@ -1311,8 +1311,8 @@
   },
   "minecraft:blocks/polished_andesite": {
    "source": [
-    -1649836724418994339,
-    -1619084457956365516
+    432832088916690746,
+    -4242886097041616234
    ]
   },
   "minecraft:blocks/polished_andesite_slab": {
@@ -1557,8 +1557,8 @@
   },
   "minecraft:blocks/skeleton_skull": {
    "source": [
-    8257930440879759182,
-    7299581713148606357
+    767737904213176784,
+    -713026084974791215
    ]
   },
   "minecraft:blocks/small_amethyst_bud": {
@@ -1653,8 +1653,8 @@
   },
   "minecraft:blocks/soul_lantern": {
    "source": [
-    -6325656677070008587,
-    3004747934065265701
+    -7965013003191583368,
+    3521146579302835717
    ]
   },
   "minecraft:blocks/soul_sand": {
@@ -1743,20 +1743,20 @@
   },
   "minecraft:blocks/stone_brick_stairs": {
    "source": [
-    -309009388747122032,
-    -5267340099430331893
+    -2224479584569196072,
+    8879280790974253675
    ]
   },
   "minecraft:blocks/stone_brick_wall": {
    "source": [
-    62836656009270037,
-    7676685062295238644
+    6342130790213407829,
+    4840576454621187855
    ]
   },
   "minecraft:blocks/stone_bricks": {
    "source": [
-    7027764069061588038,
-    -619956446960671645
+    4771147591077616398,
+    -650271690383526420
    ]
   },
   "minecraft:blocks/stone_button": {
@@ -2085,8 +2085,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    4783591302317112000,
-    -8407987068944679748
+    -8273409893918407295,
+    -3484091147508965233
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2193,8 +2193,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    -1170064446637402611,
-    8855898320496254070
+    1340422344356418696,
+    -7448497229203518515
    ]
   },
   "minecraft:entities/zombie_villager": {
