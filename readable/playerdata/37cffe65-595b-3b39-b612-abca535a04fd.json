@@ -15,34 +15,8 @@
    "Name": "epicfight:impact"
   },
   {
-   "Base": 1.0,
-   "Modifiers": [
-    {
-     "Amount": 4.0,
-     "Name": "artifacts:power_glove_attack_damage_bonus",
-     "Operation": 0,
-     "UUID": [
-      308939635,
-      -1374337428,
-      -1487198021,
-      -702737548
-     ],
-     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    }
-   ],
-   "Name": "minecraft:generic.attack_damage"
-  },
-  {
    "Base": 0.0,
    "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 4.0,
-   "Name": "minecraft:generic.attack_speed"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
   },
   {
    "Base": 0.0,
@@ -50,7 +24,19 @@
   },
   {
    "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 0.0,
    "Name": "attributeslib:dodge_chance"
+  },
+  {
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
+  },
+  {
+   "Base": 0.08,
+   "Name": "forge:entity_gravity"
   },
   {
    "Base": 20.0,
@@ -71,24 +57,26 @@
    "Name": "minecraft:generic.max_health"
   },
   {
-   "Base": 0.08,
-   "Name": "forge:entity_gravity"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
+   "Base": 1.0,
+   "Modifiers": [
+    {
+     "Amount": 4.0,
+     "Name": "artifacts:power_glove_attack_damage_bonus",
+     "Operation": 0,
+     "UUID": [
+      308939635,
+      -1374337428,
+      -1487198021,
+      -702737548
+     ],
+     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+    }
+   ],
+   "Name": "minecraft:generic.attack_damage"
   },
   {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 15.0,
@@ -121,8 +109,20 @@
    "Name": "attributeslib:crit_chance"
   },
   {
+   "Base": 4.0,
+   "Name": "minecraft:generic.attack_speed"
+  },
+  {
    "Base": 1.0,
    "Name": "epicfight:max_strikes"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor"
   }
  ],
  "BalmData": {},
@@ -133,7 +133,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -147,7 +147,7 @@
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 1.0
+   "SavedHealth": 0.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -506,18 +506,22 @@
    "dodge": "efn:murasama_dodge",
    "guard": "efn:murasama_parry",
    "learned:dodge": {
-    "0": "efn:efn_dodge"
+    "0": "efn:murasama_dodge",
+    "1": "efn:efn_dodge"
    },
    "learned:guard": {
-    "0": "efn:efn_parry"
+    "0": "efn:efn_parry",
+    "1": "efn:murasama_parry"
    },
    "learned:passive": {
-    "0": "dodge_parry_reward:stamina1",
-    "1": "dodge_parry_reward:damage_boost4",
-    "2": "dodge_parry_reward:damage_boost1",
+    "0": "wom:heart_shield",
+    "1": "dodge_parry_reward:stamina1",
+    "2": "dodge_parry_reward:damage_boost4",
     "3": "dodge_parry_reward:damage_boost2",
-    "4": "dodge_parry_reward:damage_boost3",
-    "5": "efn:precise_parry"
+    "4": "dodge_parry_reward:damage_boost1",
+    "5": "efn:precise_parry",
+    "6": "dodge_parry_reward:damage_boost3",
+    "7": "wom:mindset"
    },
    "learned:sword_soaring": {
     "0": "sword_soaring:sword_soaring_elytra_master"
@@ -528,7 +532,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost3",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -4727,9 +4731,10 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "ua_rs_active_until": 1937790,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 1931709
+  "ua_tabi_last_dash": 1937897
  },
  "Health": 1.0,
  "HurtByTimestamp": 0,
@@ -4811,9 +4816,9 @@
    "id": "cataclysm:koboleton_bone"
   },
   {
-   "Count": 2,
+   "Count": 29,
    "Slot": 7,
-   "id": "cataclysm:necklace_of_the_desert"
+   "id": "waystones:waystone"
   },
   {
    "Count": 1,
@@ -4838,6 +4843,11 @@
    "Count": 1,
    "Slot": 11,
    "id": "minecraft:iron_ingot"
+  },
+  {
+   "Count": 2,
+   "Slot": 12,
+   "id": "cataclysm:necklace_of_the_desert"
   },
   {
    "Count": 1,
@@ -5113,9 +5123,9 @@
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
   "pos": [
-   -54,
-   98,
-   -23
+   -30,
+   140,
+   -40
   ]
  },
  "Motion": [
@@ -5126,20 +5136,17 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -136.825,
-  79.0,
-  -190.195
+  -37.5838,
+  152.0,
+  -43.9733
  ],
  "Rotation": [
-  67.4993,
-  9.9
+  -83.4527,
+  9.5675
  ],
  "Score": 9157,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
- "Tags": [
-  "wom_health_fix:1.0"
- ],
  "UUID": [
   936377957,
   1499151161,
@@ -5160,7 +5167,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.878,
+ "foodExhaustionLevel": 2.108,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14708,7 +14715,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3964,
+  "ticks_since_last_warning": 7732,
   "warning_level": 0
  }
 }

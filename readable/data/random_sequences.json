@@ -1917,8 +1917,8 @@
   },
   "minecraft:blocks/white_carpet": {
    "source": [
-    5344081360667184007,
-    5552901151366736386
+    4625065542948971618,
+    4984488700928610573
    ]
   },
   "minecraft:blocks/white_tulip": {
@@ -2073,8 +2073,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    1626800499983849299,
-    -2731220479873910229
+    2442232820481807768,
+    3509277892593491599
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2109,8 +2109,14 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    9008322002488256286,
-    -386587198688074464
+    -532338573130807559,
+    7127218630563882963
+   ]
+  },
+  "minecraft:entities/skeleton_horse": {
+   "source": [
+    -3539441315506699042,
+    5889997323909876230
    ]
   },
   "minecraft:entities/slime": {

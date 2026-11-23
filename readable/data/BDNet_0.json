@@ -2089,15 +2089,6 @@
      }
     },
     {
-     "amount": 29,
-     "key": {
-      "stack": {
-       "item": "waystones:waystone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 7,
      "key": {
       "stack": {
@@ -2702,6 +2693,6 @@
     }
    ]
   },
-  "currentTime": 144
+  "currentTime": 11965
  }
 }

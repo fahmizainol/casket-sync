@@ -226,7 +226,7 @@
      }
     },
     {
-     "amount": 21,
+     "amount": 23,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
@@ -364,10 +364,19 @@
      }
     },
     {
-     "amount": 109,
+     "amount": 117,
      "key": {
       "stack": {
        "item": "minecraft:gunpowder"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:cauldron"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -478,6 +487,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:sandstone_ignite_trap"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -544,7 +562,16 @@
      }
     },
     {
-     "amount": 33,
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_fence"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 74,
      "key": {
       "stack": {
        "item": "minecraft:smooth_sandstone"
@@ -620,6 +647,15 @@
      "key": {
       "stack": {
        "item": "minecraft:cookie"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:frosted_stone_brick_slab"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1289,6 +1325,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:frosted_stone_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -1784,6 +1829,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:arms_up_pottery_sherd"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 7,
      "key": {
       "stack": {
@@ -1793,7 +1847,16 @@
      }
     },
     {
-     "amount": 573,
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:smooth_red_sandstone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 575,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -1929,6 +1992,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:stone_tiles"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "magistuarmory:corruptedroundshield",
        "tag": {
         "Damage": 0
@@ -2011,7 +2083,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:smooth_sandstone_slab"
@@ -2429,7 +2501,7 @@
      }
     },
     {
-     "amount": 240,
+     "amount": 244,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -2894,6 +2966,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:danger_pottery_sherd"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -2984,6 +3065,15 @@
      "key": {
       "stack": {
        "item": "minecraft:kelp"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:stone_brick_stairs"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3283,7 +3373,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:golden_apple"
@@ -3413,7 +3503,7 @@
      }
     },
     {
-     "amount": 159,
+     "amount": 165,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -3440,7 +3530,16 @@
      }
     },
     {
-     "amount": 320,
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:snort_pottery_sherd"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 321,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3558,7 +3657,7 @@
      }
     },
     {
-     "amount": 68,
+     "amount": 72,
      "key": {
       "stack": {
        "item": "minecraft:sand"
@@ -3673,7 +3772,7 @@
      }
     },
     {
-     "amount": 190,
+     "amount": 210,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -4451,6 +4550,15 @@
      }
     },
     {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "minecraft:stone_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -4495,7 +4603,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:smooth_red_sandstone_stairs"
@@ -4599,7 +4707,7 @@
      }
     },
     {
-     "amount": 174,
+     "amount": 182,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -5118,6 +5226,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:frosted_stone_brick_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 9,
      "key": {
       "stack": {
@@ -5330,7 +5447,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "cataclysm:sandstone_falling_trap"
@@ -5562,6 +5679,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:stone_pillar"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
@@ -5776,7 +5902,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 13,
      "key": {
       "stack": {
        "item": "minecraft:smooth_sandstone_stairs"
@@ -5813,6 +5939,6 @@
     }
    ]
   },
-  "currentTime": 5477
+  "currentTime": 5298
  }
 }

@@ -3,11 +3,9 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "tcrcore:sanctum", x: -137, y: 79, z: -191, time: 1795258203921L, xRot: 9.900044f, yRot: 67.49933f }
+	last_seen: { dim: "tcrcore:sanctum", x: -137, y: 79, z: -191, time: 1795438025947L, xRot: 9.900044f, yRot: 67.49933f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -57, y: 132, z: -44, time: 1795256801693L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -56, y: 132, z: -43, time: 1795256844894L }
 		{ dim: "minecraft:overworld", x: 213, y: 73, z: -673, time: 1795256848155L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 197, z: 0, time: 1795256861590L }
 		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -27, y: 132, z: 1, time: 1795257125222L }
@@ -16,6 +14,8 @@
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: 0, y: 192, z: 0, time: 1795258038411L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -55, y: 98, z: -22, time: 1795258060665L }
 		{ dim: "tcrcore:sanctum", x: -174, y: 79, z: -193, time: 1795258090849L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -30, y: 136, z: -42, time: 1795438147078L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: 0, y: 176, z: 0, time: 1795438185563L }
 	]
 	homes: { }
 	kit_use_times: { }
