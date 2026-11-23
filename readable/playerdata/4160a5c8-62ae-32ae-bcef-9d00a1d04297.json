@@ -49,6 +49,10 @@
    "Name": "irons_spellbooks:max_mana"
   },
   {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
@@ -167,9 +171,9 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "wraithon:sanctum_of_the_wraithon",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
- "FallDistance": 0.8953,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -542,11 +546,9 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_step"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:yamato_step",
+   "dodge": "efn:efn_step",
    "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
@@ -608,7 +610,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 4,
+   "abilityPoint": 7,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -1261,7 +1263,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 42
+   "currentLogicNodeId": 282
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4243,14 +4245,14 @@
    "uniqueaccessories:bloody_knife": 1,
    "uniqueaccessories:hero_emblem": 1
   },
-  "ua_mn_tabi_last_dash": 2118319,
-  "ua_rs_active_until": 2118324,
+  "ua_mn_tabi_last_dash": 2124115,
+  "ua_rs_active_until": 2124070,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2118336,
-  "ua_shiny_last_x": 119.0583,
-  "ua_shiny_last_y": 9.8038,
-  "ua_shiny_last_z": 243.4714
+  "ua_shiny_last_active": 2124159,
+  "ua_shiny_last_x": -198.7472,
+  "ua_shiny_last_y": 82.5,
+  "ua_shiny_last_z": -190.2892
  },
  "Health": 34.0,
  "HurtByTimestamp": 0,
@@ -4279,7 +4281,7 @@
       "lvl": 3
      }
     ],
-    "TotalDamage": 33.919
+    "TotalDamage": 41.4599
    }
   },
   {
@@ -4389,11 +4391,6 @@
    "Count": 1,
    "Slot": 6,
    "id": "uniqueaccessories:bloody_knife"
-  },
-  {
-   "Count": 3,
-   "Slot": 7,
-   "id": "epicskills:ability_stone"
   },
   {
    "Count": 14,
@@ -4673,29 +4670,29 @@
  "LastDeathLocation": {
   "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   121,
+   123,
    7,
-   245
+   254
   ]
  },
  "Motion": [
-  -0.095,
-  -0.4709,
-  -0.0561
+  0.0,
+  -0.0784,
+  0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  119.0583,
-  9.8038,
-  243.4714
+  -198.7525,
+  82.5,
+  -190.2848
  ],
  "Rotation": [
-  31.7589,
-  22.0338
+  94.4142,
+  3.6837
  ],
  "Score": 27744,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 7,
  "SleepTimer": 0,
  "UUID": [
   1096852936,
@@ -4717,7 +4714,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.016,
+ "foodExhaustionLevel": 1.715,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4728,7 +4725,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 8,
+  "mana": 81,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15040,7 +15037,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7540,
+  "ticks_since_last_warning": 1244,
   "warning_level": 0
  }
 }

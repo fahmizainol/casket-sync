@@ -6,16 +6,16 @@
 	last_seen: { dim: "tcrcore:sanctum", x: 81, y: 73, z: -132, time: 1795440431667L, xRot: 25.730911f, yRot: 158.01477f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795447171761L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 100, y: 7, z: 283, time: 1795447188163L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795447190539L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 171, y: 7, z: 259, time: 1795447264318L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795447266255L }
 		{ dim: "tcrcore:sanctum", x: -206, y: 85, z: -192, time: 1795447278808L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 125, y: 7, z: 302, time: 1795447311262L }
 		{ dim: "minecraft:overworld", x: 216, y: 73, z: -678, time: 1795447314440L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 122, y: 7, z: 245, time: 1795447353617L }
 		{ dim: "minecraft:overworld", x: 211, y: 73, z: -666, time: 1795447355070L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 143, y: 7, z: 242, time: 1795447398431L }
+		{ dim: "tcrcore:sanctum", x: -232, y: 79, z: -95, time: 1795447581890L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 122, y: 7, z: 253, time: 1795447624729L }
+		{ dim: "minecraft:overworld", x: 198, y: 73, z: -674, time: 1795447626509L }
 	]
 	homes: { }
 	kit_use_times: { }
