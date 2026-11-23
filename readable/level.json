@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1427489,
+  "DayTime": 1433489,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -426,7 +426,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795452456986,
+  "LastPlayed": 1795452757007,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -440,7 +440,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 577,
+     "Duration": 589,
      "Id": 21,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -455,7 +455,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 250,
+     "Duration": 258,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -470,7 +470,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 77,
+     "Duration": 89,
      "HiddenEffect": {
       "Ambient": 1,
       "Amplifier": 0,
@@ -4755,17 +4755,17 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_mn_tabi_last_dash": 2220141,
-    "ua_rs_active_until": 2219575,
+    "ua_mn_tabi_last_dash": 2226191,
+    "ua_rs_active_until": 2226241,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 2220333,
-    "ua_shiny_last_x": -17.4562,
+    "ua_shiny_last_active": 2226336,
+    "ua_shiny_last_x": 7.0083,
     "ua_shiny_last_y": 3.0,
-    "ua_shiny_last_z": -5.989
+    "ua_shiny_last_z": 7.2553
    },
-   "Health": 66.0,
-   "HurtByTimestamp": 3393,
+   "Health": 53.6667,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -5197,9 +5197,9 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     -16,
-     3,
-     -16
+     4,
+     4,
+     8
     ]
    },
    "Motion": [
@@ -5210,13 +5210,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -17.4562,
+    7.0083,
     3.0,
-    -5.989
+    7.2553
    ],
    "Rotation": [
-    -2.0341,
-    -14.1499
+    -65.0565,
+    -8.2845
    ],
    "Score": 27850,
    "SelectedItemSlot": 0,
@@ -5241,10 +5241,10 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.767,
+   "foodExhaustionLevel": 0.823,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
-   "foodTickTimer": 0,
+   "foodTickTimer": 8,
    "irons_spellbooks:magic_data": {
     "castingEquipmentSlot": "",
     "castingSpellId": "",
@@ -5252,7 +5252,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 125,
+    "mana": 33,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15564,7 +15564,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 8819,
+    "ticks_since_last_warning": 2182,
     "warning_level": 0
    }
   },
@@ -15576,7 +15576,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2220336,
+  "Time": 2226336,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15584,7 +15584,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16272,9 +16272,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 49756,
+  "rainTime": 43756,
   "raining": 0,
-  "thunderTime": 6258,
+  "thunderTime": 258,
   "thundering": 0,
   "version": 19133
  },
