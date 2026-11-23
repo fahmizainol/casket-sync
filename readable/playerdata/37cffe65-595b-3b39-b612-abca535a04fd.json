@@ -1,5 +1,22 @@
 {
  "AbsorptionAmount": 20.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 5,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": -1,
+   "Id": 170,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "efn:murasama_sheath"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -106,6 +123,18 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+    },
+    {
+     "Amount": 0.6,
+     "Name": "effect.efn.murasama_sheath 5",
+     "Operation": 2,
+     "UUID": [
+      -1961218756,
+      1314876027,
+      -1935810319,
+      -1565276971
+     ],
+     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -553,7 +582,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost1",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1452,7 +1481,7 @@
  },
  "ForgeData": {
   "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 18,
+  "EFNMurasamaSheathTicks": 12,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4760,13 +4789,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:amplifier_stone": 1
   },
-  "ua_rs_active_until": 2063739,
+  "ua_rs_active_until": 2069569,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2063261
+  "ua_tabi_last_dash": 2070122
  },
  "Health": 1.0,
- "HurtByTimestamp": 20011,
+ "HurtByTimestamp": 26591,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4788,7 +4817,7 @@
       "lvl": 3
      }
     ],
-    "murasama_sheath": 0
+    "murasama_sheath": 1
    }
   },
   {
@@ -4819,7 +4848,7 @@
    "id": "minecraft:black_bed"
   },
   {
-   "Count": 27,
+   "Count": 31,
    "Slot": 3,
    "id": "minecraft:emerald"
   },
@@ -4910,6 +4939,11 @@
   {
    "Count": 1,
    "Slot": 18,
+   "id": "minecraft:totem_of_undying"
+  },
+  {
+   "Count": 1,
+   "Slot": 19,
    "id": "minecraft:totem_of_undying"
   },
   {
@@ -5015,15 +5049,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  269.2313,
-  63.0,
-  -1772.8371
+  3266.749,
+  82.0,
+  -6881.6835
  ],
  "Rotation": [
-  -135.6314,
-  51.7275
+  -87.1448,
+  19.4976
  ],
- "Score": 9316,
+ "Score": 9334,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
@@ -5040,9 +5074,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 57,
- "XpP": 0.662,
+ "XpP": 0.7127,
  "XpSeed": -736053570,
- "XpTotal": 9316,
+ "XpTotal": 9334,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5052,7 +5086,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.969,
+ "foodExhaustionLevel": 0.976,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14600,7 +14634,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11496,
+  "ticks_since_last_warning": 5493,
   "warning_level": 0
  }
 }

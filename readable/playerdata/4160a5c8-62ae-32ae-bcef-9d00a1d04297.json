@@ -3,14 +3,6 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
-  },
-  {
    "Base": 0.5,
    "Name": "epicfight:impact"
   },
@@ -20,15 +12,7 @@
   },
   {
    "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:dodge_chance"
   },
   {
    "Base": 0.1,
@@ -57,6 +41,58 @@
    "Name": "minecraft:generic.max_health"
   },
   {
+   "Base": 100.0,
+   "Name": "irons_spellbooks:max_mana"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
+  },
+  {
+   "Base": 1.0,
+   "Name": "forge:swim_speed"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 4.5,
+   "Name": "forge:block_reach"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:dodge_chance"
+  },
+  {
    "Base": 1.0,
    "Modifiers": [
     {
@@ -73,18 +109,6 @@
     }
    ],
    "Name": "minecraft:generic.attack_damage"
-  },
-  {
-   "Base": 100.0,
-   "Name": "irons_spellbooks:max_mana"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
   },
   {
    "Base": 15.0,
@@ -133,18 +157,6 @@
     }
    ],
    "Name": "minecraft:generic.attack_speed"
-  },
-  {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
   }
  ],
  "BalmData": {},
@@ -567,7 +579,7 @@
    "passive4": "dodge_parry_reward:health_boost2",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -4221,17 +4233,17 @@
    "uniqueaccessories:master_ninja_tabi": 1,
    "uniqueaccessories:tabi": 1
   },
-  "ua_mn_tabi_last_dash": 2062489,
-  "ua_rs_active_until": 2063811,
+  "ua_mn_tabi_last_dash": 2070299,
+  "ua_rs_active_until": 2070306,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2064112,
-  "ua_shiny_last_x": 258.1231,
-  "ua_shiny_last_y": 66.0,
-  "ua_shiny_last_z": -1767.0385,
+  "ua_shiny_last_active": 2070333,
+  "ua_shiny_last_x": 3261.8048,
+  "ua_shiny_last_y": 84.0,
+  "ua_shiny_last_z": -6879.1462,
   "ua_tabi_last_dash": 2049870
  },
- "Health": 32.0,
+ "Health": 24.8099,
  "HurtByTimestamp": 15416,
  "HurtTime": 0,
  "Inventory": [
@@ -4300,17 +4312,21 @@
   {
    "Count": 1,
    "Slot": 2,
-   "id": "cataclysm:black_steel_sword",
+   "id": "cataclysm:soul_render",
    "tag": {
     "Damage": 0,
     "Enchantments": [
      {
-      "id": "minecraft:fire_aspect",
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:knockback",
       "lvl": 2
      },
      {
-      "id": "minecraft:sharpness",
-      "lvl": 5
+      "id": "minecraft:looting",
+      "lvl": 3
      }
     ]
    }
@@ -4362,24 +4378,102 @@
    "id": "waystones:waystone"
   },
   {
-   "Count": 3,
+   "Count": 1,
+   "Slot": 9,
+   "id": "minecraft:netherite_ingot"
+  },
+  {
+   "Count": 7,
    "Slot": 10,
-   "id": "minecraft:stick"
+   "id": "minecraft:netherite_upgrade_smithing_template"
   },
   {
-   "Count": 6,
+   "Count": 2,
    "Slot": 11,
-   "id": "magistuarmory:leather_strip"
+   "id": "magistuarmory:hilt"
   },
   {
-   "Count": 63,
+   "Count": 59,
    "Slot": 12,
    "id": "minecraft:diamond"
   },
   {
-   "Count": 22,
-   "Slot": 23,
+   "Count": 8,
+   "Slot": 13,
+   "id": "magistuarmory:leather_strip"
+  },
+  {
+   "Count": 19,
+   "Slot": 14,
    "id": "minecraft:leather"
+  },
+  {
+   "Count": 1,
+   "Slot": 15,
+   "id": "minecraft:leather"
+  },
+  {
+   "Count": 3,
+   "Slot": 16,
+   "id": "cataclysm:cursium_ingot"
+  },
+  {
+   "Count": 11,
+   "Slot": 17,
+   "id": "cataclysm:black_steel_ingot"
+  },
+  {
+   "Count": 2,
+   "Slot": 18,
+   "id": "minecraft:emerald"
+  },
+  {
+   "Count": 3,
+   "Slot": 19,
+   "id": "minecraft:poisonous_potato"
+  },
+  {
+   "Count": 3,
+   "Slot": 20,
+   "id": "minecraft:wheat"
+  },
+  {
+   "Count": 2,
+   "Slot": 21,
+   "id": "minecraft:stick"
+  },
+  {
+   "Count": 4,
+   "Slot": 22,
+   "id": "minecraft:potato"
+  },
+  {
+   "Count": 3,
+   "Slot": 23,
+   "id": "minecraft:bread"
+  },
+  {
+   "Count": 2,
+   "Slot": 24,
+   "id": "minecraft:chiseled_quartz_block"
+  },
+  {
+   "Count": 1,
+   "Slot": 29,
+   "id": "cataclysm:black_steel_sword",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     }
+    ]
+   }
   },
   {
    "Count": 1,
@@ -4499,16 +4593,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  258.132,
-  66.0,
-  -1767.0385
+  3261.81,
+  84.0,
+  -6879.1431
  ],
  "Rotation": [
-  -14.7048,
-  32.9425
+  -43.6583,
+  19.4627
  ],
- "Score": 15876,
- "SelectedItemSlot": 3,
+ "Score": 15894,
+ "SelectedItemSlot": 4,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
@@ -4523,10 +4617,10 @@
   -1580186985
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
- "XpLevel": 67,
- "XpP": 0.5798,
+ "XpLevel": 66,
+ "XpP": 0.9908,
  "XpSeed": 976728483,
- "XpTotal": 15876,
+ "XpTotal": 15894,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4536,7 +4630,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.625,
+ "foodExhaustionLevel": 1.228,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14859,7 +14953,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3602,
+  "ticks_since_last_warning": 9602,
   "warning_level": 0
  }
 }

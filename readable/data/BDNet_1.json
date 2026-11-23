@@ -1359,15 +1359,6 @@
      }
     },
     {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "cataclysm:cursium_ingot"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 3,
      "key": {
       "stack": {
@@ -1595,15 +1586,6 @@
      "key": {
       "stack": {
        "item": "minecraft:oak_log"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 12,
-     "key": {
-      "stack": {
-       "item": "cataclysm:black_steel_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2519,15 +2501,6 @@
      "key": {
       "stack": {
        "item": "minecraft:totem_of_undying"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 8,
-     "key": {
-      "stack": {
-       "item": "minecraft:netherite_upgrade_smithing_template"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3918,7 +3891,7 @@
      }
     },
     {
-     "amount": 342,
+     "amount": 343,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

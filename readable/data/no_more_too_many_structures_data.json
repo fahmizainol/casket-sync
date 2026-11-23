@@ -241,6 +241,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3700.0,
+    "maxY": 84.0,
+    "maxZ": -7152.0,
+    "minX": 3696.0,
+    "minY": 81.0,
+    "minZ": -7156.0,
+    "type": "trek:overworld/very_common/plains",
+    "uuid": [
+     -862019116,
+     -1378924400,
+     -1812238090,
+     920393187
+    ],
+    "uuid_str": "cc9ea1d4-adcf-4890-93fb-70f636dc15e3",
+    "whitelisted": 0
+   },
+   {
     "maxX": 274.0,
     "maxY": 70.0,
     "maxZ": 1026.0,
