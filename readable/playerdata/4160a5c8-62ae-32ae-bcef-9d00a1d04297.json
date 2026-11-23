@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 572,
+   "Duration": 443,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,37 +25,22 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 246,
+   "Duration": 241,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
   },
   {
-   "Ambient": 0,
-   "Amplifier": 2,
+   "Ambient": 1,
+   "Amplifier": 0,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 72,
-   "HiddenEffect": {
-    "Ambient": 1,
-    "Amplifier": 0,
-    "CurativeItems": [
-     {
-      "Count": 1,
-      "id": "minecraft:milk_bucket"
-     }
-    ],
-    "Duration": 258,
-    "Id": 5,
-    "ShowIcon": 1,
-    "ShowParticles": 0,
-    "forge:id": "minecraft:strength"
-   },
+   "Duration": 258,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -155,20 +140,12 @@
    "Name": "forge:entity_reach"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
-  },
-  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
   {
    "Base": 4.0,
    "Name": "epicfight:offhand_attack_speed"
-  },
-  {
-   "Base": 4.5,
-   "Name": "forge:block_reach"
   },
   {
    "Base": 0.0,
@@ -198,8 +175,8 @@
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
     },
     {
-     "Amount": 9.0,
-     "Name": "effect.minecraft.strength 2",
+     "Amount": 3.0,
+     "Name": "effect.minecraft.strength 0",
      "Operation": 0,
      "UUID": [
       1686990948,
@@ -1415,7 +1392,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4333,16 +4310,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_mn_tabi_last_dash": 2267676,
-  "ua_rs_active_until": 2267496,
+  "ua_mn_tabi_last_dash": 2273561,
+  "ua_rs_active_until": 2273453,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
  "Health": 66.0,
- "HurtByTimestamp": 4274,
+ "HurtByTimestamp": 3248,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4837,9 +4815,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -21,
+   2,
    3,
-   -9
+   -7
   ]
  },
  "Motion": [
@@ -4850,13 +4828,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  12.2276,
+  -24.3132,
   3.0,
-  -11.1462
+  -5.2122
  ],
  "Rotation": [
-  139.6038,
-  -32.753
+  -88.448,
+  25.2644
  ],
  "Score": 27850,
  "SelectedItemSlot": 0,
@@ -4881,7 +4859,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.9,
+ "foodExhaustionLevel": 1.485,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15204,7 +15182,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6092,
+  "ticks_since_last_warning": 11990,
   "warning_level": 0
  }
 }
