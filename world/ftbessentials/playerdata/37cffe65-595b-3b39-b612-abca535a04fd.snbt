@@ -6,16 +6,16 @@
 	last_seen: { dim: "tcrcore:sanctum", x: -137, y: 79, z: -191, time: 1795438025947L, xRot: 9.900044f, yRot: 67.49933f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: 213, y: 73, z: -673, time: 1795256848155L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 0, y: 197, z: 0, time: 1795256861590L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: -27, y: 132, z: 1, time: 1795257125222L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -28, y: 133, z: 2, time: 1795257913324L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -40, y: 98, z: -21, time: 1795258019392L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: 0, y: 192, z: 0, time: 1795258038411L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -55, y: 98, z: -22, time: 1795258060665L }
-		{ dim: "tcrcore:sanctum", x: -174, y: 79, z: -193, time: 1795258090849L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -30, y: 136, z: -42, time: 1795438147078L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: 0, y: 176, z: 0, time: 1795438185563L }
+		{ dim: "minecraft:overworld", x: 210, y: 73, z: -670, time: 1795438340977L }
+		{ dim: "minecraft:overworld", x: 216, y: 73, z: -661, time: 1795438349873L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -49, y: 98, z: -22, time: 1795438384153L }
+		{ dim: "minecraft:overworld", x: 202, y: 73, z: -673, time: 1795438395733L }
+		{ dim: "minecraft:overworld", x: 213, y: 73, z: -668, time: 1795438410938L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -52, y: 98, z: -16, time: 1795438435252L }
+		{ dim: "minecraft:overworld", x: 212, y: 73, z: -663, time: 1795438437878L }
+		{ dim: "minecraft:overworld", x: 212, y: 73, z: -663, time: 1795438438575L }
+		{ dim: "minecraft:overworld", x: 212, y: 73, z: -663, time: 1795438439977L }
+		{ dim: "minecraft:overworld", x: 221, y: 72, z: -655, time: 1795438463443L }
 	]
 	homes: { }
 	kit_use_times: { }
