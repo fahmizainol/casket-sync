@@ -3,19 +3,19 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "minecraft:overworld", x: 197, y: 73, z: -658, time: 1795442269174L, xRot: -19.98782f, yRot: -94.21179f }
+	last_seen: { dim: "wraithon:sanctum_of_the_wraithon", x: 99, y: 7, z: 293, time: 1795447169665L, xRot: 0.0f, yRot: 91.85504f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 104, y: 7, z: 279, time: 1795446751112L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 140, y: 7, z: 286, time: 1795446776107L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 122, y: 6, z: 261, time: 1795446797729L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 145, y: 7, z: 276, time: 1795446851288L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 130, y: 7, z: 286, time: 1795446871188L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 135, y: 7, z: 291, time: 1795446897697L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 122, y: 7, z: 289, time: 1795446938033L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 123, y: 7, z: 280, time: 1795446963073L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 137, y: 6, z: 262, time: 1795446985114L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 107, y: 7, z: 282, time: 1795447013926L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 99, y: 7, z: 293, time: 1795447178804L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 136, y: 7, z: 277, time: 1795447198039L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 179, y: 7, z: 268, time: 1795447233274L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795447237404L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 174, y: 7, z: 269, time: 1795447254799L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 130, y: 7, z: 289, time: 1795447286852L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795447288046L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 128, y: 7, z: 305, time: 1795447307846L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 135, y: 7, z: 262, time: 1795447342179L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795447343843L }
 	]
 	homes: { }
 	kit_use_times: { }

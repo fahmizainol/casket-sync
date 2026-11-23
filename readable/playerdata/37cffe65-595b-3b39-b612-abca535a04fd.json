@@ -136,7 +136,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 58,
+ "DeathTime": 55,
  "Dimension": "wraithon:sanctum_of_the_wraithon",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -486,11 +486,6 @@
         },
         {
          "Count": 1,
-         "Slot": 1,
-         "id": "uniqueaccessories:withered_heart"
-        },
-        {
-         "Count": 1,
          "Slot": 2,
          "id": "uniqueaccessories:still_beating_heart"
         }
@@ -518,11 +513,14 @@
     "0": "efn:efn_parry",
     "1": "efn:murasama_parry"
    },
+   "learned:judgmentcut_end": {
+    "0": "efn:judgementcutend"
+   },
    "learned:passive": {
-    "0": "wom:heart_shield",
-    "1": "wom:adrenaline",
-    "2": "dodge_parry_reward:stamina1",
-    "3": "dodge_parry_reward:damage_boost4",
+    "0": "wom:adrenaline",
+    "1": "wom:heart_shield",
+    "2": "dodge_parry_reward:damage_boost4",
+    "3": "dodge_parry_reward:stamina1",
     "4": "dodge_parry_reward:damage_boost2",
     "5": "dodge_parry_reward:damage_boost1",
     "6": "efn:precise_parry",
@@ -1218,7 +1216,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 256
+   "currentLogicNodeId": 253
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4753,16 +4751,15 @@
   "last_send_time": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:amplifier_stone": 1,
-   "uniqueaccessories:hero_emblem": 1
+   "uniqueaccessories:hero_emblem": 1,
+   "uniqueaccessories:withered_heart": 1
   },
-  "ua_bb_dodge_until": 2112369,
-  "ua_rs_active_until": 2112270,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2112088
+  "ua_tabi_last_dash": 2118214
  },
  "Health": 0.0,
- "HurtByTimestamp": 821,
+ "HurtByTimestamp": 229,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4938,11 +4935,6 @@
   },
   {
    "Count": 1,
-   "Slot": 21,
-   "id": "uniqueaccessories:hero_emblem"
-  },
-  {
-   "Count": 1,
    "Slot": 22,
    "id": "fantasy_armor:moon_crystal"
   },
@@ -4955,6 +4947,11 @@
    "Count": 2,
    "Slot": 24,
    "id": "minecraft:glass_bottle"
+  },
+  {
+   "Count": 1,
+   "Slot": 25,
+   "id": "uniqueaccessories:withered_heart"
   },
   {
    "Count": 1,
@@ -5008,6 +5005,11 @@
    "Count": 1,
    "Slot": 32,
    "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 33,
+   "id": "uniqueaccessories:hero_emblem"
   },
   {
    "Count": 5,
@@ -5101,9 +5103,9 @@
  "LastDeathLocation": {
   "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   118,
-   9,
-   290
+   123,
+   7,
+   245
   ]
  },
  "Motion": [
@@ -5114,12 +5116,12 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  119.482,
+  122.5864,
   7.0,
-  289.9156
+  245.9659
  ],
  "Rotation": [
-  52.0144,
+  -107.3305,
   0.0
  ],
  "Score": 12057,
@@ -5151,7 +5153,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.796,
+ "foodExhaustionLevel": 1.55,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5162,7 +5164,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 82,
+  "mana": 26,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14697,7 +14699,7 @@
  "seenCredits": 0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8013,
+  "ticks_since_last_warning": 11350,
   "warning_level": 0
  }
 }
