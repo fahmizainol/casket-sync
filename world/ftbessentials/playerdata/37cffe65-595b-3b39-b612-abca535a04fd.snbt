@@ -6,16 +6,16 @@
 	last_seen: { dim: "minecraft:overworld", x: 197, y: 73, z: -658, time: 1795442269174L, xRot: -19.98782f, yRot: -94.21179f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:the_end", x: -9, y: 64, z: 27, time: 1795446033371L }
-		{ dim: "tcrcore:sanctum", x: -3, y: 73, z: -190, time: 1795446034724L }
-		{ dim: "minecraft:the_end", x: 23, y: 59, z: -31, time: 1795446077891L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795446080426L }
-		{ dim: "minecraft:the_end", x: -8, y: 60, z: -18, time: 1795446098586L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795446099761L }
-		{ dim: "minecraft:the_end", x: -7, y: 59, z: -34, time: 1795446121739L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795446122783L }
-		{ dim: "minecraft:the_end", x: -27, y: 60, z: -11, time: 1795446134077L }
-		{ dim: "tcrcore:sanctum", x: -3, y: 73, z: -190, time: 1795446135107L }
+		{ dim: "minecraft:the_end", x: 7, y: 60, z: -37, time: 1795446219776L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795446220878L }
+		{ dim: "minecraft:the_end", x: 26, y: 59, z: -36, time: 1795446230598L }
+		{ dim: "tcrcore:sanctum", x: -3, y: 73, z: -190, time: 1795446232045L }
+		{ dim: "minecraft:the_end", x: 31, y: 59, z: -32, time: 1795446281636L }
+		{ dim: "tcrcore:sanctum", x: -3, y: 73, z: -190, time: 1795446282691L }
+		{ dim: "minecraft:the_end", x: 20, y: 59, z: -36, time: 1795446305728L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795446306756L }
+		{ dim: "minecraft:the_end", x: 22, y: 59, z: -33, time: 1795446324918L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795446326023L }
 	]
 	homes: { }
 	kit_use_times: { }

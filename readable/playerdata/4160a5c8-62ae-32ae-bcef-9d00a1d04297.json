@@ -1,22 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 746,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -57,18 +40,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 16.0,
-     "Name": "effect.minecraft.health_boost 3",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -116,6 +87,10 @@
   {
    "Base": 4.0,
    "Name": "epicfight:offhand_attack_speed"
+  },
+  {
+   "Base": 4.5,
+   "Name": "forge:block_reach"
   },
   {
    "Base": 0.0,
@@ -1291,7 +1266,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 285
+   "currentLogicNodeId": 282
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1351,7 +1326,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4263,19 +4238,20 @@
   },
   "last_send_time": 0,
   "ua_accessory_types_seen": {
-   "uniqueaccessories:bloody_knife": 1
+   "uniqueaccessories:bloody_knife": 1,
+   "uniqueaccessories:hero_emblem": 1
   },
-  "ua_mn_tabi_last_dash": 2094298,
-  "ua_rs_active_until": 2094302,
+  "ua_mn_tabi_last_dash": 2100085,
+  "ua_rs_active_until": 2100098,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2094336,
-  "ua_shiny_last_x": -18.0399,
-  "ua_shiny_last_y": 59.0,
-  "ua_shiny_last_z": -29.7201
+  "ua_shiny_last_active": 2100333,
+  "ua_shiny_last_x": 5.7279,
+  "ua_shiny_last_y": 60.0,
+  "ua_shiny_last_z": -27.8942
  },
- "Health": 12.5788,
- "HurtByTimestamp": 563,
+ "Health": 32.0,
+ "HurtByTimestamp": 460,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4368,9 +4344,26 @@
    }
   },
   {
-   "Count": 34,
+   "Count": 1,
    "Slot": 3,
-   "id": "irons_spellbooks:arcane_essence"
+   "id": "cataclysm:soul_render",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     }
+    ]
+   }
   },
   {
    "Count": 1,
@@ -4402,6 +4395,11 @@
    "Count": 1,
    "Slot": 6,
    "id": "uniqueaccessories:bloody_knife"
+  },
+  {
+   "Count": 3,
+   "Slot": 7,
+   "id": "epicskills:ability_stone"
   },
   {
    "Count": 14,
@@ -4496,31 +4494,24 @@
    "id": "magistuarmory:leather_strip"
   },
   {
+   "Count": 1,
+   "Slot": 25,
+   "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 26,
+   "id": "uniqueaccessories:hero_emblem"
+  },
+  {
    "Count": 2,
    "Slot": 27,
    "id": "minecraft:arrow"
   },
   {
-   "Count": 1,
+   "Count": 34,
    "Slot": 29,
-   "id": "cataclysm:soul_render",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     }
-    ]
-   }
+   "id": "irons_spellbooks:arcane_essence"
   },
   {
    "Count": 1,
@@ -4659,9 +4650,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_end",
   "pos": [
-   -23,
-   60,
-   -15
+   22,
+   59,
+   -35
   ]
  },
  "Motion": [
@@ -4672,16 +4663,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -18.0399,
-  59.0,
-  -29.7201
+  5.7279,
+  60.0,
+  -27.8942
  ],
  "Rotation": [
-  132.758,
-  28.4114
+  -91.5273,
+  24.4906
  ],
  "Score": 27594,
- "SelectedItemSlot": 2,
+ "SelectedItemSlot": 3,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
@@ -4709,7 +4700,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.947,
+ "foodExhaustionLevel": 3.81,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4720,7 +4711,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 73,
+  "mana": 125,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15032,7 +15023,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9287,
+  "ticks_since_last_warning": 2932,
   "warning_level": 0
  }
 }

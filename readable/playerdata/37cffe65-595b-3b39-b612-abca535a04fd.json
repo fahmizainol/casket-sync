@@ -1,20 +1,20 @@
 {
- "AbsorptionAmount": 0.0,
+ "AbsorptionAmount": 20.0,
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 2,
+   "Amplifier": 11,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 9,
-   "Id": 5,
+   "Duration": 252,
+   "Id": 136,
    "ShowIcon": 1,
    "ShowParticles": 0,
-   "forge:id": "minecraft:strength"
+   "forge:id": "irons_spellbooks:thunderstorm"
   }
  ],
  "Air": 300,
@@ -87,18 +87,6 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    },
-    {
-     "Amount": 9.0,
-     "Name": "effect.minecraft.strength 2",
-     "Operation": 0,
-     "UUID": [
-      1686990948,
-      1784696665,
-      -1967209790,
-      980277161
-     ],
-     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -567,7 +555,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost1",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1306,7 +1294,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1467,7 +1455,7 @@
  },
  "ForgeData": {
   "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 5,
+  "EFNMurasamaSheathTicks": 11,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4773,15 +4761,16 @@
   },
   "last_send_time": 0,
   "ua_accessory_types_seen": {
-   "uniqueaccessories:amplifier_stone": 1
+   "uniqueaccessories:amplifier_stone": 1,
+   "uniqueaccessories:hero_emblem": 1
   },
-  "ua_bb_dodge_until": 2094413,
+  "ua_rs_active_until": 2100131,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2094182
+  "ua_tabi_last_dash": 2100091
  },
- "Health": 0.92,
- "HurtByTimestamp": 456,
+ "Health": 1.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4948,22 +4937,7 @@
   {
    "Count": 1,
    "Slot": 18,
-   "id": "minecraft:totem_of_undying"
-  },
-  {
-   "Count": 1,
-   "Slot": 19,
-   "id": "minecraft:totem_of_undying"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "minecraft:totem_of_undying"
-  },
-  {
-   "Count": 1,
-   "Slot": 21,
-   "id": "minecraft:crimson_roots"
+   "id": "ba_bt:end_monolith_key"
   },
   {
    "Count": 1,
@@ -5032,6 +5006,26 @@
    "Count": 3,
    "Slot": 31,
    "id": "aether:crystal_fruit_leaves"
+  },
+  {
+   "Count": 1,
+   "Slot": 32,
+   "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 33,
+   "id": "uniqueaccessories:hero_emblem"
+  },
+  {
+   "Count": 3,
+   "Slot": 34,
+   "id": "epicskills:ability_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 35,
+   "id": "ba_bt:end_golem_eye"
   },
   {
    "Count": 1,
@@ -5115,9 +5109,9 @@
  "LastDeathLocation": {
   "dimension": "minecraft:the_end",
   "pos": [
-   -26,
-   60,
-   -12
+   22,
+   59,
+   -34
   ]
  },
  "Motion": [
@@ -5128,15 +5122,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -24.6008,
+  18.0938,
   59.0,
-  -34.3989
+  -31.8196
  ],
  "Rotation": [
-  -85.1394,
-  -6.0239
+  53.7228,
+  8.1698
  ],
- "Score": 9397,
+ "Score": 11907,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
@@ -5152,10 +5146,10 @@
   1398408445
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
- "XpLevel": 57,
- "XpP": 0.8901,
+ "XpLevel": 64,
+ "XpP": 0.3636,
  "XpSeed": -736053570,
- "XpTotal": 9397,
+ "XpTotal": 11907,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5165,18 +5159,25 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.45,
+ "foodExhaustionLevel": 0.019,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "",
+  "castingEquipmentSlot": "mainhand",
   "castingSpellId": "",
   "castingSpellLevel": 0,
+  "cooldowns": [
+   {
+    "cdr": 4533,
+    "id": "irons_spellbooks:thunderstorm",
+    "scd": 4800
+   }
+  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 46,
+  "mana": 27,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14713,7 +14714,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4531,
+  "ticks_since_last_warning": 9625,
   "warning_level": 0
  }
 }
