@@ -117,8 +117,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    2409168660178191998,
-    -6639470930650464692
+    5251265014735914117,
+    7358034569238390908
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2567643756265031835,
-    -7178625338215893622
+    5256328337377110174,
+    1422826652686830226
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -5739088835789217694,
-    -2677980614229714073
+    7069151104722805576,
+    -5941136424781513447
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -429,8 +429,8 @@
   },
   "cataclysm:entities/draugr": {
    "source": [
-    1572550289757642329,
-    -3612400020276051721
+    3814227094891517445,
+    -5485012163485308300
    ]
   },
   "cataclysm:entities/kobolediator": {
@@ -1989,8 +1989,8 @@
   },
   "minecraft:entities/drowned": {
    "source": [
-    -8077839528831404450,
-    3402874459546256407
+    -4759359686224314500,
+    -5008280003877965724
    ]
   },
   "minecraft:entities/enderman": {
@@ -2079,8 +2079,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    7809772061839121033,
-    2959953707301606704
+    3709536530749865377,
+    -8583719525233607355
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2115,8 +2115,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -532338573130807559,
-    7127218630563882963
+    -8478332745528830245,
+    -6811611927816045832
    ]
   },
   "minecraft:entities/skeleton_horse": {

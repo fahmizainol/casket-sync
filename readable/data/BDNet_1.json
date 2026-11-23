@@ -562,7 +562,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 34,
      "key": {
       "stack": {
        "item": "cataclysm:black_steel_fence"
@@ -652,7 +652,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_brick_slab"
@@ -1856,7 +1856,7 @@
      }
     },
     {
-     "amount": 575,
+     "amount": 587,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -1989,7 +1989,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "cataclysm:stone_tiles"
@@ -2734,6 +2734,15 @@
      "amount": 2,
      "key": {
       "stack": {
+       "item": "cataclysm:stone_tile_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
        "item": "magistuarmory:rustedhalfarmor_chestplate",
        "tag": {
         "Damage": 0
@@ -2861,6 +2870,15 @@
      "key": {
       "stack": {
        "item": "minecraft:water_bucket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:skeleton_skull"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3070,7 +3088,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 11,
      "key": {
       "stack": {
        "item": "minecraft:stone_brick_stairs"
@@ -3539,7 +3557,7 @@
      }
     },
     {
-     "amount": 323,
+     "amount": 324,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3772,7 +3790,7 @@
      }
     },
     {
-     "amount": 210,
+     "amount": 213,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -4550,7 +4568,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 20,
      "key": {
       "stack": {
        "item": "minecraft:stone_bricks"
@@ -4894,7 +4912,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "minecraft:chain"
@@ -5190,6 +5208,15 @@
      }
     },
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "cataclysm:frosted_stone_brick_wall"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -5226,7 +5253,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_brick_stairs"
@@ -5555,6 +5582,19 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "magistuarmory:steel_zweihander",
+       "tag": {
+        "Damage": 0,
+        "kusabimaru_sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "uniqueaccessories:sun_stone"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -5683,6 +5723,15 @@
      "key": {
       "stack": {
        "item": "cataclysm:stone_pillar"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 7,
+     "key": {
+      "stack": {
+       "item": "minecraft:stone_brick_wall"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5831,6 +5880,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 7,
+     "key": {
+      "stack": {
+       "item": "minecraft:soul_lantern"
       },
       "type": "beyonddimensions:stack_type/item"
      }

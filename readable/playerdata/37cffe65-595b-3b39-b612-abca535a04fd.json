@@ -5143,13 +5143,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  206.1069,
+  206.1416,
   77.1875,
-  -662.1326
+  -662.1734
  ],
  "Rotation": [
-  -152.6338,
-  26.1163
+  -124.7338,
+  23.0737
  ],
  "Score": 9174,
  "SelectedItemSlot": 0,
@@ -14722,7 +14722,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7113,
+  "ticks_since_last_warning": 1112,
   "warning_level": 0
  }
 }
