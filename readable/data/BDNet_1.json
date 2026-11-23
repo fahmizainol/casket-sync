@@ -109,6 +109,15 @@
      }
     },
     {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "cataclysm:kobolediator_skull"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 9,
      "key": {
       "stack": {
@@ -517,6 +526,19 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:diamond_bastardsword",
+       "tag": {
+        "Damage": 0,
+        "twoHandedPenalty": 1
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -583,6 +605,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:hilt"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1235,6 +1266,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:dragon_head"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 6,
      "key": {
       "stack": {
@@ -1565,10 +1605,40 @@
      }
     },
     {
+     "amount": 50,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:bucket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:rustedchainmail_helmet",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:bloody_knife"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1599,6 +1669,15 @@
      "key": {
       "stack": {
        "item": "minecraft:oak_log"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "dodosmobs:chimera_claw"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1748,6 +1827,15 @@
      "key": {
       "stack": {
        "item": "minecraft:melon_seeds"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 7,
+     "key": {
+      "stack": {
+       "item": "minecraft:ghast_tear"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2010,7 +2098,7 @@
      }
     },
     {
-     "amount": 587,
+     "amount": 589,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -2302,6 +2390,19 @@
      }
     },
     {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_carrot",
+       "tag": {
+        "kusabimaru_sheath": 0,
+        "sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -2314,6 +2415,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 11,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:leather_strip"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2566,6 +2676,15 @@
      "key": {
       "stack": {
        "item": "minecraft:firework_rocket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "efn:duskfire_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3148,6 +3267,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "tcrcore:reset_skill_stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:gravel",
        "tag": {
         "kusabimaru_sheath": 0
@@ -3161,6 +3289,15 @@
      "key": {
       "stack": {
        "item": "minecraft:oak_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:hero_emblem"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3910,7 +4047,7 @@
      }
     },
     {
-     "amount": 359,
+     "amount": 360,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4174,7 +4311,7 @@
      }
     },
     {
-     "amount": 225,
+     "amount": 231,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -4757,6 +4894,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "tcrcore:rare_artifact_ticket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "irons_spellbooks:keeper_flamberge",
        "tag": {
         "Damage": 0,
@@ -5199,6 +5345,15 @@
      }
     },
     {
+     "amount": 14,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:dragonskin"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -5211,7 +5366,7 @@
      }
     },
     {
-     "amount": 202,
+     "amount": 236,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -5615,6 +5770,40 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "efn:kusabimaru",
+       "tag": {
+        "Enchantments": [
+         {
+          "id": "minecraft:sweeping",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 2
+         }
+        ],
+        "kusabimaru_sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -5674,7 +5863,7 @@
      }
     },
     {
-     "amount": 11,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "supplementaries:ash"
@@ -5813,6 +6002,15 @@
      }
     },
     {
+     "amount": 14,
+     "key": {
+      "stack": {
+       "item": "waystones:waystone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -5918,7 +6116,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "tcrcore:dual_bokken"
@@ -5977,6 +6175,15 @@
      }
     },
     {
+     "amount": 38,
+     "key": {
+      "stack": {
+       "item": "minecraft:chiseled_sandstone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 9,
      "key": {
       "stack": {
@@ -6002,6 +6209,27 @@
      "key": {
       "stack": {
        "item": "tcrcore:artifact_ticket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_pickaxe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 4
+         }
+        ],
+        "RepairCost": 1,
+        "kusabimaru_sheath": 0,
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

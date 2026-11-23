@@ -4235,12 +4235,13 @@
    "uniqueaccessories:hero_emblem": 1
   },
   "ua_mn_tabi_last_dash": 2165315,
+  "ua_rs_active_until": 2171118,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2165721,
-  "ua_shiny_last_x": 258.2401,
+  "ua_shiny_last_active": 2171491,
+  "ua_shiny_last_x": 262.0556,
   "ua_shiny_last_y": 63.0,
-  "ua_shiny_last_z": -1772.0918
+  "ua_shiny_last_z": -1773.6776
  },
  "Health": 34.0,
  "HurtByTimestamp": 0,
@@ -4382,125 +4383,14 @@
    "id": "tcrcore:retracement_stone"
   },
   {
-   "Count": 5,
+   "Count": 1,
    "Slot": 9,
-   "id": "minecraft:golden_carrot",
-   "tag": {
-    "kusabimaru_sheath": 0,
-    "sheath": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 10,
-   "id": "efn:kusabimaru",
-   "tag": {
-    "Enchantments": [
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
-     }
-    ],
-    "kusabimaru_sheath": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 11,
-   "id": "magistuarmory:diamond_bastardsword",
-   "tag": {
-    "Damage": 0,
-    "twoHandedPenalty": 1
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 12,
-   "id": "magistuarmory:rustedchainmail_helmet",
-   "tag": {
-    "Damage": 0
-   }
-  },
-  {
-   "Count": 2,
-   "Slot": 13,
-   "id": "minecraft:arrow"
-  },
-  {
-   "Count": 50,
-   "Slot": 14,
-   "id": "minecraft:diamond"
-  },
-  {
-   "Count": 6,
-   "Slot": 15,
-   "id": "minecraft:bone"
-  },
-  {
-   "Count": 5,
-   "Slot": 16,
    "id": "minecraft:netherite_upgrade_smithing_template"
   },
   {
-   "Count": 1,
-   "Slot": 17,
-   "id": "uniqueaccessories:hero_emblem"
-  },
-  {
-   "Count": 2,
-   "Slot": 18,
-   "id": "dodosmobs:chimera_claw"
-  },
-  {
-   "Count": 11,
-   "Slot": 19,
-   "id": "magistuarmory:leather_strip"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "magistuarmory:hilt"
-  },
-  {
-   "Count": 14,
-   "Slot": 21,
-   "id": "irons_spellbooks:dragonskin"
-  },
-  {
-   "Count": 34,
-   "Slot": 22,
-   "id": "irons_spellbooks:arcane_essence"
-  },
-  {
-   "Count": 1,
-   "Slot": 23,
-   "id": "efn:duskfire_ingot"
-  },
-  {
-   "Count": 1,
-   "Slot": 24,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 25,
-   "id": "tcrcore:dual_bokken"
+   "Count": 60,
+   "Slot": 11,
+   "id": "minecraft:netherite_ingot"
   },
   {
    "Count": 1,
@@ -4512,65 +4402,8 @@
   },
   {
    "Count": 1,
-   "Slot": 27,
-   "id": "minecraft:dragon_head"
-  },
-  {
-   "Count": 4,
-   "Slot": 28,
-   "id": "cataclysm:kobolediator_skull"
-  },
-  {
-   "Count": 1,
-   "Slot": 29,
-   "id": "supplementaries:ash"
-  },
-  {
-   "Count": 7,
-   "Slot": 30,
-   "id": "minecraft:ghast_tear"
-  },
-  {
-   "Count": 1,
-   "Slot": 31,
-   "id": "minecraft:diamond_pickaxe",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:efficiency",
-      "lvl": 4
-     }
-    ],
-    "RepairCost": 1,
-    "kusabimaru_sheath": 0,
-    "sheath": 0
-   }
-  },
-  {
-   "Count": 38,
-   "Slot": 32,
-   "id": "minecraft:chiseled_sandstone"
-  },
-  {
-   "Count": 1,
-   "Slot": 33,
-   "id": "uniqueaccessories:bloody_knife"
-  },
-  {
-   "Count": 1,
-   "Slot": 34,
-   "id": "tcrcore:reset_skill_stone"
-  },
-  {
-   "Count": 14,
-   "Slot": 35,
-   "id": "waystones:waystone"
-  },
-  {
-   "Count": 1,
    "Slot": 100,
-   "id": "minecraft:diamond_boots",
+   "id": "minecraft:netherite_boots",
    "tag": {
     "Damage": 0,
     "Enchantments": [
@@ -4600,7 +4433,7 @@
   {
    "Count": 1,
    "Slot": 101,
-   "id": "minecraft:diamond_leggings",
+   "id": "minecraft:netherite_leggings",
    "tag": {
     "Damage": 0,
     "Enchantments": [
@@ -4614,7 +4447,7 @@
   {
    "Count": 1,
    "Slot": 102,
-   "id": "minecraft:diamond_chestplate",
+   "id": "minecraft:netherite_chestplate",
    "tag": {
     "Damage": 0,
     "Enchantments": [
@@ -4640,7 +4473,7 @@
   {
    "Count": 1,
    "Slot": 103,
-   "id": "minecraft:diamond_helmet",
+   "id": "minecraft:netherite_helmet",
    "tag": {
     "Damage": 0,
     "Enchantments": [
@@ -4712,15 +4545,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  258.2351,
+  262.0556,
   63.0,
-  -1772.0996
+  -1773.6776
  ],
  "Rotation": [
-  28.6484,
-  24.215
+  -3.2832,
+  26.9755
  ],
- "Score": 27744,
+ "Score": 27844,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "UUID": [
@@ -4731,9 +4564,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 87,
- "XpP": 0.5216,
+ "XpP": 0.6816,
  "XpSeed": 976728483,
- "XpTotal": 27744,
+ "XpTotal": 27844,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4743,7 +4576,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.919,
+ "foodExhaustionLevel": 2.584,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15066,7 +14899,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5443,
+  "ticks_since_last_warning": 11443,
   "warning_level": 0
  }
 }
