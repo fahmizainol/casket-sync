@@ -4737,14 +4737,14 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_rs_active_until": 1947936,
+  "quark:trying_crawl": 1,
+  "ua_rs_active_until": 1963486,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
   "ua_tabi_last_dash": 1947741
  },
  "Health": 1.0,
- "HurtByTimestamp": 0,
+ "HurtByTimestamp": 20987,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5143,13 +5143,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  206.1416,
-  77.1875,
-  -662.1734
+  197.9781,
+  73.0,
+  -657.1654
  ],
  "Rotation": [
-  -124.7338,
-  23.0737
+  -94.2118,
+  -19.9878
  ],
  "Score": 9174,
  "SelectedItemSlot": 0,
@@ -5174,7 +5174,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.374,
+ "foodExhaustionLevel": 2.724,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14722,7 +14722,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7112,
+  "ticks_since_last_warning": 1111,
   "warning_level": 0
  }
 }
