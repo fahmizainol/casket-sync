@@ -691,7 +691,7 @@
      }
     },
     {
-     "amount": 368,
+     "amount": 369,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2930,15 +2930,6 @@
      "key": {
       "stack": {
        "item": "minecraft:sugar"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "irons_spellbooks:cast_time_ring"
       },
       "type": "beyonddimensions:stack_type/item"
      }

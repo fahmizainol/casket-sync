@@ -1,11 +1,7 @@
 {
- "AbsorptionAmount": 2.0,
+ "AbsorptionAmount": 6.0,
  "Air": 300,
  "Attributes": [
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:ice_spell_power"
-  },
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
@@ -23,10 +19,6 @@
    "Name": "attributeslib:creative_flight"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:lightning_spell_power"
-  },
-  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
@@ -35,8 +27,8 @@
    "Name": "minecraft:generic.knockback_resistance"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:holy_spell_power"
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -87,8 +79,8 @@
    "Name": "minecraft:generic.attack_damage"
   },
   {
-   "Base": 100.0,
-   "Name": "irons_spellbooks:max_mana"
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 1.0,
@@ -149,7 +141,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -514,10 +506,13 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_dodge",
+   "GUARD": "efn:efn_parry"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_dodge",
-   "guard": "efn:efn_parry",
+   "dodge": "efn:murasama_dodge",
+   "guard": "efn:murasama_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge"
    },
@@ -528,13 +523,14 @@
     "0": "wom:heart_shield",
     "1": "dodge_parry_reward:stamina1",
     "2": "wom:latent_retribution",
-    "3": "wom:mindset"
+    "3": "efn:precise_parry",
+    "4": "wom:mindset"
    },
    "passive1": "dodge_parry_reward:stamina1",
    "passive2": "wom:mindset",
    "passive3": "dodge_parry_reward:damage_boost3",
    "passive4": "dodge_parry_reward:damage_boost4",
-   "passive5": "wom:latent_retribution",
+   "passive5": "efn:precise_parry",
    "passive6": "wom:heart_shield",
    "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
@@ -549,19 +545,20 @@
     "knockdown_wakeup": 0,
     "mover": 0,
     "passive1": 0,
-    "passive2": 70,
+    "passive2": 0,
     "passive3": 0,
     "passive4": 0,
     "passive5": 0,
-    "passive6": 138,
+    "passive6": 0,
     "sword_controller": 0,
     "sword_soaring": 0,
     "weapon_innate": 0,
     "weapon_passive": 0
-   }
+   },
+   "sword_soaring": "sword_soaring:sword_soaring_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 15,
+   "abilityPoint": 12,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -800,7 +797,7 @@
      },
      {
       "name": "sword_soaring:sword_soaring_master",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "sword_soaring:sword_soaring_elytra_master",
@@ -808,7 +805,7 @@
      },
      {
       "name": "efn:precise_parry",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "efn:efn_dodge",
@@ -820,7 +817,7 @@
      },
      {
       "name": "efn:efn_parry",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "epicfight:forbidden_strength",
@@ -4746,11 +4743,10 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_accessory_types_seen": {
-   "uniqueaccessories:withered_heart": 1
-  },
+  "ua_rs_active_until": 2214321,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 2214229
  },
  "Health": 1.0,
  "HurtByTimestamp": 0,
@@ -4845,6 +4841,11 @@
     ],
     "sheath": 0
    }
+  },
+  {
+   "Count": 1,
+   "Slot": 6,
+   "id": "tcrcore:retracement_stone"
   },
   {
    "Count": 10,
@@ -4943,6 +4944,11 @@
    }
   },
   {
+   "Count": 1,
+   "Slot": 15,
+   "id": "irons_spellbooks:cast_time_ring"
+  },
+  {
    "Count": 11,
    "Slot": 34,
    "id": "cataclysm:koboleton_bone"
@@ -4972,29 +4978,29 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -10,
+   -8,
    3,
-   -5
+   4
   ]
  },
  "Motion": [
-  0.0,
+  0.0025,
   -0.0784,
   0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -204.2645,
-  85.0,
-  -190.6933
+  2.5072,
+  3.0,
+  -3.3626
  ],
  "Rotation": [
-  -78.0236,
-  18.8945
+  -37.5869,
+  37.8355
  ],
  "Score": 12057,
- "SelectedItemSlot": 6,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "tcrcore:sanctum",
@@ -5022,7 +5028,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 2.728,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5030,10 +5036,17 @@
   "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
+  "cooldowns": [
+   {
+    "cdr": 1128,
+    "id": "irons_spellbooks:thunderstorm",
+    "scd": 4800
+   }
+  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 44,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14525,7 +14538,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4887,
+  "ticks_since_last_warning": 10452,
   "warning_level": 0
  }
 }
