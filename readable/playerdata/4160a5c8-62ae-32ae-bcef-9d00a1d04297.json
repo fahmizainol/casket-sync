@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 578,
+   "Duration": 572,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 247,
+   "Duration": 246,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 78,
+   "Duration": 72,
    "HiddenEffect": {
     "Ambient": 1,
     "Amplifier": 0,
@@ -1355,7 +1355,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 217
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4336,12 +4336,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 2262210,
+  "ua_mn_tabi_last_dash": 2267676,
+  "ua_rs_active_until": 2267496,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 54.4737,
- "HurtByTimestamp": 1968,
+ "Health": 66.0,
+ "HurtByTimestamp": 4274,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4460,6 +4461,14 @@
    "Count": 1,
    "Slot": 4,
    "id": "minecraft:glass_bottle"
+  },
+  {
+   "Count": 1,
+   "Slot": 5,
+   "id": "tcrcore:wither_soul_stone_activated",
+   "tag": {
+    "kusabimaru_sheath": 0
+   }
   },
   {
    "Count": 12,
@@ -4663,13 +4672,24 @@
   },
   {
    "Count": 1,
+   "Slot": 30,
+   "id": "minecraft:glass_bottle"
+  },
+  {
+   "Count": 1,
    "Slot": 31,
    "id": "uniqueaccessories:shiny_stone"
   },
   {
    "Count": 1,
    "Slot": 32,
-   "id": "tcrcore:wither_soul_stone_activated"
+   "id": "minecraft:beacon",
+   "tag": {
+    "BlockEntityTag": {
+     "Primary": 5,
+     "Secondary": 5
+    }
+   }
   },
   {
    "Count": 1,
@@ -4817,9 +4837,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   0,
+   -21,
    3,
-   -18
+   -9
   ]
  },
  "Motion": [
@@ -4830,16 +4850,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  5.1415,
+  12.2276,
   3.0,
-  -14.2365
+  -11.1462
  ],
  "Rotation": [
-  113.692,
-  -1.9294
+  139.6038,
+  -32.753
  ],
  "Score": 27850,
- "SelectedItemSlot": 1,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "UUID": [
   1096852936,
@@ -4861,10 +4881,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.144,
+ "foodExhaustionLevel": 1.9,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 8,
+ "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -15184,7 +15204,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 284,
+  "ticks_since_last_warning": 6092,
   "warning_level": 0
  }
 }

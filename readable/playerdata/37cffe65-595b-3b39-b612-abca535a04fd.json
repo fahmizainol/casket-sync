@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 262,
+   "Duration": 365,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -1236,7 +1236,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 258
+   "currentLogicNodeId": 256
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4391,7 +4391,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147374570,
+        "Duration": 2147374329,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -4473,7 +4473,7 @@
       "CompanionRescueHealth": 139.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 2260579,
+      "CompanionRescueStoredAt": 2267574,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4744,7 +4744,7 @@
        "exhaustionLevel": 3.3268,
        "foodLevel": 0,
        "saturationLevel": 0.0,
-       "tickTimer": 68
+       "tickTimer": 69
       },
       "dragonStamina": {
        "regenPauseTicks": 0
@@ -4771,14 +4771,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_bb_dodge_until": 2262370,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2261459
+  "ua_tabi_last_dash": 2267856
  },
- "Health": 26.2437,
- "HurtByTimestamp": 1691,
- "HurtTime": 0,
+ "Health": 14.5721,
+ "HurtByTimestamp": 779,
+ "HurtTime": 1,
  "Inventory": [
   {
    "Count": 1,
@@ -5036,9 +5035,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -12,
+   13,
    3,
-   -14
+   0
   ]
  },
  "Motion": [
@@ -5049,13 +5048,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -2.1398,
+  9.0852,
   3.0,
-  -17.2741
+  -9.4983
  ],
  "Rotation": [
-  121.7214,
-  -4.0153
+  -124.9516,
+  -6.8766
  ],
  "Score": 12057,
  "SelectedItemSlot": 0,
@@ -5086,7 +5085,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.205,
+ "foodExhaustionLevel": 0.066,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5097,7 +5096,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 79,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14589,7 +14588,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5325,
+  "ticks_since_last_warning": 10337,
   "warning_level": 0
  }
 }
