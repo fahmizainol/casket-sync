@@ -159,7 +159,7 @@
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 32.0
+   "SavedHealth": 0.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -241,13 +241,7 @@
       },
       "SavedBaseSize": 1,
       "Stacks": {
-       "Items": [
-        {
-         "Count": 1,
-         "Slot": 0,
-         "id": "artifacts:superstitious_hat"
-        }
-       ],
+       "Items": [],
        "Size": 1
       },
       "Visible": 1
@@ -337,11 +331,6 @@
          "Count": 1,
          "Slot": 0,
          "id": "artifacts:feral_claws"
-        },
-        {
-         "Count": 1,
-         "Slot": 1,
-         "id": "artifacts:fire_gauntlet"
         }
        ],
        "Size": 2
@@ -4191,19 +4180,308 @@
    "uniqueaccessories:bloody_knife": 1,
    "uniqueaccessories:hero_emblem": 1
   },
-  "ua_rs_active_until": 1979020,
+  "ua_rs_active_until": 1967073,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 1979045,
-  "ua_shiny_last_x": 82.5727,
+  "ua_shiny_last_active": 1973640,
+  "ua_shiny_last_x": 81.1668,
   "ua_shiny_last_y": 73.0,
-  "ua_shiny_last_z": -148.8941,
-  "ua_tabi_last_dash": 1979008
+  "ua_shiny_last_z": -131.65,
+  "ua_tabi_last_dash": 1967069
  },
  "Health": 32.0,
  "HurtByTimestamp": 1332,
  "HurtTime": 0,
- "Inventory": [],
+ "Inventory": [
+  {
+   "Count": 1,
+   "Slot": 0,
+   "id": "efn:kusabimaru",
+   "tag": {
+    "Enchantments": [
+     {
+      "id": "minecraft:sweeping",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+     }
+    ],
+    "kusabimaru_sheath": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 1,
+   "id": "efn:crimson_moon",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "efn:scythe_enhance",
+      "lvl": 1
+     },
+     {
+      "id": "minecraft:sweeping",
+      "lvl": 3
+     }
+    ],
+    "RepairCost": 1,
+    "kusabimaru_sheath": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 2,
+   "id": "minecraft:crossbow",
+   "tag": {
+    "Charged": 0,
+    "ChargedProjectiles": [],
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:multishot",
+      "lvl": 1
+     },
+     {
+      "id": "minecraft:piercing",
+      "lvl": 3
+     }
+    ],
+    "kusabimaru_sheath": 0,
+    "sheath": 0
+   }
+  },
+  {
+   "Count": 6,
+   "Slot": 3,
+   "id": "cataclysm:frosted_stone_bricks",
+   "tag": {
+    "kusabimaru_sheath": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 4,
+   "id": "minecraft:diamond_pickaxe",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:efficiency",
+      "lvl": 4
+     }
+    ],
+    "RepairCost": 1,
+    "kusabimaru_sheath": 0,
+    "sheath": 0
+   }
+  },
+  {
+   "Count": 9,
+   "Slot": 5,
+   "id": "minecraft:golden_carrot",
+   "tag": {
+    "kusabimaru_sheath": 0,
+    "sheath": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 6,
+   "id": "uniqueaccessories:bloody_knife"
+  },
+  {
+   "Count": 38,
+   "Slot": 7,
+   "id": "minecraft:chiseled_sandstone"
+  },
+  {
+   "Count": 15,
+   "Slot": 8,
+   "id": "waystones:waystone"
+  },
+  {
+   "Count": 1,
+   "Slot": 9,
+   "id": "cataclysm:black_steel_ingot"
+  },
+  {
+   "Count": 2,
+   "Slot": 10,
+   "id": "minecraft:bone"
+  },
+  {
+   "Count": 3,
+   "Slot": 11,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 1,
+   "Slot": 12,
+   "id": "cataclysm:strange_key"
+  },
+  {
+   "Count": 4,
+   "Slot": 13,
+   "id": "cataclysm:black_steel_nugget"
+  },
+  {
+   "Count": 1,
+   "Slot": 14,
+   "id": "tcrcore:artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 16,
+   "id": "tcrcore:artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 17,
+   "id": "tcrcore:artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 20,
+   "id": "artifacts:power_glove"
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "artifacts:crystal_heart"
+  },
+  {
+   "Count": 8,
+   "Slot": 24,
+   "id": "cataclysm:pointed_icicle"
+  },
+  {
+   "Count": 1,
+   "Slot": 100,
+   "id": "minecraft:diamond_boots",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:depth_strider",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:feather_falling",
+      "lvl": 4
+     },
+     {
+      "id": "minecraft:thorns",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:protection",
+      "lvl": 4
+     },
+     {
+      "id": "wom:invigoration",
+      "lvl": 5
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 101,
+   "id": "minecraft:diamond_leggings",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:protection",
+      "lvl": 4
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 102,
+   "id": "minecraft:diamond_chestplate",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:thorns",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:protection",
+      "lvl": 4
+     },
+     {
+      "id": "wom:invigoration",
+      "lvl": 5
+     }
+    ],
+    "Trim": {
+     "material": "minecraft:gold",
+     "pattern": "minecraft:vex"
+    }
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 103,
+   "id": "minecraft:diamond_helmet",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:respiration",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:thorns",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:protection",
+      "lvl": 4
+     },
+     {
+      "id": "minecraft:aqua_affinity",
+      "lvl": 1
+     },
+     {
+      "id": "wom:invigoration",
+      "lvl": 5
+     }
+    ]
+   }
+  }
+ ],
  "Invulnerable": 0,
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
@@ -4221,13 +4499,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  82.5727,
+  81.1668,
   73.0,
-  -148.8828
+  -131.65
  ],
  "Rotation": [
-  0.0475,
-  16.4309
+  158.0148,
+  25.7309
  ],
  "Score": 15292,
  "SelectedItemSlot": 1,
@@ -4238,9 +4516,6 @@
  "SpawnX": -15,
  "SpawnY": 100,
  "SpawnZ": -23,
- "Tags": [
-  "wom_health_fix:32.0"
- ],
  "UUID": [
   1096852936,
   1655583406,
@@ -4261,7 +4536,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.7891,
+ "foodExhaustionLevel": 1.7441,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14584,7 +14859,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11504,
+  "ticks_since_last_warning": 5152,
   "warning_level": 0
  }
 }
