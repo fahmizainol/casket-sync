@@ -49,6 +49,10 @@
    "Name": "irons_spellbooks:max_mana"
   },
   {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
@@ -75,6 +79,10 @@
   {
    "Base": 3.0,
    "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 0.0,
@@ -167,7 +175,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -542,11 +550,9 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_step"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:yamato_step",
+   "dodge": "efn:efn_step",
    "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
@@ -573,7 +579,7 @@
    "passive4": "dodge_parry_reward:damage_boost2",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -4230,50 +4236,24 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
+  "quark:trying_crawl": 1,
   "ua_accessory_types_seen": {
    "uniqueaccessories:bloody_knife": 1,
    "uniqueaccessories:hero_emblem": 1
   },
-  "ua_mn_tabi_last_dash": 2136005,
-  "ua_rs_active_until": 2135952,
+  "ua_mn_tabi_last_dash": 2140041,
+  "ua_rs_active_until": 2139778,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2136049,
-  "ua_shiny_last_x": -198.36,
-  "ua_shiny_last_y": 82.0,
-  "ua_shiny_last_z": -190.5049
+  "ua_shiny_last_active": 2142336,
+  "ua_shiny_last_x": 0.1624,
+  "ua_shiny_last_y": 3.0,
+  "ua_shiny_last_z": -0.4779
  },
  "Health": 34.0,
  "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
-  {
-   "Count": 1,
-   "Slot": 0,
-   "id": "efn:yamato_dmc_in_sheath",
-   "tag": {
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     }
-    ],
-    "TotalDamage": 69.8989
-   }
-  },
   {
    "Count": 1,
    "Slot": 1,
@@ -4358,19 +4338,7 @@
   {
    "Count": 1,
    "Slot": 4,
-   "id": "minecraft:diamond_pickaxe",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:efficiency",
-      "lvl": 4
-     }
-    ],
-    "RepairCost": 1,
-    "kusabimaru_sheath": 0,
-    "sheath": 0
-   }
+   "id": "tcrcore:wither_soul_stone_activated"
   },
   {
    "Count": 1,
@@ -4381,11 +4349,6 @@
    "Count": 1,
    "Slot": 6,
    "id": "uniqueaccessories:bloody_knife"
-  },
-  {
-   "Count": 1,
-   "Slot": 7,
-   "id": "tcrcore:reset_skill_stone"
   },
   {
    "Count": 14,
@@ -4514,11 +4477,6 @@
    "id": "tcrcore:dual_bokken"
   },
   {
-   "Count": 38,
-   "Slot": 26,
-   "id": "minecraft:chiseled_sandstone"
-  },
-  {
    "Count": 1,
    "Slot": 27,
    "id": "minecraft:dragon_head"
@@ -4532,6 +4490,33 @@
    "Count": 1,
    "Slot": 29,
    "id": "supplementaries:ash"
+  },
+  {
+   "Count": 1,
+   "Slot": 31,
+   "id": "minecraft:diamond_pickaxe",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:efficiency",
+      "lvl": 4
+     }
+    ],
+    "RepairCost": 1,
+    "kusabimaru_sheath": 0,
+    "sheath": 0
+   }
+  },
+  {
+   "Count": 38,
+   "Slot": 32,
+   "id": "minecraft:chiseled_sandstone"
+  },
+  {
+   "Count": 1,
+   "Slot": 34,
+   "id": "tcrcore:reset_skill_stone"
   },
   {
    "Count": 1,
@@ -4678,13 +4663,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -198.3466,
-  82.0,
-  -190.5049
+  0.1624,
+  3.0,
+  -0.4779
  ],
  "Rotation": [
-  89.7063,
-  22.2118
+  -32.1514,
+  47.2104
  ],
  "Score": 27744,
  "SelectedItemSlot": 0,
@@ -4709,7 +4694,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.297,
+ "foodExhaustionLevel": 2.856,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15032,7 +15017,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 922,
+  "ticks_since_last_warning": 6922,
   "warning_level": 0
  }
 }
