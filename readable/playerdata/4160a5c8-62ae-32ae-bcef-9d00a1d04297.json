@@ -10,11 +10,26 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 589,
+   "Duration": 586,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:health_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 3,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 46,
+   "Id": 3,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:haste"
   },
   {
    "Ambient": 1,
@@ -25,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 258,
+   "Duration": 245,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,7 +55,37 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 89,
+   "Duration": 46,
+   "Id": 11,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:resistance"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 46,
+   "Id": 150,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "efn:ring"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 86,
    "HiddenEffect": {
     "Ambient": 1,
     "Amplifier": 0,
@@ -160,6 +205,20 @@
   },
   {
    "Base": 4.0,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.haste 3",
+     "Operation": 2,
+     "UUID": [
+      -1349816769,
+      858278922,
+      -1439278174,
+      -1147289869
+     ],
+     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
+    }
+   ],
    "Name": "epicfight:offhand_attack_speed"
   },
   {
@@ -248,6 +307,18 @@
       1821068796
      ],
      "UUID_str": "9f08b24d-a700-4515-91d2-d32f6c8b4dfc"
+    },
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.haste 3",
+     "Operation": 2,
+     "UUID": [
+      -1349816769,
+      858278922,
+      -1439278174,
+      -1147289869
+     ],
+     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
     }
    ],
    "Name": "minecraft:generic.attack_speed"
@@ -4325,17 +4396,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_mn_tabi_last_dash": 2226191,
-  "ua_rs_active_until": 2226241,
+  "ua_mn_tabi_last_dash": 2231918,
+  "ua_rs_active_until": 2231713,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2226336,
-  "ua_shiny_last_x": 7.0083,
+  "ua_shiny_last_active": 2232336,
+  "ua_shiny_last_x": 6.3949,
   "ua_shiny_last_y": 3.0,
-  "ua_shiny_last_z": 7.2553
+  "ua_shiny_last_z": -3.9138
  },
- "Health": 53.6667,
- "HurtByTimestamp": 0,
+ "Health": 66.0,
+ "HurtByTimestamp": 1683,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4767,26 +4838,26 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   4,
-   4,
-   8
+   -11,
+   3,
+   12
   ]
  },
  "Motion": [
-  0.0,
+  0.0051,
   -0.0784,
-  0.0
+  0.0066
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  7.0083,
+  6.3949,
   3.0,
-  7.2553
+  -3.9138
  ],
  "Rotation": [
-  -65.0565,
-  -8.2845
+  -34.6747,
+  17.6894
  ],
  "Score": 27850,
  "SelectedItemSlot": 0,
@@ -4811,10 +4882,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.823,
+ "foodExhaustionLevel": 2.917,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 8,
+ "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -4822,7 +4893,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 33,
+  "mana": 125,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15134,7 +15205,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2182,
+  "ticks_since_last_warning": 7955,
   "warning_level": 0
  }
 }

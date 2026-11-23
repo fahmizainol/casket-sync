@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 3.0,
+ "AbsorptionAmount": 11.0,
  "Air": 300,
  "Attributes": [
   {
@@ -1206,8 +1206,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 231
+   "currentDataNodeId": 262,
+   "currentLogicNodeId": 262
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1434,8 +1434,6 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 8,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4741,10 +4739,10 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 2226266,
+  "ua_rs_active_until": 2232303,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2226303
+  "ua_tabi_last_dash": 2232241
  },
  "Health": 1.0,
  "HurtByTimestamp": 0,
@@ -4996,9 +4994,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -8,
+   13,
    3,
-   6
+   1
   ]
  },
  "Motion": [
@@ -5009,13 +5007,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -6.4201,
+  13.5854,
   3.0,
-  -1.612
+  13.8697
  ],
  "Rotation": [
-  -58.939,
-  -1.5264
+  167.1661,
+  -2.5861
  ],
  "Score": 12057,
  "SelectedItemSlot": 0,
@@ -5046,7 +5044,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.539,
+ "foodExhaustionLevel": 1.802,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5057,7 +5055,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 18,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14549,7 +14547,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 9026,
+  "ticks_since_last_warning": 2519,
   "warning_level": 0
  }
 }
