@@ -117,8 +117,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    1645303366197813498,
-    -8899020675211821386
+    795556884345279114,
+    -6550155742021196016
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2064965373596776910,
-    3981319228164647484
+    2665234168923804393,
+    -12443536475913697
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -7177062676169977871,
-    5849580212123148087
+    6045344953089419163,
+    -8177004956045234346
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1953,8 +1953,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    -604678268413273345,
-    -2783828593985019536
+    771629209400540995,
+    -3244671627577400918
    ]
   },
   "minecraft:entities/blaze": {
@@ -2019,8 +2019,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    2640033950596330753,
-    -6458461117258597556
+    -8848587592051709096,
+    3786582994337762855
    ]
   },
   "minecraft:entities/guardian": {
@@ -2127,8 +2127,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -8478332745528830245,
-    -6811611927816045832
+    -7674407654859118138,
+    4053561452184744766
    ]
   },
   "minecraft:entities/skeleton_horse": {
@@ -2145,8 +2145,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    -6906153751119208569,
-    -9166972321535627150
+    -8856303187419735037,
+    7807293213775739090
    ]
   },
   "minecraft:entities/squid": {
@@ -2199,8 +2199,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    1340422344356418696,
-    -7448497229203518515
+    4025963954261239385,
+    7615967362231503919
    ]
   },
   "minecraft:entities/zombie_villager": {

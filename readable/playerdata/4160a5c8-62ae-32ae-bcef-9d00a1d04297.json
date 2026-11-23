@@ -58,6 +58,20 @@
   },
   {
    "Base": 1.0,
+   "Modifiers": [
+    {
+     "Amount": 4.0,
+     "Name": "artifacts:power_glove_attack_damage_bonus",
+     "Operation": 0,
+     "UUID": [
+      308939635,
+      -1374337428,
+      -1487198021,
+      -702737548
+     ],
+     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+    }
+   ],
    "Name": "minecraft:generic.attack_damage"
   },
   {
@@ -237,7 +251,13 @@
       },
       "SavedBaseSize": 1,
       "Stacks": {
-       "Items": [],
+       "Items": [
+        {
+         "Count": 1,
+         "Slot": 0,
+         "id": "artifacts:superstitious_hat"
+        }
+       ],
        "Size": 1
       },
       "Visible": 1
@@ -291,7 +311,13 @@
       },
       "SavedBaseSize": 1,
       "Stacks": {
-       "Items": [],
+       "Items": [
+        {
+         "Count": 1,
+         "Slot": 0,
+         "id": "minecraft:soul_lantern"
+        }
+       ],
        "Size": 1
       },
       "Visible": 1
@@ -327,6 +353,11 @@
          "Count": 1,
          "Slot": 0,
          "id": "artifacts:feral_claws"
+        },
+        {
+         "Count": 1,
+         "Slot": 1,
+         "id": "artifacts:power_glove"
         }
        ],
        "Size": 2
@@ -438,7 +469,7 @@
         {
          "Count": 1,
          "Slot": 0,
-         "id": "uniqueaccessories:tabi"
+         "id": "uniqueaccessories:master_ninja_tabi"
         }
        ],
        "Size": 1
@@ -536,7 +567,7 @@
    "passive4": "dodge_parry_reward:health_boost2",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:heal2",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -4185,15 +4216,17 @@
   "last_send_time": 0,
   "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
-   "uniqueaccessories:bloody_knife": 1
+   "uniqueaccessories:bloody_knife": 1,
+   "uniqueaccessories:master_ninja_tabi": 1,
+   "uniqueaccessories:tabi": 1
   },
-  "ua_rs_active_until": 2049999,
+  "ua_rs_active_until": 2053454,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2052145,
-  "ua_shiny_last_x": 80.1866,
+  "ua_shiny_last_active": 2056055,
+  "ua_shiny_last_x": 79.5735,
   "ua_shiny_last_y": 73.0,
-  "ua_shiny_last_z": -133.6451,
+  "ua_shiny_last_z": -131.1034,
   "ua_tabi_last_dash": 2049870
  },
  "Health": 32.0,
@@ -4328,11 +4361,6 @@
   },
   {
    "Count": 1,
-   "Slot": 9,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
    "Slot": 10,
    "id": "minecraft:diamond_shovel",
    "tag": {
@@ -4410,16 +4438,6 @@
   },
   {
    "Count": 1,
-   "Slot": 16,
-   "id": "tcrcore:artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 17,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
    "Slot": 18,
    "id": "tcrcore:artifact_ticket"
   },
@@ -4427,6 +4445,21 @@
    "Count": 1,
    "Slot": 19,
    "id": "tcrcore:artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 20,
+   "id": "uniqueaccessories:tabi"
+  },
+  {
+   "Count": 8,
+   "Slot": 22,
+   "id": "minecraft:soul_lantern"
+  },
+  {
+   "Count": 7,
+   "Slot": 23,
+   "id": "minecraft:soul_lantern"
   },
   {
    "Count": 1,
@@ -4584,13 +4617,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  80.1902,
+  79.5735,
   73.0,
-  -133.6315
+  -131.1034
  ],
  "Rotation": [
-  -58.6195,
-  14.4502
+  -92.9704,
+  6.8992
  ],
  "Score": 15849,
  "SelectedItemSlot": 3,
@@ -4621,7 +4654,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.812,
+ "foodExhaustionLevel": 2.862,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14944,7 +14977,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3603,
+  "ticks_since_last_warning": 9603,
   "warning_level": 0
  }
 }

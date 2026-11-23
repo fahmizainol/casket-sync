@@ -3857,7 +3857,7 @@
      }
     },
     {
-     "amount": 340,
+     "amount": 341,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -6316,15 +6316,6 @@
        "tag": {
         "Damage": 0
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 16,
-     "key": {
-      "stack": {
-       "item": "minecraft:soul_lantern"
       },
       "type": "beyonddimensions:stack_type/item"
      }

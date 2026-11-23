@@ -328,15 +328,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "tcrcore:end_resonance_stone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "minecraft:chainmail_chestplate",
        "tag": {
         "Damage": 0,
@@ -654,7 +645,7 @@
      }
     },
     {
-     "amount": 342,
+     "amount": 343,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
