@@ -19,6 +19,18 @@
     -8212750413315295259
    ]
   },
+  "aether:blocks/crystal_fruit_leaves": {
+   "source": [
+    -4163844942400892481,
+    9218434971625565264
+   ]
+  },
+  "aether:blocks/crystal_leaves": {
+   "source": [
+    69579610284223133,
+    410553581014129022
+   ]
+  },
   "aether:blocks/golden_oak_leaves": {
    "source": [
     1311740945498094233,
@@ -117,8 +129,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    8731952736114302246,
-    6042665293155042269
+    5829019835976114451,
+    9068326511723900075
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -141,8 +153,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -6286108955816918227,
-    -5973703412995669414
+    7759418609661948550,
+    7791030711976691359
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +165,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    711683614707909256,
-    5552676542510412823
+    -150275540632984634,
+    -47138392776879861
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1971,8 +1983,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    8700355649276508984,
-    2865023313568764584
+    5229337032884246623,
+    5122962274761293862
    ]
   },
   "minecraft:entities/blaze": {
@@ -2109,8 +2121,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -12855040999776410,
-    2990634093288066545
+    -6680613316233498279,
+    -4758383595960566271
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2145,8 +2157,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    3351889328932044599,
-    -2614793853041452537
+    1076297384365587562,
+    -3848127613705700168
    ]
   },
   "minecraft:entities/skeleton_horse": {

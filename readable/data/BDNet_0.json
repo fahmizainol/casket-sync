@@ -130,15 +130,6 @@
      }
     },
     {
-     "amount": 9,
-     "key": {
-      "stack": {
-       "item": "irons_spellbooks:firefly_jar"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 1,
      "key": {
       "stack": {
@@ -645,7 +636,7 @@
      }
     },
     {
-     "amount": 347,
+     "amount": 348,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2745,6 +2736,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_pickaxe",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
@@ -2864,42 +2867,10 @@
      }
     },
     {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "irons_spellbooks:lightning_bottle"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 7,
      "key": {
       "stack": {
        "item": "minecraft:raw_iron"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:diamond_pickaxe",
-       "tag": {
-        "Damage": 0,
-        "Enchantments": [
-         {
-          "id": "minecraft:efficiency",
-          "lvl": 4
-         },
-         {
-          "id": "minecraft:silk_touch",
-          "lvl": 1
-         }
-        ],
-        "sheath": 0
-       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

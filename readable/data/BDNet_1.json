@@ -3937,7 +3937,7 @@
      }
     },
     {
-     "amount": 345,
+     "amount": 346,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4701,15 +4701,6 @@
      "key": {
       "stack": {
        "item": "minecraft:soul_campfire"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "minecraft:stick"
       },
       "type": "beyonddimensions:stack_type/item"
      }

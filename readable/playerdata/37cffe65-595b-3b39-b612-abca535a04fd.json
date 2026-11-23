@@ -85,6 +85,10 @@
    "Name": "irons_spellbooks:lightning_spell_power"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
@@ -153,7 +157,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "minecraft:the_end",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -545,7 +549,8 @@
     "8": "wom:mindset"
    },
    "learned:sword_soaring": {
-    "0": "sword_soaring:sword_soaring_elytra_master"
+    "0": "sword_soaring:sword_soaring_master",
+    "1": "sword_soaring:sword_soaring_elytra_master"
    },
    "passive1": "wom:adrenaline",
    "passive2": "wom:heart_shield",
@@ -553,7 +558,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost1",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -576,7 +581,7 @@
     "weapon_innate": 0,
     "weapon_passive": 0
    },
-   "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
+   "sword_soaring": "sword_soaring:sword_soaring_master"
   },
   "epicskills:ability_points": {
    "abilityPoint": 1,
@@ -1319,7 +1324,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 78.0,
+    "currentQuestId": 79.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1356,7 +1361,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 75,
+   "finishedQuestSize": 76,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1430,6 +1435,7 @@
    "finished_quest_72": 7,
    "finished_quest_73": 77,
    "finished_quest_74": 75,
+   "finished_quest_75": 78,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 12.0,
@@ -1442,7 +1448,7 @@
    "quest_5": 4,
    "quest_6": 3,
    "quest_7": 15,
-   "quest_8": 78,
+   "quest_8": 79,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -1451,10 +1457,12 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 9,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795255471491,
+     "WarpStoneCooldownUntilUnix": 1795445686789,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -4759,10 +4767,10 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:amplifier_stone": 1
   },
-  "ua_rs_active_until": 2080717,
+  "ua_rs_active_until": 2088339,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2080761
+  "ua_tabi_last_dash": 2087361
  },
  "Health": 1.0,
  "HurtByTimestamp": 1197,
@@ -4787,6 +4795,18 @@
       "lvl": 3
      }
     ],
+    "irons_spellbooks:spell_container": {
+     "data": [
+      {
+       "id": "irons_spellbooks:thunderstorm",
+       "index": 0,
+       "level": 4
+      }
+     ],
+     "maxSpells": 1,
+     "mustEquip": 0,
+     "spellWheel": 1
+    },
     "murasama_sheath": 0
    }
   },
@@ -4832,7 +4852,18 @@
    "Slot": 5,
    "id": "minecraft:diamond_pickaxe",
    "tag": {
-    "Damage": 0
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:efficiency",
+      "lvl": 4
+     },
+     {
+      "id": "minecraft:silk_touch",
+      "lvl": 1
+     }
+    ],
+    "sheath": 0
    }
   },
   {
@@ -4872,6 +4903,11 @@
    "Count": 2,
    "Slot": 11,
    "id": "minecraft:string"
+  },
+  {
+   "Count": 7,
+   "Slot": 12,
+   "id": "irons_spellbooks:firefly_jar"
   },
   {
    "Count": 1,
@@ -4947,12 +4983,47 @@
    "id": "minecraft:totem_of_undying"
   },
   {
+   "Count": 2,
+   "Slot": 27,
+   "id": "minecraft:spider_eye"
+  },
+  {
+   "Count": 1,
+   "Slot": 28,
+   "id": "irons_spellbooks:scroll",
+   "tag": {
+    "irons_spellbooks:spell_container": {
+     "data": [
+      {
+       "id": "irons_spellbooks:spider_aspect",
+       "index": 0,
+       "level": 4,
+       "locked": 1
+      }
+     ],
+     "maxSpells": 1,
+     "mustEquip": 0,
+     "spellWheel": 0
+    }
+   }
+  },
+  {
+   "Count": 3,
+   "Slot": 29,
+   "id": "aether:crystal_leaves"
+  },
+  {
    "Count": 1,
    "Slot": 30,
    "id": "minecraft:golden_sword",
    "tag": {
     "Damage": 0
    }
+  },
+  {
+   "Count": 3,
+   "Slot": 31,
+   "id": "aether:crystal_fruit_leaves"
   },
   {
    "Count": 1,
@@ -5042,20 +5113,20 @@
   ]
  },
  "Motion": [
-  0.0,
-  -0.0784,
-  0.0
+  0.1199,
+  3.2922,
+  0.1776
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -111.9172,
-  79.0,
-  -127.4476
+  105.9437,
+  35.7078,
+  32.5506
  ],
  "Rotation": [
-  69.4529,
-  -0.7509
+  31.6625,
+  -53.9825
  ],
  "Score": 9397,
  "SelectedItemSlot": 0,
@@ -5086,14 +5157,21 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.398,
+ "foodExhaustionLevel": 1.618,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "",
+  "castingEquipmentSlot": "mainhand",
   "castingSpellId": "",
   "castingSpellLevel": 0,
+  "cooldowns": [
+   {
+    "cdr": 3352,
+    "id": "irons_spellbooks:thunderstorm",
+    "scd": 4800
+   }
+  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
@@ -14634,7 +14712,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5315,
+  "ticks_since_last_warning": 11313,
   "warning_level": 0
  }
 }
