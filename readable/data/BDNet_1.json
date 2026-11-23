@@ -1638,15 +1638,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "uniqueaccessories:bloody_knife"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "minecraft:enchanted_book",
        "tag": {
         "StoredEnchantments": [
@@ -4038,7 +4029,7 @@
      }
     },
     {
-     "amount": 371,
+     "amount": 372,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
