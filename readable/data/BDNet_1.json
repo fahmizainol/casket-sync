@@ -1375,15 +1375,6 @@
      "amount": 3,
      "key": {
       "stack": {
-       "item": "cataclysm:cursium_ingot"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 3,
-     "key": {
-      "stack": {
        "item": "minecraft:netherite_scrap"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -3320,15 +3311,6 @@
      }
     },
     {
-     "amount": 12,
-     "key": {
-      "stack": {
-       "item": "irons_spellbooks:frozen_bone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 2,
      "key": {
       "stack": {
@@ -3928,7 +3910,7 @@
      }
     },
     {
-     "amount": 355,
+     "amount": 356,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
