@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    8770619012799040600,
-    4073599695394831483
+    2064965373596776910,
+    3981319228164647484
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -5427151569676410254,
-    1481648110892581359
+    -7177062676169977871,
+    5849580212123148087
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -423,8 +423,8 @@
   },
   "cataclysm:blocks/pointed_icicle": {
    "source": [
-    8450358952679375985,
-    -5246594207118895503
+    -7358714732042267078,
+    -1226350116382960394
    ]
   },
   "cataclysm:entities/draugr": {

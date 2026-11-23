@@ -104,6 +104,23 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:piercing",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "cataclysm:abyss_eye",
        "tag": {
         "sheath": 0
@@ -259,6 +276,15 @@
      "key": {
       "stack": {
        "item": "minecraft:polished_blackstone_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:invisibility_elixir"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -525,7 +551,7 @@
      }
     },
     {
-     "amount": 39,
+     "amount": 41,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -628,7 +654,7 @@
      }
     },
     {
-     "amount": 341,
+     "amount": 342,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -716,7 +742,7 @@
      }
     },
     {
-     "amount": 121,
+     "amount": 155,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -759,6 +785,15 @@
      "key": {
       "stack": {
        "item": "artifacts:plastic_drinking_hat"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:rare_ink"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -896,15 +931,6 @@
      }
     },
     {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "uniqueaccessories:accessory_box"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 2,
      "key": {
       "stack": {
@@ -1000,7 +1026,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "irons_spellbooks:common_ink"
@@ -1501,6 +1527,41 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:pointed_icicle"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_axe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fortune",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
@@ -1573,6 +1634,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:frosted_stone_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 17,
      "key": {
       "stack": {
@@ -1591,7 +1661,7 @@
      }
     },
     {
-     "amount": 96,
+     "amount": 105,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -1627,7 +1697,7 @@
      }
     },
     {
-     "amount": 49,
+     "amount": 73,
      "key": {
       "stack": {
        "item": "cataclysm:black_steel_ingot"
@@ -1654,7 +1724,7 @@
      }
     },
     {
-     "amount": 109,
+     "amount": 121,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -1672,6 +1742,50 @@
          {
           "id": "alexsmobs:serpentfriend",
           "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:aqua_affinity",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:respiration",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_axe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 4
          }
         ]
        }
@@ -1769,6 +1883,28 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 34,
      "key": {
       "stack": {
@@ -1812,6 +1948,24 @@
      "key": {
       "stack": {
        "item": "minecraft:magma_cream"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 3
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1876,7 +2030,25 @@
      }
     },
     {
-     "amount": 50,
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 60,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -2039,6 +2211,28 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:blast_protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 10,
      "key": {
       "stack": {
@@ -2135,10 +2329,22 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "irons_spellbooks:uncommon_ink"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:potion",
+       "tag": {
+        "Potion": "irons_spellbooks:instant_mana_two"
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2157,6 +2363,18 @@
      "key": {
       "stack": {
        "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:rusted_heavymace",
        "tag": {
         "Damage": 0
        }
@@ -2447,15 +2665,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "tcrcore:artifact_ticket"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "minecraft:enchanted_book",
        "tag": {
         "StoredEnchantments": [
@@ -2518,7 +2727,25 @@
      }
     },
     {
-     "amount": 166,
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 181,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -2687,6 +2914,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:stone_pillar"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -2727,6 +2963,28 @@
      "key": {
       "stack": {
        "item": "epicfight_leonidas:the_lost_helmet"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:smite",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2779,6 +3037,18 @@
           "lvl": 4
          }
         ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:rustedhalfarmor_chestplate",
+       "tag": {
+        "Damage": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
