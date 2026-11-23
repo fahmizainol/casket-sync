@@ -3845,6 +3845,23 @@
     "whitelisted": 0
    },
    {
+    "maxX": 3094.0,
+    "maxY": 128.0,
+    "maxZ": -7254.0,
+    "minX": 2926.0,
+    "minY": 28.0,
+    "minZ": -7430.0,
+    "type": "lios_outlandish_villages:spiral_tower_village",
+    "uuid": [
+     1939387934,
+     -1728099394,
+     -1228759231,
+     347522772
+    ],
+    "uuid_str": "7398b61e-98ff-4bbe-b6c2-9f4114b6c6d4",
+    "whitelisted": 0
+   },
+   {
     "maxX": -2512.0,
     "maxY": 3.0,
     "maxZ": -1552.0,
@@ -4318,6 +4335,23 @@
      878469958
     ],
     "uuid_str": "f243e7e4-d3f2-4bce-b53a-56fc345c6346",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3440.0,
+    "maxY": 61.0,
+    "maxZ": -7327.0,
+    "minX": 3422.0,
+    "minY": 55.0,
+    "minZ": -7345.0,
+    "type": "mowziesmobs:wrought_chamber",
+    "uuid": [
+     234519358,
+     2145798829,
+     -2125930605,
+     1342686235
+    ],
+    "uuid_str": "0dfa7b3e-7fe6-4aad-8148-df935007c41b",
     "whitelisted": 0
    },
    {
@@ -6834,6 +6868,23 @@
      -1621702522
     ],
     "uuid_str": "a1ad28bd-1dc5-48b6-bddb-184a9f56c886",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 3599.0,
+    "maxY": 91.0,
+    "maxZ": -7317.0,
+    "minX": 3584.0,
+    "minY": 85.0,
+    "minZ": -7328.0,
+    "type": "bookofdragons:roost_cave",
+    "uuid": [
+     1693216859,
+     55525901,
+     -1626796701,
+     1752797636
+    ],
+    "uuid_str": "64ec705b-034f-420d-9f09-0d63687991c4",
     "whitelisted": 0
    },
    {

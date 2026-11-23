@@ -1,24 +1,15 @@
 {
  "AbsorptionAmount": 20.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 5,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": -1,
-   "Id": 170,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "efn:murasama_sheath"
-  }
- ],
  "Air": 300,
  "Attributes": [
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
+  },
   {
    "Base": 0.5,
    "Name": "epicfight:impact"
@@ -29,11 +20,15 @@
   },
   {
    "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:holy_spell_power"
+   "Base": 0.0,
+   "Name": "attributeslib:dodge_chance"
   },
   {
    "Base": 0.1,
@@ -62,54 +57,6 @@
    "Name": "minecraft:generic.max_health"
   },
   {
-   "Base": 100.0,
-   "Name": "irons_spellbooks:max_mana"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
-  },
-  {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:ice_spell_power"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:lightning_spell_power"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:dodge_chance"
-  },
-  {
    "Base": 1.0,
    "Modifiers": [
     {
@@ -123,21 +70,17 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    },
-    {
-     "Amount": 0.6,
-     "Name": "effect.efn.murasama_sheath 5",
-     "Operation": 2,
-     "UUID": [
-      -1961218756,
-      1314876027,
-      -1935810319,
-      -1565276971
-     ],
-     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
   },
   {
    "Base": 15.0,
@@ -172,6 +115,18 @@
   {
    "Base": 4.0,
    "Name": "minecraft:generic.attack_speed"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor"
   }
  ],
  "BalmData": {},
@@ -582,7 +537,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost1",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1480,8 +1435,6 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 12,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4789,13 +4742,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:amplifier_stone": 1
   },
-  "ua_rs_active_until": 2069569,
+  "ua_rs_active_until": 2076114,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2070122
+  "ua_tabi_last_dash": 2076182
  },
  "Health": 1.0,
- "HurtByTimestamp": 26591,
+ "HurtByTimestamp": 1197,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4817,7 +4770,7 @@
       "lvl": 3
      }
     ],
-    "murasama_sheath": 1
+    "murasama_sheath": 0
    }
   },
   {
@@ -4848,7 +4801,7 @@
    "id": "minecraft:black_bed"
   },
   {
-   "Count": 31,
+   "Count": 41,
    "Slot": 3,
    "id": "minecraft:emerald"
   },
@@ -4904,7 +4857,7 @@
    "id": "minecraft:string"
   },
   {
-   "Count": 1,
+   "Count": 3,
    "Slot": 12,
    "id": "minecraft:spider_eye"
   },
@@ -4924,7 +4877,7 @@
    "id": "minecraft:carrot"
   },
   {
-   "Count": 3,
+   "Count": 4,
    "Slot": 16,
    "id": "minecraft:amethyst_shard"
   },
@@ -4944,6 +4897,41 @@
   {
    "Count": 1,
    "Slot": 19,
+   "id": "minecraft:totem_of_undying"
+  },
+  {
+   "Count": 1,
+   "Slot": 20,
+   "id": "minecraft:totem_of_undying"
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "minecraft:crimson_roots"
+  },
+  {
+   "Count": 1,
+   "Slot": 22,
+   "id": "fantasy_armor:moon_crystal"
+  },
+  {
+   "Count": 2,
+   "Slot": 23,
+   "id": "minecraft:stick"
+  },
+  {
+   "Count": 2,
+   "Slot": 24,
+   "id": "minecraft:glass_bottle"
+  },
+  {
+   "Count": 1,
+   "Slot": 25,
+   "id": "minecraft:totem_of_undying"
+  },
+  {
+   "Count": 1,
+   "Slot": 26,
    "id": "minecraft:totem_of_undying"
   },
   {
@@ -5034,30 +5022,30 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
+  "dimension": "minecraft:overworld",
   "pos": [
-   -17,
-   99,
-   -3
+   3265,
+   92,
+   -6888
   ]
  },
  "Motion": [
-  0.0,
+  0.1756,
   -0.0784,
-  0.0
+  0.2201
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  3266.749,
+  3322.56,
   82.0,
-  -6881.6835
+  -6937.9737
  ],
  "Rotation": [
-  -87.1448,
-  19.4976
+  -38.5848,
+  11.9442
  ],
- "Score": 9334,
+ "Score": 9397,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
@@ -5074,9 +5062,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 57,
- "XpP": 0.7127,
+ "XpP": 0.8901,
  "XpSeed": -736053570,
- "XpTotal": 9334,
+ "XpTotal": 9397,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5086,7 +5074,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.976,
+ "foodExhaustionLevel": 0.423,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14634,7 +14622,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5493,
+  "ticks_since_last_warning": 11316,
   "warning_level": 0
  }
 }

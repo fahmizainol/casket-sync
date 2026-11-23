@@ -117,8 +117,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    3445624399353552383,
-    8009517207464310209
+    -6905153780013644574,
+    -8988606187311347454
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -141,8 +141,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -7638264939964858372,
-    4514143337719292628
+    6884102487753691290,
+    -2695176074169075861
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    1265156682470238501,
-    231791913540093830
+    8055613724853699986,
+    -6733646426708326360
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -749,6 +749,12 @@
    "source": [
     -2154190043039363582,
     -6281079108352275952
+   ]
+  },
+  "minecraft:blocks/crimson_roots": {
+   "source": [
+    -5460611280448379861,
+    3131458185007599119
    ]
   },
   "minecraft:blocks/crying_obsidian": {
@@ -1839,8 +1845,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    -658698045271572726,
-    -4583919042546051944
+    -4164831684739505859,
+    5731730721503680263
    ]
   },
   "minecraft:blocks/tall_seagrass": {
@@ -2025,14 +2031,14 @@
   },
   "minecraft:entities/evoker": {
    "source": [
-    -3612931830847143647,
-    -1656747570863522161
+    -8368396926262960770,
+    4631853493514506423
    ]
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    -8848587592051709096,
-    3786582994337762855
+    8136555049742673504,
+    -9048628609870198244
    ]
   },
   "minecraft:entities/guardian": {
@@ -2103,8 +2109,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -3529094385966253747,
-    6522582566865156126
+    -12855040999776410,
+    2990634093288066545
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2163,8 +2169,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -6561284042882737340,
-    -4206567784545501837
+    805123341497387286,
+    6111808612786051153
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -2181,14 +2187,14 @@
   },
   "minecraft:entities/vindicator": {
    "source": [
-    -7970646612392377499,
-    -3312435989675481046
+    -4768544657419959029,
+    -5798686965509460844
    ]
   },
   "minecraft:entities/witch": {
    "source": [
-    6138135777808596275,
-    749918411731255686
+    3276206691460488875,
+    6290436285713218920
    ]
   },
   "minecraft:entities/wither": {

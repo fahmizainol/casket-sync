@@ -6,8 +6,6 @@
 	last_seen: { dim: "minecraft:overworld", x: 197, y: 73, z: -658, time: 1795442269174L, xRot: -19.98782f, yRot: -94.21179f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -58, y: 98, z: -23, time: 1795442712865L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: 1, y: 160, z: -3, time: 1795442764254L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -45, y: 98, z: -26, time: 1795442877385L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -40, y: 136, z: -33, time: 1795443434430L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -24, y: 152, z: -17, time: 1795443475379L }
@@ -16,6 +14,8 @@
 		{ dim: "minecraft:overworld", x: 211, y: 73, z: -656, time: 1795444526175L }
 		{ dim: "minecraft:overworld", x: 3275, y: 84, z: -6882, time: 1795444637085L }
 		{ dim: "minecraft:overworld", x: 261, y: 63, z: -1773, time: 1795444898179L }
+		{ dim: "minecraft:overworld", x: 3265, y: 83, z: -6888, time: 1795445027236L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -15, y: 100, z: -23, time: 1795445031068L }
 	]
 	homes: { }
 	kit_use_times: { }

@@ -109,15 +109,6 @@
      }
     },
     {
-     "amount": 5,
-     "key": {
-      "stack": {
-       "item": "cataclysm:kobolediator_skull"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 9,
      "key": {
       "stack": {
@@ -167,6 +158,28 @@
      "key": {
       "stack": {
        "item": "uniqueaccessories:anklet_of_fortune"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1362,6 +1375,15 @@
      "amount": 3,
      "key": {
       "stack": {
+       "item": "cataclysm:cursium_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
        "item": "minecraft:netherite_scrap"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -1586,6 +1608,15 @@
      "key": {
       "stack": {
        "item": "minecraft:oak_log"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 11,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1896,7 +1927,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "minecraft:flint_and_steel",
@@ -2088,6 +2119,18 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:golden_boots",
+       "tag": {
+        "Damage": 30
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:name_tag"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -2169,7 +2212,7 @@
      }
     },
     {
-     "amount": 95,
+     "amount": 105,
      "key": {
       "stack": {
        "item": "minecraft:bread"
@@ -2294,7 +2337,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 13,
      "key": {
       "stack": {
        "item": "magistuarmory:leather_strip"
@@ -2555,15 +2598,6 @@
      }
     },
     {
-     "amount": 3,
-     "key": {
-      "stack": {
-       "item": "efn:duskfire_ingot"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 1,
      "key": {
       "stack": {
@@ -2639,6 +2673,18 @@
           "lvl": 1
          }
         ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_leggings",
+       "tag": {
+        "Damage": 30
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -2765,7 +2811,7 @@
      }
     },
     {
-     "amount": 264,
+     "amount": 265,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -3192,7 +3238,7 @@
      }
     },
     {
-     "amount": 36,
+     "amount": 44,
      "key": {
       "stack": {
        "item": "minecraft:potato"
@@ -3680,7 +3726,7 @@
      }
     },
     {
-     "amount": 7,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "minecraft:poisonous_potato"
@@ -3834,6 +3880,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:chiseled_quartz_block"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 9,
      "key": {
       "stack": {
@@ -3855,7 +3910,7 @@
      }
     },
     {
-     "amount": 179,
+     "amount": 182,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -3891,7 +3946,7 @@
      }
     },
     {
-     "amount": 343,
+     "amount": 344,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3917,6 +3972,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:rabbit_stew"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4651,6 +4715,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:stick"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -4804,7 +4877,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:netherite_ingot"
@@ -4849,7 +4922,7 @@
      }
     },
     {
-     "amount": 219,
+     "amount": 231,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -5162,7 +5235,7 @@
      }
     },
     {
-     "amount": 47,
+     "amount": 60,
      "key": {
       "stack": {
        "item": "minecraft:wheat"
@@ -5201,7 +5274,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:iron_axe",
@@ -5269,6 +5342,15 @@
      "key": {
       "stack": {
        "item": "minecraft:spruce_hanging_sign"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 20,
+     "key": {
+      "stack": {
+       "item": "minecraft:leather"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5637,7 +5719,7 @@
      }
     },
     {
-     "amount": 10,
+     "amount": 11,
      "key": {
       "stack": {
        "item": "supplementaries:ash"
@@ -5899,7 +5981,7 @@
      }
     },
     {
-     "amount": 142,
+     "amount": 150,
      "key": {
       "stack": {
        "item": "minecraft:gold_nugget"

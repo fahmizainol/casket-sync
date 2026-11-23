@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1277489,
+  "DayTime": 1283489,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,7 +421,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795444951678,
+  "LastPlayed": 1795445251683,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -1004,7 +1004,7 @@
      "passive4": "dodge_parry_reward:health_boost2",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "EPICFIGHT",
+     "playerMode": "VANILLA",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -1683,7 +1683,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 386
+     "currentLogicNodeId": 212
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -4658,18 +4658,18 @@
      "uniqueaccessories:master_ninja_tabi": 1,
      "uniqueaccessories:tabi": 1
     },
-    "ua_mn_tabi_last_dash": 2070299,
-    "ua_rs_active_until": 2070306,
+    "ua_mn_tabi_last_dash": 2072303,
+    "ua_rs_active_until": 2074404,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 2070333,
-    "ua_shiny_last_x": 3261.8048,
-    "ua_shiny_last_y": 84.0,
-    "ua_shiny_last_z": -6879.1462,
+    "ua_shiny_last_active": 2076049,
+    "ua_shiny_last_x": 258.3327,
+    "ua_shiny_last_y": 66.0,
+    "ua_shiny_last_z": -1767.5492,
     "ua_tabi_last_dash": 2049870
    },
-   "Health": 24.8099,
-   "HurtByTimestamp": 15416,
+   "Health": 32.0,
+   "HurtByTimestamp": 25349,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4803,102 +4803,34 @@
      "id": "waystones:waystone"
     },
     {
-     "Count": 1,
-     "Slot": 9,
-     "id": "minecraft:netherite_ingot"
-    },
-    {
-     "Count": 7,
-     "Slot": 10,
-     "id": "minecraft:netherite_upgrade_smithing_template"
-    },
-    {
-     "Count": 2,
+     "Count": 13,
      "Slot": 11,
-     "id": "magistuarmory:hilt"
+     "id": "minecraft:diamond"
     },
     {
-     "Count": 59,
+     "Count": 14,
      "Slot": 12,
      "id": "minecraft:diamond"
     },
     {
-     "Count": 8,
-     "Slot": 13,
-     "id": "magistuarmory:leather_strip"
-    },
-    {
-     "Count": 19,
-     "Slot": 14,
-     "id": "minecraft:leather"
-    },
-    {
-     "Count": 1,
-     "Slot": 15,
-     "id": "minecraft:leather"
-    },
-    {
      "Count": 3,
-     "Slot": 16,
-     "id": "cataclysm:cursium_ingot"
-    },
-    {
-     "Count": 11,
-     "Slot": 17,
-     "id": "cataclysm:black_steel_ingot"
-    },
-    {
-     "Count": 2,
      "Slot": 18,
-     "id": "minecraft:emerald"
-    },
-    {
-     "Count": 3,
-     "Slot": 19,
-     "id": "minecraft:poisonous_potato"
-    },
-    {
-     "Count": 3,
-     "Slot": 20,
-     "id": "minecraft:wheat"
-    },
-    {
-     "Count": 2,
-     "Slot": 21,
-     "id": "minecraft:stick"
-    },
-    {
-     "Count": 4,
-     "Slot": 22,
-     "id": "minecraft:potato"
-    },
-    {
-     "Count": 3,
-     "Slot": 23,
-     "id": "minecraft:bread"
-    },
-    {
-     "Count": 2,
-     "Slot": 24,
-     "id": "minecraft:chiseled_quartz_block"
+     "id": "efn:duskfire_ingot"
     },
     {
      "Count": 1,
-     "Slot": 29,
-     "id": "cataclysm:black_steel_sword",
-     "tag": {
-      "Damage": 0,
-      "Enchantments": [
-       {
-        "id": "minecraft:fire_aspect",
-        "lvl": 2
-       },
-       {
-        "id": "minecraft:sharpness",
-        "lvl": 5
-       }
-      ]
-     }
+     "Slot": 19,
+     "id": "magistuarmory:hilt"
+    },
+    {
+     "Count": 5,
+     "Slot": 20,
+     "id": "cataclysm:kobolediator_skull"
+    },
+    {
+     "Count": 29,
+     "Slot": 22,
+     "id": "minecraft:diamond"
     },
     {
      "Count": 1,
@@ -5018,16 +4950,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    3261.81,
-    84.0,
-    -6879.1431
+    258.3382,
+    66.0,
+    -1767.5445
    ],
    "Rotation": [
-    -43.6583,
-    19.4627
+    22.3889,
+    30.5344
    ],
-   "Score": 15894,
-   "SelectedItemSlot": 4,
+   "Score": 15918,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": 0.0,
    "SpawnDimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
@@ -5042,10 +4974,10 @@
     -1580186985
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
-   "XpLevel": 66,
-   "XpP": 0.9908,
+   "XpLevel": 67,
+   "XpP": 0.0449,
    "XpSeed": 976728483,
-   "XpTotal": 15894,
+   "XpTotal": 15918,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -5055,7 +4987,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.228,
+   "foodExhaustionLevel": 2.483,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15378,7 +15310,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 9602,
+    "ticks_since_last_warning": 3600,
     "warning_level": 0
    }
   },
@@ -15390,15 +15322,15 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2070336,
+  "Time": 2076336,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
    "Series": "main",
    "Snapshot": 0
   },
-  "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 4800,
+  "WanderingTraderSpawnChance": 50,
+  "WanderingTraderSpawnDelay": 22800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16086,9 +16018,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 26383,
+  "rainTime": 20383,
   "raining": 0,
-  "thunderTime": 18830,
+  "thunderTime": 12830,
   "thundering": 0,
   "version": 19133
  },
