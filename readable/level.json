@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1481489,
+  "DayTime": 1486999,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -426,26 +426,11 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795455161381,
+  "LastPlayed": 1795455437764,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "ActiveEffects": [
-    {
-     "Ambient": 0,
-     "Amplifier": 7,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 443,
-     "Id": 21,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
-    },
     {
      "Ambient": 1,
      "Amplifier": 0,
@@ -455,7 +440,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 241,
+     "Duration": 251,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -470,7 +455,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 258,
+     "Duration": 251,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -517,18 +502,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 32.0,
-       "Name": "effect.minecraft.health_boost 7",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -536,10 +509,6 @@
     {
      "Base": 100.0,
      "Name": "irons_spellbooks:max_mana"
-    },
-    {
-     "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
     },
     {
      "Base": 1.0,
@@ -676,7 +645,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "pbf1:sanctum_of_the_battle1",
+   "Dimension": "tcrcore:sanctum",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -690,7 +659,7 @@
      "LifeShardCount": 0,
      "LoginsUntilPatreonMessage": -1,
      "RemedyStartDuration": 0,
-     "SavedHealth": 0.0
+     "SavedHealth": 34.0
     },
     "armourers_workshop:entity-skin-provider": {
      "DataVersion": 1
@@ -1083,7 +1052,7 @@
      "passive4": "epicfight:bonebreaker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:damage_boost4",
-     "playerMode": "EPICFIGHT",
+     "playerMode": "VANILLA",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -4740,17 +4709,16 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "quark:trying_crawl": 0,
     "ua_accessory_types_seen": {
      "uniqueaccessories:shiny_stone": 1
     },
-    "ua_mn_tabi_last_dash": 2273561,
-    "ua_rs_active_until": 2273453,
+    "ua_mn_tabi_last_dash": 2277826,
+    "ua_rs_active_until": 2277982,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 66.0,
-   "HurtByTimestamp": 3248,
+   "Health": 34.0,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -5243,11 +5211,11 @@
    ],
    "Invulnerable": 0,
    "LastDeathLocation": {
-    "dimension": "pbf1:sanctum_of_the_battle1",
+    "dimension": "minecraft:overworld",
     "pos": [
-     2,
-     3,
-     -7
+     219,
+     74,
+     -683
     ]
    },
    "Motion": [
@@ -5258,17 +5226,20 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -24.3132,
-    3.0,
-    -5.2122
+    -209.5475,
+    85.0,
+    -187.5272
    ],
    "Rotation": [
-    -88.448,
-    25.2644
+    163.9725,
+    43.0693
    ],
    "Score": 27850,
-   "SelectedItemSlot": 0,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
+   "Tags": [
+    "wom_health_fix:34.0"
+   ],
    "UUID": [
     1096852936,
     1655583406,
@@ -5289,7 +5260,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.485,
+   "foodExhaustionLevel": 2.399,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15612,7 +15583,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 11990,
+    "ticks_since_last_warning": 5296,
     "warning_level": 0
    }
   },
@@ -15624,7 +15595,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2274336,
+  "Time": 2279846,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15632,7 +15603,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 12000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16320,9 +16291,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 10106,
+  "rainTime": 4596,
   "raining": 1,
-  "thunderTime": 74040,
+  "thunderTime": 68530,
   "thundering": 0,
   "version": 19133
  },

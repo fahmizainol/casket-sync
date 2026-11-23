@@ -2435,7 +2435,7 @@
      }
     },
     {
-     "amount": 96,
+     "amount": 32,
      "key": {
       "stack": {
        "item": "minecraft:golden_carrot"
@@ -3321,6 +3321,6 @@
     }
    ]
   },
-  "currentTime": 669
+  "currentTime": 11690
  }
 }
