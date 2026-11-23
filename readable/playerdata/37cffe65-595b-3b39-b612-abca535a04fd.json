@@ -3,14 +3,6 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
-  },
-  {
    "Base": 0.5,
    "Name": "epicfight:impact"
   },
@@ -20,15 +12,11 @@
   },
   {
    "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
   },
   {
-   "Base": 0.0,
-   "Name": "attributeslib:dodge_chance"
+   "Base": 1.0,
+   "Name": "irons_spellbooks:holy_spell_power"
   },
   {
    "Base": 0.1,
@@ -57,6 +45,54 @@
    "Name": "minecraft:generic.max_health"
   },
   {
+   "Base": 100.0,
+   "Name": "irons_spellbooks:max_mana"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:ice_spell_power"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:lightning_spell_power"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:dodge_chance"
+  },
+  {
    "Base": 1.0,
    "Modifiers": [
     {
@@ -73,14 +109,6 @@
     }
    ],
    "Name": "minecraft:generic.attack_damage"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
   },
   {
    "Base": 15.0,
@@ -115,18 +143,6 @@
   {
    "Base": 4.0,
    "Name": "minecraft:generic.attack_speed"
-  },
-  {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
   }
  ],
  "BalmData": {},
@@ -137,7 +153,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1340,7 +1356,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 74,
+   "finishedQuestSize": 75,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1413,10 +1429,11 @@
    "finished_quest_71": 2,
    "finished_quest_72": 7,
    "finished_quest_73": 77,
+   "finished_quest_74": 75,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 12.0,
-   "questSize": 10,
+   "questSize": 9,
    "quest_0": 84,
    "quest_1": 38,
    "quest_2": 6,
@@ -1425,8 +1442,7 @@
    "quest_5": 4,
    "quest_6": 3,
    "quest_7": 15,
-   "quest_8": 75,
-   "quest_9": 78,
+   "quest_8": 78,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -1459,7 +1475,8 @@
       "3827dc2f-f181-4b77-a1d0-df3fbd609460",
       "43a42e6e-43ee-4d0f-9be3-d7414418b119",
       "6a55f8ba-eebf-4eab-a68e-aa6705f1343d",
-      "346229d9-1e17-4fdb-a7cb-2c04d24a246c"
+      "346229d9-1e17-4fdb-a7cb-2c04d24a246c",
+      "121a2140-3f3d-4d62-b016-d307cdcc5ef7"
      ]
     }
    }
@@ -4742,10 +4759,10 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:amplifier_stone": 1
   },
-  "ua_rs_active_until": 2076114,
+  "ua_rs_active_until": 2080717,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2076182
+  "ua_tabi_last_dash": 2080761
  },
  "Health": 1.0,
  "HurtByTimestamp": 1197,
@@ -4824,7 +4841,7 @@
    "id": "cataclysm:koboleton_bone"
   },
   {
-   "Count": 29,
+   "Count": 28,
    "Slot": 7,
    "id": "waystones:waystone"
   },
@@ -4855,11 +4872,6 @@
    "Count": 2,
    "Slot": 11,
    "id": "minecraft:string"
-  },
-  {
-   "Count": 3,
-   "Slot": 12,
-   "id": "minecraft:spider_eye"
   },
   {
    "Count": 1,
@@ -5030,20 +5042,20 @@
   ]
  },
  "Motion": [
-  0.1756,
+  0.0,
   -0.0784,
-  0.2201
+  0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  3322.56,
-  82.0,
-  -6937.9737
+  -111.9172,
+  79.0,
+  -127.4476
  ],
  "Rotation": [
-  -38.5848,
-  11.9442
+  69.4529,
+  -0.7509
  ],
  "Score": 9397,
  "SelectedItemSlot": 0,
@@ -5074,7 +5086,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.423,
+ "foodExhaustionLevel": 0.398,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14622,7 +14634,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11316,
+  "ticks_since_last_warning": 5315,
   "warning_level": 0
  }
 }

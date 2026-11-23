@@ -550,6 +550,30 @@
    },
    {
     "BlockPos": {
+     "X": 3308,
+     "Y": 97,
+     "Z": -6961
+    },
+    "IsGlobal": 0,
+    "Name": "the end",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     303702336,
+     1060982114,
+     -1340681465,
+     -842244361
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
      "X": -144,
      "Y": 97,
      "Z": 288

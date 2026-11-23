@@ -243,7 +243,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1283489,
+  "DayTime": 1289489,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -421,10 +421,27 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795445251683,
+  "LastPlayed": 1795445551682,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
+   "ActiveEffects": [
+    {
+     "Ambient": 0,
+     "Amplifier": 3,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 339,
+     "Id": 21,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:health_boost"
+    }
+   ],
    "Air": 300,
    "Attributes": [
     {
@@ -461,6 +478,18 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      },
+      {
+       "Amount": 16.0,
+       "Name": "effect.minecraft.health_boost 3",
+       "Operation": 0,
+       "UUID": [
+        1567558562,
+        294012588,
+        -1198078436,
+        1559140812
+       ],
+       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -1004,7 +1033,7 @@
      "passive4": "dodge_parry_reward:health_boost2",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:heal2",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -1807,7 +1836,7 @@
       "way_stone_interacted": 1,
       "weapon_innate_used": 1
      },
-     "finishedQuestSize": 74,
+     "finishedQuestSize": 75,
      "finished_quest_0": 21,
      "finished_quest_1": 23,
      "finished_quest_10": 29,
@@ -1880,10 +1909,11 @@
      "finished_quest_71": 2,
      "finished_quest_72": 7,
      "finished_quest_73": 77,
+     "finished_quest_74": 75,
      "finished_quest_8": 27,
      "finished_quest_9": 27,
      "healthAdder": 12.0,
-     "questSize": 10,
+     "questSize": 9,
      "quest_0": 84,
      "quest_1": 38,
      "quest_2": 6,
@@ -1892,8 +1922,7 @@
      "quest_5": 4,
      "quest_6": 3,
      "quest_7": 15,
-     "quest_8": 75,
-     "quest_9": 78,
+     "quest_8": 78,
      "resonanceStoneInCooldown": 0,
      "resonanceStoneStartTime": 1407051,
      "sardine": 0,
@@ -4659,17 +4688,17 @@
      "uniqueaccessories:tabi": 1
     },
     "ua_mn_tabi_last_dash": 2072303,
-    "ua_rs_active_until": 2074404,
+    "ua_rs_active_until": 2082181,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0,
-    "ua_shiny_last_active": 2076049,
-    "ua_shiny_last_x": 258.3327,
+    "ua_shiny_last_active": 2082212,
+    "ua_shiny_last_x": 255.874,
     "ua_shiny_last_y": 66.0,
-    "ua_shiny_last_z": -1767.5492,
+    "ua_shiny_last_z": -1766.5711,
     "ua_tabi_last_dash": 2049870
    },
-   "Health": 32.0,
-   "HurtByTimestamp": 25349,
+   "Health": 48.0,
+   "HurtByTimestamp": 34674,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4737,6 +4766,14 @@
     {
      "Count": 1,
      "Slot": 2,
+     "id": "efn:fire_exsiliumgladius",
+     "tag": {
+      "Damage": 0
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 3,
      "id": "cataclysm:soul_render",
      "tag": {
       "Damage": 0,
@@ -4755,11 +4792,6 @@
        }
       ]
      }
-    },
-    {
-     "Count": 1,
-     "Slot": 3,
-     "id": "tcrcore:dual_bokken"
     },
     {
      "Count": 1,
@@ -4803,6 +4835,16 @@
      "id": "waystones:waystone"
     },
     {
+     "Count": 2,
+     "Slot": 9,
+     "id": "efn:duskfire_ingot"
+    },
+    {
+     "Count": 6,
+     "Slot": 10,
+     "id": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
      "Count": 13,
      "Slot": 11,
      "id": "minecraft:diamond"
@@ -4813,24 +4855,42 @@
      "id": "minecraft:diamond"
     },
     {
-     "Count": 3,
-     "Slot": 18,
-     "id": "efn:duskfire_ingot"
-    },
-    {
      "Count": 1,
-     "Slot": 19,
-     "id": "magistuarmory:hilt"
+     "Slot": 13,
+     "id": "magistuarmory:diamond_bastardsword",
+     "tag": {
+      "Damage": 0
+     }
     },
     {
-     "Count": 5,
-     "Slot": 20,
+     "Count": 26,
+     "Slot": 14,
+     "id": "minecraft:diamond"
+    },
+    {
+     "Count": 4,
+     "Slot": 15,
      "id": "cataclysm:kobolediator_skull"
     },
     {
-     "Count": 29,
-     "Slot": 22,
-     "id": "minecraft:diamond"
+     "Count": 1,
+     "Slot": 16,
+     "id": "minecraft:netherite_ingot"
+    },
+    {
+     "Count": 3,
+     "Slot": 17,
+     "id": "dodosmobs:chimera_claw"
+    },
+    {
+     "Count": 13,
+     "Slot": 23,
+     "id": "magistuarmory:leather_strip"
+    },
+    {
+     "Count": 1,
+     "Slot": 30,
+     "id": "tcrcore:dual_bokken"
     },
     {
      "Count": 1,
@@ -4950,15 +5010,15 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    258.3382,
+    255.8788,
     66.0,
-    -1767.5445
+    -1766.5602
    ],
    "Rotation": [
-    22.3889,
-    30.5344
+    -34.5327,
+    21.7158
    ],
-   "Score": 15918,
+   "Score": 16099,
    "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": 0.0,
@@ -4975,9 +5035,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 67,
-   "XpP": 0.0449,
+   "XpP": 0.4517,
    "XpSeed": 976728483,
-   "XpTotal": 15918,
+   "XpTotal": 16099,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -4987,7 +5047,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.483,
+   "foodExhaustionLevel": 2.4671,
    "foodLevel": 10,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15310,7 +15370,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 3600,
+    "ticks_since_last_warning": 9595,
     "warning_level": 0
    }
   },
@@ -15322,7 +15382,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2076336,
+  "Time": 2082336,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15330,7 +15390,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 22800,
+  "WanderingTraderSpawnDelay": 16800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16018,9 +16078,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 20383,
+  "rainTime": 14383,
   "raining": 0,
-  "thunderTime": 12830,
+  "thunderTime": 6830,
   "thundering": 0,
   "version": 19133
  },

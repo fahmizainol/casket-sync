@@ -2337,15 +2337,6 @@
      }
     },
     {
-     "amount": 13,
-     "key": {
-      "stack": {
-       "item": "magistuarmory:leather_strip"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 3,
      "key": {
       "stack": {
@@ -3946,7 +3937,7 @@
      }
     },
     {
-     "amount": 344,
+     "amount": 345,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

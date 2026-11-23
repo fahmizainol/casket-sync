@@ -608,5 +608,11 @@
     },
     "done": true
   },
+  "efn:fire_exsiliumgladius": {
+    "criteria": {
+      "obtain": "2026-11-23 22:48:59 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
