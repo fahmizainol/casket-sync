@@ -6,9 +6,6 @@
 	last_seen: { dim: "tcrcore:sanctum", x: 81, y: 73, z: -132, time: 1795440431667L, xRot: 25.730911f, yRot: 158.01477f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "tcrcore:sanctum", x: -15, y: 92, z: -23, time: 1795439645437L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -4, y: 171, z: 16, time: 1795442503807L }
-		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -47, y: 98, z: -20, time: 1795442598012L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -20, y: 100, z: -24, time: 1795442676443L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -50, y: 98, z: -25, time: 1795442712885L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: 10, y: 161, z: -23, time: 1795442775719L }
@@ -16,6 +13,9 @@
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -16, y: 100, z: -24, time: 1795442846331L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -37, y: 99, z: -13, time: 1795442885052L }
 		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: 6, y: 99, z: -35, time: 1795443243426L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -25, y: 170, z: -32, time: 1795443554071L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -17, y: 99, z: -3, time: 1795443646632L }
+		{ dim: "cataclysm_dimension:cataclysm_eternal_frosthold", x: -16, y: 99, z: -40, time: 1795443706911L }
 	]
 	homes: { }
 	kit_use_times: { }

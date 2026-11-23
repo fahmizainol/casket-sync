@@ -1,0 +1,83 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:diamond_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:diamond_shovel",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 3
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/c/cd/cd399e0d-c9bd-419a-bcb5-f066a99de5df",
+  "position": {
+   "X": -44,
+   "Y": 110,
+   "Z": -42
+  },
+  "size": 27,
+  "uuid": [
+   -851862003,
+   -910343782,
+   -1128927130,
+   -1449269793
+  ],
+  "uuid_str": "cd399e0d-c9bd-419a-bcb5-f066a99de5df"
+ }
+}
