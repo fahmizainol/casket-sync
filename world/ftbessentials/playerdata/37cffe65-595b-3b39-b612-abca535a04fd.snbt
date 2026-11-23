@@ -6,16 +6,16 @@
 	last_seen: { dim: "wraithon:sanctum_of_the_wraithon", x: 120, y: 7, z: 295, time: 1795449546182L, xRot: 0.0f, yRot: -149.16379f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449224292L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 111, y: 7, z: 289, time: 1795449257617L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449258774L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 104, y: 7, z: 297, time: 1795449431316L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449433480L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 120, y: 7, z: 296, time: 1795449555281L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449556239L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 117, y: 7, z: 294, time: 1795449656196L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795449657711L }
-		{ dim: "minecraft:overworld", x: 256, y: 66, z: -1768, time: 1795451504333L }
+		{ dim: "minecraft:overworld", x: 208, y: 73, z: -675, time: 1795451567969L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: 12, y: 3, z: 11, time: 1795451605166L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795451608891L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -2, y: 3, z: 0, time: 1795451616578L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795451617722L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -6, y: 3, z: 1, time: 1795451629134L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795451630638L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -3, y: 3, z: 1, time: 1795451682867L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795451685715L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -11, y: 3, z: -4, time: 1795451710622L }
 	]
 	homes: { }
 	kit_use_times: { }

@@ -691,7 +691,7 @@
      }
     },
     {
-     "amount": 367,
+     "amount": 368,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -2172,15 +2172,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "uniqueaccessories:withered_heart"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "artifacts:charm_of_sinking"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -3262,6 +3253,15 @@
      "key": {
       "stack": {
        "item": "artifacts:thorn_pendant"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 9,
+     "key": {
+      "stack": {
+       "item": "tcrcore:reset_skill_stone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
