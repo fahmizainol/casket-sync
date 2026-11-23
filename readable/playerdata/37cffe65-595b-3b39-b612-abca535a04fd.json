@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 0.0,
+ "AbsorptionAmount": 20.0,
  "Air": 300,
  "Attributes": [
   {
@@ -75,10 +75,6 @@
    "Name": "minecraft:generic.attack_damage"
   },
   {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
@@ -136,8 +132,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 34,
- "Dimension": "wraithon:sanctum_of_the_wraithon",
+ "DeathTime": 0,
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -528,7 +524,7 @@
    "passive4": "dodge_parry_reward:heal2",
    "passive5": "dodge_parry_reward:heal3",
    "passive6": "dodge_parry_reward:absorb4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1206,7 +1202,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 267
+   "currentLogicNodeId": 231
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1466,11 +1462,477 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
    "backups": [
+    {
+     "reason": "auto",
+     "savedAt": 2162304,
+     "state": {
+      "autoBindTypeBlacklist": [],
+      "companionDeployedList": [],
+      "companionIndex": 0,
+      "companionWheelSlots": [],
+      "companions": [],
+      "deadCompanions": [],
+      "displayNames": [],
+      "homeNestBlocks": [],
+      "homePositions": [],
+      "lastKnownPositions": [
+       {
+        "position": {
+         "dimension": "minecraft:overworld",
+         "x": 217.9134,
+         "xRot": 0.0,
+         "y": 72.0,
+         "yRot": -118.6584,
+         "z": -672.8079
+        },
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "mountDeployedList": [],
+      "mountEligible": [
+       {
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "mountIndex": 0,
+      "mountWheelSlots": [],
+      "mounts": [
+       {
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "origins": [
+       {
+        "position": {
+         "dimension": "minecraft:overworld",
+         "x": 219.5,
+         "xRot": 0.0,
+         "y": 85.0,
+         "yRot": 159.1384,
+         "z": -632.5
+        },
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "storedEntities": [
+       {
+        "entity": {
+         "AbsorptionAmount": 0.0,
+         "AccumulatedRoll": 0.0,
+         "ActiveEffects": [
+          {
+           "Ambient": 1,
+           "Amplifier": 0,
+           "CurativeItems": [
+            {
+             "Count": 1,
+             "id": "minecraft:milk_bucket"
+            }
+           ],
+           "Duration": 2147376132,
+           "Id": 12,
+           "ShowIcon": 1,
+           "ShowParticles": 1,
+           "forge:id": "minecraft:fire_resistance"
+          }
+         ],
+         "AffectionMap": {
+          "37cffe65-595b-3b39-b612-abca535a04fd": 1000
+         },
+         "Age": 0,
+         "Air": 300,
+         "ArmorDropChances": [
+          0.085,
+          0.085,
+          0.085,
+          0.085
+         ],
+         "ArmorItems": [
+          {},
+          {},
+          {},
+          {}
+         ],
+         "Attributes": [
+          {
+           "Base": 0.0,
+           "Name": "forge:step_height_addition"
+          },
+          {
+           "Base": 0.08,
+           "Name": "forge:entity_gravity"
+          },
+          {
+           "Base": 140.0,
+           "Name": "minecraft:generic.max_health"
+          },
+          {
+           "Base": 10.752,
+           "Name": "minecraft:generic.attack_damage"
+          },
+          {
+           "Base": 0.0,
+           "Name": "epicfight:stun_armor"
+          },
+          {
+           "Base": 0.3376,
+           "Name": "minecraft:generic.knockback_resistance"
+          },
+          {
+           "Base": 1.0,
+           "Name": "forge:swim_speed"
+          },
+          {
+           "Base": 1.3696,
+           "Name": "minecraft:generic.flying_speed"
+          },
+          {
+           "Base": 8.688,
+           "Name": "minecraft:generic.armor"
+          },
+          {
+           "Base": 0.2212,
+           "Name": "minecraft:generic.movement_speed"
+          }
+         ],
+         "AwaitingTamingRitual": 0,
+         "BalmData": {},
+         "Brain": {
+          "memories": {}
+         },
+         "CanPickUpLoot": 0,
+         "CanUpdate": 1,
+         "CitadelData": {},
+         "Command": 2,
+         "CompanionPreviewDepth": 1.9,
+         "CompanionPreviewHeight": 2.6,
+         "CompanionPreviewWidth": 1.9,
+         "CompanionRescueArmor": 8,
+         "CompanionRescueHealth": 140.0,
+         "CompanionRescueMaxHealth": 140.0,
+         "CompanionRescueName": "Night Fury",
+         "CompanionRescueStoredAt": 2061897,
+         "CompanionRescueType": "bookofdragons:nightfury",
+         "DeathTime": 0,
+         "DragonDataVersion": 1,
+         "DragonIsRolling": 0,
+         "DragonRoll": 0.0,
+         "EatingTicks": 0,
+         "EntityArtVersion": 1,
+         "FallDistance": 0.0,
+         "FallFlying": 0,
+         "Fire": 0,
+         "ForcedAge": 0,
+         "ForgeCaps": {
+          "aether:mob_accessory": {
+           "DropChances": {
+            "aether_gloves": 0.085,
+            "aether_pendant": 0.085,
+            "hands": 0.085,
+            "necklace": 0.085
+           }
+          },
+          "cataclysm:charge_cap": {
+           "ChargeDamage": 0.0,
+           "ChargeTime": 0,
+           "KnockbackSpeed": 0.0,
+           "dx": 0.0,
+           "dz": 0.0,
+           "isCharge": 0,
+           "timer": 0
+          },
+          "cataclysm:hook_cap": {
+           "hasHook": 0
+          },
+          "cataclysm:parry_cap": {
+           "frame": 0
+          },
+          "cataclysm:render_rush_cap": {
+           "damage": 0.0,
+           "isRush": 0,
+           "timer": 0
+          },
+          "cataclysm:tentacle_cap": {
+           "getLastTentacleID": 0,
+           "hasTentacle": 0
+          },
+          "curios:inventory": {
+           "Curios": []
+          },
+          "mowziesmobs:ability": {},
+          "mowziesmobs:frozen": {
+           "freezeDecayDelay": 0,
+           "freezeProgress": 0.0,
+           "frozen": 0,
+           "frozenPitch": 0.0,
+           "frozenRenderYawOffset": 0.0,
+           "frozenSwingProgress": 0.0,
+           "frozenWalkAnimPosition": 0.0,
+           "frozenWalkAnimSpeed": 0.0,
+           "frozenYaw": 0.0,
+           "frozenYawHead": 0.0,
+           "prevFrozen": 0,
+           "prevHasAI": 1
+          },
+          "mowziesmobs:frozen_cap": {
+           "freezeDecayDelay": 0,
+           "freezeProgress": 0.0,
+           "frozen": 0,
+           "frozenPitch": 0.0,
+           "frozenRenderYawOffset": 0.0,
+           "frozenSwingProgress": 0.0,
+           "frozenWalkAnimPosition": 0.0,
+           "frozenWalkAnimSpeed": 0.0,
+           "frozenYaw": 0.0,
+           "frozenYawHead": 0.0,
+           "prevFrozen": 0,
+           "prevHasAI": 1
+          },
+          "mowziesmobs:last_damage": {},
+          "mowziesmobs:living_cap": {},
+          "structure_gel:gel_entity": {
+           "portal": "structure_gel:empty"
+          }
+         },
+         "ForgeData": {},
+         "Genetics": {
+          "Genotype": "<258 bytes>",
+          "PaletteDraws": {
+           "Draws": [
+            6953557825234395046,
+            5260204366869865266,
+            5278218765379347250,
+            8673932882889924518,
+            3494793311202810391,
+            3512807711450112818,
+            8646911285125701542,
+            -1702360657494287249,
+            -8043428933909356634,
+            -8070450531673579610,
+            -1729382256335921242,
+            6980579422998618022,
+            576460754404549426,
+            603482352168772402,
+            2323857408733486066,
+            -6341068271223316815,
+            -2269814210093604046,
+            8106479329841242022,
+            -6323053872713834831,
+            -2242792612329381070,
+            2314850208587923310,
+            8124493728350724006,
+            5224175569850901298,
+            5251197167615124274,
+            8700954480654147494,
+            8682940082144665510,
+            1783425456194207154,
+            1765411057683801649,
+            -1693353459316957274,
+            -1666331861552734298,
+            -8646911283977003098,
+            -8619889684794861612,
+            -2305843007112568014,
+            -6881500229764998808,
+            -2278821407691209675,
+            2359886206153470539,
+            2341871806355840370,
+            -6863485831256440345,
+            4080261263817718034,
+            5206161171341419314,
+            4089268461997167896,
+            5188146771080186525,
+            1747396657520878386,
+            1729382259011396402,
+            4629700417281627416,
+            4611686018772145432,
+            1197957502709223269,
+            1206964700404063250,
+            7512004181235948021,
+            -8610882486958039130,
+            2101125938,
+            -8583860889193816154,
+            27021599865348914,
+            -6890507429302509658,
+            5296233163887905713,
+            -6917529027066732634,
+            7502996981981207029,
+            2882303763618243378,
+            3476778914814529324,
+            3458764516302276777,
+            5323254761653052210,
+            2909325361382466354,
+            4035225266468721944,
+            4062246867650142777,
+            -7475975380945596776,
+            -7484982580200337768,
+            1170935903384175761,
+            5782621921888474392,
+            5764607523378992408,
+            -8016407336145133658,
+            6917529029291918574,
+            1152921504874693777,
+            6935543426724913062,
+            639511149187736370,
+            -8034421734654615642,
+            612489551423513394,
+            8070450532822278054,
+            8088464932019221337,
+            7548032978253988468,
+            7530018579744506484
+           ]
+          },
+          "Species": "nightfury"
+         },
+         "GrowthProgress": 9400,
+         "GrowthStage": 2,
+         "HandDropChances": [
+          0.085,
+          0.085
+         ],
+         "HandItems": [
+          {},
+          {}
+         ],
+         "HasClearAirspace": 1,
+         "HasConsumedFood": 0,
+         "Health": 140.0,
+         "HurtByTimestamp": 101,
+         "HurtTime": 0,
+         "InLove": 0,
+         "InSittingPose": 0,
+         "Inventory": [
+          {
+           "Count": 1,
+           "Slot": 0,
+           "id": "minecraft:saddle"
+          }
+         ],
+         "Invisible": 0,
+         "Invulnerable": 0,
+         "IsAlpha": 0,
+         "IsDoingAerialAttack": 0,
+         "IsFreeLooking": 0,
+         "IsFromTamedParents": 0,
+         "IsGoingDown": 0,
+         "IsOnSolidGround": 1,
+         "IsRoaring": 0,
+         "IsSitting": 0,
+         "LayerMood": 2,
+         "LayerMotion": 0,
+         "LayerStance": 0,
+         "LeftHanded": 0,
+         "MountTime": 0,
+         "NoAI": 0,
+         "NoGravity": 0,
+         "OAH_BreathCooldown": 0,
+         "OAH_CurrentFuel": 0,
+         "OAH_FullRechargeCooldown": 0,
+         "OAH_PendingScale": 0.0,
+         "OnGround": 1,
+         "OrderedToSit": 0,
+         "Owner": [
+          936377957,
+          1499151161,
+          -1240290358,
+          1398408445
+         ],
+         "PH_SmoothedEntityPitch": 0.0001,
+         "PH_SmoothedMovementYaw": -1199.6331,
+         "PH_UnwrappedMovementYaw": -1199.6331,
+         "PH_UnwrappedRoll": 0.0,
+         "PH_UnwrappedYaw": 2041.3416,
+         "PersistenceRequired": 1,
+         "Personality": 0,
+         "PortalCooldown": 0,
+         "Pos": [
+          217.9134,
+          72.0,
+          -672.8079
+         ],
+         "RoostX": 210,
+         "RoostY": 73,
+         "RoostZ": -673,
+         "Rotation": [
+          -118.6584,
+          0.0
+         ],
+         "SeatLocked": 1,
+         "SecondaryAbility": "lightning_strike",
+         "ShearingCooldown": 0,
+         "ShouldDoAerialAttack": 0,
+         "Sitting": 0,
+         "SittingPose": 0,
+         "SmoothedPitch": 0.0,
+         "SmoothedRoll": 0.0,
+         "SpawnScaleTicks": 1,
+         "TamingRitualCompleted": 1,
+         "TamingRitualTimer": 0,
+         "ThrottleLevel": 0.0,
+         "TransportMode": 0,
+         "UUID": [
+          -316269812,
+          593383161,
+          -1800086921,
+          760723722
+         ],
+         "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
+         "UseGroundNav": 1,
+         "Variant": 0,
+         "dragonNeeds": {
+          "exhaustionLevel": 3.2318,
+          "foodLevel": 0,
+          "saturationLevel": 0.0,
+          "tickTimer": 26
+         },
+         "dragonStamina": {
+          "regenPauseTicks": 0
+         },
+         "id": "bookofdragons:nightfury"
+        },
+        "uuid": [
+         -316269812,
+         593383161,
+         -1800086921,
+         760723722
+        ],
+        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
+       }
+      ],
+      "vehicleIndex": 0,
+      "vehicleMounts": [],
+      "vehicleWheelSlots": [],
+      "vehicleWheelSlotsConfigured": 1,
+      "vehicles": []
+     }
+    },
     {
      "reason": "auto",
      "savedAt": 2125410,
@@ -3805,473 +4267,6 @@
       "vehicleWheelSlotsConfigured": 1,
       "vehicles": []
      }
-    },
-    {
-     "reason": "auto",
-     "savedAt": 1940957,
-     "state": {
-      "autoBindTypeBlacklist": [],
-      "companionDeployedList": [],
-      "companionIndex": 0,
-      "companionWheelSlots": [],
-      "companions": [],
-      "deadCompanions": [],
-      "displayNames": [],
-      "homeNestBlocks": [],
-      "homePositions": [],
-      "lastKnownPositions": [
-       {
-        "position": {
-         "dimension": "minecraft:the_nether",
-         "x": -1038.8879,
-         "xRot": -3.6,
-         "y": 67.6587,
-         "yRot": 60.0016,
-         "z": -300.8628
-        },
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "mountDeployedList": [],
-      "mountEligible": [
-       {
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "mountIndex": 0,
-      "mountWheelSlots": [],
-      "mounts": [
-       {
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "origins": [
-       {
-        "position": {
-         "dimension": "minecraft:the_nether",
-         "x": 115.5,
-         "xRot": -16.5409,
-         "y": 42.0,
-         "yRot": -0.2998,
-         "z": -425.5
-        },
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "storedEntities": [
-       {
-        "entity": {
-         "AbsorptionAmount": 0.0,
-         "AccumulatedRoll": 0.0,
-         "ActiveEffects": [
-          {
-           "Ambient": 1,
-           "Amplifier": 0,
-           "CurativeItems": [
-            {
-             "Count": 1,
-             "id": "minecraft:milk_bucket"
-            }
-           ],
-           "Duration": 2147376254,
-           "Id": 12,
-           "ShowIcon": 1,
-           "ShowParticles": 1,
-           "forge:id": "minecraft:fire_resistance"
-          }
-         ],
-         "AffectionMap": {
-          "37cffe65-595b-3b39-b612-abca535a04fd": 1000
-         },
-         "Age": 0,
-         "Air": 300,
-         "ArmorDropChances": [
-          0.085,
-          0.085,
-          0.085,
-          0.085
-         ],
-         "ArmorItems": [
-          {},
-          {},
-          {},
-          {}
-         ],
-         "Attributes": [
-          {
-           "Base": 1.3696,
-           "Name": "minecraft:generic.flying_speed"
-          },
-          {
-           "Base": 0.08,
-           "Name": "forge:entity_gravity"
-          },
-          {
-           "Base": 0.0,
-           "Name": "forge:step_height_addition"
-          },
-          {
-           "Base": 0.3376,
-           "Name": "minecraft:generic.knockback_resistance"
-          },
-          {
-           "Base": 10.752,
-           "Name": "minecraft:generic.attack_damage"
-          },
-          {
-           "Base": 8.688,
-           "Name": "minecraft:generic.armor"
-          },
-          {
-           "Base": 0.2212,
-           "Name": "minecraft:generic.movement_speed"
-          },
-          {
-           "Base": 0.0,
-           "Name": "epicfight:stun_armor"
-          },
-          {
-           "Base": 140.0,
-           "Name": "minecraft:generic.max_health"
-          },
-          {
-           "Base": 1.0,
-           "Name": "forge:swim_speed"
-          }
-         ],
-         "AwaitingTamingRitual": 0,
-         "BalmData": {},
-         "Brain": {
-          "memories": {}
-         },
-         "CanPickUpLoot": 0,
-         "CanUpdate": 1,
-         "CitadelData": {},
-         "Command": 2,
-         "CompanionPreviewDepth": 1.9,
-         "CompanionPreviewHeight": 2.6,
-         "CompanionPreviewWidth": 1.9,
-         "CompanionRescueArmor": 8,
-         "CompanionRescueHealth": 140.0,
-         "CompanionRescueMaxHealth": 140.0,
-         "CompanionRescueName": "Night Fury",
-         "CompanionRescueStoredAt": 1810652,
-         "CompanionRescueType": "bookofdragons:nightfury",
-         "DeathTime": 0,
-         "DragonDataVersion": 1,
-         "DragonIsRolling": 0,
-         "DragonRoll": 0.0,
-         "EatingTicks": 0,
-         "EntityArtVersion": 1,
-         "FallDistance": 0.0,
-         "FallFlying": 0,
-         "Fire": 0,
-         "ForcedAge": 0,
-         "ForgeCaps": {
-          "aether:mob_accessory": {
-           "DropChances": {
-            "aether_gloves": 0.085,
-            "aether_pendant": 0.085,
-            "hands": 0.085,
-            "necklace": 0.085
-           }
-          },
-          "cataclysm:charge_cap": {
-           "ChargeDamage": 0.0,
-           "ChargeTime": 0,
-           "KnockbackSpeed": 0.0,
-           "dx": 0.0,
-           "dz": 0.0,
-           "isCharge": 0,
-           "timer": 0
-          },
-          "cataclysm:hook_cap": {
-           "hasHook": 0
-          },
-          "cataclysm:parry_cap": {
-           "frame": 0
-          },
-          "cataclysm:render_rush_cap": {
-           "damage": 0.0,
-           "isRush": 0,
-           "timer": 0
-          },
-          "cataclysm:tentacle_cap": {
-           "getLastTentacleID": 0,
-           "hasTentacle": 0
-          },
-          "curios:inventory": {
-           "Curios": []
-          },
-          "mowziesmobs:ability": {},
-          "mowziesmobs:frozen": {
-           "freezeDecayDelay": 0,
-           "freezeProgress": 0.0,
-           "frozen": 0,
-           "frozenPitch": 0.0,
-           "frozenRenderYawOffset": 0.0,
-           "frozenSwingProgress": 0.0,
-           "frozenWalkAnimPosition": 0.0,
-           "frozenWalkAnimSpeed": 0.0,
-           "frozenYaw": 0.0,
-           "frozenYawHead": 0.0,
-           "prevFrozen": 0,
-           "prevHasAI": 1
-          },
-          "mowziesmobs:frozen_cap": {
-           "freezeDecayDelay": 0,
-           "freezeProgress": 0.0,
-           "frozen": 0,
-           "frozenPitch": 0.0,
-           "frozenRenderYawOffset": 0.0,
-           "frozenSwingProgress": 0.0,
-           "frozenWalkAnimPosition": 0.0,
-           "frozenWalkAnimSpeed": 0.0,
-           "frozenYaw": 0.0,
-           "frozenYawHead": 0.0,
-           "prevFrozen": 0,
-           "prevHasAI": 1
-          },
-          "mowziesmobs:last_damage": {},
-          "mowziesmobs:living_cap": {},
-          "structure_gel:gel_entity": {
-           "portal": "structure_gel:empty"
-          }
-         },
-         "ForgeData": {},
-         "Genetics": {
-          "Genotype": "<258 bytes>",
-          "PaletteDraws": {
-           "Draws": [
-            6953557825234395046,
-            5260204366869865266,
-            5278218765379347250,
-            8673932882889924518,
-            3494793311202810391,
-            3512807711450112818,
-            8646911285125701542,
-            -1702360657494287249,
-            -8043428933909356634,
-            -8070450531673579610,
-            -1729382256335921242,
-            6980579422998618022,
-            576460754404549426,
-            603482352168772402,
-            2323857408733486066,
-            -6341068271223316815,
-            -2269814210093604046,
-            8106479329841242022,
-            -6323053872713834831,
-            -2242792612329381070,
-            2314850208587923310,
-            8124493728350724006,
-            5224175569850901298,
-            5251197167615124274,
-            8700954480654147494,
-            8682940082144665510,
-            1783425456194207154,
-            1765411057683801649,
-            -1693353459316957274,
-            -1666331861552734298,
-            -8646911283977003098,
-            -8619889684794861612,
-            -2305843007112568014,
-            -6881500229764998808,
-            -2278821407691209675,
-            2359886206153470539,
-            2341871806355840370,
-            -6863485831256440345,
-            4080261263817718034,
-            5206161171341419314,
-            4089268461997167896,
-            5188146771080186525,
-            1747396657520878386,
-            1729382259011396402,
-            4629700417281627416,
-            4611686018772145432,
-            1197957502709223269,
-            1206964700404063250,
-            7512004181235948021,
-            -8610882486958039130,
-            2101125938,
-            -8583860889193816154,
-            27021599865348914,
-            -6890507429302509658,
-            5296233163887905713,
-            -6917529027066732634,
-            7502996981981207029,
-            2882303763618243378,
-            3476778914814529324,
-            3458764516302276777,
-            5323254761653052210,
-            2909325361382466354,
-            4035225266468721944,
-            4062246867650142777,
-            -7475975380945596776,
-            -7484982580200337768,
-            1170935903384175761,
-            5782621921888474392,
-            5764607523378992408,
-            -8016407336145133658,
-            6917529029291918574,
-            1152921504874693777,
-            6935543426724913062,
-            639511149187736370,
-            -8034421734654615642,
-            612489551423513394,
-            8070450532822278054,
-            8088464932019221337,
-            7548032978253988468,
-            7530018579744506484
-           ]
-          },
-          "Species": "nightfury"
-         },
-         "GrowthProgress": 9400,
-         "GrowthStage": 2,
-         "HandDropChances": [
-          0.085,
-          0.085
-         ],
-         "HandItems": [
-          {},
-          {}
-         ],
-         "HasClearAirspace": 1,
-         "HasConsumedFood": 0,
-         "Health": 140.0,
-         "HurtByTimestamp": 1603,
-         "HurtTime": 0,
-         "InLove": 0,
-         "InSittingPose": 0,
-         "Inventory": [
-          {
-           "Count": 1,
-           "Slot": 0,
-           "id": "minecraft:saddle"
-          }
-         ],
-         "Invisible": 0,
-         "Invulnerable": 0,
-         "IsAlpha": 0,
-         "IsDoingAerialAttack": 0,
-         "IsFreeLooking": 0,
-         "IsFromTamedParents": 0,
-         "IsGoingDown": 0,
-         "IsOnSolidGround": 0,
-         "IsRoaring": 0,
-         "IsSitting": 0,
-         "LayerMood": 2,
-         "LayerMotion": 2,
-         "LayerStance": 1,
-         "LeftHanded": 0,
-         "MountTime": 0,
-         "NoAI": 0,
-         "NoGravity": 0,
-         "OAH_BreathCooldown": 0,
-         "OAH_CurrentFuel": 0,
-         "OAH_FullRechargeCooldown": 0,
-         "OAH_PendingScale": 0.0,
-         "OnGround": 0,
-         "OrderedToSit": 0,
-         "Owner": [
-          936377957,
-          1499151161,
-          -1240290358,
-          1398408445
-         ],
-         "PH_SmoothedEntityPitch": 0.0,
-         "PH_SmoothedMovementYaw": -1379.9984,
-         "PH_UnwrappedMovementYaw": -1379.9984,
-         "PH_UnwrappedRoll": 0.0,
-         "PH_UnwrappedYaw": 1860.0016,
-         "PersistenceRequired": 1,
-         "Personality": 0,
-         "PortalCooldown": 0,
-         "Pos": [
-          -1038.8879,
-          67.6587,
-          -300.8628
-         ],
-         "RoostX": 210,
-         "RoostY": 73,
-         "RoostZ": -673,
-         "Rotation": [
-          60.0016,
-          -3.6
-         ],
-         "SeatLocked": 1,
-         "SecondaryAbility": "lightning_strike",
-         "ShearingCooldown": 0,
-         "ShouldDoAerialAttack": 0,
-         "Sitting": 0,
-         "SittingPose": 0,
-         "SmoothedPitch": 0.0,
-         "SmoothedRoll": 0.0,
-         "SpawnScaleTicks": 1,
-         "TamingRitualCompleted": 1,
-         "TamingRitualTimer": 0,
-         "ThrottleLevel": 0.9093,
-         "TransportMode": 1,
-         "UUID": [
-          -316269812,
-          593383161,
-          -1800086921,
-          760723722
-         ],
-         "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-         "UseGroundNav": 0,
-         "Variant": 0,
-         "dragonNeeds": {
-          "exhaustionLevel": 3.1358,
-          "foodLevel": 0,
-          "saturationLevel": 0.0,
-          "tickTimer": 64
-         },
-         "dragonStamina": {
-          "regenPauseTicks": 0
-         },
-         "id": "bookofdragons:nightfury"
-        },
-        "uuid": [
-         -316269812,
-         593383161,
-         -1800086921,
-         760723722
-        ],
-        "uuid_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a"
-       }
-      ],
-      "vehicleIndex": 0,
-      "vehicleMounts": [],
-      "vehicleWheelSlots": [],
-      "vehicleWheelSlotsConfigured": 1,
-      "vehicles": []
-     }
     }
    ],
    "companionDeployedList": [],
@@ -4739,12 +4734,13 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "ua_rs_active_until": 2165287,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2160021
+  "ua_tabi_last_dash": 2165488
  },
- "Health": 0.0,
- "HurtByTimestamp": 468,
+ "Health": 34.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4843,7 +4839,7 @@
    "id": "cataclysm:koboleton_bone"
   },
   {
-   "Count": 18,
+   "Count": 14,
    "Slot": 7,
    "id": "minecraft:golden_apple"
   },
@@ -4854,6 +4850,33 @@
    "tag": {
     "Damage": 0,
     "sheath": 0
+   }
+  },
+  {
+   "Count": 64,
+   "Slot": 9,
+   "id": "minecraft:netherite_ingot"
+  },
+  {
+   "Count": 1,
+   "Slot": 10,
+   "id": "minecraft:diamond_chestplate",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:thorns",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:protection",
+      "lvl": 4
+     }
+    ],
+    "Trim": {
+     "material": "minecraft:diamond",
+     "pattern": "minecraft:wayfinder"
+    }
    }
   },
   {
@@ -4894,28 +4917,6 @@
   },
   {
    "Count": 1,
-   "Slot": 102,
-   "id": "minecraft:diamond_chestplate",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:thorns",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:protection",
-      "lvl": 4
-     }
-    ],
-    "Trim": {
-     "material": "minecraft:diamond",
-     "pattern": "minecraft:wayfinder"
-    }
-   }
-  },
-  {
-   "Count": 1,
    "Slot": 103,
    "id": "minecraft:diamond_helmet",
    "tag": {
@@ -4938,9 +4939,9 @@
  "LastDeathLocation": {
   "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   120,
+   117,
    7,
-   296
+   295
   ]
  },
  "Motion": [
@@ -4951,13 +4952,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  121.8488,
-  7.0,
-  295.7792
+  257.0908,
+  66.0,
+  -1767.252
  ],
  "Rotation": [
-  -88.4165,
-  0.0
+  90.7456,
+  17.5512
  ],
  "Score": 12057,
  "SelectedItemSlot": 0,
@@ -4988,7 +4989,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.771,
+ "foodExhaustionLevel": 3.374,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4999,7 +5000,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 50,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5007,6 +5008,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -5014,7 +5016,7 @@
   "isFilteringCraftable": 0,
   "isFurnaceFilteringCraftable": 0,
   "isFurnaceGuiOpen": 0,
-  "isGuiOpen": 0,
+  "isGuiOpen": 1,
   "isSmokerFilteringCraftable": 0,
   "isSmokerGuiOpen": 0,
   "isaltarFilteringCraftable": 0,
@@ -10435,7 +10437,6 @@
    "quark:building/crafting/stairs/dirt_bricks_stairs",
    "efn:smithing/fire_exsiliumgladius",
    "quark:building/crafting/vertslabs/light_gray_shingles_vertical_slab_revert",
-   "beyonddimensions:net_terminal_item",
    "minecraft:cut_copper_slab_from_copper_block_stonecutting",
    "aether:skyroot_fletching_table",
    "magistuarmory:gold_katzbalger",
@@ -10446,9 +10447,7 @@
    "minecraft:light_blue_bed",
    "alexsmobs:cooked_catfish_campfire",
    "cataclysm:chorus_trapdoor",
-   "minecraft:chiseled_nether_bricks",
    "quark:world/crafting/woodsets/blossom/pressure_plate",
-   "minecraft:nether_brick_stairs",
    "quark:building/crafting/vertslabs/mossy_cobblestone_bricks_vertical_slab",
    "magistuarmory:tin_roundshield",
    "cataclysm:stonecutting/chiseled_purpur_block_from_stonecutting",
@@ -10463,16 +10462,13 @@
    "aether:skyroot_pickaxe_repairing",
    "quark:building/crafting/compressed/potato_crate",
    "quark:building/crafting/vertslabs/acacia_vertical_slab_revert",
-   "quark:building/crafting/vertslabs/nether_brick_vertical_slab",
    "minecraft:sandstone_slab_from_sandstone_stonecutting",
-   "supplementaries:netherite_trapdoor",
    "quark:world/crafting/slabs/myalite_slab",
    "quark:building/crafting/stairs/tuff_bricks_stairs",
    "cataclysm:chiseled_stone_brick_pillar",
    "minecraft:spire_armor_trim_smithing_template_smithing_trim",
    "aether:skyroot_milk_bucket_cake",
    "biomeswevegone:allium_oddion_soup",
-   "quark:building/crafting/slabs/blue_nether_bricks_slab",
    "quark:building/stonecutting/vertslabs/shale_bricks_vertical_slab_stonecutter",
    "minecraft:smooth_purple_sandstone_stairs_from_purple_sandstone_stonecutting",
    "quark:world/stonecutting/walls/calcite_wall_stonecutter",
@@ -10498,7 +10494,6 @@
    "efn:smithing/duskfire_helmet",
    "supplementaries:biomeswevegone/sign_post_mahogany",
    "aether:netherite_hoe_repairing",
-   "beyonddimensions:net_magnet_item",
    "quark:building/stonecutting/slabs/gray_shingles_slab_stonecutter",
    "minecraft:fire_charge",
    "minecraft:white_dye",
@@ -10520,7 +10515,6 @@
    "quark:building/crafting/vertslabs/birch_vertical_slab",
    "tcrcore:magic_tachi_smithing",
    "armourers_workshop:blocks/dye-table",
-   "minecraft:sandstone",
    "quark:building/stonecutting/stonevariants/chiseled_jasper_bricks_stonecutter",
    "minecraft:lodestone",
    "biomeswevegone:red_rock_tiles",
@@ -10536,8 +10530,6 @@
    "quark:building/crafting/vertslabs/polished_shale_vertical_slab_revert",
    "minecraft:quartz",
    "supplementaries:bunting/bunting_light_gray",
-   "minecraft:nether_brick_wall",
-   "minecraft:mossy_stone_from_moss_block",
    "minecraft:rocky_stone_slab_from_rocky_stone_stonecutting",
    "fantasy_armor:crucible_knight_boots",
    "alexsmobs:cooked_lobster_tail",
@@ -10909,7 +10901,6 @@
    "minecraft:piston",
    "aether:holystone_slab_from_holystone_stonecutting",
    "quark:building/crafting/vertslabs/shingles_vertical_slab",
-   "quark:building/crafting/blue_nether_bricks",
    "waystones:white_sharestone",
    "minecraft:white_banner",
    "naturescompass:natures_compass",
@@ -11230,7 +11221,6 @@
    "magistuarmory:steel_plate",
    "minecraft:red_rock_brick_stairs_from_red_rock_bricks_stonecutting",
    "domesticationinnovation:pet_bed_orange_from_dye",
-   "quark:building/crafting/vertslabs/netherrack_bricks_vertical_slab",
    "minecraft:dark_prismarine_stairs",
    "aether:golden_helmet_repairing",
    "minecraft:red_rock_tiles_from_red_rock_bricks_stonecutting",
@@ -11388,7 +11378,6 @@
    "quark:building/stonecutting/stonevariants/shale_bricks_slab_polished_stonecutting",
    "magistuarmory:silver_zweihander",
    "quark:building/crafting/vertplanks/vertical_acacia_planks",
-   "quark:building/crafting/vertslabs/nether_brick_vertical_slab_revert",
    "alexsmobs:froststalker_helmet",
    "quark:building/crafting/panes/cyan_framed_glass_pane",
    "quark:building/crafting/walls/dirt_bricks_wall",
@@ -11429,7 +11418,6 @@
    "wom:jabberwocky",
    "magistuarmory:gold_flamebladedsword",
    "quark:building/stonecutting/mossy_cobblestone_bricks_stonecutter",
-   "quark:building/crafting/vertslabs/red_nether_brick_vertical_slab",
    "quark:building/stonecutting/mud_brick_lattice_stonecutter",
    "cataclysm:azure_seastone_bricks",
    "quark:building/crafting/stonevariants/dripstone_bricks",
@@ -11661,7 +11649,6 @@
    "quark:tweaks/blasting/raw_gold_block_blast",
    "lost_aether_content:gale_wall_from_gale_stone_stonecutting",
    "aether:zanite_chestplate_repairing",
-   "ba_bt:nether_chest",
    "quark:building/stonecutting/slabs/polished_dripstone_slab_stonecutter",
    "quark:tweaks/crafting/utility/wool/blue_wool",
    "irons_spellbooks:visibility_ring",
@@ -11760,7 +11747,6 @@
    "fantasy_armor:eclipse_soldier_leggings",
    "waystones:portstone",
    "efn:hf_ingot",
-   "quark:building/crafting/stairs/netherrack_bricks_stairs",
    "quark:building/crafting/vertslabs/bamboo_mosaic_vertical_slab",
    "magistuarmory:diamond_roundshield",
    "minecraft:blue_sandstone_slab_from_blue_sandstone_stonecutting",
@@ -11961,7 +11947,6 @@
    "supplementaries:cannonball",
    "ba_bt:core_golem_chest",
    "ba_bt:nether_golem_chest",
-   "quark:building/crafting/walls/blue_nether_bricks_wall",
    "armourers_workshop:blocks/skinning-table",
    "magistuarmory:steel_target",
    "magistuarmory:stone_pike",
@@ -12082,7 +12067,6 @@
    "magistuarmory:iron_target",
    "cataclysm:smithing/gauntlet_of_guard",
    "quark:building/crafting/stonevariants/chiseled_andesite_bricks",
-   "quark:building/crafting/chests/nether_brick_chest",
    "minecraft:stone_slab_from_stone_stonecutting",
    "biomeswevegone:cut_purple_sandstone_slab",
    "quark:building/crafting/raw_iron_bricks_revert",
@@ -12199,7 +12183,6 @@
    "aether:wooden_hoe_repairing",
    "biomeswevegone:cattail_thatch_slab",
    "minecraft:brown_dye",
-   "beyonddimensions:net_pathway",
    "minecraft:polished_blackstone_stairs_from_blackstone_stonecutting",
    "minecraft:brick_slab",
    "biomeswevegone:white_sandstone_slab",
@@ -12253,7 +12236,6 @@
    "minecraft:vex_armor_trim_smithing_template_smithing_trim",
    "quark:building/crafting/hollowlogs/hollow_crimson_stem",
    "quark:world/crafting/panes/red_corundum_pane",
-   "minecraft:red_nether_brick_wall",
    "minecraft:chiseled_red_sandstone",
    "quark:building/crafting/vertslabs/cobblestone_bricks_vertical_slab",
    "fantasy_armor:redeemer_helmet",
@@ -12400,7 +12382,6 @@
    "magistuarmory:blacksmith_hammer",
    "quark:building/crafting/vertslabs/exposed_cut_copper_vertical_slab",
    "magistuarmory:sallet",
-   "quark:building/crafting/vertslabs/netherrack_bricks_vertical_slab_revert",
    "aether:leather_gloves_repairing",
    "minecraft:netherite_helmet_smithing",
    "tcrcore:lux_jadae_smithing",
@@ -12444,7 +12425,6 @@
    "quark:building/stonecutting/blue_shingles_stonecutter2",
    "quark:building/crafting/slabs/cyan_shingles_slab",
    "dodosmobs:chimera_armor",
-   "minecraft:red_nether_brick_slab",
    "quark:building/crafting/glass/black_framed_glass",
    "wom:iron_greataxe",
    "quark:building/crafting/vertplanks/vertical_acacia_planks_revert",
@@ -12452,11 +12432,9 @@
    "minecraft:cooked_salmon_from_campfire_cooking",
    "quark:building/stonecutting/stonevariants/jasper_bricks_vertical_slab_polished_stonecutting",
    "domesticationinnovation:pet_bed_purple",
-   "quark:building/crafting/compressed/nether_wart_block_override",
    "quark:building/crafting/vertplanks/vertical_dark_oak_planks_revert",
    "aether:gravitite_axe_repairing",
    "minecraft:polished_blackstone_brick_slab_from_blackstone_stonecutting",
-   "quark:building/crafting/chests/nether_brick_trapped_chest",
    "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_stonecutting",
    "magistuarmory:stone_ellipticalshield",
    "fantasy_armor:spark_of_dawn_boots",
@@ -12555,7 +12533,6 @@
    "quark:building/stonecutting/stonevariants/tuff_bricks_slab_polished_stonecutting",
    "magistuarmory:silver_kiteshield",
    "supplementaries:gold_gate",
-   "quark:building/crafting/slabs/netherrack_bricks_slab",
    "bosses_of_mass_destruction:charged_ender_pearl",
    "minecraft:red_dye_from_bwg_dye_tag",
    "quark:building/stonecutting/stonevariants/dripstone_pillar_stonecutter",
@@ -12641,7 +12618,6 @@
    "irons_spellbooks:electromancer_boots_crafting",
    "domesticationinnovation:pet_bed_orange",
    "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore",
-   "quark:building/crafting/netherrack_bricks",
    "cataclysm:purpur_tile_stairs",
    "magistuarmory:diamond_lochaberaxe",
    "efn:smithing/broadblade",
@@ -12701,7 +12677,6 @@
    "minecraft:polished_deepslate_slab_from_polished_deepslate_stonecutting",
    "supplementaries:soap/tipped_arrow",
    "quark:building/stonecutting/slabs/iron_plate_slab_stonecutter",
-   "minecraft:red_nether_bricks",
    "quark:building/stonecutting/slabs/brown_shingles_slab_stonecutter2",
    "quark:building/stonecutting/slabs/raw_copper_bricks_slab_stonecutter",
    "quark:world/crafting/slabs/limestone_bricks_slab",
@@ -12879,7 +12854,6 @@
    "quark:building/stonecutting/vertslabs/waxed_weathered_cut_copper_vertical_slab_from_waxed_weathered_cut_copper",
    "minecraft:netherite_chestplate_smithing",
    "quark:tweaks/crafting/utility/chests/crimson_chest_wood",
-   "cataclysm:netherite_effigy",
    "minecraft:prismarine_stairs_from_prismarine_stonecutting",
    "magistuarmory:ceremonialarmet",
    "minecraft:quartz_stairs_from_quartz_block_stonecutting",
@@ -12918,7 +12892,6 @@
    "quark:building/crafting/vertslabs/waxed_oxidized_cut_copper_vertical_slab_revert",
    "quark:building/crafting/panes/white_framed_glass_pane",
    "quark:building/crafting/compressed/carrot_crate",
-   "quark:building/crafting/vertslabs/blue_nether_bricks_vertical_slab_revert",
    "quark:tweaks/smelting/raw_copper_block_smelt",
    "biomeswevegone:chiseled_red_rock_brick_stairs",
    "magistuarmory:silver_flamebladedsword",
@@ -12959,7 +12932,6 @@
    "minecraft:waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting",
    "waystones:red_sharestone",
    "irons_spellbooks:mithril_scrap_from_salvage",
-   "biomeswevegone:white_dacite_pillar",
    "magistuarmory:diamond_tartsche",
    "quark:building/stonecutting/slabs/shingles_slab_stonecutter",
    "minecraft:waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting",
@@ -13080,7 +13052,6 @@
    "cataclysm:ignitium_block",
    "magistuarmory:copper_lucernhammer",
    "quark:building/crafting/shingles/pink_shingles_dye",
-   "quark:building/crafting/compressed/nether_wart_sack",
    "magistuarmory:cuirassier_helmet",
    "quark:building/crafting/acacia_bookshelf",
    "alexsmobs:chorus_on_a_stick",
@@ -13274,7 +13245,6 @@
    "fantasy_armor:flesh_of_the_feaster_helmet",
    "quark:world/crafting/stairs/limestone_stairs",
    "irons_spellbooks:pumpkin_helmet",
-   "minecraft:red_nether_brick_stairs",
    "irons_spellbooks:shadowwalker_leggings_smithing",
    "minecraft:brewing_stand",
    "magistuarmory:crusader_leggings",
@@ -13402,7 +13372,6 @@
    "quark:building/stonecutting/slabs/purple_shingles_slab_stonecutter",
    "magistuarmory:gold_target",
    "quark:tweaks/blasting/raw_gold_bricks_blast",
-   "quark:building/crafting/compressed/nether_wart_sack_uncompress",
    "quark:building/stonecutting/slabs/blue_shingles_slab_stonecutter2",
    "magistuarmory:furnace/steel_nugget_blasting",
    "fantasy_armor:crucible_knight_leggings",
@@ -13505,8 +13474,6 @@
    "quark:building/crafting/vertslabs/mossy_cobblestone_vertical_slab_revert",
    "biomeswevegone:dacite_bricks",
    "magistuarmory:chainmail_helmet",
-   "quark:building/crafting/walls/netherrack_bricks_wall",
-   "minecraft:mossy_stone_from_vine",
    "supplementaries:fodder",
    "irons_spellbooks:fire_upgrade_orb",
    "biomeswevegone:aloe_vera_juice",
@@ -13526,10 +13493,8 @@
    "minecraft:gray_dye",
    "quark:world/crafting/woodsets/azalea/hanging_sign",
    "quark:building/stonecutting/stonevariants/limestone_bricks_stairs_polished_stonecutting",
-   "quark:building/crafting/red_nether_bricks_util",
    "alexsmobs:fish_oil",
    "minecraft:slime_ball",
-   "quark:building/crafting/vertslabs/blue_nether_bricks_vertical_slab",
    "irons_spellbooks:protection_rune",
    "quark:building/crafting/vertslabs/polished_jasper_vertical_slab_revert",
    "tcrcore:cinderwyrm_smithing",
@@ -13554,7 +13519,6 @@
    "epicfight:stone_greatsword",
    "minecraft:chiseled_stone_bricks_from_stone_bricks_stonecutting",
    "minecraft:end_stone_brick_slab_from_end_stone_brick_stonecutting",
-   "quark:building/crafting/stairs/blue_nether_bricks_stairs",
    "alexsmobs:cooked_kangaroo_meat",
    "aether:leather_helmet_repairing",
    "quark:building/stonecutting/vertslabs/myalite_vertical_slab_stonecutter",
@@ -13828,7 +13792,6 @@
    "aether:book_of_lore",
    "biomeswevegone:mossy_white_dacite_brick_slab",
    "aether:aether_iron_nugget_from_smelting",
-   "magistuarmory:grand_bascinet",
    "minecraft:deepslate_tiles_from_deepslate_bricks_stonecutting",
    "quark:building/stonecutting/stonevariants/jasper_bricks_stonecutter",
    "quark:building/crafting/chests/oak_trapped_chest",
@@ -13883,7 +13846,6 @@
    "magistuarmory:wood_target",
    "minecraft:copper_ingot_from_blasting_copper_ore",
    "minecraft:chain",
-   "quark:building/crafting/vertslabs/red_nether_brick_vertical_slab_revert",
    "quark:building/stonecutting/stonevariants/granite_bricks_vertical_slab_rough_stonecutting",
    "cataclysm:burning_ashes",
    "quark:building/crafting/stairs/pink_shingles_stairs",
@@ -14082,7 +14044,6 @@
    "epicfight:stone_tachi",
    "minecraft:mossy_cobblestone_wall",
    "cataclysm:frosted_stone_bricks",
-   "minecraft:spyglass",
    "quark:building/crafting/vertplanks/vertical_blossom_planks",
    "quark:building/stonecutting/stonevariants/myalite_pillar_stonecutter",
    "quark:world/crafting/stairs/andesite_bricks_stairs",
@@ -14230,7 +14191,6 @@
    "magistuarmory:diamond_pavese",
    "cataclysm:stonecutting/azure_seastone_fence_from_stonecutting",
    "quark:building/stonecutting/slabs/sandstone_bricks_slab_stonecutter",
-   "supplementaries:netherite_door",
    "supplementaries:candle_holders/candle_holder",
    "quark:world/crafting/slabs/shale_slab",
    "minecraft:candle",
@@ -14346,7 +14306,6 @@
    "minecraft:cobbled_deepslate_wall",
    "quark:tweaks/crafting/utility/coral/tube_to_blue",
    "minecraft:purpur_slab_from_purpur_block_stonecutting",
-   "minecraft:nether_brick_fence",
    "irons_spellbooks:archevoker_boots_smithing",
    "quark:building/stonecutting/vertslabs/polished_blackstone_brick_vertical_slab_stonecutter",
    "quark:world/crafting/woodsets/ancient/hanging_sign",
@@ -14397,7 +14356,6 @@
    "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb",
    "minecraft:pink_stained_glass_pane_from_glass_pane",
    "armourers_workshop:blocks/skin-library",
-   "beyonddimensions:net_destroyer",
    "quark:world/crafting/woodsets/ancient/trapped_chest",
    "quark:building/crafting/glass/light_gray_framed_glass",
    "aether:golden_shovel_repairing",
@@ -14502,7 +14460,6 @@
    "supplementaries:stone_tile_wall",
    "waystones:orange_sharestone",
    "aether:chainmail_boots_repairing",
-   "minecraft:nether_brick_slab",
    "dodosmobs:smithing/amalgam_claws",
    "quark:building/stonecutting/vertslabs/cut_sandstone_vertical_slab2_stonecutter",
    "supplementaries:blackstone_tile",
@@ -14532,9 +14489,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7092,
+  "ticks_since_last_warning": 11542,
   "warning_level": 0
  }
 }

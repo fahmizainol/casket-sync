@@ -1,52 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 539,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 9,
-   "Id": 158,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "efn:verticalstop"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 39,
-   "Id": 5,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:strength"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -87,18 +40,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -144,10 +85,6 @@
    "Name": "epicfight:offhand_attack_speed"
   },
   {
-   "Base": 4.5,
-   "Name": "forge:block_reach"
-  },
-  {
    "Base": 0.0,
    "Name": "attributeslib:dodge_chance"
   },
@@ -169,18 +106,6 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    },
-    {
-     "Amount": 9.0,
-     "Name": "effect.minecraft.strength 2",
-     "Operation": 0,
-     "UUID": [
-      1686990948,
-      1784696665,
-      -1967209790,
-      980277161
-     ],
-     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -242,9 +167,9 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "wraithon:sanctum_of_the_wraithon",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
- "FallDistance": 0.0518,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -1326,8 +1251,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 51,
-   "currentLogicNodeId": 51
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 42
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4309,14 +4234,13 @@
    "uniqueaccessories:bloody_knife": 1,
    "uniqueaccessories:hero_emblem": 1
   },
-  "ua_mn_tabi_last_dash": 2160315,
-  "ua_rs_active_until": 2160261,
+  "ua_mn_tabi_last_dash": 2165315,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2160336,
-  "ua_shiny_last_x": 115.8371,
-  "ua_shiny_last_y": 8.6534,
-  "ua_shiny_last_z": 300.8541
+  "ua_shiny_last_active": 2165721,
+  "ua_shiny_last_x": 258.2401,
+  "ua_shiny_last_y": 63.0,
+  "ua_shiny_last_z": -1772.0918
  },
  "Health": 34.0,
  "HurtByTimestamp": 0,
@@ -4345,7 +4269,7 @@
       "lvl": 3
      }
     ],
-    "TotalDamage": 74.2189
+    "TotalDamage": 92.4833
    }
   },
   {
@@ -4580,6 +4504,14 @@
   },
   {
    "Count": 1,
+   "Slot": 26,
+   "id": "minecraft:netherite_helmet",
+   "tag": {
+    "Damage": 0
+   }
+  },
+  {
+   "Count": 1,
    "Slot": 27,
    "id": "minecraft:dragon_head"
   },
@@ -4767,26 +4699,26 @@
  "LastDeathLocation": {
   "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   107,
+   106,
    7,
-   291
+   319
   ]
  },
  "Motion": [
-  0.2368,
+  0.0,
   -0.0784,
-  0.1125
+  0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  115.8371,
-  8.6534,
-  300.8541
+  258.2351,
+  63.0,
+  -1772.0996
  ],
  "Rotation": [
-  -133.9343,
-  34.8369
+  28.6484,
+  24.215
  ],
  "Score": 27744,
  "SelectedItemSlot": 0,
@@ -4811,7 +4743,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.65,
+ "foodExhaustionLevel": 1.919,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4822,7 +4754,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 23,
+  "mana": 125,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15134,7 +15066,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11753,
+  "ticks_since_last_warning": 5443,
   "warning_level": 0
  }
 }
