@@ -226,7 +226,7 @@
      }
     },
     {
-     "amount": 23,
+     "amount": 27,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
@@ -415,7 +415,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 11,
      "key": {
       "stack": {
        "item": "cataclysm:black_steel_nugget"
@@ -428,6 +428,28 @@
      "key": {
       "stack": {
        "item": "minecraft:chiseled_nether_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:thorns",
+          "lvl": 2
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -538,6 +560,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:music_disc_maledictus"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:golden_axe",
        "tag": {
         "Damage": 0,
@@ -580,7 +611,7 @@
      }
     },
     {
-     "amount": 51,
+     "amount": 79,
      "key": {
       "stack": {
        "item": "cataclysm:black_steel_fence"
@@ -598,7 +629,7 @@
      }
     },
     {
-     "amount": 125,
+     "amount": 132,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -1174,7 +1205,7 @@
      }
     },
     {
-     "amount": 56,
+     "amount": 57,
      "key": {
       "stack": {
        "item": "minecraft:smooth_stone_slab"
@@ -1271,6 +1302,15 @@
      }
     },
     {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "cataclysm:cursium_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
@@ -1352,7 +1392,7 @@
      }
     },
     {
-     "amount": 18,
+     "amount": 22,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_bricks"
@@ -1438,7 +1478,7 @@
      }
     },
     {
-     "amount": 34,
+     "amount": 49,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -1486,7 +1526,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "cataclysm:black_steel_ingot"
@@ -1626,7 +1666,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 10,
      "key": {
       "stack": {
        "item": "epicskills:ability_stone"
@@ -2185,6 +2225,28 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:diamond_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:chainmail_chestplate",
        "tag": {
         "Damage": 0
@@ -2270,7 +2332,7 @@
      }
     },
     {
-     "amount": 33,
+     "amount": 34,
      "key": {
       "stack": {
        "item": "minecraft:coal"
@@ -2331,6 +2393,28 @@
      "key": {
       "stack": {
        "item": "tudigong:tudi_command_spell"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:depth_strider",
+          "lvl": 3
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2502,6 +2586,15 @@
      "key": {
       "stack": {
        "item": "minecraft:prismarine_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "cataclysm:chiseled_stone_brick_pillar"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2752,6 +2845,32 @@
        "item": "magistuarmory:rustednorman_helmet",
        "tag": {
         "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:crossbow",
+       "tag": {
+        "Charged": 0,
+        "ChargedProjectiles": [],
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:multishot",
+          "lvl": 1
+         },
+         {
+          "id": "minecraft:piercing",
+          "lvl": 3
+         }
+        ],
+        "kusabimaru_sheath": 0,
+        "sheath": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -3029,6 +3148,15 @@
      }
     },
     {
+     "amount": 12,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:frozen_bone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -3124,7 +3252,7 @@
      }
     },
     {
-     "amount": 18,
+     "amount": 20,
      "key": {
       "stack": {
        "item": "minecraft:stone_brick_stairs"
@@ -3536,7 +3664,7 @@
      }
     },
     {
-     "amount": 8,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "minecraft:golden_horse_armor"
@@ -3557,7 +3685,7 @@
      }
     },
     {
-     "amount": 165,
+     "amount": 179,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -3593,7 +3721,7 @@
      }
     },
     {
-     "amount": 336,
+     "amount": 337,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3826,7 +3954,7 @@
      }
     },
     {
-     "amount": 215,
+     "amount": 225,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -4016,6 +4144,28 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:diamond_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 4
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:stone_brick_slab"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -4159,7 +4309,7 @@
      }
     },
     {
-     "amount": 8,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "cataclysm:pointed_icicle"
@@ -4375,6 +4525,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "tcrcore:rare_artifact_ticket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -4434,6 +4593,28 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:diamond_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:netherite_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -4467,7 +4648,7 @@
      }
     },
     {
-     "amount": 215,
+     "amount": 219,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -4533,6 +4714,28 @@
      "key": {
       "stack": {
        "item": "minecraft:wheat_seeds"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_shovel",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:vanishing_curse",
+          "lvl": 1
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4613,7 +4816,7 @@
      }
     },
     {
-     "amount": 124,
+     "amount": 133,
      "key": {
       "stack": {
        "item": "minecraft:stone_bricks"
@@ -4957,7 +5160,7 @@
      }
     },
     {
-     "amount": 10,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "minecraft:chain"
@@ -5095,6 +5298,18 @@
        "item": "magistuarmory:gothic_leggings",
        "tag": {
         "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 6,
+     "key": {
+      "stack": {
+       "item": "cataclysm:frosted_stone_bricks",
+       "tag": {
+        "kusabimaru_sheath": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -5253,7 +5468,7 @@
      }
     },
     {
-     "amount": 9,
+     "amount": 10,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_brick_wall"
@@ -5280,7 +5495,7 @@
      }
     },
     {
-     "amount": 195,
+     "amount": 200,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -5298,7 +5513,7 @@
      }
     },
     {
-     "amount": 16,
+     "amount": 22,
      "key": {
       "stack": {
        "item": "cataclysm:frosted_stone_brick_stairs"
@@ -5492,7 +5707,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "tcrcore:artifact_ticket"
@@ -5632,6 +5847,15 @@
         "Damage": 0,
         "kusabimaru_sheath": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:polished_andesite_slab"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5800,7 +6024,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:music_disc_cat"
@@ -5930,7 +6154,7 @@
      }
     },
     {
-     "amount": 7,
+     "amount": 16,
      "key": {
       "stack": {
        "item": "minecraft:soul_lantern"

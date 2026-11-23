@@ -19,12 +19,20 @@
    "Name": "attributeslib:creative_flight"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
   },
   {
    "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -59,6 +67,10 @@
   {
    "Base": 1.0,
    "Name": "minecraft:generic.attack_damage"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 1.0,
@@ -1195,8 +1207,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 215,
-   "currentLogicNodeId": 215
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1256,7 +1268,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1288,6 +1300,7 @@
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
     "cursed_eye_gotten": 1,
+    "cursed_eye_killed": 1,
     "desertEyeActivated": 1,
     "desertEyeBlessed": 1,
     "desert_eye_gotten": 1,
@@ -1319,7 +1332,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 72,
+   "finishedQuestSize": 73,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1390,21 +1403,21 @@
    "finished_quest_7": 26,
    "finished_quest_70": 18,
    "finished_quest_71": 2,
+   "finished_quest_72": 7,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 12.0,
-   "questSize": 11,
+   "questSize": 10,
    "quest_0": 84,
    "quest_1": 38,
-   "quest_10": 77,
    "quest_2": 6,
-   "quest_3": 7,
-   "quest_4": 8,
-   "quest_5": 59,
-   "quest_6": 4,
-   "quest_7": 3,
-   "quest_8": 15,
-   "quest_9": 75,
+   "quest_3": 8,
+   "quest_4": 59,
+   "quest_5": 4,
+   "quest_6": 3,
+   "quest_7": 15,
+   "quest_8": 75,
+   "quest_9": 77,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -4163,18 +4176,21 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:bloody_knife": 1
   },
+  "ua_rs_active_until": 2034287,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2028336,
-  "ua_shiny_last_x": -14.5859,
-  "ua_shiny_last_y": 100.0,
-  "ua_shiny_last_z": -22.532
+  "ua_shiny_last_active": 2034336,
+  "ua_shiny_last_x": 10.4482,
+  "ua_shiny_last_y": 99.0,
+  "ua_shiny_last_z": -34.418,
+  "ua_tabi_last_dash": 2034267
  },
- "Health": 32.0,
- "HurtByTimestamp": 0,
+ "Health": 30.8,
+ "HurtByTimestamp": 1862,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4242,27 +4258,23 @@
   {
    "Count": 1,
    "Slot": 2,
-   "id": "minecraft:crossbow",
+   "id": "cataclysm:black_steel_sword",
    "tag": {
-    "Charged": 0,
-    "ChargedProjectiles": [],
     "Damage": 0,
     "Enchantments": [
      {
-      "id": "minecraft:multishot",
-      "lvl": 1
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
      },
      {
-      "id": "minecraft:piercing",
-      "lvl": 3
+      "id": "minecraft:sharpness",
+      "lvl": 5
      }
-    ],
-    "kusabimaru_sheath": 0,
-    "sheath": 0
+    ]
    }
   },
   {
-   "Count": 1,
+   "Count": 2,
    "Slot": 3,
    "id": "cataclysm:strange_key"
   },
@@ -4284,7 +4296,7 @@
    }
   },
   {
-   "Count": 7,
+   "Count": 5,
    "Slot": 5,
    "id": "minecraft:golden_carrot",
    "tag": {
@@ -4308,62 +4320,24 @@
    "id": "waystones:waystone"
   },
   {
-   "Count": 9,
-   "Slot": 9,
-   "id": "minecraft:soul_lantern"
-  },
-  {
-   "Count": 2,
-   "Slot": 10,
-   "id": "minecraft:chain"
-  },
-  {
-   "Count": 3,
-   "Slot": 11,
-   "id": "minecraft:rotten_flesh"
-  },
-  {
-   "Count": 6,
-   "Slot": 12,
-   "id": "cataclysm:frosted_stone_bricks",
-   "tag": {
-    "kusabimaru_sheath": 0
-   }
-  },
-  {
-   "Count": 17,
-   "Slot": 13,
-   "id": "cataclysm:black_steel_fence"
-  },
-  {
-   "Count": 9,
-   "Slot": 14,
-   "id": "minecraft:stone_bricks"
-  },
-  {
-   "Count": 4,
-   "Slot": 15,
-   "id": "cataclysm:frosted_stone_brick_stairs"
-  },
-  {
-   "Count": 3,
-   "Slot": 16,
-   "id": "cataclysm:pointed_icicle"
+   "Count": 1,
+   "Slot": 26,
+   "id": "tcrcore:dual_bokken"
   },
   {
    "Count": 1,
-   "Slot": 17,
-   "id": "tcrcore:artifact_ticket"
+   "Slot": 27,
+   "id": "irons_spellbooks:arcane_essence"
+  },
+  {
+   "Count": 1,
+   "Slot": 32,
+   "id": "tcrcore:dual_bokken"
   },
   {
    "Count": 4,
-   "Slot": 18,
-   "id": "cataclysm:frosted_stone_bricks"
-  },
-  {
-   "Count": 2,
-   "Slot": 19,
-   "id": "cataclysm:chiseled_stone_brick_pillar"
+   "Slot": 35,
+   "id": "minecraft:gunpowder"
   },
   {
    "Count": 1,
@@ -4470,9 +4444,9 @@
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
   "pos": [
-   -50,
-   98,
-   -33
+   -38,
+   99,
+   -13
   ]
  },
  "Motion": [
@@ -4483,16 +4457,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -14.5859,
-  100.0,
-  -22.532
+  10.4482,
+  99.0,
+  -34.418
  ],
  "Rotation": [
-  115.2282,
-  20.3955
+  -106.8433,
+  0.0
  ],
- "Score": 15292,
- "SelectedItemSlot": 0,
+ "Score": 15849,
+ "SelectedItemSlot": 4,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
@@ -4507,10 +4481,10 @@
   -1580186985
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
- "XpLevel": 66,
- "XpP": 0.2523,
+ "XpLevel": 67,
+ "XpP": 0.5191,
  "XpSeed": 976728483,
- "XpTotal": 15292,
+ "XpTotal": 15849,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4520,7 +4494,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 1.389,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4531,7 +4505,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 18,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14843,7 +14817,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4331,
+  "ticks_since_last_warning": 10224,
   "warning_level": 0
  }
 }

@@ -429,14 +429,20 @@
   },
   "cataclysm:entities/draugr": {
    "source": [
-    3814227094891517445,
-    -5485012163485308300
+    7727758844925030516,
+    7021194970189061468
    ]
   },
   "cataclysm:entities/kobolediator": {
    "source": [
     2395186837415553016,
     -5794918182406142711
+   ]
+  },
+  "cataclysm:entities/maledictus": {
+   "source": [
+    -4612722851337961844,
+    -8479212489755557918
    ]
   },
   "cataclysm:entities/wadjet": {
@@ -1749,14 +1755,14 @@
   },
   "minecraft:blocks/stone_brick_wall": {
    "source": [
-    6342130790213407829,
-    4840576454621187855
+    3948642896040200561,
+    -6500977851416924392
    ]
   },
   "minecraft:blocks/stone_bricks": {
    "source": [
-    4771147591077616398,
-    -650271690383526420
+    2606258275634264292,
+    -291086889301759229
    ]
   },
   "minecraft:blocks/stone_button": {
@@ -2085,8 +2091,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -8273409893918407295,
-    -3484091147508965233
+    4672174365320089058,
+    -354946782930712635
    ]
   },
   "minecraft:entities/pufferfish": {

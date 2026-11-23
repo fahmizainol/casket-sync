@@ -1,20 +1,35 @@
 {
- "AbsorptionAmount": 13.4224,
+ "AbsorptionAmount": 20.0,
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 2,
+   "Amplifier": 29,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 30,
-   "Id": 5,
+   "Duration": -1,
+   "Id": 170,
    "ShowIcon": 1,
    "ShowParticles": 0,
-   "forge:id": "minecraft:strength"
+   "forge:id": "efn:murasama_sheath"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 1,
+   "Id": 1,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
   }
  ],
  "Air": 300,
@@ -44,15 +59,25 @@
    "Name": "minecraft:generic.knockback_resistance"
   },
   {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
    "Base": 0.0,
    "Name": "attributeslib:dodge_chance"
   },
   {
    "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.speed 1",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -93,16 +118,16 @@
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
     },
     {
-     "Amount": 9.0,
-     "Name": "effect.minecraft.strength 2",
-     "Operation": 0,
+     "Amount": 3.0,
+     "Name": "effect.efn.murasama_sheath 29",
+     "Operation": 2,
      "UUID": [
-      1686990948,
-      1784696665,
-      -1967209790,
-      980277161
+      -1961218756,
+      1314876027,
+      -1935810319,
+      -1565276971
      ],
-     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
+     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -569,7 +594,7 @@
    "passive4": "wom:mindset",
    "passive5": "dodge_parry_reward:damage_boost3",
    "passive6": "dodge_parry_reward:damage_boost4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1308,7 +1333,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1340,6 +1365,7 @@
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
     "cursed_eye_gotten": 1,
+    "cursed_eye_killed": 1,
     "desertEyeActivated": 1,
     "desertEyeBlessed": 1,
     "desert_eye_gotten": 1,
@@ -1371,7 +1397,7 @@
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 72,
+   "finishedQuestSize": 73,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1442,21 +1468,21 @@
    "finished_quest_7": 26,
    "finished_quest_70": 18,
    "finished_quest_71": 2,
+   "finished_quest_72": 7,
    "finished_quest_8": 27,
    "finished_quest_9": 27,
    "healthAdder": 12.0,
-   "questSize": 11,
+   "questSize": 10,
    "quest_0": 84,
    "quest_1": 38,
-   "quest_10": 77,
    "quest_2": 6,
-   "quest_3": 7,
-   "quest_4": 8,
-   "quest_5": 59,
-   "quest_6": 4,
-   "quest_7": 3,
-   "quest_8": 15,
-   "quest_9": 75,
+   "quest_3": 8,
+   "quest_4": 59,
+   "quest_5": 4,
+   "quest_6": 3,
+   "quest_7": 15,
+   "quest_8": 75,
+   "quest_9": 77,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -1465,6 +1491,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 1,
+  "EFNMurasamaSheathTicks": 0,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4768,13 +4796,14 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_rs_active_until": 2026484,
+  "quark:trying_crawl": 0,
+  "ua_rs_active_until": 2033983,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2028304
+  "ua_tabi_last_dash": 2034156
  },
  "Health": 1.0,
- "HurtByTimestamp": 2480,
+ "HurtByTimestamp": 1600,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4796,7 +4825,7 @@
       "lvl": 3
      }
     ],
-    "murasama_sheath": 0
+    "murasama_sheath": 1
    }
   },
   {
@@ -4867,216 +4896,69 @@
    }
   },
   {
-   "Count": 26,
-   "Slot": 9,
-   "id": "minecraft:rotten_flesh"
-  },
-  {
    "Count": 1,
-   "Slot": 10,
-   "id": "minecraft:string"
-  },
-  {
-   "Count": 2,
-   "Slot": 11,
-   "id": "minecraft:iron_ingot"
-  },
-  {
-   "Count": 2,
-   "Slot": 12,
-   "id": "cataclysm:necklace_of_the_desert"
-  },
-  {
-   "Count": 1,
-   "Slot": 13,
-   "id": "minecraft:enchanted_book",
-   "tag": {
-    "StoredEnchantments": [
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 1
-     }
-    ]
-   }
-  },
-  {
-   "Count": 14,
-   "Slot": 14,
-   "id": "cataclysm:black_steel_nugget"
-  },
-  {
-   "Count": 10,
-   "Slot": 15,
-   "id": "minecraft:bone"
-  },
-  {
-   "Count": 5,
-   "Slot": 16,
-   "id": "cataclysm:black_steel_ingot"
-  },
-  {
-   "Count": 11,
-   "Slot": 17,
-   "id": "minecraft:glowstone_dust"
-  },
-  {
-   "Count": 1,
-   "Slot": 18,
-   "id": "efn:sword_of_pioneer",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ],
-    "kusabimaru_sheath": 0,
-    "sheath": 1
-   }
-  },
-  {
-   "Count": 3,
-   "Slot": 19,
-   "id": "minecraft:emerald"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "irons_spellbooks:uncommon_ink"
-  },
-  {
-   "Count": 1,
-   "Slot": 21,
-   "id": "minecraft:enchanted_book",
-   "tag": {
-    "StoredEnchantments": [
-     {
-      "id": "domesticationinnovation:total_recall",
-      "lvl": 1
-     }
-    ]
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 22,
-   "id": "minecraft:diamond_pickaxe",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:efficiency",
-      "lvl": 4
-     },
-     {
-      "id": "minecraft:silk_touch",
-      "lvl": 1
-     }
-    ],
-    "sheath": 0
-   }
-  },
-  {
-   "Count": 3,
-   "Slot": 23,
-   "id": "irons_spellbooks:common_ink"
-  },
-  {
-   "Count": 1,
-   "Slot": 24,
-   "id": "cataclysm:storm_eye"
-  },
-  {
-   "Count": 1,
-   "Slot": 25,
-   "id": "artifacts:thorn_pendant"
-  },
-  {
-   "Count": 2,
-   "Slot": 26,
-   "id": "minecraft:golden_apple"
-  },
-  {
-   "Count": 1,
-   "Slot": 27,
-   "id": "epicfight_arachne:arachne_harp",
-   "tag": {
-    "fdbosses": {}
-   }
-  },
-  {
-   "Count": 64,
    "Slot": 28,
-   "id": "cataclysm:koboleton_bone"
+   "id": "minecraft:iron_chestplate",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:fire_protection",
+      "lvl": 3
+     }
+    ]
+   }
   },
   {
    "Count": 1,
    "Slot": 29,
-   "id": "minecraft:golden_boots",
+   "id": "minecraft:iron_chestplate",
    "tag": {
     "Damage": 0,
     "Enchantments": [
      {
-      "id": "minecraft:soul_speed",
-      "lvl": 2
+      "id": "minecraft:protection",
+      "lvl": 4
+     },
+     {
+      "id": "minecraft:vanishing_curse",
+      "lvl": 1
      }
     ]
    }
   },
   {
-   "Count": 1,
+   "Count": 10,
    "Slot": 30,
-   "id": "dodosmobs:amalgam_claws",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     }
-    ]
-   }
+   "id": "irons_spellbooks:arcane_essence"
   },
   {
    "Count": 1,
    "Slot": 31,
-   "id": "tcrcore:wither_soul_stone_activated"
+   "id": "minecraft:potion",
+   "tag": {
+    "Potion": "irons_spellbooks:instant_mana_two"
+   }
   },
   {
    "Count": 1,
    "Slot": 32,
-   "id": "minecraft:flint_and_steel",
-   "tag": {
-    "Damage": 0
-   }
+   "id": "irons_spellbooks:uncommon_ink"
   },
   {
-   "Count": 2,
+   "Count": 1,
    "Slot": 33,
-   "id": "irons_spellbooks:lightning_bottle"
+   "id": "irons_spellbooks:rare_ink"
   },
   {
-   "Count": 2,
+   "Count": 1,
    "Slot": 34,
-   "id": "minecraft:quartz"
+   "id": "irons_spellbooks:common_ink"
   },
   {
-   "Count": 2,
+   "Count": 1,
    "Slot": 35,
-   "id": "irons_spellbooks:shriving_stone"
+   "id": "irons_spellbooks:invisibility_elixir"
   },
   {
    "Count": 1,
@@ -5160,9 +5042,9 @@
  "LastDeathLocation": {
   "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
   "pos": [
-   -56,
-   98,
-   -23
+   -44,
+   99,
+   -26
   ]
  },
  "Motion": [
@@ -5173,15 +5055,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -43.1076,
-  99.0,
-  -11.1427
+  -41.9164,
+  136.0,
+  -40.9421
  ],
  "Rotation": [
-  87.0129,
-  -6.6733
+  -108.5587,
+  9.6538
  ],
- "Score": 9197,
+ "Score": 9200,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
@@ -5198,9 +5080,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 57,
- "XpP": 0.3268,
+ "XpP": 0.3352,
  "XpSeed": -736053570,
- "XpTotal": 9197,
+ "XpTotal": 9200,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5210,7 +5092,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.286,
+ "foodExhaustionLevel": 1.077,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14758,7 +14640,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11792,
+  "ticks_since_last_warning": 5695,
   "warning_level": 0
  }
 }

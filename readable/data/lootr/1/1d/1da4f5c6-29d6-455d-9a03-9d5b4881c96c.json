@@ -1,0 +1,91 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 5,
+       "id": "minecraft:diamond_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:thorns",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 14,
+       "id": "minecraft:diamond_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:looting",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:sweeping",
+          "lvl": 3
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/1/1d/1da4f5c6-29d6-455d-9a03-9d5b4881c96c",
+  "position": {
+   "X": -19,
+   "Y": 101,
+   "Z": 4
+  },
+  "size": 27,
+  "uuid": [
+   497350086,
+   701908317,
+   -1711039141,
+   1216465260
+  ],
+  "uuid_str": "1da4f5c6-29d6-455d-9a03-9d5b4881c96c"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "cataclysm_dimension:cataclysm_eternal_frosthold",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/6/68/681d52af-a5b1-465d-87bf-3bc1f285fae5",
+  "position": {
+   "X": -15,
+   "Y": 100,
+   "Z": 4
+  },
+  "size": 27,
+  "uuid": [
+   1746752175,
+   -1515108771,
+   -2017510463,
+   -226100507
+  ],
+  "uuid_str": "681d52af-a5b1-465d-87bf-3bc1f285fae5"
+ }
+}

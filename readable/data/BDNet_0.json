@@ -95,6 +95,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "tcrcore:wither_soul_stone_activated"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "cataclysm:abyss_eye",
        "tag": {
         "sheath": 0
@@ -355,6 +364,15 @@
      }
     },
     {
+     "amount": 64,
+     "key": {
+      "stack": {
+       "item": "cataclysm:koboleton_bone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 12,
      "key": {
       "stack": {
@@ -382,6 +400,15 @@
      }
     },
     {
+     "amount": 14,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_nugget"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 7,
      "key": {
       "stack": {
@@ -395,6 +422,24 @@
      "key": {
       "stack": {
        "item": "artifacts:universal_attractor"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:golden_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:soul_speed",
+          "lvl": 2
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -417,7 +462,7 @@
      }
     },
     {
-     "amount": 25,
+     "amount": 27,
      "key": {
       "stack": {
        "item": "minecraft:golden_apple"
@@ -480,7 +525,7 @@
      }
     },
     {
-     "amount": 13,
+     "amount": 39,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -555,13 +600,35 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "dodosmobs:amalgam_claws",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:snout_armor_trim_smithing_template"
       },
       "type": "beyonddimensions:stack_type/item"
      }
     },
     {
-     "amount": 338,
+     "amount": 339,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -781,7 +848,7 @@
      }
     },
     {
-     "amount": 40,
+     "amount": 50,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -811,7 +878,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "irons_spellbooks:shriving_stone"
@@ -933,10 +1000,65 @@
      }
     },
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:common_ink"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 15,
      "key": {
       "stack": {
        "item": "minecraft:deepslate"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "efn:sword_of_pioneer",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:sweeping",
+          "lvl": 3
+         }
+        ],
+        "kusabimaru_sheath": 0,
+        "sheath": 1
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "minecraft:quartz"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:necklace_of_the_desert"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -964,6 +1086,23 @@
      "key": {
       "stack": {
        "item": "armourers_workshop:skinning-table"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "domesticationinnovation:total_recall",
+          "lvl": 1
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1398,6 +1537,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:storm_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 11,
      "key": {
       "stack": {
@@ -1425,7 +1573,7 @@
      }
     },
     {
-     "amount": 6,
+     "amount": 17,
      "key": {
       "stack": {
        "item": "minecraft:glowstone_dust"
@@ -1479,6 +1627,15 @@
      }
     },
     {
+     "amount": 49,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_ingot"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -1497,7 +1654,7 @@
      }
     },
     {
-     "amount": 100,
+     "amount": 109,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -1664,6 +1821,18 @@
      "key": {
       "stack": {
        "item": "minecraft:wheat"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:flint_and_steel",
+       "tag": {
+        "Damage": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1882,6 +2051,18 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "epicfight_arachne:arachne_harp",
+       "tag": {
+        "fdbosses": {}
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "artifacts:cowboy_hat"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -1949,6 +2130,15 @@
      "key": {
       "stack": {
        "item": "tcrcore:nine_heaven_darksteel"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:uncommon_ink"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2035,7 +2225,7 @@
      }
     },
     {
-     "amount": 13,
+     "amount": 14,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -2328,7 +2518,7 @@
      }
     },
     {
-     "amount": 133,
+     "amount": 166,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -2433,7 +2623,33 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:echo_shard"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:lightning_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2443,6 +2659,29 @@
      "key": {
       "stack": {
        "item": "minecraft:raw_iron"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_pickaxe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:silk_touch",
+          "lvl": 1
+         }
+        ],
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2616,6 +2855,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:thorn_pendant"
       },
       "type": "beyonddimensions:stack_type/item"
      }
