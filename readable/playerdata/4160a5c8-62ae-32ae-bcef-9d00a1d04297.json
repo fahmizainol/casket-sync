@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 245,
+   "Duration": 249,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 245,
+   "Duration": 249,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -49,6 +49,10 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 0.05,
@@ -1316,7 +1320,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 282
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4299,8 +4303,8 @@
    "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_mn_tabi_last_dash": 2338020,
-  "ua_rs_active_until": 2339175,
+  "ua_mn_tabi_last_dash": 2340821,
+  "ua_rs_active_until": 2341313,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
@@ -4428,9 +4432,9 @@
    }
   },
   {
-   "Count": 12,
+   "Count": 10,
    "Slot": 6,
-   "id": "minecraft:ghast_tear"
+   "id": "aether:white_apple"
   },
   {
    "Count": 1,
@@ -4449,11 +4453,6 @@
    "Count": 18,
    "Slot": 9,
    "id": "aether:cold_aercloud"
-  },
-  {
-   "Count": 11,
-   "Slot": 10,
-   "id": "aether:white_apple"
   },
   {
    "Count": 5,
@@ -4520,6 +4519,11 @@
    "Count": 1,
    "Slot": 19,
    "id": "aether:white_cape"
+  },
+  {
+   "Count": 12,
+   "Slot": 33,
+   "id": "minecraft:ghast_tear"
   },
   {
    "Count": 1,
@@ -4670,16 +4674,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  892.452,
+  890.2387,
   164.0,
-  54.2688
+  47.4377
  ],
  "Rotation": [
-  -154.2321,
-  27.3605
+  88.0691,
+  10.9684
  ],
  "Score": 27863,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 6,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "minecraft:overworld",
@@ -4707,7 +4711,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0568,
+ "foodExhaustionLevel": 0.8418,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -10488,7 +10492,6 @@
    "minecraft:cracked_white_dacite_brick_wall_from_cracked_white_dacite_bricks_stonecutting",
    "quark:building/crafting/stairs/shingles_stairs",
    "quark:building/stonecutting/stonevariants/dripstone_bricks_slab_rough_stonecutting",
-   "aether:holystone_button",
    "minecraft:chiseled_stone_bricks_stone_from_stonecutting",
    "bosses_of_mass_destruction:blast_amplifier",
    "magistuarmory:iron_lochaberaxe",
@@ -10879,7 +10882,6 @@
    "alexsmobs:shield_of_the_deep",
    "tcrcore:magic_longsword_smithing",
    "quark:building/crafting/vertslabs/andesite_vertical_slab_revert",
-   "aether:holystone_bricks",
    "supplementaries:daub_frame",
    "magistuarmory:tin_kiteshield",
    "cataclysm:chiseled_azure_seastone_pillar_wall",
@@ -13893,7 +13895,6 @@
    "magistuarmory:diamond_heatershield",
    "minecraft:smooth_red_sandstone_slab",
    "armourers_workshop:blocks/outfit-maker",
-   "aether:holystone_pressure_plate",
    "minecraft:cut_copper_stairs_from_cut_copper_stonecutting",
    "supplementaries:redstone_illuminator",
    "biomeswevegone:holly_fence",
@@ -15030,7 +15031,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2781,
+  "ticks_since_last_warning": 8781,
   "warning_level": 0
  }
 }

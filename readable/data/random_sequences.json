@@ -21,8 +21,8 @@
   },
   "aether:blocks/cold_aercloud": {
    "source": [
-    -1362883423438211128,
-    -6217712538066082871
+    -7581929277293691287,
+    -6576614342644186041
    ]
   },
   "aether:blocks/crystal_fruit_leaves": {
@@ -75,8 +75,8 @@
   },
   "aether:entities/blue_swet": {
    "source": [
-    -6131834831005301016,
-    2002449340023253206
+    -3501085794427755160,
+    6494106050566420653
    ]
   },
   "aether:entities/cockatrice": {
@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    6446373192262668066,
-    -6251704167528301777
+    1762059206543415581,
+    2626953178068811172
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -7871045773814330600,
-    4845999631793569057
+    9186702111214464874,
+    -4846919076214820075
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    693310171900330148,
-    7007383730975286669
+    -3218453653854663537,
+    993363397154163350
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2013,8 +2013,8 @@
   },
   "minecraft:entities/bat": {
    "source": [
-    -477501159514476180,
-    -3324225530003209155
+    1407003879915515612,
+    -5749798381413789649
    ]
   },
   "minecraft:entities/blaze": {
@@ -2223,8 +2223,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    787994027845627824,
-    2621303153217172039
+    -494662831029129721,
+    -4414790621480630978
    ]
   },
   "minecraft:entities/tropical_fish": {
