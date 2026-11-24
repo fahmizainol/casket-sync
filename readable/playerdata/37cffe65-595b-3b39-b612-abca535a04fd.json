@@ -1,7 +1,69 @@
 {
- "AbsorptionAmount": 0.0,
+ "AbsorptionAmount": 20.0,
  "Air": 300,
  "Attributes": [
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:creative_flight"
+  },
+  {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
+  },
+  {
+   "Base": 0.08,
+   "Name": "forge:entity_gravity"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:ice_spell_power"
+  },
+  {
+   "Base": 15.0,
+   "Modifiers": [
+    {
+     "Amount": 5.6,
+     "Name": "stamina_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
+  },
   {
    "Base": 0.5,
    "Name": "epicfight:impact"
@@ -9,6 +71,14 @@
   {
    "Base": 0.0,
    "Name": "epicfight:armor_negation"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:lightning_spell_power"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:holy_spell_power"
   },
   {
    "Base": 0.1,
@@ -21,10 +91,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
   },
   {
    "Base": 0.0,
@@ -75,10 +141,6 @@
    "Name": "minecraft:generic.max_health"
   },
   {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
-  },
-  {
    "Base": 1.0,
    "Modifiers": [
     {
@@ -97,46 +159,8 @@
    "Name": "minecraft:generic.attack_damage"
   },
   {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
-  },
-  {
-   "Base": 0.08,
-   "Name": "forge:entity_gravity"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 15.0,
-   "Modifiers": [
-    {
-     "Amount": 5.6,
-     "Name": "stamina_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
+   "Base": 100.0,
+   "Name": "irons_spellbooks:max_mana"
   }
  ],
  "BalmData": {},
@@ -517,13 +541,10 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge",
-   "GUARD": "efn:efn_parry"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:murasama_dodge",
-   "guard": "efn:murasama_parry",
+   "dodge": "efn:efn_dodge",
+   "guard": "efn:efn_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge",
     "1": "efn:murasama_dodge"
@@ -550,9 +571,10 @@
    "passive1": "dodge_parry_reward:stamina1",
    "passive2": "dodge_parry_reward:health_boost4",
    "passive3": "dodge_parry_reward:heal3",
+   "passive4": "wom:heart_shield",
    "passive5": "dodge_parry_reward:heal4",
    "passive6": "wom:mindset",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1291,7 +1313,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -1461,7 +1483,7 @@
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795529260205,
+     "WarpStoneCooldownUntilUnix": 1795529604018,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -4766,11 +4788,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
+  "ua_rs_active_until": 2326895,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 2326939
  },
- "Health": 34.0,
- "HurtByTimestamp": 0,
+ "Health": 32.3091,
+ "HurtByTimestamp": 403,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4995,9 +5019,27 @@
    "id": "uniqueaccessories:withered_heart"
   },
   {
+   "Count": 16,
+   "Slot": 20,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "bosses_of_mass_destruction:soul_star"
+  },
+  {
    "Count": 1,
    "Slot": 22,
    "id": "artifacts:fire_gauntlet"
+  },
+  {
+   "Count": 1,
+   "Slot": 23,
+   "id": "magistuarmory:rustedchainmail_helmet",
+   "tag": {
+    "Damage": 0
+   }
   },
   {
    "Count": 11,
@@ -5029,9 +5071,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   1,
+   -2,
    3,
-   -6
+   5
   ]
  },
  "Motion": [
@@ -5042,16 +5084,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -207.5,
-  85.0,
-  -190.5
+  80.6681,
+  73.0,
+  -138.6248
  ],
  "Rotation": [
-  -118.2511,
-  17.3892
+  -19.4369,
+  22.613
  ],
- "Score": 12057,
- "SelectedItemSlot": 0,
+ "Score": 12143,
+ "SelectedItemSlot": 5,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "tcrcore:sanctum",
@@ -5067,9 +5109,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 64,
- "XpP": 0.7225,
+ "XpP": 0.9282,
  "XpSeed": -736053570,
- "XpTotal": 12057,
+ "XpTotal": 12143,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5079,7 +5121,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 2.135,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5090,7 +5132,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 55,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -11984,7 +12026,6 @@
    "biomeswevegone:cracked_dacite_brick_wall",
    "wom:emerald_chakra",
    "minecraft:shulker_box",
-   "biomeswevegone:cut_black_sandstone",
    "minecraft:diorite_wall",
    "quark:building/stonecutting/stonevariants/limestone_bricks_vertical_slab_rough_stonecutting",
    "aether:aerogel_stairs",
@@ -13151,7 +13192,6 @@
    "supplementaries:fine_wood_slab",
    "magistuarmory:iron_concavehalberd",
    "magistuarmory:iron_chainmorgenstern",
-   "biomeswevegone:windswept_sandstone_pillar",
    "quark:building/crafting/vertslabs/blossom_planks_vertical_slab",
    "magistuarmory:diamond_chivalrylance",
    "quark:building/stonecutting/stonevariants/granite_bricks_stonecutter",
@@ -14582,7 +14622,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5011,
+  "ticks_since_last_warning": 10714,
   "warning_level": 0
  }
 }
