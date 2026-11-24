@@ -608,7 +608,25 @@
     },
     "done": true
   },
+  "efn:fire_exsiliumgladius": {
+    "criteria": {
+      "obtain": "2026-11-23 22:48:59 +0800"
+    },
+    "done": true
+  },
+  "efn:exsiliumgladius": {
+    "criteria": {
+      "obtain": "2026-11-23 22:53:30 +0800"
+    },
+    "done": true
+  },
   "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-11-23 22:57:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2026-11-23 22:57:26 +0800"
     },
@@ -620,27 +638,9 @@
     },
     "done": true
   },
-  "efn:exsiliumgladius": {
-    "criteria": {
-      "obtain": "2026-11-23 22:53:30 +0800"
-    },
-    "done": true
-  },
-  "efn:fire_exsiliumgladius": {
-    "criteria": {
-      "obtain": "2026-11-23 22:48:59 +0800"
-    },
-    "done": true
-  },
   "minecraft:nether/netherite_armor": {
     "criteria": {
       "netherite_armor": "2026-11-24 00:05:24 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-11-23 22:57:26 +0800"
     },
     "done": true
   },

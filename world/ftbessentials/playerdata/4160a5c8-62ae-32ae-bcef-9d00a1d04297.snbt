@@ -3,7 +3,7 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "tcrcore:sanctum", x: -210, y: 85, z: -188, time: 1795455436787L, xRot: 43.069298f, yRot: 163.97247f }
+	last_seen: { dim: "tcrcore:sanctum", x: -210, y: 85, z: -188, time: 1795527263851L, xRot: 43.069298f, yRot: 163.97247f }
 	recording: "none"
 	teleport_history: [
 		{ dim: "minecraft:overworld", x: 208, y: 73, z: -663, time: 1795454431654L }
