@@ -3,7 +3,7 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795538791545L, xRot: 32.347626f, yRot: -6.746704f }
+	last_seen: { dim: "pbf1:sanctum_of_the_battle1", x: -1, y: 3, z: -12, time: 1795539298081L, xRot: 0.0f, yRot: 169.86502f }
 	recording: "none"
 	teleport_history: [
 		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795538804861L }

@@ -244,7 +244,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1773700,
+  "DayTime": 1774657,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -427,7 +427,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795539293719,
+  "LastPlayed": 1795539342427,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -441,7 +441,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 250,
+     "Duration": 244,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -456,7 +456,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 258,
+     "Duration": 252,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -668,7 +668,7 @@
      "LifeShardCount": 0,
      "LoginsUntilPatreonMessage": -1,
      "RemedyStartDuration": 0,
-     "SavedHealth": 0.0
+     "SavedHealth": 34.0
     },
     "armourers_workshop:entity-skin-provider": {
      "DataVersion": 1
@@ -1748,7 +1748,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 212
+     "currentLogicNodeId": 42
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -5271,16 +5271,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -0.684,
+    -0.6702,
     3.0,
-    -12.5452
+    -12.5359
    ],
    "Rotation": [
-    145.7584,
-    0.0
+    -55.2939,
+    17.89
    ],
    "Score": 28063,
-   "SelectedItemSlot": 0,
+   "SelectedItemSlot": 2,
    "SleepTimer": 0,
    "SpawnAngle": 19.0092,
    "SpawnDimension": "minecraft:overworld",
@@ -5288,6 +5288,9 @@
    "SpawnX": 265,
    "SpawnY": 63,
    "SpawnZ": -1775,
+   "Tags": [
+    "wom_health_fix:34.0"
+   ],
    "UUID": [
     1096852936,
     1655583406,
@@ -15628,7 +15631,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 4492,
+    "ticks_since_last_warning": 5449,
     "warning_level": 0
    }
   },
@@ -15640,7 +15643,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2519846,
+  "Time": 2520803,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -16342,9 +16345,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 1840,
+  "rainTime": 883,
   "raining": 0,
-  "thunderTime": 77301,
+  "thunderTime": 76344,
   "thundering": 0,
   "version": 19133
  },
