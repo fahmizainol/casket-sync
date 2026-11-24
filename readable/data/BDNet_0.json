@@ -493,7 +493,7 @@
      }
     },
     {
-     "amount": 407,
+     "amount": 408,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -624,15 +624,6 @@
        "tag": {
         "Damage": 0
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 55,
-     "key": {
-      "stack": {
-       "item": "minecraft:experience_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
