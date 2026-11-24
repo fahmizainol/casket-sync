@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 3.0,
+ "AbsorptionAmount": 2.0,
  "Air": 300,
  "Attributes": [
   {
@@ -4772,10 +4772,11 @@
   },
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2471845,
-  "ua_shiny_last_x": -4.5873,
+  "ua_shiny_last_active": 2477846,
+  "ua_shiny_last_x": -2.0556,
   "ua_shiny_last_y": 3.0,
-  "ua_shiny_last_z": -0.1577
+  "ua_shiny_last_z": 0.8505,
+  "ua_tabi_last_dash": 2477828
  },
  "Health": 44.0,
  "HurtByTimestamp": 0,
@@ -5105,9 +5106,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   4,
+   -1,
    3,
-   -1
+   0
   ]
  },
  "Motion": [
@@ -5118,13 +5119,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -4.5703,
+  -2.0556,
   3.0,
-  -0.1587
+  0.8505
  ],
  "Rotation": [
-  42.6091,
-  -38.4175
+  -89.4132,
+  -49.5082
  ],
  "Score": 12267,
  "SelectedItemSlot": 0,
@@ -5155,7 +5156,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.4,
+ "foodExhaustionLevel": 2.216,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5166,7 +5167,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 16,
+  "mana": 13,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14656,7 +14657,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 67,
+  "ticks_since_last_warning": 4856,
   "warning_level": 0
  }
 }
