@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    3887457824601918102,
-    -2214799115291736867
+    4716161832311528371,
+    -2384068002390636782
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2795948290152255273,
-    -6366481705703703395
+    7227038724747482924,
+    7168689993078155291
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    4411788540141611148,
-    -686661730689083277
+    -4733208187188445768,
+    180829999899495314
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -975,8 +975,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    6900705861479630060,
-    -457370645694678424
+    2307958345580108216,
+    7658063692231178225
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -1887,8 +1887,8 @@
   },
   "minecraft:blocks/tall_grass": {
    "source": [
-    -4164831684739505859,
-    5731730721503680263
+    2589209852435667812,
+    6314948154055758568
    ]
   },
   "minecraft:blocks/tall_seagrass": {
@@ -2163,8 +2163,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    8373346926307384153,
-    6773043649451621336
+    -8845343556060427591,
+    7140563624527259493
    ]
   },
   "minecraft:entities/pufferfish": {
