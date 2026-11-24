@@ -1,0 +1,127 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:smite",
+          "lvl": 3
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:emerald"
+      },
+      {
+       "Count": 1,
+       "Slot": 10,
+       "id": "minecraft:emerald"
+      },
+      {
+       "Count": 1,
+       "Slot": 11,
+       "id": "minecraft:iron_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:projectile_protection",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:chainmail_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:emerald"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "minecraft:iron_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:emerald"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/4/4b/4b3518e5-53aa-44df-88bf-ffb2df6f2297",
+  "position": {
+   "X": -1109,
+   "Y": 174,
+   "Z": -3448
+  },
+  "size": 27,
+  "uuid": [
+   1261770981,
+   1403667679,
+   -2000683086,
+   -546364777
+  ],
+  "uuid_str": "4b3518e5-53aa-44df-88bf-ffb2df6f2297"
+ }
+}

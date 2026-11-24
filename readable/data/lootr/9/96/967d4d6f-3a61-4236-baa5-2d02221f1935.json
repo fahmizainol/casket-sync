@@ -1,0 +1,101 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 3,
+       "Slot": 4,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:wheat"
+      },
+      {
+       "Count": 3,
+       "Slot": 14,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 16,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 2,
+       "Slot": 17,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:lead"
+      },
+      {
+       "Count": 4,
+       "Slot": 23,
+       "id": "minecraft:string"
+      },
+      {
+       "Count": 1,
+       "Slot": 24,
+       "id": "domesticationinnovation:sinister_carrot"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:bone"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/9/96/967d4d6f-3a61-4236-baa5-2d02221f1935",
+  "position": {
+   "X": -1097,
+   "Y": 162,
+   "Z": -3458
+  },
+  "size": 27,
+  "uuid": [
+   -1770173073,
+   979452470,
+   -1163580158,
+   572463413
+  ],
+  "uuid_str": "967d4d6f-3a61-4236-baa5-2d02221f1935"
+ }
+}

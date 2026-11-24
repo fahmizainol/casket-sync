@@ -1,5 +1,22 @@
 {
  "AbsorptionAmount": 20.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 29,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": -1,
+   "Id": 170,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "efn:murasama_sheath"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -156,6 +173,18 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+    },
+    {
+     "Amount": 3.0,
+     "Name": "effect.efn.murasama_sheath 29",
+     "Operation": 2,
+     "UUID": [
+      -1961218756,
+      1314876027,
+      -1935810319,
+      -1565276971
+     ],
+     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -538,10 +567,13 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_dodge",
+   "GUARD": "efn:efn_parry"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_dodge",
-   "guard": "efn:efn_parry",
+   "dodge": "efn:murasama_dodge",
+   "guard": "efn:murasama_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge",
     "1": "efn:murasama_dodge"
@@ -571,7 +603,7 @@
    "passive4": "wom:heart_shield",
    "passive5": "dodge_parry_reward:heal4",
    "passive6": "wom:mindset",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1478,12 +1510,12 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 8,
+  "EFNMurasamaMaxSoundPlayed": 1,
+  "EFNMurasamaSheathTicks": 0,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795531319027,
+     "WarpStoneCooldownUntilUnix": 1795533682407,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -4785,23 +4817,24 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:still_beating_heart": 1,
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 2404694,
+  "ua_rs_active_until": 2411108,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2405845,
-  "ua_shiny_last_x": -1091.2375,
-  "ua_shiny_last_y": 121.0,
-  "ua_shiny_last_z": -3451.6924,
-  "ua_tabi_last_dash": 2399608
+  "ua_shiny_last_active": 2411183,
+  "ua_shiny_last_x": -1106.3898,
+  "ua_shiny_last_y": 174.0,
+  "ua_shiny_last_z": -3445.5351,
+  "ua_tabi_last_dash": 2410907
  },
  "Health": 44.0,
- "HurtByTimestamp": 2344,
+ "HurtByTimestamp": 13552,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4835,7 +4868,7 @@
      "mustEquip": 0,
      "spellWheel": 1
     },
-    "murasama_sheath": 0
+    "murasama_sheath": 1
    }
   },
   {
@@ -4967,17 +5000,12 @@
   {
    "Count": 1,
    "Slot": 13,
-   "id": "minecraft:diamond_leggings",
+   "id": "minecraft:enchanted_book",
    "tag": {
-    "Damage": 0,
-    "Enchantments": [
+    "StoredEnchantments": [
      {
-      "id": "minecraft:protection",
-      "lvl": 4
-     },
-     {
-      "id": "wom:invigoration",
-      "lvl": 5
+      "id": "minecraft:looting",
+      "lvl": 2
      }
     ]
    }
@@ -5026,12 +5054,12 @@
    "id": "uniqueaccessories:withered_heart"
   },
   {
-   "Count": 16,
+   "Count": 21,
    "Slot": 20,
    "id": "minecraft:rotten_flesh"
   },
   {
-   "Count": 1,
+   "Count": 2,
    "Slot": 21,
    "id": "bosses_of_mass_destruction:soul_star"
   },
@@ -5069,7 +5097,7 @@
    "id": "tcrcore:rare_artifact_ticket"
   },
   {
-   "Count": 2,
+   "Count": 6,
    "Slot": 28,
    "id": "minecraft:bone"
   },
@@ -5077,6 +5105,24 @@
    "Count": 1,
    "Slot": 29,
    "id": "uniqueaccessories:black_belt"
+  },
+  {
+   "Count": 1,
+   "Slot": 30,
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "domesticationinnovation:vampire",
+      "lvl": 1
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 31,
+   "id": "artifacts:chorus_totem"
   },
   {
    "Count": 1,
@@ -5136,16 +5182,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1091.2375,
-  121.0,
-  -3451.6893
+  -1106.3898,
+  174.0,
+  -3445.5351
  ],
  "Rotation": [
-  -78.9393,
-  24.4444
+  151.6344,
+  -6.0727
  ],
- "Score": 12206,
- "SelectedItemSlot": 5,
+ "Score": 12242,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "tcrcore:sanctum",
@@ -5161,9 +5207,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 65,
- "XpP": 0.0773,
+ "XpP": 0.1616,
  "XpSeed": -736053570,
- "XpTotal": 12206,
+ "XpTotal": 12242,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5173,7 +5219,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.143,
+ "foodExhaustionLevel": 0.981,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14674,7 +14720,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2525,
+  "ticks_since_last_warning": 8524,
   "warning_level": 0
  }
 }

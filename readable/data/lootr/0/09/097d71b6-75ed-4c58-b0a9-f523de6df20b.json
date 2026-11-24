@@ -17,6 +17,40 @@
      -1580186985
     ],
     "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 4,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:cod"
+      },
+      {
+       "Count": 1,
+       "Slot": 15,
+       "id": "minecraft:salmon"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:salmon"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
    }
   ],
   "key": "lootr/0/09/097d71b6-75ed-4c58-b0a9-f523de6df20b",

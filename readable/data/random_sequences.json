@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -2419131719907514982,
-    678416859751048392
+    -2433708728123570410,
+    8127604505230878947
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    1177487617745572509,
-    -2807294715257747792
+    -3127409143854738712,
+    -2272002295091904375
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    4130110162088396999,
-    2935570062668761859
+    -7276315610445049588,
+    -4967429557638842717
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -573,8 +573,8 @@
   },
   "minecraft:blocks/birch_leaves": {
    "source": [
-    7128659102148738929,
-    1138798564286352459
+    -5562447028601985748,
+    -2651422382382672147
    ]
   },
   "minecraft:blocks/birch_planks": {
@@ -767,6 +767,12 @@
    "source": [
     6226851305580531077,
     8955312034075527407
+   ]
+  },
+  "minecraft:blocks/cobblestone_wall": {
+   "source": [
+    -4206160212795880264,
+    9029797011637004380
    ]
   },
   "minecraft:blocks/cracked_nether_bricks": {
@@ -975,8 +981,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    5414050035961237791,
-    -2716546591438325896
+    -6340758809204002753,
+    -4942638501021779092
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -1101,14 +1107,14 @@
   },
   "minecraft:blocks/iron_bars": {
    "source": [
-    4091272596659040668,
-    829571519904968246
+    5105241655756508497,
+    7741413040264487927
    ]
   },
   "minecraft:blocks/iron_door": {
    "source": [
-    1177802365871173341,
-    -4673597424911270893
+    5413491055966884598,
+    -5931235265330953474
    ]
   },
   "minecraft:blocks/iron_ore": {
@@ -1225,10 +1231,16 @@
     3663807335005064279
    ]
   },
+  "minecraft:blocks/mossy_stone_brick_slab": {
+   "source": [
+    -6953356759178881598,
+    -2429549317819273432
+   ]
+  },
   "minecraft:blocks/mossy_stone_bricks": {
    "source": [
-    -4471122557469892203,
-    8209468034741498577
+    -8626299043683637945,
+    -7401681069481942011
    ]
   },
   "minecraft:blocks/nether_brick_fence": {
@@ -1293,8 +1305,8 @@
   },
   "minecraft:blocks/oak_leaves": {
    "source": [
-    -1274706769498767959,
-    -8466397235810224011
+    -8200323279373254492,
+    1375391987976339744
    ]
   },
   "minecraft:blocks/oak_log": {
@@ -1767,8 +1779,8 @@
   },
   "minecraft:blocks/spruce_leaves": {
    "source": [
-    5670845050450508240,
-    -1717730686586268347
+    -3073812967375309569,
+    -4207156667166608318
    ]
   },
   "minecraft:blocks/spruce_planks": {
@@ -1821,8 +1833,8 @@
   },
   "minecraft:blocks/stone_bricks": {
    "source": [
-    9197091729808068956,
-    -5019656931743432652
+    -2324703039931985352,
+    -586476131953081808
    ]
   },
   "minecraft:blocks/stone_button": {
@@ -2199,8 +2211,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -4506076257075061986,
-    -606796507170108757
+    6063079892902851160,
+    2369487615481647479
    ]
   },
   "minecraft:entities/skeleton_horse": {
@@ -2217,14 +2229,14 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    -8247726651384165327,
-    -252552115192668946
+    1417197290205242806,
+    2633819602551423002
    ]
   },
   "minecraft:entities/squid": {
    "source": [
-    -7030273032966234311,
-    -7290860892223411413
+    -86180289147772644,
+    5539209404380018211
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -2271,8 +2283,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    6347131640809342811,
-    -260872384101945196
+    -3968018663418066405,
+    -8146222014786069995
    ]
   },
   "minecraft:entities/zombie_villager": {
