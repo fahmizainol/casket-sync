@@ -2864,15 +2864,6 @@
      }
     },
     {
-     "amount": 14,
-     "key": {
-      "stack": {
-       "item": "waystones:waystone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
      "amount": 2,
      "key": {
       "stack": {
@@ -3880,7 +3871,7 @@
      }
     },
     {
-     "amount": 389,
+     "amount": 390,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 249,
+   "Duration": 243,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,15 +25,34 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 249,
+   "Duration": 253,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 333,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
   }
  ],
  "Air": 300,
  "Attributes": [
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
   {
    "Base": 0.0,
    "Name": "minecraft:generic.luck"
@@ -162,6 +181,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -227,7 +258,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "aether:the_aether",
+ "Dimension": "epicfight_arachne:arachne_nest",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1320,7 +1351,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 212
+   "currentLogicNodeId": 282
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4303,13 +4334,13 @@
    "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_mn_tabi_last_dash": 2340821,
-  "ua_rs_active_until": 2341313,
+  "ua_mn_tabi_last_dash": 2350870,
+  "ua_rs_active_until": 2351007,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 34.0,
- "HurtByTimestamp": 0,
+ "Health": 66.0,
+ "HurtByTimestamp": 25413,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4432,9 +4463,9 @@
    }
   },
   {
-   "Count": 10,
+   "Count": 14,
    "Slot": 6,
-   "id": "aether:white_apple"
+   "id": "waystones:waystone"
   },
   {
    "Count": 1,
@@ -4442,17 +4473,22 @@
    "id": "uniqueaccessories:black_belt"
   },
   {
-   "Count": 64,
+   "Count": 1,
    "Slot": 8,
-   "id": "minecraft:blackstone",
+   "id": "epicfight_arachne:arachne_harp",
    "tag": {
-    "kusabimaru_sheath": 0
+    "fdbosses": {}
    }
   },
   {
    "Count": 18,
    "Slot": 9,
    "id": "aether:cold_aercloud"
+  },
+  {
+   "Count": 1,
+   "Slot": 10,
+   "id": "epicfight_arachne:arachne_egg"
   },
   {
    "Count": 5,
@@ -4521,9 +4557,25 @@
    "id": "aether:white_cape"
   },
   {
+   "Count": 10,
+   "Slot": 32,
+   "id": "aether:white_apple",
+   "tag": {
+    "kusabimaru_sheath": 0
+   }
+  },
+  {
    "Count": 12,
    "Slot": 33,
    "id": "minecraft:ghast_tear"
+  },
+  {
+   "Count": 64,
+   "Slot": 35,
+   "id": "minecraft:blackstone",
+   "tag": {
+    "kusabimaru_sheath": 0
+   }
   },
   {
    "Count": 1,
@@ -4674,16 +4726,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  890.2387,
-  164.0,
-  47.4377
+  213.3728,
+  27.0,
+  275.0907
  ],
  "Rotation": [
-  88.0691,
-  10.9684
+  -16.7347,
+  16.2054
  ],
  "Score": 27863,
- "SelectedItemSlot": 6,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "minecraft:overworld",
@@ -4711,7 +4763,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.8418,
+ "foodExhaustionLevel": 0.0878,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15031,7 +15083,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8781,
+  "ticks_since_last_warning": 2779,
   "warning_level": 0
  }
 }

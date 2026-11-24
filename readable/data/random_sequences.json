@@ -141,14 +141,14 @@
   },
   "aether:selectors/whirlwind_junk": {
    "source": [
-    317718583695916711,
-    -3542017234689544002
+    -2455304969460222331,
+    -8315432381448952877
    ]
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    1762059206543415581,
-    2626953178068811172
+    -8070787085828900321,
+    1614287042874279601
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    9186702111214464874,
-    -4846919076214820075
+    7080154712295137814,
+    6922088415387629089
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -3218453653854663537,
-    993363397154163350
+    -8165772226213375005,
+    7783214325172774153
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2223,8 +2223,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -494662831029129721,
-    -4414790621480630978
+    387146640478786410,
+    -80084879352159372
    ]
   },
   "minecraft:entities/tropical_fish": {
