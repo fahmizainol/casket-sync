@@ -244,7 +244,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1594999,
+  "DayTime": 1600999,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -427,7 +427,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795532691020,
+  "LastPlayed": 1795532991044,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -441,11 +441,26 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 252,
+     "Duration": 246,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:strength"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 2,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 18,
+     "Id": 1,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:speed"
     },
     {
      "Ambient": 1,
@@ -456,23 +471,30 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 255,
+     "Duration": 246,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 4,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 85,
+     "Id": 11,
+     "ShowIcon": 0,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:resistance"
     }
    ],
    "Air": 300,
    "Attributes": [
-    {
-     "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
-    },
-    {
-     "Base": 1.0,
-     "Name": "irons_spellbooks:mana_regen"
-    },
     {
      "Base": 0.0,
      "Name": "minecraft:generic.luck"
@@ -557,15 +579,25 @@
     },
     {
      "Base": 0.1,
+     "Modifiers": [
+      {
+       "Amount": 0.6,
+       "Name": "effect.minecraft.speed 2",
+       "Operation": 2,
+       "UUID": [
+        -1850824106,
+        929776792,
+        -1822740609,
+        1745290805
+       ],
+       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+      }
+     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
      "Base": 3.0,
      "Name": "forge:entity_reach"
-    },
-    {
-     "Base": 1.0,
-     "Name": "irons_spellbooks:cast_time_reduction"
     },
     {
      "Base": 0.0,
@@ -578,10 +610,6 @@
     {
      "Base": 1.0,
      "Name": "epicfight:max_strikes"
-    },
-    {
-     "Base": 1.0,
-     "Name": "forge:swim_speed"
     },
     {
      "Base": 0.0,
@@ -669,7 +697,7 @@
    "CanUpdate": 1,
    "CitadelData": {},
    "DataVersion": 3465,
-   "DeathTime": 1135,
+   "DeathTime": 0,
    "Dimension": "pbf1:sanctum_of_the_battle1",
    "EnderItems": [],
    "FallDistance": 0.0,
@@ -1763,7 +1791,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 282
+     "currentLogicNodeId": 212
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1823,7 +1851,7 @@
       "dual_annihilator_lock": 1,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 0,
+      "is_lock_on": 1,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 1,
@@ -2026,7 +2054,6 @@
     },
     "accepted": 0,
     "can_accept": 0,
-    "death_triggered": 1,
     "find_me": {
      "autoBindIgnored": [],
      "autoBindTypeBlacklist": [],
@@ -4742,17 +4769,15 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "quark:trying_crawl": 0,
     "ua_accessory_types_seen": {
      "uniqueaccessories:bloody_knife": 1
     },
-    "ua_mn_tabi_last_dash": 2386281,
-    "ua_rs_active_until": 2384979,
+    "ua_mn_tabi_last_dash": 2393745,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 0.0,
-   "HurtByTimestamp": 14953,
+   "Health": 34.0,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -5157,26 +5182,26 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     10,
-     3,
-     -4
+     1,
+     2,
+     -19
     ]
    },
    "Motion": [
-    0.0,
+    -0.0084,
     -0.0784,
-    0.0
+    -0.0055
    ],
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    11.7787,
+    -14.9885,
     3.0,
-    -3.0294
+    -5.3779
    ],
    "Rotation": [
-    122.1384,
-    0.0
+    -43.3605,
+    -25.089
    ],
    "Score": 27863,
    "SelectedItemSlot": 0,
@@ -5207,17 +5232,17 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.5039,
+   "foodExhaustionLevel": 2.096,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
    "irons_spellbooks:magic_data": {
-    "castingEquipmentSlot": "mainhand",
+    "castingEquipmentSlot": "",
     "castingSpellId": "",
     "castingSpellLevel": 0,
     "cooldowns": [
      {
-      "cdr": 1289,
+      "cdr": 657,
       "id": "irons_spellbooks:haste",
       "scd": 3200
      }
@@ -5225,7 +5250,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 125,
+    "mana": 32,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -5233,6 +5258,7 @@
      "slot": ""
     }
    },
+   "max_stun_shield": 0.0,
    "playerGameType": 0,
    "recipeBook": {
     "isBlastingFurnaceFilteringCraftable": 0,
@@ -15530,9 +15556,10 @@
     ]
    },
    "seenCredits": 0,
+   "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 738,
+    "ticks_since_last_warning": 5023,
     "warning_level": 0
    }
   },
@@ -15544,7 +15571,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2387846,
+  "Time": 2393846,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15552,7 +15579,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 0,
+  "WanderingTraderSpawnDelay": 18000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16240,10 +16267,10 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 26904,
+  "rainTime": 20904,
   "raining": 0,
-  "thunderTime": 5880,
-  "thundering": 0,
+  "thunderTime": 8036,
+  "thundering": 1,
   "version": 19133
  },
  "fml": {
