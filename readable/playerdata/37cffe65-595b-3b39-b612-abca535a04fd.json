@@ -1,5 +1,5 @@
 {
- "AbsorptionAmount": 3.0,
+ "AbsorptionAmount": 0.0,
  "ActiveEffects": [
   {
    "Ambient": 0,
@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 126,
+   "Duration": 452,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -1340,7 +1340,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 4.0,
+    "skill_point": 3.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -4439,7 +4439,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147370656,
+        "Duration": 2147370499,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -4481,28 +4481,28 @@
         "Name": "minecraft:generic.armor"
        },
        {
-        "Base": 0.0,
-        "Name": "epicfight:stun_armor"
-       },
-       {
         "Base": 1.3696,
         "Name": "minecraft:generic.flying_speed"
+       },
+       {
+        "Base": 0.0,
+        "Name": "epicfight:stun_armor"
        },
        {
         "Base": 0.0,
         "Name": "forge:step_height_addition"
        },
        {
-        "Base": 140.0,
-        "Name": "minecraft:generic.max_health"
+        "Base": 1.0,
+        "Name": "forge:swim_speed"
        },
        {
         "Base": 0.3376,
         "Name": "minecraft:generic.knockback_resistance"
        },
        {
-        "Base": 1.0,
-        "Name": "forge:swim_speed"
+        "Base": 140.0,
+        "Name": "minecraft:generic.max_health"
        }
       ],
       "AwaitingTamingRitual": 0,
@@ -4521,7 +4521,7 @@
       "CompanionRescueHealth": 139.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 2500014,
+      "CompanionRescueStoredAt": 2504905,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4792,7 +4792,7 @@
        "exhaustionLevel": 3.4961,
        "foodLevel": 0,
        "saturationLevel": 0.0,
-       "tickTimer": 62
+       "tickTimer": 59
       },
       "dragonStamina": {
        "regenPauseTicks": 0
@@ -4824,14 +4824,14 @@
   },
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2501846,
-  "ua_shiny_last_x": 11.8622,
+  "ua_shiny_last_active": 2507846,
+  "ua_shiny_last_x": -1.7505,
   "ua_shiny_last_y": 3.0,
-  "ua_shiny_last_z": -13.2642,
-  "ua_tabi_last_dash": 2501620
+  "ua_shiny_last_z": 1.2999,
+  "ua_tabi_last_dash": 2507725
  },
- "Health": 75.7948,
- "HurtByTimestamp": 1670,
+ "Health": 40.4217,
+ "HurtByTimestamp": 2990,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4898,7 +4898,7 @@
    "id": "minecraft:experience_bottle"
   },
   {
-   "Count": 46,
+   "Count": 45,
    "Slot": 6,
    "id": "minecraft:golden_carrot"
   },
@@ -5153,9 +5153,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   2,
+   0,
    3,
-   1
+   -1
   ]
  },
  "Motion": [
@@ -5166,13 +5166,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  11.8622,
+  -1.7505,
   3.0,
-  -13.2642
+  1.2999
  ],
  "Rotation": [
-  -54.9801,
-  -9.1681
+  57.6341,
+  12.4871
  ],
  "Score": 12267,
  "SelectedItemSlot": 0,
@@ -5203,7 +5203,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.541,
+ "foodExhaustionLevel": 0.023,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14704,7 +14704,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11477,
+  "ticks_since_last_warning": 5102,
   "warning_level": 0
  }
 }
