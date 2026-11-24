@@ -4176,7 +4176,7 @@
      }
     },
     {
-     "amount": 401,
+     "amount": 402,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -5966,36 +5966,6 @@
      "key": {
       "stack": {
        "item": "minecraft:snort_pottery_sherd"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "efn:yamato_dmc_in_sheath",
-       "tag": {
-        "Enchantments": [
-         {
-          "id": "minecraft:sharpness",
-          "lvl": 5
-         },
-         {
-          "id": "minecraft:knockback",
-          "lvl": 2
-         },
-         {
-          "id": "minecraft:fire_aspect",
-          "lvl": 2
-         },
-         {
-          "id": "minecraft:looting",
-          "lvl": 3
-         }
-        ],
-        "TotalDamage": 124.946
-       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
