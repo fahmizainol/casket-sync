@@ -25,34 +25,15 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 256,
+   "Duration": 242,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 218,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
   }
  ],
  "Air": 300,
  "Attributes": [
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
   {
    "Base": 0.0,
    "Name": "minecraft:generic.luck"
@@ -68,10 +49,6 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 0.05,
@@ -177,18 +154,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -257,8 +222,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 241,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "DeathTime": 0,
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -323,9 +288,9 @@
    "frame": 0
   },
   "cataclysm:render_rush_cap": {
-   "damage": 0.1,
+   "damage": 0.0,
    "isRush": 0,
-   "timer": -1
+   "timer": 0
   },
   "cataclysm:tentacle_cap": {
    "getLastTentacleID": 0,
@@ -1351,7 +1316,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 42
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1413,7 +1378,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 0,
     "is_lock_onisLocked": 0,
-    "skill_point": 2.0,
+    "skill_point": 0.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -1616,7 +1581,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4332,13 +4296,11 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_mn_tabi_last_dash": 2429550,
-  "ua_rs_active_until": 2429556,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 0.0,
- "HurtByTimestamp": 1805,
+ "Health": 34.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4535,6 +4497,41 @@
   },
   {
    "Count": 1,
+   "Slot": 21,
+   "id": "efn:fire_exsiliumgladius",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+     },
+     {
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
+     {
+      "id": "minecraft:sweeping",
+      "lvl": 3
+     }
+    ],
+    "kusabimaru_sheath": 0
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 22,
+   "id": "magistuarmory:corruptedroundshield",
+   "tag": {
+    "Damage": 0
+   }
+  },
+  {
+   "Count": 1,
    "Slot": 28,
    "id": "artifacts:cloud_in_a_bottle"
   },
@@ -4673,33 +4670,6 @@
      }
     ]
    }
-  },
-  {
-   "Count": 1,
-   "Slot": -106,
-   "id": "efn:fire_exsiliumgladius",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ],
-    "kusabimaru_sheath": 0
-   }
   }
  ],
  "Invulnerable": 0,
@@ -4719,16 +4689,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -19.1625,
-  3.0,
-  4.301
+  256.8523,
+  63.0,
+  -1773.2928
  ],
  "Rotation": [
-  -95.6412,
-  0.0
+  91.1022,
+  29.2352
  ],
  "Score": 28045,
- "SelectedItemSlot": 2,
+ "SelectedItemSlot": 4,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "minecraft:overworld",
@@ -4756,7 +4726,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.205,
+ "foodExhaustionLevel": 0.05,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4775,6 +4745,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -15072,9 +15043,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3798,
+  "ticks_since_last_warning": 8755,
   "warning_level": 0
  }
 }

@@ -4176,7 +4176,7 @@
      }
     },
     {
-     "amount": 403,
+     "amount": 404,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -5414,18 +5414,6 @@
      "key": {
       "stack": {
        "item": "minecraft:smooth_stone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "magistuarmory:corruptedroundshield",
-       "tag": {
-        "Damage": 0
-       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
