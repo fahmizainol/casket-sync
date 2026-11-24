@@ -6,7 +6,6 @@
 	last_seen: { dim: "tcrcore:sanctum", x: -210, y: 85, z: -188, time: 1795527263851L, xRot: 43.069298f, yRot: 163.97247f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "pbf1:sanctum_of_the_battle1", x: -13, y: 3, z: -1, time: 1795529454181L }
 		{ dim: "minecraft:overworld", x: 215, y: 73, z: -661, time: 1795529566411L }
 		{ dim: "minecraft:overworld", x: 206, y: 73, z: -677, time: 1795529603258L }
 		{ dim: "aether:the_aether", x: 670, y: 85, z: -1136, time: 1795529848644L }
@@ -16,6 +15,7 @@
 		{ dim: "minecraft:overworld", x: 245, y: 63, z: -1759, time: 1795531427547L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -6, y: 3, z: 5, time: 1795531673790L }
 		{ dim: "minecraft:overworld", x: 263, y: 63, z: -1774, time: 1795531676348L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -2, y: 3, z: 0, time: 1795531886120L }
 	]
 	homes: { }
 	kit_use_times: { }
