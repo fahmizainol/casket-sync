@@ -244,7 +244,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1588999,
+  "DayTime": 1594999,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -427,7 +427,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795532391044,
+  "LastPlayed": 1795532691020,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -441,7 +441,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 251,
+     "Duration": 252,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -456,7 +456,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 251,
+     "Duration": 255,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -465,6 +465,14 @@
    ],
    "Air": 300,
    "Attributes": [
+    {
+     "Base": 0.0,
+     "Name": "cataclysm:additional_critical_damage"
+    },
+    {
+     "Base": 1.0,
+     "Name": "irons_spellbooks:mana_regen"
+    },
     {
      "Base": 0.0,
      "Name": "minecraft:generic.luck"
@@ -554,6 +562,10 @@
     {
      "Base": 3.0,
      "Name": "forge:entity_reach"
+    },
+    {
+     "Base": 1.0,
+     "Name": "irons_spellbooks:cast_time_reduction"
     },
     {
      "Base": 0.0,
@@ -657,8 +669,8 @@
    "CanUpdate": 1,
    "CitadelData": {},
    "DataVersion": 3465,
-   "DeathTime": 0,
-   "Dimension": "tcrcore:sanctum",
+   "DeathTime": 1135,
+   "Dimension": "pbf1:sanctum_of_the_battle1",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -1072,7 +1084,7 @@
      "passive4": "epicfight:bonebreaker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:damage_boost4",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -1751,7 +1763,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 212
+     "currentLogicNodeId": 282
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -2014,6 +2026,7 @@
     },
     "accepted": 0,
     "can_accept": 0,
+    "death_triggered": 1,
     "find_me": {
      "autoBindIgnored": [],
      "autoBindTypeBlacklist": [],
@@ -4733,13 +4746,13 @@
     "ua_accessory_types_seen": {
      "uniqueaccessories:bloody_knife": 1
     },
-    "ua_mn_tabi_last_dash": 2381388,
-    "ua_rs_active_until": 2381748,
+    "ua_mn_tabi_last_dash": 2386281,
+    "ua_rs_active_until": 2384979,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 34.0,
-   "HurtByTimestamp": 0,
+   "Health": 0.0,
+   "HurtByTimestamp": 14953,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4771,6 +4784,18 @@
        }
       ],
       "RepairCost": 1,
+      "irons_spellbooks:spell_container": {
+       "data": [
+        {
+         "id": "irons_spellbooks:haste",
+         "index": 0,
+         "level": 2
+        }
+       ],
+       "maxSpells": 1,
+       "mustEquip": 0,
+       "spellWheel": 1
+      },
       "kusabimaru_sheath": 0
      }
     },
@@ -4961,6 +4986,16 @@
      "id": "alexsmobs:flying_fish"
     },
     {
+     "Count": 30,
+     "Slot": 21,
+     "id": "minecraft:amethyst_shard"
+    },
+    {
+     "Count": 63,
+     "Slot": 23,
+     "id": "minecraft:gold_ingot"
+    },
+    {
      "Count": 1,
      "Slot": 30,
      "id": "uniqueaccessories:bloody_knife"
@@ -5122,9 +5157,9 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     -1,
+     10,
      3,
-     -2
+     -4
     ]
    },
    "Motion": [
@@ -5135,13 +5170,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -112.0777,
-    79.0,
-    -126.846
+    11.7787,
+    3.0,
+    -3.0294
    ],
    "Rotation": [
-    82.7226,
-    0.4949
+    122.1384,
+    0.0
    ],
    "Score": 27863,
    "SelectedItemSlot": 0,
@@ -5172,14 +5207,21 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.1649,
+   "foodExhaustionLevel": 3.5039,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
    "irons_spellbooks:magic_data": {
-    "castingEquipmentSlot": "",
+    "castingEquipmentSlot": "mainhand",
     "castingSpellId": "",
     "castingSpellLevel": 0,
+    "cooldowns": [
+     {
+      "cdr": 1289,
+      "id": "irons_spellbooks:haste",
+      "scd": 3200
+     }
+    ],
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
@@ -5191,7 +5233,6 @@
      "slot": ""
     }
    },
-   "max_stun_shield": 0.0,
    "playerGameType": 0,
    "recipeBook": {
     "isBlastingFurnaceFilteringCraftable": 0,
@@ -15489,10 +15530,9 @@
     ]
    },
    "seenCredits": 0,
-   "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 7854,
+    "ticks_since_last_warning": 738,
     "warning_level": 0
    }
   },
@@ -15504,15 +15544,15 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2381846,
+  "Time": 2387846,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
    "Series": "main",
    "Snapshot": 0
   },
-  "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 6000,
+  "WanderingTraderSpawnChance": 75,
+  "WanderingTraderSpawnDelay": 0,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16200,9 +16240,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 32904,
+  "rainTime": 26904,
   "raining": 0,
-  "thunderTime": 11880,
+  "thunderTime": 5880,
   "thundering": 0,
   "version": 19133
  },

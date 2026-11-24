@@ -1947,15 +1947,6 @@
      "amount": 4,
      "key": {
       "stack": {
-       "item": "minecraft:golden_apple"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 4,
-     "key": {
-      "stack": {
        "item": "quark:magenta_shard"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -2740,15 +2731,6 @@
      "key": {
       "stack": {
        "item": "minecraft:ladder"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 31,
-     "key": {
-      "stack": {
-       "item": "minecraft:amethyst_shard"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3862,7 +3844,7 @@
      }
     },
     {
-     "amount": 395,
+     "amount": 396,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4791,7 +4773,7 @@
      }
     },
     {
-     "amount": 154,
+     "amount": 90,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
