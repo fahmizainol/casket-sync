@@ -244,7 +244,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1695700,
+  "DayTime": 1701700,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -427,7 +427,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795535393728,
+  "LastPlayed": 1795535693737,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -441,7 +441,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 247,
+     "Duration": 251,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -456,7 +456,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 247,
+     "Duration": 251,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -638,7 +638,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "tcrcore:sanctum",
+   "Dimension": "minecraft:overworld",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -1818,7 +1818,7 @@
       "canEnterAether": 1,
       "canEnterNether": 1,
       "chronosTalked": 1,
-      "currentQuestId": 5.0,
+      "currentQuestId": 82.0,
       "currentQuestIdisLocked": 0,
       "cursedEyeActivated": 1,
       "cursedEyeBlessed": 1,
@@ -4717,8 +4717,8 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_mn_tabi_last_dash": 2439701,
-    "ua_rs_active_until": 2441014,
+    "ua_mn_tabi_last_dash": 2444776,
+    "ua_rs_active_until": 2447222,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
@@ -5127,16 +5127,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -106.2159,
-    81.0,
-    -202.6046
+    258.5531,
+    66.0,
+    -1767.7025
    ],
    "Rotation": [
-    -61.7994,
-    22.5308
+    2.1902,
+    26.4968
    ],
    "Score": 28045,
-   "SelectedItemSlot": 7,
+   "SelectedItemSlot": 5,
    "SleepTimer": 0,
    "SpawnAngle": 0.0,
    "SpawnDimension": "minecraft:overworld",
@@ -5164,7 +5164,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.992,
+   "foodExhaustionLevel": 1.182,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15484,7 +15484,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 2640,
+    "ticks_since_last_warning": 8639,
     "warning_level": 0
    }
   },
@@ -15496,7 +15496,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2441846,
+  "Time": 2447846,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15510,7 +15510,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 18000,
+  "WanderingTraderSpawnDelay": 12000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16198,9 +16198,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 34654,
+  "rainTime": 28654,
   "raining": 0,
-  "thunderTime": 7624,
+  "thunderTime": 1624,
   "thundering": 0,
   "version": 19133
  },

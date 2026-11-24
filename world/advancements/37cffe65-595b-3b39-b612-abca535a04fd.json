@@ -696,5 +696,11 @@
     },
     "done": true
   },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2026-11-24 23:50:06 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

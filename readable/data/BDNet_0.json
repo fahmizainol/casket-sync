@@ -107,6 +107,23 @@
        "tag": {
         "StoredEnchantments": [
          {
+          "id": "minecraft:looting",
+          "lvl": 2
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
           "id": "minecraft:sharpness",
           "lvl": 4
          }
@@ -354,6 +371,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:retracement_stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 21,
      "key": {
       "stack": {
@@ -467,7 +493,7 @@
      }
     },
     {
-     "amount": 406,
+     "amount": 407,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -799,6 +825,28 @@
      "key": {
       "stack": {
        "item": "minecraft:wheat"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:feather_falling",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

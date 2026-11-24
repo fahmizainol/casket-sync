@@ -4158,7 +4158,7 @@
      }
     },
     {
-     "amount": 405,
+     "amount": 406,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -5948,15 +5948,6 @@
        "tag": {
         "Potion": "minecraft:harming"
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "minecraft:nether_star"
       },
       "type": "beyonddimensions:stack_type/item"
      }
