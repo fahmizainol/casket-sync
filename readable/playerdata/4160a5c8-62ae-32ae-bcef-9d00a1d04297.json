@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 92,
+   "Duration": 97,
    "HiddenEffect": {
     "Ambient": 1,
     "Amplifier": 0,
@@ -32,6 +32,21 @@
    "forge:id": "minecraft:strength"
   },
   {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 48,
+   "Id": 171,
+   "ShowIcon": 1,
+   "ShowParticles": 1,
+   "forge:id": "p1nero_ec:soul_incinerator"
+  },
+  {
    "Ambient": 1,
    "Amplifier": 0,
    "CurativeItems": [
@@ -40,7 +55,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 245,
+   "Duration": 251,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -48,22 +63,22 @@
   },
   {
    "Ambient": 0,
-   "Amplifier": 2,
+   "Amplifier": 1,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 52,
-   "Id": 11,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:resistance"
+   "Duration": 48,
+   "Id": 3,
+   "ShowIcon": 1,
+   "ShowParticles": 1,
+   "forge:id": "minecraft:haste"
   },
   {
    "Ambient": 0,
-   "Amplifier": 3,
+   "Amplifier": 0,
    "CurativeItems": [
     {
      "Count": 1,
@@ -71,10 +86,10 @@
     }
    ],
    "Duration": 52,
-   "Id": 3,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:haste"
+   "Id": 101,
+   "ShowIcon": 1,
+   "ShowParticles": 1,
+   "forge:id": "cataclysm:curse_of_desert"
   },
   {
    "Ambient": 0,
@@ -85,26 +100,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 592,
+   "Duration": 597,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 52,
-   "Id": 150,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "efn:ring"
   }
  ],
  "Air": 300,
@@ -121,8 +121,8 @@
    "Base": 4.0,
    "Modifiers": [
     {
-     "Amount": 0.4,
-     "Name": "effect.minecraft.haste 3",
+     "Amount": 0.2,
+     "Name": "effect.minecraft.haste 1",
      "Operation": 2,
      "UUID": [
       -1349816769,
@@ -142,6 +142,10 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 0.05,
@@ -263,8 +267,8 @@
      "UUID_str": "9f08b24d-a700-4515-91d2-d32f6c8b4dfc"
     },
     {
-     "Amount": 0.4,
-     "Name": "effect.minecraft.haste 3",
+     "Amount": 0.2,
+     "Name": "effect.minecraft.haste 1",
      "Operation": 2,
      "UUID": [
       -1349816769,
@@ -1421,7 +1425,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 42
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1483,7 +1487,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 0.0,
+    "skill_point": 5.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -4410,14 +4414,14 @@
    "uniqueaccessories:fossil_shark_tooth": 1,
    "uniqueaccessories:still_beating_heart": 1
   },
-  "ua_mn_tabi_last_dash": 2489436,
-  "ua_rs_active_until": 2489444,
+  "ua_mn_tabi_last_dash": 2495514,
+  "ua_rs_active_until": 2495529,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
  "Health": 66.0,
- "HurtByTimestamp": 1713,
- "HurtTime": 2,
+ "HurtByTimestamp": 1349,
+ "HurtTime": 7,
  "Inventory": [
   {
    "Count": 1,
@@ -4957,29 +4961,29 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -8,
+   -3,
    3,
-   10
+   1
   ]
  },
  "Motion": [
-  -0.0042,
-  0.003,
-  -0.0019
+  0.0,
+  -0.0784,
+  0.0065
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -10.2327,
+  -0.9879,
   3.0,
-  -1.1501
+  6.485
  ],
  "Rotation": [
-  -69.3795,
-  7.5774
+  175.8837,
+  -19.3212
  ],
  "Score": 28045,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 2,
  "SleepTimer": 0,
  "SpawnAngle": -162.2617,
  "SpawnDimension": "minecraft:overworld",
@@ -5007,7 +5011,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.323,
+ "foodExhaustionLevel": 1.333,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5017,7 +5021,7 @@
   "castingSpellLevel": 0,
   "cooldowns": [
    {
-    "cdr": 1062,
+    "cdr": 309,
     "id": "irons_spellbooks:haste",
     "scd": 3200
    }
@@ -15334,7 +15338,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11982,
+  "ticks_since_last_warning": 5612,
   "warning_level": 0
  }
 }

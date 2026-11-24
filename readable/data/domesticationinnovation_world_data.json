@@ -23,6 +23,28 @@
     "X": 759,
     "Y": 62,
     "Z": -840
+   },
+   {
+    "EntityNametag": "",
+    "EntityType": "bookofdragons:nightfury",
+    "OwnerUUID": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "OwnerUUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
+    "PetUUID": [
+     -316269812,
+     593383161,
+     -1800086921,
+     760723722
+    ],
+    "PetUUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
+    "Timestamp": 1749460,
+    "X": -210,
+    "Y": 85,
+    "Z": -192
    }
   ]
  }

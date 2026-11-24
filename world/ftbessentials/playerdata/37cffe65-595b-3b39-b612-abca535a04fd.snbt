@@ -6,16 +6,16 @@
 	last_seen: { dim: "pbf1:sanctum_of_the_battle1", x: 2, y: 3, z: -10, time: 1795537442545L, xRot: 0.0f, yRot: -16.009766f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "pbf1:sanctum_of_the_battle1", x: 9, y: 3, z: 7, time: 1795537623751L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795537625709L }
-		{ dim: "pbf1:sanctum_of_the_battle1", x: -1, y: 3, z: 1, time: 1795537677132L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795537679844L }
-		{ dim: "pbf1:sanctum_of_the_battle1", x: -2, y: 3, z: -1, time: 1795537736045L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795537737717L }
-		{ dim: "pbf1:sanctum_of_the_battle1", x: 3, y: 3, z: -6, time: 1795537748778L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795537750079L }
-		{ dim: "pbf1:sanctum_of_the_battle1", x: -7, y: 3, z: -9, time: 1795537780721L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795537781787L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795537885684L }
+		{ dim: "tcrcore:sanctum", x: -206, y: 85, z: -188, time: 1795537918982L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: 3, y: 3, z: -5, time: 1795537936776L }
+		{ dim: "tcrcore:sanctum", x: -210, y: 87, z: -192, time: 1795537972357L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: 2, y: 3, z: 4, time: 1795538020002L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795538021049L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -2, y: 3, z: -1, time: 1795538035397L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795538036396L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -6, y: 3, z: 14, time: 1795538080325L }
+		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795538081538L }
 	]
 	homes: { }
 	kit_use_times: { }
