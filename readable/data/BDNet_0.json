@@ -371,7 +371,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "tcrcore:retracement_stone"
@@ -493,7 +493,7 @@
      }
     },
     {
-     "amount": 418,
+     "amount": 419,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -647,7 +647,30 @@
      }
     },
     {
-     "amount": 11,
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:respiration",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         }
+        ],
+        "RepairCost": 1
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 13,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
@@ -2256,6 +2279,32 @@
      "key": {
       "stack": {
        "item": "lootr:trophy"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:thorns",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         }
+        ],
+        "Trim": {
+         "material": "minecraft:diamond",
+         "pattern": "minecraft:wayfinder"
+        }
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

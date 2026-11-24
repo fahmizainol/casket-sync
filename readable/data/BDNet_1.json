@@ -3150,7 +3150,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:snout_armor_trim_smithing_template"
@@ -3638,7 +3638,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:netherite_upgrade_smithing_template"
@@ -4149,7 +4149,7 @@
      }
     },
     {
-     "amount": 417,
+     "amount": 418,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4543,6 +4543,24 @@
      "key": {
       "stack": {
        "item": "minecraft:heart_of_the_sea"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 1
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -7055,7 +7073,7 @@
      }
     },
     {
-     "amount": 10,
+     "amount": 15,
      "key": {
       "stack": {
        "item": "minecraft:magma_cream"
@@ -7453,6 +7471,24 @@
      "key": {
       "stack": {
        "item": "minecraft:lapis_lazuli"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:thorns",
+          "lvl": 3
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    7518605661530798088,
-    5555008029198678491
+    -3208804344118344112,
+    7625435890194770199
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2297,6 +2297,12 @@
    "source": [
     795496723388572377,
     7487658313257140414
+   ]
+  },
+  "tcr_bosses:entities/ancient_remnant_humanoid": {
+   "source": [
+    9041149196758861005,
+    107694064226056998
    ]
   },
   "tcr_bosses:entities/citadel_keeper": {

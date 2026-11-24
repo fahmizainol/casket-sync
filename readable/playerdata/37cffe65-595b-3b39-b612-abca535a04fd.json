@@ -1,22 +1,5 @@
 {
- "AbsorptionAmount": 9.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 591,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
+ "AbsorptionAmount": 11.1304,
  "Air": 300,
  "Attributes": [
   {
@@ -107,18 +90,6 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -198,7 +169,7 @@
  "DeathTime": 0,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
- "FallDistance": 0.2336,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -210,7 +181,7 @@
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 0.0
+   "SavedHealth": 44.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -1338,13 +1309,13 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
-    "skill_point": 4.0,
+    "skill_point": 0.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
-    "wrath_of_the_desert_lock": 1
+    "wrath_of_the_desert_lock": 0
    }
   },
   "structure_gel:gel_entity": {
@@ -1362,6 +1333,7 @@
     "abyssEyeBlessed": 1,
     "abyss_eye_gotten": 1,
     "aineTalked": 1,
+    "ancientRemnantHumanoidKilled": 1,
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
@@ -4439,7 +4411,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147369416,
+        "Duration": 2147369373,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -4481,28 +4453,28 @@
         "Name": "minecraft:generic.armor"
        },
        {
-        "Base": 1.3696,
-        "Name": "minecraft:generic.flying_speed"
-       },
-       {
         "Base": 0.0,
         "Name": "epicfight:stun_armor"
+       },
+       {
+        "Base": 1.3696,
+        "Name": "minecraft:generic.flying_speed"
        },
        {
         "Base": 0.0,
         "Name": "forge:step_height_addition"
        },
        {
-        "Base": 1.0,
-        "Name": "forge:swim_speed"
+        "Base": 140.0,
+        "Name": "minecraft:generic.max_health"
        },
        {
         "Base": 0.3376,
         "Name": "minecraft:generic.knockback_resistance"
        },
        {
-        "Base": 140.0,
-        "Name": "minecraft:generic.max_health"
+        "Base": 1.0,
+        "Name": "forge:swim_speed"
        }
       ],
       "AwaitingTamingRitual": 0,
@@ -4518,10 +4490,10 @@
       "CompanionPreviewHeight": 2.6,
       "CompanionPreviewWidth": 1.9,
       "CompanionRescueArmor": 8,
-      "CompanionRescueHealth": 140.0,
+      "CompanionRescueHealth": 139.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 2513174,
+      "CompanionRescueStoredAt": 2516320,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4705,7 +4677,7 @@
       ],
       "HasClearAirspace": 1,
       "HasConsumedFood": 0,
-      "Health": 140.0,
+      "Health": 139.0,
       "HurtByTimestamp": 101,
       "HurtTime": 0,
       "InLove": 0,
@@ -4792,7 +4764,7 @@
        "exhaustionLevel": 3.4961,
        "foodLevel": 0,
        "saturationLevel": 0.0,
-       "tickTimer": 22
+       "tickTimer": 65
       },
       "dragonStamina": {
        "regenPauseTicks": 0
@@ -4822,17 +4794,18 @@
    "uniqueaccessories:still_beating_heart": 1,
    "uniqueaccessories:withered_heart": 1
   },
+  "ua_rs_active_until": 2519916,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2513846,
-  "ua_shiny_last_x": 4.3164,
-  "ua_shiny_last_y": 3.1587,
-  "ua_shiny_last_z": -4.2372,
-  "ua_tabi_last_dash": 2513787
+  "ua_shiny_last_active": 2519933,
+  "ua_shiny_last_x": -0.5536,
+  "ua_shiny_last_y": 3.0,
+  "ua_shiny_last_z": -11.815,
+  "ua_tabi_last_dash": 2519565
  },
- "Health": 76.0,
- "HurtByTimestamp": 0,
- "HurtTime": 1,
+ "Health": 44.0,
+ "HurtByTimestamp": 2268,
+ "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
@@ -4923,49 +4896,8 @@
   },
   {
    "Count": 1,
-   "Slot": 10,
-   "id": "minecraft:diamond_chestplate",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:thorns",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:protection",
-      "lvl": 4
-     }
-    ],
-    "Trim": {
-     "material": "minecraft:diamond",
-     "pattern": "minecraft:wayfinder"
-    }
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 11,
-   "id": "minecraft:diamond_helmet",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:respiration",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:protection",
-      "lvl": 4
-     }
-    ],
-    "RepairCost": 1
-   }
-  },
-  {
-   "Count": 1,
    "Slot": 12,
-   "id": "tcrcore:retracement_stone"
+   "id": "tcrcore:desert_fragment"
   },
   {
    "Count": 1,
@@ -5037,11 +4969,6 @@
    "id": "minecraft:rotten_flesh"
   },
   {
-   "Count": 2,
-   "Slot": 21,
-   "id": "bosses_of_mass_destruction:soul_star"
-  },
-  {
    "Count": 1,
    "Slot": 22,
    "id": "artifacts:fire_gauntlet"
@@ -5064,6 +4991,11 @@
     ],
     "sheath": 0
    }
+  },
+  {
+   "Count": 8,
+   "Slot": 24,
+   "id": "epicskills:ability_stone"
   },
   {
    "Count": 6,
@@ -5153,26 +5085,26 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -5,
+   11,
    3,
-   -3
+   -6
   ]
  },
  "Motion": [
   0.0,
-  0.0831,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  4.3164,
-  3.1587,
-  -4.2372
+  -0.5566,
+  3.0,
+  -11.8339
  ],
  "Rotation": [
-  65.9368,
-  11.5845
+  169.865,
+  0.0
  ],
  "Score": 12274,
  "SelectedItemSlot": 0,
@@ -5183,6 +5115,9 @@
  "SpawnX": -208,
  "SpawnY": 85,
  "SpawnZ": -191,
+ "Tags": [
+  "wom_health_fix:44.0"
+ ],
  "UUID": [
   936377957,
   1499151161,
@@ -5203,7 +5138,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.195,
+ "foodExhaustionLevel": 3.994,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5214,7 +5149,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 97,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14704,7 +14639,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10326,
+  "ticks_since_last_warning": 4311,
   "warning_level": 0
  }
 }
