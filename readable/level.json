@@ -239,7 +239,8 @@
     "tcr_data",
     "tectonic/tectonic",
     "tu_di_temple",
-    "mod:mcwifipnp"
+    "mod:mcwifipnp",
+    "mod:samsaragate"
    ]
   },
   "DataVersion": 3465,
@@ -426,7 +427,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795455437764,
+  "LastPlayed": 1795527256577,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -17142,6 +17143,10 @@
    {
     "ModId": "tcrcore",
     "ModVersion": "2.8.7"
+   },
+   {
+    "ModId": "samsaragate",
+    "ModVersion": "1.0.0"
    },
    {
     "ModId": "yet_another_config_lib_v3",
