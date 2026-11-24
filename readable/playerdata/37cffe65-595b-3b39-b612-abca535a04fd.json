@@ -1,5 +1,22 @@
 {
- "AbsorptionAmount": 2.0,
+ "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 448,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -21,6 +38,10 @@
   {
    "Base": 3.0,
    "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -72,6 +93,18 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -1288,7 +1321,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 0.0,
+    "skill_point": 5.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -4772,14 +4805,14 @@
   },
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2477846,
-  "ua_shiny_last_x": -2.0556,
+  "ua_shiny_last_active": 2483846,
+  "ua_shiny_last_x": -9.2701,
   "ua_shiny_last_y": 3.0,
-  "ua_shiny_last_z": 0.8505,
-  "ua_tabi_last_dash": 2477828
+  "ua_shiny_last_z": -1.6989,
+  "ua_tabi_last_dash": 2483710
  },
- "Health": 44.0,
- "HurtByTimestamp": 0,
+ "Health": 47.3526,
+ "HurtByTimestamp": 815,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4846,7 +4879,7 @@
    "id": "minecraft:experience_bottle"
   },
   {
-   "Count": 49,
+   "Count": 46,
    "Slot": 6,
    "id": "minecraft:golden_carrot"
   },
@@ -5106,9 +5139,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -1,
+   2,
    3,
-   0
+   -8
   ]
  },
  "Motion": [
@@ -5119,13 +5152,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -2.0556,
+  -9.2701,
   3.0,
-  0.8505
+  -1.6989
  ],
  "Rotation": [
-  -89.4132,
-  -49.5082
+  -17.2624,
+  -27.0741
  ],
  "Score": 12267,
  "SelectedItemSlot": 0,
@@ -5156,7 +5189,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.216,
+ "foodExhaustionLevel": 2.742,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5167,7 +5200,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 13,
+  "mana": 84,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14657,7 +14690,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4856,
+  "ticks_since_last_warning": 8250,
   "warning_level": 0
  }
 }

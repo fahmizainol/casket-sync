@@ -1886,15 +1886,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "uniqueaccessories:fossil_shark_tooth"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "cataclysm:cursed_eye"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -4158,7 +4149,7 @@
      }
     },
     {
-     "amount": 411,
+     "amount": 412,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
