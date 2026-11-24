@@ -37,23 +37,6 @@
     "whitelisted": 0
    },
    {
-    "maxX": 149.0,
-    "maxY": 84.0,
-    "maxZ": -2875.0,
-    "minX": 144.0,
-    "minY": 75.0,
-    "minZ": -2880.0,
-    "type": "minecraft:ruined_portal",
-    "uuid": [
-     -203394687,
-     428755157,
-     -1886565357,
-     1698308505
-    ],
-    "uuid_str": "f3e07181-198e-48d5-8f8d-4c13653a2199",
-    "whitelisted": 0
-   },
-   {
     "maxX": 795.0,
     "maxY": 262.0,
     "maxZ": -359.0,
@@ -68,6 +51,23 @@
      1180261988
     ],
     "uuid_str": "92905581-97fb-471d-8fc4-c00946595e64",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 149.0,
+    "maxY": 84.0,
+    "maxZ": -2875.0,
+    "minX": 144.0,
+    "minY": 75.0,
+    "minZ": -2880.0,
+    "type": "minecraft:ruined_portal",
+    "uuid": [
+     -203394687,
+     428755157,
+     -1886565357,
+     1698308505
+    ],
+    "uuid_str": "f3e07181-198e-48d5-8f8d-4c13653a2199",
     "whitelisted": 0
    },
    {
@@ -1496,6 +1496,23 @@
      -1171842484
     ],
     "uuid_str": "a9340c3b-9960-4ee5-b447-02dfba271a4c",
+    "whitelisted": 0
+   },
+   {
+    "maxX": 244.0,
+    "maxY": 107.0,
+    "maxZ": 487.0,
+    "minX": 179.0,
+    "minY": 50.0,
+    "minZ": 391.0,
+    "type": "irons_spellbooks:evoker_fort",
+    "uuid": [
+     1379273373,
+     -205435533,
+     -1343986686,
+     -927909582
+    ],
+    "uuid_str": "52360a9d-f3c1-4d73-afe4-6402c8b13932",
     "whitelisted": 0
    },
    {
@@ -7515,6 +7532,23 @@
     ],
     "uuid_str": "e0b42ba4-18d8-4f9f-8a19-4ad0a1f1630b",
     "whitelisted": 1
+   },
+   {
+    "maxX": 60.0,
+    "maxY": 50.0,
+    "maxZ": 415.0,
+    "minX": 17.0,
+    "minY": 7.0,
+    "minZ": 372.0,
+    "type": "ati_structures:rotting_temple_underground",
+    "uuid": [
+     -818688641,
+     -317111062,
+     -1608512955,
+     -1065166020
+    ],
+    "uuid_str": "cf33cd7f-ed19-44ea-a020-0a45c082db3c",
+    "whitelisted": 0
    },
    {
     "maxX": -1875.0,

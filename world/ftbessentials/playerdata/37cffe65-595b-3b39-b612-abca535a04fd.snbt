@@ -6,8 +6,6 @@
 	last_seen: { dim: "tcrcore:sanctum", x: -209, y: 86, z: -190, time: 1795527613013L, xRot: 37.15402f, yRot: -7.63162f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "pbf1:sanctum_of_the_battle1", x: -11, y: 3, z: 13, time: 1795529349870L }
-		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795529351007L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: 1, y: 3, z: -4, time: 1795529361400L }
 		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795529399397L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: 8, y: 3, z: 4, time: 1795529422736L }
@@ -16,6 +14,8 @@
 		{ dim: "tcrcore:sanctum", x: -208, y: 85, z: -191, time: 1795529443651L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -2, y: 3, z: 6, time: 1795529457374L }
 		{ dim: "tcrcore:sanctum", x: -209, y: 85, z: -191, time: 1795529468670L }
+		{ dim: "minecraft:overworld", x: 258, y: 63, z: -1773, time: 1795531002307L }
+		{ dim: "epicfight_arachne:arachne_nest", x: 228, y: 27, z: 282, time: 1795531175410L }
 	]
 	homes: { }
 	kit_use_times: { }

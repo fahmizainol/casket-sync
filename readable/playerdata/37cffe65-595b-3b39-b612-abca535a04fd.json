@@ -541,10 +541,13 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_dodge",
+   "GUARD": "efn:efn_parry"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_dodge",
-   "guard": "efn:efn_parry",
+   "dodge": "efn:murasama_dodge",
+   "guard": "efn:murasama_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge",
     "1": "efn:murasama_dodge"
@@ -1480,6 +1483,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 0,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4788,10 +4793,10 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:withered_heart": 1
   },
-  "ua_rs_active_until": 2326895,
+  "ua_rs_active_until": 2354484,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2326939
+  "ua_tabi_last_dash": 2354617
  },
  "Health": 32.3091,
  "HurtByTimestamp": 403,
@@ -5084,16 +5089,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  256.2396,
-  66.0,
-  -1767.03
+  251.454,
+  66.5625,
+  -1764.8116
  ],
  "Rotation": [
-  -22.5848,
-  -10.3859
+  111.0201,
+  0.0
  ],
  "Score": 12143,
- "SelectedItemSlot": 5,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "tcrcore:sanctum",
@@ -5121,7 +5126,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.395,
+ "foodExhaustionLevel": 3.761,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14622,7 +14627,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10712,
+  "ticks_since_last_warning": 4711,
   "warning_level": 0
  }
 }
