@@ -244,7 +244,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1516999,
+  "DayTime": 1522999,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -427,26 +427,11 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795528788981,
+  "LastPlayed": 1795529088981,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "ActiveEffects": [
-    {
-     "Ambient": 1,
-     "Amplifier": 0,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 244,
-     "Id": 5,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:strength"
-    },
     {
      "Ambient": 0,
      "Amplifier": 2,
@@ -456,11 +441,26 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 19,
-     "Id": 1,
+     "Duration": 78,
+     "HiddenEffect": {
+      "Ambient": 1,
+      "Amplifier": 0,
+      "CurativeItems": [
+       {
+        "Count": 1,
+        "id": "minecraft:milk_bucket"
+       }
+      ],
+      "Duration": 258,
+      "Id": 5,
+      "ShowIcon": 1,
+      "ShowParticles": 0,
+      "forge:id": "minecraft:strength"
+     },
+     "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
-     "forge:id": "minecraft:speed"
+     "forge:id": "minecraft:strength"
     },
     {
      "Ambient": 1,
@@ -471,15 +471,34 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 244,
+     "Duration": 248,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 7,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 578,
+     "Id": 21,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:health_boost"
     }
    ],
    "Air": 300,
    "Attributes": [
+    {
+     "Base": 0.0,
+     "Name": "cataclysm:additional_critical_damage"
+    },
     {
      "Base": 0.0,
      "Name": "minecraft:generic.luck"
@@ -560,20 +579,6 @@
     },
     {
      "Base": 0.1,
-     "Modifiers": [
-      {
-       "Amount": 0.6,
-       "Name": "effect.minecraft.speed 2",
-       "Operation": 2,
-       "UUID": [
-        -1850824106,
-        929776792,
-        -1822740609,
-        1745290805
-       ],
-       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-      }
-     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -610,6 +615,18 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      },
+      {
+       "Amount": 32.0,
+       "Name": "effect.minecraft.health_boost 7",
+       "Operation": 0,
+       "UUID": [
+        1567558562,
+        294012588,
+        -1198078436,
+        1559140812
+       ],
+       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -648,8 +665,8 @@
        "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
       },
       {
-       "Amount": 3.0,
-       "Name": "effect.minecraft.strength 0",
+       "Amount": 9.0,
+       "Name": "effect.minecraft.strength 2",
        "Operation": 0,
        "UUID": [
         1686990948,
@@ -675,7 +692,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "pbf1:sanctum_of_the_battle1",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -956,7 +973,7 @@
           {
            "Count": 1,
            "Slot": 0,
-           "id": "artifacts:cloud_in_a_bottle"
+           "id": "uniqueaccessories:black_belt"
           }
          ],
          "Size": 1
@@ -1828,7 +1845,7 @@
       "dual_annihilator_lock": 1,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 0,
+      "is_lock_on": 1,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 1,
@@ -4746,14 +4763,18 @@
      "vehicles": []
     },
     "last_send_time": 0,
+    "quark:trying_crawl": 0,
     "ua_accessory_types_seen": {
+     "uniqueaccessories:black_belt": 1,
      "uniqueaccessories:shiny_stone": 1
     },
+    "ua_mn_tabi_last_dash": 2315601,
+    "ua_rs_active_until": 2315534,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 34.0,
-   "HurtByTimestamp": 0,
+   "Health": 66.0,
+   "HurtByTimestamp": 6208,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -5057,6 +5078,11 @@
     },
     {
      "Count": 1,
+     "Slot": 24,
+     "id": "artifacts:cloud_in_a_bottle"
+    },
+    {
+     "Count": 1,
      "Slot": 29,
      "id": "efn:yamato_dmc_in_sheath",
      "tag": {
@@ -5261,13 +5287,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    209.5409,
-    73.0,
-    -672.4534
+    16.6138,
+    3.0,
+    -5.2686
    ],
    "Rotation": [
-    120.2912,
-    32.5118
+    92.2583,
+    -1.5232
    ],
    "Score": 27850,
    "SelectedItemSlot": 0,
@@ -5292,7 +5318,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 0.0,
+   "foodExhaustionLevel": 0.008,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5303,7 +5329,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 52,
+    "mana": 125,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15615,7 +15641,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 9106,
+    "ticks_since_last_warning": 3105,
     "warning_level": 0
    }
   },
@@ -15627,7 +15653,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2309846,
+  "Time": 2315846,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15635,7 +15661,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 6000,
+  "WanderingTraderSpawnDelay": 0,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16323,9 +16349,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 104904,
+  "rainTime": 98904,
   "raining": 0,
-  "thunderTime": 38530,
+  "thunderTime": 32530,
   "thundering": 0,
   "version": 19133
  },
