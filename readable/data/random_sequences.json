@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/ghast": {
    "source": [
-    -5305738216498912225,
-    7307115248764549751
+    3325174670751867604,
+    -7632803232251419942
    ]
   },
   "artifacts:entity_equipment/husk": {
@@ -165,8 +165,8 @@
   },
   "artifacts:entity_equipment/piglin": {
    "source": [
-    -7798229990996929158,
-    -4222301381523669654
+    5234110447638767337,
+    591857227184665903
    ]
   },
   "artifacts:entity_equipment/skeleton": {
@@ -189,8 +189,8 @@
   },
   "artifacts:entity_equipment/zombified_piglin": {
    "source": [
-    -7440374387653567102,
-    5366964489594891568
+    -5721794872558499641,
+    8234944690013708956
    ]
   },
   "ba_bt:blocks/active_corrite_block": {
@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -5477461660322340914,
-    2404894699208721275
+    5507604032023534371,
+    7653687280863275925
    ]
   },
   "minecraft:entities/pufferfish": {

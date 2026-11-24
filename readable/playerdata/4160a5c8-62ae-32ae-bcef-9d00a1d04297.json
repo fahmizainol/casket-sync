@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 87,
+   "Duration": 92,
    "HiddenEffect": {
     "Ambient": 1,
     "Amplifier": 0,
@@ -40,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 242,
+   "Duration": 245,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -55,7 +55,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 47,
+   "Duration": 52,
    "Id": 11,
    "ShowIcon": 0,
    "ShowParticles": 0,
@@ -70,7 +70,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 47,
+   "Duration": 52,
    "Id": 3,
    "ShowIcon": 0,
    "ShowParticles": 0,
@@ -85,7 +85,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 587,
+   "Duration": 592,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -100,7 +100,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 47,
+   "Duration": 52,
    "Id": 150,
    "ShowIcon": 0,
    "ShowParticles": 0,
@@ -142,10 +142,6 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 0.05,
@@ -318,6 +314,10 @@
   {
    "Base": 100.0,
    "Name": "irons_spellbooks:max_mana"
+  },
+  {
+   "Base": 1.5,
+   "Name": "attributeslib:crit_damage"
   }
  ],
  "BalmData": {},
@@ -688,7 +688,7 @@
         {
          "Count": 1,
          "Slot": 1,
-         "id": "uniqueaccessories:still_beating_heart"
+         "id": "uniqueaccessories:devils_eyeball"
         },
         {
          "Count": 1,
@@ -1483,7 +1483,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 5.0,
+    "skill_point": 0.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -4407,16 +4407,17 @@
   },
   "last_send_time": 0,
   "ua_accessory_types_seen": {
-   "uniqueaccessories:fossil_shark_tooth": 1
+   "uniqueaccessories:fossil_shark_tooth": 1,
+   "uniqueaccessories:still_beating_heart": 1
   },
-  "ua_mn_tabi_last_dash": 2483548,
-  "ua_rs_active_until": 2483554,
+  "ua_mn_tabi_last_dash": 2489436,
+  "ua_rs_active_until": 2489444,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 58.0429,
- "HurtByTimestamp": 2164,
- "HurtTime": 0,
+ "Health": 66.0,
+ "HurtByTimestamp": 1713,
+ "HurtTime": 2,
  "Inventory": [
   {
    "Count": 1,
@@ -4615,9 +4616,63 @@
    }
   },
   {
+   "Count": 9,
+   "Slot": 10,
+   "id": "minecraft:crying_obsidian"
+  },
+  {
    "Count": 1,
    "Slot": 11,
    "id": "uniqueaccessories:fossil_shark_tooth"
+  },
+  {
+   "Count": 2,
+   "Slot": 12,
+   "id": "irons_spellbooks:arcane_essence"
+  },
+  {
+   "Count": 1,
+   "Slot": 13,
+   "id": "irons_spellbooks:invisibility_ring"
+  },
+  {
+   "Count": 1,
+   "Slot": 14,
+   "id": "minecraft:netherite_upgrade_smithing_template"
+  },
+  {
+   "Count": 5,
+   "Slot": 15,
+   "id": "minecraft:magma_cream"
+  },
+  {
+   "Count": 1,
+   "Slot": 16,
+   "id": "minecraft:snout_armor_trim_smithing_template"
+  },
+  {
+   "Count": 1,
+   "Slot": 17,
+   "id": "minecraft:diamond_helmet",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:thorns",
+      "lvl": 3
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 18,
+   "id": "uniqueaccessories:still_beating_heart"
+  },
+  {
+   "Count": 9,
+   "Slot": 19,
+   "id": "minecraft:iron_ingot"
   },
   {
    "Count": 1,
@@ -4682,9 +4737,42 @@
    }
   },
   {
+   "Count": 1,
+   "Slot": 23,
+   "id": "uniqueaccessories:accessory_box"
+  },
+  {
+   "Count": 1,
+   "Slot": 24,
+   "id": "minecraft:diamond_boots",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:blast_protection",
+      "lvl": 3
+     }
+    ]
+   }
+  },
+  {
    "Count": 48,
    "Slot": 25,
    "id": "cataclysm:cursium_ingot"
+  },
+  {
+   "Count": 1,
+   "Slot": 26,
+   "id": "minecraft:diamond_sword",
+   "tag": {
+    "Damage": 0,
+    "Enchantments": [
+     {
+      "id": "minecraft:fire_aspect",
+      "lvl": 1
+     }
+    ]
+   }
   },
   {
    "Count": 1,
@@ -4869,29 +4957,29 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -5,
+   -8,
    3,
-   -5
+   10
   ]
  },
  "Motion": [
-  0.0,
-  -0.0784,
-  0.0
+  -0.0042,
+  0.003,
+  -0.0019
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -4.4145,
+  -10.2327,
   3.0,
-  6.0227
+  -1.1501
  ],
  "Rotation": [
-  142.1415,
-  10.7027
+  -69.3795,
+  7.5774
  ],
  "Score": 28045,
- "SelectedItemSlot": 2,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -162.2617,
  "SpawnDimension": "minecraft:overworld",
@@ -4919,17 +5007,17 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.416,
+ "foodExhaustionLevel": 3.323,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 5,
+ "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
   "cooldowns": [
    {
-    "cdr": 251,
+    "cdr": 1062,
     "id": "irons_spellbooks:haste",
     "scd": 3200
    }
@@ -15246,7 +15334,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6085,
+  "ticks_since_last_warning": 11982,
   "warning_level": 0
  }
 }
