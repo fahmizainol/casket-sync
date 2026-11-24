@@ -2,30 +2,15 @@
  "AbsorptionAmount": 0.0,
  "ActiveEffects": [
   {
-   "Ambient": 0,
-   "Amplifier": 2,
+   "Ambient": 1,
+   "Amplifier": 0,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 71,
-   "HiddenEffect": {
-    "Ambient": 1,
-    "Amplifier": 0,
-    "CurativeItems": [
-     {
-      "Count": 1,
-      "id": "minecraft:milk_bucket"
-     }
-    ],
-    "Duration": 258,
-    "Id": 5,
-    "ShowIcon": 1,
-    "ShowParticles": 0,
-    "forge:id": "minecraft:strength"
-   },
+   "Duration": 247,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,56 +25,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 256,
+   "Duration": 252,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 54,
-   "Id": 140,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "efn:sin_stun_immunity"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 571,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 44,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 294,
-   "Id": 168,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "efn:attack_damage_increase"
   }
  ],
  "Air": 300,
@@ -113,10 +53,6 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 0.05,
@@ -218,18 +154,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -268,8 +192,8 @@
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
     },
     {
-     "Amount": 9.0,
-     "Name": "effect.minecraft.strength 2",
+     "Amount": 3.0,
+     "Name": "effect.minecraft.strength 0",
      "Operation": 0,
      "UUID": [
       1686990948,
@@ -278,18 +202,6 @@
       980277161
      ],
      "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
-    },
-    {
-     "Amount": 0.45,
-     "Name": "effect.efn.attack_damage_increase 44",
-     "Operation": 2,
-     "UUID": [
-      -1050241046,
-      879773900,
-      -1639273240,
-      1226533677
-     ],
-     "UUID_str": "c16697ea-3470-48cc-9e4a-ace8491b6b2d"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -307,7 +219,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1460,7 +1372,7 @@
     "dual_annihilator_lock": 1,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 1,
@@ -4378,16 +4290,13 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_accessory_types_seen": {
-   "uniqueaccessories:black_belt": 1
-  },
-  "ua_mn_tabi_last_dash": 2363320,
-  "ua_rs_active_until": 2361986,
+  "ua_mn_tabi_last_dash": 2368951,
+  "ua_rs_active_until": 2368959,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 66.0,
- "HurtByTimestamp": 0,
+ "Health": 34.0,
+ "HurtByTimestamp": 2078,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4760,9 +4669,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   12,
-   3,
-   31
+   -6,
+   4,
+   6
   ]
  },
  "Motion": [
@@ -4773,13 +4682,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -6.7147,
-  3.0,
-  -4.1177
+  82.06,
+  73.0,
+  -135.3574
  ],
  "Rotation": [
-  87.6035,
-  -13.2483
+  1.4562,
+  30.304
  ],
  "Score": 27863,
  "SelectedItemSlot": 0,
@@ -4810,7 +4719,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.247,
+ "foodExhaustionLevel": 2.646,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15130,7 +15039,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2270,
+  "ticks_since_last_warning": 8040,
   "warning_level": 0
  }
 }
