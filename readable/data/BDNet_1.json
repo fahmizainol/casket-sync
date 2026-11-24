@@ -4149,7 +4149,7 @@
      }
     },
     {
-     "amount": 414,
+     "amount": 415,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -6137,15 +6137,6 @@
      "key": {
       "stack": {
        "item": "tudigong:tudi_command_spell"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "uniqueaccessories:bloody_knife"
       },
       "type": "beyonddimensions:stack_type/item"
      }

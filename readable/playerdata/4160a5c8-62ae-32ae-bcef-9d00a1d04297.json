@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 97,
+   "Duration": 93,
    "HiddenEffect": {
     "Ambient": 1,
     "Amplifier": 0,
@@ -33,18 +33,18 @@
   },
   {
    "Ambient": 0,
-   "Amplifier": 1,
+   "Amplifier": 23,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 48,
-   "Id": 171,
+   "Duration": 8,
+   "Id": 40,
    "ShowIcon": 1,
    "ShowParticles": 1,
-   "forge:id": "p1nero_ec:soul_incinerator"
+   "forge:id": "attributeslib:bleeding"
   },
   {
    "Ambient": 1,
@@ -55,41 +55,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 251,
+   "Duration": 240,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 48,
-   "Id": 3,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "minecraft:haste"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 52,
-   "Id": 101,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "cataclysm:curse_of_desert"
   },
   {
    "Ambient": 0,
@@ -100,7 +70,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 597,
+   "Duration": 593,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -119,20 +89,6 @@
   },
   {
    "Base": 4.0,
-   "Modifiers": [
-    {
-     "Amount": 0.2,
-     "Name": "effect.minecraft.haste 1",
-     "Operation": 2,
-     "UUID": [
-      -1349816769,
-      858278922,
-      -1439278174,
-      -1147289869
-     ],
-     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
-    }
-   ],
    "Name": "epicfight:offhand_attack_speed"
   },
   {
@@ -265,18 +221,6 @@
       1821068796
      ],
      "UUID_str": "9f08b24d-a700-4515-91d2-d32f6c8b4dfc"
-    },
-    {
-     "Amount": 0.2,
-     "Name": "effect.minecraft.haste 1",
-     "Operation": 2,
-     "UUID": [
-      -1349816769,
-      858278922,
-      -1439278174,
-      -1147289869
-     ],
-     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
     }
    ],
    "Name": "minecraft:generic.attack_speed"
@@ -692,7 +636,7 @@
         {
          "Count": 1,
          "Slot": 1,
-         "id": "uniqueaccessories:devils_eyeball"
+         "id": "uniqueaccessories:bloody_knife"
         },
         {
          "Count": 1,
@@ -728,6 +672,7 @@
     "10": "efn:precise_parry",
     "11": "dodge_parry_reward:heal4",
     "12": "dodge_parry_reward:health_boost3",
+    "13": "wom:mindset",
     "2": "epicfight:emergency_escape",
     "3": "dodge_parry_reward:stamina1",
     "4": "dodge_parry_reward:heal3",
@@ -742,7 +687,7 @@
    },
    "passive1": "dodge_parry_reward:health_boost4",
    "passive2": "dodge_parry_reward:heal4",
-   "passive3": "epicfight:emergency_escape",
+   "passive3": "wom:mindset",
    "passive4": "epicfight:bonebreaker",
    "passive5": "efn:precise_parry",
    "passive6": "dodge_parry_reward:damage_boost4",
@@ -772,7 +717,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 9,
+   "abilityPoint": 1,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -1169,11 +1114,11 @@
           "children": [
            {
             "name": "wom:adrenaline",
-            "state": "locked"
+            "state": "unlockable"
            },
            {
             "name": "wom:heart_shield",
-            "state": "locked"
+            "state": "unlockable"
            },
            {
             "children": [
@@ -1197,11 +1142,11 @@
              }
             ],
             "name": "wom:meditation",
-            "state": "locked"
+            "state": "unlockable"
            }
           ],
           "name": "wom:mindset",
-          "state": "locked"
+          "state": "unlocked"
          },
          {
           "children": [
@@ -1249,11 +1194,11 @@
          }
         ],
         "name": "wom:latent_retribution",
-        "state": "locked"
+        "state": "unlocked"
        }
       ],
       "name": "wom:pain_anticipation",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "children": [
@@ -4411,17 +4356,19 @@
   },
   "last_send_time": 0,
   "ua_accessory_types_seen": {
+   "uniqueaccessories:bloody_knife": 1,
+   "uniqueaccessories:devils_eyeball": 1,
    "uniqueaccessories:fossil_shark_tooth": 1,
    "uniqueaccessories:still_beating_heart": 1
   },
-  "ua_mn_tabi_last_dash": 2495514,
-  "ua_rs_active_until": 2495529,
+  "ua_mn_tabi_last_dash": 2501435,
+  "ua_rs_active_until": 2501451,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 66.0,
- "HurtByTimestamp": 1349,
- "HurtTime": 7,
+ "Health": 46.616,
+ "HurtByTimestamp": 3912,
+ "HurtTime": 3,
  "Inventory": [
   {
    "Count": 1,
@@ -4637,7 +4584,7 @@
   {
    "Count": 1,
    "Slot": 13,
-   "id": "irons_spellbooks:invisibility_ring"
+   "id": "uniqueaccessories:devils_eyeball"
   },
   {
    "Count": 1,
@@ -4777,6 +4724,11 @@
      }
     ]
    }
+  },
+  {
+   "Count": 1,
+   "Slot": 27,
+   "id": "irons_spellbooks:invisibility_ring"
   },
   {
    "Count": 1,
@@ -4961,26 +4913,26 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -3,
+   -18,
    3,
-   1
+   -6
   ]
  },
  "Motion": [
   0.0,
   -0.0784,
-  0.0065
+  0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -0.9879,
+  18.8505,
   3.0,
-  6.485
+  -8.5321
  ],
  "Rotation": [
-  175.8837,
-  -19.3212
+  -154.14,
+  -17.5159
  ],
  "Score": 28045,
  "SelectedItemSlot": 2,
@@ -5011,21 +4963,14 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.333,
+ "foodExhaustionLevel": 1.758,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 2,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
-  "cooldowns": [
-   {
-    "cdr": 309,
-    "id": "irons_spellbooks:haste",
-    "scd": 3200
-   }
-  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
@@ -15338,7 +15283,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5612,
+  "ticks_since_last_warning": 11309,
   "warning_level": 0
  }
 }
