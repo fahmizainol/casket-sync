@@ -244,7 +244,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1582999,
+  "DayTime": 1588999,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -427,7 +427,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795532091032,
+  "LastPlayed": 1795532391044,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -441,7 +441,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 247,
+     "Duration": 251,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -456,7 +456,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 247,
+     "Duration": 251,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -568,6 +568,10 @@
      "Name": "epicfight:max_strikes"
     },
     {
+     "Base": 1.0,
+     "Name": "forge:swim_speed"
+    },
+    {
      "Base": 0.0,
      "Name": "minecraft:generic.knockback_resistance"
     },
@@ -654,7 +658,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "tcrcore:sanctum",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -1068,7 +1072,7 @@
      "passive4": "epicfight:bonebreaker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:damage_boost4",
-     "playerMode": "EPICFIGHT",
+     "playerMode": "VANILLA",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -4725,11 +4729,12 @@
      "vehicles": []
     },
     "last_send_time": 0,
+    "quark:trying_crawl": 0,
     "ua_accessory_types_seen": {
      "uniqueaccessories:bloody_knife": 1
     },
-    "ua_mn_tabi_last_dash": 2375528,
-    "ua_rs_active_until": 2375573,
+    "ua_mn_tabi_last_dash": 2381388,
+    "ua_rs_active_until": 2381748,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
@@ -4952,6 +4957,11 @@
     },
     {
      "Count": 1,
+     "Slot": 20,
+     "id": "alexsmobs:flying_fish"
+    },
+    {
+     "Count": 1,
      "Slot": 30,
      "id": "uniqueaccessories:bloody_knife"
     },
@@ -5125,13 +5135,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    256.3,
-    63.0,
-    -1771.3627
+    -112.0777,
+    79.0,
+    -126.846
    ],
    "Rotation": [
-    -89.2841,
-    29.9007
+    82.7226,
+    0.4949
    ],
    "Score": 27863,
    "SelectedItemSlot": 0,
@@ -5162,7 +5172,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 0.657,
+   "foodExhaustionLevel": 3.1649,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15482,7 +15492,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 1854,
+    "ticks_since_last_warning": 7854,
     "warning_level": 0
    }
   },
@@ -15494,7 +15504,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2375846,
+  "Time": 2381846,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15502,7 +15512,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 12000,
+  "WanderingTraderSpawnDelay": 6000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16190,9 +16200,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 38904,
+  "rainTime": 32904,
   "raining": 0,
-  "thunderTime": 17880,
+  "thunderTime": 11880,
   "thundering": 0,
   "version": 19133
  },
