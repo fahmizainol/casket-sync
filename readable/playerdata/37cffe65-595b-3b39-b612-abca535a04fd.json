@@ -1,22 +1,5 @@
 {
- "AbsorptionAmount": 16.1304,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 511,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
+ "AbsorptionAmount": 3.0,
  "Air": 300,
  "Attributes": [
   {
@@ -38,10 +21,6 @@
   {
    "Base": 3.0,
    "Name": "forge:entity_reach"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -93,18 +72,6 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -1321,7 +1288,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 1.0,
+    "skill_point": 0.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -4805,14 +4772,13 @@
   },
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2465843,
-  "ua_shiny_last_x": -3.9189,
+  "ua_shiny_last_active": 2471845,
+  "ua_shiny_last_x": -4.5873,
   "ua_shiny_last_y": 3.0,
-  "ua_shiny_last_z": -10.2435,
-  "ua_tabi_last_dash": 2465325
+  "ua_shiny_last_z": -0.1577
  },
- "Health": 76.0,
- "HurtByTimestamp": 1276,
+ "Health": 44.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4879,9 +4845,9 @@
    "id": "minecraft:experience_bottle"
   },
   {
-   "Count": 1,
+   "Count": 49,
    "Slot": 6,
-   "id": "cataclysm:void_eye"
+   "id": "minecraft:golden_carrot"
   },
   {
    "Count": 12,
@@ -5100,9 +5066,9 @@
    "id": "uniqueaccessories:still_beating_heart"
   },
   {
-   "Count": 49,
+   "Count": 1,
    "Slot": 33,
-   "id": "minecraft:golden_carrot"
+   "id": "cataclysm:void_eye"
   },
   {
    "Count": 11,
@@ -5139,9 +5105,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   2,
+   4,
    3,
-   9
+   -1
   ]
  },
  "Motion": [
@@ -5152,13 +5118,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -3.9219,
+  -4.5703,
   3.0,
-  -10.2435
+  -0.1587
  ],
  "Rotation": [
-  -10.9684,
-  -33.8991
+  42.6091,
+  -38.4175
  ],
  "Score": 12267,
  "SelectedItemSlot": 0,
@@ -5189,7 +5155,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.503,
+ "foodExhaustionLevel": 0.4,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5200,7 +5166,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 16,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14690,7 +14656,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6905,
+  "ticks_since_last_warning": 67,
   "warning_level": 0
  }
 }
