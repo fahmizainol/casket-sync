@@ -80,6 +80,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2026-11-15 14:27:07 +0800",
+      "minecraft:taiga": "2026-11-24 23:16:40 +0800",
       "minecraft:deep_ocean": "2026-11-14 14:24:30 +0800",
       "minecraft:sunflower_plains": "2026-11-23 22:35:47 +0800",
       "minecraft:birch_forest": "2026-11-14 15:56:03 +0800",

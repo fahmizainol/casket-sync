@@ -1,22 +1,5 @@
 {
- "AbsorptionAmount": 5.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 95,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
+ "AbsorptionAmount": 20.0,
  "Air": 300,
  "Attributes": [
   {
@@ -155,18 +138,6 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -202,7 +173,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -567,13 +538,10 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge",
-   "GUARD": "efn:efn_parry"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:murasama_dodge",
-   "guard": "efn:murasama_parry",
+   "dodge": "efn:efn_dodge",
+   "guard": "efn:efn_parry",
    "learned:dodge": {
     "0": "efn:efn_dodge",
     "1": "efn:murasama_dodge"
@@ -629,7 +597,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 0,
+   "abilityPoint": 1,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -685,7 +653,7 @@
      },
      {
       "name": "tcrcore:fire_avoid",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "children": [
@@ -939,7 +907,7 @@
        }
       ],
       "name": "efs_iss:mana_shield",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "children": [
@@ -1281,8 +1249,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 256,
-   "currentLogicNodeId": 256
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 231
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1339,13 +1307,13 @@
    "customDataManager": {
     "astrape_lock": 1,
     "ceraunus_lock": 1,
-    "dual_annihilator_lock": 1,
+    "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
-    "soul_render_lock": 1,
+    "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
     "wrath_of_the_desert_lock": 1
@@ -1393,6 +1361,7 @@
     "isAllHumanoidKilledisLocked": 0,
     "locked": 1,
     "lockedisLocked": 0,
+    "maledictusHumanoidKilled": 1,
     "mechEyeActivated": 1,
     "mech_eye_gotten": 1,
     "monstEyeBlessed": 1,
@@ -1509,6 +1478,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 8,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4816,18 +4787,20 @@
   "last_send_time": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:black_belt": 1,
+   "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:still_beating_heart": 1,
    "uniqueaccessories:withered_heart": 1
   },
+  "ua_rs_active_until": 2404694,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2399845,
-  "ua_shiny_last_x": 27.0191,
-  "ua_shiny_last_y": 3.0,
-  "ua_shiny_last_z": 8.1747,
+  "ua_shiny_last_active": 2405845,
+  "ua_shiny_last_x": -1091.2375,
+  "ua_shiny_last_y": 121.0,
+  "ua_shiny_last_z": -3451.6924,
   "ua_tabi_last_dash": 2399608
  },
- "Health": 60.6646,
+ "Health": 44.0,
  "HurtByTimestamp": 2344,
  "HurtTime": 0,
  "Inventory": [
@@ -4927,9 +4900,9 @@
    "id": "tcrcore:retracement_stone"
   },
   {
-   "Count": 49,
+   "Count": 12,
    "Slot": 7,
-   "id": "minecraft:golden_carrot"
+   "id": "minecraft:string"
   },
   {
    "Count": 1,
@@ -5081,6 +5054,26 @@
    "id": "artifacts:feral_claws"
   },
   {
+   "Count": 6,
+   "Slot": 25,
+   "id": "minecraft:spider_eye"
+  },
+  {
+   "Count": 2,
+   "Slot": 26,
+   "id": "tcrcore:soul_fragment"
+  },
+  {
+   "Count": 1,
+   "Slot": 27,
+   "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
+   "Count": 2,
+   "Slot": 28,
+   "id": "minecraft:bone"
+  },
+  {
    "Count": 1,
    "Slot": 29,
    "id": "uniqueaccessories:black_belt"
@@ -5091,9 +5084,19 @@
    "id": "uniqueaccessories:still_beating_heart"
   },
   {
+   "Count": 49,
+   "Slot": 33,
+   "id": "minecraft:golden_carrot"
+  },
+  {
    "Count": 11,
    "Slot": 34,
    "id": "cataclysm:koboleton_bone"
+  },
+  {
+   "Count": 1,
+   "Slot": 35,
+   "id": "uniqueaccessories:rose_of_temptation"
   },
   {
    "Count": 1,
@@ -5133,16 +5136,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  27.0206,
-  3.0,
-  8.181
+  -1091.2375,
+  121.0,
+  -3451.6893
  ],
  "Rotation": [
-  -32.5575,
-  -17.3536
+  -78.9393,
+  24.4444
  ],
- "Score": 12143,
- "SelectedItemSlot": 0,
+ "Score": 12206,
+ "SelectedItemSlot": 5,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "tcrcore:sanctum",
@@ -5157,10 +5160,10 @@
   1398408445
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
- "XpLevel": 64,
- "XpP": 0.9282,
+ "XpLevel": 65,
+ "XpP": 0.0773,
  "XpSeed": -736053570,
- "XpTotal": 12143,
+ "XpTotal": 12206,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5170,7 +5173,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.4,
+ "foodExhaustionLevel": 0.143,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14671,7 +14674,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8526,
+  "ticks_since_last_warning": 2525,
   "warning_level": 0
  }
 }

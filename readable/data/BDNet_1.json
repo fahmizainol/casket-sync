@@ -1278,6 +1278,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "aether:white_cape"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 9,
      "key": {
       "stack": {
@@ -1813,6 +1822,15 @@
      }
     },
     {
+     "amount": 54,
+     "key": {
+      "stack": {
+       "item": "aether:holystone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 8,
      "key": {
       "stack": {
@@ -1903,6 +1921,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:rare_artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2028,7 +2055,7 @@
      }
     },
     {
-     "amount": 7,
+     "amount": 19,
      "key": {
       "stack": {
        "item": "minecraft:ghast_tear"
@@ -2441,7 +2468,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "tcrcore:magic_bottle",
@@ -2590,7 +2617,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "alexsmobs:flying_fish"
@@ -2740,6 +2767,15 @@
      "key": {
       "stack": {
        "item": "tcrcore:dual_bokken"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 30,
+     "key": {
+      "stack": {
+       "item": "minecraft:amethyst_shard"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3313,7 +3349,7 @@
      }
     },
     {
-     "amount": 13,
+     "amount": 18,
      "key": {
       "stack": {
        "item": "aether:enchanted_dart"
@@ -3701,7 +3737,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "lost_aether_content:crystal_sapling"
@@ -3844,7 +3880,7 @@
      }
     },
     {
-     "amount": 398,
+     "amount": 399,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4290,7 +4326,7 @@
      }
     },
     {
-     "amount": 50,
+     "amount": 68,
      "key": {
       "stack": {
        "item": "aether:cold_aercloud"
@@ -4773,7 +4809,7 @@
      }
     },
     {
-     "amount": 90,
+     "amount": 153,
      "key": {
       "stack": {
        "item": "minecraft:gold_ingot"
@@ -5037,6 +5073,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "lost_aether_content:brown_moa_egg"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 20,
      "key": {
       "stack": {
@@ -5202,6 +5247,18 @@
      }
     },
     {
+     "amount": 10,
+     "key": {
+      "stack": {
+       "item": "aether:white_apple",
+       "tag": {
+        "kusabimaru_sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -5272,6 +5329,18 @@
      "key": {
       "stack": {
        "item": "minecraft:crafting_table"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "epicfight_arachne:arachne_harp",
+       "tag": {
+        "fdbosses": {}
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5360,6 +5429,15 @@
      "key": {
       "stack": {
        "item": "minecraft:oak_slab"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 5,
+     "key": {
+      "stack": {
+       "item": "aether:zanite_gemstone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5653,10 +5731,55 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:soul_render",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         }
+        ],
+        "kusabimaru_sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "aether:aether_dirt"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
        "item": "tudigong:tudi_command_spell"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:bloody_knife"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5947,6 +6070,18 @@
      }
     },
     {
+     "amount": 64,
+     "key": {
+      "stack": {
+       "item": "minecraft:blackstone",
+       "tag": {
+        "kusabimaru_sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 44,
      "key": {
       "stack": {
@@ -6196,6 +6331,15 @@
      "key": {
       "stack": {
        "item": "minecraft:nautilus_shell"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "epicfight_arachne:arachne_egg"
       },
       "type": "beyonddimensions:stack_type/item"
      }

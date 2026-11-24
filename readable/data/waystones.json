@@ -1456,6 +1456,30 @@
    },
    {
     "BlockPos": {
+     "X": -1089,
+     "Y": 86,
+     "Z": -3449
+    },
+    "IsGlobal": 0,
+    "Name": "catacomb",
+    "Origin": "PLAYER",
+    "OwnerUid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "Type": "waystones:waystone",
+    "WaystoneUid": [
+     1669474177,
+     1096697696,
+     -1314424869,
+     1631371022
+    ],
+    "World": "minecraft:overworld"
+   },
+   {
+    "BlockPos": {
      "X": -379,
      "Y": 68,
      "Z": -1450

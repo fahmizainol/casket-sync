@@ -1,0 +1,126 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "minecraft:overworld",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 0,
+       "id": "minecraft:melon_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 1,
+       "id": "minecraft:beetroot_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:beetroot_seeds"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:iron_horse_armor"
+      },
+      {
+       "Count": 1,
+       "Slot": 8,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 9,
+       "id": "minecraft:bone"
+      },
+      {
+       "Count": 3,
+       "Slot": 11,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 12,
+       "id": "minecraft:melon_seeds"
+      },
+      {
+       "Count": 2,
+       "Slot": 17,
+       "id": "minecraft:gunpowder"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:rotten_flesh"
+      },
+      {
+       "Count": 1,
+       "Slot": 21,
+       "id": "minecraft:saddle"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:bread"
+      },
+      {
+       "Count": 2,
+       "Slot": 23,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 2,
+       "Slot": 25,
+       "id": "minecraft:coal"
+      },
+      {
+       "Count": 1,
+       "Slot": 26,
+       "id": "minecraft:rotten_flesh"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
+   }
+  ],
+  "key": "lootr/4/42/42fa041b-cae0-435f-a0af-a9ed2ec1e7c3",
+  "position": {
+   "X": -1093,
+   "Y": 107,
+   "Z": -3438
+  },
+  "size": 27,
+  "uuid": [
+   1123681307,
+   -891272353,
+   -1599100435,
+   784459715
+  ],
+  "uuid_str": "42fa041b-cae0-435f-a0af-a9ed2ec1e7c3"
+ }
+}

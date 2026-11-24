@@ -244,7 +244,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1606999,
+  "DayTime": 1612999,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -427,7 +427,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795533291018,
+  "LastPlayed": 1795533593773,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -441,7 +441,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 242,
+     "Duration": 246,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -456,26 +456,11 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 256,
+     "Duration": 241,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 7,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 370,
-     "Id": 21,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
     }
    ],
    "Air": 300,
@@ -608,18 +593,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 32.0,
-       "Name": "effect.minecraft.health_boost 7",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -689,7 +662,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "pbf1:sanctum_of_the_battle1",
+   "Dimension": "minecraft:overworld",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -970,7 +943,7 @@
           {
            "Count": 1,
            "Slot": 0,
-           "id": "uniqueaccessories:black_belt"
+           "id": "artifacts:cloud_in_a_bottle"
           }
          ],
          "Size": 1
@@ -1129,7 +1102,7 @@
      "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
     },
     "epicskills:ability_points": {
-     "abilityPoint": 5,
+     "abilityPoint": 9,
      "requiredExp": 7,
      "requiredExpLevel": 0
     },
@@ -1782,7 +1755,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 217
+     "currentLogicNodeId": 282
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1839,13 +1812,13 @@
      "customDataManager": {
       "astrape_lock": 1,
       "ceraunus_lock": 1,
-      "dual_annihilator_lock": 1,
+      "dual_annihilator_lock": 0,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
-      "soul_render_lock": 1,
+      "soul_render_lock": 0,
       "the_incinerator_lock": 1,
       "tidal_claw_lock": 1,
       "wrath_of_the_desert_lock": 1
@@ -1893,6 +1866,7 @@
       "isAllHumanoidKilledisLocked": 0,
       "locked": 1,
       "lockedisLocked": 0,
+      "maledictusHumanoidKilled": 1,
       "mechEyeActivated": 1,
       "mech_eye_gotten": 1,
       "monstEyeBlessed": 1,
@@ -2038,7 +2012,8 @@
         "3827dc2f-f181-4b77-a1d0-df3fbd609460",
         "43a42e6e-43ee-4d0f-9be3-d7414418b119",
         "346229d9-1e17-4fdb-a7cb-2c04d24a246c",
-        "a79c1667-da99-4be3-a177-d078d39c1bd4"
+        "a79c1667-da99-4be3-a177-d078d39c1bd4",
+        "63822781-415e-4760-b1a7-77db613cbf0e"
        ]
       }
      }
@@ -4760,18 +4735,19 @@
      "vehicles": []
     },
     "last_send_time": 0,
+    "quark:trying_crawl": 0,
     "ua_accessory_types_seen": {
+     "uniqueaccessories:black_belt": 1,
      "uniqueaccessories:bloody_knife": 1
     },
-    "ua_bb_dodge_until": 2399945,
-    "ua_mn_tabi_last_dash": 2399601,
-    "ua_rs_active_until": 2399437,
+    "ua_mn_tabi_last_dash": 2403646,
+    "ua_rs_active_until": 2405139,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 39.0145,
-   "HurtByTimestamp": 4302,
-   "HurtTime": 0,
+   "Health": 34.0,
+   "HurtByTimestamp": 10420,
+   "HurtTime": 1,
    "Inventory": [
     {
      "Count": 1,
@@ -4905,138 +4881,194 @@
      }
     },
     {
-     "Count": 14,
+     "Count": 13,
      "Slot": 6,
      "id": "waystones:waystone"
     },
     {
      "Count": 1,
      "Slot": 7,
-     "id": "artifacts:cloud_in_a_bottle"
+     "id": "uniqueaccessories:black_belt"
     },
     {
-     "Count": 1,
+     "Count": 4,
      "Slot": 8,
-     "id": "epicfight_arachne:arachne_harp",
-     "tag": {
-      "fdbosses": {}
-     }
+     "id": "minecraft:iron_bars"
     },
     {
-     "Count": 18,
+     "Count": 9,
      "Slot": 9,
-     "id": "aether:cold_aercloud"
+     "id": "minecraft:coal"
     },
     {
-     "Count": 1,
+     "Count": 14,
      "Slot": 10,
-     "id": "epicfight_arachne:arachne_egg"
+     "id": "irons_spellbooks:arcane_essence"
     },
     {
-     "Count": 5,
+     "Count": 39,
      "Slot": 11,
-     "id": "aether:zanite_gemstone"
+     "id": "minecraft:bone"
     },
     {
-     "Count": 1,
+     "Count": 3,
      "Slot": 12,
-     "id": "lost_aether_content:brown_moa_egg"
+     "id": "minecraft:name_tag"
     },
     {
-     "Count": 3,
+     "Count": 2,
      "Slot": 13,
-     "id": "lost_aether_content:crystal_sapling"
+     "id": "minecraft:bread"
+    },
+    {
+     "Count": 13,
+     "Slot": 14,
+     "id": "minecraft:string"
+    },
+    {
+     "Count": 2,
+     "Slot": 15,
+     "id": "minecraft:iron_door"
     },
     {
      "Count": 1,
-     "Slot": 14,
-     "id": "cataclysm:soul_render",
-     "tag": {
-      "Damage": 0,
-      "Enchantments": [
-       {
-        "id": "minecraft:sharpness",
-        "lvl": 5
-       },
-       {
-        "id": "minecraft:knockback",
-        "lvl": 2
-       },
-       {
-        "id": "minecraft:looting",
-        "lvl": 3
-       }
-      ],
-      "kusabimaru_sheath": 0
-     }
+     "Slot": 16,
+     "id": "minecraft:saddle"
+    },
+    {
+     "Count": 11,
+     "Slot": 17,
+     "id": "minecraft:rotten_flesh"
+    },
+    {
+     "Count": 10,
+     "Slot": 18,
+     "id": "minecraft:wheat"
     },
     {
      "Count": 3,
-     "Slot": 15,
-     "id": "aether:aether_dirt"
-    },
-    {
-     "Count": 54,
-     "Slot": 16,
-     "id": "aether:holystone"
-    },
-    {
-     "Count": 1,
-     "Slot": 17,
-     "id": "tcrcore:magic_bottle",
-     "tag": {
-      "fdbosses": {}
-     }
-    },
-    {
-     "Count": 5,
-     "Slot": 18,
-     "id": "aether:enchanted_dart"
-    },
-    {
-     "Count": 1,
      "Slot": 19,
-     "id": "aether:white_cape"
+     "id": "minecraft:melon_seeds"
     },
     {
      "Count": 1,
      "Slot": 20,
-     "id": "alexsmobs:flying_fish"
+     "id": "minecraft:enchanted_book",
+     "tag": {
+      "StoredEnchantments": [
+       {
+        "id": "minecraft:luck_of_the_sea",
+        "lvl": 2
+       }
+      ]
+     }
     },
     {
-     "Count": 30,
+     "Count": 1,
      "Slot": 21,
-     "id": "minecraft:amethyst_shard"
+     "id": "minecraft:music_disc_cat"
     },
     {
-     "Count": 63,
+     "Count": 14,
+     "Slot": 22,
+     "id": "minecraft:arrow"
+    },
+    {
+     "Count": 2,
      "Slot": 23,
-     "id": "minecraft:gold_ingot"
+     "id": "minecraft:beetroot_seeds"
+    },
+    {
+     "Count": 2,
+     "Slot": 24,
+     "id": "irons_spellbooks:common_ink"
+    },
+    {
+     "Count": 2,
+     "Slot": 25,
+     "id": "minecraft:spider_eye"
+    },
+    {
+     "Count": 1,
+     "Slot": 26,
+     "id": "bosses_of_mass_destruction:soul_star"
+    },
+    {
+     "Count": 1,
+     "Slot": 27,
+     "id": "minecraft:vex_armor_trim_smithing_template"
+    },
+    {
+     "Count": 3,
+     "Slot": 28,
+     "id": "minecraft:gunpowder"
+    },
+    {
+     "Count": 1,
+     "Slot": 29,
+     "id": "minecraft:bucket"
     },
     {
      "Count": 1,
      "Slot": 30,
-     "id": "uniqueaccessories:bloody_knife"
-    },
-    {
-     "Count": 10,
-     "Slot": 32,
-     "id": "aether:white_apple",
+     "id": "minecraft:diamond_hoe",
      "tag": {
-      "kusabimaru_sheath": 0
+      "Damage": 0
      }
     },
     {
-     "Count": 12,
-     "Slot": 33,
-     "id": "minecraft:ghast_tear"
+     "Count": 1,
+     "Slot": 31,
+     "id": "minecraft:enchanted_book",
+     "tag": {
+      "StoredEnchantments": [
+       {
+        "id": "minecraft:channeling",
+        "lvl": 1
+       }
+      ]
+     }
     },
     {
-     "Count": 64,
-     "Slot": 35,
-     "id": "minecraft:blackstone",
+     "Count": 1,
+     "Slot": 32,
+     "id": "domesticationinnovation:sinister_carrot"
+    },
+    {
+     "Count": 1,
+     "ForgeCaps": {
+      "Parent": {
+       "Items": [
+        {
+         "Count": 3,
+         "Slot": 0,
+         "id": "minecraft:tipped_arrow",
+         "tag": {
+          "Potion": "minecraft:slowness"
+         }
+        }
+       ],
+       "SelectedSlot": 0,
+       "Size": 6
+      }
+     },
+     "Slot": 33,
+     "id": "supplementaries:quiver"
+    },
+    {
+     "Count": 1,
+     "Slot": 34,
+     "id": "minecraft:golden_axe",
      "tag": {
-      "kusabimaru_sheath": 0
+      "Damage": 0
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 35,
+     "id": "minecraft:stone_axe",
+     "tag": {
+      "Damage": 0
      }
     },
     {
@@ -5188,16 +5220,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    20.8721,
-    3.0,
-    11.3137
+    -1092.0354,
+    121.0,
+    -3452.4103
    ],
    "Rotation": [
-    -101.7724,
-    -2.1669
+    -87.6943,
+    41.5335
    ],
-   "Score": 27863,
-   "SelectedItemSlot": 0,
+   "Score": 27919,
+   "SelectedItemSlot": 2,
    "SleepTimer": 0,
    "SpawnAngle": 0.0,
    "SpawnDimension": "minecraft:overworld",
@@ -5213,9 +5245,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 87,
-   "XpP": 0.712,
+   "XpP": 0.8016,
    "XpSeed": 976728483,
-   "XpTotal": 27863,
+   "XpTotal": 27919,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -5225,21 +5257,14 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.438,
+   "foodExhaustionLevel": 2.374,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
-   "foodTickTimer": 1,
+   "foodTickTimer": 0,
    "irons_spellbooks:magic_data": {
     "castingEquipmentSlot": "mainhand",
     "castingSpellId": "",
     "castingSpellLevel": 0,
-    "cooldowns": [
-     {
-      "cdr": 1483,
-      "id": "irons_spellbooks:haste",
-      "scd": 3200
-     }
-    ],
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
@@ -15552,7 +15577,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 10922,
+    "ticks_since_last_warning": 4919,
     "warning_level": 0
    }
   },
@@ -15564,7 +15589,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2399846,
+  "Time": 2405846,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15572,7 +15597,7 @@
    "Snapshot": 0
   },
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 12000,
+  "WanderingTraderSpawnDelay": 6000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16260,10 +16285,10 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 14904,
+  "rainTime": 8904,
   "raining": 0,
-  "thunderTime": 2036,
-  "thundering": 1,
+  "thunderTime": 43624,
+  "thundering": 0,
   "version": 19133
  },
  "fml": {

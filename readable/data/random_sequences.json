@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -6104309682001892497,
-    1041311972678848774
+    1177487617745572509,
+    -2807294715257747792
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    776918892463269194,
-    -9217713793828496827
+    4130110162088396999,
+    2935570062668761859
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -573,8 +573,8 @@
   },
   "minecraft:blocks/birch_leaves": {
    "source": [
-    5613298700850293859,
-    -812920264166484327
+    7128659102148738929,
+    1138798564286352459
    ]
   },
   "minecraft:blocks/birch_planks": {
@@ -975,8 +975,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    2307958345580108216,
-    7658063692231178225
+    5414050035961237791,
+    -2716546591438325896
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -1041,8 +1041,8 @@
   },
   "minecraft:blocks/grass": {
    "source": [
-    6004359841576475740,
-    4800136388848814385
+    6781058124740035101,
+    1038286422007163636
    ]
   },
   "minecraft:blocks/grass_block": {
@@ -1101,14 +1101,14 @@
   },
   "minecraft:blocks/iron_bars": {
    "source": [
-    4991629668062501019,
-    7892026050835740505
+    4091272596659040668,
+    829571519904968246
    ]
   },
   "minecraft:blocks/iron_door": {
    "source": [
-    -1838060142357914764,
-    -2166284910081411328
+    1177802365871173341,
+    -4673597424911270893
    ]
   },
   "minecraft:blocks/iron_ore": {
@@ -1227,8 +1227,8 @@
   },
   "minecraft:blocks/mossy_stone_bricks": {
    "source": [
-    -3768199394000757745,
-    -8017665681818376474
+    -4471122557469892203,
+    8209468034741498577
    ]
   },
   "minecraft:blocks/nether_brick_fence": {
@@ -1767,8 +1767,8 @@
   },
   "minecraft:blocks/spruce_leaves": {
    "source": [
-    2603807612448270228,
-    -503185034486050512
+    5670845050450508240,
+    -1717730686586268347
    ]
   },
   "minecraft:blocks/spruce_planks": {
@@ -1821,8 +1821,8 @@
   },
   "minecraft:blocks/stone_bricks": {
    "source": [
-    442716048584819635,
-    -7524155237244155287
+    9197091729808068956,
+    -5019656931743432652
    ]
   },
   "minecraft:blocks/stone_button": {
@@ -1947,8 +1947,8 @@
   },
   "minecraft:blocks/vine": {
    "source": [
-    -5639016611315444133,
-    6614344460733288530
+    -4324290178773050499,
+    -2164355838264929157
    ]
   },
   "minecraft:blocks/water_cauldron": {
@@ -1971,8 +1971,8 @@
   },
   "minecraft:blocks/wheat": {
    "source": [
-    2500763912453283508,
-    -8309946073313468754
+    974976171481120965,
+    6064586404293160486
    ]
   },
   "minecraft:blocks/white_banner": {
@@ -2091,8 +2091,8 @@
   },
   "minecraft:entities/glow_squid": {
    "source": [
-    -8811892368196870168,
-    -5664330385007315893
+    7333547932147543241,
+    -5358980818426557773
    ]
   },
   "minecraft:entities/guardian": {
@@ -2187,8 +2187,8 @@
   },
   "minecraft:entities/sheep/white": {
    "source": [
-    -2625399795141135062,
-    5776805167714590454
+    8256459256341609185,
+    -5658846006493395482
    ]
   },
   "minecraft:entities/silverfish": {
@@ -2199,8 +2199,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -2156210335880023444,
-    2750677185533759564
+    -4506076257075061986,
+    -606796507170108757
    ]
   },
   "minecraft:entities/skeleton_horse": {
@@ -2217,8 +2217,8 @@
   },
   "minecraft:entities/spider": {
    "source": [
-    -737452572373475638,
-    1949541898049050572
+    -8247726651384165327,
+    -252552115192668946
    ]
   },
   "minecraft:entities/squid": {
@@ -2235,8 +2235,8 @@
   },
   "minecraft:entities/villager": {
    "source": [
-    -1428012878847272686,
-    5348549259499477715
+    5912898016485006252,
+    -2556056701582488446
    ]
   },
   "minecraft:entities/vindicator": {
@@ -2271,8 +2271,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    8010776324174646097,
-    -8064392347834464296
+    6347131640809342811,
+    -260872384101945196
    ]
   },
   "minecraft:entities/zombie_villager": {
@@ -2303,6 +2303,12 @@
    "source": [
     5589171084802667258,
     5051018103616762450
+   ]
+  },
+  "tcr_bosses:entities/maledictus_humanoid": {
+   "source": [
+    850003322632422410,
+    7043860424803441545
    ]
   },
   "tcr_bosses:entities/valkyrie": {
