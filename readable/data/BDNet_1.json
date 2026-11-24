@@ -630,7 +630,7 @@
      }
     },
     {
-     "amount": 29,
+     "amount": 30,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
@@ -1411,6 +1411,23 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "alexsmobs:serpentfriend",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
@@ -1485,7 +1502,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "minecraft:music_disc_cat"
@@ -1790,6 +1807,28 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:smite",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "cataclysm:black_steel_wall"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -1880,7 +1919,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "minecraft:vex_armor_trim_smithing_template"
@@ -2104,7 +2143,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "fantasy_armor:moon_crystal"
@@ -2212,7 +2251,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "minecraft:music_disc_13"
@@ -2264,7 +2303,7 @@
      }
     },
     {
-     "amount": 126,
+     "amount": 132,
      "key": {
       "stack": {
        "item": "minecraft:gunpowder"
@@ -2657,7 +2696,7 @@
      }
     },
     {
-     "amount": 223,
+     "amount": 237,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -2896,7 +2935,7 @@
      }
     },
     {
-     "amount": 31,
+     "amount": 32,
      "key": {
       "stack": {
        "item": "minecraft:amethyst_shard"
@@ -3559,7 +3598,7 @@
      }
     },
     {
-     "amount": 266,
+     "amount": 270,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -3590,7 +3629,7 @@
      }
     },
     {
-     "amount": 210,
+     "amount": 223,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -3775,7 +3814,7 @@
      }
     },
     {
-     "amount": 107,
+     "amount": 108,
      "key": {
       "stack": {
        "item": "minecraft:bread"
@@ -4137,7 +4176,7 @@
      }
     },
     {
-     "amount": 400,
+     "amount": 401,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4185,7 +4224,29 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 1
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 4,
      "key": {
       "stack": {
        "item": "magistuarmory:rustedhalfarmor_chestplate",
@@ -4254,6 +4315,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:concentration_amulet"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -4293,7 +4363,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 5,
      "key": {
       "stack": {
        "item": "minecraft:diamond_hoe",
@@ -4335,7 +4405,7 @@
      }
     },
     {
-     "amount": 253,
+     "amount": 256,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -4841,7 +4911,7 @@
      }
     },
     {
-     "amount": 231,
+     "amount": 233,
      "key": {
       "stack": {
        "item": "minecraft:emerald"
@@ -5796,7 +5866,7 @@
      }
     },
     {
-     "amount": 50,
+     "amount": 56,
      "key": {
       "stack": {
        "item": "minecraft:diamond"
@@ -6342,7 +6412,7 @@
      }
     },
     {
-     "amount": 9,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "minecraft:prismarine_shard"
@@ -6662,6 +6732,19 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "uniqueaccessories:power_crystal",
+       "tag": {
+        "ua_from_box": 1,
+        "ua_from_box_expires": 2411499
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "magistuarmory:gothic_leggings",
        "tag": {
         "Damage": 0
@@ -6842,7 +6925,7 @@
      }
     },
     {
-     "amount": 288,
+     "amount": 297,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -6962,7 +7045,7 @@
      }
     },
     {
-     "amount": 615,
+     "amount": 625,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -7152,7 +7235,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 12,
      "key": {
       "stack": {
        "item": "minecraft:iron_bars"

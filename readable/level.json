@@ -244,7 +244,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1665700,
+  "DayTime": 1671700,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -427,7 +427,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795533893779,
+  "LastPlayed": 1795534193909,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -441,11 +441,26 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 241,
+     "Duration": 258,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:strength"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 2,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 19,
+     "Id": 1,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:speed"
     },
     {
      "Ambient": 1,
@@ -456,7 +471,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 245,
+     "Duration": 258,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -465,14 +480,6 @@
    ],
    "Air": 300,
    "Attributes": [
-    {
-     "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
-    },
-    {
-     "Base": 1.0,
-     "Name": "irons_spellbooks:mana_regen"
-    },
     {
      "Base": 0.0,
      "Name": "minecraft:generic.luck"
@@ -553,15 +560,25 @@
     },
     {
      "Base": 0.1,
+     "Modifiers": [
+      {
+       "Amount": 0.6,
+       "Name": "effect.minecraft.speed 2",
+       "Operation": 2,
+       "UUID": [
+        -1850824106,
+        929776792,
+        -1822740609,
+        1745290805
+       ],
+       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+      }
+     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
      "Base": 3.0,
      "Name": "forge:entity_reach"
-    },
-    {
-     "Base": 1.0,
-     "Name": "irons_spellbooks:cast_time_reduction"
     },
     {
      "Base": 0.0,
@@ -664,7 +681,7 @@
    "DeathTime": 0,
    "Dimension": "minecraft:overworld",
    "EnderItems": [],
-   "FallDistance": 0.2336,
+   "FallDistance": 0.0,
    "FallFlying": 0,
    "Fire": -20,
    "ForgeCaps": {
@@ -943,7 +960,7 @@
           {
            "Count": 1,
            "Slot": 0,
-           "id": "artifacts:cloud_in_a_bottle"
+           "id": "uniqueaccessories:black_belt"
           }
          ],
          "Size": 1
@@ -1076,7 +1093,7 @@
      "passive4": "epicfight:bonebreaker",
      "passive5": "efn:precise_parry",
      "passive6": "dodge_parry_reward:damage_boost4",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -4735,20 +4752,11 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "quark:trying_crawl": 0,
-    "ua_accessory_types_seen": {
-     "uniqueaccessories:black_belt": 1,
-     "uniqueaccessories:bloody_knife": 1,
-     "uniqueaccessories:power_crystal": 1,
-     "uniqueaccessories:silver_cat_tail": 1
-    },
-    "ua_mn_tabi_last_dash": 2408480,
-    "ua_rs_active_until": 2411830,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
    "Health": 34.0,
-   "HurtByTimestamp": 15074,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4870,201 +4878,42 @@
      }
     },
     {
-     "Count": 4,
+     "Count": 1,
      "Slot": 4,
-     "id": "minecraft:glass_bottle"
+     "id": "tcrcore:retracement_stone"
+    },
+    {
+     "Count": 30,
+     "Slot": 7,
+     "id": "irons_spellbooks:frozen_bone"
+    },
+    {
+     "Count": 48,
+     "Slot": 8,
+     "id": "cataclysm:cursium_ingot"
     },
     {
      "Count": 1,
-     "Slot": 5,
+     "Slot": 28,
+     "id": "artifacts:cloud_in_a_bottle"
+    },
+    {
+     "Count": 13,
+     "Slot": 31,
+     "id": "waystones:waystone"
+    },
+    {
+     "Count": 1,
+     "Slot": 32,
      "id": "tcrcore:wither_soul_stone_activated",
      "tag": {
       "kusabimaru_sheath": 0
      }
     },
     {
-     "Count": 13,
-     "Slot": 6,
-     "id": "waystones:waystone"
-    },
-    {
-     "Count": 1,
-     "Slot": 7,
-     "id": "uniqueaccessories:black_belt"
-    },
-    {
-     "Count": 13,
-     "Slot": 9,
-     "id": "minecraft:rotten_flesh"
-    },
-    {
-     "Count": 1,
-     "Slot": 10,
-     "id": "minecraft:music_disc_cat"
-    },
-    {
-     "Count": 1,
-     "Slot": 11,
-     "id": "minecraft:music_disc_13"
-    },
-    {
      "Count": 4,
-     "Slot": 12,
-     "id": "minecraft:iron_ingot"
-    },
-    {
-     "Count": 14,
-     "Slot": 13,
-     "id": "minecraft:string"
-    },
-    {
-     "Count": 10,
-     "Slot": 14,
-     "id": "minecraft:iron_bars"
-    },
-    {
-     "Count": 1,
-     "Slot": 15,
-     "id": "minecraft:diamond_hoe",
-     "tag": {
-      "Damage": 0
-     }
-    },
-    {
-     "Count": 1,
-     "Slot": 16,
-     "id": "irons_spellbooks:concentration_amulet"
-    },
-    {
-     "Count": 1,
-     "Slot": 17,
-     "id": "minecraft:music_disc_13"
-    },
-    {
-     "Count": 6,
-     "Slot": 18,
-     "id": "minecraft:gunpowder"
-    },
-    {
-     "Count": 1,
-     "Slot": 19,
-     "id": "minecraft:vex_armor_trim_smithing_template"
-    },
-    {
-     "Count": 1,
-     "Slot": 20,
-     "id": "minecraft:enchanted_book",
-     "tag": {
-      "StoredEnchantments": [
-       {
-        "id": "alexsmobs:serpentfriend",
-        "lvl": 1
-       }
-      ]
-     }
-    },
-    {
-     "Count": 3,
-     "Slot": 21,
-     "id": "irons_spellbooks:arcane_essence"
-    },
-    {
-     "Count": 1,
-     "Slot": 22,
-     "id": "minecraft:bread"
-    },
-    {
-     "Count": 1,
-     "Slot": 23,
-     "id": "fantasy_armor:moon_crystal"
-    },
-    {
-     "Count": 10,
-     "Slot": 24,
-     "id": "minecraft:arrow"
-    },
-    {
-     "Count": 9,
-     "Slot": 25,
-     "id": "minecraft:bone"
-    },
-    {
-     "Count": 1,
-     "Slot": 26,
-     "id": "minecraft:amethyst_shard"
-    },
-    {
-     "Count": 1,
-     "Slot": 27,
-     "id": "bosses_of_mass_destruction:soul_star"
-    },
-    {
-     "Count": 1,
-     "Slot": 28,
-     "id": "magistuarmory:rustedhalfarmor_chestplate",
-     "tag": {
-      "Damage": 0
-     }
-    },
-    {
-     "Count": 6,
-     "Slot": 29,
-     "id": "minecraft:diamond"
-    },
-    {
-     "Count": 1,
-     "Slot": 30,
-     "id": "minecraft:iron_sword",
-     "tag": {
-      "Damage": 0,
-      "Enchantments": [
-       {
-        "id": "minecraft:sharpness",
-        "lvl": 2
-       },
-       {
-        "id": "minecraft:looting",
-        "lvl": 1
-       }
-      ]
-     }
-    },
-    {
-     "Count": 1,
-     "Slot": 31,
-     "id": "minecraft:iron_sword",
-     "tag": {
-      "Damage": 0,
-      "Enchantments": [
-       {
-        "id": "minecraft:smite",
-        "lvl": 3
-       },
-       {
-        "id": "minecraft:looting",
-        "lvl": 1
-       }
-      ]
-     }
-    },
-    {
-     "Count": 2,
-     "Slot": 32,
-     "id": "minecraft:emerald"
-    },
-    {
-     "Count": 3,
      "Slot": 33,
-     "id": "minecraft:prismarine_shard"
-    },
-    {
-     "Count": 1,
-     "Slot": 34,
-     "id": "uniqueaccessories:power_crystal",
-     "tag": {
-      "ua_from_box": 1,
-      "ua_from_box_expires": 2411499
-     }
+     "id": "minecraft:glass_bottle"
     },
     {
      "Count": 1,
@@ -5202,29 +5051,29 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     -9,
+     0,
      3,
-     18
+     -6
     ]
    },
    "Motion": [
-    0.0231,
-    -0.3766,
+    0.0,
+    -0.0784,
     0.0
    ],
-   "OnGround": 0,
+   "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -1094.1268,
-    176.7664,
-    -3448.126
+    263.5,
+    63.0,
+    -1773.5
    ],
    "Rotation": [
-    -95.1756,
-    26.6224
+    -36.9757,
+    26.3427
    ],
    "Score": 28038,
-   "SelectedItemSlot": 8,
+   "SelectedItemSlot": 0,
    "SleepTimer": 0,
    "SpawnAngle": 0.0,
    "SpawnDimension": "minecraft:overworld",
@@ -5252,18 +5101,18 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.344,
+   "foodExhaustionLevel": 0.0,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
    "irons_spellbooks:magic_data": {
-    "castingEquipmentSlot": "mainhand",
+    "castingEquipmentSlot": "",
     "castingSpellId": "",
     "castingSpellLevel": 0,
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 125,
+    "mana": 2,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15572,7 +15421,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 10919,
+    "ticks_since_last_warning": 4581,
     "warning_level": 0
    }
   },
@@ -15584,7 +15433,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2411846,
+  "Time": 2417846,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15598,7 +15447,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 0,
+  "WanderingTraderSpawnDelay": 18000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16286,9 +16135,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 2904,
-  "raining": 0,
-  "thunderTime": 37624,
+  "rainTime": 17190,
+  "raining": 1,
+  "thunderTime": 31624,
   "thundering": 0,
   "version": 19133
  },
