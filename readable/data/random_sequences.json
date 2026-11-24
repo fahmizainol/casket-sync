@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    2132303409321207898,
-    8618369741285478958
+    -6516601597689750643,
+    8902849512285182991
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -1605,8 +1605,8 @@
   },
   "minecraft:blocks/scaffolding": {
    "source": [
-    -3021495865950463925,
-    -2847050130763568595
+    5899111800622073098,
+    -7846718442858691529
    ]
   },
   "minecraft:blocks/sculk": {
@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -6352981736471218419,
-    -3193901487557023579
+    433077692679510942,
+    6546200858872601926
    ]
   },
   "minecraft:entities/pufferfish": {
