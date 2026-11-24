@@ -467,7 +467,7 @@
      }
     },
     {
-     "amount": 385,
+     "amount": 386,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1992,15 +1992,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "tcrcore:artifact_ticket"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "irons_spellbooks:invisibility_elixir"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -2214,15 +2205,6 @@
          }
         ]
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "tcrcore:rare_artifact_ticket"
       },
       "type": "beyonddimensions:stack_type/item"
      }

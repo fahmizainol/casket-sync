@@ -1,31 +1,10 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 428,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
    "Base": 0.5,
    "Name": "epicfight:impact"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -38,10 +17,6 @@
   {
    "Base": 3.0,
    "Name": "forge:entity_reach"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -61,6 +36,20 @@
   },
   {
    "Base": 4.0,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "artifacts:feral_claws_attack_speed_bonus",
+     "Operation": 0,
+     "UUID": [
+      -1626820019,
+      -1493154539,
+      -1848454353,
+      1821068796
+     ],
+     "UUID_str": "9f08b24d-a700-4515-91d2-d32f6c8b4dfc"
+    }
+   ],
    "Name": "minecraft:generic.attack_speed"
   },
   {
@@ -81,18 +70,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -170,7 +147,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -366,6 +343,11 @@
        "Items": [
         {
          "Count": 1,
+         "Slot": 0,
+         "id": "artifacts:feral_claws"
+        },
+        {
+         "Count": 1,
          "Slot": 1,
          "id": "artifacts:power_glove"
         }
@@ -519,6 +501,11 @@
         },
         {
          "Count": 1,
+         "Slot": 1,
+         "id": "uniqueaccessories:rusty_guillotine_blade"
+        },
+        {
+         "Count": 1,
          "Slot": 2,
          "id": "uniqueaccessories:still_beating_heart"
         }
@@ -563,7 +550,6 @@
    "passive1": "dodge_parry_reward:stamina1",
    "passive2": "dodge_parry_reward:health_boost4",
    "passive3": "dodge_parry_reward:heal3",
-   "passive4": "efn:precise_parry",
    "passive5": "dodge_parry_reward:heal4",
    "passive6": "wom:mindset",
    "playerMode": "EPICFIGHT",
@@ -1245,7 +1231,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 256
+   "currentLogicNodeId": 231
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1475,7 +1461,7 @@
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795446730873,
+     "WarpStoneCooldownUntilUnix": 1795529260205,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -4781,11 +4767,10 @@
    "uniqueaccessories:withered_heart": 1
   },
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2315749
+  "ua_rs_continuous": 0
  },
- "Health": 36.4003,
- "HurtByTimestamp": 1016,
+ "Health": 34.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5044,9 +5029,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   16,
+   1,
    3,
-   -7
+   -6
   ]
  },
  "Motion": [
@@ -5057,13 +5042,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  9.1205,
-  3.0,
-  -7.6051
+  -207.5,
+  85.0,
+  -190.5
  ],
  "Rotation": [
-  83.8712,
-  -2.5025
+  -118.2511,
+  17.3892
  ],
  "Score": 12057,
  "SelectedItemSlot": 0,
@@ -5094,7 +5079,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.594,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5105,7 +5090,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 55,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14597,7 +14582,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11337,
+  "ticks_since_last_warning": 5011,
   "warning_level": 0
  }
 }
