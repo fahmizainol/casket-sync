@@ -1,7 +1,160 @@
 {
- "AbsorptionAmount": 0.0,
+ "AbsorptionAmount": 7.9565,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 1,
+   "Id": 1,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 42,
+   "Id": 11,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:resistance"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 3,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 42,
+   "Id": 3,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:haste"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 582,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 42,
+   "Id": 150,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "efn:ring"
+  }
+ ],
  "Air": 300,
  "Attributes": [
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 4.0,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.haste 3",
+     "Operation": 2,
+     "UUID": [
+      -1349816769,
+      858278922,
+      -1439278174,
+      -1147289869
+     ],
+     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
+    }
+   ],
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:creative_flight"
+  },
+  {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
+  },
+  {
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
+  },
+  {
+   "Base": 0.08,
+   "Name": "forge:entity_gravity"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:ice_spell_power"
+  },
+  {
+   "Base": 15.0,
+   "Modifiers": [
+    {
+     "Amount": 5.6,
+     "Name": "stamina_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
+  },
   {
    "Base": 0.5,
    "Name": "epicfight:impact"
@@ -11,7 +164,29 @@
    "Name": "epicfight:armor_negation"
   },
   {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:lightning_spell_power"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:holy_spell_power"
+  },
+  {
    "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.speed 1",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -24,10 +199,6 @@
   },
   {
    "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 0.0,
    "Name": "attributeslib:dodge_chance"
   },
   {
@@ -36,6 +207,20 @@
   },
   {
    "Base": 4.0,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.haste 3",
+     "Operation": 2,
+     "UUID": [
+      -1349816769,
+      858278922,
+      -1439278174,
+      -1147289869
+     ],
+     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
+    }
+   ],
    "Name": "minecraft:generic.attack_speed"
   },
   {
@@ -68,13 +253,21 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
-  },
-  {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
   },
   {
    "Base": 1.0,
@@ -95,46 +288,8 @@
    "Name": "minecraft:generic.attack_damage"
   },
   {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
-  },
-  {
-   "Base": 0.08,
-   "Name": "forge:entity_gravity"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 15.0,
-   "Modifiers": [
-    {
-     "Amount": 5.6,
-     "Name": "stamina_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
+   "Base": 100.0,
+   "Name": "irons_spellbooks:max_mana"
   }
  ],
  "BalmData": {},
@@ -144,8 +299,8 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 1124,
- "Dimension": "minecraft:overworld",
+ "DeathTime": 0,
+ "Dimension": "cataclysm_dimension:cataclysm_bastion_lost",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -529,8 +684,8 @@
     "0": "efn:precise_parry",
     "1": "wom:pain_anticipation",
     "2": "wom:heart_shield",
-    "3": "dodge_parry_reward:stamina1",
-    "4": "dodge_parry_reward:heal3",
+    "3": "dodge_parry_reward:heal3",
+    "4": "dodge_parry_reward:stamina1",
     "5": "epicfight:berserker",
     "6": "dodge_parry_reward:heal2",
     "7": "dodge_parry_reward:heal4",
@@ -1225,7 +1380,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 231
+   "currentLogicNodeId": 256
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1312,7 +1467,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 82.0,
+    "currentQuestId": 5.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1339,20 +1494,23 @@
     "maledictusHumanoidKilled": 1,
     "mechEyeActivated": 1,
     "mech_eye_gotten": 1,
+    "monstEyeActivated": 1,
     "monstEyeBlessed": 1,
     "monst_eye_gotten": 1,
     "ornnTalked": 1,
     "parried": 1,
+    "stormEyeActivated": 1,
     "stormEyeBlessed": 1,
     "storm_eye_gotten": 1,
     "sword_soaring_avoid_unlocked": 1,
     "tutorial_passed": 1,
+    "voidEyeActivated": 1,
     "voidEyeBlessed": 1,
     "void_eye_gotten": 1,
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 80,
+   "finishedQuestSize": 82,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1432,6 +1590,8 @@
    "finished_quest_78": 81,
    "finished_quest_79": 80,
    "finished_quest_8": 27,
+   "finished_quest_80": 16,
+   "finished_quest_81": 15,
    "finished_quest_9": 27,
    "healthAdder": 14.0,
    "questSize": 10,
@@ -1442,9 +1602,9 @@
    "quest_4": 59,
    "quest_5": 4,
    "quest_6": 3,
-   "quest_7": 15,
-   "quest_8": 16,
-   "quest_9": 82,
+   "quest_7": 82,
+   "quest_8": 9,
+   "quest_9": 5,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -1453,6 +1613,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 10,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -1486,7 +1648,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4765,15 +4926,17 @@
    "uniqueaccessories:still_beating_heart": 1,
    "uniqueaccessories:withered_heart": 1
   },
+  "ua_rs_active_until": 2440859,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2420141,
-  "ua_shiny_last_x": 256.0017,
-  "ua_shiny_last_y": 63.0,
-  "ua_shiny_last_z": -1778.8813
+  "ua_shiny_last_active": 2441846,
+  "ua_shiny_last_x": -39.9803,
+  "ua_shiny_last_y": 55.0625,
+  "ua_shiny_last_z": -2.5929,
+  "ua_tabi_last_dash": 2441845
  },
- "Health": 0.0,
- "HurtByTimestamp": 2335,
+ "Health": 60.0,
+ "HurtByTimestamp": 2004,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4869,7 +5032,7 @@
   {
    "Count": 1,
    "Slot": 6,
-   "id": "tcrcore:retracement_stone"
+   "id": "cataclysm:void_eye"
   },
   {
    "Count": 12,
@@ -5010,10 +5173,7 @@
   {
    "Count": 1,
    "Slot": 23,
-   "id": "magistuarmory:rustedchainmail_helmet",
-   "tag": {
-    "Damage": 0
-   }
+   "id": "tcrcore:retracement_stone"
   },
   {
    "Count": 1,
@@ -5106,28 +5266,28 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "minecraft:overworld",
+  "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   255,
-   63,
-   -1778
+   3,
+   3,
+   2
   ]
  },
  "Motion": [
-  0.0,
-  -0.0784,
-  0.0
+  0.6174,
+  0.0196,
+  0.6905
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  256.0046,
-  63.0,
-  -1778.8993
+  -39.9803,
+  55.0625,
+  -2.5929
  ],
  "Rotation": [
-  9.0093,
-  0.0
+  -42.6295,
+  7.6783
  ],
  "Score": 12242,
  "SelectedItemSlot": 0,
@@ -5158,7 +5318,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.905,
+ "foodExhaustionLevel": 1.025,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5177,6 +5337,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14655,9 +14816,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4268,
+  "ticks_since_last_warning": 7846,
   "warning_level": 0
  }
 }

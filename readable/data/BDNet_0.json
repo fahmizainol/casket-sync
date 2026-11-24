@@ -467,7 +467,7 @@
      }
     },
     {
-     "amount": 405,
+     "amount": 406,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -860,15 +860,6 @@
      "key": {
       "stack": {
        "item": "minecraft:moss_block"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "cataclysm:void_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1937,6 +1928,18 @@
      "key": {
       "stack": {
        "item": "minecraft:iron_sword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:rustedchainmail_helmet",
        "tag": {
         "Damage": 0
        }

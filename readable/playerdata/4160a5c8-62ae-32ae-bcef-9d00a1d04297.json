@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 242,
+   "Duration": 247,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 242,
+   "Duration": 247,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -35,76 +35,6 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 0.0,
-   "Name": "minecraft:generic.luck"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
-  },
-  {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
-  },
-  {
-   "Base": 0.08,
-   "Name": "forge:entity_gravity"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.5,
-   "Name": "epicfight:offhand_impact"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:offhand_armor_negation"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 4.5,
-   "Name": "forge:block_reach"
-  },
-  {
-   "Base": 15.0,
-   "Modifiers": [
-    {
-     "Amount": 5.6,
-     "Name": "stamina_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
-  },
-  {
    "Base": 0.5,
    "Name": "epicfight:impact"
   },
@@ -113,8 +43,8 @@
    "Name": "epicfight:armor_negation"
   },
   {
-   "Base": 1.0,
-   "Name": "epicfight:offhand_max_strikes"
+   "Base": 0.0,
+   "Name": "minecraft:generic.luck"
   },
   {
    "Base": 0.1,
@@ -127,6 +57,10 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:creative_flight"
   },
   {
    "Base": 0.0,
@@ -181,6 +115,10 @@
    "Name": "attributeslib:mining_speed"
   },
   {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
+  },
+  {
    "Base": 1.0,
    "Modifiers": [
     {
@@ -211,8 +149,54 @@
    "Name": "minecraft:generic.attack_damage"
   },
   {
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
+  },
+  {
+   "Base": 0.08,
+   "Name": "forge:entity_gravity"
+  },
+  {
    "Base": 100.0,
    "Name": "irons_spellbooks:max_mana"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 4.5,
+   "Name": "forge:block_reach"
+  },
+  {
+   "Base": 15.0,
+   "Modifiers": [
+    {
+     "Amount": 5.6,
+     "Name": "stamina_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
   }
  ],
  "BalmData": {},
@@ -223,7 +207,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1403,7 +1387,7 @@
     "canEnterAether": 1,
     "canEnterNether": 1,
     "chronosTalked": 1,
-    "currentQuestId": 82.0,
+    "currentQuestId": 5.0,
     "currentQuestIdisLocked": 0,
     "cursedEyeActivated": 1,
     "cursedEyeBlessed": 1,
@@ -1430,20 +1414,23 @@
     "maledictusHumanoidKilled": 1,
     "mechEyeActivated": 1,
     "mech_eye_gotten": 1,
+    "monstEyeActivated": 1,
     "monstEyeBlessed": 1,
     "monst_eye_gotten": 1,
     "ornnTalked": 1,
     "parried": 1,
+    "stormEyeActivated": 1,
     "stormEyeBlessed": 1,
     "storm_eye_gotten": 1,
     "sword_soaring_avoid_unlocked": 1,
     "tutorial_passed": 1,
+    "voidEyeActivated": 1,
     "voidEyeBlessed": 1,
     "void_eye_gotten": 1,
     "way_stone_interacted": 1,
     "weapon_innate_used": 1
    },
-   "finishedQuestSize": 80,
+   "finishedQuestSize": 82,
    "finished_quest_0": 21,
    "finished_quest_1": 23,
    "finished_quest_10": 29,
@@ -1523,6 +1510,8 @@
    "finished_quest_78": 81,
    "finished_quest_79": 80,
    "finished_quest_8": 27,
+   "finished_quest_80": 16,
+   "finished_quest_81": 15,
    "finished_quest_9": 27,
    "healthAdder": 14.0,
    "questSize": 10,
@@ -1533,9 +1522,9 @@
    "quest_4": 59,
    "quest_5": 4,
    "quest_6": 3,
-   "quest_7": 15,
-   "quest_8": 16,
-   "quest_9": 82,
+   "quest_7": 82,
+   "quest_8": 9,
+   "quest_9": 5,
    "resonanceStoneInCooldown": 0,
    "resonanceStoneStartTime": 1407051,
    "sardine": 0,
@@ -4296,6 +4285,9 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "quark:trying_crawl": 0,
+  "ua_mn_tabi_last_dash": 2439701,
+  "ua_rs_active_until": 2441014,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
@@ -4375,7 +4367,7 @@
      }
     ],
     "RepairCost": 1,
-    "TotalDamage": 580.5591,
+    "TotalDamage": 653.8655,
     "kusabimaru_sheath": 0
    }
   },
@@ -4468,19 +4460,19 @@
    }
   },
   {
-   "Count": 5,
+   "Count": 1,
    "Slot": 6,
-   "id": "minecraft:bone"
+   "id": "cataclysm:void_eye"
   },
   {
-   "Count": 30,
+   "Count": 2,
    "Slot": 7,
-   "id": "irons_spellbooks:frozen_bone"
+   "id": "cataclysm:monstrous_eye"
   },
   {
-   "Count": 48,
+   "Count": 1,
    "Slot": 8,
-   "id": "cataclysm:cursium_ingot"
+   "id": "cataclysm:storm_eye"
   },
   {
    "Count": 1,
@@ -4531,6 +4523,11 @@
    }
   },
   {
+   "Count": 48,
+   "Slot": 25,
+   "id": "cataclysm:cursium_ingot"
+  },
+  {
    "Count": 1,
    "Slot": 28,
    "id": "artifacts:cloud_in_a_bottle"
@@ -4566,6 +4563,16 @@
    "Count": 4,
    "Slot": 33,
    "id": "minecraft:glass_bottle"
+  },
+  {
+   "Count": 30,
+   "Slot": 34,
+   "id": "irons_spellbooks:frozen_bone"
+  },
+  {
+   "Count": 5,
+   "Slot": 35,
+   "id": "minecraft:bone"
   },
   {
    "Count": 1,
@@ -4676,9 +4683,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -19,
    3,
-   4
+   3,
+   8
   ]
  },
  "Motion": [
@@ -4689,16 +4696,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  256.8523,
-  63.0,
-  -1773.2928
+  -106.2159,
+  81.0,
+  -202.6046
  ],
  "Rotation": [
-  91.1022,
-  29.2352
+  -61.7994,
+  22.5308
  ],
  "Score": 28045,
- "SelectedItemSlot": 4,
+ "SelectedItemSlot": 7,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
  "SpawnDimension": "minecraft:overworld",
@@ -4726,7 +4733,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.05,
+ "foodExhaustionLevel": 1.992,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15046,7 +15053,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8755,
+  "ticks_since_last_warning": 2640,
   "warning_level": 0
  }
 }

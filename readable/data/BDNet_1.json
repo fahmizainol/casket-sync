@@ -937,15 +937,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "cataclysm:void_eye"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "caps": {
         "Parent": {
          "Items": [
@@ -1619,15 +1610,6 @@
          "Patterns": []
         }
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "cataclysm:storm_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -4176,7 +4158,7 @@
      }
     },
     {
-     "amount": 404,
+     "amount": 405,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -7113,15 +7095,6 @@
      "key": {
       "stack": {
        "item": "minecraft:cut_sandstone"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 2,
-     "key": {
-      "stack": {
-       "item": "cataclysm:monstrous_eye"
       },
       "type": "beyonddimensions:stack_type/item"
      }

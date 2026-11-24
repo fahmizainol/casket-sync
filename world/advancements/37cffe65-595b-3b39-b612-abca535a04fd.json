@@ -690,5 +690,11 @@
     },
     "done": true
   },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2026-11-24 23:49:36 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
