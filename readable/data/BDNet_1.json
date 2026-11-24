@@ -114,6 +114,40 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:cursium_helmet",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:respiration",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:thorns",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:aqua_affinity",
+          "lvl": 1
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 5
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:splash_potion",
        "tag": {
         "Potion": "minecraft:strong_healing"
@@ -234,6 +268,15 @@
      "key": {
       "stack": {
        "item": "artifacts:crystal_heart"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:retracement_stone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -438,6 +481,21 @@
           "lvl": 1
          }
         ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:beacon",
+       "tag": {
+        "BlockEntityTag": {
+         "Primary": 5,
+         "Secondary": 5
+        }
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -816,6 +874,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:void_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -860,7 +927,7 @@
      }
     },
     {
-     "amount": 12,
+     "amount": 13,
      "key": {
       "stack": {
        "item": "minecraft:glass_bottle"
@@ -918,6 +985,18 @@
      "key": {
       "stack": {
        "item": "cataclysm:black_steel_nugget"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_helmet",
+       "tag": {
+        "Damage": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1109,7 +1188,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 62,
      "key": {
       "stack": {
        "item": "minecraft:netherite_ingot"
@@ -1141,6 +1220,15 @@
         ],
         "sheath": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 7,
+     "key": {
+      "stack": {
+       "item": "cataclysm:black_steel_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1399,6 +1487,15 @@
      "key": {
       "stack": {
        "item": "cataclysm:storm_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 4,
+     "key": {
+      "stack": {
+       "item": "tcrcore:wither_soul_stone_activated"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2000,6 +2097,40 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:cursium_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:depth_strider",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:feather_falling",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:thorns",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 5
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 121,
      "key": {
       "stack": {
@@ -2393,7 +2524,7 @@
      }
     },
     {
-     "amount": 200,
+     "amount": 201,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -2924,6 +3055,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:shiny_stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 5,
      "key": {
       "stack": {
@@ -3126,6 +3266,24 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:cursium_leggings",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         }
+        ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 3,
      "key": {
       "stack": {
@@ -3230,7 +3388,7 @@
      }
     },
     {
-     "amount": 265,
+     "amount": 266,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -3292,6 +3450,15 @@
      "key": {
       "stack": {
        "item": "minecraft:polished_basalt"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_upgrade_smithing_template"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3713,7 +3880,7 @@
      }
     },
     {
-     "amount": 386,
+     "amount": 387,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -5291,6 +5458,36 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "efn:yamato_dmc_in_sheath",
+       "tag": {
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         }
+        ],
+        "TotalDamage": 124.946
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 7,
      "key": {
       "stack": {
@@ -5383,6 +5580,15 @@
          }
         ]
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 64,
+     "key": {
+      "stack": {
+       "item": "cataclysm:cursium_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -5621,6 +5827,18 @@
           "lvl": 5
          }
         ]
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "epicfight:skillbook",
+       "tag": {
+        "skill": "efn:judgementcutend"
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -6381,6 +6599,36 @@
      "key": {
       "stack": {
        "item": "cataclysm:sandstone_ignite_trap"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:cursium_chestplate",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:thorns",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:protection",
+          "lvl": 4
+         },
+         {
+          "id": "wom:invigoration",
+          "lvl": 5
+         }
+        ],
+        "Trim": {
+         "material": "minecraft:gold",
+         "pattern": "minecraft:vex"
+        }
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }

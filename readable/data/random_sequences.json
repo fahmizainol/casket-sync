@@ -81,8 +81,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    5074012050827383388,
-    -8882920215518721119
+    -9083214932961330931,
+    3350300887817059542
    ]
   },
   "aether:entities/moa": {
@@ -129,8 +129,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -175551345929096570,
-    -428295967932200390
+    6446373192262668066,
+    -6251704167528301777
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -153,8 +153,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -7828415254097327480,
-    2056124555459017485
+    -7871045773814330600,
+    4845999631793569057
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -165,8 +165,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -2247040761829726095,
-    -1165582982738075040
+    693310171900330148,
+    7007383730975286669
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
