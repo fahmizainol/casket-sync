@@ -7,6 +7,12 @@
     -3414770712370430180
    ]
   },
+  "aether:blocks/aether_dirt": {
+   "source": [
+    1444857495537587110,
+    -2383105469090428940
+   ]
+  },
   "aether:blocks/blue_aercloud": {
    "source": [
     -6468018364139516895,
@@ -15,8 +21,8 @@
   },
   "aether:blocks/cold_aercloud": {
    "source": [
-    -3957661259344604888,
-    -8212750413315295259
+    -1362883423438211128,
+    -6217712538066082871
    ]
   },
   "aether:blocks/crystal_fruit_leaves": {
@@ -35,6 +41,12 @@
    "source": [
     1311740945498094233,
     -2797068861613990931
+   ]
+  },
+  "aether:blocks/holystone": {
+   "source": [
+    4349527686933221562,
+    5785506412249140784
    ]
   },
   "aether:blocks/purple_flower": {
@@ -63,8 +75,8 @@
   },
   "aether:entities/blue_swet": {
    "source": [
-    4680232100760308236,
-    -6699296334701550277
+    -6131834831005301016,
+    2002449340023253206
    ]
   },
   "aether:entities/cockatrice": {
@@ -81,8 +93,8 @@
   },
   "aether:entities/golden_swet": {
    "source": [
-    -9083214932961330931,
-    3350300887817059542
+    879327395932508747,
+    9094425651997938586
    ]
   },
   "aether:entities/moa": {
@@ -93,14 +105,20 @@
   },
   "aether:entities/phyg": {
    "source": [
-    -4774746559305022313,
-    1844927433556583253
+    -865162628941448664,
+    -5560573354177586300
    ]
   },
   "aether:entities/sheepuff/light_blue": {
    "source": [
     -345940005743865550,
     7855247810027085650
+   ]
+  },
+  "aether:entities/sheepuff/pink": {
+   "source": [
+    -520610077826203074,
+    -8694134802767081350
    ]
   },
   "aether:entities/sheepuff/white": {
@@ -1023,8 +1041,8 @@
   },
   "minecraft:blocks/grass": {
    "source": [
-    -811180397368611712,
-    -2551794062629376325
+    6004359841576475740,
+    4800136388848814385
    ]
   },
   "minecraft:blocks/grass_block": {

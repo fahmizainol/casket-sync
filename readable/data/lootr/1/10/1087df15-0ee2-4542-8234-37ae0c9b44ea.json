@@ -1,0 +1,37 @@
+{
+ "DataVersion": 3465,
+ "data": {
+  "custom": 0,
+  "dimension": "aether:the_aether",
+  "entity": 0,
+  "inventories": [
+   {
+    "chest": {
+     "Items": []
+    },
+    "name": "{\"translate\":\"container.chest\"}",
+    "uuid": [
+     1096852936,
+     1655583406,
+     -1125147392,
+     -1580186985
+    ],
+    "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   }
+  ],
+  "key": "lootr/1/10/1087df15-0ee2-4542-8234-37ae0c9b44ea",
+  "position": {
+   "X": 895,
+   "Y": 165,
+   "Z": 54
+  },
+  "size": 27,
+  "uuid": [
+   277339925,
+   249709890,
+   -2110507090,
+   211502314
+  ],
+  "uuid_str": "1087df15-0ee2-4542-8234-37ae0c9b44ea"
+ }
+}
