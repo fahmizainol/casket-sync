@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1892132,
+  "DayTime": 1898132,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795622125856,
+  "LastPlayed": 1795622425857,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 244,
+     "Duration": 251,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 244,
+     "Duration": 251,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -465,18 +465,18 @@
     },
     {
      "Ambient": 0,
-     "Amplifier": 7,
+     "Amplifier": 4,
      "CurativeItems": [
       {
        "Count": 1,
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 383,
-     "Id": 21,
-     "ShowIcon": 1,
+     "Duration": 153,
+     "Id": 11,
+     "ShowIcon": 0,
      "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
+     "forge:id": "minecraft:resistance"
     }
    ],
    "Air": 300,
@@ -583,18 +583,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 32.0,
-       "Name": "effect.minecraft.health_boost 7",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -606,10 +594,6 @@
     {
      "Base": 0.05,
      "Name": "attributeslib:crit_chance"
-    },
-    {
-     "Base": 4.0,
-     "Name": "epicfight:offhand_attack_speed"
     },
     {
      "Base": 1.0,
@@ -664,10 +648,6 @@
       }
      ],
      "Name": "minecraft:generic.attack_damage"
-    },
-    {
-     "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
     }
    ],
    "BalmData": {},
@@ -677,7 +657,7 @@
    "CanUpdate": 1,
    "CitadelData": {},
    "DataVersion": 3465,
-   "DeathTime": 58,
+   "DeathTime": 0,
    "Dimension": "pbf1:sanctum_of_the_battle1",
    "EnderItems": [],
    "FallDistance": 0.0,
@@ -1822,7 +1802,7 @@
       "infernal_forge_lock": 1,
       "is_lock_on": 0,
       "is_lock_onisLocked": 0,
-      "skill_point": 1.0,
+      "skill_point": 0.0,
       "soul_render_lock": 0,
       "the_incinerator_lock": 0,
       "tidal_claw_lock": 1,
@@ -2032,7 +2012,6 @@
     },
     "accepted": 0,
     "can_accept": 0,
-    "death_triggered": 1,
     "find_me": {
      "autoBindIgnored": [],
      "autoBindTypeBlacklist": [],
@@ -4748,13 +4727,12 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_bb_dodge_until": 2638279,
-    "ua_mn_tabi_last_dash": 2637975,
+    "ua_mn_tabi_last_dash": 2644248,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 0.0,
-   "HurtByTimestamp": 346,
+   "Health": 38.0,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4904,19 +4882,6 @@
     },
     {
      "Count": 1,
-     "Slot": 5,
-     "id": "tcrcore:retracement_stone"
-    },
-    {
-     "Count": 1,
-     "Slot": 6,
-     "id": "magistuarmory:gold_shortsword",
-     "tag": {
-      "Damage": 0
-     }
-    },
-    {
-     "Count": 1,
      "Slot": 9,
      "id": "minecraft:carrot"
     },
@@ -4960,6 +4925,19 @@
     },
     {
      "Count": 1,
+     "Slot": 22,
+     "id": "magistuarmory:gold_shortsword",
+     "tag": {
+      "Damage": 0
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 24,
+     "id": "tcrcore:retracement_stone"
+    },
+    {
+     "Count": 1,
      "Slot": 25,
      "id": "minecraft:amethyst_shard"
     },
@@ -4985,6 +4963,11 @@
       ],
       "kusabimaru_sheath": 0
      }
+    },
+    {
+     "Count": 1,
+     "Slot": 32,
+     "id": "tcrcore:retracement_stone"
     },
     {
      "Count": 1,
@@ -5110,9 +5093,9 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     -2,
+     -4,
      3,
-     -6
+     6
     ]
    },
    "Motion": [
@@ -5123,13 +5106,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -3.0651,
+    3.4481,
     3.0,
-    -4.8466
+    -9.0527
    ],
    "Rotation": [
-    -34.8169,
-    0.0
+    12.458,
+    13.5195
    ],
    "Score": 28116,
    "SelectedItemSlot": 2,
@@ -5160,7 +5143,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.001,
+   "foodExhaustionLevel": 1.821,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5171,7 +5154,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 47,
+    "mana": 18,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -5179,6 +5162,7 @@
      "slot": ""
     }
    },
+   "max_stun_shield": 0.0,
    "playerGameType": 0,
    "recipeBook": {
     "isBlastingFurnaceFilteringCraftable": 0,
@@ -15476,9 +15460,10 @@
     ]
    },
    "seenCredits": 0,
+   "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 9444,
+    "ticks_since_last_warning": 2580,
     "warning_level": 0
    }
   },
@@ -15490,7 +15475,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2638278,
+  "Time": 2644278,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15504,7 +15489,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 10800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16192,9 +16177,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 78742,
+  "rainTime": 72742,
   "raining": 0,
-  "thunderTime": 109565,
+  "thunderTime": 103565,
   "thundering": 0,
   "version": 19133
  },
