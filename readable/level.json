@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1826132,
+  "DayTime": 1832132,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795618825928,
+  "LastPlayed": 1795619125863,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,11 +442,26 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 257,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:strength"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 0,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 1090,
+     "Id": 12,
+     "ShowIcon": 0,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:fire_resistance"
     },
     {
      "Ambient": 1,
@@ -457,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 257,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -465,18 +480,18 @@
     },
     {
      "Ambient": 0,
-     "Amplifier": 4,
+     "Amplifier": 7,
      "CurativeItems": [
       {
        "Count": 1,
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 130,
-     "Id": 11,
-     "ShowIcon": 0,
+     "Duration": 569,
+     "Id": 21,
+     "ShowIcon": 1,
      "ShowParticles": 0,
-     "forge:id": "minecraft:resistance"
+     "forge:id": "minecraft:health_boost"
     }
    ],
    "Air": 300,
@@ -526,6 +541,10 @@
     {
      "Base": 0.0,
      "Name": "minecraft:generic.luck"
+    },
+    {
+     "Base": 4.5,
+     "Name": "forge:block_reach"
     },
     {
      "Base": 0.0,
@@ -583,6 +602,18 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      },
+      {
+       "Amount": 32.0,
+       "Name": "effect.minecraft.health_boost 7",
+       "Operation": 0,
+       "UUID": [
+        1567558562,
+        294012588,
+        -1198078436,
+        1559140812
+       ],
+       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -648,6 +679,10 @@
       }
      ],
      "Name": "minecraft:generic.attack_damage"
+    },
+    {
+     "Base": 0.0,
+     "Name": "cataclysm:additional_critical_damage"
     }
    ],
    "BalmData": {},
@@ -1033,48 +1068,34 @@
       }
      ]
     },
-    "efn:original_skill_memory": {
-     "DODGE": "efn:efn_step"
-    },
+    "efn:original_skill_memory": {},
     "epicfight:skill_cap": {
-     "dodge": "efn:yamato_step",
+     "dodge": "efn:efn_step",
      "guard": "efn:efn_parry",
-     "judgmentcut_end": "efn:judgementcutend",
      "learned:dodge": {
-      "0": "efn:efn_step",
-      "1": "efn:efn_dodge"
+      "0": "efn:efn_dodge",
+      "1": "efn:efn_step"
      },
      "learned:guard": {
       "0": "efn:efn_parry"
      },
-     "learned:judgmentcut_end": {
-      "0": "efn:judgementcutend"
-     },
      "learned:passive": {
       "0": "efn:precise_parry",
-      "1": "dodge_parry_reward:damage_boost4",
-      "10": "dodge_parry_reward:damage_boost2",
-      "11": "dodge_parry_reward:stamina1",
-      "12": "dodge_parry_reward:heal4",
-      "13": "epicfight:emergency_escape",
-      "2": "dodge_parry_reward:damage_boost1",
-      "3": "epicfight:berserker",
-      "4": "dodge_parry_reward:health_boost4",
-      "5": "dodge_parry_reward:damage_boost3",
-      "6": "dodge_parry_reward:health_boost3",
-      "7": "epicfight:bonebreaker",
-      "8": "dodge_parry_reward:heal3",
-      "9": "wom:mindset"
+      "1": "dodge_parry_reward:damage_boost1",
+      "2": "dodge_parry_reward:damage_boost4",
+      "3": "epicfight:forbidden_strength",
+      "4": "epicfight:berserker",
+      "5": "dodge_parry_reward:stamina1",
+      "6": "dodge_parry_reward:heal2",
+      "7": "dodge_parry_reward:heal4",
+      "8": "epicfight:emergency_escape"
      },
-     "learned:sword_soaring": {
-      "0": "sword_soaring:sword_soaring_elytra_master"
-     },
-     "passive1": "dodge_parry_reward:health_boost4",
-     "passive2": "dodge_parry_reward:heal4",
-     "passive3": "wom:mindset",
-     "passive4": "epicfight:bonebreaker",
-     "passive5": "efn:precise_parry",
-     "passive6": "dodge_parry_reward:damage_boost4",
+     "passive1": "epicfight:forbidden_strength",
+     "passive2": "epicfight:berserker",
+     "passive3": "dodge_parry_reward:health_boost4",
+     "passive4": "efn:precise_parry",
+     "passive5": "epicfight:emergency_escape",
+     "passive6": "dodge_parry_reward:heal4",
      "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
@@ -1097,11 +1118,10 @@
       "sword_soaring": 0,
       "weapon_innate": 0,
       "weapon_passive": 0
-     },
-     "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
+     }
     },
     "epicskills:ability_points": {
-     "abilityPoint": 1,
+     "abilityPoint": 10,
      "requiredExp": 7,
      "requiredExpLevel": 0
     },
@@ -1318,13 +1338,13 @@
        },
        {
         "name": "epicfight:forbidden_strength",
-        "state": "unlockable"
+        "state": "unlocked"
        },
        {
         "children": [
          {
           "name": "epicfight:bonebreaker",
-          "state": "unlocked"
+          "state": "unlockable"
          },
          {
           "name": "epicfight:adaptive_skin",
@@ -1348,7 +1368,7 @@
        },
        {
         "name": "sword_soaring:sword_soaring_elytra_master",
-        "state": "unlocked"
+        "state": "unlockable"
        },
        {
         "name": "efn:execution",
@@ -1556,11 +1576,11 @@
             "children": [
              {
               "name": "wom:adrenaline",
-              "state": "unlockable"
+              "state": "locked"
              },
              {
               "name": "wom:heart_shield",
-              "state": "unlockable"
+              "state": "locked"
              },
              {
               "children": [
@@ -1584,11 +1604,11 @@
                }
               ],
               "name": "wom:meditation",
-              "state": "unlockable"
+              "state": "locked"
              }
             ],
             "name": "wom:mindset",
-            "state": "unlocked"
+            "state": "locked"
            },
            {
             "children": [
@@ -1636,11 +1656,11 @@
            }
           ],
           "name": "wom:latent_retribution",
-          "state": "unlocked"
+          "state": "locked"
          }
         ],
         "name": "wom:pain_anticipation",
-        "state": "unlocked"
+        "state": "unlockable"
        },
        {
         "children": [
@@ -1754,7 +1774,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 42
+     "currentLogicNodeId": 212
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1816,7 +1836,7 @@
       "infernal_forge_lock": 1,
       "is_lock_on": 1,
       "is_lock_onisLocked": 0,
-      "skill_point": 0.0,
+      "skill_point": 4.0,
       "soul_render_lock": 0,
       "the_incinerator_lock": 1,
       "tidal_claw_lock": 1,
@@ -4740,12 +4760,13 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_mn_tabi_last_dash": 2572223,
+    "ua_mn_tabi_last_dash": 2578131,
+    "ua_rs_active_until": 2578139,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 34.0,
-   "HurtByTimestamp": 0,
+   "Health": 37.5981,
+   "HurtByTimestamp": 4562,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4917,11 +4938,6 @@
      }
     },
     {
-     "Count": 1,
-     "Slot": 6,
-     "id": "tcrcore:retracement_stone"
-    },
-    {
      "Count": 6,
      "Slot": 7,
      "id": "minecraft:rotten_flesh"
@@ -4963,6 +4979,11 @@
      "Count": 4,
      "Slot": 14,
      "id": "minecraft:bone"
+    },
+    {
+     "Count": 1,
+     "Slot": 33,
+     "id": "tcrcore:retracement_stone"
     },
     {
      "Count": 1,
@@ -5073,9 +5094,9 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     9,
+     -11,
      3,
-     -16
+     0
     ]
    },
    "Motion": [
@@ -5086,16 +5107,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    8.5732,
+    1.0544,
     3.0,
-    9.0784
+    4.5861
    ],
    "Rotation": [
-    116.033,
-    -3.7397
+    0.4633,
+    -22.0151
    ],
    "Score": 28093,
-   "SelectedItemSlot": 4,
+   "SelectedItemSlot": 2,
    "SleepTimer": 0,
    "SpawnAngle": -85.2473,
    "SpawnDimension": "minecraft:overworld",
@@ -5123,7 +5144,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.66,
+   "foodExhaustionLevel": 4.711,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15443,7 +15464,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 7416,
+    "ticks_since_last_warning": 1123,
     "warning_level": 0
    }
   },
@@ -15455,7 +15476,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2572278,
+  "Time": 2578278,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15469,7 +15490,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 10800,
+  "WanderingTraderSpawnDelay": 4800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16157,9 +16178,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 144742,
+  "rainTime": 138742,
   "raining": 0,
-  "thunderTime": 24869,
+  "thunderTime": 18869,
   "thundering": 0,
   "version": 19133
  },

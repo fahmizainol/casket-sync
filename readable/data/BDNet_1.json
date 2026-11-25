@@ -4436,7 +4436,7 @@
      }
     },
     {
-     "amount": 427,
+     "amount": 428,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -6717,15 +6717,6 @@
      "key": {
       "stack": {
        "item": "minecraft:copper_ingot"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
-       "item": "tcrcore:reset_skill_stone"
       },
       "type": "beyonddimensions:stack_type/item"
      }

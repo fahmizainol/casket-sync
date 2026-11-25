@@ -1,6 +1,83 @@
 {
  "AbsorptionAmount": 0.0,
- "Air": -10,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 170,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 1090,
+   "Id": 12,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:fire_resistance"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 564,
+   "Id": 56,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "epicfight:instability"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 3,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 564,
+   "Id": 94,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "cataclysm:blazing_brand"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 570,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
+  }
+ ],
+ "Air": 300,
  "Attributes": [
   {
    "Base": 1.0,
@@ -45,7 +122,25 @@
    "Name": "minecraft:generic.attack_speed"
   },
   {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
    "Base": 0.0,
+   "Modifiers": [
+    {
+     "Amount": -0.8,
+     "Name": "effect.cataclysm.blazing_brand 3",
+     "Operation": 2,
+     "UUID": [
+      1745323812,
+      -2041363755,
+      -1572496108,
+      -1577761147
+     ],
+     "UUID_str": "68078724-8653-42d5-a245-9d14a1f54685"
+    }
+   ],
    "Name": "minecraft:generic.armor"
   },
   {
@@ -66,6 +161,20 @@
   },
   {
    "Base": 0.0,
+   "Modifiers": [
+    {
+     "Amount": -0.8,
+     "Name": "effect.cataclysm.blazing_brand 3",
+     "Operation": 2,
+     "UUID": [
+      -1304959123,
+      367543571,
+      -1489676869,
+      633550339
+     ],
+     "UUID_str": "b237e76d-15e8-4513-a735-55bb25c33603"
+    }
+   ],
    "Name": "minecraft:generic.armor_toughness"
   },
   {
@@ -104,6 +213,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 9.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 2",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -150,6 +271,18 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -163,7 +296,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -523,7 +656,7 @@
         {
          "Count": 1,
          "Slot": 2,
-         "id": "uniqueaccessories:shiny_stone"
+         "id": "uniqueaccessories:still_beating_heart"
         }
        ],
        "Size": 3
@@ -1303,7 +1436,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 0.0,
+    "skill_point": 3.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -4403,7 +4536,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147362430,
+        "Duration": 2147362384,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -4453,12 +4586,12 @@
         "Name": "minecraft:generic.attack_damage"
        },
        {
-        "Base": 1.0,
-        "Name": "forge:swim_speed"
-       },
-       {
         "Base": 1.3696,
         "Name": "minecraft:generic.flying_speed"
+       },
+       {
+        "Base": 1.0,
+        "Name": "forge:swim_speed"
        },
        {
         "Base": 140.0,
@@ -4485,7 +4618,7 @@
       "CompanionRescueHealth": 139.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 2571618,
+      "CompanionRescueStoredAt": 2577981,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4756,7 +4889,7 @@
        "exhaustionLevel": 3.0141,
        "foodLevel": 0,
        "saturationLevel": 0.0,
-       "tickTimer": 48
+       "tickTimer": 14
       },
       "dragonStamina": {
        "regenPauseTicks": 0
@@ -4783,17 +4916,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:rose_of_temptation": 1,
-   "uniqueaccessories:still_beating_heart": 1
+   "uniqueaccessories:shiny_stone": 1
   },
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2571680,
-  "ua_shiny_last_x": 262.7762,
-  "ua_shiny_last_y": 51.0,
-  "ua_shiny_last_z": -1780.7263
+  "ua_rs_continuous": 0
  },
- "Health": 43.4,
- "HurtByTimestamp": 0,
+ "Health": 68.2161,
+ "HurtByTimestamp": 211,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4928,6 +5057,11 @@
    }
   },
   {
+   "Count": 1,
+   "Slot": 20,
+   "id": "uniqueaccessories:shiny_stone"
+  },
+  {
    "Count": 12,
    "Slot": 22,
    "id": "minecraft:string"
@@ -4996,11 +5130,6 @@
   },
   {
    "Count": 1,
-   "Slot": 32,
-   "id": "uniqueaccessories:still_beating_heart"
-  },
-  {
-   "Count": 1,
    "Slot": 33,
    "id": "cataclysm:void_eye"
   },
@@ -5039,9 +5168,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   6,
+   11,
    3,
-   8
+   6
   ]
  },
  "Motion": [
@@ -5052,13 +5181,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  262.7786,
-  51.0,
-  -1780.7272
+  2.8173,
+  3.0,
+  4.598
  ],
  "Rotation": [
-  -21.7402,
-  36.4046
+  29.9373,
+  -16.0364
  ],
  "Score": 12301,
  "SelectedItemSlot": 0,
@@ -5089,7 +5218,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.093,
+ "foodExhaustionLevel": 0.2,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5100,7 +5229,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 70,
+  "mana": 35,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14590,7 +14719,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7738,
+  "ticks_since_last_warning": 357,
   "warning_level": 0
  }
 }
