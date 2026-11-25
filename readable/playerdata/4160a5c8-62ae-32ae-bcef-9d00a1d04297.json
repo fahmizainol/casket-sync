@@ -3,18 +3,18 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 4,
+   "Amplifier": 7,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 125,
-   "Id": 11,
-   "ShowIcon": 0,
+   "Duration": 415,
+   "Id": 21,
+   "ShowIcon": 1,
    "ShowParticles": 0,
-   "forge:id": "minecraft:resistance"
+   "forge:id": "minecraft:health_boost"
   },
   {
    "Ambient": 1,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
+   "Duration": 249,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
+   "Duration": 258,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -49,6 +49,10 @@
  ],
  "Air": 300,
  "Attributes": [
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
   {
    "Base": 0.0,
    "Name": "attributeslib:dodge_chance"
@@ -121,6 +125,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -194,6 +210,10 @@
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 4.0,
@@ -1324,7 +1344,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 212
+   "currentLogicNodeId": 42
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1384,9 +1404,9 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 0.0,
+    "skill_point": 4.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -4310,12 +4330,14 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_mn_tabi_last_dash": 2545688,
+  "ua_bb_dodge_until": 2551778,
+  "ua_mn_tabi_last_dash": 2551136,
+  "ua_rs_active_until": 2551577,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 34.0,
- "HurtByTimestamp": 0,
+ "Health": 58.3497,
+ "HurtByTimestamp": 1993,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4600,9 +4622,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   26,
+   22,
    3,
-   -13
+   2
   ]
  },
  "Motion": [
@@ -4613,16 +4635,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -0.4702,
+  12.8766,
   3.0,
-  -11.8528
+  11.0273
  ],
  "Rotation": [
-  166.9015,
-  0.0
+  130.5746,
+  -5.5243
  ],
  "Score": 28063,
- "SelectedItemSlot": 5,
+ "SelectedItemSlot": 2,
  "SleepTimer": 0,
  "SpawnAngle": 19.0092,
  "SpawnDimension": "minecraft:overworld",
@@ -4650,10 +4672,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.684,
+ "foodExhaustionLevel": 2.433,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 1,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -4661,7 +4683,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 40,
+  "mana": 125,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14970,7 +14992,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8451,
+  "ticks_since_last_warning": 2044,
   "warning_level": 0
  }
 }

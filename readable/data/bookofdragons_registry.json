@@ -16,7 +16,7 @@
     "HasChest": 0,
     "HasSaddle": 1,
     "Health": 139.0,
-    "LastUpdate": 1795616098435,
+    "LastUpdate": 1795617636627,
     "MaxHealth": 140.0,
     "OwnerUUID": [
      936377957,
@@ -25,8 +25,8 @@
      1398408445
     ],
     "OwnerUUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
-    "PosX": -210,
-    "PosY": 85,
+    "PosX": -202,
+    "PosY": 84,
     "PosZ": -192,
     "Stage": "BROAD_WING",
     "Type": "NIGHTFURY"

@@ -10,91 +10,21 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 571,
+   "Duration": 508,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 1,
-   "Id": 11,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:resistance"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 1,
-   "Id": 150,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "efn:ring"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 1,
-   "Id": 3,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:haste"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 438,
-   "Id": 12,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:fire_resistance"
   }
  ],
  "Air": 300,
  "Attributes": [
   {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
    "Base": 4.0,
-   "Modifiers": [
-    {
-     "Amount": 0.4,
-     "Name": "effect.minecraft.haste 3",
-     "Operation": 2,
-     "UUID": [
-      -1349816769,
-      858278922,
-      -1439278174,
-      -1147289869
-     ],
-     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
-    }
-   ],
    "Name": "epicfight:offhand_attack_speed"
   },
   {
@@ -102,20 +32,32 @@
    "Name": "attributeslib:dodge_chance"
   },
   {
+   "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:creative_flight"
+  },
+  {
+   "Base": 0.5,
+   "Name": "epicfight:impact"
+  },
+  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
   },
   {
-   "Base": 100.0,
-   "Name": "irons_spellbooks:max_mana"
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:ice_spell_power"
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 3.0,
@@ -194,64 +136,6 @@
    "Name": "forge:entity_gravity"
   },
   {
-   "Base": 15.0,
-   "Modifiers": [
-    {
-     "Amount": 5.6,
-     "Name": "stamina_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:armor_negation"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:lightning_spell_power"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:holy_spell_power"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 0.5,
-   "Name": "epicfight:impact"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
-  },
-  {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
   },
@@ -273,18 +157,6 @@
       1821068796
      ],
      "UUID_str": "9f08b24d-a700-4515-91d2-d32f6c8b4dfc"
-    },
-    {
-     "Amount": 0.4,
-     "Name": "effect.minecraft.haste 3",
-     "Operation": 2,
-     "UUID": [
-      -1349816769,
-      858278922,
-      -1439278174,
-      -1147289869
-     ],
-     "UUID_str": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
     }
    ],
    "Name": "minecraft:generic.attack_speed"
@@ -292,6 +164,28 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 15.0,
+   "Modifiers": [
+    {
+     "Amount": 5.6,
+     "Name": "stamina_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:armor_negation"
   }
  ],
  "BalmData": {},
@@ -301,7 +195,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 51,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1444,9 +1338,9 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 1,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
-    "skill_point": 5.0,
+    "skill_point": 3.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 1,
     "tidal_claw_lock": 1,
@@ -1651,6 +1545,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4471,11 +4366,11 @@
     {
      "position": {
       "dimension": "tcrcore:sanctum",
-      "x": -209.4873,
+      "x": -201.6526,
       "xRot": 0.0,
-      "y": 85.0,
-      "yRot": -72.3438,
-      "z": -191.4881
+      "y": 84.0,
+      "yRot": -115.4397,
+      "z": -191.4274
      },
      "uuid": [
       -316269812,
@@ -4546,7 +4441,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147368762,
+        "Duration": 2147366170,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -4588,12 +4483,12 @@
         "Name": "minecraft:generic.max_health"
        },
        {
-        "Base": 0.0,
-        "Name": "forge:step_height_addition"
-       },
-       {
         "Base": 0.08,
         "Name": "forge:entity_gravity"
+       },
+       {
+        "Base": 0.0,
+        "Name": "forge:step_height_addition"
        },
        {
         "Base": 8.688,
@@ -4625,10 +4520,10 @@
       "CompanionPreviewHeight": 2.6,
       "CompanionPreviewWidth": 1.9,
       "CompanionRescueArmor": 8,
-      "CompanionRescueHealth": 139.0,
+      "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 2543380,
+      "CompanionRescueStoredAt": 2551155,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4812,8 +4707,8 @@
       ],
       "HasClearAirspace": 1,
       "HasConsumedFood": 0,
-      "Health": 139.0,
-      "HurtByTimestamp": 101,
+      "Health": 140.0,
+      "HurtByTimestamp": 2245,
       "HurtTime": 0,
       "InLove": 0,
       "InSittingPose": 0,
@@ -4854,23 +4749,23 @@
        1398408445
       ],
       "PH_SmoothedEntityPitch": 0.0,
-      "PH_SmoothedMovementYaw": -1152.3438,
-      "PH_UnwrappedMovementYaw": -1152.3438,
+      "PH_SmoothedMovementYaw": -1915.4397,
+      "PH_UnwrappedMovementYaw": -1915.4397,
       "PH_UnwrappedRoll": 0.0,
-      "PH_UnwrappedYaw": 2087.6562,
+      "PH_UnwrappedYaw": 1324.5603,
       "PersistenceRequired": 1,
       "Personality": 0,
       "PortalCooldown": 0,
       "Pos": [
-       -209.4873,
-       85.0,
-       -191.4881
+       -201.6526,
+       84.0,
+       -191.4274
       ],
       "RoostX": 210,
       "RoostY": 73,
       "RoostZ": -673,
       "Rotation": [
-       -72.3438,
+       -115.4397,
        0.0
       ],
       "SeatLocked": 1,
@@ -4896,10 +4791,10 @@
       "UseGroundNav": 1,
       "Variant": 0,
       "dragonNeeds": {
-       "exhaustionLevel": 3.4961,
+       "exhaustionLevel": 3.0141,
        "foodLevel": 0,
        "saturationLevel": 0.0,
-       "tickTimer": 36
+       "tickTimer": 68
       },
       "dragonStamina": {
        "regenPauseTicks": 0
@@ -4929,16 +4824,17 @@
    "uniqueaccessories:still_beating_heart": 1,
    "uniqueaccessories:withered_heart": 1
   },
+  "ua_rs_active_until": 2550973,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_shiny_last_active": 2545738,
-  "ua_shiny_last_x": -20.313,
+  "ua_shiny_last_active": 2551688,
+  "ua_shiny_last_x": 11.1652,
   "ua_shiny_last_y": 3.0,
-  "ua_shiny_last_z": -14.6591,
-  "ua_tabi_last_dash": 2544243
+  "ua_shiny_last_z": 14.1365,
+  "ua_tabi_last_dash": 2551393
  },
- "Health": 76.0,
- "HurtByTimestamp": 2382,
+ "Health": 0.0,
+ "HurtByTimestamp": 3300,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5032,6 +4928,11 @@
    "Count": 1,
    "Slot": 10,
    "id": "tcrcore:retracement_stone"
+  },
+  {
+   "Count": 3,
+   "Slot": 11,
+   "id": "minecraft:gold_nugget"
   },
   {
    "Count": 1,
@@ -5224,9 +5125,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
+   12,
    3,
-   3,
-   2
+   14
   ]
  },
  "Motion": [
@@ -5237,15 +5138,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -20.313,
+  11.1476,
   3.0,
-  -14.6591
+  14.1319
  ],
  "Rotation": [
-  -82.017,
-  -18.8058
+  -91.1186,
+  0.0
  ],
- "Score": 12274,
+ "Score": 12301,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 0.0,
@@ -5262,9 +5163,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 64,
- "XpP": 0.7297,
+ "XpP": 0.7943,
  "XpSeed": -736053570,
- "XpTotal": 12274,
+ "XpTotal": 12301,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5274,7 +5175,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.65,
+ "foodExhaustionLevel": 3.582,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5293,7 +5194,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14772,10 +14672,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2346,
+  "ticks_since_last_warning": 8013,
   "warning_level": 0
  }
 }

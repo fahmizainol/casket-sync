@@ -43602,11 +43602,11 @@
       {
        "position": {
         "dimension": "tcrcore:sanctum",
-        "x": -209.4873,
+        "x": -201.6526,
         "xRot": 0.0,
-        "y": 85.0,
-        "yRot": -72.3438,
-        "z": -191.4881
+        "y": 84.0,
+        "yRot": -115.4397,
+        "z": -191.4274
        },
        "uuid": [
         -316269812,
@@ -43677,7 +43677,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147368762,
+          "Duration": 2147366170,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -43719,12 +43719,12 @@
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
-         },
-         {
           "Base": 0.08,
           "Name": "forge:entity_gravity"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 8.688,
@@ -43756,10 +43756,10 @@
         "CompanionPreviewHeight": 2.6,
         "CompanionPreviewWidth": 1.9,
         "CompanionRescueArmor": 8,
-        "CompanionRescueHealth": 139.0,
+        "CompanionRescueHealth": 140.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 2543380,
+        "CompanionRescueStoredAt": 2551155,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -43943,8 +43943,8 @@
         ],
         "HasClearAirspace": 1,
         "HasConsumedFood": 0,
-        "Health": 139.0,
-        "HurtByTimestamp": 101,
+        "Health": 140.0,
+        "HurtByTimestamp": 2245,
         "HurtTime": 0,
         "InLove": 0,
         "InSittingPose": 0,
@@ -43985,23 +43985,23 @@
          1398408445
         ],
         "PH_SmoothedEntityPitch": 0.0,
-        "PH_SmoothedMovementYaw": -1152.3438,
-        "PH_UnwrappedMovementYaw": -1152.3438,
+        "PH_SmoothedMovementYaw": -1915.4397,
+        "PH_UnwrappedMovementYaw": -1915.4397,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 2087.6562,
+        "PH_UnwrappedYaw": 1324.5603,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         -209.4873,
-         85.0,
-         -191.4881
+         -201.6526,
+         84.0,
+         -191.4274
         ],
         "RoostX": 210,
         "RoostY": 73,
         "RoostZ": -673,
         "Rotation": [
-         -72.3438,
+         -115.4397,
          0.0
         ],
         "SeatLocked": 1,
@@ -44027,10 +44027,10 @@
         "UseGroundNav": 1,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 3.4961,
+         "exhaustionLevel": 3.0141,
          "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 36
+         "tickTimer": 68
         },
         "dragonStamina": {
          "regenPauseTicks": 0
