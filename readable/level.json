@@ -240,7 +240,8 @@
     "tectonic/tectonic",
     "tu_di_temple",
     "mod:mcwifipnp",
-    "mod:samsaragate"
+    "mod:samsaragate",
+    "mod:bossdps"
    ]
   },
   "DataVersion": 3465,
@@ -427,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795616167898,
+  "LastPlayed": 1795616296066,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -16426,6 +16427,10 @@
    {
     "ModId": "fdlib",
     "ModVersion": "1.0.9"
+   },
+   {
+    "ModId": "bossdps",
+    "ModVersion": "1.0.0"
    },
    {
     "ModId": "ohthetreesyoullgrow",
