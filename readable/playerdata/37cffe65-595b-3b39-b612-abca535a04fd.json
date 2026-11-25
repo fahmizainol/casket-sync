@@ -5075,7 +5075,7 @@
   0.9612
  ],
  "Rotation": [
-  -10.5001,
+  -106.6867,
   0.0
  ],
  "Score": 12301,
@@ -14611,7 +14611,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4766,
+  "ticks_since_last_warning": 10766,
   "warning_level": 0
  }
 }

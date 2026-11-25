@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1874132,
+  "DayTime": 1880132,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795621225851,
+  "LastPlayed": 1795621525849,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 256,
+     "Duration": 241,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 256,
+     "Duration": 241,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -1084,7 +1084,7 @@
      }
     },
     "epicskills:ability_points": {
-     "abilityPoint": 10,
+     "abilityPoint": 14,
      "requiredExp": 7,
      "requiredExpLevel": 0
     },
@@ -1737,7 +1737,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 212
+     "currentLogicNodeId": 42
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -4724,6 +4724,7 @@
      "vehicles": []
     },
     "last_send_time": 0,
+    "quark:trying_crawl": 0,
     "ua_mn_tabi_last_dash": 2618348,
     "ua_rs_active_until": 2618401,
     "ua_rs_bonus": 0.0,
@@ -4862,9 +4863,36 @@
      }
     },
     {
-     "Count": 4,
+     "Count": 1,
      "Slot": 4,
-     "id": "epicskills:ability_stone"
+     "id": "efn:yamato_dmc_in_sheath",
+     "tag": {
+      "Enchantments": [
+       {
+        "id": "minecraft:sharpness",
+        "lvl": 5
+       },
+       {
+        "id": "minecraft:knockback",
+        "lvl": 2
+       },
+       {
+        "id": "minecraft:fire_aspect",
+        "lvl": 2
+       },
+       {
+        "id": "minecraft:looting",
+        "lvl": 3
+       },
+       {
+        "id": "efn:yamato_doppelganger",
+        "lvl": 1
+       }
+      ],
+      "RepairCost": 1,
+      "TotalDamage": 712.957,
+      "kusabimaru_sheath": 0
+     }
     },
     {
      "Count": 1,
@@ -5059,16 +5087,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -3.8516,
+    4.704,
     3.0,
-    5.3819
+    -1.8492
    ],
    "Rotation": [
-    -67.3286,
-    26.7829
+    19.6133,
+    44.7381
    ],
    "Score": 28099,
-   "SelectedItemSlot": 4,
+   "SelectedItemSlot": 0,
    "SleepTimer": 0,
    "SpawnAngle": -24.065,
    "SpawnDimension": "minecraft:overworld",
@@ -15416,7 +15444,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 4550,
+    "ticks_since_last_warning": 10550,
     "warning_level": 0
    }
   },
@@ -15428,7 +15456,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2620278,
+  "Time": 2626278,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15442,7 +15470,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 10800,
+  "WanderingTraderSpawnDelay": 4800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16130,9 +16158,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 96742,
+  "rainTime": 90742,
   "raining": 0,
-  "thunderTime": 127565,
+  "thunderTime": 121565,
   "thundering": 0,
   "version": 19133
  },
