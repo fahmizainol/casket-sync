@@ -1,37 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 295,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 495,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -80,18 +48,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 9.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 2",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -166,18 +122,6 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -227,7 +171,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -597,10 +541,14 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_dodge",
+   "GUARD": "efn:efn_parry"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_dodge",
-   "guard": "efn:efn_parry",
+   "dodge": "efn:murasama_dodge",
+   "guard": "efn:murasama_parry",
+   "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:efn_dodge"
    },
@@ -1306,7 +1254,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 231
+   "currentLogicNodeId": 264
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1366,9 +1314,9 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
-    "skill_point": 3.0,
+    "skill_point": 5.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 0,
     "tidal_claw_lock": 1,
@@ -1412,6 +1360,7 @@
     "flameEyeActivated": 1,
     "flameEyeBlessed": 1,
     "flame_eye_gotten": 1,
+    "harbingerRemnantHumanoidKilled": 1,
     "ignisHumanoidKilled": 1,
     "isAllEyeKilled": 0,
     "isAllEyeKilledisLocked": 0,
@@ -1542,10 +1491,12 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 1,
+  "EFNMurasamaSheathTicks": 0,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795623898663,
+     "WarpStoneCooldownUntilUnix": 1795625627737,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -4394,12 +4345,12 @@
    "lastKnownPositions": [
     {
      "position": {
-      "dimension": "tcrcore:sanctum",
-      "x": -184.41,
-      "xRot": 0.0,
-      "y": 79.0,
-      "yRot": 7.5741,
-      "z": -188.0954
+      "dimension": "pbf1:sanctum_of_the_battle1",
+      "x": -1.3873,
+      "xRot": 17.8804,
+      "y": 3.5454,
+      "yRot": -139.8933,
+      "z": 10.5561
      },
      "uuid": [
       -316269812,
@@ -4423,7 +4374,7 @@
     }
    ],
    "mountIndex": 0,
-   "mountReadyAt": 2608132,
+   "mountReadyAt": 2695810,
    "mountWheelSlots": [],
    "mounts": [
     {
@@ -4439,12 +4390,12 @@
    "origins": [
     {
      "position": {
-      "dimension": "minecraft:overworld",
-      "x": 238.5,
-      "xRot": 33.6606,
-      "y": 70.0,
-      "yRot": -52.9545,
-      "z": -1795.5
+      "dimension": "pbf1:sanctum_of_the_battle1",
+      "x": -19.5,
+      "xRot": 26.0458,
+      "y": 10.0,
+      "yRot": -27.9339,
+      "z": -23.5
      },
      "uuid": [
       -316269812,
@@ -4459,7 +4410,7 @@
     {
      "entity": {
       "AbsorptionAmount": 0.0,
-      "AccumulatedRoll": 0.0,
+      "AccumulatedRoll": -0.0527,
       "ActiveEffects": [
        {
         "Ambient": 1,
@@ -4470,7 +4421,7 @@
           "id": "minecraft:milk_bucket"
          }
         ],
-        "Duration": 2147358408,
+        "Duration": 2147358354,
         "Id": 12,
         "ShowIcon": 1,
         "ShowParticles": 1,
@@ -4496,32 +4447,24 @@
       ],
       "Attributes": [
        {
-        "Base": 0.0,
-        "Name": "epicfight:stun_armor"
-       },
-       {
         "Base": 0.3376,
         "Name": "minecraft:generic.knockback_resistance"
-       },
-       {
-        "Base": 0.2212,
-        "Name": "minecraft:generic.movement_speed"
        },
        {
         "Base": 0.08,
         "Name": "forge:entity_gravity"
        },
        {
+        "Base": 8.688,
+        "Name": "minecraft:generic.armor"
+       },
+       {
+        "Base": 0.2212,
+        "Name": "minecraft:generic.movement_speed"
+       },
+       {
         "Base": 0.0,
-        "Name": "forge:step_height_addition"
-       },
-       {
-        "Base": 10.752,
-        "Name": "minecraft:generic.attack_damage"
-       },
-       {
-        "Base": 1.3696,
-        "Name": "minecraft:generic.flying_speed"
+        "Name": "epicfight:stun_armor"
        },
        {
         "Base": 1.0,
@@ -4532,8 +4475,16 @@
         "Name": "minecraft:generic.max_health"
        },
        {
-        "Base": 8.688,
-        "Name": "minecraft:generic.armor"
+        "Base": 10.752,
+        "Name": "minecraft:generic.attack_damage"
+       },
+       {
+        "Base": 1.3696,
+        "Name": "minecraft:generic.flying_speed"
+       },
+       {
+        "Base": 0.0,
+        "Name": "forge:step_height_addition"
        }
       ],
       "AwaitingTamingRitual": 0,
@@ -4552,7 +4503,7 @@
       "CompanionRescueHealth": 140.0,
       "CompanionRescueMaxHealth": 140.0,
       "CompanionRescueName": "Night Fury",
-      "CompanionRescueStoredAt": 2678273,
+      "CompanionRescueStoredAt": 2695804,
       "CompanionRescueType": "bookofdragons:nightfury",
       "DeathTime": 0,
       "DragonDataVersion": 1,
@@ -4769,7 +4720,7 @@
       "OAH_CurrentFuel": 0,
       "OAH_FullRechargeCooldown": 0,
       "OAH_PendingScale": 0.0,
-      "OnGround": 1,
+      "OnGround": 0,
       "OrderedToSit": 0,
       "Owner": [
        936377957,
@@ -4777,25 +4728,25 @@
        -1240290358,
        1398408445
       ],
-      "PH_SmoothedEntityPitch": 0.0,
-      "PH_SmoothedMovementYaw": -1432.4259,
-      "PH_UnwrappedMovementYaw": -1432.4259,
+      "PH_SmoothedEntityPitch": 0.4701,
+      "PH_SmoothedMovementYaw": -1570.8768,
+      "PH_UnwrappedMovementYaw": -1570.8768,
       "PH_UnwrappedRoll": 0.0,
-      "PH_UnwrappedYaw": 1807.5741,
+      "PH_UnwrappedYaw": 1660.1067,
       "PersistenceRequired": 1,
       "Personality": 0,
       "PortalCooldown": 0,
       "Pos": [
-       -184.41,
-       79.0,
-       -188.0954
+       -1.3873,
+       3.5454,
+       10.5561
       ],
       "RoostX": 210,
       "RoostY": 73,
       "RoostZ": -673,
       "Rotation": [
-       7.5741,
-       0.0
+       -139.8933,
+       17.8804
       ],
       "SeatLocked": 1,
       "SecondaryAbility": "lightning_strike",
@@ -4808,8 +4759,8 @@
       "SpawnScaleTicks": 1,
       "TamingRitualCompleted": 1,
       "TamingRitualTimer": 0,
-      "ThrottleLevel": 0.0,
-      "TransportMode": 0,
+      "ThrottleLevel": 0.0095,
+      "TransportMode": 1,
       "UUID": [
        -316269812,
        593383161,
@@ -4817,16 +4768,16 @@
        760723722
       ],
       "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-      "UseGroundNav": 1,
+      "UseGroundNav": 0,
       "Variant": 0,
       "dragonNeeds": {
-       "exhaustionLevel": 3.5278,
+       "exhaustionLevel": 3.8454,
        "foodLevel": 0,
        "saturationLevel": 0.0,
-       "tickTimer": 70
+       "tickTimer": 44
       },
       "dragonStamina": {
-       "regenPauseTicks": 0
+       "regenPauseTicks": 20
       },
       "id": "bookofdragons:nightfury"
      },
@@ -4854,31 +4805,44 @@
   },
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2691888
+  "ua_tabi_last_dash": 2697055
  },
- "Health": 76.0,
- "HurtByTimestamp": 900,
+ "Health": 44.0,
+ "HurtByTimestamp": 3501,
  "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
    "Slot": 0,
-   "id": "cataclysm:the_annihilator",
+   "id": "efn:hf_blade",
    "tag": {
     "Enchantments": [
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
      {
       "id": "minecraft:sharpness",
       "lvl": 5
      },
      {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
+      "id": "minecraft:sweeping",
       "lvl": 3
      }
-    ]
+    ],
+    "irons_spellbooks:spell_container": {
+     "data": [
+      {
+       "id": "irons_spellbooks:thunderstorm",
+       "index": 0,
+       "level": 4
+      }
+     ],
+     "maxSpells": 1,
+     "mustEquip": 0,
+     "spellWheel": 1
+    },
+    "murasama_sheath": 0
    }
   },
   {
@@ -4943,8 +4907,18 @@
    }
   },
   {
+   "Count": 4,
+   "Slot": 9,
+   "id": "epicskills:ability_stone"
+  },
+  {
    "Count": 1,
    "Slot": 10,
+   "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 11,
    "id": "tcrcore:rare_artifact_ticket"
   },
   {
@@ -4980,35 +4954,22 @@
   {
    "Count": 1,
    "Slot": 19,
-   "id": "efn:hf_blade",
+   "id": "cataclysm:the_annihilator",
    "tag": {
     "Enchantments": [
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
      {
       "id": "minecraft:sharpness",
       "lvl": 5
      },
      {
-      "id": "minecraft:sweeping",
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:looting",
       "lvl": 3
      }
-    ],
-    "irons_spellbooks:spell_container": {
-     "data": [
-      {
-       "id": "irons_spellbooks:thunderstorm",
-       "index": 0,
-       "level": 4
-      }
-     ],
-     "maxSpells": 1,
-     "mustEquip": 0,
-     "spellWheel": 1
-    },
-    "murasama_sheath": 0
+    ]
    }
   },
   {
@@ -5141,13 +5102,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  10.314,
-  3.0,
-  2.7045
+  254.8444,
+  63.0,
+  -1775.7
  ],
  "Rotation": [
-  -114.2885,
-  -67.1988
+  -97.8848,
+  15.8466
  ],
  "Score": 12307,
  "SelectedItemSlot": 0,
@@ -5181,7 +5142,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.85,
+ "foodExhaustionLevel": 3.97,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14678,7 +14639,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6580,
+  "ticks_since_last_warning": 579,
   "warning_level": 0
  }
 }

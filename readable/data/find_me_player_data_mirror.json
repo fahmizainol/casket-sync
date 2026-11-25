@@ -43601,12 +43601,12 @@
      "lastKnownPositions": [
       {
        "position": {
-        "dimension": "tcrcore:sanctum",
-        "x": -184.41,
-        "xRot": 0.0,
-        "y": 79.0,
-        "yRot": 7.5741,
-        "z": -188.0954
+        "dimension": "pbf1:sanctum_of_the_battle1",
+        "x": -1.3873,
+        "xRot": 17.8804,
+        "y": 3.5454,
+        "yRot": -139.8933,
+        "z": 10.5561
        },
        "uuid": [
         -316269812,
@@ -43630,7 +43630,7 @@
       }
      ],
      "mountIndex": 0,
-     "mountReadyAt": 2608132,
+     "mountReadyAt": 2695810,
      "mountWheelSlots": [],
      "mounts": [
       {
@@ -43646,12 +43646,12 @@
      "origins": [
       {
        "position": {
-        "dimension": "minecraft:overworld",
-        "x": 238.5,
-        "xRot": 33.6606,
-        "y": 70.0,
-        "yRot": -52.9545,
-        "z": -1795.5
+        "dimension": "pbf1:sanctum_of_the_battle1",
+        "x": -19.5,
+        "xRot": 26.0458,
+        "y": 10.0,
+        "yRot": -27.9339,
+        "z": -23.5
        },
        "uuid": [
         -316269812,
@@ -43666,7 +43666,7 @@
       {
        "entity": {
         "AbsorptionAmount": 0.0,
-        "AccumulatedRoll": 0.0,
+        "AccumulatedRoll": -0.0527,
         "ActiveEffects": [
          {
           "Ambient": 1,
@@ -43677,7 +43677,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147358408,
+          "Duration": 2147358354,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -43703,32 +43703,24 @@
         ],
         "Attributes": [
          {
-          "Base": 0.0,
-          "Name": "epicfight:stun_armor"
-         },
-         {
           "Base": 0.3376,
           "Name": "minecraft:generic.knockback_resistance"
-         },
-         {
-          "Base": 0.2212,
-          "Name": "minecraft:generic.movement_speed"
          },
          {
           "Base": 0.08,
           "Name": "forge:entity_gravity"
          },
          {
+          "Base": 8.688,
+          "Name": "minecraft:generic.armor"
+         },
+         {
+          "Base": 0.2212,
+          "Name": "minecraft:generic.movement_speed"
+         },
+         {
           "Base": 0.0,
-          "Name": "forge:step_height_addition"
-         },
-         {
-          "Base": 10.752,
-          "Name": "minecraft:generic.attack_damage"
-         },
-         {
-          "Base": 1.3696,
-          "Name": "minecraft:generic.flying_speed"
+          "Name": "epicfight:stun_armor"
          },
          {
           "Base": 1.0,
@@ -43739,8 +43731,16 @@
           "Name": "minecraft:generic.max_health"
          },
          {
-          "Base": 8.688,
-          "Name": "minecraft:generic.armor"
+          "Base": 10.752,
+          "Name": "minecraft:generic.attack_damage"
+         },
+         {
+          "Base": 1.3696,
+          "Name": "minecraft:generic.flying_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -43759,7 +43759,7 @@
         "CompanionRescueHealth": 140.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 2678273,
+        "CompanionRescueStoredAt": 2695804,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -43976,7 +43976,7 @@
         "OAH_CurrentFuel": 0,
         "OAH_FullRechargeCooldown": 0,
         "OAH_PendingScale": 0.0,
-        "OnGround": 1,
+        "OnGround": 0,
         "OrderedToSit": 0,
         "Owner": [
          936377957,
@@ -43984,25 +43984,25 @@
          -1240290358,
          1398408445
         ],
-        "PH_SmoothedEntityPitch": 0.0,
-        "PH_SmoothedMovementYaw": -1432.4259,
-        "PH_UnwrappedMovementYaw": -1432.4259,
+        "PH_SmoothedEntityPitch": 0.4701,
+        "PH_SmoothedMovementYaw": -1570.8768,
+        "PH_UnwrappedMovementYaw": -1570.8768,
         "PH_UnwrappedRoll": 0.0,
-        "PH_UnwrappedYaw": 1807.5741,
+        "PH_UnwrappedYaw": 1660.1067,
         "PersistenceRequired": 1,
         "Personality": 0,
         "PortalCooldown": 0,
         "Pos": [
-         -184.41,
-         79.0,
-         -188.0954
+         -1.3873,
+         3.5454,
+         10.5561
         ],
         "RoostX": 210,
         "RoostY": 73,
         "RoostZ": -673,
         "Rotation": [
-         7.5741,
-         0.0
+         -139.8933,
+         17.8804
         ],
         "SeatLocked": 1,
         "SecondaryAbility": "lightning_strike",
@@ -44015,8 +44015,8 @@
         "SpawnScaleTicks": 1,
         "TamingRitualCompleted": 1,
         "TamingRitualTimer": 0,
-        "ThrottleLevel": 0.0,
-        "TransportMode": 0,
+        "ThrottleLevel": 0.0095,
+        "TransportMode": 1,
         "UUID": [
          -316269812,
          593383161,
@@ -44024,16 +44024,16 @@
          760723722
         ],
         "UUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-        "UseGroundNav": 1,
+        "UseGroundNav": 0,
         "Variant": 0,
         "dragonNeeds": {
-         "exhaustionLevel": 3.5278,
+         "exhaustionLevel": 3.8454,
          "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 70
+         "tickTimer": 44
         },
         "dragonStamina": {
-         "regenPauseTicks": 0
+         "regenPauseTicks": 20
         },
         "id": "bookofdragons:nightfury"
        },

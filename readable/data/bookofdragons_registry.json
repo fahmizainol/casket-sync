@@ -1,36 +1,6 @@
 {
  "DataVersion": 3465,
  "data": {
-  "Dragons": [
-   {
-    "Affection": 1000,
-    "CustomName": "Night Fury",
-    "Dimension": "tcrcore:sanctum",
-    "DragonUUID": [
-     -316269812,
-     593383161,
-     -1800086921,
-     760723722
-    ],
-    "DragonUUID_str": "ed261b0c-235e-4ef9-94b4-da772d57b90a",
-    "HasChest": 0,
-    "HasSaddle": 1,
-    "Health": 139.0,
-    "LastUpdate": 1795624096062,
-    "MaxHealth": 140.0,
-    "OwnerUUID": [
-     936377957,
-     1499151161,
-     -1240290358,
-     1398408445
-    ],
-    "OwnerUUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
-    "PosX": -185,
-    "PosY": 79,
-    "PosZ": -189,
-    "Stage": "BROAD_WING",
-    "Type": "NIGHTFURY"
-   }
-  ]
+  "Dragons": []
  }
 }

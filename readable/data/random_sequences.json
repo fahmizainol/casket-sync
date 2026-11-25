@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    84546302602200710,
-    -2862765704726156048
+    5507982892120880081,
+    -6267700483154019045
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -2729771642857667847,
-    845762812197707142
+    -425268747202763809,
+    6209522866305364610
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2235,8 +2235,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    3570585124143451923,
-    -7963864296527385404
+    -7741338699463429647,
+    855785372320234652
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -2321,6 +2321,12 @@
    "source": [
     5589171084802667258,
     5051018103616762450
+   ]
+  },
+  "tcr_bosses:entities/harbinger_humanoid": {
+   "source": [
+    2866351487633763021,
+    -8689044028160109330
    ]
   },
   "tcr_bosses:entities/ignis_humanoid": {
