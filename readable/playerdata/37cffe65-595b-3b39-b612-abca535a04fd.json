@@ -1,5 +1,37 @@
 {
  "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 342,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 542,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -43,6 +75,10 @@
     }
    ],
    "Name": "minecraft:generic.attack_speed"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -104,6 +140,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 9.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 2",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -150,6 +198,18 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -1304,7 +1364,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 0.0,
+    "skill_point": 1.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 0,
     "tidal_claw_lock": 1,
@@ -4787,10 +4847,12 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
+  "ua_rs_active_until": 2667492,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 2668236
  },
- "Health": 44.0,
+ "Health": 76.0,
  "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
@@ -4836,6 +4898,11 @@
      }
     ]
    }
+  },
+  {
+   "Count": 1,
+   "Slot": 2,
+   "id": "tcrcore:retracement_stone"
   },
   {
    "Count": 41,
@@ -5052,9 +5119,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -17,
+   11,
    3,
-   -2
+   10
   ]
  },
  "Motion": [
@@ -5065,13 +5132,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  3.7427,
+  -4.1023,
   3.0,
-  1.1233
+  -8.6929
  ],
  "Rotation": [
-  169.8384,
-  -30.0
+  -113.0022,
+  -22.8618
  ],
  "Score": 12301,
  "SelectedItemSlot": 0,
@@ -5105,7 +5172,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 1.75,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5116,7 +5183,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 5,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14606,7 +14673,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10203,
+  "ticks_since_last_warning": 3683,
   "warning_level": 0
  }
 }
