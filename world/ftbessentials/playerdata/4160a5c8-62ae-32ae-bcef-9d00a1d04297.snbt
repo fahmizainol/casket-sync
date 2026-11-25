@@ -3,10 +3,9 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "pbf1:sanctum_of_the_battle1", x: -2, y: 3, z: -2, time: 1795624744056L, xRot: 0.0f, yRot: 3.429196E-4f }
+	last_seen: { dim: "minecraft:overworld", x: 258, y: 63, z: -1776, time: 1795626630024L, xRot: 54.15879f, yRot: 83.035126f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "pbf1:sanctum_of_the_battle1", x: 11, y: 3, z: 12, time: 1795626265525L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -12, y: 3, z: -3, time: 1795626291519L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: 3, y: 3, z: -13, time: 1795626335688L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -9, y: 3, z: -10, time: 1795626359894L }
@@ -16,6 +15,7 @@
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -19, y: 3, z: 5, time: 1795626420685L }
 		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1776, time: 1795626420701L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -12, y: 3, z: 14, time: 1795626436764L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -21, y: 3, z: 18, time: 1795626606327L }
 	]
 	homes: { }
 	kit_use_times: { }
