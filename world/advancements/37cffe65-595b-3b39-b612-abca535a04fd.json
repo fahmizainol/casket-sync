@@ -702,5 +702,11 @@
     },
     "done": true
   },
+  "efn:hf_murasama": {
+    "criteria": {
+      "obtain": "2026-11-26 00:55:10 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

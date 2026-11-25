@@ -23,42 +23,12 @@
    "Name": "minecraft:generic.armor"
   },
   {
-   "Base": 0.0,
-   "Name": "epicfight:armor_negation"
-  },
-  {
    "Base": 1.0,
    "Name": "epicfight:max_strikes"
   },
   {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 15.0,
-   "Modifiers": [
-    {
-     "Amount": 5.6,
-     "Name": "stamina_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "epicfight:staminar"
-  },
-  {
    "Base": 1.0,
    "Name": "attributeslib:draw_speed"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
   },
   {
    "Base": 4.0,
@@ -66,35 +36,11 @@
   },
   {
    "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 0.0,
    "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 0.5,
-   "Name": "epicfight:impact"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
-  },
-  {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
   },
   {
    "Base": 20.0,
@@ -125,6 +71,76 @@
     }
    ],
    "Name": "minecraft:generic.max_health"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:holy_spell_power"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:armor_negation"
+  },
+  {
+   "Base": 100.0,
+   "Name": "irons_spellbooks:max_mana"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:ice_spell_power"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:lightning_spell_power"
+  },
+  {
+   "Base": 15.0,
+   "Modifiers": [
+    {
+     "Amount": 5.6,
+     "Name": "stamina_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 0.5,
+   "Name": "epicfight:impact"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
+  },
+  {
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
+  },
+  {
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
+  },
+  {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
   },
   {
    "Base": 1.0,
@@ -171,7 +187,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1253,8 +1269,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 264
+   "currentDataNodeId": 160,
+   "currentLogicNodeId": 160
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1491,8 +1507,8 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 1,
-  "EFNMurasamaSheathTicks": 0,
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 3,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -4803,9 +4819,10 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
+  "ua_rs_active_until": 2703955,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2697055
+  "ua_tabi_last_dash": 2703523
  },
  "Health": 44.0,
  "HurtByTimestamp": 3501,
@@ -4814,7 +4831,7 @@
   {
    "Count": 1,
    "Slot": 0,
-   "id": "efn:hf_blade",
+   "id": "efn:hf_murasama",
    "tag": {
     "Enchantments": [
      {
@@ -4950,6 +4967,11 @@
    "Count": 1,
    "Slot": 17,
    "id": "tcrcore:retracement_stone"
+  },
+  {
+   "Count": 31,
+   "Slot": 18,
+   "id": "minecraft:diamond"
   },
   {
    "Count": 1,
@@ -5096,21 +5118,21 @@
  },
  "Motion": [
   0.0,
-  -0.0784,
+  -1.393,
   0.0
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  254.8444,
-  63.0,
-  -1775.7
+  0.5704,
+  7.0798,
+  0.4313
  ],
  "Rotation": [
-  -97.8848,
-  15.8466
+  95.2002,
+  48.3175
  ],
- "Score": 12307,
+ "Score": 12457,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -121.4462,
@@ -5129,10 +5151,10 @@
   1398408445
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
- "XpLevel": 64,
- "XpP": 0.8086,
+ "XpLevel": 65,
+ "XpP": 0.1639,
  "XpSeed": -736053570,
- "XpTotal": 12307,
+ "XpTotal": 12457,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5142,12 +5164,12 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.97,
+ "foodExhaustionLevel": 3.764,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "",
+  "castingEquipmentSlot": "mainhand",
   "castingSpellId": "",
   "castingSpellLevel": 0,
   "evasionHitsRemaining": 0.0,
@@ -14639,7 +14661,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 579,
+  "ticks_since_last_warning": 6579,
   "warning_level": 0
  }
 }
