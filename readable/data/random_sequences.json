@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    7805890831031488970,
-    4998680785602458562
+    -6923173275104263686,
+    -8180281922897128643
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -4762852786830913289,
-    -3650210184450402586
+    7290442265668860608,
+    5102301966069489701
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -4035886678023022131,
-    3091638386092537535
+    2405163417076863505,
+    1918792399772290785
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2235,8 +2235,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    8753990596749927148,
-    6571360018405615388
+    3570585124143451923,
+    -7963864296527385404
    ]
   },
   "minecraft:entities/tropical_fish": {

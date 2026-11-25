@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 318,
+   "Duration": 372,
    "Id": 57,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 518,
+   "Duration": 572,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -222,7 +222,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 19,
+ "DeathTime": 0,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1364,7 +1364,7 @@
     "infernal_forge_lock": 1,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 1.0,
+    "skill_point": 3.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 0,
     "tidal_claw_lock": 1,
@@ -1570,7 +1570,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4851,8 +4850,8 @@
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 0.0,
- "HurtByTimestamp": 303,
+ "Health": 76.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5113,9 +5112,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   1,
+   2,
    3,
-   4
+   -1
   ]
  },
  "Motion": [
@@ -5126,13 +5125,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  1.278,
+  0.776,
   3.0,
-  5.3249
+  -4.3165
  ],
  "Rotation": [
-  -175.1883,
-  0.0
+  -69.3044,
+  -26.4887
  ],
  "Score": 12301,
  "SelectedItemSlot": 0,
@@ -5166,7 +5165,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.65,
+ "foodExhaustionLevel": 0.7,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5177,7 +5176,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 33,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14667,7 +14666,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7818,
+  "ticks_since_last_warning": 11901,
   "warning_level": 0
  }
 }
