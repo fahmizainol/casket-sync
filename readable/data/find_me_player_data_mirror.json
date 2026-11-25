@@ -43677,7 +43677,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147363101,
+          "Duration": 2147362430,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -43703,20 +43703,16 @@
         ],
         "Attributes": [
          {
+          "Base": 0.0,
+          "Name": "epicfight:stun_armor"
+         },
+         {
           "Base": 0.3376,
           "Name": "minecraft:generic.knockback_resistance"
          },
          {
-          "Base": 1.3696,
-          "Name": "minecraft:generic.flying_speed"
-         },
-         {
-          "Base": 10.752,
-          "Name": "minecraft:generic.attack_damage"
-         },
-         {
-          "Base": 140.0,
-          "Name": "minecraft:generic.max_health"
+          "Base": 0.2212,
+          "Name": "minecraft:generic.movement_speed"
          },
          {
           "Base": 0.08,
@@ -43727,20 +43723,24 @@
           "Name": "forge:step_height_addition"
          },
          {
-          "Base": 8.688,
-          "Name": "minecraft:generic.armor"
+          "Base": 10.752,
+          "Name": "minecraft:generic.attack_damage"
          },
          {
           "Base": 1.0,
           "Name": "forge:swim_speed"
          },
          {
-          "Base": 0.0,
-          "Name": "epicfight:stun_armor"
+          "Base": 1.3696,
+          "Name": "minecraft:generic.flying_speed"
          },
          {
-          "Base": 0.2212,
-          "Name": "minecraft:generic.movement_speed"
+          "Base": 140.0,
+          "Name": "minecraft:generic.max_health"
+         },
+         {
+          "Base": 8.688,
+          "Name": "minecraft:generic.armor"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -43759,7 +43759,7 @@
         "CompanionRescueHealth": 139.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 2559272,
+        "CompanionRescueStoredAt": 2571618,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -44030,7 +44030,7 @@
          "exhaustionLevel": 3.0141,
          "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 17
+         "tickTimer": 48
         },
         "dragonStamina": {
          "regenPauseTicks": 0

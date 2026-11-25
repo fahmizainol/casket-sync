@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1820132,
+  "DayTime": 1826132,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795618525864,
+  "LastPlayed": 1795618825928,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,26 +442,11 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 249,
+     "Duration": 248,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:strength"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 2,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 19,
-     "Id": 1,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:speed"
     },
     {
      "Ambient": 1,
@@ -472,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 249,
+     "Duration": 248,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -487,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 158,
+     "Duration": 130,
      "Id": 11,
      "ShowIcon": 0,
      "ShowParticles": 0,
@@ -501,29 +486,15 @@
      "Name": "irons_spellbooks:max_mana"
     },
     {
-     "Base": 0.0,
-     "Name": "minecraft:generic.knockback_resistance"
-    },
-    {
      "Base": 1.0,
      "Name": "attributeslib:arrow_damage"
     },
     {
+     "Base": 0.0,
+     "Name": "minecraft:generic.knockback_resistance"
+    },
+    {
      "Base": 0.1,
-     "Modifiers": [
-      {
-       "Amount": 0.6,
-       "Name": "effect.minecraft.speed 2",
-       "Operation": 2,
-       "UUID": [
-        -1850824106,
-        929776792,
-        -1822740609,
-        1745290805
-       ],
-       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-      }
-     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -549,20 +520,12 @@
      "Name": "minecraft:generic.attack_speed"
     },
     {
-     "Base": 1.0,
-     "Name": "forge:swim_speed"
-    },
-    {
      "Base": 1.5,
      "Name": "attributeslib:crit_damage"
     },
     {
      "Base": 0.0,
      "Name": "minecraft:generic.luck"
-    },
-    {
-     "Base": 4.5,
-     "Name": "forge:block_reach"
     },
     {
      "Base": 0.0,
@@ -603,6 +566,10 @@
      "Name": "attributeslib:creative_flight"
     },
     {
+     "Base": 1.0,
+     "Name": "epicfight:max_strikes"
+    },
+    {
      "Base": 20.0,
      "Modifiers": [
       {
@@ -621,16 +588,12 @@
      "Name": "minecraft:generic.max_health"
     },
     {
-     "Base": 1.0,
-     "Name": "epicfight:max_strikes"
+     "Base": 0.0,
+     "Name": "epicfight:armor_negation"
     },
     {
      "Base": 0.05,
      "Name": "attributeslib:crit_chance"
-    },
-    {
-     "Base": 0.0,
-     "Name": "epicfight:armor_negation"
     },
     {
      "Base": 1.0,
@@ -641,20 +604,20 @@
      "Name": "minecraft:generic.armor"
     },
     {
-     "Base": 0.08,
-     "Name": "forge:entity_gravity"
-    },
-    {
      "Base": 3.0,
      "Name": "forge:entity_reach"
     },
     {
-     "Base": 0.6,
-     "Name": "forge:step_height_addition"
+     "Base": 0.08,
+     "Name": "forge:entity_gravity"
     },
     {
      "Base": 0.0,
      "Name": "minecraft:generic.armor_toughness"
+    },
+    {
+     "Base": 0.6,
+     "Name": "forge:step_height_addition"
     },
     {
      "Base": 1.0,
@@ -685,10 +648,6 @@
       }
      ],
      "Name": "minecraft:generic.attack_damage"
-    },
-    {
-     "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
     }
    ],
    "BalmData": {},
@@ -708,7 +667,7 @@
     "aether:aether_player": {
      "CanGetPortal": 0,
      "CanShowPatreonMessage": 1,
-     "CanSpawnInAether": 0,
+     "CanSpawnInAether": 1,
      "HasSeenSunSpirit": 0,
      "LifeShardCount": 0,
      "LoginsUntilPatreonMessage": -1,
@@ -1074,9 +1033,11 @@
       }
      ]
     },
-    "efn:original_skill_memory": {},
+    "efn:original_skill_memory": {
+     "DODGE": "efn:efn_step"
+    },
     "epicfight:skill_cap": {
-     "dodge": "efn:efn_step",
+     "dodge": "efn:yamato_step",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
      "learned:dodge": {
@@ -1793,7 +1754,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 212
+     "currentLogicNodeId": 42
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1853,7 +1814,7 @@
       "dual_annihilator_lock": 0,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 1,
-      "is_lock_on": 0,
+      "is_lock_on": 1,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 0,
@@ -1867,7 +1828,6 @@
     },
     "sword_soaring:ss_player": {},
     "tcrcore:tcr_player": {
-     "blessItem": "minecraft:air",
      "blessPos": {
       "X": 0,
       "Y": 0,
@@ -4780,14 +4740,12 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "quark:trying_crawl": 0,
-    "ua_mn_tabi_last_dash": 2560738,
-    "ua_rs_active_until": 2561171,
+    "ua_mn_tabi_last_dash": 2572223,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
    "Health": 34.0,
-   "HurtByTimestamp": 5620,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4837,9 +4795,13 @@
     {
      "Count": 1,
      "Slot": 1,
-     "id": "efn:yamato_dmc_in_sheath",
+     "id": "efn:kusabimaru",
      "tag": {
       "Enchantments": [
+       {
+        "id": "minecraft:sweeping",
+        "lvl": 3
+       },
        {
         "id": "minecraft:sharpness",
         "lvl": 5
@@ -4849,20 +4811,14 @@
         "lvl": 2
        },
        {
-        "id": "minecraft:fire_aspect",
-        "lvl": 2
-       },
-       {
         "id": "minecraft:looting",
         "lvl": 3
        },
        {
-        "id": "efn:yamato_doppelganger",
-        "lvl": 1
+        "id": "minecraft:fire_aspect",
+        "lvl": 2
        }
       ],
-      "RepairCost": 1,
-      "TotalDamage": 712.957,
       "kusabimaru_sheath": 0
      }
     },
@@ -4923,13 +4879,9 @@
     {
      "Count": 1,
      "Slot": 4,
-     "id": "efn:kusabimaru",
+     "id": "efn:yamato_dmc_in_sheath",
      "tag": {
       "Enchantments": [
-       {
-        "id": "minecraft:sweeping",
-        "lvl": 3
-       },
        {
         "id": "minecraft:sharpness",
         "lvl": 5
@@ -4939,14 +4891,20 @@
         "lvl": 2
        },
        {
+        "id": "minecraft:fire_aspect",
+        "lvl": 2
+       },
+       {
         "id": "minecraft:looting",
         "lvl": 3
        },
        {
-        "id": "minecraft:fire_aspect",
-        "lvl": 2
+        "id": "efn:yamato_doppelganger",
+        "lvl": 1
        }
       ],
+      "RepairCost": 1,
+      "TotalDamage": 712.957,
       "kusabimaru_sheath": 0
      }
     },
@@ -4977,6 +4935,34 @@
      "Count": 1,
      "Slot": 9,
      "id": "minecraft:carrot"
+    },
+    {
+     "Count": 1,
+     "Slot": 10,
+     "id": "alexsmobs:flying_fish"
+    },
+    {
+     "Count": 1,
+     "Slot": 11,
+     "id": "bosses_of_mass_destruction:soul_star"
+    },
+    {
+     "Count": 1,
+     "Slot": 12,
+     "id": "minecraft:arrow"
+    },
+    {
+     "Count": 1,
+     "Slot": 13,
+     "id": "magistuarmory:rustedchainmail_leggings",
+     "tag": {
+      "Damage": 0
+     }
+    },
+    {
+     "Count": 4,
+     "Slot": 14,
+     "id": "minecraft:bone"
     },
     {
      "Count": 1,
@@ -5087,9 +5073,9 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     11,
+     9,
      3,
-     -6
+     -16
     ]
    },
    "Motion": [
@@ -5100,16 +5086,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -6.584,
+    8.5732,
     3.0,
-    0.997
+    9.0784
    ],
    "Rotation": [
-    129.6534,
-    0.0
+    116.033,
+    -3.7397
    ],
-   "Score": 28078,
-   "SelectedItemSlot": 0,
+   "Score": 28093,
+   "SelectedItemSlot": 4,
    "SleepTimer": 0,
    "SpawnAngle": -85.2473,
    "SpawnDimension": "minecraft:overworld",
@@ -5125,9 +5111,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 86,
-   "XpP": 0.5747,
+   "XpP": 0.599,
    "XpSeed": 976728483,
-   "XpTotal": 28078,
+   "XpTotal": 28093,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -5137,7 +5123,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.8725,
+   "foodExhaustionLevel": 2.66,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15457,7 +15443,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 1844,
+    "ticks_since_last_warning": 7416,
     "warning_level": 0
    }
   },
@@ -15469,7 +15455,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2566278,
+  "Time": 2572278,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15483,7 +15469,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 16800,
+  "WanderingTraderSpawnDelay": 10800,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16171,9 +16157,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 150742,
+  "rainTime": 144742,
   "raining": 0,
-  "thunderTime": 30869,
+  "thunderTime": 24869,
   "thundering": 0,
   "version": 19133
  },

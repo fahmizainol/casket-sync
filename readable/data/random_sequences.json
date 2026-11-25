@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -7756630319540577872,
-    154971880409311932
+    -4195863785835085429,
+    -5181195495257163356
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    3830419600600439870,
-    -5968348986611187828
+    1649730128566900580,
+    7244795233372569461
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    8384131665542908805,
-    -8856337522501958330
+    -3425068798898517563,
+    -2807785017708414510
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -981,8 +981,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -3261025808129429827,
-    -3136298965411655152
+    8818280408070442778,
+    1510906325299682074
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -4067404310467319268,
-    -8060337816886722535
+    2615333260232259239,
+    8347385970175924019
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2211,8 +2211,8 @@
   },
   "minecraft:entities/skeleton": {
    "source": [
-    -7023745594202772369,
-    -8355411073464642382
+    -7333280987827358654,
+    -1981555273319680538
    ]
   },
   "minecraft:entities/skeleton_horse": {
@@ -2235,8 +2235,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -7096236105468067616,
-    -4648217225055943560
+    7352786035113444872,
+    6671231486621328680
    ]
   },
   "minecraft:entities/tropical_fish": {
