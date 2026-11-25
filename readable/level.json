@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1791515,
+  "DayTime": 1793592,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795616873401,
+  "LastPlayed": 1795616977758,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 257,
+     "Duration": 252,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 257,
+     "Duration": 252,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -646,7 +646,7 @@
    "CanUpdate": 1,
    "CitadelData": {},
    "DataVersion": 3465,
-   "DeathTime": 4476,
+   "DeathTime": 6552,
    "Dimension": "pbf1:sanctum_of_the_battle1",
    "EnderItems": [],
    "FallDistance": 0.0,
@@ -15397,7 +15397,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2537661,
+  "Time": 2539738,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15411,7 +15411,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 20400,
+  "WanderingTraderSpawnDelay": 19200,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16099,9 +16099,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 5767,
+  "rainTime": 3690,
   "raining": 1,
-  "thunderTime": 59486,
+  "thunderTime": 57409,
   "thundering": 0,
   "version": 19133
  },

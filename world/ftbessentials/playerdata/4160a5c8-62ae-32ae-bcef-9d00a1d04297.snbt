@@ -3,7 +3,7 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "pbf1:sanctum_of_the_battle1", x: 4, y: 3, z: -1, time: 1795616555212L, xRot: 0.0f, yRot: -78.893555f }
+	last_seen: { dim: "pbf1:sanctum_of_the_battle1", x: 1, y: 3, z: 2, time: 1795616977190L, xRot: 0.0f, yRot: -41.70054f }
 	recording: "none"
 	teleport_history: [
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -2, y: 3, z: 1, time: 1795538942015L }

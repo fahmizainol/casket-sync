@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 257,
+   "Duration": 252,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 257,
+   "Duration": 252,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -214,7 +214,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 4476,
+ "DeathTime": 6552,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
