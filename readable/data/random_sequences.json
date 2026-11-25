@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    8782796132975955269,
-    -8474361741467019734
+    8309950846792740254,
+    1741896236897074957
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2333,6 +2333,12 @@
    "source": [
     850003322632422410,
     7043860424803441545
+   ]
+  },
+  "tcr_bosses:entities/netherite_humanoid": {
+   "source": [
+    3233571672039037846,
+    8087324062776560378
    ]
   },
   "tcr_bosses:entities/valkyrie": {
