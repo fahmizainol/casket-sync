@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    6953695901273568243,
-    -7067606874012330390
+    -7756630319540577872,
+    154971880409311932
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    3413116101597764160,
-    8537707952418895469
+    3830419600600439870,
+    -5968348986611187828
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -8278080320132350649,
-    1393274567135198846
+    8384131665542908805,
+    -8856337522501958330
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -981,8 +981,8 @@
   },
   "minecraft:blocks/fire": {
    "source": [
-    -6340758809204002753,
-    -4942638501021779092
+    -3261025808129429827,
+    -3136298965411655152
    ]
   },
   "minecraft:blocks/fire_coral": {
@@ -2001,8 +2001,8 @@
   },
   "minecraft:blocks/white_carpet": {
    "source": [
-    5251618793159446709,
-    -2365746571221556141
+    -8073602904749037867,
+    3192603389053904405
    ]
   },
   "minecraft:blocks/white_tulip": {
@@ -2283,8 +2283,8 @@
   },
   "minecraft:entities/zombie": {
    "source": [
-    -3968018663418066405,
-    -8146222014786069995
+    -3200129650030423585,
+    4266132212113991861
    ]
   },
   "minecraft:entities/zombie_villager": {
