@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -5167249157899554373,
-    4195935656055414242
+    -3188469209165594476,
+    8419192120057061265
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -3133081434910286828,
-    2286829080738843539
+    -5805697555026404204,
+    1408425798641496583
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2321,6 +2321,12 @@
    "source": [
     5589171084802667258,
     5051018103616762450
+   ]
+  },
+  "tcr_bosses:entities/ignis_humanoid": {
+   "source": [
+    -2416017863524779109,
+    -5163642997816606497
    ]
   },
   "tcr_bosses:entities/maledictus_humanoid": {
