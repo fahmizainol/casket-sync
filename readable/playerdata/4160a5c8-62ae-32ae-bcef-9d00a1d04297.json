@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 247,
+   "Duration": 243,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,102 +25,67 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 255,
+   "Duration": 243,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 19,
+   "Id": 1,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 747,
+   "Id": 56,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "epicfight:instability"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 3,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 747,
+   "Id": 94,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "cataclysm:blazing_brand"
   }
  ],
  "Air": 300,
  "Attributes": [
   {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:mana_regen"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
-  },
-  {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
-  },
-  {
-   "Base": 0.08,
-   "Name": "forge:entity_gravity"
-  },
-  {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 20.0,
-   "Modifiers": [
-    {
-     "Amount": 14.0,
-     "Name": "health_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "minecraft:generic.max_health"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 15.0,
-   "Modifiers": [
-    {
-     "Amount": 5.6,
-     "Name": "stamina_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
-  },
-  {
    "Base": 0.5,
    "Name": "epicfight:impact"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
   },
   {
    "Base": 0.0,
@@ -131,8 +96,8 @@
    "Name": "forge:entity_reach"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:cast_time_reduction"
+   "Base": 0.0,
+   "Name": "attributeslib:creative_flight"
   },
   {
    "Base": 0.0,
@@ -148,11 +113,55 @@
   },
   {
    "Base": 0.0,
+   "Modifiers": [
+    {
+     "Amount": -0.8,
+     "Name": "effect.cataclysm.blazing_brand 3",
+     "Operation": 2,
+     "UUID": [
+      1745323812,
+      -2041363755,
+      -1572496108,
+      -1577761147
+     ],
+     "UUID_str": "68078724-8653-42d5-a245-9d14a1f54685"
+    }
+   ],
    "Name": "minecraft:generic.armor"
   },
   {
    "Base": 1.0,
    "Name": "attributeslib:mining_speed"
+  },
+  {
+   "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.6,
+     "Name": "effect.minecraft.speed 2",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
+   "Name": "minecraft:generic.movement_speed"
+  },
+  {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
+  },
+  {
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
+  },
+  {
+   "Base": 0.08,
+   "Name": "forge:entity_gravity"
   },
   {
    "Base": 100.0,
@@ -190,7 +199,65 @@
   },
   {
    "Base": 0.0,
+   "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 20.0,
+   "Modifiers": [
+    {
+     "Amount": 14.0,
+     "Name": "health_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "minecraft:generic.max_health"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 0.0,
+   "Modifiers": [
+    {
+     "Amount": -0.8,
+     "Name": "effect.cataclysm.blazing_brand 3",
+     "Operation": 2,
+     "UUID": [
+      -1304959123,
+      367543571,
+      -1489676869,
+      633550339
+     ],
+     "UUID_str": "b237e76d-15e8-4513-a735-55bb25c33603"
+    }
+   ],
    "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 15.0,
+   "Modifiers": [
+    {
+     "Amount": 5.6,
+     "Name": "stamina_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "epicfight:staminar"
   },
   {
    "Base": 1.5,
@@ -213,6 +280,10 @@
     }
    ],
    "Name": "minecraft:generic.attack_speed"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
   }
  ],
  "BalmData": {},
@@ -232,7 +303,7 @@
   "aether:aether_player": {
    "CanGetPortal": 0,
    "CanShowPatreonMessage": 1,
-   "CanSpawnInAether": 0,
+   "CanSpawnInAether": 1,
    "HasSeenSunSpirit": 0,
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
@@ -1391,7 +1462,6 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
-   "blessItem": "minecraft:air",
    "blessPos": {
     "X": 0,
     "Y": 0,
@@ -4304,18 +4374,12 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_accessory_types_seen": {
-   "uniqueaccessories:bloody_knife": 1,
-   "uniqueaccessories:fossil_shark_tooth": 1,
-   "uniqueaccessories:still_beating_heart": 1
-  },
-  "ua_mn_tabi_last_dash": 2518142,
-  "ua_rs_active_until": 2516231,
+  "ua_mn_tabi_last_dash": 2526774,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 34.0,
- "HurtByTimestamp": 5154,
+ "Health": 17.6831,
+ "HurtByTimestamp": 152,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4489,235 +4553,7 @@
   {
    "Count": 1,
    "Slot": 6,
-   "id": "cataclysm:void_eye"
-  },
-  {
-   "Count": 2,
-   "Slot": 7,
-   "id": "cataclysm:monstrous_eye"
-  },
-  {
-   "Count": 1,
-   "Slot": 8,
-   "id": "cataclysm:storm_eye"
-  },
-  {
-   "Count": 1,
-   "Slot": 9,
-   "id": "minecraft:enchanted_book",
-   "tag": {
-    "StoredEnchantments": [
-     {
-      "id": "efn:yamato_judgement_cut_end",
-      "lvl": 1
-     }
-    ]
-   }
-  },
-  {
-   "Count": 9,
-   "Slot": 10,
-   "id": "minecraft:crying_obsidian"
-  },
-  {
-   "Count": 1,
-   "Slot": 11,
-   "id": "uniqueaccessories:fossil_shark_tooth"
-  },
-  {
-   "Count": 2,
-   "Slot": 12,
-   "id": "irons_spellbooks:arcane_essence"
-  },
-  {
-   "Count": 1,
-   "Slot": 13,
-   "id": "uniqueaccessories:bloody_knife"
-  },
-  {
-   "Count": 1,
-   "Slot": 14,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 15,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 18,
-   "id": "uniqueaccessories:still_beating_heart"
-  },
-  {
-   "Count": 9,
-   "Slot": 19,
-   "id": "minecraft:iron_ingot"
-  },
-  {
-   "Count": 1,
-   "Slot": 20,
-   "id": "cataclysm:meat_shredder",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     }
-    ],
-    "kusabimaru_sheath": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 21,
-   "id": "efn:fire_exsiliumgladius",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ],
-    "kusabimaru_sheath": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 22,
-   "id": "magistuarmory:corruptedroundshield",
-   "tag": {
-    "Damage": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 23,
-   "id": "uniqueaccessories:accessory_box"
-  },
-  {
-   "Count": 1,
-   "Slot": 24,
-   "id": "minecraft:diamond_boots",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:blast_protection",
-      "lvl": 3
-     }
-    ]
-   }
-  },
-  {
-   "Count": 48,
-   "Slot": 25,
-   "id": "cataclysm:cursium_ingot"
-  },
-  {
-   "Count": 1,
-   "Slot": 27,
-   "id": "irons_spellbooks:invisibility_ring"
-  },
-  {
-   "Count": 1,
-   "Slot": 28,
-   "id": "artifacts:cloud_in_a_bottle"
-  },
-  {
-   "Count": 1,
-   "Slot": 29,
-   "id": "minecraft:diamond_pickaxe",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:efficiency",
-      "lvl": 4
-     }
-    ],
-    "RepairCost": 1,
-    "kusabimaru_sheath": 0,
-    "sheath": 0
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 30,
-   "id": "efn:exsiliumgladius",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ],
-    "kusabimaru_sheath": 0
-   }
-  },
-  {
-   "Count": 13,
-   "Slot": 31,
-   "id": "waystones:waystone"
-  },
-  {
-   "Count": 1,
-   "Slot": 32,
    "id": "tcrcore:retracement_stone"
-  },
-  {
-   "Count": 4,
-   "Slot": 33,
-   "id": "minecraft:glass_bottle"
-  },
-  {
-   "Count": 30,
-   "Slot": 34,
-   "id": "irons_spellbooks:frozen_bone"
-  },
-  {
-   "Count": 5,
-   "Slot": 35,
-   "id": "minecraft:bone"
   },
   {
    "Count": 1,
@@ -4828,9 +4664,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   1,
+   9,
    3,
-   -4
+   -2
   ]
  },
  "Motion": [
@@ -4841,16 +4677,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -3.494,
+  -8.6397,
   3.0,
-  -14.8262
+  -24.3481
  ],
  "Rotation": [
-  -50.1001,
-  13.7034
+  7.9423,
+  27.7824
  ],
  "Score": 28063,
- "SelectedItemSlot": 2,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 19.0092,
  "SpawnDimension": "minecraft:overworld",
@@ -4858,9 +4694,6 @@
  "SpawnX": 265,
  "SpawnY": 63,
  "SpawnZ": -1775,
- "Tags": [
-  "wom_health_fix:34.0"
- ],
  "UUID": [
   1096852936,
   1655583406,
@@ -4881,18 +4714,18 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.376,
+ "foodExhaustionLevel": 1.95,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 3,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "mainhand",
+  "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 125,
+  "mana": 26,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15201,7 +15034,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5519,
+  "ticks_since_last_warning": 11330,
   "warning_level": 0
  }
 }

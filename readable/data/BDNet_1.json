@@ -38,7 +38,7 @@
      }
     },
     {
-     "amount": 256,
+     "amount": 258,
      "key": {
       "stack": {
        "item": "irons_spellbooks:arcane_essence"
@@ -338,7 +338,7 @@
      }
     },
     {
-     "amount": 297,
+     "amount": 302,
      "key": {
       "stack": {
        "item": "minecraft:bone"
@@ -495,7 +495,7 @@
      }
     },
     {
-     "amount": 13,
+     "amount": 17,
      "key": {
       "stack": {
        "item": "minecraft:glass_bottle"
@@ -598,6 +598,15 @@
      "key": {
       "stack": {
        "item": "minecraft:scaffolding"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:accessory_box"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -879,6 +888,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:still_beating_heart"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 6,
      "key": {
       "stack": {
@@ -913,6 +931,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:void_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 132,
      "key": {
       "stack": {
@@ -926,6 +953,24 @@
      "key": {
       "stack": {
        "item": "minecraft:netherite_upgrade_smithing_template"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_boots",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:blast_protection",
+          "lvl": 3
+         }
+        ]
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -961,7 +1006,7 @@
      }
     },
     {
-     "amount": 270,
+     "amount": 279,
      "key": {
       "stack": {
        "item": "minecraft:iron_ingot"
@@ -1136,6 +1181,37 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "cataclysm:meat_shredder",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:fire_aspect",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         }
+        ],
+        "kusabimaru_sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 4,
      "key": {
       "stack": {
@@ -1215,6 +1291,15 @@
      "key": {
       "stack": {
        "item": "minecraft:cracked_stone_bricks"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:invisibility_ring"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1863,6 +1948,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:storm_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "caps": {
         "Parent": {
          "Items": [
@@ -2189,7 +2283,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 3,
      "key": {
       "stack": {
        "item": "tcrcore:rare_artifact_ticket"
@@ -2220,6 +2314,15 @@
      "key": {
       "stack": {
        "item": "minecraft:lapis_lazuli"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:fossil_shark_tooth"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2922,6 +3025,15 @@
      "key": {
       "stack": {
        "item": "minecraft:spruce_stairs"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 13,
+     "key": {
+      "stack": {
+       "item": "waystones:waystone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -3986,6 +4098,37 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "efn:exsiliumgladius",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:sweeping",
+          "lvl": 3
+         }
+        ],
+        "kusabimaru_sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "epicfight:uchigatana",
        "tag": {
         "Damage": 0,
@@ -4102,6 +4245,37 @@
          "Primary": 5,
          "Secondary": 5
         }
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "efn:fire_exsiliumgladius",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:sweeping",
+          "lvl": 3
+         }
+        ],
+        "kusabimaru_sheath": 0
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -4248,7 +4422,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "tcrcore:retracement_stone"
@@ -4275,7 +4449,7 @@
      }
     },
     {
-     "amount": 418,
+     "amount": 419,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -5211,6 +5385,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:cloud_in_a_bottle"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 2,
      "key": {
       "stack": {
@@ -5282,6 +5465,23 @@
        "item": "minecraft:clock",
        "tag": {
         "quark:clock_calculated": 1
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:enchanted_book",
+       "tag": {
+        "StoredEnchantments": [
+         {
+          "id": "efn:yamato_judgement_cut_end",
+          "lvl": 1
+         }
+        ]
        }
       },
       "type": "beyonddimensions:stack_type/item"
@@ -6041,7 +6241,7 @@
      }
     },
     {
-     "amount": 64,
+     "amount": 112,
      "key": {
       "stack": {
        "item": "cataclysm:cursium_ingot"
@@ -6156,6 +6356,15 @@
      "key": {
       "stack": {
        "item": "aether:aether_dirt"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:bloody_knife"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -6420,6 +6629,18 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "magistuarmory:corruptedroundshield",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:music_disc_pigstep"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -6481,6 +6702,15 @@
      "key": {
       "stack": {
        "item": "minecraft:amethyst_shard"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 30,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:frozen_bone"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -6614,6 +6844,27 @@
      "key": {
       "stack": {
        "item": "minecraft:stone"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_pickaxe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 4
+         }
+        ],
+        "RepairCost": 1,
+        "kusabimaru_sheath": 0,
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -7030,6 +7281,15 @@
      }
     },
     {
+     "amount": 2,
+     "key": {
+      "stack": {
+       "item": "cataclysm:monstrous_eye"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 74,
      "key": {
       "stack": {
@@ -7390,7 +7650,7 @@
      }
     },
     {
-     "amount": 16,
+     "amount": 25,
      "key": {
       "stack": {
        "item": "minecraft:crying_obsidian"
@@ -7495,6 +7755,6 @@
     }
    ]
   },
-  "currentTime": 7079
+  "currentTime": 6936
  }
 }
