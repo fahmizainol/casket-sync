@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 242,
+   "Duration": 255,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,11 +25,26 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 242,
+   "Duration": 255,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 516,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
   }
  ],
  "Air": 300,
@@ -59,8 +74,8 @@
    "Name": "epicfight:max_strikes"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -88,6 +103,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -214,7 +241,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 27,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1580,6 +1607,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4295,14 +4323,12 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_mn_tabi_last_dash": 2704136,
-  "ua_rs_active_until": 2704031,
+  "ua_mn_tabi_last_dash": 2709533,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 38.0,
- "HurtByTimestamp": 4056,
+ "Health": 0.0,
+ "HurtByTimestamp": 842,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4382,7 +4408,7 @@
     ],
     "KillCount": 1,
     "RepairCost": 3,
-    "TotalDamage": 5864.7437,
+    "TotalDamage": 6923.6787,
     "kusabimaru_sheath": 0
    }
   },
@@ -4510,6 +4536,11 @@
    "tag": {
     "Damage": 0
    }
+  },
+  {
+   "Count": 1,
+   "Slot": 23,
+   "id": "tcrcore:retracement_stone"
   },
   {
    "Count": 1,
@@ -4688,9 +4719,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -2,
+   10,
    3,
-   17
+   12
   ]
  },
  "Motion": [
@@ -4701,16 +4732,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  17.9899,
+  11.6141,
   3.0,
-  -1.2051
+  12.5994
  ],
  "Rotation": [
-  -83.8843,
-  29.141
+  76.3745,
+  0.0
  ],
  "Score": 28130,
- "SelectedItemSlot": 7,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -24.065,
  "SpawnDimension": "minecraft:overworld",
@@ -4738,7 +4769,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.573,
+ "foodExhaustionLevel": 1.233,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4749,7 +4780,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 125,
+  "mana": 108,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -4757,7 +4788,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -15055,10 +15085,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10872,
+  "ticks_since_last_warning": 4445,
   "warning_level": 0
  }
 }

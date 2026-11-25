@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2431698770121103530,
-    -3912292872021518805
+    -4523180998185371222,
+    -5227930315477339613
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    2680723704619783667,
-    1506106330231011149
+    -718673860243694515,
+    -2919791182124999583
    ]
   },
   "minecraft:entities/pufferfish": {

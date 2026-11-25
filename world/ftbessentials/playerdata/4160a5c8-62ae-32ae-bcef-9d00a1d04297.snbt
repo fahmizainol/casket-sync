@@ -6,16 +6,16 @@
 	last_seen: { dim: "pbf1:sanctum_of_the_battle1", x: -2, y: 3, z: -2, time: 1795624744056L, xRot: 0.0f, yRot: 3.429196E-4f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "pbf1:sanctum_of_the_battle1", x: 3, y: 3, z: 2, time: 1795623445079L }
-		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1776, time: 1795623446436L }
-		{ dim: "pbf1:sanctum_of_the_battle1", x: 5, y: 3, z: -17, time: 1795624773929L }
-		{ dim: "pbf1:sanctum_of_the_battle1", x: 0, y: 3, z: -24, time: 1795624806252L }
-		{ dim: "pbf1:sanctum_of_the_battle1", x: 16, y: 3, z: 21, time: 1795624973053L }
-		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1776, time: 1795624973075L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -3, y: 5, z: 13, time: 1795625050764L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: 27, y: 3, z: 8, time: 1795625146467L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -3, y: 3, z: 18, time: 1795625304518L }
 		{ dim: "pbf1:sanctum_of_the_battle1", x: -14, y: 3, z: -2, time: 1795625665677L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: 7, y: 3, z: 5, time: 1795626013782L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: 2, y: 3, z: 0, time: 1795626064730L }
+		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1776, time: 1795626077386L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: -3, y: 3, z: -11, time: 1795626109978L }
+		{ dim: "pbf1:sanctum_of_the_battle1", x: 17, y: 3, z: -19, time: 1795626216941L }
+		{ dim: "minecraft:overworld", x: 267, y: 63, z: -1777, time: 1795626221697L }
 	]
 	homes: { }
 	kit_use_times: { }
