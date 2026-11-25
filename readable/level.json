@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1793763,
+  "DayTime": 1799592,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,11 +428,26 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795617092108,
+  "LastPlayed": 1795617390327,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "ActiveEffects": [
+    {
+     "Ambient": 0,
+     "Amplifier": 4,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 125,
+     "Id": 11,
+     "ShowIcon": 0,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:resistance"
+    },
     {
      "Ambient": 1,
      "Amplifier": 0,
@@ -442,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 250,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,87 +472,30 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 250,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 2,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 19,
-     "Id": 1,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:speed"
     }
    ],
    "Air": 300,
    "Attributes": [
     {
      "Base": 0.0,
-     "Name": "minecraft:generic.armor_toughness"
-    },
-    {
-     "Base": 0.0,
      "Name": "attributeslib:dodge_chance"
-    },
-    {
-     "Base": 0.0,
-     "Name": "minecraft:generic.knockback_resistance"
-    },
-    {
-     "Base": 0.0,
-     "Name": "attributeslib:creative_flight"
-    },
-    {
-     "Base": 0.5,
-     "Name": "epicfight:impact"
-    },
-    {
-     "Base": 1.5,
-     "Name": "attributeslib:crit_damage"
     },
     {
      "Base": 1.0,
      "Name": "attributeslib:arrow_damage"
     },
     {
+     "Base": 1.0,
+     "Name": "attributeslib:draw_speed"
+    },
+    {
      "Base": 100.0,
      "Name": "irons_spellbooks:max_mana"
-    },
-    {
-     "Base": 0.0,
-     "Name": "epicfight:stun_armor"
-    },
-    {
-     "Base": 0.05,
-     "Name": "attributeslib:crit_chance"
-    },
-    {
-     "Base": 0.1,
-     "Modifiers": [
-      {
-       "Amount": 0.6,
-       "Name": "effect.minecraft.speed 2",
-       "Operation": 2,
-       "UUID": [
-        -1850824106,
-        929776792,
-        -1822740609,
-        1745290805
-       ],
-       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-      }
-     ],
-     "Name": "minecraft:generic.movement_speed"
     },
     {
      "Base": 3.0,
@@ -546,10 +504,6 @@
     {
      "Base": 40.0,
      "Name": "epicfight:weight"
-    },
-    {
-     "Base": 1.0,
-     "Name": "attributeslib:mining_speed"
     },
     {
      "Base": 1.0,
@@ -608,6 +562,68 @@
      "Name": "forge:entity_gravity"
     },
     {
+     "Base": 15.0,
+     "Modifiers": [
+      {
+       "Amount": 5.6,
+       "Name": "stamina_boost",
+       "Operation": 0,
+       "UUID": [
+        289739801,
+        427885108,
+        305402420,
+        1450744508
+       ],
+       "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      }
+     ],
+     "Name": "epicfight:staminar"
+    },
+    {
+     "Base": 0.0,
+     "Name": "epicfight:armor_negation"
+    },
+    {
+     "Base": 0.0,
+     "Name": "minecraft:generic.armor_toughness"
+    },
+    {
+     "Base": 0.0,
+     "Name": "minecraft:generic.knockback_resistance"
+    },
+    {
+     "Base": 0.0,
+     "Name": "attributeslib:creative_flight"
+    },
+    {
+     "Base": 0.5,
+     "Name": "epicfight:impact"
+    },
+    {
+     "Base": 1.5,
+     "Name": "attributeslib:crit_damage"
+    },
+    {
+     "Base": 0.0,
+     "Name": "epicfight:stun_armor"
+    },
+    {
+     "Base": 0.05,
+     "Name": "attributeslib:crit_chance"
+    },
+    {
+     "Base": 0.1,
+     "Name": "minecraft:generic.movement_speed"
+    },
+    {
+     "Base": 1.0,
+     "Name": "attributeslib:mining_speed"
+    },
+    {
+     "Base": 4.5,
+     "Name": "forge:block_reach"
+    },
+    {
      "Base": 0.6,
      "Name": "forge:step_height_addition"
     },
@@ -634,28 +650,6 @@
      "Name": "minecraft:generic.armor"
     },
     {
-     "Base": 15.0,
-     "Modifiers": [
-      {
-       "Amount": 5.6,
-       "Name": "stamina_boost",
-       "Operation": 0,
-       "UUID": [
-        289739801,
-        427885108,
-        305402420,
-        1450744508
-       ],
-       "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      }
-     ],
-     "Name": "epicfight:staminar"
-    },
-    {
-     "Base": 0.0,
-     "Name": "epicfight:armor_negation"
-    },
-    {
      "Base": 0.0,
      "Name": "minecraft:generic.luck"
     }
@@ -668,7 +662,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "pbf1:sanctum_of_the_battle1",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -4748,6 +4742,7 @@
      "vehicles": []
     },
     "last_send_time": 0,
+    "ua_mn_tabi_last_dash": 2545688,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
@@ -5037,9 +5032,9 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     2,
+     26,
      3,
-     3
+     -13
     ]
    },
    "Motion": [
@@ -5050,16 +5045,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    265.5,
-    63.0,
-    -1775.5
+    -0.4702,
+    3.0,
+    -11.8528
    ],
    "Rotation": [
-    0.0207,
+    166.9015,
     0.0
    ],
    "Score": 28063,
-   "SelectedItemSlot": 0,
+   "SelectedItemSlot": 5,
    "SleepTimer": 0,
    "SpawnAngle": 19.0092,
    "SpawnDimension": "minecraft:overworld",
@@ -5087,7 +5082,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 0.0,
+   "foodExhaustionLevel": 1.684,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5098,7 +5093,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 3,
+    "mana": 40,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15407,7 +15402,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 2934,
+    "ticks_since_last_warning": 8451,
     "warning_level": 0
    }
   },
@@ -15419,7 +15414,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2539909,
+  "Time": 2545738,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15433,7 +15428,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 19200,
+  "WanderingTraderSpawnDelay": 13200,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16121,9 +16116,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 3519,
-  "raining": 1,
-  "thunderTime": 57238,
+  "rainTime": 171282,
+  "raining": 0,
+  "thunderTime": 51409,
   "thundering": 0,
   "version": 19133
  },
