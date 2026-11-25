@@ -43677,7 +43677,7 @@
             "id": "minecraft:milk_bucket"
            }
           ],
-          "Duration": 2147366170,
+          "Duration": 2147363209,
           "Id": 12,
           "ShowIcon": 1,
           "ShowParticles": 1,
@@ -43756,10 +43756,10 @@
         "CompanionPreviewHeight": 2.6,
         "CompanionPreviewWidth": 1.9,
         "CompanionRescueArmor": 8,
-        "CompanionRescueHealth": 140.0,
+        "CompanionRescueHealth": 139.0,
         "CompanionRescueMaxHealth": 140.0,
         "CompanionRescueName": "Night Fury",
-        "CompanionRescueStoredAt": 2551155,
+        "CompanionRescueStoredAt": 2557397,
         "CompanionRescueType": "bookofdragons:nightfury",
         "DeathTime": 0,
         "DragonDataVersion": 1,
@@ -43943,7 +43943,7 @@
         ],
         "HasClearAirspace": 1,
         "HasConsumedFood": 0,
-        "Health": 140.0,
+        "Health": 139.0,
         "HurtByTimestamp": 2245,
         "HurtTime": 0,
         "InLove": 0,
@@ -44030,7 +44030,7 @@
          "exhaustionLevel": 3.0141,
          "foodLevel": 0,
          "saturationLevel": 0.0,
-         "tickTimer": 68
+         "tickTimer": 69
         },
         "dragonStamina": {
          "regenPauseTicks": 0

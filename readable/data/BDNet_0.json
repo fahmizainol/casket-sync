@@ -157,7 +157,7 @@
      }
     },
     {
-     "amount": 425,
+     "amount": 426,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -1026,6 +1026,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:desert_fragment"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 41,
      "key": {
       "stack": {
@@ -1466,6 +1475,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "artifacts:fire_gauntlet"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 8,
      "key": {
       "stack": {
@@ -1658,7 +1676,7 @@
      }
     },
     {
-     "amount": 8,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "tcrcore:reset_skill_stone"
@@ -2354,6 +2372,15 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:void_core"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "cataclysm:abyss_eye",
        "tag": {
         "sheath": 0
@@ -2590,7 +2617,7 @@
      }
     },
     {
-     "amount": 44,
+     "amount": 65,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -2725,6 +2752,15 @@
        "tag": {
         "Damage": 0
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 64,
+     "key": {
+      "stack": {
+       "item": "minecraft:netherite_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2993,7 +3029,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 4,
      "key": {
       "stack": {
        "item": "tcrcore:retracement_stone"
@@ -3341,7 +3377,7 @@
      }
     },
     {
-     "amount": 22,
+     "amount": 25,
      "key": {
       "stack": {
        "item": "minecraft:gold_nugget"
@@ -3388,6 +3424,15 @@
        "tag": {
         "fdbosses": {}
        }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "uniqueaccessories:withered_heart"
       },
       "type": "beyonddimensions:stack_type/item"
      }
