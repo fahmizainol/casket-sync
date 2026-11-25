@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 248,
+   "Duration": 242,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,11 +25,26 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 248,
+   "Duration": 242,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 483,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
   }
  ],
  "Air": 300,
@@ -136,6 +151,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -149,20 +176,8 @@
    "Name": "attributeslib:crit_chance"
   },
   {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
    "Base": 1.0,
    "Name": "attributeslib:draw_speed"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:cast_time_reduction"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:mana_regen"
   },
   {
    "Base": 0.0,
@@ -231,7 +246,7 @@
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": -20,
+ "Fire": 0,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -1312,7 +1327,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 42
+   "currentLogicNodeId": 53
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1372,7 +1387,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1585,6 +1600,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4300,15 +4316,15 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_mn_tabi_last_dash": 2670162,
-  "ua_rs_active_until": 2679011,
+  "ua_bb_dodge_until": 2684356,
+  "ua_mn_tabi_last_dash": 2683727,
+  "ua_rs_active_until": 2684047,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 38.0,
- "HurtByTimestamp": 3556,
- "HurtTime": 0,
+ "Health": 0.0,
+ "HurtByTimestamp": 1880,
+ "HurtTime": 10,
  "Inventory": [
   {
    "Count": 1,
@@ -4386,7 +4402,7 @@
      }
     ],
     "RepairCost": 3,
-    "TotalDamage": 712.957,
+    "TotalDamage": 1399.7889,
     "kusabimaru_sheath": 0
    }
   },
@@ -4514,6 +4530,11 @@
    "tag": {
     "Damage": 0
    }
+  },
+  {
+   "Count": 1,
+   "Slot": 23,
+   "id": "tcrcore:retracement_stone"
   },
   {
    "Count": 1,
@@ -4682,26 +4703,26 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   2,
    3,
-   3
+   3,
+   0
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
+  0.0,
   0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1.6299,
+  3.3123,
   3.0,
-  -1.6153
+  0.4071
  ],
  "Rotation": [
-  162.8564,
-  0.0
+  178.1089,
+  18.3267
  ],
  "Score": 28116,
  "SelectedItemSlot": 1,
@@ -4732,12 +4753,12 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.957,
+ "foodExhaustionLevel": 1.288,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 7,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "mainhand",
+  "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
   "evasionHitsRemaining": 0.0,
@@ -15052,7 +15073,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11445,
+  "ticks_since_last_warning": 3298,
   "warning_level": 0
  }
 }

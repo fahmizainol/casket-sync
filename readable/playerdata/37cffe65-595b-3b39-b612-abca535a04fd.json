@@ -3,16 +3,20 @@
  "Air": 300,
  "Attributes": [
   {
-   "Base": 100.0,
-   "Name": "irons_spellbooks:max_mana"
-  },
-  {
    "Base": 1.0,
    "Name": "attributeslib:arrow_damage"
   },
   {
    "Base": 0.0,
    "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:armor_negation"
+  },
+  {
+   "Base": 0.05,
+   "Name": "attributeslib:crit_chance"
   },
   {
    "Base": 0.1,
@@ -42,15 +46,49 @@
   },
   {
    "Base": 0.0,
-   "Name": "epicfight:stun_armor"
+   "Name": "minecraft:generic.armor"
   },
   {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:holy_spell_power"
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
   },
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
+  },
+  {
+   "Base": 3.0,
+   "Name": "forge:entity_reach"
+  },
+  {
+   "Base": 0.08,
+   "Name": "forge:entity_gravity"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 0.6,
+   "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 1.0,
+   "Modifiers": [
+    {
+     "Amount": 4.0,
+     "Name": "artifacts:power_glove_attack_damage_bonus",
+     "Operation": 0,
+     "UUID": [
+      308939635,
+      -1374337428,
+      -1487198021,
+      -702737548
+     ],
+     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+    }
+   ],
+   "Name": "minecraft:generic.attack_damage"
   },
   {
    "Base": 15.0,
@@ -69,6 +107,10 @@
     }
    ],
    "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.5,
@@ -111,68 +153,6 @@
     }
    ],
    "Name": "minecraft:generic.max_health"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:ice_spell_power"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:lightning_spell_power"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:armor_negation"
-  },
-  {
-   "Base": 0.05,
-   "Name": "attributeslib:crit_chance"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 3.0,
-   "Name": "forge:entity_reach"
-  },
-  {
-   "Base": 0.08,
-   "Name": "forge:entity_gravity"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.armor_toughness"
-  },
-  {
-   "Base": 0.6,
-   "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 1.0,
-   "Modifiers": [
-    {
-     "Amount": 4.0,
-     "Name": "artifacts:power_glove_attack_damage_bonus",
-     "Operation": 0,
-     "UUID": [
-      308939635,
-      -1374337428,
-      -1487198021,
-      -702737548
-     ],
-     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    }
-   ],
-   "Name": "minecraft:generic.attack_damage"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
   }
  ],
  "BalmData": {},
@@ -187,7 +167,7 @@
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": -20,
+ "Fire": 0,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -197,7 +177,7 @@
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 0.0
+   "SavedHealth": 44.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -1322,7 +1302,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1530,6 +1510,12 @@
    }
   },
   "accepted": 0,
+  "bossdps_hold": {
+   "dim": "minecraft:overworld",
+   "x": 265.5,
+   "y": 63.0,
+   "z": -1775.5
+  },
   "can_accept": 0,
   "find_me": {
    "autoBindIgnored": [],
@@ -4808,10 +4794,8 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 2670930,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2675063
+  "ua_rs_continuous": 0
  },
  "Health": 44.0,
  "HurtByTimestamp": 0,
@@ -4879,6 +4863,11 @@
    "Count": 51,
    "Slot": 5,
    "id": "minecraft:experience_bottle"
+  },
+  {
+   "Count": 1,
+   "Slot": 6,
+   "id": "tcrcore:retracement_stone"
   },
   {
    "Count": 1,
@@ -5080,29 +5069,29 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -14,
+   -1,
    3,
-   1
+   -14
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
+  0.0,
   0.0
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  1.2792,
-  3.0,
-  2.5242
+  0.3505,
+  6.0,
+  -13.7363
  ],
  "Rotation": [
-  -122.5826,
+  -123.2985,
   0.0
  ],
  "Score": 12301,
- "SelectedItemSlot": 4,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 30.929,
  "SpawnDimension": "minecraft:overworld",
@@ -5111,6 +5100,7 @@
  "SpawnY": 63,
  "SpawnZ": -1775,
  "Tags": [
+  "wom_health_fix:44.0",
   "ignistp"
  ],
  "UUID": [
@@ -5126,14 +5116,14 @@
  "XpTotal": 12301,
  "abilities": {
   "flySpeed": 0.05,
-  "flying": 0,
+  "flying": 1,
   "instabuild": 0,
-  "invulnerable": 0,
-  "mayBuild": 1,
-  "mayfly": 0,
+  "invulnerable": 1,
+  "mayBuild": 0,
+  "mayfly": 1,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.257,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5144,7 +5134,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 27,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5153,7 +5143,7 @@
   }
  },
  "max_stun_shield": 0.0,
- "playerGameType": 0,
+ "playerGameType": 3,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
   "isBlastingFurnaceGuiOpen": 0,
@@ -14630,7 +14620,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3579,
+  "ticks_since_last_warning": 7351,
   "warning_level": 0
  }
 }
