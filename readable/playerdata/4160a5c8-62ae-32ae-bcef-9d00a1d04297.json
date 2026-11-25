@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 243,
+   "Duration": 246,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 243,
+   "Duration": 246,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -45,36 +45,6 @@
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:speed"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 747,
-   "Id": 56,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "epicfight:instability"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 747,
-   "Id": 94,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "cataclysm:blazing_brand"
   }
  ],
  "Air": 300,
@@ -113,20 +83,6 @@
   },
   {
    "Base": 0.0,
-   "Modifiers": [
-    {
-     "Amount": -0.8,
-     "Name": "effect.cataclysm.blazing_brand 3",
-     "Operation": 2,
-     "UUID": [
-      1745323812,
-      -2041363755,
-      -1572496108,
-      -1577761147
-     ],
-     "UUID_str": "68078724-8653-42d5-a245-9d14a1f54685"
-    }
-   ],
    "Name": "minecraft:generic.armor"
   },
   {
@@ -225,20 +181,6 @@
   },
   {
    "Base": 0.0,
-   "Modifiers": [
-    {
-     "Amount": -0.8,
-     "Name": "effect.cataclysm.blazing_brand 3",
-     "Operation": 2,
-     "UUID": [
-      -1304959123,
-      367543571,
-      -1489676869,
-      633550339
-     ],
-     "UUID_str": "b237e76d-15e8-4513-a735-55bb25c33603"
-    }
-   ],
    "Name": "minecraft:generic.armor_toughness"
   },
   {
@@ -294,7 +236,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -308,7 +250,7 @@
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
    "RemedyStartDuration": 0,
-   "SavedHealth": 0.0
+   "SavedHealth": 34.0
   },
   "armourers_workshop:entity-skin-provider": {
    "DataVersion": 1
@@ -1388,7 +1330,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 42
+   "currentLogicNodeId": 212
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4374,12 +4316,11 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_mn_tabi_last_dash": 2526774,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 17.6831,
- "HurtByTimestamp": 152,
+ "Health": 34.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4664,9 +4605,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   9,
+   11,
    3,
-   -2
+   0
   ]
  },
  "Motion": [
@@ -4677,13 +4618,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -8.6397,
-  3.0,
-  -24.3481
+  265.5,
+  63.0,
+  -1775.5
  ],
  "Rotation": [
-  7.9423,
-  27.7824
+  140.2439,
+  15.881
  ],
  "Score": 28063,
  "SelectedItemSlot": 0,
@@ -4694,6 +4635,9 @@
  "SpawnX": 265,
  "SpawnY": 63,
  "SpawnZ": -1775,
+ "Tags": [
+  "wom_health_fix:34.0"
+ ],
  "UUID": [
   1096852936,
   1655583406,
@@ -4714,10 +4658,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.95,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 3,
+ "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -4725,7 +4669,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 26,
+  "mana": 8,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15034,7 +14978,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11330,
+  "ticks_since_last_warning": 255,
   "warning_level": 0
  }
 }
