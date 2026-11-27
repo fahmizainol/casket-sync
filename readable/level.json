@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2085539,
+  "DayTime": 2091539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795791189248,
+  "LastPlayed": 1795791489250,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 246,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -472,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 246,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -545,18 +545,6 @@
      "Base": 1.0,
      "Modifiers": [
       {
-       "Amount": 3.0,
-       "Name": "effect.minecraft.strength 0",
-       "Operation": 0,
-       "UUID": [
-        1686990948,
-        1784696665,
-        -1967209790,
-        980277161
-       ],
-       "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
-      },
-      {
        "Amount": 4.0,
        "Name": "artifacts:power_glove_attack_damage_bonus",
        "Operation": 0,
@@ -567,6 +555,18 @@
         -702737548
        ],
        "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+      },
+      {
+       "Amount": 3.0,
+       "Name": "effect.minecraft.strength 0",
+       "Operation": 0,
+       "UUID": [
+        1686990948,
+        1784696665,
+        -1967209790,
+        980277161
+       ],
+       "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
       }
      ],
      "Name": "minecraft:generic.attack_damage"
@@ -654,6 +654,10 @@
     {
      "Base": 0.0,
      "Name": "attributeslib:dodge_chance"
+    },
+    {
+     "Base": 1.0,
+     "Name": "attributeslib:mining_speed"
     }
    ],
    "BalmData": {},
@@ -664,11 +668,11 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "pbf1:sanctum_of_the_battle1",
+   "Dimension": "minecraft:overworld",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
-   "Fire": 0,
+   "Fire": -20,
    "ForgeCaps": {
     "aether:aether_player": {
      "CanGetPortal": 0,
@@ -1762,7 +1766,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 42
+     "currentLogicNodeId": 212
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1822,7 +1826,7 @@
       "dual_annihilator_lock": 0,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 0,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 0,
@@ -2035,12 +2039,6 @@
      }
     },
     "accepted": 0,
-    "bossdps_hold": {
-     "dim": "minecraft:overworld",
-     "x": 265.5,
-     "y": 63.0,
-     "z": -1775.5
-    },
     "can_accept": 0,
     "find_me": {
      "autoBindIgnored": [],
@@ -5043,26 +5041,26 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     -1,
-     3,
-     7
+     -10,
+     6,
+     3
     ]
    },
    "Motion": [
     0.0,
-    -0.0085,
+    -0.0784,
     0.0
    ],
-   "OnGround": 0,
+   "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    3.37,
-    6.0,
-    10.39
+    269.8806,
+    63.0,
+    -1772.5891
    ],
    "Rotation": [
-    -0.0,
-    0.0
+    -69.5,
+    21.3898
    ],
    "Score": 28162,
    "SelectedItemSlot": 0,
@@ -5086,11 +5084,11 @@
    "XpTotal": 28162,
    "abilities": {
     "flySpeed": 0.05,
-    "flying": 1,
+    "flying": 0,
     "instabuild": 0,
-    "invulnerable": 1,
-    "mayBuild": 0,
-    "mayfly": 1,
+    "invulnerable": 0,
+    "mayBuild": 1,
+    "mayfly": 0,
     "walkSpeed": 0.1
    },
    "foodExhaustionLevel": 0.0,
@@ -5104,7 +5102,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 2,
+    "mana": 125,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -5113,7 +5111,7 @@
     }
    },
    "max_stun_shield": 0.0,
-   "playerGameType": 3,
+   "playerGameType": 0,
    "recipeBook": {
     "isBlastingFurnaceFilteringCraftable": 0,
     "isBlastingFurnaceGuiOpen": 0,
@@ -15413,7 +15411,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 11582,
+    "ticks_since_last_warning": 5479,
     "warning_level": 0
    }
   },
@@ -15425,7 +15423,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2831685,
+  "Time": 2837685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15439,7 +15437,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 15600,
+  "WanderingTraderSpawnDelay": 9600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16127,9 +16125,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 43981,
+  "rainTime": 37981,
   "raining": 0,
-  "thunderTime": 62424,
+  "thunderTime": 56424,
   "thundering": 0,
   "version": 19133
  },

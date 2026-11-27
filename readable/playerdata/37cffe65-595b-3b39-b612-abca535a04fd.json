@@ -1,37 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 454,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 254,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -41,10 +9,6 @@
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 4.0,
@@ -108,10 +72,6 @@
   },
   {
    "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
   },
   {
@@ -140,18 +100,6 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -178,18 +126,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 9.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 2",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -223,7 +159,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1318,8 +1254,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 167,
-   "currentLogicNodeId": 167
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 142
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -5204,19 +5140,16 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 2831457,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2831564
+  "ua_rs_continuous": 0
  },
- "Health": 20.1527,
- "HurtByTimestamp": 449,
+ "Health": 44.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5498,9 +5431,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -26,
+   -13,
    3,
-   -5
+   9
   ]
  },
  "Motion": [
@@ -5511,13 +5444,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  1.4718,
-  3.0,
-  8.9241
+  266.4323,
+  63.0,
+  -1773.6143
  ],
  "Rotation": [
-  137.2459,
-  18.0839
+  -29.0793,
+  27.0666
  ],
  "Score": 12457,
  "SelectedItemSlot": 0,
@@ -5529,6 +5462,7 @@
  "SpawnY": 63,
  "SpawnZ": -1775,
  "Tags": [
+  "zddd",
   "ignistp"
  ],
  "UUID": [
@@ -5551,7 +5485,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.842,
+ "foodExhaustionLevel": 0.05,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5562,7 +5496,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 63,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15048,7 +14982,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4509,
+  "ticks_since_last_warning": 10122,
   "warning_level": 0
  }
 }
