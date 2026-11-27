@@ -875,7 +875,7 @@
      }
     },
     {
-     "amount": 2,
+     "amount": 7,
      "key": {
       "stack": {
        "item": "tcrcore:retracement_stone"
@@ -1311,7 +1311,7 @@
      }
     },
     {
-     "amount": 223,
+     "amount": 230,
      "key": {
       "stack": {
        "item": "minecraft:rotten_flesh"
@@ -1939,7 +1939,7 @@
      }
     },
     {
-     "amount": 34,
+     "amount": 36,
      "key": {
       "stack": {
        "item": "minecraft:spider_eye"
@@ -2019,7 +2019,7 @@
      }
     },
     {
-     "amount": 237,
+     "amount": 240,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -2091,7 +2091,7 @@
      }
     },
     {
-     "amount": 452,
+     "amount": 453,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3680,6 +3680,18 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "magistuarmory:gold_shortsword",
+       "tag": {
+        "Damage": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 12,
      "key": {
       "stack": {
@@ -3759,7 +3771,7 @@
      }
     },
     {
-     "amount": 32,
+     "amount": 33,
      "key": {
       "stack": {
        "item": "minecraft:amethyst_shard"
@@ -3877,7 +3889,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "magistuarmory:rustedchainmail_leggings",
@@ -4204,6 +4216,15 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "tcrcore:mech_fragment"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 13,
      "key": {
       "stack": {
@@ -4501,7 +4522,7 @@
      }
     },
     {
-     "amount": 1,
+     "amount": 2,
      "key": {
       "stack": {
        "item": "minecraft:carrot"
@@ -4523,7 +4544,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "tcrcore:rare_artifact_ticket"
@@ -4860,7 +4881,7 @@
      }
     },
     {
-     "amount": 625,
+     "amount": 626,
      "key": {
       "stack": {
        "item": "minecraft:arrow"
@@ -6632,7 +6653,7 @@
      }
     },
     {
-     "amount": 30,
+     "amount": 31,
      "key": {
       "stack": {
        "item": "bosses_of_mass_destruction:soul_star"
@@ -7462,6 +7483,33 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "cataclysm:soul_render",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:knockback",
+          "lvl": 2
+         },
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         }
+        ],
+        "kusabimaru_sheath": 0
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "lost_aether_content:brown_moa_egg"
       },
       "type": "beyonddimensions:stack_type/item"
@@ -7477,7 +7525,7 @@
      }
     },
     {
-     "amount": 5,
+     "amount": 6,
      "key": {
       "stack": {
        "item": "alexsmobs:flying_fish"
@@ -7563,7 +7611,7 @@
      }
     },
     {
-     "amount": 302,
+     "amount": 306,
      "key": {
       "stack": {
        "item": "minecraft:bone"

@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1977539,
+  "DayTime": 1983539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795785789253,
+  "LastPlayed": 1795786089261,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,11 +442,26 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 246,
+     "Duration": 250,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 2,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 19,
+     "Id": 1,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:speed"
     },
     {
      "Ambient": 1,
@@ -457,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 246,
+     "Duration": 250,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -536,6 +551,20 @@
     },
     {
      "Base": 0.1,
+     "Modifiers": [
+      {
+       "Amount": 0.6,
+       "Name": "effect.minecraft.speed 2",
+       "Operation": 2,
+       "UUID": [
+        -1850824106,
+        929776792,
+        -1822740609,
+        1745290805
+       ],
+       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+      }
+     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -643,7 +672,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "minecraft:overworld",
+   "Dimension": "tcrcore:sanctum",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -1055,7 +1084,7 @@
      "passive4": "efn:precise_parry",
      "passive5": "epicfight:emergency_escape",
      "passive6": "dodge_parry_reward:heal4",
-     "playerMode": "EPICFIGHT",
+     "playerMode": "VANILLA",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -1734,7 +1763,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 42
+     "currentLogicNodeId": 212
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -4725,8 +4754,8 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_mn_tabi_last_dash": 2722818,
-    "ua_rs_active_until": 2721162,
+    "ua_mn_tabi_last_dash": 2729038,
+    "ua_rs_active_until": 2729241,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
@@ -4818,6 +4847,36 @@
     {
      "Count": 1,
      "Slot": 2,
+     "id": "efn:kusabimaru",
+     "tag": {
+      "Enchantments": [
+       {
+        "id": "minecraft:sweeping",
+        "lvl": 3
+       },
+       {
+        "id": "minecraft:sharpness",
+        "lvl": 5
+       },
+       {
+        "id": "minecraft:knockback",
+        "lvl": 2
+       },
+       {
+        "id": "minecraft:looting",
+        "lvl": 3
+       },
+       {
+        "id": "minecraft:fire_aspect",
+        "lvl": 2
+       }
+      ],
+      "kusabimaru_sheath": 0
+     }
+    },
+    {
+     "Count": 1,
+     "Slot": 3,
      "id": "cataclysm:the_incinerator",
      "tag": {
       "Damage": 0,
@@ -4848,36 +4907,6 @@
     },
     {
      "Count": 1,
-     "Slot": 3,
-     "id": "efn:kusabimaru",
-     "tag": {
-      "Enchantments": [
-       {
-        "id": "minecraft:sweeping",
-        "lvl": 3
-       },
-       {
-        "id": "minecraft:sharpness",
-        "lvl": 5
-       },
-       {
-        "id": "minecraft:knockback",
-        "lvl": 2
-       },
-       {
-        "id": "minecraft:looting",
-        "lvl": 3
-       },
-       {
-        "id": "minecraft:fire_aspect",
-        "lvl": 2
-       }
-      ],
-      "kusabimaru_sheath": 0
-     }
-    },
-    {
-     "Count": 1,
      "Slot": 4,
      "id": "tcrcore:wither_soul_stone_activated",
      "tag": {
@@ -4886,132 +4915,8 @@
     },
     {
      "Count": 1,
-     "Slot": 9,
-     "id": "minecraft:carrot"
-    },
-    {
-     "Count": 1,
-     "Slot": 10,
-     "id": "alexsmobs:flying_fish"
-    },
-    {
-     "Count": 1,
-     "Slot": 11,
-     "id": "bosses_of_mass_destruction:soul_star"
-    },
-    {
-     "Count": 1,
-     "Slot": 12,
-     "id": "minecraft:arrow"
-    },
-    {
-     "Count": 1,
-     "Slot": 13,
-     "id": "magistuarmory:rustedchainmail_leggings",
-     "tag": {
-      "Damage": 0
-     }
-    },
-    {
-     "Count": 4,
-     "Slot": 14,
-     "id": "minecraft:bone"
-    },
-    {
-     "Count": 2,
-     "Slot": 15,
-     "id": "minecraft:spider_eye"
-    },
-    {
-     "Count": 1,
-     "Slot": 16,
-     "id": "tcrcore:rare_artifact_ticket"
-    },
-    {
-     "Count": 1,
-     "Slot": 20,
-     "id": "tcrcore:rare_artifact_ticket"
-    },
-    {
-     "Count": 1,
-     "Slot": 22,
-     "id": "magistuarmory:gold_shortsword",
-     "tag": {
-      "Damage": 0
-     }
-    },
-    {
-     "Count": 1,
-     "Slot": 23,
-     "id": "tcrcore:retracement_stone"
-    },
-    {
-     "Count": 1,
-     "Slot": 24,
-     "id": "tcrcore:retracement_stone"
-    },
-    {
-     "Count": 1,
-     "Slot": 25,
-     "id": "minecraft:amethyst_shard"
-    },
-    {
-     "Count": 1,
-     "Slot": 26,
-     "id": "tcrcore:mech_fragment"
-    },
-    {
-     "Count": 1,
-     "Slot": 29,
-     "id": "tcrcore:rare_artifact_ticket"
-    },
-    {
-     "Count": 1,
-     "Slot": 30,
-     "id": "cataclysm:soul_render",
-     "tag": {
-      "Damage": 0,
-      "Enchantments": [
-       {
-        "id": "minecraft:sharpness",
-        "lvl": 5
-       },
-       {
-        "id": "minecraft:knockback",
-        "lvl": 2
-       },
-       {
-        "id": "minecraft:looting",
-        "lvl": 3
-       }
-      ],
-      "kusabimaru_sheath": 0
-     }
-    },
-    {
-     "Count": 1,
-     "Slot": 31,
-     "id": "tcrcore:retracement_stone"
-    },
-    {
-     "Count": 1,
-     "Slot": 32,
-     "id": "tcrcore:retracement_stone"
-    },
-    {
-     "Count": 1,
-     "Slot": 33,
-     "id": "tcrcore:retracement_stone"
-    },
-    {
-     "Count": 7,
-     "Slot": 34,
-     "id": "minecraft:rotten_flesh"
-    },
-    {
-     "Count": 3,
-     "Slot": 35,
-     "id": "minecraft:string"
+     "Slot": 5,
+     "id": "tcrcore:ancient_oracle_fragment"
     },
     {
      "Count": 1,
@@ -5135,13 +5040,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    257.986,
-    63.0,
-    -1776.506
+    -239.6352,
+    79.0,
+    -99.3071
    ],
    "Rotation": [
-    54.3023,
-    26.9904
+    -82.6254,
+    11.7778
    ],
    "Score": 28130,
    "SelectedItemSlot": 0,
@@ -5152,9 +5057,6 @@
    "SpawnX": 265,
    "SpawnY": 63,
    "SpawnZ": -1775,
-   "Tags": [
-    "wom_health_fix:38.0"
-   ],
    "UUID": [
     1096852936,
     1655583406,
@@ -5175,7 +5077,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.8437,
+   "foodExhaustionLevel": 0.8367,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15495,7 +15397,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 4930,
+    "ticks_since_last_warning": 10929,
     "warning_level": 0
    }
   },
@@ -15507,7 +15409,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2723685,
+  "Time": 2729685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15521,7 +15423,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 3600,
+  "WanderingTraderSpawnDelay": 21600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16209,9 +16111,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 11581,
+  "rainTime": 5581,
   "raining": 1,
-  "thunderTime": 24158,
+  "thunderTime": 18158,
   "thundering": 0,
   "version": 19133
  },
