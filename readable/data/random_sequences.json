@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    -74945411910925049,
-    -2678972734429601948
+    -4413404705017365711,
+    8412004282554268809
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    8697125695547489740,
-    3027379856068069443
+    -2914043553505099682,
+    -518781503623915750
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -7559321327437282543,
-    -8441045956959006387
+    1773417871063521792,
+    7718072947477292484
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2235,8 +2235,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    -7432565265136890530,
-    8823733616292630477
+    8936976880053031872,
+    5572820680026107498
    ]
   },
   "minecraft:entities/tropical_fish": {
@@ -2295,8 +2295,8 @@
   },
   "minecraft:entities/zombified_piglin": {
    "source": [
-    4974088203637876009,
-    6698347743122634577
+    -1414914078313719109,
+    4725305711931767312
    ]
   },
   "tcr_bosses:entities/ancient_remnant_humanoid": {
