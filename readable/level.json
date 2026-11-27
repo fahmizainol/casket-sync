@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2121539,
+  "DayTime": 2127539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795792989240,
+  "LastPlayed": 1795793289235,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 358,
+     "Duration": 551,
      "Id": 21,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,11 +457,26 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 250,
+     "Duration": 246,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 0,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 90,
+     "Id": 98,
+     "ShowIcon": 0,
+     "ShowParticles": 0,
+     "forge:id": "cataclysm:abyssal_fear"
     },
     {
      "Ambient": 0,
@@ -472,7 +487,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 158,
+     "Duration": 351,
      "Id": 57,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -487,7 +502,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 250,
+     "Duration": 246,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -1076,11 +1091,9 @@
       }
      ]
     },
-    "efn:original_skill_memory": {
-     "DODGE": "wom:precise_roll"
-    },
+    "efn:original_skill_memory": {},
     "epicfight:skill_cap": {
-     "dodge": "efn:yamato_step",
+     "dodge": "wom:precise_roll",
      "efn_sekiro": "efn:mortal_blade",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
@@ -1800,8 +1813,8 @@
     },
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
-     "currentDataNodeId": 54,
-     "currentLogicNodeId": 54
+     "currentDataNodeId": 1,
+     "currentLogicNodeId": 212
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -4790,13 +4803,14 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_mn_tabi_last_dash": 2866227,
-    "ua_rs_active_until": 2867222,
+    "quark:trying_crawl": 0,
+    "ua_mn_tabi_last_dash": 2873573,
+    "ua_rs_active_until": 2873533,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 16.264,
-   "HurtByTimestamp": 2016,
+   "Health": 39.7465,
+   "HurtByTimestamp": 3838,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4876,7 +4890,7 @@
       ],
       "KillCount": 3,
       "RepairCost": 3,
-      "TotalDamage": 12435.3994,
+      "TotalDamage": 12925.6729,
       "kusabimaru_sheath": 0
      }
     },
@@ -5078,9 +5092,9 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     -9,
+     -10,
      3,
-     -6
+     13
     ]
    },
    "Motion": [
@@ -5091,16 +5105,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    18.6307,
+    14.9316,
     3.0,
-    -16.6406
+    8.97
    ],
    "Rotation": [
-    59.9733,
-    -7.4728
+    21.081,
+    -9.3379
    ],
    "Score": 28162,
-   "SelectedItemSlot": 1,
+   "SelectedItemSlot": 0,
    "SleepTimer": 0,
    "SpawnAngle": 13.821,
    "SpawnDimension": "minecraft:overworld",
@@ -5128,10 +5142,10 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.322,
+   "foodExhaustionLevel": 4.954,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
-   "foodTickTimer": 1,
+   "foodTickTimer": 0,
    "irons_spellbooks:magic_data": {
     "castingEquipmentSlot": "",
     "castingSpellId": "",
@@ -15448,7 +15462,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 10211,
+    "ticks_since_last_warning": 4005,
     "warning_level": 0
    }
   },
@@ -15460,7 +15474,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2867685,
+  "Time": 2873685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15474,7 +15488,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 3600,
+  "WanderingTraderSpawnDelay": 21600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16162,9 +16176,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 7981,
+  "rainTime": 1981,
   "raining": 0,
-  "thunderTime": 26424,
+  "thunderTime": 20424,
   "thundering": 0,
   "version": 19133
  },
