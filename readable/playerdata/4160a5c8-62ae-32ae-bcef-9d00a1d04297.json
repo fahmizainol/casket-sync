@@ -2,19 +2,19 @@
  "AbsorptionAmount": 0.0,
  "ActiveEffects": [
   {
-   "Ambient": 1,
-   "Amplifier": 0,
+   "Ambient": 0,
+   "Amplifier": 7,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
-   "Id": 10,
+   "Duration": 564,
+   "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
-   "forge:id": "minecraft:regeneration"
+   "forge:id": "minecraft:health_boost"
   },
   {
    "Ambient": 1,
@@ -25,7 +25,52 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
+   "Duration": 243,
+   "Id": 10,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 4,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 5,
+   "Id": 11,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:resistance"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 27,
+   "Id": 1,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
+  },
+  {
+   "Ambient": 1,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 243,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -68,6 +113,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -108,6 +165,20 @@
   },
   {
    "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.speed 1",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -1315,8 +1386,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 42
+   "currentDataNodeId": 79,
+   "currentLogicNodeId": 79
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4307,13 +4378,13 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_mn_tabi_last_dash": 3017369,
-  "ua_rs_active_until": 3017498,
+  "ua_bb_dodge_until": 3023704,
+  "ua_mn_tabi_last_dash": 3023516,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 34.0,
- "HurtByTimestamp": 504,
+ "Health": 46.3333,
+ "HurtByTimestamp": 449,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4397,7 +4468,7 @@
     ],
     "KillCount": 4,
     "RepairCost": 7,
-    "TotalDamage": 39619.0859,
+    "TotalDamage": 42223.0508,
     "kusabimaru_sheath": 0
    }
   },
@@ -4471,11 +4542,6 @@
    }
   },
   {
-   "Count": 1,
-   "Slot": 5,
-   "id": "tcrcore:retracement_stone"
-  },
-  {
    "Count": 4,
    "Slot": 6,
    "id": "minecraft:nether_gold_ore"
@@ -4533,6 +4599,11 @@
   {
    "Count": 1,
    "Slot": 33,
+   "id": "tcrcore:retracement_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 34,
    "id": "tcrcore:retracement_stone"
   },
   {
@@ -4649,9 +4720,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -10,
+   5,
    3,
-   -15
+   5
   ]
  },
  "Motion": [
@@ -4662,13 +4733,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  22.586,
+  -8.64,
   3.0,
-  -14.8019
+  -9.0301
  ],
  "Rotation": [
-  -6.5637,
-  -10.0789
+  -62.3613,
+  18.0677
  ],
  "Score": 28165,
  "SelectedItemSlot": 1,
@@ -4699,10 +4770,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.39,
+ "foodExhaustionLevel": 1.598,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 6,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -4710,7 +4781,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 125,
+  "mana": 57,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15019,7 +15090,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11681,
+  "ticks_since_last_warning": 5037,
   "warning_level": 0
  }
 }
