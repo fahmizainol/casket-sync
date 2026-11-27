@@ -3,33 +3,48 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 11,
+   "Amplifier": 7,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": -1,
-   "Id": 170,
+   "Duration": 529,
+   "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
-   "forge:id": "efn:murasama_sheath"
+   "forge:id": "minecraft:health_boost"
   },
   {
    "Ambient": 0,
-   "Amplifier": 11,
+   "Amplifier": 0,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 443,
-   "Id": 136,
+   "Duration": 48,
+   "Id": 98,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "cataclysm:abyssal_fear"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 329,
+   "Id": 57,
    "ShowIcon": 1,
    "ShowParticles": 0,
-   "forge:id": "irons_spellbooks:thunderstorm"
+   "forge:id": "dodge_parry_reward:stamina_boost"
   }
  ],
  "Air": 300,
@@ -94,18 +109,6 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    },
-    {
-     "Amount": 1.2,
-     "Name": "effect.efn.murasama_sheath 11",
-     "Operation": 2,
-     "UUID": [
-      -1961218756,
-      1314876027,
-      -1935810319,
-      -1565276971
-     ],
-     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -117,6 +120,10 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -148,6 +155,18 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -155,6 +174,10 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -174,6 +197,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 9.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 2",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -1302,8 +1337,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 142
+   "currentDataNodeId": 167,
+   "currentLogicNodeId": 167
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1542,7 +1577,7 @@
  },
  "ForgeData": {
   "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 16,
+  "EFNMurasamaSheathTicks": 13,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5199,13 +5234,12 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 2933301,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2933629
+  "ua_tabi_last_dash": 2938961
  },
- "Health": 44.0,
- "HurtByTimestamp": 0,
+ "Health": 65.2352,
+ "HurtByTimestamp": 951,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5239,7 +5273,7 @@
      "mustEquip": 0,
      "spellWheel": 1
     },
-    "murasama_sheath": 1
+    "murasama_sheath": 0
    }
   },
   {
@@ -5304,6 +5338,11 @@
   {
    "Count": 1,
    "Slot": 12,
+   "id": "tcrcore:retracement_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 13,
    "id": "tcrcore:retracement_stone"
   },
   {
@@ -5497,9 +5536,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   1,
+   -4,
    3,
-   20
+   8
   ]
  },
  "Motion": [
@@ -5510,13 +5549,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  0.9625,
+  -10.7403,
   3.0,
-  -0.9569
+  -9.9537
  ],
  "Rotation": [
-  169.147,
-  20.8063
+  -179.5503,
+  -24.0785
  ],
  "Score": 12467,
  "SelectedItemSlot": 0,
@@ -5550,25 +5589,18 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.851,
+ "foodExhaustionLevel": 2.64,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "mainhand",
+  "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
-  "cooldowns": [
-   {
-    "cdr": 4724,
-    "id": "irons_spellbooks:thunderstorm",
-    "scd": 4800
-   }
-  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 8,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15054,7 +15086,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7923,
+  "ticks_since_last_warning": 1683,
   "warning_level": 0
  }
 }
