@@ -17,6 +17,65 @@
      -1580186985
     ],
     "uuid_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297"
+   },
+   {
+    "chest": {
+     "Items": [
+      {
+       "Count": 1,
+       "Slot": 2,
+       "id": "minecraft:glass_bottle"
+      },
+      {
+       "Count": 1,
+       "Slot": 3,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 1,
+       "Slot": 6,
+       "id": "minecraft:map"
+      },
+      {
+       "Count": 1,
+       "Slot": 7,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 1,
+       "Slot": 13,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 1,
+       "Slot": 18,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 1,
+       "Slot": 19,
+       "id": "minecraft:scaffolding"
+      },
+      {
+       "Count": 1,
+       "Slot": 22,
+       "id": "minecraft:glass_bottle"
+      },
+      {
+       "Count": 1,
+       "Slot": 25,
+       "id": "minecraft:scaffolding"
+      }
+     ]
+    },
+    "name": "{\"translate\":\"container.barrel\"}",
+    "uuid": [
+     936377957,
+     1499151161,
+     -1240290358,
+     1398408445
+    ],
+    "uuid_str": "37cffe65-595b-3b39-b612-abca535a04fd"
    }
   ],
   "key": "lootr/d/d7/d7b77969-018c-4156-955f-266c9f4274fc",

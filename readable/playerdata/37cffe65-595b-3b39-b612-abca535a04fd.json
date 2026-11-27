@@ -3,27 +3,18 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 0,
+   "Amplifier": 24,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 105,
-   "FactorCalculationData": {
-    "factor_current": 1.0,
-    "factor_previous_frame": 1.0,
-    "factor_start": 0.0,
-    "factor_target": 1.0,
-    "had_effect_last_tick": 1,
-    "padding_duration": 22,
-    "ticks_active": 238
-   },
-   "Id": 33,
-   "ShowIcon": 0,
+   "Duration": -1,
+   "Id": 170,
+   "ShowIcon": 1,
    "ShowParticles": 0,
-   "forge:id": "minecraft:darkness"
+   "forge:id": "efn:murasama_sheath"
   }
  ],
  "Air": 300,
@@ -84,6 +75,18 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+    },
+    {
+     "Amount": 2.5,
+     "Name": "effect.efn.murasama_sheath 24",
+     "Operation": 2,
+     "UUID": [
+      -1961218756,
+      1314876027,
+      -1935810319,
+      -1565276971
+     ],
+     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -1520,6 +1523,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 14,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5220,6 +5225,7 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
+  "ua_rs_active_until": 3005214,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
@@ -5281,7 +5287,7 @@
      "mustEquip": 0,
      "spellWheel": 1
     },
-    "murasama_sheath": 0
+    "murasama_sheath": 1
    }
   },
   {
@@ -5442,9 +5448,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -21,
+   -2,
    3,
-   -18
+   4
   ]
  },
  "Motion": [
@@ -5460,8 +5466,8 @@
   -1775.5
  ],
  "Rotation": [
-  -0.0,
-  0.0
+  -54.02,
+  15.245
  ],
  "Score": 12467,
  "SelectedItemSlot": 1,
@@ -5506,7 +5512,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 29,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14992,7 +14998,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7493,
+  "ticks_since_last_warning": 1224,
   "warning_level": 0
  }
 }
