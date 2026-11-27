@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1983539,
+  "DayTime": 1989539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795786089261,
+  "LastPlayed": 1795786389259,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,26 +442,11 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 250,
+     "Duration": 254,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 2,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 19,
-     "Id": 1,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:speed"
     },
     {
      "Ambient": 1,
@@ -472,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 250,
+     "Duration": 254,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -551,20 +536,6 @@
     },
     {
      "Base": 0.1,
-     "Modifiers": [
-      {
-       "Amount": 0.6,
-       "Name": "effect.minecraft.speed 2",
-       "Operation": 2,
-       "UUID": [
-        -1850824106,
-        929776792,
-        -1822740609,
-        1745290805
-       ],
-       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-      }
-     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -633,6 +604,10 @@
     },
     {
      "Base": 0.0,
+     "Name": "cataclysm:additional_critical_damage"
+    },
+    {
+     "Base": 0.0,
      "Name": "minecraft:generic.armor_toughness"
     },
     {
@@ -674,7 +649,7 @@
    "DeathTime": 0,
    "Dimension": "tcrcore:sanctum",
    "EnderItems": [],
-   "FallDistance": 0.0,
+   "FallDistance": 0.2336,
    "FallFlying": 0,
    "Fire": -20,
    "ForgeCaps": {
@@ -1050,12 +1025,16 @@
     "efn:original_skill_memory": {},
     "epicfight:skill_cap": {
      "dodge": "efn:efn_step",
+     "efn_sekiro": "efn:mortal_blade",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
      "learned:dodge": {
       "0": "efn:efn_step",
       "1": "efn:efn_dodge",
       "2": "efn:yamato_step"
+     },
+     "learned:efn_sekiro": {
+      "0": "efn:mortal_blade"
      },
      "learned:guard": {
       "0": "efn:efn_parry"
@@ -1084,7 +1063,7 @@
      "passive4": "efn:precise_parry",
      "passive5": "epicfight:emergency_escape",
      "passive6": "dodge_parry_reward:heal4",
-     "playerMode": "VANILLA",
+     "playerMode": "EPICFIGHT",
      "replace_cooldowns": {
       "basic_attack": 0,
       "dodge": 0,
@@ -4754,8 +4733,8 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_mn_tabi_last_dash": 2729038,
-    "ua_rs_active_until": 2729241,
+    "ua_mn_tabi_last_dash": 2735675,
+    "ua_rs_active_until": 2735682,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
@@ -4915,11 +4894,6 @@
     },
     {
      "Count": 1,
-     "Slot": 5,
-     "id": "tcrcore:ancient_oracle_fragment"
-    },
-    {
-     "Count": 1,
      "Slot": 100,
      "id": "fantasy_armor:lady_maria_boots",
      "tag": {
@@ -5033,23 +5007,23 @@
     ]
    },
    "Motion": [
-    0.0,
-    -0.0784,
-    0.0
+    0.0173,
+    -0.3739,
+    -0.8176
    ],
-   "OnGround": 1,
+   "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    -239.6352,
-    79.0,
-    -99.3071
+    -239.1852,
+    81.435,
+    -106.3499
    ],
    "Rotation": [
-    -82.6254,
-    11.7778
+    -176.8523,
+    12.5278
    ],
    "Score": 28130,
-   "SelectedItemSlot": 0,
+   "SelectedItemSlot": 2,
    "SleepTimer": 0,
    "SpawnAngle": 9.6864,
    "SpawnDimension": "minecraft:overworld",
@@ -5077,7 +5051,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 0.8367,
+   "foodExhaustionLevel": 1.9757,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15397,7 +15371,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 10929,
+    "ticks_since_last_warning": 4928,
     "warning_level": 0
    }
   },
@@ -15409,7 +15383,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2729685,
+  "Time": 2735685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15423,7 +15397,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 21600,
+  "WanderingTraderSpawnDelay": 15600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16111,9 +16085,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 5581,
-  "raining": 1,
-  "thunderTime": 18158,
+  "rainTime": 55656,
+  "raining": 0,
+  "thunderTime": 12158,
   "thundering": 0,
   "version": 19133
  },
