@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 581,
+   "Duration": 454,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 381,
+   "Duration": 254,
    "Id": 57,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -159,10 +159,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -1383,7 +1379,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1560,8 +1556,6 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 11,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5210,18 +5204,19 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 2824997,
+  "ua_rs_active_until": 2831457,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2825289
+  "ua_tabi_last_dash": 2831564
  },
- "Health": 14.0615,
- "HurtByTimestamp": 2435,
+ "Health": 20.1527,
+ "HurtByTimestamp": 449,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5503,9 +5498,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -9,
-   8,
-   -6
+   -26,
+   3,
+   -5
   ]
  },
  "Motion": [
@@ -5516,18 +5511,18 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -0.5568,
+  1.4718,
   3.0,
-  8.8264
+  8.9241
  ],
  "Rotation": [
-  -29.1188,
-  -10.9066
+  137.2459,
+  18.0839
  ],
  "Score": 12457,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
- "SpawnAngle": -168.296,
+ "SpawnAngle": -87.2336,
  "SpawnDimension": "minecraft:overworld",
  "SpawnForced": 0,
  "SpawnX": 265,
@@ -5556,7 +5551,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.505,
+ "foodExhaustionLevel": 3.842,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5567,7 +5562,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 63,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15053,7 +15048,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11723,
+  "ticks_since_last_warning": 4509,
   "warning_level": 0
  }
 }

@@ -10,11 +10,26 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 244,
+   "Duration": 248,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 19,
+   "Id": 1,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
   },
   {
    "Ambient": 1,
@@ -25,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 244,
+   "Duration": 248,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,6 +55,20 @@
   },
   {
    "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.6,
+     "Name": "effect.minecraft.speed 2",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -84,18 +113,6 @@
    "Base": 1.0,
    "Modifiers": [
     {
-     "Amount": 4.0,
-     "Name": "artifacts:power_glove_attack_damage_bonus",
-     "Operation": 0,
-     "UUID": [
-      308939635,
-      -1374337428,
-      -1487198021,
-      -702737548
-     ],
-     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    },
-    {
      "Amount": 3.0,
      "Name": "effect.minecraft.strength 0",
      "Operation": 0,
@@ -106,6 +123,18 @@
       980277161
      ],
      "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
+    },
+    {
+     "Amount": 4.0,
+     "Name": "artifacts:power_glove_attack_damage_bonus",
+     "Operation": 0,
+     "UUID": [
+      308939635,
+      -1374337428,
+      -1487198021,
+      -702737548
+     ],
+     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -578,11 +607,9 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "wom:precise_roll"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:yamato_step",
+   "dodge": "wom:precise_roll",
    "efn_sekiro": "efn:mortal_blade",
    "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
@@ -4584,31 +4611,31 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -8,
+   -1,
    3,
-   9
+   7
   ]
  },
  "Motion": [
   0.0,
-  0.0,
+  -0.0085,
   0.0
  ],
  "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -4.79,
+  3.37,
   6.0,
-  0.59
+  10.39
  ],
  "Rotation": [
-  -87.4858,
+  -0.0,
   0.0
  ],
  "Score": 28162,
- "SelectedItemSlot": 1,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
- "SpawnAngle": 9.6864,
+ "SpawnAngle": -1.631,
  "SpawnDimension": "minecraft:overworld",
  "SpawnForced": 0,
  "SpawnX": 265,
@@ -4645,7 +4672,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 125,
+  "mana": 2,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14954,7 +14981,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6087,
+  "ticks_since_last_warning": 11582,
   "warning_level": 0
  }
 }
