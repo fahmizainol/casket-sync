@@ -1315,7 +1315,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -5456,9 +5456,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
+   -12,
    3,
-   3,
-   -28
+   -8
   ]
  },
  "Motion": [
@@ -5469,13 +5469,13 @@
  "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  7.51,
+  -8.3814,
   6.0,
-  -24.97
+  -6.1216
  ],
  "Rotation": [
-  -28.0068,
-  20.2835
+  -35.8366,
+  0.0
  ],
  "Score": 12467,
  "SelectedItemSlot": 0,
@@ -5520,7 +5520,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 7,
+  "mana": 8,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15006,7 +15006,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6090,
+  "ticks_since_last_warning": 11142,
   "warning_level": 0
  }
 }

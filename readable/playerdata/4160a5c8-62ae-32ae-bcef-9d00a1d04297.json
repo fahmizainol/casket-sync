@@ -3,18 +3,33 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 3,
+   "Amplifier": 7,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 473,
-   "Id": 55,
-   "ShowIcon": 0,
+   "Duration": 347,
+   "Id": 21,
+   "ShowIcon": 1,
    "ShowParticles": 0,
-   "forge:id": "epicfight:stun_immunity"
+   "forge:id": "minecraft:health_boost"
+  },
+  {
+   "Ambient": 1,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 250,
+   "Id": 10,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:regeneration"
   },
   {
    "Ambient": 0,
@@ -25,71 +40,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 137,
-   "Id": 96,
-   "ShowIcon": 1,
-   "ShowParticles": 1,
-   "forge:id": "cataclysm:abyssal_burn"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 583,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 474,
-   "Id": 10,
+   "Duration": 115,
+   "Id": 98,
    "ShowIcon": 0,
    "ShowParticles": 0,
-   "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 474,
-   "Id": 11,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:resistance"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 474,
-   "Id": 140,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "efn:sin_stun_immunity"
+   "forge:id": "cataclysm:abyssal_fear"
   },
   {
    "Ambient": 0,
@@ -100,7 +55,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 383,
+   "Duration": 147,
    "Id": 57,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -108,42 +63,18 @@
   },
   {
    "Ambient": 0,
-   "Amplifier": 9,
+   "Amplifier": 1,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 44,
-   "Id": 40,
+   "Duration": 10,
+   "Id": 146,
    "ShowIcon": 0,
    "ShowParticles": 0,
-   "forge:id": "attributeslib:bleeding"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 228,
-   "FactorCalculationData": {
-    "factor_current": 1.0,
-    "factor_previous_frame": 1.0,
-    "factor_start": 0.0,
-    "factor_target": 1.0,
-    "had_effect_last_tick": 1,
-    "padding_duration": 22,
-    "ticks_active": 1097
-   },
-   "Id": 33,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:darkness"
+   "forge:id": "efn:yamato"
   },
   {
    "Ambient": 1,
@@ -4459,15 +4390,13 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_bb_dodge_until": 2945692,
-  "ua_mn_tabi_last_dash": 2945460,
-  "ua_rs_active_until": 2945308,
+  "ua_rs_active_until": 2951538,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 66.0,
- "HurtByTimestamp": 3370,
- "HurtTime": 0,
+ "Health": 20.6453,
+ "HurtByTimestamp": 1125,
+ "HurtTime": 5,
  "Inventory": [
   {
    "Count": 1,
@@ -4550,7 +4479,7 @@
     ],
     "KillCount": 3,
     "RepairCost": 7,
-    "TotalDamage": 15148.6543,
+    "TotalDamage": 16650.5527,
     "kusabimaru_sheath": 0
    }
   },
@@ -4777,9 +4706,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   21,
+   -3,
    3,
-   4
+   -8
   ]
  },
  "Motion": [
@@ -4790,13 +4719,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  5.8334,
+  -10.3507,
   3.0,
-  -18.0842
+  -12.6913
  ],
  "Rotation": [
-  -41.4619,
-  13.1735
+  -128.2459,
+  13.8081
  ],
  "Score": 28165,
  "SelectedItemSlot": 1,
@@ -4827,10 +4756,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.822,
+ "foodExhaustionLevel": 0.789,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 1,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -15147,7 +15076,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3383,
+  "ticks_since_last_warning": 8699,
   "warning_level": 0
  }
 }
