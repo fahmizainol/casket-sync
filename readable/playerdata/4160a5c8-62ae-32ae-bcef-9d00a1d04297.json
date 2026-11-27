@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 254,
+   "Duration": 246,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 254,
+   "Duration": 246,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -44,11 +44,11 @@
   },
   {
    "Base": 0.0,
-   "Name": "epicfight:stun_armor"
+   "Name": "epicfight:armor_negation"
   },
   {
    "Base": 0.0,
-   "Name": "epicfight:armor_negation"
+   "Name": "epicfight:stun_armor"
   },
   {
    "Base": 20.0,
@@ -96,19 +96,15 @@
   },
   {
    "Base": 1.0,
-   "Name": "forge:swim_speed"
-  },
-  {
-   "Base": 1.0,
    "Name": "attributeslib:mining_speed"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 100.0,
    "Name": "irons_spellbooks:max_mana"
+  },
+  {
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 4.0,
@@ -163,12 +159,12 @@
    "Name": "minecraft:generic.attack_damage"
   },
   {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
-  },
-  {
    "Base": 0.05,
    "Name": "attributeslib:crit_chance"
+  },
+  {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
   },
   {
    "Base": 0.0,
@@ -195,12 +191,12 @@
    "Name": "minecraft:generic.luck"
   },
   {
-   "Base": 1.5,
-   "Name": "attributeslib:crit_damage"
-  },
-  {
    "Base": 1.0,
    "Name": "epicfight:max_strikes"
+  },
+  {
+   "Base": 1.5,
+   "Name": "attributeslib:crit_damage"
   },
   {
    "Base": 0.0,
@@ -217,14 +213,14 @@
  "DeathTime": 0,
  "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
- "FallDistance": 0.2336,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
    "CanShowPatreonMessage": 1,
-   "CanSpawnInAether": 0,
+   "CanSpawnInAether": 1,
    "HasSeenSunSpirit": 0,
    "LifeShardCount": 0,
    "LoginsUntilPatreonMessage": -1,
@@ -253,7 +249,7 @@
    "monstrous_nightmare_tamed": 0,
    "nightfury_bonded": 0,
    "nightfury_encountered": 1,
-   "nightfury_killed": 0,
+   "nightfury_killed": 1,
    "nightfury_tamed": 0,
    "skrill_bonded": 0,
    "skrill_encountered": 0,
@@ -1384,7 +1380,6 @@
   },
   "sword_soaring:ss_player": {},
   "tcrcore:tcr_player": {
-   "blessItem": "minecraft:air",
    "blessPos": {
     "X": 0,
     "Y": 0,
@@ -4300,14 +4295,13 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_mn_tabi_last_dash": 2735675,
-  "ua_rs_active_until": 2735682,
+  "ua_mn_tabi_last_dash": 2741647,
+  "ua_rs_active_until": 2741623,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
  "Health": 38.0,
- "HurtByTimestamp": 0,
+ "HurtByTimestamp": 1108,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4385,9 +4379,9 @@
       "lvl": 1
      }
     ],
-    "KillCount": 1,
+    "KillCount": 2,
     "RepairCost": 3,
-    "TotalDamage": 7984.4829,
+    "TotalDamage": 8157.6299,
     "kusabimaru_sheath": 0
    }
   },
@@ -4569,28 +4563,28 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -21,
+   21,
    3,
-   19
+   -7
   ]
  },
  "Motion": [
-  0.0173,
-  -0.3739,
-  -0.8176
+  0.0,
+  -0.0784,
+  0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -239.1852,
-  81.435,
-  -106.3499
+  78.5028,
+  73.0,
+  -171.5616
  ],
  "Rotation": [
-  -176.8523,
-  12.5278
+  63.6062,
+  0.0
  ],
- "Score": 28130,
+ "Score": 28133,
  "SelectedItemSlot": 2,
  "SleepTimer": 0,
  "SpawnAngle": 9.6864,
@@ -4607,9 +4601,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 86,
- "XpP": 0.5698,
+ "XpP": 0.5747,
  "XpSeed": 976728483,
- "XpTotal": 28130,
+ "XpTotal": 28133,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4619,7 +4613,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.9757,
+ "foodExhaustionLevel": 3.916,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14939,7 +14933,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4928,
+  "ticks_since_last_warning": 10810,
   "warning_level": 0
  }
 }
