@@ -159,11 +159,11 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": -20,
+ "Fire": 0,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -529,12 +529,15 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "efn:efn_dodge",
+   "GUARD": "efn:efn_parry"
+  },
   "epicfight:skill_cap": {
-   "dodge": "efn:efn_dodge",
+   "dodge": "efn:murasama_dodge",
    "efn_sekiro": "efn:mortal_blade",
    "efn_zansetsu": "efn:zansetsu",
-   "guard": "efn:efn_parry",
+   "guard": "efn:murasama_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:murasama_dodge",
@@ -1313,7 +1316,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1523,6 +1526,12 @@
    }
   },
   "accepted": 0,
+  "bossdps_hold": {
+   "dim": "minecraft:overworld",
+   "x": 265.5,
+   "y": 63.0,
+   "z": -1775.5
+  },
   "can_accept": 0,
   "find_me": {
    "autoBindIgnored": [],
@@ -5421,29 +5430,29 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   5,
+   12,
    3,
-   2
+   -13
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
+  0.0,
   0.0
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  266.3519,
-  63.0,
-  -1775.1423
+  10.05,
+  5.88,
+  -17.34
  ],
  "Rotation": [
-  -4.1047,
+  -50.0,
   0.0
  ],
  "Score": 12483,
- "SelectedItemSlot": 2,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -87.2336,
  "SpawnDimension": "minecraft:overworld",
@@ -5467,11 +5476,11 @@
  "XpTotal": 12483,
  "abilities": {
   "flySpeed": 0.05,
-  "flying": 0,
+  "flying": 1,
   "instabuild": 0,
-  "invulnerable": 0,
-  "mayBuild": 1,
-  "mayfly": 0,
+  "invulnerable": 1,
+  "mayBuild": 0,
+  "mayfly": 1,
   "walkSpeed": 0.1
  },
  "foodExhaustionLevel": 0.0,
@@ -5485,7 +5494,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 7,
+  "mana": 4,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5494,7 +5503,7 @@
   }
  },
  "max_stun_shield": 0.0,
- "playerGameType": 0,
+ "playerGameType": 3,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
   "isBlastingFurnaceGuiOpen": 0,
@@ -14971,7 +14980,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5598,
+  "ticks_since_last_warning": 11217,
   "warning_level": 0
  }
 }
