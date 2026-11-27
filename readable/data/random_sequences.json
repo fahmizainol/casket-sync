@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    7020889487725902057,
-    -6583537242956191936
+    -8384253470467502843,
+    -6969856220135814912
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    -8741159105865009517,
-    4744988775121557653
+    7823998461395867471,
+    1506417972175704845
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    2353459747932814839,
-    -4752837340741620150
+    3383428593743859103,
+    -9094151308643351672
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2235,8 +2235,8 @@
   },
   "minecraft:entities/squid": {
    "source": [
-    2573952051288142951,
-    2758023508326589079
+    2873003262079381671,
+    -7676495857637143688
    ]
   },
   "minecraft:entities/tropical_fish": {
