@@ -17,21 +17,6 @@
    "forge:id": "minecraft:regeneration"
   },
   {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 19,
-   "Id": 1,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:speed"
-  },
-  {
    "Ambient": 1,
    "Amplifier": 0,
    "CurativeItems": [
@@ -55,20 +40,6 @@
   },
   {
    "Base": 0.1,
-   "Modifiers": [
-    {
-     "Amount": 0.6,
-     "Name": "effect.minecraft.speed 2",
-     "Operation": 2,
-     "UUID": [
-      -1850824106,
-      929776792,
-      -1822740609,
-      1745290805
-     ],
-     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-    }
-   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -652,7 +623,7 @@
    "passive1": "epicfight:bonebreaker",
    "passive2": "epicfight:berserker",
    "passive3": "dodge_parry_reward:health_boost4",
-   "passive4": "dodge_parry_reward:stamina4",
+   "passive4": "epicfight:vengeance",
    "passive5": "epicfight:emergency_escape",
    "passive6": "dodge_parry_reward:heal4",
    "playerMode": "EPICFIGHT",
@@ -681,7 +652,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 7,
+   "abilityPoint": 4,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -900,7 +871,7 @@
        },
        {
         "name": "epicfight:vengeance",
-        "state": "unlockable"
+        "state": "unlocked"
        }
       ],
       "name": "epicfight:berserker",
@@ -1334,7 +1305,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 212
+   "currentLogicNodeId": 42
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4326,7 +4297,7 @@
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 34.0,
+ "Health": 37.0,
  "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
@@ -4609,9 +4580,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -10,
-   6,
-   3
+   14,
+   3,
+   12
   ]
  },
  "Motion": [
@@ -4622,16 +4593,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  269.8806,
+  265.5,
   63.0,
-  -1772.5891
+  -1775.5
  ],
  "Rotation": [
-  -69.5,
-  21.3898
+  -16.084,
+  0.0
  ],
  "Score": 28162,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 4,
  "SleepTimer": 0,
  "SpawnAngle": -1.631,
  "SpawnDimension": "minecraft:overworld",
@@ -4670,7 +4641,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 125,
+  "mana": 50,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14979,7 +14950,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5479,
+  "ticks_since_last_warning": 11267,
   "warning_level": 0
  }
 }
