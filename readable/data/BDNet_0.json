@@ -968,6 +968,15 @@
      }
     },
     {
+     "amount": 3,
+     "key": {
+      "stack": {
+       "item": "tcrcore:rare_artifact_ticket"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 1,
      "key": {
       "stack": {
@@ -1022,7 +1031,7 @@
      }
     },
     {
-     "amount": 4,
+     "amount": 8,
      "key": {
       "stack": {
        "item": "tcrcore:retracement_stone"
@@ -1249,7 +1258,43 @@
      "amount": 1,
      "key": {
       "stack": {
+       "item": "tcrcore:lux_jadae",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:looting",
+          "lvl": 3
+         },
+         {
+          "id": "minecraft:sharpness",
+          "lvl": 5
+         },
+         {
+          "id": "minecraft:sweeping",
+          "lvl": 3
+         }
+        ],
+        "murasama_sheath": 1
+       }
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
        "item": "minecraft:oak_trapdoor"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 48,
+     "key": {
+      "stack": {
+       "item": "minecraft:experience_bottle"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -1436,6 +1481,29 @@
      "key": {
       "stack": {
        "item": "minecraft:sugar"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "minecraft:diamond_pickaxe",
+       "tag": {
+        "Damage": 0,
+        "Enchantments": [
+         {
+          "id": "minecraft:efficiency",
+          "lvl": 4
+         },
+         {
+          "id": "minecraft:silk_touch",
+          "lvl": 1
+         }
+        ],
+        "sheath": 0
+       }
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -2021,7 +2089,7 @@
      }
     },
     {
-     "amount": 3,
+     "amount": 9,
      "key": {
       "stack": {
        "item": "minecraft:spider_eye"
@@ -2072,7 +2140,7 @@
      }
     },
     {
-     "amount": 16,
+     "amount": 28,
      "key": {
       "stack": {
        "item": "minecraft:string"
@@ -2207,7 +2275,7 @@
      }
     },
     {
-     "amount": 495,
+     "amount": 496,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3429,10 +3497,28 @@
      }
     },
     {
+     "amount": 1,
+     "key": {
+      "stack": {
+       "item": "irons_spellbooks:cast_time_ring"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
      "amount": 15,
      "key": {
       "stack": {
        "item": "minecraft:deepslate"
+      },
+      "type": "beyonddimensions:stack_type/item"
+     }
+    },
+    {
+     "amount": 54,
+     "key": {
+      "stack": {
+       "item": "cataclysm:cursium_ingot"
       },
       "type": "beyonddimensions:stack_type/item"
      }

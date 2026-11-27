@@ -147,8 +147,8 @@
   },
   "artifacts:entity_equipment/drowned": {
    "source": [
-    6966533026836568528,
-    -1638280806819930616
+    -1777782101127246080,
+    -8440149914031702283
    ]
   },
   "artifacts:entity_equipment/ghast": {
@@ -171,8 +171,8 @@
   },
   "artifacts:entity_equipment/skeleton": {
    "source": [
-    2776091072090208931,
-    -329790043078449955
+    2561392638261150030,
+    -667319157254794646
    ]
   },
   "artifacts:entity_equipment/wither_skeleton": {
@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    -4250246363842566775,
-    -2572369828836428335
+    7857450665969847718,
+    7883040362191601286
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -6070433014893703848,
-    -4481820388495974952
+    -2731433997803628146,
+    -7061975326635597217
    ]
   },
   "minecraft:entities/pufferfish": {

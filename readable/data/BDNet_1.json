@@ -2091,7 +2091,7 @@
      }
     },
     {
-     "amount": 494,
+     "amount": 495,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -4232,15 +4232,6 @@
        "tag": {
         "sheath": 0
        }
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 6,
-     "key": {
-      "stack": {
-       "item": "minecraft:red_nether_bricks"
       },
       "type": "beyonddimensions:stack_type/item"
      }
@@ -6390,15 +6381,6 @@
      "key": {
       "stack": {
        "item": "beyonddimensions:xp_exchange_item"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 4,
-     "key": {
-      "stack": {
-       "item": "minecraft:nether_gold_ore"
       },
       "type": "beyonddimensions:stack_type/item"
      }

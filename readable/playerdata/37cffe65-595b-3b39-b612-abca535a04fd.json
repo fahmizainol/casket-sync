@@ -159,11 +159,11 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": 0,
+ "Fire": -20,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -1315,7 +1315,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1525,12 +1525,6 @@
    }
   },
   "accepted": 0,
-  "bossdps_hold": {
-   "dim": "minecraft:overworld",
-   "x": 265.5,
-   "y": 63.0,
-   "z": -1775.5
-  },
   "can_accept": 0,
   "find_me": {
    "autoBindIgnored": [],
@@ -5270,42 +5264,20 @@
   {
    "Count": 1,
    "Slot": 10,
-   "id": "tcrcore:rare_artifact_ticket"
+   "id": "efn:yamato_dmc_in_sheath"
   },
   {
    "Count": 1,
    "Slot": 11,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 12,
-   "id": "tcrcore:retracement_stone"
-  },
-  {
-   "Count": 1,
-   "Slot": 13,
-   "id": "tcrcore:retracement_stone"
-  },
-  {
-   "Count": 1,
-   "Slot": 14,
-   "id": "tcrcore:rare_artifact_ticket"
-  },
-  {
-   "Count": 1,
-   "Slot": 15,
-   "id": "irons_spellbooks:cast_time_ring"
-  },
-  {
-   "Count": 54,
-   "Slot": 16,
-   "id": "cataclysm:cursium_ingot"
-  },
-  {
-   "Count": 1,
-   "Slot": 17,
-   "id": "tcrcore:retracement_stone"
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "efn:yamato_guard",
+      "lvl": 1
+     }
+    ]
+   }
   },
   {
    "Count": 31,
@@ -5337,68 +5309,6 @@
    "Count": 1,
    "Slot": 20,
    "id": "uniqueaccessories:shiny_stone"
-  },
-  {
-   "Count": 1,
-   "Slot": 21,
-   "id": "tcrcore:retracement_stone"
-  },
-  {
-   "Count": 12,
-   "Slot": 22,
-   "id": "minecraft:string"
-  },
-  {
-   "Count": 1,
-   "Slot": 23,
-   "id": "minecraft:diamond_pickaxe",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:efficiency",
-      "lvl": 4
-     },
-     {
-      "id": "minecraft:silk_touch",
-      "lvl": 1
-     }
-    ],
-    "sheath": 0
-   }
-  },
-  {
-   "Count": 48,
-   "Slot": 24,
-   "id": "minecraft:experience_bottle"
-  },
-  {
-   "Count": 6,
-   "Slot": 25,
-   "id": "minecraft:spider_eye"
-  },
-  {
-   "Count": 1,
-   "Slot": 26,
-   "id": "tcrcore:lux_jadae",
-   "tag": {
-    "Damage": 0,
-    "Enchantments": [
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
-     {
-      "id": "minecraft:sharpness",
-      "lvl": 5
-     },
-     {
-      "id": "minecraft:sweeping",
-      "lvl": 3
-     }
-    ],
-    "murasama_sheath": 1
-   }
   },
   {
    "Count": 1,
@@ -5476,28 +5386,28 @@
  ],
  "Invulnerable": 0,
  "LastDeathLocation": {
-  "dimension": "pbf1:sanctum_of_the_battle1",
+  "dimension": "minecraft:overworld",
   "pos": [
-   4,
-   3,
-   -6
+   267,
+   48,
+   -1785
   ]
  },
  "Motion": [
   0.0,
-  0.0,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -4.1,
-  9.52,
-  -0.8
+  266.9007,
+  63.0,
+  -1771.2176
  ],
  "Rotation": [
-  -50.0,
-  0.0
+  54.5648,
+  39.3213
  ],
  "Score": 12467,
  "SelectedItemSlot": 0,
@@ -5524,11 +5434,11 @@
  "XpTotal": 12467,
  "abilities": {
   "flySpeed": 0.05,
-  "flying": 1,
+  "flying": 0,
   "instabuild": 0,
-  "invulnerable": 1,
-  "mayBuild": 0,
-  "mayfly": 1,
+  "invulnerable": 0,
+  "mayBuild": 1,
+  "mayfly": 0,
   "walkSpeed": 0.1
  },
  "foodExhaustionLevel": 0.0,
@@ -5542,7 +5452,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 7,
+  "mana": 81,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5551,7 +5461,7 @@
   }
  },
  "max_stun_shield": 0.0,
- "playerGameType": 3,
+ "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
   "isBlastingFurnaceGuiOpen": 0,
@@ -15028,7 +14938,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10022,
+  "ticks_since_last_warning": 3595,
   "warning_level": 0
  }
 }
