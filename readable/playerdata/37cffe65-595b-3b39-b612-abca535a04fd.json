@@ -1,6 +1,6 @@
 {
  "AbsorptionAmount": 0.0,
- "Air": 300,
+ "Air": 148,
  "Attributes": [
   {
    "Base": 0.1,
@@ -9,10 +9,6 @@
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 4.0,
@@ -163,7 +159,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -1499,8 +1495,6 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 8,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5187,12 +5181,12 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 3041299,
+  "ua_rs_active_until": 3047688,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 3041319
+  "ua_tabi_last_dash": 3047044
  },
- "Health": 44.0,
+ "Health": 20.4,
  "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
@@ -5257,6 +5251,11 @@
    "Count": 1,
    "Slot": 2,
    "id": "tcrcore:wither_soul_stone_activated"
+  },
+  {
+   "Count": 1,
+   "Slot": 3,
+   "id": "tcrcore:retracement_stone"
   },
   {
    "Count": 4,
@@ -5419,26 +5418,26 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -8,
    3,
-   16
+   3,
+   -7
   ]
  },
  "Motion": [
-  0.0,
-  -0.0784,
-  0.0
+  -0.0096,
+  0.8076,
+  0.0956
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -1.4056,
-  3.0,
-  4.0949
+  253.0144,
+  63.1492,
+  -1780.2809
  ],
  "Rotation": [
-  98.6688,
-  20.9313
+  -39.8258,
+  0.0
  ],
  "Score": 12483,
  "SelectedItemSlot": 0,
@@ -5472,7 +5471,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.871,
+ "foodExhaustionLevel": 2.018,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5483,7 +5482,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 91,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14969,7 +14968,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10833,
+  "ticks_since_last_warning": 4368,
   "warning_level": 0
  }
 }
