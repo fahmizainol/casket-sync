@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 564,
+   "Duration": 471,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 364,
+   "Duration": 271,
    "Id": 57,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -155,10 +155,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -1318,8 +1314,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 169,
-   "currentLogicNodeId": 169
+   "currentDataNodeId": 144,
+   "currentLogicNodeId": 144
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1557,7 +1553,7 @@
  },
  "ForgeData": {
   "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 10,
+  "EFNMurasamaSheathTicks": 9,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5200,12 +5196,13 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
+  "ua_rs_active_until": 2795125,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2789339
+  "ua_tabi_last_dash": 2795627
  },
- "Health": 24.8051,
- "HurtByTimestamp": 1044,
+ "Health": 74.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5487,9 +5484,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -11,
+   -12,
    3,
-   -10
+   -24
   ]
  },
  "Motion": [
@@ -5500,13 +5497,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  13.2798,
+  7.4021,
   3.0,
-  2.0006
+  -2.1601
  ],
  "Rotation": [
-  155.4486,
-  -25.5323
+  4.9807,
+  -27.3775
  ],
  "Score": 12457,
  "SelectedItemSlot": 0,
@@ -5540,7 +5537,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.144,
+ "foodExhaustionLevel": 0.286,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5551,7 +5548,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 79,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15037,7 +15034,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1996,
+  "ticks_since_last_warning": 6753,
   "warning_level": 0
  }
 }
