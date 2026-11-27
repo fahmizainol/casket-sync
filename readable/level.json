@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2181539,
+  "DayTime": 2187539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,26 +428,11 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795795989245,
+  "LastPlayed": 1795796289248,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "ActiveEffects": [
-    {
-     "Ambient": 0,
-     "Amplifier": 7,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 577,
-     "Id": 21,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
-    },
     {
      "Ambient": 1,
      "Amplifier": 0,
@@ -457,28 +442,13 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 246,
+     "Duration": 250,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
     },
     {
-     "Ambient": 0,
-     "Amplifier": 2,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 377,
-     "Id": 57,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "dodge_parry_reward:stamina_boost"
-    },
-    {
      "Ambient": 1,
      "Amplifier": 0,
      "CurativeItems": [
@@ -487,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 246,
+     "Duration": 250,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -530,18 +500,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 32.0,
-       "Name": "effect.minecraft.health_boost 7",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -568,18 +526,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 9.0,
-       "Name": "effect.dodge_parry_reward.stamina_boost 2",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        289739948,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "epicfight:staminar"
@@ -701,7 +647,7 @@
    "CitadelData": {},
    "DataVersion": 3465,
    "DeathTime": 0,
-   "Dimension": "pbf1:sanctum_of_the_battle1",
+   "Dimension": "tcrcore:sanctum",
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
@@ -1076,9 +1022,11 @@
       }
      ]
     },
-    "efn:original_skill_memory": {},
+    "efn:original_skill_memory": {
+     "DODGE": "wom:precise_roll"
+    },
     "epicfight:skill_cap": {
-     "dodge": "wom:precise_roll",
+     "dodge": "efn:yamato_step",
      "efn_sekiro": "efn:mortal_blade",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
@@ -1857,9 +1805,9 @@
       "astrape_lock": 1,
       "ceraunus_lock": 1,
       "dual_annihilator_lock": 0,
-      "gauntlet_of_guard_lock": 1,
+      "gauntlet_of_guard_lock": 0,
       "infernal_forge_lock": 0,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 0,
@@ -1898,6 +1846,7 @@
       "desert_eye_gotten": 1,
       "desert_eye_killed": 1,
       "dodged": 1,
+      "enderGuardianHumanoidKilled": 1,
       "ferryGirlGiftGet": 1,
       "ferryGirlTalked": 1,
       "fire_avoid_unlocked": 1,
@@ -4788,13 +4737,14 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_mn_tabi_last_dash": 2927217,
-    "ua_rs_active_until": 2926554,
+    "quark:trying_crawl": 0,
+    "ua_mn_tabi_last_dash": 2932883,
+    "ua_rs_active_until": 2932887,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 32.8935,
-   "HurtByTimestamp": 1432,
+   "Health": 34.0,
+   "HurtByTimestamp": 3798,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4870,10 +4820,14 @@
        {
         "id": "efn:yamato_guard",
         "lvl": 1
+       },
+       {
+        "id": "efn:yamato_summoned_sword",
+        "lvl": 1
        }
       ],
       "KillCount": 3,
-      "RepairCost": 3,
+      "RepairCost": 7,
       "TotalDamage": 12956.5537,
       "kusabimaru_sheath": 0
      }
@@ -4966,6 +4920,26 @@
      "Count": 2,
      "Slot": 8,
      "id": "alexsmobs:flying_fish"
+    },
+    {
+     "Count": 1,
+     "Slot": 9,
+     "id": "tcrcore:ender_fragment"
+    },
+    {
+     "Count": 1,
+     "Slot": 10,
+     "id": "tcrcore:rare_artifact_ticket"
+    },
+    {
+     "Count": 8,
+     "Slot": 11,
+     "id": "epicskills:ability_stone"
+    },
+    {
+     "Count": 1,
+     "Slot": 12,
+     "id": "tcrcore:rare_artifact_ticket"
     },
     {
      "Count": 1,
@@ -5089,16 +5063,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    21.6804,
-    3.0,
-    12.0329
+    -242.4689,
+    79.0,
+    -104.2479
    ],
    "Rotation": [
-    109.6756,
-    18.2607
+    47.9585,
+    11.4814
    ],
    "Score": 28165,
-   "SelectedItemSlot": 0,
+   "SelectedItemSlot": 1,
    "SleepTimer": 0,
    "SpawnAngle": 13.821,
    "SpawnDimension": "minecraft:overworld",
@@ -5114,7 +5088,7 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 86,
-   "XpP": 0.6266,
+   "XpP": 0.4789,
    "XpSeed": 976728483,
    "XpTotal": 28165,
    "abilities": {
@@ -5126,10 +5100,10 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.69,
+   "foodExhaustionLevel": 1.886,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
-   "foodTickTimer": 8,
+   "foodTickTimer": 0,
    "irons_spellbooks:magic_data": {
     "castingEquipmentSlot": "",
     "castingSpellId": "",
@@ -15446,7 +15420,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 9700,
+    "ticks_since_last_warning": 3698,
     "warning_level": 0
    }
   },
@@ -15458,7 +15432,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2927685,
+  "Time": 2933685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15472,7 +15446,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 15600,
+  "WanderingTraderSpawnDelay": 9600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16160,9 +16134,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 14287,
+  "rainTime": 8287,
   "raining": 1,
-  "thunderTime": 111933,
+  "thunderTime": 105933,
   "thundering": 0,
   "version": 19133
  },

@@ -45697,24 +45697,24 @@
         ],
         "Attributes": [
          {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
-         },
-         {
           "Base": 0.2212,
           "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 0.08,
           "Name": "forge:entity_gravity"
          },
          {
-          "Base": 10.752,
-          "Name": "minecraft:generic.attack_damage"
-         },
-         {
           "Base": 0.0,
           "Name": "epicfight:stun_armor"
+         },
+         {
+          "Base": 10.752,
+          "Name": "minecraft:generic.attack_damage"
          },
          {
           "Base": 1.0,
@@ -45729,12 +45729,12 @@
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 1.3696,
-          "Name": "minecraft:generic.flying_speed"
-         },
-         {
           "Base": 0.3376,
           "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 1.3696,
+          "Name": "minecraft:generic.flying_speed"
          }
         ],
         "AwaitingTamingRitual": 0,
@@ -46076,24 +46076,24 @@
         ],
         "Attributes": [
          {
-          "Base": 0.0,
-          "Name": "forge:step_height_addition"
-         },
-         {
           "Base": 0.2212,
           "Name": "minecraft:generic.movement_speed"
+         },
+         {
+          "Base": 0.0,
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 0.08,
           "Name": "forge:entity_gravity"
          },
          {
-          "Base": 10.752,
-          "Name": "minecraft:generic.attack_damage"
-         },
-         {
           "Base": 0.0,
           "Name": "epicfight:stun_armor"
+         },
+         {
+          "Base": 10.752,
+          "Name": "minecraft:generic.attack_damage"
          },
          {
           "Base": 1.0,
@@ -46108,12 +46108,12 @@
           "Name": "minecraft:generic.armor"
          },
          {
-          "Base": 1.3696,
-          "Name": "minecraft:generic.flying_speed"
-         },
-         {
           "Base": 0.3376,
           "Name": "minecraft:generic.knockback_resistance"
+         },
+         {
+          "Base": 1.3696,
+          "Name": "minecraft:generic.flying_speed"
          }
         ],
         "AwaitingTamingRitual": 0,

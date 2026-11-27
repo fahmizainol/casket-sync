@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    -8613173180267175835,
-    -4791678379201005889
+    -7090349303085583337,
+    7502213100215453782
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2309,6 +2309,12 @@
    "source": [
     -4549741748059382746,
     3226031399980628844
+   ]
+  },
+  "tcr_bosses:entities/ender_guardian_humanoid": {
+   "source": [
+    5290917473689679242,
+    -4395795830485632535
    ]
   },
   "tcr_bosses:entities/evening_ghost": {
