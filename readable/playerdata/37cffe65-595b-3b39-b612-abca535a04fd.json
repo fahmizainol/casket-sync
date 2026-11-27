@@ -5446,9 +5446,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -3,
+   7,
    3,
-   -9
+   -8
   ]
  },
  "Motion": [
@@ -5459,13 +5459,13 @@
  "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -4.7719,
-  7.25,
-  -1.2584
+  20.66,
+  6.87,
+  -16.46
  ],
  "Rotation": [
-  126.9879,
-  16.5912
+  -130.0,
+  0.0
  ],
  "Score": 12457,
  "SelectedItemSlot": 0,
@@ -5510,7 +5510,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 23,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14996,7 +14996,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8974,
+  "ticks_since_last_warning": 2447,
   "warning_level": 0
  }
 }
