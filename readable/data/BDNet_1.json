@@ -1509,15 +1509,6 @@
      "amount": 1,
      "key": {
       "stack": {
-       "item": "artifacts:cloud_in_a_bottle"
-      },
-      "type": "beyonddimensions:stack_type/item"
-     }
-    },
-    {
-     "amount": 1,
-     "key": {
-      "stack": {
        "item": "minecraft:wooden_pickaxe",
        "tag": {
         "Damage": 0
@@ -2091,7 +2082,7 @@
      }
     },
     {
-     "amount": 518,
+     "amount": 519,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"

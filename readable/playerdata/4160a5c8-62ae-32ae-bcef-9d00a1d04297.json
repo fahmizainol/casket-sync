@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 257,
+   "Duration": 242,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 257,
+   "Duration": 242,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -508,7 +508,7 @@
         {
          "Count": 1,
          "Slot": 0,
-         "id": "uniqueaccessories:black_belt"
+         "id": "artifacts:cloud_in_a_bottle"
         }
        ],
        "Size": 1
@@ -602,9 +602,11 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "wom:precise_roll"
+  },
   "epicfight:skill_cap": {
-   "dodge": "wom:precise_roll",
+   "dodge": "efn:yamato_step",
    "efn_sekiro": "efn:mortal_blade",
    "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
@@ -1327,7 +1329,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 212
+   "currentLogicNodeId": 42
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -4319,13 +4321,16 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_mn_tabi_last_dash": 3119362,
-  "ua_rs_active_until": 3119366,
+  "ua_accessory_types_seen": {
+   "uniqueaccessories:black_belt": 1
+  },
+  "ua_mn_tabi_last_dash": 3124154,
+  "ua_rs_active_until": 3125503,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
  "Health": 37.0,
- "HurtByTimestamp": 66289,
+ "HurtByTimestamp": 70967,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4407,9 +4412,9 @@
       "lvl": 1
      }
     ],
-    "KillCount": 6,
+    "KillCount": 7,
     "RepairCost": 7,
-    "TotalDamage": 55490.8711,
+    "TotalDamage": 55511.6484,
     "kusabimaru_sheath": 0
    }
   },
@@ -4488,7 +4493,7 @@
    "id": "bosses_of_mass_destruction:soul_star"
   },
   {
-   "Count": 10,
+   "Count": 12,
    "Slot": 6,
    "id": "minecraft:rotten_flesh"
   },
@@ -4496,6 +4501,11 @@
    "Count": 2,
    "Slot": 7,
    "id": "minecraft:ink_sac"
+  },
+  {
+   "Count": 1,
+   "Slot": 8,
+   "id": "uniqueaccessories:black_belt"
   },
   {
    "Count": 1,
@@ -4689,16 +4699,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  250.5494,
-  63.0,
-  -1757.2379
+  248.2757,
+  64.0,
+  -1762.1338
  ],
  "Rotation": [
-  78.5391,
-  27.8594
+  -163.2715,
+  37.5177
  ],
- "Score": 28207,
- "SelectedItemSlot": 0,
+ "Score": 28213,
+ "SelectedItemSlot": 1,
  "SleepTimer": 0,
  "SpawnAngle": 112.3262,
  "SpawnDimension": "minecraft:overworld",
@@ -4714,9 +4724,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 86,
- "XpP": 0.5471,
+ "XpP": 0.5568,
  "XpSeed": 976728483,
- "XpTotal": 28207,
+ "XpTotal": 28213,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4726,7 +4736,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.7143,
+ "foodExhaustionLevel": 3.405,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15046,7 +15056,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3821,
+  "ticks_since_last_warning": 9821,
   "warning_level": 0
  }
 }

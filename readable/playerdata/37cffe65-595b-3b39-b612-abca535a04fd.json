@@ -5454,13 +5454,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  250.1088,
-  63.0,
-  -1759.562
+  254.4078,
+  66.0,
+  -1764.4425
  ],
  "Rotation": [
-  38.4473,
-  0.0
+  141.3652,
+  -34.4351
  ],
  "Score": 12488,
  "SelectedItemSlot": 0,
@@ -5494,7 +5494,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.078,
+ "foodExhaustionLevel": 3.155,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14991,7 +14991,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4164,
+  "ticks_since_last_warning": 10164,
   "warning_level": 0
  }
 }
