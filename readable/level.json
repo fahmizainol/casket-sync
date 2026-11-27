@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2319539,
+  "DayTime": 2325539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795802894394,
+  "LastPlayed": 1795803194349,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 240,
+     "Duration": 244,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 240,
+     "Duration": 244,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -5083,13 +5083,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    253.6319,
-    64.0,
-    -1771.3316
+    253.7536,
+    65.0,
+    -1769.8645
    ],
    "Rotation": [
-    -28.5522,
-    20.1384
+    -159.5216,
+    0.0
    ],
    "Score": 28171,
    "SelectedItemSlot": 0,
@@ -5120,7 +5120,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 0.05,
+   "foodExhaustionLevel": 0.323,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15440,7 +15440,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 9826,
+    "ticks_since_last_warning": 3825,
     "warning_level": 0
    }
   },
@@ -15452,7 +15452,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 3065685,
+  "Time": 3071685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15466,7 +15466,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 21600,
+  "WanderingTraderSpawnDelay": 15600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16154,9 +16154,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 76294,
+  "rainTime": 70294,
   "raining": 0,
-  "thunderTime": 138587,
+  "thunderTime": 132587,
   "thundering": 0,
   "version": 19133
  },
