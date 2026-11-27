@@ -10,11 +10,26 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 241,
+   "Duration": 257,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 19,
+   "Id": 1,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
   },
   {
    "Ambient": 1,
@@ -25,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 241,
+   "Duration": 257,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,6 +55,20 @@
   },
   {
    "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.6,
+     "Name": "effect.minecraft.speed 2",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -606,23 +635,24 @@
    "learned:passive": {
     "0": "epicfight:berserker",
     "1": "dodge_parry_reward:heal2",
-    "10": "epicfight:forbidden_strength",
+    "10": "dodge_parry_reward:stamina4",
+    "11": "epicfight:forbidden_strength",
     "2": "dodge_parry_reward:stamina1",
     "3": "efn:precise_parry",
     "4": "dodge_parry_reward:damage_boost4",
     "5": "dodge_parry_reward:damage_boost1",
-    "6": "epicfight:emergency_escape",
-    "7": "dodge_parry_reward:heal4",
-    "8": "dodge_parry_reward:health_boost4",
-    "9": "dodge_parry_reward:stamina4"
+    "6": "epicfight:bonebreaker",
+    "7": "epicfight:emergency_escape",
+    "8": "dodge_parry_reward:heal4",
+    "9": "dodge_parry_reward:health_boost4"
    },
    "learned:sword_soaring": {
     "0": "sword_soaring:sword_soaring_elytra_master"
    },
-   "passive1": "dodge_parry_reward:stamina4",
+   "passive1": "epicfight:bonebreaker",
    "passive2": "epicfight:berserker",
    "passive3": "dodge_parry_reward:health_boost4",
-   "passive4": "efn:precise_parry",
+   "passive4": "dodge_parry_reward:stamina4",
    "passive5": "epicfight:emergency_escape",
    "passive6": "dodge_parry_reward:heal4",
    "playerMode": "EPICFIGHT",
@@ -651,7 +681,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 11,
+   "abilityPoint": 7,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -862,7 +892,7 @@
       "children": [
        {
         "name": "epicfight:bonebreaker",
-        "state": "unlockable"
+        "state": "unlocked"
        },
        {
         "name": "epicfight:adaptive_skin",
@@ -894,7 +924,7 @@
      },
      {
       "name": "tcrcore:perfect_dodge",
-      "state": "unlockable"
+      "state": "unlocked"
      },
      {
       "name": "efn:execution",
@@ -4579,26 +4609,26 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   20,
+   -5,
    3,
-   -4
+   -13
   ]
  },
  "Motion": [
   0.0,
-  -0.0476,
+  -0.0784,
   0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  266.0267,
-  63.5625,
-  -1774.8116
+  265.5,
+  63.0,
+  -1775.5
  ],
  "Rotation": [
-  -82.3174,
-  35.5644
+  62.3454,
+  24.5486
  ],
  "Score": 28145,
  "SelectedItemSlot": 0,
@@ -4640,7 +4670,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 125,
+  "mana": 62,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14949,7 +14979,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7916,
+  "ticks_since_last_warning": 1331,
   "warning_level": 0
  }
 }
