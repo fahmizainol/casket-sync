@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    2660724377926513524,
-    -3739807793120345132
+    -5325263555991460926,
+    -3951229479408455366
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2339,6 +2339,12 @@
    "source": [
     -2416017863524779109,
     -5163642997816606497
+   ]
+  },
+  "tcr_bosses:entities/leviathan_humanoid": {
+   "source": [
+    -8610163295694837705,
+    -4155135369991057123
    ]
   },
   "tcr_bosses:entities/maledictus_humanoid": {

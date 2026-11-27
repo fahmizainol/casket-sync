@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2289539,
+  "DayTime": 2295539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,103 +428,13 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795801394343,
+  "LastPlayed": 1795801694349,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "ActiveEffects": [
     {
-     "Ambient": 0,
-     "Amplifier": 3,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 572,
-     "Id": 55,
-     "ShowIcon": 0,
-     "ShowParticles": 0,
-     "forge:id": "epicfight:stun_immunity"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 7,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 452,
-     "Id": 21,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 3,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 572,
-     "Id": 10,
-     "ShowIcon": 0,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:regeneration"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 3,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 572,
-     "Id": 11,
-     "ShowIcon": 0,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:resistance"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 3,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 572,
-     "Id": 140,
-     "ShowIcon": 0,
-     "ShowParticles": 0,
-     "forge:id": "efn:sin_stun_immunity"
-    },
-    {
-     "Ambient": 0,
-     "Amplifier": 1,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 27,
-     "Id": 1,
-     "ShowIcon": 0,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:speed"
-    },
-    {
-     "Ambient": 0,
+     "Ambient": 1,
      "Amplifier": 0,
      "CurativeItems": [
       {
@@ -532,20 +442,26 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 316,
-     "FactorCalculationData": {
-      "factor_current": 1.0,
-      "factor_previous_frame": 1.0,
-      "factor_start": 0.0,
-      "factor_target": 1.0,
-      "had_effect_last_tick": 1,
-      "padding_duration": 22,
-      "ticks_active": 1822
-     },
-     "Id": 33,
-     "ShowIcon": 0,
+     "Duration": 240,
+     "Id": 10,
+     "ShowIcon": 1,
      "ShowParticles": 0,
-     "forge:id": "minecraft:darkness"
+     "forge:id": "minecraft:regeneration"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 2,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 19,
+     "Id": 1,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:speed"
     },
     {
      "Ambient": 1,
@@ -556,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 252,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -599,18 +515,6 @@
         1450744508
        ],
        "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 32.0,
-       "Name": "effect.minecraft.health_boost 7",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
       }
      ],
      "Name": "minecraft:generic.max_health"
@@ -653,8 +557,8 @@
      "Base": 0.1,
      "Modifiers": [
       {
-       "Amount": 0.4,
-       "Name": "effect.minecraft.speed 1",
+       "Amount": 0.6,
+       "Name": "effect.minecraft.speed 2",
        "Operation": 2,
        "UUID": [
         -1850824106,
@@ -1147,11 +1051,9 @@
       }
      ]
     },
-    "efn:original_skill_memory": {
-     "DODGE": "wom:precise_roll"
-    },
+    "efn:original_skill_memory": {},
     "epicfight:skill_cap": {
-     "dodge": "efn:yamato_step",
+     "dodge": "wom:precise_roll",
      "efn_sekiro": "efn:mortal_blade",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
@@ -1873,8 +1775,8 @@
     },
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
-     "currentDataNodeId": 79,
-     "currentLogicNodeId": 79
+     "currentDataNodeId": 1,
+     "currentLogicNodeId": 42
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1934,12 +1836,12 @@
       "dual_annihilator_lock": 0,
       "gauntlet_of_guard_lock": 0,
       "infernal_forge_lock": 0,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 0,
       "the_incinerator_lock": 0,
-      "tidal_claw_lock": 1,
+      "tidal_claw_lock": 0,
       "wrath_of_the_desert_lock": 0
      }
     },
@@ -1987,6 +1889,7 @@
       "isAllEyeKilledisLocked": 0,
       "isAllHumanoidKilled": 0,
       "isAllHumanoidKilledisLocked": 0,
+      "leviathanHumanoidKilled": 1,
       "locked": 1,
       "lockedisLocked": 0,
       "maledictusHumanoidKilled": 1,
@@ -4865,12 +4768,13 @@
     },
     "last_send_time": 0,
     "quark:trying_crawl": 0,
-    "ua_mn_tabi_last_dash": 3035499,
+    "ua_mn_tabi_last_dash": 3038565,
+    "ua_rs_active_until": 3038500,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 33.164,
-   "HurtByTimestamp": 1510,
+   "Health": 37.0,
+   "HurtByTimestamp": 3838,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4952,9 +4856,9 @@
         "lvl": 1
        }
       ],
-      "KillCount": 4,
+      "KillCount": 6,
       "RepairCost": 7,
-      "TotalDamage": 48719.1875,
+      "TotalDamage": 55490.8711,
       "kusabimaru_sheath": 0
      }
     },
@@ -5219,16 +5123,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    -13.7585,
+    2.2516,
     3.0,
-    -20.5691
+    0.062
    ],
    "Rotation": [
-    53.9222,
-    -16.9416
+    104.4475,
+    42.5809
    ],
-   "Score": 28165,
-   "SelectedItemSlot": 1,
+   "Score": 28171,
+   "SelectedItemSlot": 0,
    "SleepTimer": 0,
    "SpawnAngle": 112.3262,
    "SpawnDimension": "minecraft:overworld",
@@ -5244,9 +5148,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 86,
-   "XpP": 0.4789,
+   "XpP": 0.4886,
    "XpSeed": 976728483,
-   "XpTotal": 28165,
+   "XpTotal": 28171,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -5256,10 +5160,10 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.295,
+   "foodExhaustionLevel": 0.055,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
-   "foodTickTimer": 9,
+   "foodTickTimer": 0,
    "irons_spellbooks:magic_data": {
     "castingEquipmentSlot": "",
     "castingSpellId": "",
@@ -15576,7 +15480,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 4371,
+    "ticks_since_last_warning": 10371,
     "warning_level": 0
    }
   },
@@ -15588,7 +15492,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 3035685,
+  "Time": 3041685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15601,8 +15505,8 @@
    -1997551884,
    -2024141775
   ],
-  "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 3600,
+  "WanderingTraderSpawnChance": 75,
+  "WanderingTraderSpawnDelay": 21600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16290,10 +16194,10 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 106294,
+  "rainTime": 100294,
   "raining": 0,
-  "thunderTime": 3933,
-  "thundering": 0,
+  "thunderTime": 13327,
+  "thundering": 1,
   "version": 19133
  },
  "fml": {
