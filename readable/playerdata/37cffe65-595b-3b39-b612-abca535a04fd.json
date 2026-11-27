@@ -1,22 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 29,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": -1,
-   "Id": 170,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "efn:murasama_sheath"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -75,18 +58,6 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    },
-    {
-     "Amount": 3.0,
-     "Name": "effect.efn.murasama_sheath 29",
-     "Operation": 2,
-     "UUID": [
-      -1961218756,
-      1314876027,
-      -1935810319,
-      -1565276971
-     ],
-     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -98,6 +69,10 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -1524,8 +1499,8 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 1,
-  "EFNMurasamaSheathTicks": 0,
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 14,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5199,13 +5174,13 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 3071541,
+  "ua_rs_active_until": 3077553,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 3070332
+  "ua_tabi_last_dash": 3075643
  },
- "Health": 20.4,
- "HurtByTimestamp": 0,
+ "Health": 9.4435,
+ "HurtByTimestamp": 25621,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5239,7 +5214,7 @@
      "mustEquip": 0,
      "spellWheel": 1
     },
-    "murasama_sheath": 1
+    "murasama_sheath": 0
    }
   },
   {
@@ -5304,7 +5279,7 @@
    "id": "cataclysm:strange_key"
   },
   {
-   "Count": 2,
+   "Count": 9,
    "Slot": 13,
    "id": "minecraft:rotten_flesh"
   },
@@ -5454,15 +5429,15 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  256.2836,
-  63.0,
-  -1758.6477
+  246.9615,
+  79.0,
+  -1772.3981
  ],
  "Rotation": [
-  -102.9248,
-  36.6749
+  -13.5613,
+  0.0
  ],
- "Score": 12483,
+ "Score": 12488,
  "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -87.2336,
@@ -5482,9 +5457,9 @@
  ],
  "UUID_str": "37cffe65-595b-3b39-b612-abca535a04fd",
  "XpLevel": 64,
- "XpP": 0.7847,
+ "XpP": 0.7967,
  "XpSeed": -736053570,
- "XpTotal": 12483,
+ "XpTotal": 12488,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -5494,7 +5469,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.354,
+ "foodExhaustionLevel": 3.798,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14991,7 +14966,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4366,
+  "ticks_since_last_warning": 10366,
   "warning_level": 0
  }
 }
