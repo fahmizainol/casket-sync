@@ -10,26 +10,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 255,
+   "Duration": 240,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 19,
-   "Id": 1,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:speed"
   },
   {
    "Ambient": 1,
@@ -40,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 255,
+   "Duration": 240,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -55,20 +40,6 @@
   },
   {
    "Base": 0.1,
-   "Modifiers": [
-    {
-     "Amount": 0.6,
-     "Name": "effect.minecraft.speed 2",
-     "Operation": 2,
-     "UUID": [
-      -1850824106,
-      929776792,
-      -1822740609,
-      1745290805
-     ],
-     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
-    }
-   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -4680,13 +4651,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  258.0072,
-  63.0,
-  -1774.9383
+  253.6319,
+  64.0,
+  -1771.3316
  ],
  "Rotation": [
-  -72.0536,
-  41.6001
+  -28.5522,
+  20.1384
  ],
  "Score": 28171,
  "SelectedItemSlot": 0,
@@ -4717,7 +4688,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 0.05,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15037,7 +15008,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3826,
+  "ticks_since_last_warning": 9826,
   "warning_level": 0
  }
 }

@@ -1496,7 +1496,7 @@
  },
  "ForgeData": {
   "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 2,
+  "EFNMurasamaSheathTicks": 14,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5178,16 +5178,16 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 1,
+  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 3056462,
+  "ua_rs_active_until": 3065255,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 3056410
+  "ua_tabi_last_dash": 3065233
  },
  "Health": 20.4,
  "HurtByTimestamp": 0,
@@ -5261,7 +5261,7 @@
    "id": "tcrcore:retracement_stone"
   },
   {
-   "Count": 2,
+   "Count": 3,
    "Slot": 4,
    "id": "alexsmobs:flying_fish"
   },
@@ -5436,16 +5436,16 @@
   -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  245.7,
-  64.0,
-  -1771.3
+  249.5907,
+  66.0625,
+  -1766.0718
  ],
  "Rotation": [
-  -63.4319,
-  15.4156
+  121.7432,
+  0.0
  ],
  "Score": 12483,
  "SelectedItemSlot": 0,
@@ -5479,7 +5479,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.485,
+ "foodExhaustionLevel": 3.283,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14976,7 +14976,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4367,
+  "ticks_since_last_warning": 10367,
   "warning_level": 0
  }
 }
