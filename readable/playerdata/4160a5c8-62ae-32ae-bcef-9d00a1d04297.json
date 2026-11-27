@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 252,
+   "Duration": 256,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 252,
+   "Duration": 256,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -105,6 +105,10 @@
   {
    "Base": 1.0,
    "Name": "irons_spellbooks:cast_time_reduction"
+  },
+  {
+   "Base": 1.0,
+   "Name": "forge:swim_speed"
   },
   {
    "Base": 1.0,
@@ -4316,7 +4320,7 @@
   "last_send_time": 0,
   "quark:trying_crawl": 0,
   "ua_mn_tabi_last_dash": 3076698,
-  "ua_rs_active_until": 3083650,
+  "ua_rs_active_until": 3089414,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
@@ -4554,7 +4558,7 @@
    "id": "tcrcore:retracement_stone"
   },
   {
-   "Count": 2,
+   "Count": 3,
    "Slot": 35,
    "id": "alexsmobs:flying_fish"
   },
@@ -4674,19 +4678,19 @@
  },
  "Motion": [
   0.0,
-  1.1163,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  263.6977,
+  268.8029,
   63.0,
-  -1757.4665
+  -1768.14
  ],
  "Rotation": [
-  -96.1213,
-  30.4102
+  -4.8757,
+  0.0
  ],
  "Score": 28182,
  "SelectedItemSlot": 3,
@@ -4717,7 +4721,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.254,
+ "foodExhaustionLevel": 1.1827,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15037,7 +15041,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3824,
+  "ticks_since_last_warning": 9824,
   "warning_level": 0
  }
 }
