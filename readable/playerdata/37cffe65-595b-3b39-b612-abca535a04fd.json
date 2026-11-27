@@ -1,52 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 529,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 48,
-   "Id": 98,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "cataclysm:abyssal_fear"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 329,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -56,10 +9,6 @@
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 4.0,
@@ -123,10 +72,6 @@
   },
   {
    "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
-  },
-  {
-   "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
   },
   {
@@ -155,18 +100,6 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -174,10 +107,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -197,18 +126,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 9.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 2",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -246,7 +163,7 @@
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": -20,
+ "Fire": 0,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -1337,8 +1254,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 167,
-   "currentLogicNodeId": 167
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 142
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1398,7 +1315,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1576,8 +1493,6 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 13,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -1610,6 +1525,12 @@
    }
   },
   "accepted": 0,
+  "bossdps_hold": {
+   "dim": "minecraft:overworld",
+   "x": 265.5,
+   "y": 63.0,
+   "z": -1775.5
+  },
   "can_accept": 0,
   "find_me": {
    "autoBindIgnored": [],
@@ -5235,11 +5156,10 @@
    "uniqueaccessories:shiny_stone": 1
   },
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2938961
+  "ua_rs_continuous": 0
  },
- "Health": 65.2352,
- "HurtByTimestamp": 951,
+ "Health": 44.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5536,26 +5456,26 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -4,
    3,
-   8
+   3,
+   -28
   ]
  },
  "Motion": [
   0.0,
-  -0.0784,
+  0.0,
   0.0
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  -10.7403,
-  3.0,
-  -9.9537
+  7.51,
+  6.0,
+  -24.97
  ],
  "Rotation": [
-  -179.5503,
-  -24.0785
+  -28.0068,
+  20.2835
  ],
  "Score": 12467,
  "SelectedItemSlot": 0,
@@ -5582,14 +5502,14 @@
  "XpTotal": 12467,
  "abilities": {
   "flySpeed": 0.05,
-  "flying": 0,
+  "flying": 1,
   "instabuild": 0,
-  "invulnerable": 0,
-  "mayBuild": 1,
-  "mayfly": 0,
+  "invulnerable": 1,
+  "mayBuild": 0,
+  "mayfly": 1,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.64,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5600,7 +5520,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 7,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5609,7 +5529,7 @@
   }
  },
  "max_stun_shield": 0.0,
- "playerGameType": 0,
+ "playerGameType": 3,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
   "isBlastingFurnaceGuiOpen": 0,
@@ -15086,7 +15006,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1683,
+  "ticks_since_last_warning": 6090,
   "warning_level": 0
  }
 }
