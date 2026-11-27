@@ -3,7 +3,7 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "pbf1:sanctum_of_the_battle1", x: -13, y: 3, z: -10, time: 1795799331983L, xRot: 0.0f, yRot: 70.87567f }
+	last_seen: { dim: "minecraft:overworld", x: 258, y: 63, z: -1772, time: 1795806694274L, xRot: 0.0f, yRot: 148.88281f }
 	recording: "none"
 	teleport_history: [
 		{ dim: "pbf1:sanctum_of_the_battle1", x: 1, y: 3, z: -8, time: 1795801270218L }
