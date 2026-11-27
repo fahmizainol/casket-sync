@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2037539,
+  "DayTime": 2043539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,26 +428,11 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795788789244,
+  "LastPlayed": 1795789089234,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
    "ActiveEffects": [
-    {
-     "Ambient": 0,
-     "Amplifier": 7,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 418,
-     "Id": 21,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "minecraft:health_boost"
-    },
     {
      "Ambient": 1,
      "Amplifier": 0,
@@ -457,28 +442,13 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 249,
+     "Duration": 251,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
     },
     {
-     "Ambient": 0,
-     "Amplifier": 2,
-     "CurativeItems": [
-      {
-       "Count": 1,
-       "id": "minecraft:milk_bucket"
-      }
-     ],
-     "Duration": 218,
-     "Id": 57,
-     "ShowIcon": 1,
-     "ShowParticles": 0,
-     "forge:id": "dodge_parry_reward:stamina_boost"
-    },
-    {
      "Ambient": 1,
      "Amplifier": 0,
      "CurativeItems": [
@@ -487,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 249,
+     "Duration": 251,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -497,104 +467,16 @@
    "Air": 300,
    "Attributes": [
     {
-     "Base": 0.6,
-     "Name": "forge:step_height_addition"
-    },
-    {
-     "Base": 1.0,
-     "Name": "attributeslib:draw_speed"
-    },
-    {
-     "Base": 1.0,
-     "Name": "attributeslib:arrow_damage"
-    },
-    {
-     "Base": 0.0,
-     "Name": "epicfight:armor_negation"
-    },
-    {
-     "Base": 0.0,
-     "Name": "epicfight:stun_armor"
-    },
-    {
-     "Base": 20.0,
-     "Modifiers": [
-      {
-       "Amount": 14.0,
-       "Name": "health_boost",
-       "Operation": 0,
-       "UUID": [
-        289739801,
-        427885108,
-        305402420,
-        1450744508
-       ],
-       "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 32.0,
-       "Name": "effect.minecraft.health_boost 7",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        294012588,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
-      }
-     ],
-     "Name": "minecraft:generic.max_health"
-    },
-    {
-     "Base": 0.0,
-     "Name": "minecraft:generic.armor"
-    },
-    {
-     "Base": 0.0,
-     "Name": "minecraft:generic.knockback_resistance"
-    },
-    {
-     "Base": 15.0,
-     "Modifiers": [
-      {
-       "Amount": 5.6,
-       "Name": "stamina_boost",
-       "Operation": 0,
-       "UUID": [
-        289739801,
-        427885108,
-        305402420,
-        1450744508
-       ],
-       "UUID_str": "11451419-1981-0234-1234-123456789abc"
-      },
-      {
-       "Amount": 9.0,
-       "Name": "effect.dodge_parry_reward.stamina_boost 2",
-       "Operation": 0,
-       "UUID": [
-        1567558562,
-        289739948,
-        -1198078436,
-        1559140812
-       ],
-       "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
-      }
-     ],
-     "Name": "epicfight:staminar"
-    },
-    {
-     "Base": 1.0,
-     "Name": "attributeslib:mining_speed"
-    },
-    {
      "Base": 100.0,
      "Name": "irons_spellbooks:max_mana"
     },
     {
      "Base": 0.1,
      "Name": "minecraft:generic.movement_speed"
+    },
+    {
+     "Base": 0.6,
+     "Name": "forge:step_height_addition"
     },
     {
      "Base": 4.0,
@@ -615,8 +497,20 @@
      "Name": "minecraft:generic.attack_speed"
     },
     {
+     "Base": 1.0,
+     "Name": "attributeslib:arrow_damage"
+    },
+    {
      "Base": 0.5,
      "Name": "epicfight:impact"
+    },
+    {
+     "Base": 0.0,
+     "Name": "epicfight:armor_negation"
+    },
+    {
+     "Base": 0.0,
+     "Name": "epicfight:stun_armor"
     },
     {
      "Base": 1.0,
@@ -658,15 +552,51 @@
     },
     {
      "Base": 0.0,
-     "Name": "cataclysm:additional_critical_damage"
-    },
-    {
-     "Base": 0.0,
      "Name": "minecraft:generic.armor_toughness"
     },
     {
-     "Base": 4.0,
-     "Name": "epicfight:offhand_attack_speed"
+     "Base": 20.0,
+     "Modifiers": [
+      {
+       "Amount": 14.0,
+       "Name": "health_boost",
+       "Operation": 0,
+       "UUID": [
+        289739801,
+        427885108,
+        305402420,
+        1450744508
+       ],
+       "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      }
+     ],
+     "Name": "minecraft:generic.max_health"
+    },
+    {
+     "Base": 0.0,
+     "Name": "minecraft:generic.armor"
+    },
+    {
+     "Base": 0.0,
+     "Name": "minecraft:generic.knockback_resistance"
+    },
+    {
+     "Base": 15.0,
+     "Modifiers": [
+      {
+       "Amount": 5.6,
+       "Name": "stamina_boost",
+       "Operation": 0,
+       "UUID": [
+        289739801,
+        427885108,
+        305402420,
+        1450744508
+       ],
+       "UUID_str": "11451419-1981-0234-1234-123456789abc"
+      }
+     ],
+     "Name": "epicfight:staminar"
     },
     {
      "Base": 0.0,
@@ -709,7 +639,7 @@
    "EnderItems": [],
    "FallDistance": 0.0,
    "FallFlying": 0,
-   "Fire": -20,
+   "Fire": 0,
    "ForgeCaps": {
     "aether:aether_player": {
      "CanGetPortal": 0,
@@ -1082,14 +1012,15 @@
     },
     "efn:original_skill_memory": {},
     "epicfight:skill_cap": {
-     "dodge": "efn:efn_dodge",
+     "dodge": "wom:precise_roll",
      "efn_sekiro": "efn:mortal_blade",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
      "learned:dodge": {
-      "0": "efn:efn_step",
-      "1": "efn:efn_dodge",
-      "2": "efn:yamato_step"
+      "0": "efn:yamato_step",
+      "1": "wom:precise_roll",
+      "2": "efn:efn_step",
+      "3": "efn:efn_dodge"
      },
      "learned:efn_sekiro": {
       "0": "efn:mortal_blade"
@@ -1148,7 +1079,7 @@
      "sword_soaring": "sword_soaring:sword_soaring_elytra_master"
     },
     "epicskills:ability_points": {
-     "abilityPoint": 13,
+     "abilityPoint": 11,
      "requiredExp": 7,
      "requiredExpLevel": 0
     },
@@ -1539,7 +1470,7 @@
          }
         ],
         "name": "wom:precise_roll",
-        "state": "unlockable"
+        "state": "unlocked"
        },
        {
         "children": [
@@ -1861,7 +1792,7 @@
       "dual_annihilator_lock": 0,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 0,
-      "is_lock_on": 0,
+      "is_lock_on": 1,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 0,
@@ -2074,6 +2005,12 @@
      }
     },
     "accepted": 0,
+    "bossdps_hold": {
+     "dim": "minecraft:overworld",
+     "x": 265.5,
+     "y": 63.0,
+     "z": -1775.5
+    },
     "can_accept": 0,
     "find_me": {
      "autoBindIgnored": [],
@@ -4790,13 +4727,11 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_mn_tabi_last_dash": 2782589,
-    "ua_rs_active_until": 2783577,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 66.0,
-   "HurtByTimestamp": 1487,
+   "Health": 34.0,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -4966,6 +4901,11 @@
     },
     {
      "Count": 1,
+     "Slot": 8,
+     "id": "alexsmobs:flying_fish"
+    },
+    {
+     "Count": 1,
      "Slot": 100,
      "id": "fantasy_armor:lady_maria_boots",
      "tag": {
@@ -5073,26 +5013,26 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     6,
+     4,
      3,
-     -6
+     4
     ]
    },
    "Motion": [
     0.0,
-    -0.0784,
+    0.0,
     0.0
    ],
-   "OnGround": 1,
+   "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    -17.8637,
-    3.0,
-    8.2542
+    2.7219,
+    6.0,
+    -0.5757
    ],
    "Rotation": [
-    -55.1284,
-    -26.3894
+    76.3192,
+    0.0
    ],
    "Score": 28145,
    "SelectedItemSlot": 2,
@@ -5116,14 +5056,14 @@
    "XpTotal": 28145,
    "abilities": {
     "flySpeed": 0.05,
-    "flying": 0,
+    "flying": 1,
     "instabuild": 0,
-    "invulnerable": 0,
-    "mayBuild": 1,
-    "mayfly": 0,
+    "invulnerable": 1,
+    "mayBuild": 0,
+    "mayfly": 1,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.423,
+   "foodExhaustionLevel": 0.0,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5134,7 +5074,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 125,
+    "mana": 16,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -5143,7 +5083,7 @@
     }
    },
    "max_stun_shield": 0.0,
-   "playerGameType": 0,
+   "playerGameType": 3,
    "recipeBook": {
     "isBlastingFurnaceFilteringCraftable": 0,
     "isBlastingFurnaceGuiOpen": 0,
@@ -15443,7 +15383,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 2716,
+    "ticks_since_last_warning": 8235,
     "warning_level": 0
    }
   },
@@ -15455,7 +15395,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2783685,
+  "Time": 2789685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15469,7 +15409,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 15600,
+  "WanderingTraderSpawnDelay": 9600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16157,9 +16097,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 7656,
+  "rainTime": 1656,
   "raining": 0,
-  "thunderTime": 110424,
+  "thunderTime": 104424,
   "thundering": 0,
   "version": 19133
  },
