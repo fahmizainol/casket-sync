@@ -1,22 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 29,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": -1,
-   "Id": 170,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "efn:murasama_sheath"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -26,6 +9,10 @@
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 4.0,
@@ -75,18 +62,6 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    },
-    {
-     "Amount": 3.0,
-     "Name": "effect.efn.murasama_sheath 29",
-     "Operation": 2,
-     "UUID": [
-      -1961218756,
-      1314876027,
-      -1935810319,
-      -1565276971
-     ],
-     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -98,6 +73,10 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
+  },
+  {
+   "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -565,6 +544,7 @@
   "epicfight:skill_cap": {
    "dodge": "efn:murasama_dodge",
    "efn_sekiro": "efn:mortal_blade",
+   "efn_zansetsu": "efn:zansetsu",
    "guard": "efn:murasama_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
@@ -573,6 +553,9 @@
    },
    "learned:efn_sekiro": {
     "0": "efn:mortal_blade"
+   },
+   "learned:efn_zansetsu": {
+    "0": "efn:zansetsu"
    },
    "learned:guard": {
     "0": "efn:murasama_parry",
@@ -601,7 +584,7 @@
    "passive4": "dodge_parry_reward:health_boost4",
    "passive5": "dodge_parry_reward:stamina4",
    "passive6": "wom:mindset",
-   "playerMode": "VANILLA",
+   "playerMode": "EPICFIGHT",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -1517,12 +1500,12 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 1,
-  "EFNMurasamaSheathTicks": 0,
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 8,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
-     "WarpStoneCooldownUntilUnix": 1795786610794,
+     "WarpStoneCooldownUntilUnix": 1795787151873,
      "Waystones": [
       "03253d99-8b2a-4010-9c6e-d577fc1b2eb9",
       "1b7c6f81-f2c0-4082-b5c4-b3e2c38bc42f",
@@ -5155,10 +5138,10 @@
   "ua_rs_active_until": 2747440,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2747266
+  "ua_tabi_last_dash": 2751023
  },
- "Health": 44.0,
- "HurtByTimestamp": 0,
+ "Health": 43.9504,
+ "HurtByTimestamp": 5718,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5192,7 +5175,7 @@
      "mustEquip": 0,
      "spellWheel": 1
     },
-    "murasama_sheath": 1
+    "murasama_sheath": 0
    }
   },
   {
@@ -5232,11 +5215,6 @@
    "Count": 2,
    "Slot": 4,
    "id": "cataclysm:strange_key"
-  },
-  {
-   "Count": 48,
-   "Slot": 5,
-   "id": "minecraft:experience_bottle"
   },
   {
    "Count": 1,
@@ -5358,6 +5336,11 @@
    }
   },
   {
+   "Count": 48,
+   "Slot": 24,
+   "id": "minecraft:experience_bottle"
+  },
+  {
    "Count": 6,
    "Slot": 25,
    "id": "minecraft:spider_eye"
@@ -5453,13 +5436,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -233.0964,
-  79.0,
-  -102.1969
+  84.5836,
+  73.0,
+  -162.8587
  ],
  "Rotation": [
-  26.6999,
-  2.0693
+  -68.7283,
+  9.5628
  ],
  "Score": 12457,
  "SelectedItemSlot": 0,
@@ -5493,7 +5476,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.709,
+ "foodExhaustionLevel": 1.648,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5501,13 +5484,6 @@
   "castingEquipmentSlot": "",
   "castingSpellId": "",
   "castingSpellLevel": 0,
-  "cooldowns": [
-   {
-    "cdr": 976,
-    "id": "irons_spellbooks:thunderstorm",
-    "scd": 4800
-   }
-  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
@@ -14997,7 +14973,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 11022,
+  "ticks_since_last_warning": 5020,
   "warning_level": 0
  }
 }
