@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 347,
+   "Duration": 527,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,26 +25,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
+   "Duration": 254,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 115,
-   "Id": 98,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "cataclysm:abyssal_fear"
   },
   {
    "Ambient": 0,
@@ -55,26 +40,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 147,
+   "Duration": 327,
    "Id": 57,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "dodge_parry_reward:stamina_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 10,
-   "Id": 146,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "efn:yamato"
   },
   {
    "Ambient": 1,
@@ -85,7 +55,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 251,
+   "Duration": 254,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -1398,8 +1368,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 42
+   "currentDataNodeId": 43,
+   "currentLogicNodeId": 43
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1459,7 +1429,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 0,
     "infernal_forge_lock": 0,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -4390,13 +4360,14 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_rs_active_until": 2951538,
+  "ua_mn_tabi_last_dash": 2957473,
+  "ua_rs_active_until": 2956467,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 20.6453,
- "HurtByTimestamp": 1125,
- "HurtTime": 5,
+ "Health": 52.6667,
+ "HurtByTimestamp": 1373,
+ "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
@@ -4479,7 +4450,7 @@
     ],
     "KillCount": 3,
     "RepairCost": 7,
-    "TotalDamage": 16650.5527,
+    "TotalDamage": 20010.7305,
     "kusabimaru_sheath": 0
    }
   },
@@ -4706,26 +4677,26 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -3,
+   -4,
    3,
-   -8
+   -6
   ]
  },
  "Motion": [
-  0.0,
+  0.0343,
   -0.0784,
-  0.0
+  0.0618
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -10.3507,
+  -0.1461,
   3.0,
-  -12.6913
+  -4.8002
  ],
  "Rotation": [
-  -128.2459,
-  13.8081
+  96.6754,
+  -8.9383
  ],
  "Score": 28165,
  "SelectedItemSlot": 1,
@@ -4736,6 +4707,9 @@
  "SpawnX": 265,
  "SpawnY": 63,
  "SpawnZ": -1775,
+ "Tags": [
+  "zddd"
+ ],
  "UUID": [
   1096852936,
   1655583406,
@@ -4756,10 +4730,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.789,
+ "foodExhaustionLevel": 1.829,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 1,
+ "foodTickTimer": 9,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -15076,7 +15050,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8699,
+  "ticks_since_last_warning": 2299,
   "warning_level": 0
  }
 }
