@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 1972018,
+  "DayTime": 1972088,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795785015061,
+  "LastPlayed": 1795785192121,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 257,
+     "Duration": 244,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 257,
+     "Duration": 244,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -5134,13 +5134,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    259.2808,
+    262.8733,
     63.0,
-    -1774.7011
+    -1775.2552
    ],
    "Rotation": [
-    86.4001,
-    28.2219
+    82.05,
+    24.904
    ],
    "Score": 28130,
    "SelectedItemSlot": 0,
@@ -5185,7 +5185,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 116,
+    "mana": 125,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15494,7 +15494,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 11410,
+    "ticks_since_last_warning": 11480,
     "warning_level": 0
    }
   },
@@ -15506,7 +15506,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2718164,
+  "Time": 2718234,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -16208,9 +16208,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 17102,
+  "rainTime": 17032,
   "raining": 1,
-  "thunderTime": 29679,
+  "thunderTime": 29609,
   "thundering": 0,
   "version": 19133
  },
