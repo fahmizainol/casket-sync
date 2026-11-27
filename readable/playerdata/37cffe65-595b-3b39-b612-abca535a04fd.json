@@ -159,11 +159,11 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": 0,
+ "Fire": -20,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -1315,7 +1315,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1524,12 +1524,6 @@
    }
   },
   "accepted": 0,
-  "bossdps_hold": {
-   "dim": "minecraft:overworld",
-   "x": 265.5,
-   "y": 63.0,
-   "z": -1775.5
-  },
   "can_accept": 0,
   "find_me": {
    "autoBindIgnored": [],
@@ -5160,8 +5154,10 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
+  "ua_rs_active_until": 2875046,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 2874809
  },
  "Health": 44.0,
  "HurtByTimestamp": 0,
@@ -5453,19 +5449,19 @@
  },
  "Motion": [
   0.0,
-  0.0,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  7.5651,
-  6.0,
-  9.5664
+  261.772,
+  69.5,
+  -1767.2
  ],
  "Rotation": [
-  -109.3104,
-  28.5098
+  -178.1147,
+  0.0
  ],
  "Score": 12457,
  "SelectedItemSlot": 0,
@@ -5492,14 +5488,14 @@
  "XpTotal": 12457,
  "abilities": {
   "flySpeed": 0.05,
-  "flying": 1,
+  "flying": 0,
   "instabuild": 0,
-  "invulnerable": 1,
-  "mayBuild": 0,
-  "mayfly": 1,
+  "invulnerable": 0,
+  "mayBuild": 1,
+  "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 1.241,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5510,7 +5506,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 54,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5519,7 +5515,7 @@
   }
  },
  "max_stun_shield": 0.0,
- "playerGameType": 3,
+ "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
   "isBlastingFurnaceGuiOpen": 0,
@@ -14996,7 +14992,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8201,
+  "ticks_since_last_warning": 2200,
   "warning_level": 0
  }
 }
