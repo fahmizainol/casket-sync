@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2025539,
+  "DayTime": 2031539,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795788189264,
+  "LastPlayed": 1795788489299,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 250,
+     "Duration": 240,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 42,
+     "Duration": 198,
      "Id": 11,
      "ShowIcon": 0,
      "ShowParticles": 0,
@@ -472,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 250,
+     "Duration": 240,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -1035,7 +1035,7 @@
     },
     "efn:original_skill_memory": {},
     "epicfight:skill_cap": {
-     "dodge": "efn:efn_step",
+     "dodge": "efn:efn_dodge",
      "efn_sekiro": "efn:mortal_blade",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
@@ -1814,7 +1814,7 @@
       "dual_annihilator_lock": 0,
       "gauntlet_of_guard_lock": 1,
       "infernal_forge_lock": 0,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 0,
@@ -4743,7 +4743,6 @@
      "vehicles": []
     },
     "last_send_time": 0,
-    "ua_mn_tabi_last_dash": 2771546,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
@@ -5025,29 +5024,29 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     -5,
+     6,
      3,
-     4
+     -4
     ]
    },
    "Motion": [
     0.0,
-    -0.0784,
+    -0.3043,
     0.0
    ],
-   "OnGround": 1,
+   "OnGround": 0,
    "PortalCooldown": 0,
    "Pos": [
-    -10.6689,
-    3.0,
-    0.2118
+    0.5,
+    4.5,
+    0.5
    ],
    "Rotation": [
-    -32.7774,
-    -14.4797
+    48.0665,
+    30.3638
    ],
    "Score": 28145,
-   "SelectedItemSlot": 2,
+   "SelectedItemSlot": 4,
    "SleepTimer": 0,
    "SpawnAngle": 9.6864,
    "SpawnDimension": "minecraft:overworld",
@@ -5075,7 +5074,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 1.015,
+   "foodExhaustionLevel": 0.0,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5086,7 +5085,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 61,
+    "mana": 38,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15395,7 +15394,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 3792,
+    "ticks_since_last_warning": 9190,
     "warning_level": 0
    }
   },
@@ -15407,7 +15406,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 2771685,
+  "Time": 2777685,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15421,7 +15420,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 3600,
+  "WanderingTraderSpawnDelay": 21600,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16109,9 +16108,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 19656,
+  "rainTime": 13656,
   "raining": 0,
-  "thunderTime": 122424,
+  "thunderTime": 116424,
   "thundering": 0,
   "version": 19133
  },
