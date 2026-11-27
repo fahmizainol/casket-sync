@@ -1,9 +1,55 @@
 {
  "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 29,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": -1,
+   "Id": 170,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "efn:murasama_sheath"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 1,
+   "Id": 1,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:speed"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
    "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.speed 1",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -58,6 +104,18 @@
       -702737548
      ],
      "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+    },
+    {
+     "Amount": 3.0,
+     "Name": "effect.efn.murasama_sheath 29",
+     "Operation": 2,
+     "UUID": [
+      -1961218756,
+      1314876027,
+      -1935810319,
+      -1565276971
+     ],
+     "UUID_str": "8b1a2d3c-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
     }
    ],
    "Name": "minecraft:generic.attack_damage"
@@ -1499,8 +1557,8 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 14,
+  "EFNMurasamaMaxSoundPlayed": 1,
+  "EFNMurasamaSheathTicks": 0,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5174,10 +5232,10 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 3077553,
+  "ua_rs_active_until": 3083684,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 3075643
+  "ua_tabi_last_dash": 3083169
  },
  "Health": 9.4435,
  "HurtByTimestamp": 25621,
@@ -5214,7 +5272,7 @@
      "mustEquip": 0,
      "spellWheel": 1
     },
-    "murasama_sheath": 0
+    "murasama_sheath": 1
    }
   },
   {
@@ -5422,20 +5480,20 @@
   ]
  },
  "Motion": [
-  0.0,
-  -0.0784,
-  0.0
+  -0.1328,
+  0.2676,
+  0.029
  ],
- "OnGround": 1,
+ "OnGround": 0,
  "PortalCooldown": 0,
  "Pos": [
-  246.9615,
-  79.0,
-  -1772.3981
+  261.2895,
+  64.9424,
+  -1775.3303
  ],
  "Rotation": [
-  -13.5613,
-  0.0
+  63.8452,
+  56.6043
  ],
  "Score": 12488,
  "SelectedItemSlot": 0,
@@ -5469,7 +5527,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.798,
+ "foodExhaustionLevel": 0.732,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -14966,7 +15024,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10366,
+  "ticks_since_last_warning": 4365,
   "warning_level": 0
  }
 }
