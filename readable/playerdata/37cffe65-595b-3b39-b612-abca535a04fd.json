@@ -11,10 +11,6 @@
    "Name": "forge:step_height_addition"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
-  },
-  {
    "Base": 4.0,
    "Modifiers": [
     {
@@ -73,10 +69,6 @@
   {
    "Base": 40.0,
    "Name": "epicfight:weight"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.0,
@@ -167,7 +159,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "tcrcore:sanctum",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -537,15 +529,12 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge",
-   "GUARD": "efn:efn_parry"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:murasama_dodge",
+   "dodge": "efn:efn_dodge",
    "efn_sekiro": "efn:mortal_blade",
    "efn_zansetsu": "efn:zansetsu",
-   "guard": "efn:murasama_parry",
+   "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:murasama_dodge",
@@ -1500,8 +1489,6 @@
   }
  },
  "ForgeData": {
-  "EFNMurasamaMaxSoundPlayed": 0,
-  "EFNMurasamaSheathTicks": 8,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5129,19 +5116,17 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
   "ua_accessory_types_seen": {
    "uniqueaccessories:black_belt": 1,
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 2747440,
+  "ua_rs_active_until": 2759191,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2751023
+  "ua_rs_continuous": 0
  },
- "Health": 43.9504,
- "HurtByTimestamp": 5718,
+ "Health": 44.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5423,9 +5408,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -12,
+   -4,
    3,
-   -5
+   -11
   ]
  },
  "Motion": [
@@ -5436,16 +5421,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  84.5836,
-  73.0,
-  -162.8587
+  267.1027,
+  63.0,
+  -1774.8405
  ],
  "Rotation": [
-  -68.7283,
-  9.5628
+  -160.8937,
+  0.0
  ],
  "Score": 12457,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 7,
  "SleepTimer": 0,
  "SpawnAngle": -121.4462,
  "SpawnDimension": "minecraft:overworld",
@@ -5476,7 +5461,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.648,
+ "foodExhaustionLevel": 0.05,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5487,7 +5472,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 67,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14973,7 +14958,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5020,
+  "ticks_since_last_warning": 10918,
   "warning_level": 0
  }
 }
