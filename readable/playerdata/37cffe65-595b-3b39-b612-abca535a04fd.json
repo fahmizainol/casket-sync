@@ -3,21 +3,6 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 302,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
    "Amplifier": 0,
    "CurativeItems": [
     {
@@ -25,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 21,
+   "Duration": 128,
    "Id": 98,
    "ShowIcon": 0,
    "ShowParticles": 0,
@@ -33,21 +18,6 @@
   },
   {
    "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 102,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  },
-  {
-   "Ambient": 0,
    "Amplifier": 0,
    "CurativeItems": [
     {
@@ -55,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 90,
+   "Duration": 306,
    "FactorCalculationData": {
     "factor_current": 1.0,
     "factor_previous_frame": 1.0,
@@ -63,7 +33,7 @@
     "factor_target": 1.0,
     "had_effect_last_tick": 1,
     "padding_duration": 22,
-    "ticks_active": 1157
+    "ticks_active": 747
    },
    "Id": 33,
    "ShowIcon": 0,
@@ -179,18 +149,6 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -198,6 +156,10 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -217,18 +179,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 9.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 2",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -264,7 +214,7 @@
  "DeathTime": 0,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
- "FallDistance": 0.2382,
+ "FallDistance": 0.0,
  "FallFlying": 0,
  "Fire": -20,
  "ForgeCaps": {
@@ -633,13 +583,14 @@
    ]
   },
   "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge"
+   "DODGE": "efn:efn_dodge",
+   "GUARD": "efn:efn_parry"
   },
   "epicfight:skill_cap": {
-   "dodge": "efn:yamato_step",
+   "dodge": "efn:murasama_dodge",
    "efn_sekiro": "efn:mortal_blade",
    "efn_zansetsu": "efn:zansetsu",
-   "guard": "efn:efn_parry",
+   "guard": "efn:murasama_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:yamato_step",
@@ -1357,8 +1308,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 64,
-   "currentLogicNodeId": 64
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 167
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1418,7 +1369,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1596,6 +1547,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 3,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5274,13 +5227,12 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
-  "ua_rs_active_until": 2987670,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2987652
+  "ua_tabi_last_dash": 2993598
  },
- "Health": 49.3618,
- "HurtByTimestamp": 2259,
+ "Health": 2.7558,
+ "HurtByTimestamp": 1655,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5303,7 +5255,7 @@
      }
     ],
     "RepairCost": 7,
-    "TotalDamage": 333.9304
+    "TotalDamage": 544.0353
    }
   },
   {
@@ -5498,29 +5450,29 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   10,
+   13,
    3,
-   -27
+   4
   ]
  },
  "Motion": [
-  -0.0737,
-  -0.1552,
-  -0.0547
+  0.0,
+  -0.0784,
+  0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  0.9379,
-  4.1336,
-  0.876
+  -13.845,
+  3.0,
+  -5.6362
  ],
  "Rotation": [
-  -51.3103,
-  -14.8163
+  115.1519,
+  -12.268
  ],
  "Score": 12467,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 1,
  "SleepTimer": 0,
  "SpawnAngle": -87.2336,
  "SpawnDimension": "minecraft:overworld",
@@ -5551,7 +5503,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 3.426,
+ "foodExhaustionLevel": 3.092,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15048,7 +15000,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8770,
+  "ticks_since_last_warning": 2504,
   "warning_level": 0
  }
 }
