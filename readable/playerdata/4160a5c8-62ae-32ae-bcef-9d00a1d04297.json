@@ -2,21 +2,6 @@
  "AbsorptionAmount": 0.0,
  "ActiveEffects": [
   {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 283,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  },
-  {
    "Ambient": 1,
    "Amplifier": 0,
    "CurativeItems": [
@@ -25,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 258,
+   "Duration": 250,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 258,
+   "Duration": 250,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -83,18 +68,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -206,10 +179,6 @@
    "Name": "minecraft:generic.armor_toughness"
   },
   {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
-  },
-  {
    "Base": 0.0,
    "Name": "attributeslib:creative_flight"
   },
@@ -245,7 +214,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 17,
+ "DeathTime": 0,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -621,9 +590,11 @@
     }
    ]
   },
-  "efn:original_skill_memory": {},
+  "efn:original_skill_memory": {
+   "DODGE": "wom:precise_roll"
+  },
   "epicfight:skill_cap": {
-   "dodge": "wom:precise_roll",
+   "dodge": "efn:yamato_step",
    "efn_sekiro": "efn:mortal_blade",
    "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
@@ -1345,7 +1316,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 219
+   "currentLogicNodeId": 42
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1405,7 +1376,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 0,
     "infernal_forge_lock": 0,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1620,7 +1591,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4336,11 +4306,14 @@
    "vehicles": []
   },
   "last_send_time": 0,
+  "quark:trying_crawl": 0,
+  "ua_mn_tabi_last_dash": 3017369,
+  "ua_rs_active_until": 3017498,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 0.0,
- "HurtByTimestamp": 1562,
+ "Health": 34.0,
+ "HurtByTimestamp": 504,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4424,7 +4397,7 @@
     ],
     "KillCount": 4,
     "RepairCost": 7,
-    "TotalDamage": 35672.4727,
+    "TotalDamage": 39619.0859,
     "kusabimaru_sheath": 0
    }
   },
@@ -4498,14 +4471,24 @@
    }
   },
   {
-   "Count": 3,
+   "Count": 1,
    "Slot": 5,
-   "id": "minecraft:bone"
+   "id": "tcrcore:retracement_stone"
   },
   {
-   "Count": 5,
+   "Count": 4,
+   "Slot": 6,
+   "id": "minecraft:nether_gold_ore"
+  },
+  {
+   "Count": 1,
    "Slot": 7,
-   "id": "minecraft:string"
+   "id": "cataclysm:essence_of_the_storm"
+  },
+  {
+   "Count": 6,
+   "Slot": 8,
+   "id": "minecraft:red_nether_bricks"
   },
   {
    "Count": 1,
@@ -4519,6 +4502,11 @@
   },
   {
    "Count": 1,
+   "Slot": 11,
+   "id": "tcrcore:retracement_stone"
+  },
+  {
+   "Count": 1,
    "Slot": 12,
    "id": "tcrcore:rare_artifact_ticket"
   },
@@ -4528,9 +4516,14 @@
    "id": "minecraft:spider_eye"
   },
   {
-   "Count": 1,
-   "Slot": 24,
-   "id": "minecraft:ghast_tear"
+   "Count": 3,
+   "Slot": 23,
+   "id": "minecraft:bone"
+  },
+  {
+   "Count": 5,
+   "Slot": 25,
+   "id": "minecraft:string"
   },
   {
    "Count": 2,
@@ -4656,9 +4649,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -7,
+   -10,
    3,
-   -1
+   -15
   ]
  },
  "Motion": [
@@ -4669,16 +4662,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -7.3073,
+  22.586,
   3.0,
-  0.7527
+  -14.8019
  ],
  "Rotation": [
-  -144.768,
-  0.0
+  -6.5637,
+  -10.0789
  ],
  "Score": 28165,
- "SelectedItemSlot": 2,
+ "SelectedItemSlot": 1,
  "SleepTimer": 0,
  "SpawnAngle": 112.3262,
  "SpawnDimension": "minecraft:overworld",
@@ -4706,7 +4699,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.5,
+ "foodExhaustionLevel": 3.39,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15026,7 +15019,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5944,
+  "ticks_since_last_warning": 11681,
   "warning_level": 0
  }
 }

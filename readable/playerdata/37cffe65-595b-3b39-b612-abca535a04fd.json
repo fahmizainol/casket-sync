@@ -3,38 +3,77 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 0,
+   "Amplifier": 7,
    "CurativeItems": [
     {
      "Count": 1,
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 224,
-   "FactorCalculationData": {
-    "factor_current": 1.0,
-    "factor_previous_frame": 1.0,
-    "factor_start": 0.0,
-    "factor_target": 1.0,
-    "had_effect_last_tick": 1,
-    "padding_duration": 22,
-    "ticks_active": 119
-   },
-   "Id": 33,
+   "Duration": 565,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 365,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 1,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 27,
+   "Id": 1,
    "ShowIcon": 0,
    "ShowParticles": 0,
-   "forge:id": "minecraft:darkness"
+   "forge:id": "minecraft:speed"
   }
  ],
  "Air": 300,
  "Attributes": [
   {
    "Base": 0.1,
+   "Modifiers": [
+    {
+     "Amount": 0.4,
+     "Name": "effect.minecraft.speed 1",
+     "Operation": 2,
+     "UUID": [
+      -1850824106,
+      929776792,
+      -1822740609,
+      1745290805
+     ],
+     "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
   },
   {
    "Base": 4.0,
@@ -98,6 +137,10 @@
   },
   {
    "Base": 0.0,
+   "Name": "cataclysm:additional_critical_damage"
+  },
+  {
+   "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
   },
   {
@@ -126,6 +169,18 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -133,6 +188,10 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -152,6 +211,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 9.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 2",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -185,7 +256,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "minecraft:overworld",
+ "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -556,14 +627,13 @@
    ]
   },
   "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge",
-   "GUARD": "efn:efn_parry"
+   "DODGE": "efn:efn_dodge"
   },
   "epicfight:skill_cap": {
-   "dodge": "efn:murasama_dodge",
+   "dodge": "efn:yamato_step",
    "efn_sekiro": "efn:mortal_blade",
    "efn_zansetsu": "efn:zansetsu",
-   "guard": "efn:murasama_parry",
+   "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:murasama_dodge",
@@ -1281,8 +1351,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 142
+   "currentDataNodeId": 78,
+   "currentLogicNodeId": 78
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -5221,38 +5291,16 @@
    "uniqueaccessories:shiny_stone": 1
   },
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 3016279
  },
- "Health": 44.0,
- "HurtByTimestamp": 0,
+ "Health": 62.0,
+ "HurtByTimestamp": 885,
  "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
    "Slot": 0,
-   "id": "efn:yamato_dmc_in_sheath",
-   "tag": {
-    "Enchantments": [
-     {
-      "id": "efn:yamato_guard",
-      "lvl": 1
-     },
-     {
-      "id": "efn:yamato_summoned_sword",
-      "lvl": 1
-     },
-     {
-      "id": "efn:yamato_doppelganger",
-      "lvl": 1
-     }
-    ],
-    "RepairCost": 7,
-    "TotalDamage": 544.0353
-   }
-  },
-  {
-   "Count": 1,
-   "Slot": 1,
    "id": "efn:hf_murasama",
    "tag": {
     "Enchantments": [
@@ -5286,42 +5334,31 @@
   },
   {
    "Count": 1,
-   "Slot": 2,
-   "id": "tcrcore:retracement_stone"
-  },
-  {
-   "Count": 41,
-   "Slot": 3,
-   "id": "minecraft:emerald"
-  },
-  {
-   "Count": 2,
-   "Slot": 4,
-   "id": "cataclysm:strange_key"
-  },
-  {
-   "Count": 2,
-   "Slot": 5,
-   "id": "minecraft:rotten_flesh"
-  },
-  {
-   "Count": 1,
-   "Slot": 6,
-   "id": "tcrcore:retracement_stone"
-  },
-  {
-   "Count": 1,
-   "Slot": 7,
-   "id": "tcrcore:wither_soul_stone_activated"
-  },
-  {
-   "Count": 1,
-   "Slot": 8,
-   "id": "waystones:warp_stone",
+   "Slot": 1,
+   "id": "efn:yamato_dmc_in_sheath",
    "tag": {
-    "Damage": 0,
-    "sheath": 0
+    "Enchantments": [
+     {
+      "id": "efn:yamato_guard",
+      "lvl": 1
+     },
+     {
+      "id": "efn:yamato_summoned_sword",
+      "lvl": 1
+     },
+     {
+      "id": "efn:yamato_doppelganger",
+      "lvl": 1
+     }
+    ],
+    "RepairCost": 7,
+    "TotalDamage": 544.0353
    }
+  },
+  {
+   "Count": 1,
+   "Slot": 2,
+   "id": "tcrcore:wither_soul_stone_activated"
   },
   {
    "Count": 4,
@@ -5339,6 +5376,30 @@
    "id": "magistuarmory:rustedchainmail_boots",
    "tag": {
     "Damage": 0
+   }
+  },
+  {
+   "Count": 2,
+   "Slot": 12,
+   "id": "cataclysm:strange_key"
+  },
+  {
+   "Count": 2,
+   "Slot": 13,
+   "id": "minecraft:rotten_flesh"
+  },
+  {
+   "Count": 1,
+   "Slot": 14,
+   "id": "tcrcore:retracement_stone"
+  },
+  {
+   "Count": 1,
+   "Slot": 16,
+   "id": "waystones:warp_stone",
+   "tag": {
+    "Damage": 0,
+    "sheath": 0
    }
   },
   {
@@ -5376,6 +5437,11 @@
    "Count": 1,
    "Slot": 21,
    "id": "minecraft:gold_nugget"
+  },
+  {
+   "Count": 41,
+   "Slot": 22,
+   "id": "minecraft:emerald"
   },
   {
    "Count": 1,
@@ -5455,9 +5521,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -9,
+   -7,
    3,
-   -5
+   -8
   ]
  },
  "Motion": [
@@ -5468,13 +5534,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  265.5,
-  63.0,
-  -1775.5
+  19.7,
+  2.875,
+  -4.3833
  ],
  "Rotation": [
-  -87.3129,
-  26.1007
+  -122.9969,
+  12.0348
  ],
  "Score": 12483,
  "SelectedItemSlot": 1,
@@ -5508,7 +5574,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 0.419,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5519,7 +5585,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 15,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15005,7 +15071,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 6487,
+  "ticks_since_last_warning": 382,
   "warning_level": 0
  }
 }
