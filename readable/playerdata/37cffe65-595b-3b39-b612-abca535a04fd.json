@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 502,
+   "Duration": 560,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,11 +25,35 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 302,
+   "Duration": 360,
    "Id": 57,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "dodge_parry_reward:stamina_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 233,
+   "FactorCalculationData": {
+    "factor_current": 1.0,
+    "factor_previous_frame": 1.0,
+    "factor_start": 0.0,
+    "factor_target": 1.0,
+    "had_effect_last_tick": 1,
+    "padding_duration": 22,
+    "ticks_active": 652
+   },
+   "Id": 33,
+   "ShowIcon": 0,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:darkness"
   }
  ],
  "Air": 300,
@@ -226,7 +250,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 19,
+ "DeathTime": 0,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1322,8 +1346,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 1,
-   "currentLogicNodeId": 175
+   "currentDataNodeId": 167,
+   "currentLogicNodeId": 167
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1383,7 +1407,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1594,7 +1618,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -5240,12 +5263,13 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
+  "ua_rs_active_until": 2969160,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 2963597
+  "ua_tabi_last_dash": 2969632
  },
- "Health": 0.0,
- "HurtByTimestamp": 3348,
+ "Health": 76.0,
+ "HurtByTimestamp": 2645,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5542,9 +5566,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   25,
+   1,
    3,
-   -14
+   6
   ]
  },
  "Motion": [
@@ -5555,13 +5579,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  26.3373,
+  -15.9055,
   3.0,
-  -12.6976
+  -2.7955
  ],
  "Rotation": [
-  144.9199,
-  0.0
+  -71.002,
+  13.0387
  ],
  "Score": 12467,
  "SelectedItemSlot": 0,
@@ -5595,12 +5619,12 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.767,
+ "foodExhaustionLevel": 3.004,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "",
+  "castingEquipmentSlot": "mainhand",
   "castingSpellId": "",
   "castingSpellLevel": 0,
   "evasionHitsRemaining": 0.0,
@@ -15092,7 +15116,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10530,
+  "ticks_since_last_warning": 4301,
   "warning_level": 0
  }
 }

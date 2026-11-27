@@ -3,36 +3,6 @@
  "ActiveEffects": [
   {
    "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 260,
-   "Id": 55,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "epicfight:stun_immunity"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 43,
-   "Id": 15,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:blindness"
-  },
-  {
-   "Ambient": 0,
    "Amplifier": 7,
    "CurativeItems": [
     {
@@ -40,80 +10,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 567,
+   "Duration": 329,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:health_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 260,
-   "Id": 10,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 3,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 260,
-   "Id": 140,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "efn:sin_stun_immunity"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 367,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 0,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 283,
-   "FactorCalculationData": {
-    "factor_current": 1.0,
-    "factor_previous_frame": 1.0,
-    "factor_start": 0.0,
-    "factor_target": 1.0,
-    "had_effect_last_tick": 1,
-    "padding_duration": 22,
-    "ticks_active": 136
-   },
-   "Id": 33,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:darkness"
   },
   {
    "Ambient": 1,
@@ -124,7 +25,37 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 240,
+   "Duration": 248,
+   "Id": 10,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 129,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  },
+  {
+   "Ambient": 1,
+   "Amplifier": 0,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 248,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -302,6 +233,10 @@
    "Name": "minecraft:generic.armor_toughness"
   },
   {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "attributeslib:creative_flight"
   },
@@ -337,7 +272,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 23,
  "Dimension": "pbf1:sanctum_of_the_battle1",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -713,11 +648,9 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "wom:precise_roll"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:yamato_step",
+   "dodge": "wom:precise_roll",
    "efn_sekiro": "efn:mortal_blade",
    "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
@@ -1437,8 +1370,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 68,
-   "currentLogicNodeId": 68
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 42
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1713,6 +1646,7 @@
   },
   "accepted": 0,
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4428,14 +4362,13 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 1,
-  "ua_mn_tabi_last_dash": 2963638,
-  "ua_rs_active_until": 2962792,
+  "quark:trying_crawl": 0,
+  "ua_bb_dodge_until": 2969746,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 66.0,
- "HurtByTimestamp": 2416,
+ "Health": 0.0,
+ "HurtByTimestamp": 1272,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4519,7 +4452,7 @@
     ],
     "KillCount": 3,
     "RepairCost": 7,
-    "TotalDamage": 22882.2461,
+    "TotalDamage": 24891.5977,
     "kusabimaru_sheath": 0
    }
   },
@@ -4746,29 +4679,29 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -1,
+   -18,
    3,
-   -1
+   -2
   ]
  },
  "Motion": [
-  0.0027,
+  0.0,
   -0.0784,
-  -0.0062
+  0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  12.5369,
+  -18.1987,
   3.0,
-  -5.7868
+  -1.1869
  ],
  "Rotation": [
-  -152.2613,
-  -4.712
+  -114.9705,
+  0.0
  ],
  "Score": 28165,
- "SelectedItemSlot": 1,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": 13.821,
  "SpawnDimension": "minecraft:overworld",
@@ -4796,7 +4729,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.848,
+ "foodExhaustionLevel": 2.764,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -4815,7 +4748,6 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -15113,10 +15045,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8061,
+  "ticks_since_last_warning": 1640,
   "warning_level": 0
  }
 }

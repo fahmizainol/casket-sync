@@ -183,8 +183,8 @@
   },
   "artifacts:entity_equipment/zombie": {
    "source": [
-    3584103443470101422,
-    5434628647734771004
+    5272021702443767018,
+    -8232924512687753645
    ]
   },
   "artifacts:entity_equipment/zombified_piglin": {
@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    2452678417921936375,
-    5065779895925144694
+    3306675459511164968,
+    -5424467033345466918
    ]
   },
   "minecraft:entities/pufferfish": {
