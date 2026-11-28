@@ -2175,8 +2175,8 @@
   },
   "minecraft:entities/player": {
    "source": [
-    4913139531689429978,
-    -7257506978667224095
+    -6540578059523948379,
+    8096918072969778911
    ]
   },
   "minecraft:entities/pufferfish": {
@@ -2357,6 +2357,12 @@
    "source": [
     3233571672039037846,
     8087324062776560378
+   ]
+  },
+  "tcr_bosses:entities/scylla_humanoid": {
+   "source": [
+    -4302943863333727798,
+    5301079041004598341
    ]
   },
   "tcr_bosses:entities/valkyrie": {
