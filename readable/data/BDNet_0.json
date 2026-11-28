@@ -907,7 +907,7 @@
      }
     },
     {
-     "amount": 523,
+     "amount": 524,
      "key": {
       "stack": {
        "item": "beyonddimensions:shattered_space_time_crystallization"
@@ -3525,6 +3525,6 @@
     }
    ]
   },
-  "currentTime": 7575
+  "currentTime": 7436
  }
 }
