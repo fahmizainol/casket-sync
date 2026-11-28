@@ -162,12 +162,12 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 0,
+ "DeathTime": 624,
  "Dimension": "wraithon:sanctum_of_the_wraithon",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
- "Fire": 0,
+ "Fire": -20,
  "ForgeCaps": {
   "aether:aether_player": {
    "CanGetPortal": 0,
@@ -1529,13 +1529,8 @@
    }
   },
   "accepted": 0,
-  "bossdps_hold": {
-   "dim": "wraithon:sanctum_of_the_wraithon",
-   "x": 160.5,
-   "y": 7.1,
-   "z": 314.5
-  },
   "can_accept": 0,
+  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -5175,11 +5170,12 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
+  "ua_rs_active_until": 3272717,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 44.0,
- "HurtByTimestamp": 0,
+ "Health": 0.0,
+ "HurtByTimestamp": 332,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5415,25 +5411,25 @@
  "LastDeathLocation": {
   "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   171,
+   155,
    7,
-   290
+   300
   ]
  },
  "Motion": [
   0.0,
-  0.0,
+  -0.0784,
   0.0
  ],
- "OnGround": 0,
+ "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  169.9952,
-  10.0,
-  293.2948
+  154.0227,
+  7.0,
+  300.6065
  ],
  "Rotation": [
-  -155.506,
+  -106.876,
   0.0
  ],
  "Score": 12488,
@@ -5461,14 +5457,14 @@
  "XpTotal": 12488,
  "abilities": {
   "flySpeed": 0.05,
-  "flying": 1,
+  "flying": 0,
   "instabuild": 0,
-  "invulnerable": 1,
-  "mayBuild": 0,
-  "mayfly": 1,
+  "invulnerable": 0,
+  "mayBuild": 1,
+  "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.0,
+ "foodExhaustionLevel": 0.85,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5479,7 +5475,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 16,
+  "mana": 37,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5487,8 +5483,7 @@
    "slot": ""
   }
  },
- "max_stun_shield": 0.0,
- "playerGameType": 3,
+ "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
   "isBlastingFurnaceGuiOpen": 0,
@@ -14962,10 +14957,9 @@
   ]
  },
  "seenCredits": 0,
- "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 4628,
+  "ticks_since_last_warning": 8652,
   "warning_level": 0
  }
 }
