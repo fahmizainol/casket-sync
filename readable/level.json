@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2611574,
+  "DayTime": 2617574,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795874083653,
+  "LastPlayed": 1795874383660,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 240,
+     "Duration": 244,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -472,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 240,
+     "Duration": 244,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -5249,9 +5249,9 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    157.1819,
+    156.5577,
     7.0,
-    309.589
+    310.0364
    ],
    "Rotation": [
     -23.0487,
@@ -15606,7 +15606,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 4113,
+    "ticks_since_last_warning": 10113,
     "warning_level": 0
    }
   },
@@ -15618,7 +15618,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 3357720,
+  "Time": 3363720,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15632,7 +15632,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 18000,
+  "WanderingTraderSpawnDelay": 12000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16320,9 +16320,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 70953,
+  "rainTime": 64953,
   "raining": 0,
-  "thunderTime": 8263,
+  "thunderTime": 2263,
   "thundering": 1,
   "version": 19133
  },
