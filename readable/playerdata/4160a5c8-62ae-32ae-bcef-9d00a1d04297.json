@@ -10,11 +10,26 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 258,
+   "Duration": 254,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 574,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
   },
   {
    "Ambient": 1,
@@ -25,11 +40,41 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 258,
+   "Duration": 254,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:strength"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 44,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 212,
+   "Id": 169,
+   "ShowIcon": 1,
+   "ShowParticles": 1,
+   "forge:id": "efn:attack_speed_increase"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 24,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 252,
+   "Id": 167,
+   "ShowIcon": 1,
+   "ShowParticles": 1,
+   "forge:id": "efn:damage_reduction"
   }
  ],
  "Air": 300,
@@ -148,6 +193,18 @@
       1821068796
      ],
      "UUID_str": "9f08b24d-a700-4515-91d2-d32f6c8b4dfc"
+    },
+    {
+     "Amount": 0.45,
+     "Name": "effect.efn.attack_speed_increase 44",
+     "Operation": 2,
+     "UUID": [
+      -1177307004,
+      906514079,
+      -1925037345,
+      -1450983089
+     ],
+     "UUID_str": "b9d3b884-3608-4e9f-8d42-42dfa983c14f"
     }
    ],
    "Name": "minecraft:generic.attack_speed"
@@ -174,6 +231,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -210,7 +279,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 1065,
+ "DeathTime": 0,
  "Dimension": "wraithon:sanctum_of_the_wraithon",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -1588,7 +1657,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -4304,13 +4372,14 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "ua_mn_tabi_last_dash": 3428257,
-  "ua_rs_active_until": 3428261,
+  "ua_bb_dodge_until": 3435783,
+  "ua_mn_tabi_last_dash": 3435352,
+  "ua_rs_active_until": 3435712,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 0.0,
- "HurtByTimestamp": 2061,
+ "Health": 47.2714,
+ "HurtByTimestamp": 742,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4813,13 +4882,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  162.3586,
+  151.8275,
   7.0,
-  341.8618
+  308.6144
  ],
  "Rotation": [
-  -153.4798,
-  0.0
+  16.4024,
+  -0.1703
  ],
  "Score": 28288,
  "SelectedItemSlot": 0,
@@ -4850,10 +4919,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.823,
+ "foodExhaustionLevel": 3.503,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 0,
+ "foodTickTimer": 3,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -4861,7 +4930,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 125,
+  "mana": 106,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -4869,6 +4938,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -15166,9 +15236,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 5718,
+  "ticks_since_last_warning": 6558,
   "warning_level": 0
  }
 }
