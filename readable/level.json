@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2527574,
+  "DayTime": 2533574,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795869883633,
+  "LastPlayed": 1795870183638,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,11 +442,26 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 241,
+     "Duration": 243,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
      "forge:id": "minecraft:regeneration"
+    },
+    {
+     "Ambient": 0,
+     "Amplifier": 2,
+     "CurativeItems": [
+      {
+       "Count": 1,
+       "id": "minecraft:milk_bucket"
+      }
+     ],
+     "Duration": 19,
+     "Id": 1,
+     "ShowIcon": 1,
+     "ShowParticles": 0,
+     "forge:id": "minecraft:speed"
     },
     {
      "Ambient": 1,
@@ -457,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 241,
+     "Duration": 243,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -598,6 +613,20 @@
     },
     {
      "Base": 0.1,
+     "Modifiers": [
+      {
+       "Amount": 0.6,
+       "Name": "effect.minecraft.speed 2",
+       "Operation": 2,
+       "UUID": [
+        -1850824106,
+        929776792,
+        -1822740609,
+        1745290805
+       ],
+       "UUID_str": "91aeaa56-376b-4498-935b-2f7f68070635"
+      }
+     ],
      "Name": "minecraft:generic.movement_speed"
     },
     {
@@ -638,7 +667,7 @@
    "CanUpdate": 1,
    "CitadelData": {},
    "DataVersion": 3465,
-   "DeathTime": 1008,
+   "DeathTime": 0,
    "Dimension": "wraithon:sanctum_of_the_wraithon",
    "EnderItems": [],
    "FallDistance": 0.0,
@@ -2016,7 +2045,6 @@
     },
     "accepted": 0,
     "can_accept": 0,
-    "death_triggered": 1,
     "find_me": {
      "autoBindIgnored": [],
      "autoBindTypeBlacklist": [],
@@ -4735,8 +4763,8 @@
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
-   "Health": 0.0,
-   "HurtByTimestamp": 634,
+   "Health": 37.0,
+   "HurtByTimestamp": 0,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -5221,13 +5249,13 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    153.0518,
+    153.6463,
     7.0,
-    301.3054
+    302.9982
    ],
    "Rotation": [
-    -33.6299,
-    0.0
+    65.5872,
+    33.4631
    ],
    "Score": 28288,
    "SelectedItemSlot": 0,
@@ -5258,7 +5286,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 2.4,
+   "foodExhaustionLevel": 0.0,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5269,7 +5297,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 83,
+    "mana": 125,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -5277,6 +5305,7 @@
      "slot": ""
     }
    },
+   "max_stun_shield": 0.0,
    "playerGameType": 0,
    "recipeBook": {
     "isBlastingFurnaceFilteringCraftable": 0,
@@ -15574,9 +15603,10 @@
     ]
    },
    "seenCredits": 0,
+   "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 5094,
+    "ticks_since_last_warning": 10220,
     "warning_level": 0
    }
   },
@@ -15588,7 +15618,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 3273720,
+  "Time": 3279720,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15601,8 +15631,8 @@
    -1997551884,
    -2024141775
   ],
-  "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 6000,
+  "WanderingTraderSpawnChance": 50,
+  "WanderingTraderSpawnDelay": 0,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16290,9 +16320,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 154953,
+  "rainTime": 148953,
   "raining": 0,
-  "thunderTime": 78894,
+  "thunderTime": 72894,
   "thundering": 0,
   "version": 19133
  },
