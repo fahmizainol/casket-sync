@@ -1,22 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 4,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 104,
-   "Id": 11,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:resistance"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -180,7 +163,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -598,7 +581,7 @@
    "passive4": "dodge_parry_reward:health_boost4",
    "passive5": "dodge_parry_reward:stamina4",
    "passive6": "wom:mindset",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -624,7 +607,7 @@
    "sword_soaring": "sword_soaring:sword_soaring_master"
   },
   "epicskills:ability_points": {
-   "abilityPoint": 17,
+   "abilityPoint": 21,
    "requiredExp": 7,
    "requiredExpLevel": 0
   },
@@ -1276,8 +1259,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 162,
-   "currentLogicNodeId": 162
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 142
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -5274,9 +5257,9 @@
    "id": "minecraft:iron_ingot"
   },
   {
-   "Count": 4,
-   "Slot": 9,
-   "id": "epicskills:ability_stone"
+   "Count": 9,
+   "Slot": 6,
+   "id": "minecraft:rotten_flesh"
   },
   {
    "Count": 3,
@@ -5295,11 +5278,6 @@
    "Count": 2,
    "Slot": 12,
    "id": "cataclysm:strange_key"
-  },
-  {
-   "Count": 9,
-   "Slot": 13,
-   "id": "minecraft:rotten_flesh"
   },
   {
    "Count": 1,
@@ -5447,13 +5425,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -1.564,
-  3.0,
-  7.5939
+  -239.4858,
+  79.0,
+  -94.6985
  ],
  "Rotation": [
-  105.2191,
-  41.3691
+  -122.925,
+  6.2535
  ],
  "Score": 12488,
  "SelectedItemSlot": 0,
@@ -5492,13 +5470,20 @@
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
  "irons_spellbooks:magic_data": {
-  "castingEquipmentSlot": "",
+  "castingEquipmentSlot": "mainhand",
   "castingSpellId": "",
   "castingSpellLevel": 0,
+  "cooldowns": [
+   {
+    "cdr": 3600,
+    "id": "irons_spellbooks:thunderstorm",
+    "scd": 4800
+   }
+  ],
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 19,
+  "mana": 100,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -14984,7 +14969,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 2136,
+  "ticks_since_last_warning": 8136,
   "warning_level": 0
  }
 }

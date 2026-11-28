@@ -10,26 +10,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
+   "Duration": 254,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 283,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
   },
   {
    "Ambient": 1,
@@ -40,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
+   "Duration": 254,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -72,6 +57,14 @@
   {
    "Base": 0.0,
    "Name": "epicfight:stun_armor"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:overheal"
+  },
+  {
+   "Base": 1.0,
+   "Name": "irons_spellbooks:spell_power"
   },
   {
    "Base": 40.0,
@@ -189,18 +182,6 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -246,7 +227,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "tcrcore:sanctum",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -669,7 +650,7 @@
    "passive4": "epicfight:emergency_escape",
    "passive5": "epicfight:bonebreaker",
    "passive6": "dodge_parry_reward:heal4",
-   "playerMode": "EPICFIGHT",
+   "playerMode": "VANILLA",
    "replace_cooldowns": {
     "basic_attack": 0,
     "dodge": 0,
@@ -4341,12 +4322,12 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_mn_tabi_last_dash": 3237404,
-  "ua_rs_active_until": 3237141,
+  "ua_mn_tabi_last_dash": 3243527,
+  "ua_rs_active_until": 3243532,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 66.0,
+ "Health": 34.0,
  "HurtByTimestamp": 2224,
  "HurtTime": 0,
  "Inventory": [
@@ -4578,14 +4559,48 @@
    "id": "tcrcore:rare_artifact_ticket"
   },
   {
-   "Count": 2,
-   "Slot": 18,
-   "id": "tcrcore:storm_fragment"
-  },
-  {
    "Count": 1,
    "Slot": 19,
    "id": "tcrcore:rare_artifact_ticket"
+  },
+  {
+   "Count": 1,
+   "Slot": 20,
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "efn:yamato_judgement_cut_end",
+      "lvl": 1
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 21,
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "efn:yamato_judgement_cut_end",
+      "lvl": 1
+     }
+    ]
+   }
+  },
+  {
+   "Count": 1,
+   "Slot": 22,
+   "id": "minecraft:enchanted_book",
+   "tag": {
+    "StoredEnchantments": [
+     {
+      "id": "efn:yamato_heavy_rain",
+      "lvl": 1
+     }
+    ]
+   }
   },
   {
    "Count": 3,
@@ -4816,13 +4831,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  0.6287,
-  3.0,
-  9.0389
+  -246.5248,
+  79.0,
+  -78.7226
  ],
  "Rotation": [
-  161.6602,
-  21.909
+  46.3031,
+  31.383
  ],
  "Score": 28288,
  "SelectedItemSlot": 1,
@@ -4853,7 +4868,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.01,
+ "foodExhaustionLevel": 0.949,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15173,7 +15188,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 8805,
+  "ticks_since_last_warning": 2804,
   "warning_level": 0
  }
 }
