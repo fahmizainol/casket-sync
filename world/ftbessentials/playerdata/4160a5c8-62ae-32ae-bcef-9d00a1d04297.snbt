@@ -6,9 +6,6 @@
 	last_seen: { dim: "minecraft:overworld", x: 253, y: 63, z: -1774, time: 1795863256948L, xRot: 40.544994f, yRot: -154.3352f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1774, time: 1795868436702L }
-		{ dim: "wraithon:sanctum_of_the_wraithon", x: 156, y: 7, z: 317, time: 1795868527132L }
-		{ dim: "minecraft:overworld", x: 265, y: 63, z: -1774, time: 1795868531878L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 169, y: 7, z: 346, time: 1795868638522L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 165, y: 7, z: 316, time: 1795868683447L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 171, y: 7, z: 316, time: 1795868721250L }
@@ -16,6 +13,9 @@
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 214, y: 7, z: 272, time: 1795868940469L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 154, y: 7, z: 303, time: 1795868940504L }
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 216, y: 10, z: 287, time: 1795868949570L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 187, y: 7, z: 328, time: 1795869094468L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 162, y: 7, z: 309, time: 1795869127928L }
+		{ dim: "wraithon:sanctum_of_the_wraithon", x: 159, y: 6, z: 335, time: 1795869220332L }
 	]
 	homes: { }
 	kit_use_times: { }
