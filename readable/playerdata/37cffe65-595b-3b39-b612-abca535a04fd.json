@@ -1,5 +1,37 @@
 {
  "AbsorptionAmount": 0.0,
+ "ActiveEffects": [
+  {
+   "Ambient": 0,
+   "Amplifier": 2,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 345,
+   "Id": 57,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "dodge_parry_reward:stamina_boost"
+  },
+  {
+   "Ambient": 0,
+   "Amplifier": 7,
+   "CurativeItems": [
+    {
+     "Count": 1,
+     "id": "minecraft:milk_bucket"
+    }
+   ],
+   "Duration": 545,
+   "Id": 21,
+   "ShowIcon": 1,
+   "ShowParticles": 0,
+   "forge:id": "minecraft:health_boost"
+  }
+ ],
  "Air": 300,
  "Attributes": [
   {
@@ -58,6 +90,18 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
+    },
+    {
+     "Amount": 32.0,
+     "Name": "effect.minecraft.health_boost 7",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      294012588,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -65,6 +109,10 @@
   {
    "Base": 0.0,
    "Name": "attributeslib:dodge_chance"
+  },
+  {
+   "Base": 4.0,
+   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -134,6 +182,18 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    },
+    {
+     "Amount": 9.0,
+     "Name": "effect.dodge_parry_reward.stamina_boost 2",
+     "Operation": 0,
+     "UUID": [
+      1567558562,
+      289739948,
+      -1198078436,
+      1559140812
+     ],
+     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
@@ -162,7 +222,7 @@
  "CanUpdate": 1,
  "CitadelData": {},
  "DataVersion": 3465,
- "DeathTime": 50,
+ "DeathTime": 0,
  "Dimension": "wraithon:sanctum_of_the_wraithon",
  "EnderItems": [],
  "FallDistance": 0.0,
@@ -533,15 +593,12 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge",
-   "GUARD": "efn:efn_parry"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:murasama_dodge",
+   "dodge": "efn:efn_dodge",
    "efn_sekiro": "efn:mortal_blade",
    "efn_zansetsu": "efn:zansetsu",
-   "guard": "efn:murasama_parry",
+   "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:yamato_step",
@@ -1260,7 +1317,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 171
+   "currentLogicNodeId": 142
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1322,7 +1379,7 @@
     "infernal_forge_lock": 0,
     "is_lock_on": 1,
     "is_lock_onisLocked": 0,
-    "skill_point": 0.0,
+    "skill_point": 5.0,
     "soul_render_lock": 0,
     "the_incinerator_lock": 0,
     "tidal_claw_lock": 0,
@@ -1533,7 +1590,6 @@
   },
   "accepted": 0,
   "can_accept": 0,
-  "death_triggered": 1,
   "find_me": {
    "autoBindIgnored": [],
    "autoBindTypeBlacklist": [],
@@ -5173,45 +5229,34 @@
    "uniqueaccessories:rose_of_temptation": 1,
    "uniqueaccessories:shiny_stone": 1
   },
+  "ua_rs_active_until": 3255394,
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0
+  "ua_rs_continuous": 0,
+  "ua_tabi_last_dash": 3255218
  },
- "Health": 0.0,
- "HurtByTimestamp": 306,
+ "Health": 76.0,
+ "HurtByTimestamp": 527,
  "HurtTime": 0,
  "Inventory": [
   {
    "Count": 1,
    "Slot": 0,
-   "id": "efn:hf_murasama",
+   "id": "cataclysm:the_annihilator",
    "tag": {
     "Enchantments": [
-     {
-      "id": "minecraft:looting",
-      "lvl": 3
-     },
      {
       "id": "minecraft:sharpness",
       "lvl": 5
      },
      {
-      "id": "minecraft:sweeping",
+      "id": "minecraft:knockback",
+      "lvl": 2
+     },
+     {
+      "id": "minecraft:looting",
       "lvl": 3
      }
-    ],
-    "irons_spellbooks:spell_container": {
-     "data": [
-      {
-       "id": "irons_spellbooks:thunderstorm",
-       "index": 0,
-       "level": 4
-      }
-     ],
-     "maxSpells": 1,
-     "mustEquip": 0,
-     "spellWheel": 1
-    },
-    "murasama_sheath": 0
+    ]
    }
   },
   {
@@ -5302,22 +5347,35 @@
   {
    "Count": 1,
    "Slot": 19,
-   "id": "cataclysm:the_annihilator",
+   "id": "efn:hf_murasama",
    "tag": {
     "Enchantments": [
+     {
+      "id": "minecraft:looting",
+      "lvl": 3
+     },
      {
       "id": "minecraft:sharpness",
       "lvl": 5
      },
      {
-      "id": "minecraft:knockback",
-      "lvl": 2
-     },
-     {
-      "id": "minecraft:looting",
+      "id": "minecraft:sweeping",
       "lvl": 3
      }
-    ]
+    ],
+    "irons_spellbooks:spell_container": {
+     "data": [
+      {
+       "id": "irons_spellbooks:thunderstorm",
+       "index": 0,
+       "level": 4
+      }
+     ],
+     "maxSpells": 1,
+     "mustEquip": 0,
+     "spellWheel": 1
+    },
+    "murasama_sheath": 0
    }
   },
   {
@@ -5413,9 +5471,9 @@
  "LastDeathLocation": {
   "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   161,
+   216,
    7,
-   315
+   290
   ]
  },
  "Motion": [
@@ -5426,13 +5484,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  161.0042,
+  176.1204,
   7.0,
-  314.9229
+  327.7734
  ],
  "Rotation": [
-  -55.0639,
-  0.0
+  -65.4144,
+  -0.27
  ],
  "Score": 12488,
  "SelectedItemSlot": 0,
@@ -5466,7 +5524,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.1,
+ "foodExhaustionLevel": 0.859,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5477,7 +5535,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 34,
+  "mana": 56,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -5485,6 +5543,7 @@
    "slot": ""
   }
  },
+ "max_stun_shield": 0.0,
  "playerGameType": 0,
  "recipeBook": {
   "isBlastingFurnaceFilteringCraftable": 0,
@@ -14959,9 +15018,10 @@
   ]
  },
  "seenCredits": 0,
+ "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1787,
+  "ticks_since_last_warning": 7308,
   "warning_level": 0
  }
 }
