@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2539574,
+  "DayTime": 2545574,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795870483638,
+  "LastPlayed": 1795870783684,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 247,
+     "Duration": 253,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -472,7 +472,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 247,
+     "Duration": 253,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -562,12 +562,12 @@
      "Name": "epicfight:weight"
     },
     {
-     "Base": 3.0,
-     "Name": "forge:entity_reach"
-    },
-    {
      "Base": 1.0,
      "Name": "attributeslib:mining_speed"
+    },
+    {
+     "Base": 3.0,
+     "Name": "forge:entity_reach"
     },
     {
      "Base": 0.08,
@@ -1828,7 +1828,7 @@
       "dual_annihilator_lock": 0,
       "gauntlet_of_guard_lock": 0,
       "infernal_forge_lock": 0,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 0,
@@ -5236,26 +5236,26 @@
    "LastDeathLocation": {
     "dimension": "wraithon:sanctum_of_the_wraithon",
     "pos": [
-     153,
+     159,
      7,
-     302
+     303
     ]
    },
    "Motion": [
-    0.0,
+    -0.0023,
     -0.0784,
-    0.0
+    0.1003
    ],
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    151.9472,
+    154.509,
     7.0,
-    303.8301
+    303.2947
    ],
    "Rotation": [
-    65.5872,
-    33.4631
+    -6.5135,
+    44.02
    ],
    "Score": 28288,
    "SelectedItemSlot": 0,
@@ -15606,7 +15606,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 4219,
+    "ticks_since_last_warning": 10119,
     "warning_level": 0
    }
   },
@@ -15618,7 +15618,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 3285720,
+  "Time": 3291720,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15632,7 +15632,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 18000,
+  "WanderingTraderSpawnDelay": 12000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16320,9 +16320,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 142953,
+  "rainTime": 136953,
   "raining": 0,
-  "thunderTime": 66894,
+  "thunderTime": 60894,
   "thundering": 0,
   "version": 19133
  },
