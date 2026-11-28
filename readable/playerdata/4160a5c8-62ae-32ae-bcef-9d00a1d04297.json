@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 248,
+   "Duration": 252,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,14 +25,14 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 257,
+   "Duration": 242,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:strength"
   }
  ],
- "Air": -13,
+ "Air": 300,
  "Attributes": [
   {
    "Base": 100.0,
@@ -4323,13 +4323,13 @@
   "ua_accessory_types_seen": {
    "uniqueaccessories:black_belt": 1
   },
-  "ua_mn_tabi_last_dash": 3134182,
-  "ua_rs_active_until": 3141663,
+  "ua_mn_tabi_last_dash": 3151537,
+  "ua_rs_active_until": 3151541,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
  "Health": 37.0,
- "HurtByTimestamp": 1874,
+ "HurtByTimestamp": 9766,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4487,12 +4487,12 @@
    }
   },
   {
-   "Count": 2,
+   "Count": 3,
    "Slot": 5,
    "id": "bosses_of_mass_destruction:soul_star"
   },
   {
-   "Count": 13,
+   "Count": 15,
    "Slot": 6,
    "id": "minecraft:rotten_flesh"
   },
@@ -4697,21 +4697,21 @@
  },
  "Motion": [
   0.0,
-  -0.005,
+  -0.0784,
   0.0
  ],
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  256.666,
-  56.0,
-  -1781.5611
+  258.4854,
+  63.0,
+  -1770.3
  ],
  "Rotation": [
-  11.25,
-  7.0468
+  4.0494,
+  17.0371
  ],
- "Score": 28245,
+ "Score": 28255,
  "SelectedItemSlot": 3,
  "SleepTimer": 0,
  "SpawnAngle": 112.3262,
@@ -4731,9 +4731,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 86,
- "XpP": 0.6088,
+ "XpP": 0.625,
  "XpSeed": 976728483,
- "XpTotal": 28245,
+ "XpTotal": 28255,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4743,7 +4743,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 2.9378,
+ "foodExhaustionLevel": 3.6629,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15063,7 +15063,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7853,
+  "ticks_since_last_warning": 1852,
   "warning_level": 0
  }
 }
