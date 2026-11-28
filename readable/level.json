@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2671574,
+  "DayTime": 2677574,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795877083631,
+  "LastPlayed": 1795877383628,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 242,
+     "Duration": 246,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 242,
+     "Duration": 246,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -642,7 +642,7 @@
    "CanUpdate": 1,
    "CitadelData": {},
    "DataVersion": 3465,
-   "DeathTime": 500,
+   "DeathTime": 6500,
    "Dimension": "wraithon:sanctum_of_the_wraithon",
    "EnderItems": [],
    "FallDistance": 0.0,
@@ -15595,7 +15595,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 3417720,
+  "Time": 3423720,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15608,8 +15608,8 @@
    -1997551884,
    -2024141775
   ],
-  "WanderingTraderSpawnChance": 50,
-  "WanderingTraderSpawnDelay": 6000,
+  "WanderingTraderSpawnChance": 75,
+  "WanderingTraderSpawnDelay": 0,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16297,9 +16297,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 10953,
+  "rainTime": 4953,
   "raining": 0,
-  "thunderTime": 79829,
+  "thunderTime": 73829,
   "thundering": 0,
   "version": 19133
  },
