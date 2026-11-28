@@ -45867,21 +45867,6 @@
         "AccumulatedRoll": 0.0,
         "ActiveEffects": [
          {
-          "Ambient": 0,
-          "Amplifier": 0,
-          "CurativeItems": [
-           {
-            "Count": 1,
-            "id": "minecraft:milk_bucket"
-           }
-          ],
-          "Duration": 600,
-          "Id": 98,
-          "ShowIcon": 0,
-          "ShowParticles": 0,
-          "forge:id": "cataclysm:abyssal_fear"
-         },
-         {
           "Ambient": 1,
           "Amplifier": 0,
           "CurativeItems": [
@@ -45895,6 +45880,21 @@
           "ShowIcon": 1,
           "ShowParticles": 1,
           "forge:id": "minecraft:fire_resistance"
+         },
+         {
+          "Ambient": 0,
+          "Amplifier": 0,
+          "CurativeItems": [
+           {
+            "Count": 1,
+            "id": "minecraft:milk_bucket"
+           }
+          ],
+          "Duration": 600,
+          "Id": 98,
+          "ShowIcon": 0,
+          "ShowParticles": 0,
+          "forge:id": "cataclysm:abyssal_fear"
          }
         ],
         "AffectionMap": {
@@ -45916,12 +45916,8 @@
         ],
         "Attributes": [
          {
-          "Base": 0.2212,
-          "Name": "minecraft:generic.movement_speed"
-         },
-         {
           "Base": 0.0,
-          "Name": "forge:step_height_addition"
+          "Name": "epicfight:stun_armor"
          },
          {
           "Base": 0.08,
@@ -45929,15 +45925,15 @@
          },
          {
           "Base": 0.0,
-          "Name": "epicfight:stun_armor"
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 10.752,
           "Name": "minecraft:generic.attack_damage"
          },
          {
-          "Base": 1.0,
-          "Name": "forge:swim_speed"
+          "Base": 0.2212,
+          "Name": "minecraft:generic.movement_speed"
          },
          {
           "Base": 140.0,
@@ -45946,6 +45942,10 @@
          {
           "Base": 8.688,
           "Name": "minecraft:generic.armor"
+         },
+         {
+          "Base": 1.0,
+          "Name": "forge:swim_speed"
          },
          {
           "Base": 0.3376,
@@ -46246,21 +46246,6 @@
         "AccumulatedRoll": 0.0,
         "ActiveEffects": [
          {
-          "Ambient": 0,
-          "Amplifier": 0,
-          "CurativeItems": [
-           {
-            "Count": 1,
-            "id": "minecraft:milk_bucket"
-           }
-          ],
-          "Duration": 600,
-          "Id": 98,
-          "ShowIcon": 0,
-          "ShowParticles": 0,
-          "forge:id": "cataclysm:abyssal_fear"
-         },
-         {
           "Ambient": 1,
           "Amplifier": 0,
           "CurativeItems": [
@@ -46274,6 +46259,21 @@
           "ShowIcon": 1,
           "ShowParticles": 1,
           "forge:id": "minecraft:fire_resistance"
+         },
+         {
+          "Ambient": 0,
+          "Amplifier": 0,
+          "CurativeItems": [
+           {
+            "Count": 1,
+            "id": "minecraft:milk_bucket"
+           }
+          ],
+          "Duration": 600,
+          "Id": 98,
+          "ShowIcon": 0,
+          "ShowParticles": 0,
+          "forge:id": "cataclysm:abyssal_fear"
          }
         ],
         "AffectionMap": {
@@ -46295,12 +46295,8 @@
         ],
         "Attributes": [
          {
-          "Base": 0.2212,
-          "Name": "minecraft:generic.movement_speed"
-         },
-         {
           "Base": 0.0,
-          "Name": "forge:step_height_addition"
+          "Name": "epicfight:stun_armor"
          },
          {
           "Base": 0.08,
@@ -46308,15 +46304,15 @@
          },
          {
           "Base": 0.0,
-          "Name": "epicfight:stun_armor"
+          "Name": "forge:step_height_addition"
          },
          {
           "Base": 10.752,
           "Name": "minecraft:generic.attack_damage"
          },
          {
-          "Base": 1.0,
-          "Name": "forge:swim_speed"
+          "Base": 0.2212,
+          "Name": "minecraft:generic.movement_speed"
          },
          {
           "Base": 140.0,
@@ -46325,6 +46321,10 @@
          {
           "Base": 8.688,
           "Name": "minecraft:generic.armor"
+         },
+         {
+          "Base": 1.0,
+          "Name": "forge:swim_speed"
          },
          {
           "Base": 0.3376,

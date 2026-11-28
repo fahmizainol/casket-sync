@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 251,
+   "Duration": 248,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 251,
+   "Duration": 248,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -179,6 +179,10 @@
    "Name": "minecraft:generic.max_health"
   },
   {
+   "Base": 1.0,
+   "Name": "attributeslib:draw_speed"
+  },
+  {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
   },
@@ -197,10 +201,6 @@
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
   }
  ],
  "BalmData": {},
@@ -586,11 +586,9 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "wom:precise_roll"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:yamato_step",
+   "dodge": "wom:precise_roll",
    "efn_sekiro": "efn:mortal_blade",
    "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
@@ -1313,7 +1311,7 @@
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
    "currentDataNodeId": 1,
-   "currentLogicNodeId": 42
+   "currentLogicNodeId": 52
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1373,7 +1371,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 0,
     "infernal_forge_lock": 0,
-    "is_lock_on": 0,
+    "is_lock_on": 1,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -4304,13 +4302,11 @@
    "vehicles": []
   },
   "last_send_time": 0,
-  "quark:trying_crawl": 0,
-  "ua_mn_tabi_last_dash": 3177622,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
  "Health": 34.0,
- "HurtByTimestamp": 488,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4394,7 +4390,7 @@
     ],
     "KillCount": 8,
     "RepairCost": 7,
-    "TotalDamage": 56343.2617,
+    "TotalDamage": 57005.375,
     "kusabimaru_sheath": 0
    }
   },
@@ -4484,6 +4480,11 @@
   },
   {
    "Count": 1,
+   "Slot": 8,
+   "id": "tcrcore:ancient_oracle_fragment"
+  },
+  {
+   "Count": 1,
    "Slot": 9,
    "id": "tcrcore:ender_fragment"
   },
@@ -4503,7 +4504,7 @@
    "id": "tcrcore:rare_artifact_ticket"
   },
   {
-   "Count": 7,
+   "Count": 9,
    "Slot": 13,
    "id": "minecraft:spider_eye"
   },
@@ -4511,6 +4512,11 @@
    "Count": 1,
    "Slot": 14,
    "id": "minecraft:gold_nugget"
+  },
+  {
+   "Count": 1,
+   "Slot": 15,
+   "id": "minecraft:nether_star"
   },
   {
    "Count": 3,
@@ -4523,7 +4529,7 @@
    "id": "minecraft:nether_gold_ore"
   },
   {
-   "Count": 6,
+   "Count": 10,
    "Slot": 25,
    "id": "minecraft:string"
   },
@@ -4671,9 +4677,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -18,
-   4,
-   23
+   0,
+   3,
+   2
   ]
  },
  "Motion": [
@@ -4684,18 +4690,18 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  255.2254,
-  66.0,
-  -1768.4823
+  266.5087,
+  63.0,
+  -1771.8748
  ],
  "Rotation": [
-  133.4884,
-  0.0
+  -76.9677,
+  37.8464
  ],
- "Score": 28282,
- "SelectedItemSlot": 1,
+ "Score": 28288,
+ "SelectedItemSlot": 4,
  "SleepTimer": 0,
- "SpawnAngle": 112.3262,
+ "SpawnAngle": -105.755,
  "SpawnDimension": "minecraft:overworld",
  "SpawnForced": 0,
  "SpawnX": 265,
@@ -4709,9 +4715,9 @@
  ],
  "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
  "XpLevel": 86,
- "XpP": 0.6688,
+ "XpP": 0.6786,
  "XpSeed": 976728483,
- "XpTotal": 28282,
+ "XpTotal": 28288,
  "abilities": {
   "flySpeed": 0.05,
   "flying": 0,
@@ -4721,7 +4727,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.323,
+ "foodExhaustionLevel": 0.0,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -15041,7 +15047,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 1377,
+  "ticks_since_last_warning": 6882,
   "warning_level": 0
  }
 }
