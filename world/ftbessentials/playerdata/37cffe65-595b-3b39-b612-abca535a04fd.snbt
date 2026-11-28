@@ -3,7 +3,7 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "wraithon:sanctum_of_the_wraithon", x: 154, y: 7, z: 300, time: 1795870547585L, xRot: 0.0f, yRot: -106.87603f }
+	last_seen: { dim: "wraithon:sanctum_of_the_wraithon", x: 154, y: 7, z: 314, time: 1795877059167L, xRot: 0.0f, yRot: 146.09473f }
 	recording: "none"
 	teleport_history: [
 		{ dim: "wraithon:sanctum_of_the_wraithon", x: 171, y: 7, z: 288, time: 1795869575947L }
