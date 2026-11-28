@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 240,
+   "Duration": 258,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -25,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 240,
+   "Duration": 258,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -39,108 +39,12 @@
    "Name": "irons_spellbooks:max_mana"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:arrow_damage"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:dodge_chance"
-  },
-  {
-   "Base": 0.0,
-   "Name": "minecraft:generic.knockback_resistance"
-  },
-  {
-   "Base": 1.5,
-   "Name": "attributeslib:crit_damage"
-  },
-  {
-   "Base": 0.0,
-   "Name": "epicfight:stun_armor"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:overheal"
-  },
-  {
-   "Base": 1.0,
-   "Name": "irons_spellbooks:spell_power"
-  },
-  {
-   "Base": 40.0,
-   "Name": "epicfight:weight"
-  },
-  {
-   "Base": 1.0,
-   "Name": "attributeslib:mining_speed"
-  },
-  {
-   "Base": 1.0,
-   "Modifiers": [
-    {
-     "Amount": 4.0,
-     "Name": "artifacts:power_glove_attack_damage_bonus",
-     "Operation": 0,
-     "UUID": [
-      308939635,
-      -1374337428,
-      -1487198021,
-      -702737548
-     ],
-     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
-    },
-    {
-     "Amount": 3.0,
-     "Name": "effect.minecraft.strength 0",
-     "Operation": 0,
-     "UUID": [
-      1686990948,
-      1784696665,
-      -1967209790,
-      980277161
-     ],
-     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
-    }
-   ],
-   "Name": "minecraft:generic.attack_damage"
-  },
-  {
-   "Base": 0.1,
-   "Name": "minecraft:generic.movement_speed"
-  },
-  {
-   "Base": 15.0,
-   "Modifiers": [
-    {
-     "Amount": 5.6,
-     "Name": "stamina_boost",
-     "Operation": 0,
-     "UUID": [
-      289739801,
-      427885108,
-      305402420,
-      1450744508
-     ],
-     "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    }
-   ],
-   "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 0.5,
-   "Name": "epicfight:impact"
-  },
-  {
-   "Base": 0.0,
-   "Name": "attributeslib:creative_flight"
-  },
-  {
-   "Base": 1.0,
-   "Name": "epicfight:max_strikes"
-  },
-  {
    "Base": 0.0,
    "Name": "minecraft:generic.luck"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:arrow_damage"
   },
   {
    "Base": 4.0,
@@ -187,12 +91,32 @@
    "Name": "minecraft:generic.max_health"
   },
   {
-   "Base": 1.0,
-   "Name": "attributeslib:draw_speed"
+   "Base": 0.0,
+   "Name": "attributeslib:dodge_chance"
+  },
+  {
+   "Base": 0.0,
+   "Name": "minecraft:generic.knockback_resistance"
+  },
+  {
+   "Base": 1.5,
+   "Name": "attributeslib:crit_damage"
+  },
+  {
+   "Base": 0.0,
+   "Name": "epicfight:stun_armor"
   },
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor_toughness"
+  },
+  {
+   "Base": 40.0,
+   "Name": "epicfight:weight"
+  },
+  {
+   "Base": 1.0,
+   "Name": "attributeslib:mining_speed"
   },
   {
    "Base": 3.0,
@@ -203,12 +127,76 @@
    "Name": "forge:entity_gravity"
   },
   {
+   "Base": 1.0,
+   "Modifiers": [
+    {
+     "Amount": 4.0,
+     "Name": "artifacts:power_glove_attack_damage_bonus",
+     "Operation": 0,
+     "UUID": [
+      308939635,
+      -1374337428,
+      -1487198021,
+      -702737548
+     ],
+     "UUID_str": "126a0b73-ae15-466c-a75b-28bbd61d1374"
+    },
+    {
+     "Amount": 3.0,
+     "Name": "effect.minecraft.strength 0",
+     "Operation": 0,
+     "UUID": [
+      1686990948,
+      1784696665,
+      -1967209790,
+      980277161
+     ],
+     "UUID_str": "648d7064-6a60-4f59-8abe-c2c23a6dd7a9"
+    }
+   ],
+   "Name": "minecraft:generic.attack_damage"
+  },
+  {
    "Base": 0.6,
    "Name": "forge:step_height_addition"
   },
   {
    "Base": 0.0,
    "Name": "minecraft:generic.armor"
+  },
+  {
+   "Base": 0.1,
+   "Name": "minecraft:generic.movement_speed"
+  },
+  {
+   "Base": 15.0,
+   "Modifiers": [
+    {
+     "Amount": 5.6,
+     "Name": "stamina_boost",
+     "Operation": 0,
+     "UUID": [
+      289739801,
+      427885108,
+      305402420,
+      1450744508
+     ],
+     "UUID_str": "11451419-1981-0234-1234-123456789abc"
+    }
+   ],
+   "Name": "epicfight:staminar"
+  },
+  {
+   "Base": 0.5,
+   "Name": "epicfight:impact"
+  },
+  {
+   "Base": 0.0,
+   "Name": "attributeslib:creative_flight"
+  },
+  {
+   "Base": 1.0,
+   "Name": "epicfight:max_strikes"
   }
  ],
  "BalmData": {},
@@ -4398,7 +4386,7 @@
     ],
     "KillCount": 8,
     "RepairCost": 7,
-    "TotalDamage": 61475.5234,
+    "TotalDamage": 61681.9922,
     "kusabimaru_sheath": 0
    }
   },
@@ -4750,9 +4738,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   5,
+   7,
    3,
-   -23
+   12
   ]
  },
  "Motion": [
@@ -4763,16 +4751,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  262.4997,
+  265.5,
   63.0,
-  -1774.4577
+  -1773.5
  ],
  "Rotation": [
-  -4.9231,
-  35.225
+  -80.0,
+  0.0
  ],
  "Score": 28288,
- "SelectedItemSlot": 4,
+ "SelectedItemSlot": 0,
  "SleepTimer": 0,
  "SpawnAngle": -119.134,
  "SpawnDimension": "minecraft:overworld",
@@ -4811,7 +4799,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 68,
+  "mana": 125,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15120,7 +15108,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 3625,
+  "ticks_since_last_warning": 9419,
   "warning_level": 0
  }
 }
