@@ -1,37 +1,5 @@
 {
  "AbsorptionAmount": 0.0,
- "ActiveEffects": [
-  {
-   "Ambient": 0,
-   "Amplifier": 2,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 384,
-   "Id": 57,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "dodge_parry_reward:stamina_boost"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 7,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 584,
-   "Id": 21,
-   "ShowIcon": 1,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:health_boost"
-  }
- ],
  "Air": 300,
  "Attributes": [
   {
@@ -90,18 +58,6 @@
       -1736463453
      ],
      "UUID_str": "99fa0537-90b9-481a-bc76-4650987faba3"
-    },
-    {
-     "Amount": 32.0,
-     "Name": "effect.minecraft.health_boost 7",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      294012588,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1186-46ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "minecraft:generic.max_health"
@@ -109,10 +65,6 @@
   {
    "Base": 0.0,
    "Name": "attributeslib:dodge_chance"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -186,25 +138,9 @@
       1450744508
      ],
      "UUID_str": "11451419-1981-0234-1234-123456789abc"
-    },
-    {
-     "Amount": 9.0,
-     "Name": "effect.dodge_parry_reward.stamina_boost 2",
-     "Operation": 0,
-     "UUID": [
-      1567558562,
-      289739948,
-      -1198078436,
-      1559140812
-     ],
-     "UUID_str": "5d6f0ba2-1145-14ac-b896-c61c5cee99cc"
     }
    ],
    "Name": "epicfight:staminar"
-  },
-  {
-   "Base": 0.0,
-   "Name": "cataclysm:additional_critical_damage"
   },
   {
    "Base": 0.5,
@@ -227,7 +163,7 @@
  "CitadelData": {},
  "DataVersion": 3465,
  "DeathTime": 0,
- "Dimension": "pbf1:sanctum_of_the_battle1",
+ "Dimension": "minecraft:overworld",
  "EnderItems": [],
  "FallDistance": 0.0,
  "FallFlying": 0,
@@ -597,15 +533,12 @@
     }
    ]
   },
-  "efn:original_skill_memory": {
-   "DODGE": "efn:efn_dodge",
-   "GUARD": "efn:efn_parry"
-  },
+  "efn:original_skill_memory": {},
   "epicfight:skill_cap": {
-   "dodge": "efn:murasama_dodge",
+   "dodge": "efn:efn_dodge",
    "efn_sekiro": "efn:mortal_blade",
    "efn_zansetsu": "efn:zansetsu",
-   "guard": "efn:murasama_parry",
+   "guard": "efn:efn_parry",
    "judgmentcut_end": "efn:judgementcutend",
    "learned:dodge": {
     "0": "efn:efn_dodge",
@@ -1323,8 +1256,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 169,
-   "currentLogicNodeId": 169
+   "currentDataNodeId": 1,
+   "currentLogicNodeId": 42
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1384,7 +1317,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 1,
     "infernal_forge_lock": 0,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -1563,6 +1496,8 @@
   }
  },
  "ForgeData": {
+  "EFNMurasamaMaxSoundPlayed": 0,
+  "EFNMurasamaSheathTicks": 0,
   "PlayerPersisted": {
    "BalmData": {
     "WaystonesData": {
@@ -5236,11 +5171,10 @@
    "uniqueaccessories:shiny_stone": 1
   },
   "ua_rs_bonus": 0.0,
-  "ua_rs_continuous": 0,
-  "ua_tabi_last_dash": 3201627
+  "ua_rs_continuous": 0
  },
- "Health": 21.538,
- "HurtByTimestamp": 1160,
+ "Health": 44.0,
+ "HurtByTimestamp": 0,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -5481,9 +5415,9 @@
  "LastDeathLocation": {
   "dimension": "pbf1:sanctum_of_the_battle1",
   "pos": [
-   -5,
+   -2,
    3,
-   -1
+   5
   ]
  },
  "Motion": [
@@ -5494,16 +5428,16 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  -4.0809,
-  3.0,
-  8.4759
+  266.3964,
+  63.0,
+  -1771.6113
  ],
  "Rotation": [
-  70.1249,
-  -3.3596
+  -159.0086,
+  16.5853
  ],
  "Score": 12488,
- "SelectedItemSlot": 0,
+ "SelectedItemSlot": 2,
  "SleepTimer": 0,
  "SpawnAngle": -87.2336,
  "SpawnDimension": "minecraft:overworld",
@@ -5512,7 +5446,6 @@
  "SpawnY": 63,
  "SpawnZ": -1775,
  "Tags": [
-  "zddd",
   "ignistp"
  ],
  "UUID": [
@@ -5535,7 +5468,7 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 1.982,
+ "foodExhaustionLevel": 0.05,
  "foodLevel": 10,
  "foodSaturationLevel": 1.0,
  "foodTickTimer": 0,
@@ -5546,7 +5479,7 @@
   "evasionHitsRemaining": 0.0,
   "heartStopAccumulatedDamage": 0.0,
   "isCasting": 0,
-  "mana": 100,
+  "mana": 75,
   "spellSelection": {
    "index": -1,
    "lastIndex": -1,
@@ -15032,7 +14965,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7091,
+  "ticks_since_last_warning": 11982,
   "warning_level": 0
  }
 }
