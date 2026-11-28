@@ -10,7 +10,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
+   "Duration": 254,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -40,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 250,
+   "Duration": 254,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -4817,13 +4817,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  154.9946,
+  157.5373,
   7.0,
-  306.1867
+  307.3174
  ],
  "Rotation": [
   -23.4998,
-  22.4387
+  35.0274
  ],
  "Score": 28288,
  "SelectedItemSlot": 0,
@@ -15174,7 +15174,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 10117,
+  "ticks_since_last_warning": 4116,
   "warning_level": 0
  }
 }
