@@ -10,41 +10,11 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 248,
+   "Duration": 251,
    "Id": 10,
    "ShowIcon": 1,
    "ShowParticles": 0,
    "forge:id": "minecraft:regeneration"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 5,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 4,
-   "Id": 2,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "minecraft:slowness"
-  },
-  {
-   "Ambient": 0,
-   "Amplifier": 1,
-   "CurativeItems": [
-    {
-     "Count": 1,
-     "id": "minecraft:milk_bucket"
-    }
-   ],
-   "Duration": 23,
-   "Id": 147,
-   "ShowIcon": 0,
-   "ShowParticles": 0,
-   "forge:id": "efn:invincibility"
   },
   {
    "Ambient": 0,
@@ -55,7 +25,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 593,
+   "Duration": 565,
    "Id": 21,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -70,7 +40,7 @@
      "id": "minecraft:milk_bucket"
     }
    ],
-   "Duration": 241,
+   "Duration": 245,
    "Id": 5,
    "ShowIcon": 1,
    "ShowParticles": 0,
@@ -143,20 +113,6 @@
   },
   {
    "Base": 0.1,
-   "Modifiers": [
-    {
-     "Amount": -0.9,
-     "Name": "effect.minecraft.slowness 5",
-     "Operation": 2,
-     "UUID": [
-      1896341086,
-      2095595568,
-      -1811001012,
-      521537680
-     ],
-     "UUID_str": "7107de5e-7ce8-4030-940e-514c1f160890"
-    }
-   ],
    "Name": "minecraft:generic.movement_speed"
   },
   {
@@ -248,10 +204,6 @@
     }
    ],
    "Name": "minecraft:generic.max_health"
-  },
-  {
-   "Base": 4.0,
-   "Name": "epicfight:offhand_attack_speed"
   },
   {
    "Base": 0.0,
@@ -704,9 +656,9 @@
     "0": "sword_soaring:sword_soaring_elytra_master"
    },
    "passive1": "epicfight:berserker",
-   "passive2": "efn:precise_parry",
+   "passive2": "wom:mindset",
    "passive3": "dodge_parry_reward:health_boost4",
-   "passive4": "epicfight:emergency_escape",
+   "passive4": "epicfight:vengeance",
    "passive5": "epicfight:bonebreaker",
    "passive6": "dodge_parry_reward:heal4",
    "playerMode": "EPICFIGHT",
@@ -1387,8 +1339,8 @@
   },
   "invincible:invincible_entity": {},
   "invincible:invincible_player": {
-   "currentDataNodeId": 61,
-   "currentLogicNodeId": 61
+   "currentDataNodeId": 72,
+   "currentLogicNodeId": 72
   },
   "lost_aether_content:player_capability": {
    "InKingFight": 0,
@@ -1448,7 +1400,7 @@
     "dual_annihilator_lock": 0,
     "gauntlet_of_guard_lock": 0,
     "infernal_forge_lock": 0,
-    "is_lock_on": 1,
+    "is_lock_on": 0,
     "is_lock_onisLocked": 0,
     "skill_point": 0.0,
     "soul_render_lock": 0,
@@ -4381,14 +4333,14 @@
   },
   "last_send_time": 0,
   "quark:trying_crawl": 0,
-  "ua_bb_dodge_until": 3261806,
-  "ua_mn_tabi_last_dash": 3261558,
-  "ua_rs_active_until": 3261719,
+  "ua_bb_dodge_until": 3267756,
+  "ua_mn_tabi_last_dash": 3266899,
+  "ua_rs_active_until": 3267542,
   "ua_rs_bonus": 0.0,
   "ua_rs_continuous": 0
  },
- "Health": 59.1014,
- "HurtByTimestamp": 1174,
+ "Health": 19.6074,
+ "HurtByTimestamp": 1511,
  "HurtTime": 0,
  "Inventory": [
   {
@@ -4480,7 +4432,7 @@
     ],
     "KillCount": 9,
     "RepairCost": 31,
-    "TotalDamage": 62693.7109,
+    "TotalDamage": 63294.2383,
     "kusabimaru_sheath": 0
    }
   },
@@ -4860,9 +4812,9 @@
  "LastDeathLocation": {
   "dimension": "wraithon:sanctum_of_the_wraithon",
   "pos": [
-   159,
-   7,
-   334
+   177,
+   6,
+   305
   ]
  },
  "Motion": [
@@ -4873,13 +4825,13 @@
  "OnGround": 1,
  "PortalCooldown": 0,
  "Pos": [
-  165.8415,
+  166.5916,
   7.0,
-  307.3759
+  293.0899
  ],
  "Rotation": [
-  -128.6708,
-  -6.492
+  -147.2655,
+  -3.9828
  ],
  "Score": 28288,
  "SelectedItemSlot": 1,
@@ -4910,10 +4862,10 @@
   "mayfly": 0,
   "walkSpeed": 0.1
  },
- "foodExhaustionLevel": 0.297,
+ "foodExhaustionLevel": 0.196,
  "foodLevel": 20,
  "foodSaturationLevel": 1.0,
- "foodTickTimer": 3,
+ "foodTickTimer": 4,
  "irons_spellbooks:magic_data": {
   "castingEquipmentSlot": "",
   "castingSpellId": "",
@@ -15230,7 +15182,7 @@
  "stun_shield": 0.0,
  "warden_spawn_tracker": {
   "cooldown_ticks": 0,
-  "ticks_since_last_warning": 7482,
+  "ticks_since_last_warning": 972,
   "warning_level": 0
  }
 }
