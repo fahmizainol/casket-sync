@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2437574,
+  "DayTime": 2443574,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795865383683,
+  "LastPlayed": 1795865683678,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 253,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 248,
+     "Duration": 253,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -489,6 +489,14 @@
     {
      "Base": 0.0,
      "Name": "epicfight:stun_armor"
+    },
+    {
+     "Base": 0.0,
+     "Name": "attributeslib:overheal"
+    },
+    {
+     "Base": 1.0,
+     "Name": "irons_spellbooks:spell_power"
     },
     {
      "Base": 40.0,
@@ -609,10 +617,6 @@
       }
      ],
      "Name": "minecraft:generic.max_health"
-    },
-    {
-     "Base": 1.0,
-     "Name": "attributeslib:draw_speed"
     },
     {
      "Base": 0.0,
@@ -1020,7 +1024,7 @@
     },
     "efn:original_skill_memory": {},
     "epicfight:skill_cap": {
-     "dodge": "wom:precise_roll",
+     "dodge": "efn:efn_step",
      "efn_sekiro": "efn:mortal_blade",
      "guard": "efn:efn_parry",
      "judgmentcut_end": "efn:judgementcutend",
@@ -1743,7 +1747,7 @@
     "invincible:invincible_entity": {},
     "invincible:invincible_player": {
      "currentDataNodeId": 1,
-     "currentLogicNodeId": 52
+     "currentLogicNodeId": 42
     },
     "lost_aether_content:player_capability": {
      "InKingFight": 0,
@@ -1803,7 +1807,7 @@
       "dual_annihilator_lock": 0,
       "gauntlet_of_guard_lock": 0,
       "infernal_forge_lock": 0,
-      "is_lock_on": 1,
+      "is_lock_on": 0,
       "is_lock_onisLocked": 0,
       "skill_point": 0.0,
       "soul_render_lock": 0,
@@ -4734,6 +4738,8 @@
      "vehicles": []
     },
     "last_send_time": 0,
+    "ua_mn_tabi_last_dash": 3189264,
+    "ua_rs_active_until": 3189282,
     "ua_rs_bonus": 0.0,
     "ua_rs_continuous": 0
    },
@@ -4822,20 +4828,17 @@
       ],
       "KillCount": 8,
       "RepairCost": 7,
-      "TotalDamage": 57005.375,
+      "TotalDamage": 57898.8906,
       "kusabimaru_sheath": 0
      }
     },
     {
      "Count": 1,
      "Slot": 2,
-     "id": "efn:kusabimaru",
+     "id": "tcrcore:magic_tachi",
      "tag": {
+      "Damage": 0,
       "Enchantments": [
-       {
-        "id": "minecraft:sweeping",
-        "lvl": 3
-       },
        {
         "id": "minecraft:sharpness",
         "lvl": 5
@@ -4845,15 +4848,14 @@
         "lvl": 2
        },
        {
-        "id": "minecraft:looting",
-        "lvl": 3
-       },
-       {
         "id": "minecraft:fire_aspect",
         "lvl": 2
+       },
+       {
+        "id": "minecraft:looting",
+        "lvl": 3
        }
-      ],
-      "kusabimaru_sheath": 0
+      ]
      }
     },
     {
@@ -4972,8 +4974,65 @@
     },
     {
      "Count": 1,
+     "Slot": 28,
+     "id": "efn:kusabimaru",
+     "tag": {
+      "Enchantments": [
+       {
+        "id": "minecraft:sweeping",
+        "lvl": 3
+       },
+       {
+        "id": "minecraft:sharpness",
+        "lvl": 5
+       },
+       {
+        "id": "minecraft:knockback",
+        "lvl": 2
+       },
+       {
+        "id": "minecraft:looting",
+        "lvl": 3
+       },
+       {
+        "id": "minecraft:fire_aspect",
+        "lvl": 2
+       }
+      ],
+      "kusabimaru_sheath": 0
+     }
+    },
+    {
+     "Count": 1,
      "Slot": 29,
      "id": "artifacts:cloud_in_a_bottle"
+    },
+    {
+     "Count": 1,
+     "Slot": 30,
+     "id": "tcrcore:magic_katana",
+     "tag": {
+      "Damage": 0,
+      "Enchantments": [
+       {
+        "id": "minecraft:sharpness",
+        "lvl": 5
+       },
+       {
+        "id": "minecraft:knockback",
+        "lvl": 2
+       },
+       {
+        "id": "minecraft:fire_aspect",
+        "lvl": 2
+       },
+       {
+        "id": "minecraft:looting",
+        "lvl": 3
+       }
+      ],
+      "sheath": 0
+     }
     },
     {
      "Count": 1,
@@ -5109,9 +5168,9 @@
    "LastDeathLocation": {
     "dimension": "pbf1:sanctum_of_the_battle1",
     "pos": [
-     0,
+     -2,
      3,
-     2
+     8
     ]
    },
    "Motion": [
@@ -5122,16 +5181,16 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    266.5087,
+    260.5725,
     63.0,
-    -1771.8748
+    -1774.8669
    ],
    "Rotation": [
-    -76.9677,
-    37.8464
+    26.3959,
+    0.0
    ],
    "Score": 28288,
-   "SelectedItemSlot": 4,
+   "SelectedItemSlot": 2,
    "SleepTimer": 0,
    "SpawnAngle": -105.755,
    "SpawnDimension": "minecraft:overworld",
@@ -5159,7 +5218,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 0.0,
+   "foodExhaustionLevel": 2.6,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -5170,7 +5229,7 @@
     "evasionHitsRemaining": 0.0,
     "heartStopAccumulatedDamage": 0.0,
     "isCasting": 0,
-    "mana": 125,
+    "mana": 225,
     "spellSelection": {
      "index": -1,
      "lastIndex": -1,
@@ -15479,7 +15538,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 6882,
+    "ticks_since_last_warning": 495,
     "warning_level": 0
    }
   },
@@ -15491,7 +15550,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 3183720,
+  "Time": 3189720,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15505,7 +15564,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 0,
+  "WanderingTraderSpawnDelay": 18000,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16193,9 +16252,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 54898,
+  "rainTime": 48898,
   "raining": 0,
-  "thunderTime": 20552,
+  "thunderTime": 14552,
   "thundering": 0,
   "version": 19133
  },
