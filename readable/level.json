@@ -245,7 +245,7 @@
    ]
   },
   "DataVersion": 3465,
-  "DayTime": 2407574,
+  "DayTime": 2413574,
   "Difficulty": 3,
   "DifficultyLocked": 0,
   "DragonFight": {
@@ -428,7 +428,7 @@
    "weightPenalty": "0"
   },
   "GameType": 0,
-  "LastPlayed": 1795863883654,
+  "LastPlayed": 1795864183651,
   "LevelName": "rotters (fixed)",
   "Player": {
    "AbsorptionAmount": 0.0,
@@ -442,7 +442,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 252,
+     "Duration": 256,
      "Id": 10,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -457,7 +457,7 @@
        "id": "minecraft:milk_bucket"
       }
      ],
-     "Duration": 242,
+     "Duration": 246,
      "Id": 5,
      "ShowIcon": 1,
      "ShowParticles": 0,
@@ -4761,7 +4761,7 @@
     "ua_rs_continuous": 0
    },
    "Health": 37.0,
-   "HurtByTimestamp": 9766,
+   "HurtByTimestamp": 17103,
    "HurtTime": 0,
    "Inventory": [
     {
@@ -5135,15 +5135,15 @@
    "OnGround": 1,
    "PortalCooldown": 0,
    "Pos": [
-    258.4854,
+    256.3005,
     63.0,
-    -1770.3
+    -1768.3
    ],
    "Rotation": [
-    4.0494,
-    17.0371
+    -12.0604,
+    33.9661
    ],
-   "Score": 28255,
+   "Score": 28276,
    "SelectedItemSlot": 3,
    "SleepTimer": 0,
    "SpawnAngle": 112.3262,
@@ -5163,9 +5163,9 @@
    ],
    "UUID_str": "4160a5c8-62ae-32ae-bcef-9d00a1d04297",
    "XpLevel": 86,
-   "XpP": 0.625,
+   "XpP": 0.6591,
    "XpSeed": 976728483,
-   "XpTotal": 28255,
+   "XpTotal": 28276,
    "abilities": {
     "flySpeed": 0.05,
     "flying": 0,
@@ -5175,7 +5175,7 @@
     "mayfly": 0,
     "walkSpeed": 0.1
    },
-   "foodExhaustionLevel": 3.6629,
+   "foodExhaustionLevel": 2.8129,
    "foodLevel": 20,
    "foodSaturationLevel": 1.0,
    "foodTickTimer": 0,
@@ -15495,7 +15495,7 @@
    "stun_shield": 0.0,
    "warden_spawn_tracker": {
     "cooldown_ticks": 0,
-    "ticks_since_last_warning": 1852,
+    "ticks_since_last_warning": 7852,
     "warning_level": 0
    }
   },
@@ -15507,7 +15507,7 @@
   "SpawnX": 208,
   "SpawnY": 73,
   "SpawnZ": -672,
-  "Time": 3153720,
+  "Time": 3159720,
   "Version": {
    "Id": 3465,
    "Name": "1.20.1",
@@ -15521,7 +15521,7 @@
    -2024141775
   ],
   "WanderingTraderSpawnChance": 75,
-  "WanderingTraderSpawnDelay": 6000,
+  "WanderingTraderSpawnDelay": 0,
   "WasModded": 1,
   "WorldGenSettings": {
    "bonus_chest": 0,
@@ -16209,9 +16209,9 @@
   "forgeLifecycle": "stable",
   "hardcore": 0,
   "initialized": 1,
-  "rainTime": 730,
-  "raining": 1,
-  "thunderTime": 50552,
+  "rainTime": 78898,
+  "raining": 0,
+  "thunderTime": 44552,
   "thundering": 0,
   "version": 19133
  },
